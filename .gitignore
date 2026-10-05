@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# local data folders (deploy uses data/extractions.tar.gz instead)
+all_docs_out/
+check/
+
+# scratch / exports
+*.xlsx
+/tmp/

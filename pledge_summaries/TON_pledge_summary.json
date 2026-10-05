@@ -1,0 +1,90 @@
+{
+  "iso3": "TON",
+  "country": "Tonga",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 54,
+  "geo_context": {
+    "country_area_km2": 708.2,
+    "land_cover_km2": {
+      "Agriculture": 310.0,
+      "Forest": 284.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 0.0,
+      "Water": 116.0
+    }
+  },
+  "summary": "Tonga’s restoration pledge builds on its reported completion of a one-million-tree campaign in 2023 and recommits to planting another 1 million trees by 2030, with diverse species, food-security benefits and maintained forest cover. Under the mixed forestry/agroforestry commitment, the 30% land target combines both land uses. Agriculture also includes capacity-building and adoption support on at least 2,000 hectares. Conservation combines a 2035 goal to construct or rehabilitate 4.3 km of integrated coastal protection in Hahake with expanding MPAs and SMAs to 30% of Tonga’s EEZ; related goals include doubling the 2015 MPA count by 2030 and aiming for 100 SMAs under the 2025–2030 strategy. In geographic terms, 30% of Tonga’s 708 km² land area equals about 212.4 km², roughly 68.5% of the currently mapped 310 km² agricultural area, though the pledge covers agroforestry or forestry rather than a separate land class.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "One Million Trees campaign",
+      "value": 1000000,
+      "unit": "trees",
+      "timeframe": "by 2023",
+      "context": "Reported as completed; no planting area or tree density is provided."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional national tree-planting initiative",
+      "value": 1000000,
+      "unit": "trees",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Land under agroforestry or forestry",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "≈212.4 km² of Tonga’s 708 km² land area, equal to ≈68.5% of currently mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmer capacity-building and adoption-input coverage",
+      "value": 2000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Integrated coastal protection constructed or rehabilitated in Hahake",
+      "value": 4.3,
+      "unit": "km",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EEZ area covered by Marine Protected Areas and Special Management Areas",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Special Management Areas",
+      "value": 100,
+      "unit": "SMAs",
+      "timeframe": "2025–2030 strategy period",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine Protected Area count relative to 2015",
+      "value": 2,
+      "unit": "times the 2015 number of Marine Protected Areas",
+      "timeframe": "by 2030",
+      "context": "A count-based target stated in the 2015 INDC, alongside the later EEZ-area commitment."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Tonga’s restoration pledge builds on its reported completion of a one-million-tree campaign in 2023 and recommits to planting another 1 million trees by 2030, with diverse species, food-security benefits and maintained forest cover. Under the mixed forestry/agroforestry commitment, the 30% land target combines both land uses. Agriculture also includes capacity-building and adoption support on at least 2,000 hectares. Conservation combines a 2035 goal to construct or rehabilitate 4.3 km of integrated coastal protection in Hahake with expanding MPAs and SMAs to 30% of Tonga’s EEZ; related goals include doubling the 2015 MPA count by 2030 and aiming for 100 SMAs under the 2025–2030 strategy. In geographic terms, 30% of Tonga’s 708 km² land area equals about 212.4 km², roughly 68.5% of the currently mapped 310 km² agricultural area, though the pledge covers agroforestry or forestry rather than a separate land class.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"One Million Trees campaign\",\n      \"value\": 1000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"by 2023\",\n      \"context\": \"Reported as completed; no planting area or tree density is provided.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional national tree-planting initiative\",\n      \"value\": 1000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Land under agroforestry or forestry\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈212.4 km² of Tonga’s 708 km² land area, equal to ≈68.5% of currently mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmer capacity-building and adoption-input coverage\",\n      \"value\": 2000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Integrated coastal protection constructed or rehabilitated in Hahake\",\n      \"value\": 4.3,\n      \"unit\": \"km\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EEZ area covered by Marine Protected Areas and Special Management Areas\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Special Management Areas\",\n      \"value\": 100,\n      \"unit\": \"SMAs\",\n      \"timeframe\": \"2025–2030 strategy period\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine Protected Area count relative to 2015\",\n      \"value\": 2,\n      \"unit\": \"times the 2015 number of Marine Protected Areas\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"A count-based target stated in the 2015 INDC, alongside the later EEZ-area commitment.\"\n    }\n  ]\n}",
+  "errors": []
+}

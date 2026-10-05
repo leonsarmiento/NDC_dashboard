@@ -1,0 +1,50 @@
+{
+  "iso3": "BHR",
+  "country": "Kingdom of Bahrain",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 762.3,
+    "land_cover_km2": {
+      "Agriculture": 7.0,
+      "Forest": 0.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 318.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 23.0,
+      "Bare_area": 381.0,
+      "Water": 37.0
+    }
+  },
+  "summary": "Bahrain’s pledges combine mangrove-focused conservation and restoration, including a Tubli Bay observatory, a blue-carbon inventory, and a target of 4,800 seedlings, with efforts to build climate resilience and strengthen carbon monitoring. Its restoration commitments aim to increase the number of trees from 1.8 million to 3.6 million by 2035—doubling the reported stock—and to plant 1.6 million mangrove seedlings by 2035. These seedling- and tree-count targets are significant for a small 762 km² country whose land-cover context is dominated by bare areas (50.0%) and settlement (41.7%), while agriculture occupies only 0.9%. Because the pledges report numbers of trees and seedlings rather than planting area, they cannot be directly compared with the available land-cover shares; no current mangrove, forest, or grassland area is provided.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove-related seedling target",
+      "value": 4800,
+      "unit": "seedlings",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree population",
+      "value": 3600000,
+      "unit": "number of trees",
+      "timeframe": "by 2035",
+      "context": "Doubles the stated baseline of 1.8 million; no current forest area is provided for comparison."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove seedling planting",
+      "value": 1600000,
+      "unit": "number of mangrove seedlings",
+      "timeframe": "by 2035",
+      "context": "No current mangrove area is provided for comparison."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Bahrain’s pledges combine mangrove-focused conservation and restoration, including a Tubli Bay observatory, a blue-carbon inventory, and a target of 4,800 seedlings, with efforts to build climate resilience and strengthen carbon monitoring. Its restoration commitments aim to increase the number of trees from 1.8 million to 3.6 million by 2035—doubling the reported stock—and to plant 1.6 million mangrove seedlings by 2035. These seedling- and tree-count targets are significant for a small 762 km² country whose land-cover context is dominated by bare areas (50.0%) and settlement (41.7%), while agriculture occupies only 0.9%. Because the pledges report numbers of trees and seedlings rather than planting area, they cannot be directly compared with the available land-cover shares; no current mangrove, forest, or grassland area is provided.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove-related seedling target\",\n      \"value\": 4800,\n      \"unit\": \"seedlings\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Tree population\",\n      \"value\": 3600000,\n      \"unit\": \"number of trees\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Doubles the stated baseline of 1.8 million; no current forest area is provided for comparison.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove seedling planting\",\n      \"value\": 1600000,\n      \"unit\": \"number of mangrove seedlings\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"No current mangrove area is provided for comparison.\"\n    }\n  ]\n}",
+  "errors": []
+}

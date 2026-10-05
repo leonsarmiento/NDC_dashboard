@@ -1,0 +1,34 @@
+{
+  "iso3": "PHL",
+  "country": "Philippines",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 294538.9,
+    "land_cover_km2": {
+      "Agriculture": 178092.0,
+      "Forest": 105291.0,
+      "Grassland": 5.0,
+      "Wetland": 0.0,
+      "Settlement": 2442.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 1374.0,
+      "Bare_area": 0.0,
+      "Water": 7325.0
+    }
+  },
+  "summary": "Under the conservation category, the Philippines commits to a 75% net emissions reduction and/or avoidance target, including FOLU, for 2025–2035 against projected business-as-usual cumulative emissions. The pledge comprises 7% unconditional reductions or avoidance and 68% conditional upon international support, and it also seeks to maximize the potential of the sink over the NDC period and beyond. This is an emissions-and-sink commitment rather than a stated hectare, reforestation, or protected-area target. For geographical perspective, forest covers 105,291 km², or 35.7% of the country, while agriculture covers 178,092 km², or 60.5%; because the passage specifies no land area, the pledge cannot be quantified as a share of either class.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net emissions reduction and/or avoidance (including FOLU; 7% unconditional and 68% conditional)",
+      "value": 75,
+      "unit": "%",
+      "timeframe": "2025-2035",
+      "context": "No land-area allocation is specified; forest covers 35.7% and agriculture 60.5% of current land area."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Under the conservation category, the Philippines commits to a 75% net emissions reduction and/or avoidance target, including FOLU, for 2025–2035 against projected business-as-usual cumulative emissions. The pledge comprises 7% unconditional reductions or avoidance and 68% conditional upon international support, and it also seeks to maximize the potential of the sink over the NDC period and beyond. This is an emissions-and-sink commitment rather than a stated hectare, reforestation, or protected-area target. For geographical perspective, forest covers 105,291 km², or 35.7% of the country, while agriculture covers 178,092 km², or 60.5%; because the passage specifies no land area, the pledge cannot be quantified as a share of either class.\",\"targets\":[{\"commitment_type\":\"Conservation\",\"metric\":\"Net emissions reduction and/or avoidance (including FOLU; 7% unconditional and 68% conditional)\",\"value\":75,\"unit\":\"%\",\"timeframe\":\"2025-2035\",\"context\":\"No land-area allocation is specified; forest covers 35.7% and agriculture 60.5% of current land area.\"}]}",
+  "errors": []
+}

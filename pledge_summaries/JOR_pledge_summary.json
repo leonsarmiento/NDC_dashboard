@@ -1,0 +1,66 @@
+{
+  "iso3": "JOR",
+  "country": "Jordan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 89416.0,
+    "land_cover_km2": {
+      "Agriculture": 5531.0,
+      "Forest": 25.0,
+      "Grassland": 16.0,
+      "Wetland": 0.0,
+      "Settlement": 633.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 1484.0,
+      "Bare_area": 81254.0,
+      "Water": 485.0
+    }
+  },
+  "summary": "Jordan’s ecosystem pledges are entirely restoration-focused: 32,500 urban trees, 2 million forest-tree plantings, 200,000 dunums of rangeland restoration, and an additional 1,000 dunums for combined afforestation and rangeland restoration. A supporting passage separately reports 1 million afforested trees and around 11,900 tons of CO₂-equivalent sequestration each year from these nature-based measures. The repeated urban-tree figure is counted once. These efforts address a landscape where bare land covers 90.9% of Jordan, while mapped forest and grassland cover only 25 km² and 16 km², respectively. Because no tree-density or dunum-to-km² conversion is supplied, the targets cannot be compared directly with those class areas; none of the restoration targets has a stated deadline.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban tree plantations",
+      "value": 32500,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Settlement covers 633 km² (0.7%); no plantation density is supplied to express the target as an area share."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest tree plantations",
+      "value": 2000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Forest covers 25 km² (0.0% as rounded); no planting density is supplied to convert the tree count to area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforested trees planted",
+      "value": 1000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Reported separately from the 2,000,000-tree plantation pledge; forest covers 25 km², but no planting density is supplied."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Rangeland restoration",
+      "value": 200000,
+      "unit": "dunums",
+      "timeframe": null,
+      "context": "Grassland covers 16 km² (0.0% as rounded), but the passage does not equate rangeland with that class or provide a dunum conversion."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional afforestation and rangeland restoration",
+      "value": 1000,
+      "unit": "dunums",
+      "timeframe": null,
+      "context": "The combined area is not allocated between the mapped forest (25 km²) and grassland (16 km²) classes."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Jordan’s ecosystem pledges are entirely restoration-focused: 32,500 urban trees, 2 million forest-tree plantings, 200,000 dunums of rangeland restoration, and an additional 1,000 dunums for combined afforestation and rangeland restoration. A supporting passage separately reports 1 million afforested trees and around 11,900 tons of CO₂-equivalent sequestration each year from these nature-based measures. The repeated urban-tree figure is counted once. These efforts address a landscape where bare land covers 90.9% of Jordan, while mapped forest and grassland cover only 25 km² and 16 km², respectively. Because no tree-density or dunum-to-km² conversion is supplied, the targets cannot be compared directly with those class areas; none of the restoration targets has a stated deadline.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban tree plantations\",\n      \"value\": 32500,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Settlement covers 633 km² (0.7%); no plantation density is supplied to express the target as an area share.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest tree plantations\",\n      \"value\": 2000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Forest covers 25 km² (0.0% as rounded); no planting density is supplied to convert the tree count to area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforested trees planted\",\n      \"value\": 1000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Reported separately from the 2,000,000-tree plantation pledge; forest covers 25 km², but no planting density is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Rangeland restoration\",\n      \"value\": 200000,\n      \"unit\": \"dunums\",\n      \"timeframe\": null,\n      \"context\": \"Grassland covers 16 km² (0.0% as rounded), but the passage does not equate rangeland with that class or provide a dunum conversion.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional afforestation and rangeland restoration\",\n      \"value\": 1000,\n      \"unit\": \"dunums\",\n      \"timeframe\": null,\n      \"context\": \"The combined area is not allocated between the mapped forest (25 km²) and grassland (16 km²) classes.\"\n    }\n  ]\n}",
+  "errors": []
+}

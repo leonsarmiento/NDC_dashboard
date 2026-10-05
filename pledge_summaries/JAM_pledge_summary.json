@@ -1,0 +1,106 @@
+{
+  "iso3": "JAM",
+  "country": "Jamaica",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 9,
+  "geo_context": {
+    "country_area_km2": 10947.6,
+    "land_cover_km2": {
+      "Agriculture": 1659.0,
+      "Forest": 7949.0,
+      "Grassland": 876.0,
+      "Wetland": 55.0,
+      "Settlement": 309.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 96.0
+    }
+  },
+  "summary": "Restoration pledges include planting 3,000,000 trees in urban areas over the next five years, restoring at least 2,200 hectares of mangroves by 2030 and an additional 1,000 hectares of modified or degraded forested wetlands by 2035. Mixed restoration-and-conservation commitments include 7,000 hectares of mangrove restoration and protection by 2027, increasing closed-broadleaf forest coverage from 7.7% to 10% by 2035, and maintaining 30% of total tree cover in Local Planning Areas. Conservation targets protect approximately 67% of mangrove forests by 2033, conserve at least 30% of forested wetlands by 2033, and include a conditional target to conserve 100% of seagrass ecosystems in gazetted protected areas by 2035. The Yallahs-Hope project concerns watersheds that account for around 7% of the island's farmlands. Forest covers 72.6% of Jamaica, agriculture 15.2%, mapped wetlands 0.5%, and settlement 2.8%, framing the forest, mangrove and urban pledges.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban tree planting",
+      "value": 3000000.0,
+      "unit": "number of trees",
+      "timeframe": "over the next five years",
+      "context": "The planting focus is urban; settlement land cover is 309 km² (2.8% of Jamaica)."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangroves restored in local communities (unconditional)",
+      "value": 2200.0,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "The minimum 2,200-hectare area is equivalent to about 0.28% of the 7,949 km² forest class; mangrove extent is not separately reported."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional modified or degraded forested wetlands restored (unconditional)",
+      "value": 1000.0,
+      "unit": "hectares",
+      "timeframe": "by 2035",
+      "context": "The additional 1,000-hectare area is equivalent to about 0.13% of the 7,949 km² forest class; forested-wetland extent is not separately reported."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reported Yallahs-Hope watershed share of farmlands",
+      "value": 7.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage reports that the Yallahs-Hope watersheds account for around 7% of Jamaica's farmlands; agriculture covers 1,659 km² (15.2%)."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove forests protected (approximately)",
+      "value": 67.0,
+      "unit": "%",
+      "timeframe": "by 2033",
+      "context": "Wetlands are mapped at 55 km² (0.5%); mangrove extent is not separately reported."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forested wetlands conserved (at least)",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": "by 2033",
+      "context": "Wetlands account for 55 km² (0.5%) in the supplied land-cover data."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Seagrass ecosystems conserved in gazetted protected areas (conditional)",
+      "value": 100.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The supplied water class is 96 km² (0.9%); seagrass extent is not separately reported."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove forest restoration and protection",
+      "value": 7000.0,
+      "unit": "hectares",
+      "timeframe": "by 2027",
+      "context": "The 7,000-hectare area is equivalent to about 0.88% of the 7,949 km² forest class; mangrove extent is not separately reported."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Closed broadleaf forest coverage",
+      "value": 10.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The stated baseline is 7.7%; forest overall covers 7,949 km² (72.6% of Jamaica)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tree cover maintained within Local Planning Areas",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The target concerns urban and peri-urban LPAs; settlement land cover is 309 km² (2.8%)."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Restoration pledges include planting 3,000,000 trees in urban areas over the next five years, restoring at least 2,200 hectares of mangroves by 2030 and an additional 1,000 hectares of modified or degraded forested wetlands by 2035. Mixed restoration-and-conservation commitments include 7,000 hectares of mangrove restoration and protection by 2027, increasing closed-broadleaf forest coverage from 7.7% to 10% by 2035, and maintaining 30% of total tree cover in Local Planning Areas. Conservation targets protect approximately 67% of mangrove forests by 2033, conserve at least 30% of forested wetlands by 2033, and include a conditional target to conserve 100% of seagrass ecosystems in gazetted protected areas by 2035. The Yallahs-Hope project concerns watersheds that account for around 7% of the island's farmlands. Forest covers 72.6% of Jamaica, agriculture 15.2%, mapped wetlands 0.5%, and settlement 2.8%, framing the forest, mangrove and urban pledges.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Urban tree planting\",\"value\":3000000.0,\"unit\":\"number of trees\",\"timeframe\":\"over the next five years\",\"context\":\"The planting focus is urban; settlement land cover is 309 km² (2.8% of Jamaica).\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangroves restored in local communities (unconditional)\",\"value\":2200.0,\"unit\":\"hectares\",\"timeframe\":\"by 2030\",\"context\":\"The minimum 2,200-hectare area is equivalent to about 0.28% of the 7,949 km² forest class; mangrove extent is not separately reported.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Additional modified or degraded forested wetlands restored (unconditional)\",\"value\":1000.0,\"unit\":\"hectares\",\"timeframe\":\"by 2035\",\"context\":\"The additional 1,000-hectare area is equivalent to about 0.13% of the 7,949 km² forest class; forested-wetland extent is not separately reported.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Reported Yallahs-Hope watershed share of farmlands\",\"value\":7.0,\"unit\":\"%\",\"timeframe\":null,\"context\":\"The passage reports that the Yallahs-Hope watersheds account for around 7% of Jamaica's farmlands; agriculture covers 1,659 km² (15.2%).\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Mangrove forests protected (approximately)\",\"value\":67.0,\"unit\":\"%\",\"timeframe\":\"by 2033\",\"context\":\"Wetlands are mapped at 55 km² (0.5%); mangrove extent is not separately reported.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Forested wetlands conserved (at least)\",\"value\":30.0,\"unit\":\"%\",\"timeframe\":\"by 2033\",\"context\":\"Wetlands account for 55 km² (0.5%) in the supplied land-cover data.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Seagrass ecosystems conserved in gazetted protected areas (conditional)\",\"value\":100.0,\"unit\":\"%\",\"timeframe\":\"by 2035\",\"context\":\"The supplied water class is 96 km² (0.9%); seagrass extent is not separately reported.\"},{\"commitment_type\":\"Both\",\"metric\":\"Mangrove forest restoration and protection\",\"value\":7000.0,\"unit\":\"hectares\",\"timeframe\":\"by 2027\",\"context\":\"The 7,000-hectare area is equivalent to about 0.88% of the 7,949 km² forest class; mangrove extent is not separately reported.\"},{\"commitment_type\":\"Both\",\"metric\":\"Closed broadleaf forest coverage\",\"value\":10.0,\"unit\":\"%\",\"timeframe\":\"by 2035\",\"context\":\"The stated baseline is 7.7%; forest overall covers 7,949 km² (72.6% of Jamaica).\"},{\"commitment_type\":\"Both\",\"metric\":\"Tree cover maintained within Local Planning Areas\",\"value\":30.0,\"unit\":\"%\",\"timeframe\":null,\"context\":\"The target concerns urban and peri-urban LPAs; settlement land cover is 309 km² (2.8%).\"}]}",
+  "errors": []
+}

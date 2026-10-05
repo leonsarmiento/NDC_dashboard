@@ -1,0 +1,74 @@
+{
+  "iso3": "LBN",
+  "country": "Lebanon",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 10245.2,
+    "land_cover_km2": {
+      "Agriculture": 6120.0,
+      "Forest": 231.0,
+      "Grassland": 10.0,
+      "Wetland": 0.0,
+      "Settlement": 347.0,
+      "Shrubland": 2039.0,
+      "Sparse_vegetation": 1125.0,
+      "Bare_area": 334.0,
+      "Water": 43.0
+    }
+  },
+  "summary": "Conservation is the core pledge: Lebanon aims to protect at least 20% of natural terrestrial and marine ecosystems while representing all ecosystem types in the protected-area network, ensure nature reserves reach at least 5% of the country—about 512.25 km² of the reported land area—and sustainably manage 50% of natural ecosystems in spatial planning. It also commits to identifying the status of 75% of known flora and fauna species and implementing conservation actions for 50% of threatened species. Restoration focuses on rehabilitating at least 20% of degraded sites to sustain ecosystem services. These broad ambitions are notable where forest covers only 2.3% of Lebanon and grassland 0.1%; however, no degraded-site baseline is provided for translating the restoration goal into an area.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural ecosystems protected",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Forest and grassland cover only 2.3% and 0.1% of the country, respectively."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National area covered by nature reserves",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Equivalent to approximately 512.25 km² of the reported 10,245 km² land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural ecosystems under sustainable management",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Known flora and fauna species whose status is assessed",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Threatened species receiving conservation actions",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded sites rehabilitated",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The geographical context does not specify the area of degraded sites, so this target cannot be converted to km²."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation is the core pledge: Lebanon aims to protect at least 20% of natural terrestrial and marine ecosystems while representing all ecosystem types in the protected-area network, ensure nature reserves reach at least 5% of the country—about 512.25 km² of the reported land area—and sustainably manage 50% of natural ecosystems in spatial planning. It also commits to identifying the status of 75% of known flora and fauna species and implementing conservation actions for 50% of threatened species. Restoration focuses on rehabilitating at least 20% of degraded sites to sustain ecosystem services. These broad ambitions are notable where forest covers only 2.3% of Lebanon and grassland 0.1%; however, no degraded-site baseline is provided for translating the restoration goal into an area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural ecosystems protected\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Forest and grassland cover only 2.3% and 0.1% of the country, respectively.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National area covered by nature reserves\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 512.25 km² of the reported 10,245 km² land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural ecosystems under sustainable management\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Known flora and fauna species whose status is assessed\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Threatened species receiving conservation actions\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded sites rehabilitated\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The geographical context does not specify the area of degraded sites, so this target cannot be converted to km².\"\n    }\n  ]\n}",
+  "errors": []
+}

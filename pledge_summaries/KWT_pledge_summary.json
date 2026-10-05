@@ -1,0 +1,34 @@
+{
+  "iso3": "KWT",
+  "country": "Kuwait",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 17275.8,
+    "land_cover_km2": {
+      "Agriculture": 304.0,
+      "Forest": 0.0,
+      "Grassland": 0.0,
+      "Wetland": 33.0,
+      "Settlement": 536.0,
+      "Shrubland": 19.0,
+      "Sparse_vegetation": 75.0,
+      "Bare_area": 16288.0,
+      "Water": 10.0
+    }
+  },
+  "summary": "Kuwait’s ecosystem pledge is a restoration commitment centered on mangrove planting and cultivation, with a reported annual increase valued at 50,000 in 2018. The pledge does not specify the unit or measurement basis, so the quantity cannot be converted into an area or compared directly with Kuwait’s current land cover. This is especially relevant in a landscape where 94.3% of the land is mapped as bare area and wetlands account for only 33 km², or 0.2% of the country. The target indicates an intent to expand mangrove restoration, but its ecological scale and relation to mapped wetlands cannot be quantified from the information provided.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove planting and cultivation",
+      "value": 50000.0,
+      "unit": "",
+      "timeframe": "2018",
+      "context": "The unit is unspecified; current mapped wetland area is 33 km² (0.2% of Kuwait)."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Kuwait’s ecosystem pledge is a restoration commitment centered on mangrove planting and cultivation, with a reported annual increase valued at 50,000 in 2018. The pledge does not specify the unit or measurement basis, so the quantity cannot be converted into an area or compared directly with Kuwait’s current land cover. This is especially relevant in a landscape where 94.3% of the land is mapped as bare area and wetlands account for only 33 km², or 0.2% of the country. The target indicates an intent to expand mangrove restoration, but its ecological scale and relation to mapped wetlands cannot be quantified from the information provided.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove planting and cultivation\",\n      \"value\": 50000.0,\n      \"unit\": \"\",\n      \"timeframe\": \"2018\",\n      \"context\": \"The unit is unspecified; current mapped wetland area is 33 km² (0.2% of Kuwait).\"\n    }\n  ]\n}",
+  "errors": []
+}

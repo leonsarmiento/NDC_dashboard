@@ -1,0 +1,346 @@
+{
+  "iso3": "PAN",
+  "country": "Panama",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 93,
+  "geo_context": {
+    "country_area_km2": 73385.3,
+    "land_cover_km2": {
+      "Agriculture": 23158.0,
+      "Forest": 48010.0,
+      "Grassland": 384.0,
+      "Wetland": 45.0,
+      "Settlement": 425.0,
+      "Shrubland": 422.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 29.0,
+      "Water": 862.0
+    }
+  },
+  "summary": "Panama’s restoration pledge is 100,000 ha of ecosystems in 2026–2035, including 2,500 ha of degraded mangrove, alongside a net-zero-deforestation goal; this equals about 2.1% of current forest cover. A 50,000 ha forest-restoration pledge by 2050 equals 1.0% of forest. A support-dependent 130,000 ha of degraded land will be restored through agroforestry and silvopastoral systems by 2050—about 5.6% of current agriculture—with 15% completed by 2030. Measures cover 1,800 ha of mangroves by 2028 and 1,000 ha of coastal wetlands by 2030. Conservation commitments include protecting 40% of terrestrial territory and 60% of seas by 2035, maintaining 68% forest cover, integrating at least 50% of mangroves into the national protected-area system by 2026, and establishing three biological corridors while reducing unplanned agricultural expansion by 30%. Panama seeks a 10 million km² high-seas protected area, 600 ha of silvopastoral farming, and pilots in three priority watersheds; some measures are support-dependent.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "National ecosystem restoration and reforestation",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "2026–2035",
+      "context": "1,000 km² for scale, ≈2.1% of current forest cover; includes 2,500 ha of degraded mangrove."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National forest restoration",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "500 km², ≈1.0% of the current 48,010 km² forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restored forest and productive areas",
+      "value": 90000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "900 km² against a current mapped forest area of 48,010 km²."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration area with obscured ecosystem wording",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "2,000 km²; the ecosystem wording is obscured, so no specific land-cover class is assigned."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Coastal wetland and mangrove restoration",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "10 km²; the supplied wetland class totals 45 km²."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded ecosystems restored using nature-based solutions",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial territory officially protected",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "If applied to the supplied 73,385 km² land area, approximately 29,354 km²."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Seas officially protected",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "High Seas Protected Area",
+      "value": 10000000,
+      "unit": "km²",
+      "timeframe": null,
+      "context": "No deadline or comparable national sea-area denominator is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Territorial waters protected",
+      "value": 54,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage describes protection of more than 54% of territorial waters; no deadline is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover maintained",
+      "value": 68,
+      "unit": "%",
+      "timeframe": "over time",
+      "context": "2.6 percentage points above the current mapped 65.4% forest share."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum functional biological corridor network",
+      "value": 3,
+      "unit": "corridors",
+      "timeframe": null,
+      "context": "Minimum network in Azuero, Coclé and Veraguas."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in unplanned agricultural expansion",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "No expansion baseline is supplied; agriculture currently covers 23,158 km²."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove coverage integrated into SINAP",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangroves under effective protection and management",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2028",
+      "context": "Support-dependent, according to the passage."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority protected areas with management plans",
+      "value": 10,
+      "unit": "protected areas",
+      "timeframe": "by 2028",
+      "context": "Plans are to include climate-change adaptation and mitigation co-benefits."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Local land-use plans prepared with a climate-change focus",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2028",
+      "context": "Applies to Local Land-Use Plans and Partial Land-Use Plans."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority watersheds included in the climate-vulnerability project",
+      "value": 10,
+      "unit": "watersheds",
+      "timeframe": null,
+      "context": "Implementation scope selected through climate-vulnerability and watershed prioritization."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watersheds with demonstration ecosystem-based adaptation",
+      "value": 3,
+      "unit": "watersheds",
+      "timeframe": null,
+      "context": "Demonstration measures are to be implemented in three project watersheds."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Public institutions consistently participating in the program",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The program and timeframe are not specified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Municipalities completing water-footprint inventories and action plans",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2028",
+      "context": "Municipalities must complete inventories and begin implementing action plans."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal wetland conversion reduced",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "30 km², about 67% of the supplied 45 km² wetland class."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Unidentified ecosystem-related measure",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The metric itself is unreadable in the supplied passage."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas selected for cartographic and status updating",
+      "value": 82,
+      "unit": "protected areas",
+      "timeframe": null,
+      "context": "Selection covers updating maps, boundaries and conservation status in the national register."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Silvopastoral systems established",
+      "value": 600,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "6 km², ≈0.03% of the current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Share of restored area achieved",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Interim implementation share of the 100,000 ha ecosystem-restoration goal."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded land restored through agroforestry and silvopastoral systems",
+      "value": 130000,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "1,300 km², ≈5.6% of the current 23,158 km² agricultural area; conditional on international support."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded-land restoration milestone",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Interim milestone within the support-dependent 130,000 ha goal."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove coverage increased or mangroves restored",
+      "value": 1800,
+      "unit": "ha",
+      "timeframe": "by 2028",
+      "context": "18 km²; the pledge is also expressed as a 1% mangrove-coverage increase and is support-dependent."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded areas recovered",
+      "value": 1500,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "15 km², with participatory community management and management plans."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded areas recovered",
+      "value": 410,
+      "unit": "ha",
+      "timeframe": "2025",
+      "context": "4.1 km²; the source associates the recovery measure with 2025."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable watershed management area — lower bound",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "500 km²; lower bound of the reported 50,000–100,000 ha range, whose remaining wording is obscured."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable watershed management area — upper bound",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,000 km²; upper bound of the reported 50,000–100,000 ha range, whose remaining wording is obscured."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Unspecified area target",
+      "value": 31000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "310 km²; the source calls this an apparent 2030 target, but the surrounding metric is unavailable."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest adaptation and mitigation intervention",
+      "value": 15000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "150 km², ≈0.3% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Provinces with increased forest cover",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The percentage applies to provinces, not to national forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority marine and coastal activities",
+      "value": 2,
+      "unit": "priority activities",
+      "timeframe": "by 2026",
+      "context": "Includes spatial planning, threat reduction, restoration and effective management."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest and ecosystem monitoring information systems",
+      "value": 20,
+      "unit": "information systems",
+      "timeframe": "2025 and 2030 milestones",
+      "context": "Systems monitor deforestation, forest clearing, recovery, occupation, burning and other disturbances."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Information system strengthened for ecosystem monitoring",
+      "value": 1,
+      "unit": "information systems",
+      "timeframe": null,
+      "context": "The standalone target is unclear and has no stated timeframe; a separate passage sets a 20-system target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority watersheds with climate-smart farming pilots",
+      "value": 3,
+      "unit": "watersheds",
+      "timeframe": null,
+      "context": "Pilots cover climate-smart livestock and agriculture and include community capacity building."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Panama’s restoration pledge is 100,000 ha of ecosystems in 2026–2035, including 2,500 ha of degraded mangrove, alongside a net-zero-deforestation goal; this equals about 2.1% of current forest cover. A 50,000 ha forest-restoration pledge by 2050 equals 1.0% of forest. A support-dependent 130,000 ha of degraded land will be restored through agroforestry and silvopastoral systems by 2050—about 5.6% of current agriculture—with 15% completed by 2030. Measures cover 1,800 ha of mangroves by 2028 and 1,000 ha of coastal wetlands by 2030. Conservation commitments include protecting 40% of terrestrial territory and 60% of seas by 2035, maintaining 68% forest cover, integrating at least 50% of mangroves into the national protected-area system by 2026, and establishing three biological corridors while reducing unplanned agricultural expansion by 30%. Panama seeks a 10 million km² high-seas protected area, 600 ha of silvopastoral farming, and pilots in three priority watersheds; some measures are support-dependent.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National ecosystem restoration and reforestation\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2026–2035\",\n      \"context\": \"1,000 km² for scale, ≈2.1% of current forest cover; includes 2,500 ha of degraded mangrove.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National forest restoration\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"500 km², ≈1.0% of the current 48,010 km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restored forest and productive areas\",\n      \"value\": 90000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"900 km² against a current mapped forest area of 48,010 km².\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration area with obscured ecosystem wording\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"2,000 km²; the ecosystem wording is obscured, so no specific land-cover class is assigned.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Coastal wetland and mangrove restoration\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"10 km²; the supplied wetland class totals 45 km².\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded ecosystems restored using nature-based solutions\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial territory officially protected\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"If applied to the supplied 73,385 km² land area, approximately 29,354 km².\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Seas officially protected\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"High Seas Protected Area\",\n      \"value\": 10000000,\n      \"unit\": \"km²\",\n      \"timeframe\": null,\n      \"context\": \"No deadline or comparable national sea-area denominator is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Territorial waters protected\",\n      \"value\": 54,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage describes protection of more than 54% of territorial waters; no deadline is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover maintained\",\n      \"value\": 68,\n      \"unit\": \"%\",\n      \"timeframe\": \"over time\",\n      \"context\": \"2.6 percentage points above the current mapped 65.4% forest share.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum functional biological corridor network\",\n      \"value\": 3,\n      \"unit\": \"corridors\",\n      \"timeframe\": null,\n      \"context\": \"Minimum network in Azuero, Coclé and Veraguas.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in unplanned agricultural expansion\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"No expansion baseline is supplied; agriculture currently covers 23,158 km².\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mangrove coverage integrated into SINAP\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mangroves under effective protection and management\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2028\",\n      \"context\": \"Support-dependent, according to the passage.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority protected areas with management plans\",\n      \"value\": 10,\n      \"unit\": \"protected areas\",\n      \"timeframe\": \"by 2028\",\n      \"context\": \"Plans are to include climate-change adaptation and mitigation co-benefits.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Local land-use plans prepared with a climate-change focus\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2028\",\n      \"context\": \"Applies to Local Land-Use Plans and Partial Land-Use Plans.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority watersheds included in the climate-vulnerability project\",\n      \"value\": 10,\n      \"unit\": \"watersheds\",\n      \"timeframe\": null,\n      \"context\": \"Implementation scope selected through climate-vulnerability and watershed prioritization.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Watersheds with demonstration ecosystem-based adaptation\",\n      \"value\": 3,\n      \"unit\": \"watersheds\",\n      \"timeframe\": null,\n      \"context\": \"Demonstration measures are to be implemented in three project watersheds.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Public institutions consistently participating in the program\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The program and timeframe are not specified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Municipalities completing water-footprint inventories and action plans\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2028\",\n      \"context\": \"Municipalities must complete inventories and begin implementing action plans.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal wetland conversion reduced\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"30 km², about 67% of the supplied 45 km² wetland class.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Unidentified ecosystem-related measure\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The metric itself is unreadable in the supplied passage.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas selected for cartographic and status updating\",\n      \"value\": 82,\n      \"unit\": \"protected areas\",\n      \"timeframe\": null,\n      \"context\": \"Selection covers updating maps, boundaries and conservation status in the national register.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Silvopastoral systems established\",\n      \"value\": 600,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"6 km², ≈0.03% of the current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Share of restored area achieved\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Interim implementation share of the 100,000 ha ecosystem-restoration goal.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded land restored through agroforestry and silvopastoral systems\",\n      \"value\": 130000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"1,300 km², ≈5.6% of the current 23,158 km² agricultural area; conditional on international support.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded-land restoration milestone\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Interim milestone within the support-dependent 130,000 ha goal.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove coverage increased or mangroves restored\",\n      \"value\": 1800,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2028\",\n      \"context\": \"18 km²; the pledge is also expressed as a 1% mangrove-coverage increase and is support-dependent.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded areas recovered\",\n      \"value\": 1500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"15 km², with participatory community management and management plans.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded areas recovered\",\n      \"value\": 410,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2025\",\n      \"context\": \"4.1 km²; the source associates the recovery measure with 2025.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable watershed management area — lower bound\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"500 km²; lower bound of the reported 50,000–100,000 ha range, whose remaining wording is obscured.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable watershed management area — upper bound\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,000 km²; upper bound of the reported 50,000–100,000 ha range, whose remaining wording is obscured.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Unspecified area target\",\n      \"value\": 31000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"310 km²; the source calls this an apparent 2030 target, but the surrounding metric is unavailable.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest adaptation and mitigation intervention\",\n      \"value\": 15000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"150 km², ≈0.3% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Provinces with increased forest cover\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The percentage applies to provinces, not to national forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority marine and coastal activities\",\n      \"value\": 2,\n      \"unit\": \"priority activities\",\n      \"timeframe\": \"by 2026\",\n      \"context\": \"Includes spatial planning, threat reduction, restoration and effective management.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest and ecosystem monitoring information systems\",\n      \"value\": 20,\n      \"unit\": \"information systems\",\n      \"timeframe\": \"2025 and 2030 milestones\",\n      \"context\": \"Systems monitor deforestation, forest clearing, recovery, occupation, burning and other disturbances.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Information system strengthened for ecosystem monitoring\",\n      \"value\": 1,\n      \"unit\": \"information systems\",\n      \"timeframe\": null,\n      \"context\": \"The standalone target is unclear and has no stated timeframe; a separate passage sets a 20-system target.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority watersheds with climate-smart farming pilots\",\n      \"value\": 3,\n      \"unit\": \"watersheds\",\n      \"timeframe\": null,\n      \"context\": \"Pilots cover climate-smart livestock and agriculture and include community capacity building.\"\n    }\n  ]\n}",
+  "errors": []
+}

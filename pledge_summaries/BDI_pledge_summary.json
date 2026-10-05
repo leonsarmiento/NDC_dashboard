@@ -1,0 +1,266 @@
+{
+  "iso3": "BDI",
+  "country": "Burundi",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 27011.8,
+    "land_cover_km2": {
+      "Agriculture": 16165.0,
+      "Forest": 3016.0,
+      "Grassland": 3703.0,
+      "Wetland": 200.0,
+      "Settlement": 174.0,
+      "Shrubland": 1739.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 2025.0
+    }
+  },
+  "summary": "Burundi’s restoration pledges emphasize forest expansion and watershed rehabilitation: reported afforestation/reforestation rates of 4 ha/year and 8,000 ha/year, five-year totals of 20,000 and 40,000 ha, 53,340 ha by 2030, a 160,000-ha forest-cover increase with both 2025 and 2027 deadlines reported, 24,000 ha in KUMOSO, and 299,100 ha under watershed management. The 160,000-ha increase equals about 53% of the current forest area of 3,016 km². Conservation targets include 20% forest cover by 2025 versus 11.2% currently; bamboo and riverbank targets of 2,500, 5,300 and 22,500 ha; protection of 90,000 ha of floodplains and 250 water sources; and a separate 6,761-km² floodplain figure. Agriculture pledges include replacing 100% of mineral fertilizer with manure by 2030, 4,280 ha of moringa, 100,000 climate-resilient cropping practices, 10,000 households using rainwater for agriculture, and smaller area targets. Integrated measures include 3,000 agro-silvopastoral pilot sites.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Long-term afforestation/reforestation rate",
+      "value": 4,
+      "unit": "ha/year",
+      "timeframe": "2016-2030",
+      "context": "60 ha if sustained for 15 years, ≈0.02% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation rate",
+      "value": 8000,
+      "unit": "ha/year",
+      "timeframe": "2016-2030",
+      "context": "120,000 ha if sustained for 15 years, ≈39.8% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation under the unconditional objective",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "2016-2020",
+      "context": "≈6.6% of current 3,016-km² forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation under the conditional objective",
+      "value": 40000,
+      "unit": "ha",
+      "timeframe": "2016-2020",
+      "context": "≈13.3% of current 3,016-km² forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation",
+      "value": 53340,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈17.7% of current forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Riverbank protection through bamboo planting",
+      "value": 2500,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.09% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and restoration in Mumirwa and Bugesera",
+      "value": 9000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.33% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "KUMOSO mountain-chain reforestation",
+      "value": 24000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈8.0% of current forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-environment rehabilitation",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "<0.01% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Watershed management and anti-erosion measures",
+      "value": 299100,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈11.1% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "Current forest cover is 11.2%, so the target is 8.8 percentage points higher."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Climate-risk mapping and WASH resilience",
+      "value": 4100,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage reports 4,100%, but no denominator is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Bamboo plantations created",
+      "value": 2500,
+      "unit": "ha",
+      "timeframe": "over ten years",
+      "context": "≈0.09% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-source protection through bamboo planting",
+      "value": 5300,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.20% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Bamboo plantations along rivers, water sources and agricultural holdings",
+      "value": 22500,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.83% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Floodplain protection and management",
+      "value": 90000,
+      "unit": "ha",
+      "timeframe": "by 2027",
+      "context": "≈3.3% of total land area; a separate passage reports 6,761 km² for floodplain management."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water sources protected",
+      "value": 250,
+      "unit": "water sources",
+      "timeframe": "in 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Floodplain protection and management",
+      "value": 6761,
+      "unit": "km2",
+      "timeframe": null,
+      "context": "≈25.0% of total land area; another passage reports 90,000 ha."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Mineral fertilizer replaced with organic manure",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural rainwater management and climate-resilient WASH",
+      "value": 14500,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage reports 14,500%, but no denominator is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Moringa plantations",
+      "value": 4280,
+      "unit": "ha",
+      "timeframe": "from 2021",
+      "context": "≈0.26% of current agricultural area; a separate undated passage reports 200 ha."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rural forestry development area",
+      "value": 701,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.04% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Moringa cultivation area",
+      "value": 200,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.01% of current agricultural area; another passage reports 4,280 ha from 2021."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "High-yield forage crop promotion",
+      "value": 200,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.01% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-hazard-mitigating cropping practices initiated",
+      "value": 100000,
+      "unit": "practices",
+      "timeframe": "by 2025",
+      "context": "The passages also report an undated total of 300 practices."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-hazard-mitigating cropping practices initiated",
+      "value": 300,
+      "unit": "practices",
+      "timeframe": null,
+      "context": "The separate 2025 target is 100,000 practices."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Households using rainwater for agricultural purposes",
+      "value": 10000,
+      "unit": "households",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-cover increase through rural forestry",
+      "value": 160000,
+      "unit": "ha",
+      "timeframe": "by 2025; also stated as by 2027",
+      "context": "≈53.1% of current 3,016-km² forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agro-silvopastoral integration and natural-resource management pilot sites",
+      "value": 3000,
+      "unit": "pilot sites",
+      "timeframe": "by 2027",
+      "context": "A separate undated entry reports 95 pilot sites."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agro-silvopastoral integration and natural-resource management pilot sites",
+      "value": 95,
+      "unit": "pilot sites",
+      "timeframe": null,
+      "context": "A separate target for 2027 reports 3,000 pilot sites."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Burundi’s restoration pledges emphasize forest expansion and watershed rehabilitation: reported afforestation/reforestation rates of 4 ha/year and 8,000 ha/year, five-year totals of 20,000 and 40,000 ha, 53,340 ha by 2030, a 160,000-ha forest-cover increase with both 2025 and 2027 deadlines reported, 24,000 ha in KUMOSO, and 299,100 ha under watershed management. The 160,000-ha increase equals about 53% of the current forest area of 3,016 km². Conservation targets include 20% forest cover by 2025 versus 11.2% currently; bamboo and riverbank targets of 2,500, 5,300 and 22,500 ha; protection of 90,000 ha of floodplains and 250 water sources; and a separate 6,761-km² floodplain figure. Agriculture pledges include replacing 100% of mineral fertilizer with manure by 2030, 4,280 ha of moringa, 100,000 climate-resilient cropping practices, 10,000 households using rainwater for agriculture, and smaller area targets. Integrated measures include 3,000 agro-silvopastoral pilot sites.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Long-term afforestation/reforestation rate\",\n      \"value\": 4,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2016-2030\",\n      \"context\": \"60 ha if sustained for 15 years, ≈0.02% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation rate\",\n      \"value\": 8000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2016-2030\",\n      \"context\": \"120,000 ha if sustained for 15 years, ≈39.8% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation under the unconditional objective\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2016-2020\",\n      \"context\": \"≈6.6% of current 3,016-km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation under the conditional objective\",\n      \"value\": 40000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2016-2020\",\n      \"context\": \"≈13.3% of current 3,016-km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation\",\n      \"value\": 53340,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈17.7% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Riverbank protection through bamboo planting\",\n      \"value\": 2500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.09% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation and restoration in Mumirwa and Bugesera\",\n      \"value\": 9000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.33% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"KUMOSO mountain-chain reforestation\",\n      \"value\": 24000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈8.0% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-environment rehabilitation\",\n      \"value\": 100,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"<0.01% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Watershed management and anti-erosion measures\",\n      \"value\": 299100,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈11.1% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"Current forest cover is 11.2%, so the target is 8.8 percentage points higher.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Climate-risk mapping and WASH resilience\",\n      \"value\": 4100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage reports 4,100%, but no denominator is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Bamboo plantations created\",\n      \"value\": 2500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"over ten years\",\n      \"context\": \"≈0.09% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-source protection through bamboo planting\",\n      \"value\": 5300,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.20% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Bamboo plantations along rivers, water sources and agricultural holdings\",\n      \"value\": 22500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.83% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Floodplain protection and management\",\n      \"value\": 90000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2027\",\n      \"context\": \"≈3.3% of total land area; a separate passage reports 6,761 km² for floodplain management.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water sources protected\",\n      \"value\": 250,\n      \"unit\": \"water sources\",\n      \"timeframe\": \"in 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Floodplain protection and management\",\n      \"value\": 6761,\n      \"unit\": \"km2\",\n      \"timeframe\": null,\n      \"context\": \"≈25.0% of total land area; another passage reports 90,000 ha.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Mineral fertilizer replaced with organic manure\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural rainwater management and climate-resilient WASH\",\n      \"value\": 14500,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage reports 14,500%, but no denominator is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Moringa plantations\",\n      \"value\": 4280,\n      \"unit\": \"ha\",\n      \"timeframe\": \"from 2021\",\n      \"context\": \"≈0.26% of current agricultural area; a separate undated passage reports 200 ha.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rural forestry development area\",\n      \"value\": 701,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.04% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Moringa cultivation area\",\n      \"value\": 200,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.01% of current agricultural area; another passage reports 4,280 ha from 2021.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"High-yield forage crop promotion\",\n      \"value\": 200,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.01% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-hazard-mitigating cropping practices initiated\",\n      \"value\": 100000,\n      \"unit\": \"practices\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"The passages also report an undated total of 300 practices.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-hazard-mitigating cropping practices initiated\",\n      \"value\": 300,\n      \"unit\": \"practices\",\n      \"timeframe\": null,\n      \"context\": \"The separate 2025 target is 100,000 practices.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Households using rainwater for agricultural purposes\",\n      \"value\": 10000,\n      \"unit\": \"households\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-cover increase through rural forestry\",\n      \"value\": 160000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025; also stated as by 2027\",\n      \"context\": \"≈53.1% of current 3,016-km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agro-silvopastoral integration and natural-resource management pilot sites\",\n      \"value\": 3000,\n      \"unit\": \"pilot sites\",\n      \"timeframe\": \"by 2027\",\n      \"context\": \"A separate undated entry reports 95 pilot sites.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agro-silvopastoral integration and natural-resource management pilot sites\",\n      \"value\": 95,\n      \"unit\": \"pilot sites\",\n      \"timeframe\": null,\n      \"context\": \"A separate target for 2027 reports 3,000 pilot sites.\"\n    }\n  ]\n}",
+  "errors": []
+}

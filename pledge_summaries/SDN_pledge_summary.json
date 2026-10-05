@@ -1,0 +1,82 @@
+{
+  "iso3": "SDN",
+  "country": "Sudan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 7,
+  "geo_context": {
+    "country_area_km2": 1854089.0,
+    "land_cover_km2": {
+      "Agriculture": 383375.0,
+      "Forest": 68694.0,
+      "Grassland": 213670.0,
+      "Wetland": 2181.0,
+      "Settlement": 2215.0,
+      "Shrubland": 137813.0,
+      "Sparse_vegetation": 77672.0,
+      "Bare_area": 963759.0,
+      "Water": 4702.0
+    }
+  },
+  "summary": "Sudan's mixed restoration and conservation pledge targets 1.7 million hectares for afforestation, restoration and sustainable management of degraded forest reserves, the Gum Arabic belt, degraded lands and mangroves, including rainfed and irrigated areas. Forest accounts for only 3.7% of the country; in area-equivalent terms, the pledge is about 24.7% of mapped forest cover. Under Conservation, Sudan identifies a National REDD+ Strategy covering 0.51 million hectares in Blue Nile, Gadarif and Sinnar (about 7.4% of current forest area), reports 13,384,246 tCO2e for forestry, and targets firewood savings of 338,686, 55,100 and 941,728 m 3 through improved cookstoves or LPG substitution. Improved water harvesting and management are to be introduced in an estimated 500,000 Ha, equivalent in area to about 1.3% of current agriculture. The extracted passages state no timeframe.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Afforestation, degraded-land restoration, and mangrove restoration/conservation",
+      "value": 1.7,
+      "unit": "million hectares",
+      "timeframe": null,
+      "context": "About 24.7% of current forest cover in area-equivalent terms; the pledge also includes rainfed, irrigated and degraded land."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Firewood savings through improved cookstoves for rural households under REDD+",
+      "value": 338686,
+      "unit": "m 3",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Firewood savings through LPG substitution in urban areas",
+      "value": 55100,
+      "unit": "m 3",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Firewood savings through improved cookstoves replacing traditional stoves in rural areas",
+      "value": 941728,
+      "unit": "m 3",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National REDD+ Strategy implementation area",
+      "value": 0.51,
+      "unit": "million hectares",
+      "timeframe": null,
+      "context": "About 7.4% of current forest cover in area-equivalent terms."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forestry tCO2e",
+      "value": 13384246,
+      "unit": "tCO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Improved water harvesting and water management area",
+      "value": 500000,
+      "unit": "Ha",
+      "timeframe": null,
+      "context": "About 1.3% of current agriculture in area-equivalent terms."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Sudan's mixed restoration and conservation pledge targets 1.7 million hectares for afforestation, restoration and sustainable management of degraded forest reserves, the Gum Arabic belt, degraded lands and mangroves, including rainfed and irrigated areas. Forest accounts for only 3.7% of the country; in area-equivalent terms, the pledge is about 24.7% of mapped forest cover. Under Conservation, Sudan identifies a National REDD+ Strategy covering 0.51 million hectares in Blue Nile, Gadarif and Sinnar (about 7.4% of current forest area), reports 13,384,246 tCO2e for forestry, and targets firewood savings of 338,686, 55,100 and 941,728 m 3 through improved cookstoves or LPG substitution. Improved water harvesting and management are to be introduced in an estimated 500,000 Ha, equivalent in area to about 1.3% of current agriculture. The extracted passages state no timeframe.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Afforestation, degraded-land restoration, and mangrove restoration/conservation\",\n      \"value\": 1.7,\n      \"unit\": \"million hectares\",\n      \"timeframe\": null,\n      \"context\": \"About 24.7% of current forest cover in area-equivalent terms; the pledge also includes rainfed, irrigated and degraded land.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Firewood savings through improved cookstoves for rural households under REDD+\",\n      \"value\": 338686,\n      \"unit\": \"m 3\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Firewood savings through LPG substitution in urban areas\",\n      \"value\": 55100,\n      \"unit\": \"m 3\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Firewood savings through improved cookstoves replacing traditional stoves in rural areas\",\n      \"value\": 941728,\n      \"unit\": \"m 3\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National REDD+ Strategy implementation area\",\n      \"value\": 0.51,\n      \"unit\": \"million hectares\",\n      \"timeframe\": null,\n      \"context\": \"About 7.4% of current forest cover in area-equivalent terms.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forestry tCO2e\",\n      \"value\": 13384246,\n      \"unit\": \"tCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Improved water harvesting and water management area\",\n      \"value\": 500000,\n      \"unit\": \"Ha\",\n      \"timeframe\": null,\n      \"context\": \"About 1.3% of current agriculture in area-equivalent terms.\"\n    }\n  ]\n}",
+  "errors": []
+}

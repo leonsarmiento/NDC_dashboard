@@ -1,0 +1,50 @@
+{
+  "iso3": "CYP",
+  "country": "Cyprus",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 8761.3,
+    "land_cover_km2": {
+      "Agriculture": 3636.0,
+      "Forest": 2516.0,
+      "Grassland": 68.0,
+      "Wetland": 0.0,
+      "Settlement": 373.0,
+      "Shrubland": 200.0,
+      "Sparse_vegetation": 1317.0,
+      "Bare_area": 531.0,
+      "Water": 118.0
+    }
+  },
+  "summary": "Cyprus's supplied pledges are framed largely through EU-wide obligations rather than a Cyprus-specific ecosystem-area programme. The restoration commitment calls for measures across at least 20% of EU land and sea areas by 2030, with restoration of all ecosystems needing it by 2050; it does not specify a Cypriot area. Cyprus has 8,761 km² of land, of which 41.5% is agricultural and 28.7% forest, while grassland covers only 0.8%, so a national restoration share cannot be assigned from this passage. For the mixed land-use and forestry commitments, the EU collective 2030 target is 310 million tonnes of CO2 equivalent, and Cyprus's listed national target is -63 Kt CO2eq relative to 2016-2018 data reported in 2032. No separate conservation or agricultural area target is stated.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land and sea restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide benchmark; the passage does not specify a Cyprus-specific restoration area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF net greenhouse-gas removals",
+      "value": 310,
+      "unit": "Mt CO2 net removals",
+      "timeframe": "2030",
+      "context": "Collective EU target, not a Cyprus-specific allocation"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cyprus LULUCF net-removals target",
+      "value": -63,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Cyprus entry in the EU schedule, relative to 2016-2018 data reported in 2032"
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Cyprus's supplied pledges are framed largely through EU-wide obligations rather than a Cyprus-specific ecosystem-area programme. The restoration commitment calls for measures across at least 20% of EU land and sea areas by 2030, with restoration of all ecosystems needing it by 2050; it does not specify a Cypriot area. Cyprus has 8,761 km² of land, of which 41.5% is agricultural and 28.7% forest, while grassland covers only 0.8%, so a national restoration share cannot be assigned from this passage. For the mixed land-use and forestry commitments, the EU collective 2030 target is 310 million tonnes of CO2 equivalent, and Cyprus's listed national target is -63 Kt CO2eq relative to 2016-2018 data reported in 2032. No separate conservation or agricultural area target is stated.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Land and sea restoration measures\",\"value\":20,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"EU-wide benchmark; the passage does not specify a Cyprus-specific restoration area\"},{\"commitment_type\":\"Both\",\"metric\":\"LULUCF net greenhouse-gas removals\",\"value\":310,\"unit\":\"Mt CO2 net removals\",\"timeframe\":\"2030\",\"context\":\"Collective EU target, not a Cyprus-specific allocation\"},{\"commitment_type\":\"Both\",\"metric\":\"Cyprus LULUCF net-removals target\",\"value\":-63,\"unit\":\"Kt CO2eq\",\"timeframe\":\"2030\",\"context\":\"Cyprus entry in the EU schedule, relative to 2016-2018 data reported in 2032\"}]}",
+  "errors": []
+}

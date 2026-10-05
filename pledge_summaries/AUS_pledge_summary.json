@@ -1,0 +1,66 @@
+{
+  "iso3": "AUS",
+  "country": "Australia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 7694986.9,
+    "land_cover_km2": {
+      "Agriculture": 635427.0,
+      "Forest": 866828.0,
+      "Grassland": 1277002.0,
+      "Wetland": 97513.0,
+      "Settlement": 13189.0,
+      "Shrubland": 1688243.0,
+      "Sparse_vegetation": 2787231.0,
+      "Bare_area": 317465.0,
+      "Water": 11987.0
+    }
+  },
+  "summary": "Australia’s ecosystem pledges combine agriculture-focused savanna fire management with conservation through Indigenous ranger employment and marine protection. The agriculture commitment covers over 34 million hectares in northern Australia—about 4.4% of the country’s total land area—with 70% of that area managed by Indigenous projects using intergenerational knowledge. On conservation, the government supports 2,900 Indigenous rangers to deliver environmental, climate and cultural outcomes and strengthen First Nations participation in management. Marine conservation builds on protection of 52% of ocean territory through the marine reserve system, including 24% of Australia’s ocean under a high level of protection. These pledges span land and ocean and place significant emphasis on Indigenous leadership and involvement.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Savanna fire management area",
+      "value": 34000000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "Over 4.4% of Australia’s total land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Savanna fire management area managed by Indigenous projects",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Share of the over-34-million-hectare savanna fire management area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Indigenous rangers supported",
+      "value": 2900,
+      "unit": "number of Indigenous rangers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ocean territory in marine reserve system",
+      "value": 52,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ocean under a high level of protection",
+      "value": 24,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Australia’s ecosystem pledges combine agriculture-focused savanna fire management with conservation through Indigenous ranger employment and marine protection. The agriculture commitment covers over 34 million hectares in northern Australia—about 4.4% of the country’s total land area—with 70% of that area managed by Indigenous projects using intergenerational knowledge. On conservation, the government supports 2,900 Indigenous rangers to deliver environmental, climate and cultural outcomes and strengthen First Nations participation in management. Marine conservation builds on protection of 52% of ocean territory through the marine reserve system, including 24% of Australia’s ocean under a high level of protection. These pledges span land and ocean and place significant emphasis on Indigenous leadership and involvement.\",\"targets\":[{\"commitment_type\":\"Agriculture\",\"metric\":\"Savanna fire management area\",\"value\":34000000,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"Over 4.4% of Australia’s total land area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Savanna fire management area managed by Indigenous projects\",\"value\":70,\"unit\":\"%\",\"timeframe\":null,\"context\":\"Share of the over-34-million-hectare savanna fire management area.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Indigenous rangers supported\",\"value\":2900,\"unit\":\"number of Indigenous rangers\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Ocean territory in marine reserve system\",\"value\":52,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Ocean under a high level of protection\",\"value\":24,\"unit\":\"%\",\"timeframe\":null,\"context\":null}]}",
+  "errors": []
+}

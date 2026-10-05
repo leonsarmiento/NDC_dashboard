@@ -1,0 +1,50 @@
+{
+  "iso3": "LCA",
+  "country": "Saint Lucia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 606.3,
+    "land_cover_km2": {
+      "Agriculture": 36.0,
+      "Forest": 542.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 9.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 19.0
+    }
+  },
+  "summary": "Restoration and conservation pledges focus on Saint Lucia’s forestry sector, with forest covering 542 km², or 89.4% of the country’s land. Saint Lucia aims to increase land-based sequestration by 21 GgCO2 per year by 2030 and 33 GgCO2 per year by 2035 relative to 2010, with reforestation of degraded land contributing to the additional sink; in the restoration accounting, these gains are expressed as −21 and −33 GgCO2 per year. The 2035 sink-capacity target is also presented as a 33 GgCO2 enhancement. Agriculture measures focus on a Climate Resilient Agriculture Demonstration Centre that will enable vulnerable groups in three subsistence farming communities to become competitive agribusiness leaders under a changing climate. No agricultural area or reforestation hectares are specified, so neither commitment can be compared directly with the country’s 36 km² of agricultural land or its 542 km² of forest.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Additional land-based sequestration from forestry and reforestation",
+      "value": -21.0,
+      "unit": "GgCO2 per year",
+      "timeframe": "by 2030",
+      "context": "Magnitude is ≈8.4% of the 2010 forestry sink capacity of 251 GgCO2 per year; forest covers 89.4% of the country’s land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional land-based sequestration from forestry and reforestation",
+      "value": -33.0,
+      "unit": "GgCO2 per year",
+      "timeframe": "by 2035",
+      "context": "Magnitude is ≈13.1% of the 2010 forestry sink capacity of 251 GgCO2 per year; forest covers 89.4% of the country’s land."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Subsistence farming communities supported",
+      "value": 3.0,
+      "unit": "subsistence farming communities",
+      "timeframe": null,
+      "context": "No agricultural area is specified, so coverage relative to the current 36 km² of agricultural land cannot be calculated."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Restoration and conservation pledges focus on Saint Lucia’s forestry sector, with forest covering 542 km², or 89.4% of the country’s land. Saint Lucia aims to increase land-based sequestration by 21 GgCO2 per year by 2030 and 33 GgCO2 per year by 2035 relative to 2010, with reforestation of degraded land contributing to the additional sink; in the restoration accounting, these gains are expressed as −21 and −33 GgCO2 per year. The 2035 sink-capacity target is also presented as a 33 GgCO2 enhancement. Agriculture measures focus on a Climate Resilient Agriculture Demonstration Centre that will enable vulnerable groups in three subsistence farming communities to become competitive agribusiness leaders under a changing climate. No agricultural area or reforestation hectares are specified, so neither commitment can be compared directly with the country’s 36 km² of agricultural land or its 542 km² of forest.\",\"targets\":[{\"commitment_type\":\"Both\",\"metric\":\"Additional land-based sequestration from forestry and reforestation\",\"value\":-21.0,\"unit\":\"GgCO2 per year\",\"timeframe\":\"by 2030\",\"context\":\"Magnitude is ≈8.4% of the 2010 forestry sink capacity of 251 GgCO2 per year; forest covers 89.4% of the country’s land.\"},{\"commitment_type\":\"Both\",\"metric\":\"Additional land-based sequestration from forestry and reforestation\",\"value\":-33.0,\"unit\":\"GgCO2 per year\",\"timeframe\":\"by 2035\",\"context\":\"Magnitude is ≈13.1% of the 2010 forestry sink capacity of 251 GgCO2 per year; forest covers 89.4% of the country’s land.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Subsistence farming communities supported\",\"value\":3.0,\"unit\":\"subsistence farming communities\",\"timeframe\":null,\"context\":\"No agricultural area is specified, so coverage relative to the current 36 km² of agricultural land cannot be calculated.\"}]}",
+  "errors": []
+}

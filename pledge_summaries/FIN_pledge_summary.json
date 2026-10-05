@@ -1,0 +1,50 @@
+{
+  "iso3": "FIN",
+  "country": "Finland",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 31,
+  "geo_context": {
+    "country_area_km2": 335269.4,
+    "land_cover_km2": {
+      "Agriculture": 27852.0,
+      "Forest": 246634.0,
+      "Grassland": 1542.0,
+      "Wetland": 21875.0,
+      "Settlement": 649.0,
+      "Shrubland": 113.0,
+      "Sparse_vegetation": 4061.0,
+      "Bare_area": 115.0,
+      "Water": 32421.0
+    }
+  },
+  "summary": "Restoration is framed through an EU-wide commitment to put measures in place on at least 20% of EU land and sea areas by 2030, with measures intended for all ecosystems that need restoration by 2050; no Finland-specific hectare target is given. For conservation and the land sector, the LULUCF framework sets a -310 Mt CO2-eq carbon-sink target by 2030, also reported as 310 Mt CO2 net removals and described as 42 Mt CO2-eq above the 2016-2018 average. Finland's listed national target is -2,889 Kt CO2eq for 2030. Finland's land context is 73.6% forest (246,634 km2), 8.3% agriculture, 6.5% wetland and 0.5% grassland, so the pledges are chiefly carbon-sector and EU-wide ecosystem measures; no separate Finnish sustainable-farming area is stated.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land and sea restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide land-and-sea benchmark; it is not a 20% share of Finland's 335,269 km2 land area, so no national hectare figure can be derived."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "EU LULUCF carbon sinks and net greenhouse-gas removals",
+      "value": 310,
+      "unit": "Mt CO2 net removals",
+      "timeframe": "by 2030",
+      "context": "Collective EU managed-land commitment; Finland's forest area is 246,634 km2 (73.6%), but the EU-wide volume is not apportioned in this passage."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Finland national LULUCF target",
+      "value": -2889,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030",
+      "context": "Finland-specific national target listed for 2030; it is expressed in CO2-equivalent units, with no hectare or land-cover allocation."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is framed through an EU-wide commitment to put measures in place on at least 20% of EU land and sea areas by 2030, with measures intended for all ecosystems that need restoration by 2050; no Finland-specific hectare target is given. For conservation and the land sector, the LULUCF framework sets a -310 Mt CO2-eq carbon-sink target by 2030, also reported as 310 Mt CO2 net removals and described as 42 Mt CO2-eq above the 2016-2018 average. Finland's listed national target is -2,889 Kt CO2eq for 2030. Finland's land context is 73.6% forest (246,634 km2), 8.3% agriculture, 6.5% wetland and 0.5% grassland, so the pledges are chiefly carbon-sector and EU-wide ecosystem measures; no separate Finnish sustainable-farming area is stated.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land and sea restoration measures\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide land-and-sea benchmark; it is not a 20% share of Finland's 335,269 km2 land area, so no national hectare figure can be derived.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"EU LULUCF carbon sinks and net greenhouse-gas removals\",\n      \"value\": 310,\n      \"unit\": \"Mt CO2 net removals\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Collective EU managed-land commitment; Finland's forest area is 246,634 km2 (73.6%), but the EU-wide volume is not apportioned in this passage.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Finland national LULUCF target\",\n      \"value\": -2889,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Finland-specific national target listed for 2030; it is expressed in CO2-equivalent units, with no hectare or land-cover allocation.\"\n    }\n  ]\n}",
+  "errors": []
+}

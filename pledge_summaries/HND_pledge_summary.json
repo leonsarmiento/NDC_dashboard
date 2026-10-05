@@ -1,0 +1,74 @@
+{
+  "iso3": "HND",
+  "country": "Honduras",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 12,
+  "geo_context": {
+    "country_area_km2": 111733.3,
+    "land_cover_km2": {
+      "Agriculture": 24105.0,
+      "Forest": 81019.0,
+      "Grassland": 5157.0,
+      "Wetland": 56.0,
+      "Settlement": 530.0,
+      "Shrubland": 82.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 3.0,
+      "Water": 732.0
+    }
+  },
+  "summary": "Under restoration and mixed restoration–conservation commitments, Honduras’s updated target is to conserve and functionally restore 1.3 million hectares of rural forest landscape by 2030. The NDC also cites a 1-million-hectare Bonn Challenge forest-restoration commitment and proposes 300,000 additional hectares of nature-based restoration, conditional on climate finance. Sustainable agroforestry is the agriculture-related measure, but no numerical agricultural area is stated. For perspective, against 2022 forest cover of 81,019 km², the 1.3-million, 1-million and 300,000-hectare figures are equivalent to approximately 16.0%, 12.3% and 3.7% of current forest cover, respectively. Conservation commitments additionally seek a 50% reduction in average annual gross deforestation in eight prioritized clusters, a 39% reduction in household firewood consumption by 2030, and a 1% LULUCF-sector emissions reduction relative to projected 2030 emissions, conditional on climate finance.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Conservation and functional restoration of rural forest landscape",
+      "value": 1300000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equivalent to ≈16.0% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional nature-based restoration",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈3.7% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Bonn Challenge and first-NDC forest restoration",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈12.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Average annual gross deforestation reduction in eight PNCET clusters",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Household firewood consumption reduction",
+      "value": 39,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF-sector emissions reduction conditional on climate finance",
+      "value": 1,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Under restoration and mixed restoration–conservation commitments, Honduras’s updated target is to conserve and functionally restore 1.3 million hectares of rural forest landscape by 2030. The NDC also cites a 1-million-hectare Bonn Challenge forest-restoration commitment and proposes 300,000 additional hectares of nature-based restoration, conditional on climate finance. Sustainable agroforestry is the agriculture-related measure, but no numerical agricultural area is stated. For perspective, against 2022 forest cover of 81,019 km², the 1.3-million, 1-million and 300,000-hectare figures are equivalent to approximately 16.0%, 12.3% and 3.7% of current forest cover, respectively. Conservation commitments additionally seek a 50% reduction in average annual gross deforestation in eight prioritized clusters, a 39% reduction in household firewood consumption by 2030, and a 1% LULUCF-sector emissions reduction relative to projected 2030 emissions, conditional on climate finance.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conservation and functional restoration of rural forest landscape\",\n      \"value\": 1300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equivalent to ≈16.0% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional nature-based restoration\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈3.7% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Bonn Challenge and first-NDC forest restoration\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈12.3% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Average annual gross deforestation reduction in eight PNCET clusters\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Household firewood consumption reduction\",\n      \"value\": 39,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF-sector emissions reduction conditional on climate finance\",\n      \"value\": 1,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

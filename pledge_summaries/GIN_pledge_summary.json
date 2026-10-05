@@ -1,0 +1,234 @@
+{
+  "iso3": "GIN",
+  "country": "Guinea",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 26,
+  "geo_context": {
+    "country_area_km2": 243430.7,
+    "land_cover_km2": {
+      "Agriculture": 50991.0,
+      "Forest": 169501.0,
+      "Grassland": 1.0,
+      "Wetland": 11.0,
+      "Settlement": 627.0,
+      "Shrubland": 21505.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 10.0,
+      "Water": 781.0
+    }
+  },
+  "summary": "Guinea’s restoration pledges include 2,000,000 hectares under Bonn/AFR100, annual sequestration of 451 ktCO2/year unconditionally and 17,605 ktCO2/year conditionally, at least 5,000,000 trees yearly, and staged forest-and-watershed restoration of 10,000 hectares by 2030 and 25,000 by 2035, plus 5,000–10,000 hectares of mangroves by 2035. The 25,000-hectare program is about 0.15% of Guinea’s 169,501 km² of current forest, while the 2-million-hectare commitment equals 11.8%. Conservation combines preservation of 1,882,000 hectares, minimum 30% forest cover, 30% protected coverage by 2030, 560,000 and 1,000,000 improved stoves, and 1,500 km of firebreaks. Mixed measures include five basin plans, 20 stations, eight projects and 50 municipalities by 2035, and 10–20 transhumance corridors. Agriculture expands from 10,000 farms in 2030 to 25,000 farms and over 50,000 hectares by 2035, roughly 1% of current agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Unconditional sequestration versus BAU",
+      "value": 451,
+      "unit": "ktCO2/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Conditional sequestration versus unconditional scenario",
+      "value": 17605,
+      "unit": "ktCO2/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Gross LULUCF emissions reduction versus trend, unconditional",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Gross LULUCF emissions reduction versus trend, conditional",
+      "value": 49,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation sequestration potential under CDN+ scenario",
+      "value": 180565,
+      "unit": "ktCO2eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest and landscape restoration under Bonn Challenge and AFR100",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equals ≈11.8% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation tree-planting rate",
+      "value": 5000000,
+      "unit": "trees/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Improved stoves introduced under strategic objective",
+      "value": 1000000,
+      "unit": "improved stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Improved stoves manufactured and distributed under unconditional NDC",
+      "value": 560000,
+      "unit": "improved stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National forest-cover minimum",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Current mapped forest covers 69.6% of national land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Territory under protected-area status",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 73,029 km² of national territory"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative firebreaks",
+      "value": 1500,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Transhumance corridors secured, range lower bound",
+      "value": 10,
+      "unit": "corridors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Transhumance corridors secured, range upper bound",
+      "value": 20,
+      "unit": "corridors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Classified forests and protected areas preserved",
+      "value": 1882000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equals ≈11.1% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Key ecosystem conservation and restoration, 2030 stage",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equals ≈0.06% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Key ecosystem conservation and restoration, 2035 stage",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area equals ≈0.15% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove restoration, range lower bound",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove restoration, range upper bound",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Automatic hydro-climatic monitoring stations",
+      "value": 20,
+      "unit": "stations",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community water-health adaptation projects",
+      "value": 8,
+      "unit": "projects",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Rural municipalities integrating hydric adaptation",
+      "value": 50,
+      "unit": "municipalities",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sensitive-basin management plans",
+      "value": 5,
+      "unit": "plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry farms",
+      "value": 10000,
+      "unit": "farms",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry farms",
+      "value": 25000,
+      "unit": "farms",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area equals ≈1.0% of current mapped agricultural area"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Guinea’s restoration pledges include 2,000,000 hectares under Bonn/AFR100, annual sequestration of 451 ktCO2/year unconditionally and 17,605 ktCO2/year conditionally, at least 5,000,000 trees yearly, and staged forest-and-watershed restoration of 10,000 hectares by 2030 and 25,000 by 2035, plus 5,000–10,000 hectares of mangroves by 2035. The 25,000-hectare program is about 0.15% of Guinea’s 169,501 km² of current forest, while the 2-million-hectare commitment equals 11.8%. Conservation combines preservation of 1,882,000 hectares, minimum 30% forest cover, 30% protected coverage by 2030, 560,000 and 1,000,000 improved stoves, and 1,500 km of firebreaks. Mixed measures include five basin plans, 20 stations, eight projects and 50 municipalities by 2035, and 10–20 transhumance corridors. Agriculture expands from 10,000 farms in 2030 to 25,000 farms and over 50,000 hectares by 2035, roughly 1% of current agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Unconditional sequestration versus BAU\",\n      \"value\": 451,\n      \"unit\": \"ktCO2/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Conditional sequestration versus unconditional scenario\",\n      \"value\": 17605,\n      \"unit\": \"ktCO2/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Gross LULUCF emissions reduction versus trend, unconditional\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Gross LULUCF emissions reduction versus trend, conditional\",\n      \"value\": 49,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation sequestration potential under CDN+ scenario\",\n      \"value\": 180565,\n      \"unit\": \"ktCO2eq\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest and landscape restoration under Bonn Challenge and AFR100\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equals ≈11.8% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation tree-planting rate\",\n      \"value\": 5000000,\n      \"unit\": \"trees/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Improved stoves introduced under strategic objective\",\n      \"value\": 1000000,\n      \"unit\": \"improved stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Improved stoves manufactured and distributed under unconditional NDC\",\n      \"value\": 560000,\n      \"unit\": \"improved stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National forest-cover minimum\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Current mapped forest covers 69.6% of national land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Territory under protected-area status\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 73,029 km² of national territory\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative firebreaks\",\n      \"value\": 1500,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Transhumance corridors secured, range lower bound\",\n      \"value\": 10,\n      \"unit\": \"corridors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Transhumance corridors secured, range upper bound\",\n      \"value\": 20,\n      \"unit\": \"corridors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Classified forests and protected areas preserved\",\n      \"value\": 1882000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equals ≈11.1% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Key ecosystem conservation and restoration, 2030 stage\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equals ≈0.06% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Key ecosystem conservation and restoration, 2035 stage\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equals ≈0.15% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove restoration, range lower bound\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove restoration, range upper bound\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Automatic hydro-climatic monitoring stations\",\n      \"value\": 20,\n      \"unit\": \"stations\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community water-health adaptation projects\",\n      \"value\": 8,\n      \"unit\": \"projects\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Rural municipalities integrating hydric adaptation\",\n      \"value\": 50,\n      \"unit\": \"municipalities\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sensitive-basin management plans\",\n      \"value\": 5,\n      \"unit\": \"plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry farms\",\n      \"value\": 10000,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry farms\",\n      \"value\": 25000,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equals ≈1.0% of current mapped agricultural area\"\n    }\n  ]\n}",
+  "errors": []
+}

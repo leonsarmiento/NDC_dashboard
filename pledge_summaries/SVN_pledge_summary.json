@@ -1,0 +1,98 @@
+{
+  "iso3": "SVN",
+  "country": "Slovenia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 35,
+  "geo_context": {
+    "country_area_km2": 20269.6,
+    "land_cover_km2": {
+      "Agriculture": 5717.0,
+      "Forest": 13435.0,
+      "Grassland": 573.0,
+      "Wetland": 21.0,
+      "Settlement": 368.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 21.0,
+      "Bare_area": 82.0,
+      "Water": 53.0
+    }
+  },
+  "summary": "Slovenia’s country-specific LULUCF target under the EU framework is -212 Kt CO2eq for 2030. The wider EU framework sets a land-sector sink of -310 Mt CO2-eq by 2030—an increase in net removals of 42 Mt CO2-eq relative to the 2016–2018 average—and calls for restoration measures on at least 20% of EU land and sea areas by 2030, with measures for all ecosystems needing restoration by 2050. EU agricultural provisions allocate 40% of CAP funding to climate objectives in 2023–2027, earmark at least 25% of annual Pillar I direct payments for eco-schemes and 35% of Pillar II funds for environmental and climate activities, and target a 40% cut in non-ETS emissions by 2030 versus 2005. Slovenia is 66.3% forest (13,435 km²) and 28.2% agriculture (5,717 km²), but the restoration and funding percentages are EU-wide, not Slovenian land-area or farm-area shares.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "EU LULUCF net-removal target",
+      "value": -310,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU collective target; the separate Slovenia-specific value is -212 Kt CO2eq."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional EU LULUCF net removals relative to the 2016–2018 average",
+      "value": 42,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU collective increase; no Slovenia-specific allocation is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Slovenia LULUCF target",
+      "value": -212,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Slovenia is 66.3% forest (13,435 km²), but the target is emissions-based and has no stated forest-area equivalent."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum EU land area under restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide denominator; this is not stated as 20% of Slovenia's 20,270 km² land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum EU sea area under restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide denominator; the passage gives no Slovenia-specific sea-area share."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CAP financial allocation contributing to climate objectives",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "2023–2027",
+      "context": "EU financial-allocation share, not a share of Slovenia's 5,717 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum Pillar I direct-payment funds earmarked for eco-schemes",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": "EU funding share, not a share of Slovenia's 5,717 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum Pillar II funds dedicated to environment and climate activities",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "EU funding share, not a share of Slovenia's 5,717 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Non-ETS emissions reduction relative to 2005",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-level target covering multiple sectors, not a 40% reduction target for Slovenian agriculture alone."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Slovenia’s country-specific LULUCF target under the EU framework is -212 Kt CO2eq for 2030. The wider EU framework sets a land-sector sink of -310 Mt CO2-eq by 2030—an increase in net removals of 42 Mt CO2-eq relative to the 2016–2018 average—and calls for restoration measures on at least 20% of EU land and sea areas by 2030, with measures for all ecosystems needing restoration by 2050. EU agricultural provisions allocate 40% of CAP funding to climate objectives in 2023–2027, earmark at least 25% of annual Pillar I direct payments for eco-schemes and 35% of Pillar II funds for environmental and climate activities, and target a 40% cut in non-ETS emissions by 2030 versus 2005. Slovenia is 66.3% forest (13,435 km²) and 28.2% agriculture (5,717 km²), but the restoration and funding percentages are EU-wide, not Slovenian land-area or farm-area shares.\",\"targets\":[{\"commitment_type\":\"Both\",\"metric\":\"EU LULUCF net-removal target\",\"value\":-310,\"unit\":\"Mt CO2-eq\",\"timeframe\":\"by 2030\",\"context\":\"EU collective target; the separate Slovenia-specific value is -212 Kt CO2eq.\"},{\"commitment_type\":\"Both\",\"metric\":\"Additional EU LULUCF net removals relative to the 2016–2018 average\",\"value\":42,\"unit\":\"Mt CO2-eq\",\"timeframe\":\"by 2030\",\"context\":\"EU collective increase; no Slovenia-specific allocation is stated.\"},{\"commitment_type\":\"Both\",\"metric\":\"Slovenia LULUCF target\",\"value\":-212,\"unit\":\"Kt CO2eq\",\"timeframe\":\"2030\",\"context\":\"Slovenia is 66.3% forest (13,435 km²), but the target is emissions-based and has no stated forest-area equivalent.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Minimum EU land area under restoration measures\",\"value\":20,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"EU-wide denominator; this is not stated as 20% of Slovenia's 20,270 km² land area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Minimum EU sea area under restoration measures\",\"value\":20,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"EU-wide denominator; the passage gives no Slovenia-specific sea-area share.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"CAP financial allocation contributing to climate objectives\",\"value\":40,\"unit\":\"%\",\"timeframe\":\"2023–2027\",\"context\":\"EU financial-allocation share, not a share of Slovenia's 5,717 km² agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Minimum Pillar I direct-payment funds earmarked for eco-schemes\",\"value\":25,\"unit\":\"%\",\"timeframe\":\"annually\",\"context\":\"EU funding share, not a share of Slovenia's 5,717 km² agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Minimum Pillar II funds dedicated to environment and climate activities\",\"value\":35,\"unit\":\"%\",\"timeframe\":null,\"context\":\"EU funding share, not a share of Slovenia's 5,717 km² agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Non-ETS emissions reduction relative to 2005\",\"value\":40,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"EU-level target covering multiple sectors, not a 40% reduction target for Slovenian agriculture alone.\"}]}",
+  "errors": []
+}

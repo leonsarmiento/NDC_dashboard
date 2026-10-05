@@ -1,0 +1,138 @@
+{
+  "iso3": "ARM",
+  "country": "Armenia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 14,
+  "geo_context": {
+    "country_area_km2": 29836.8,
+    "land_cover_km2": {
+      "Agriculture": 16326.0,
+      "Forest": 6480.0,
+      "Grassland": 3520.0,
+      "Wetland": 6.0,
+      "Settlement": 713.0,
+      "Shrubland": 659.0,
+      "Sparse_vegetation": 363.0,
+      "Bare_area": 306.0,
+      "Water": 1363.0
+    }
+  },
+  "summary": "Restoration pledges include reaching a 12.9% national forest-cover level by 2030, identifying 9,700 ha for afforestation by then, and separately committing to 25,000 ha of sustainable afforestation/reforestation and 50,000 ha of afforestation/reforestation by 2035, plus restoring 4,000 ha of degraded agricultural land. The 12.9% level is below the 2022 mapped forest share of 21.7%; the afforestation areas equal about 1.5%, 3.9%, and 7.7% of current forest, respectively. Agriculture targets cover 50,000 ha under improved irrigation (3.1% of current agricultural land), 10% fertilizer replacement, elimination of open residue burning through a 100% emissions reduction, and 100 smart farms by 2035. Cross-sector commitments set 20% and 40% degraded-forest management/restoration thresholds by 2035, 1.5% soil-organic-carbon growth by 2040 versus 2015, and flood protection in 50% of priority river basins. Conservation also targets a 1.4 GFSI natural-resources resilience index score.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "National forest cover",
+      "value": 12.9,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The 2022 geographical context reports forest cover of 21.7% of the country."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under improved irrigation",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈3.1% of current agricultural area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Potential afforestation area identified",
+      "value": 9700,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈1.5% of current forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Sustainable afforestation and reforestation area",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈3.9% of current forest area; stated separately from the 50,000 ha target."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded agricultural land restored",
+      "value": 4000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.25% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forest areas under sustainable management and restoration",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The degraded-forest area is not quantified, so the percentage cannot be converted to a land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and reforestation area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈7.7% of current forest area; stated separately from the 25,000 ha sustainable afforestation target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forest areas under sustainable management and restoration",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The degraded-forest area is not quantified, so the percentage cannot be converted to a land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Synthetic fertilizers replaced with organic alternatives",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction in crop-residue burning emissions",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Smart farms established",
+      "value": 100,
+      "unit": "farms",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in soil organic carbon",
+      "value": 1.5,
+      "unit": "%",
+      "timeframe": "by 2040, compared with 2015 levels",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority river basins with expanded flood-protection infrastructure",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "GFSI Natural Resources and Resilience index score",
+      "value": 1.4,
+      "unit": "index score",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges include reaching a 12.9% national forest-cover level by 2030, identifying 9,700 ha for afforestation by then, and separately committing to 25,000 ha of sustainable afforestation/reforestation and 50,000 ha of afforestation/reforestation by 2035, plus restoring 4,000 ha of degraded agricultural land. The 12.9% level is below the 2022 mapped forest share of 21.7%; the afforestation areas equal about 1.5%, 3.9%, and 7.7% of current forest, respectively. Agriculture targets cover 50,000 ha under improved irrigation (3.1% of current agricultural land), 10% fertilizer replacement, elimination of open residue burning through a 100% emissions reduction, and 100 smart farms by 2035. Cross-sector commitments set 20% and 40% degraded-forest management/restoration thresholds by 2035, 1.5% soil-organic-carbon growth by 2040 versus 2015, and flood protection in 50% of priority river basins. Conservation also targets a 1.4 GFSI natural-resources resilience index score.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National forest cover\",\n      \"value\": 12.9,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The 2022 geographical context reports forest cover of 21.7% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area under improved irrigation\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈3.1% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Potential afforestation area identified\",\n      \"value\": 9700,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1.5% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Sustainable afforestation and reforestation area\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈3.9% of current forest area; stated separately from the 50,000 ha target.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded agricultural land restored\",\n      \"value\": 4000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈0.25% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded forest areas under sustainable management and restoration\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The degraded-forest area is not quantified, so the percentage cannot be converted to a land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation and reforestation area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈7.7% of current forest area; stated separately from the 25,000 ha sustainable afforestation target.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded forest areas under sustainable management and restoration\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The degraded-forest area is not quantified, so the percentage cannot be converted to a land area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Synthetic fertilizers replaced with organic alternatives\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction in crop-residue burning emissions\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Smart farms established\",\n      \"value\": 100,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in soil organic carbon\",\n      \"value\": 1.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040, compared with 2015 levels\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority river basins with expanded flood-protection infrastructure\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"GFSI Natural Resources and Resilience index score\",\n      \"value\": 1.4,\n      \"unit\": \"index score\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

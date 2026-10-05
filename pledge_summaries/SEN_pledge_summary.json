@@ -1,0 +1,370 @@
+{
+  "iso3": "SEN",
+  "country": "Senegal",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 30,
+  "geo_context": {
+    "country_area_km2": 193424.8,
+    "land_cover_km2": {
+      "Agriculture": 61048.0,
+      "Forest": 54838.0,
+      "Grassland": 11368.0,
+      "Wetland": 3662.0,
+      "Settlement": 672.0,
+      "Shrubland": 60199.0,
+      "Sparse_vegetation": 232.0,
+      "Bare_area": 38.0,
+      "Water": 1357.0
+    }
+  },
+  "summary": "Senegal’s mixed agriculture-and-restoration pledges cover 99,621 ha under assisted natural regeneration and 4,500 ha under compost by 2030, plus 498,105 ha of regeneration and 14,400 ha of compost. They also target conversion of 28,500 ha of irrigated rice—about 0.47% of current agricultural area—to the System of Rice Intensification. Restoration targets 500,000 ha of plantations plus 1,297 ha of mangroves and 21,000 ha of other plantations annually; another passage specifies 4,000 ha of mangroves per year. Conservation includes protecting 500,000 ha, about 9.1% of current mapped forest; establishing 10 marine protected areas by 2025 and 15 MPAs; reducing the deforestation rate by 25% to 30,000 ha/year by 2030; and reducing areas burned by 5%, 10%, and about 90%. Related measures distribute 800,000 improved stoves annually by 2030, with another passage citing 1.5 million, and install 27,000 biodigesters, with a higher biodigester commitment of more than 48,000.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN value (medium-relevance series)",
+      "value": 7702,
+      "unit": "Gg CO2e",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN value (medium-relevance series)",
+      "value": 7621,
+      "unit": "Gg CO2e",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ value (medium-relevance series)",
+      "value": 7106,
+      "unit": "Gg CO2e",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ value (medium-relevance series)",
+      "value": 6652,
+      "unit": "Gg CO2e",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN value (low-relevance series)",
+      "value": 9732,
+      "unit": "Gg CO2e",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN value (low-relevance series)",
+      "value": 10350,
+      "unit": "Gg CO2e",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ value (low-relevance series)",
+      "value": 9034,
+      "unit": "Gg CO2e",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ value (low-relevance series)",
+      "value": 9329,
+      "unit": "Gg CO2e",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN value (negative series)",
+      "value": -16967.12,
+      "unit": "Gg CO2e",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN value (negative series)",
+      "value": -16894.32,
+      "unit": "Gg CO2e",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ value (negative series)",
+      "value": -29328.21,
+      "unit": "Gg CO2e",
+      "timeframe": "2025 and 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN reduction (medium-relevance series)",
+      "value": 9.76,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN reduction (medium-relevance series)",
+      "value": 16,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ reduction (medium-relevance series)",
+      "value": 14,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ reduction (medium-relevance series)",
+      "value": 24,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Unconditional reduction objective",
+      "value": 1.72,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Unconditional reduction objective",
+      "value": 2.36,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Conditional reduction objective",
+      "value": 8.76,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Conditional reduction objective",
+      "value": 11.98,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN absorptions",
+      "value": -46.608129,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN absorptions",
+      "value": -46.77108,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ absorptions",
+      "value": -153.41684,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CDN+ absorptions",
+      "value": -154.79173,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated rice converted to the System of Rice Intensification",
+      "value": 28500,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.47% of current agricultural area (61,048 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Late-season burned-area reduction",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Relative to 2015; no implementation date is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Controlled-fire burned-area reduction",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Relative to 2015; no implementation date is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Bushfire burned-area reduction (approximately)",
+      "value": 90,
+      "unit": "%",
+      "timeframe": "from the fifth year of implementation of management plans",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation-rate reduction",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage gives 30,000 ha/year in 2030 versus 40,000 in 2010; 30,000 ha is ≈0.55% of current mapped forest area annually."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected areas and marine parks",
+      "value": 10,
+      "unit": "AMP",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected areas and marine parks",
+      "value": 15,
+      "unit": "AMP",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest placed under protection",
+      "value": 500000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈9.1% of current forest cover (54,838 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative biodigester installations",
+      "value": 27000,
+      "unit": "biodigesters",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative biodigester installations (more than)",
+      "value": 48000,
+      "unit": "biodigesters",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Improved cooking stove distribution",
+      "value": 800000,
+      "unit": "improved stoves per year",
+      "timeframe": "by 2030",
+      "context": "The passage compares this with approximately 350,000 improved stoves in 2016."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Improved cooking stove distribution (approximately)",
+      "value": 1500000,
+      "unit": "improved stoves per year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural land under assisted natural regeneration",
+      "value": 99621,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "≈1.63% of current agricultural area (61,048 km²)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural land under compost",
+      "value": 4500,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "≈0.07% of current agricultural area (61,048 km²)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Assisted natural regeneration expansion",
+      "value": 498105,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈8.16% of current agricultural area (61,048 km²)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Compost coverage expansion",
+      "value": 14400,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.24% of current agricultural area (61,048 km²)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Various plantations established",
+      "value": 500000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "Equivalent to ≈9.1% of current forest area (54,838 km²)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual increase in reforested or restored mangrove area (approximately)",
+      "value": 1297,
+      "unit": "hectares per year",
+      "timeframe": "annually",
+      "context": "Equivalent to ≈0.35% of current mapped wetland area (3,662 km²)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual increase in reforested or restored other plantation area (approximately)",
+      "value": 21000,
+      "unit": "hectares per year",
+      "timeframe": "annually",
+      "context": "Equivalent to ≈0.38% of current forest area (54,838 km²)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove reforestation and restoration",
+      "value": 4000,
+      "unit": "hectares per year",
+      "timeframe": "annually",
+      "context": "Equivalent to ≈1.09% of current mapped wetland area (3,662 km²)"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Senegal’s mixed agriculture-and-restoration pledges cover 99,621 ha under assisted natural regeneration and 4,500 ha under compost by 2030, plus 498,105 ha of regeneration and 14,400 ha of compost. They also target conversion of 28,500 ha of irrigated rice—about 0.47% of current agricultural area—to the System of Rice Intensification. Restoration targets 500,000 ha of plantations plus 1,297 ha of mangroves and 21,000 ha of other plantations annually; another passage specifies 4,000 ha of mangroves per year. Conservation includes protecting 500,000 ha, about 9.1% of current mapped forest; establishing 10 marine protected areas by 2025 and 15 MPAs; reducing the deforestation rate by 25% to 30,000 ha/year by 2030; and reducing areas burned by 5%, 10%, and about 90%. Related measures distribute 800,000 improved stoves annually by 2030, with another passage citing 1.5 million, and install 27,000 biodigesters, with a higher biodigester commitment of more than 48,000.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN value (medium-relevance series)\",\n      \"value\": 7702,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN value (medium-relevance series)\",\n      \"value\": 7621,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ value (medium-relevance series)\",\n      \"value\": 7106,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ value (medium-relevance series)\",\n      \"value\": 6652,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN value (low-relevance series)\",\n      \"value\": 9732,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN value (low-relevance series)\",\n      \"value\": 10350,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ value (low-relevance series)\",\n      \"value\": 9034,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ value (low-relevance series)\",\n      \"value\": 9329,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN value (negative series)\",\n      \"value\": -16967.12,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN value (negative series)\",\n      \"value\": -16894.32,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ value (negative series)\",\n      \"value\": -29328.21,\n      \"unit\": \"Gg CO2e\",\n      \"timeframe\": \"2025 and 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN reduction (medium-relevance series)\",\n      \"value\": 9.76,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN reduction (medium-relevance series)\",\n      \"value\": 16,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ reduction (medium-relevance series)\",\n      \"value\": 14,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ reduction (medium-relevance series)\",\n      \"value\": 24,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Unconditional reduction objective\",\n      \"value\": 1.72,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Unconditional reduction objective\",\n      \"value\": 2.36,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Conditional reduction objective\",\n      \"value\": 8.76,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Conditional reduction objective\",\n      \"value\": 11.98,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN absorptions\",\n      \"value\": -46.608129,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN absorptions\",\n      \"value\": -46.77108,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ absorptions\",\n      \"value\": -153.41684,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CDN+ absorptions\",\n      \"value\": -154.79173,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated rice converted to the System of Rice Intensification\",\n      \"value\": 28500,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈0.47% of current agricultural area (61,048 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Late-season burned-area reduction\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Relative to 2015; no implementation date is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Controlled-fire burned-area reduction\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Relative to 2015; no implementation date is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Bushfire burned-area reduction (approximately)\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": \"from the fifth year of implementation of management plans\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation-rate reduction\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage gives 30,000 ha/year in 2030 versus 40,000 in 2010; 30,000 ha is ≈0.55% of current mapped forest area annually.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine protected areas and marine parks\",\n      \"value\": 10,\n      \"unit\": \"AMP\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine protected areas and marine parks\",\n      \"value\": 15,\n      \"unit\": \"AMP\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest placed under protection\",\n      \"value\": 500000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈9.1% of current forest cover (54,838 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative biodigester installations\",\n      \"value\": 27000,\n      \"unit\": \"biodigesters\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative biodigester installations (more than)\",\n      \"value\": 48000,\n      \"unit\": \"biodigesters\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Improved cooking stove distribution\",\n      \"value\": 800000,\n      \"unit\": \"improved stoves per year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage compares this with approximately 350,000 improved stoves in 2016.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Improved cooking stove distribution (approximately)\",\n      \"value\": 1500000,\n      \"unit\": \"improved stoves per year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural land under assisted natural regeneration\",\n      \"value\": 99621,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1.63% of current agricultural area (61,048 km²)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural land under compost\",\n      \"value\": 4500,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.07% of current agricultural area (61,048 km²)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Assisted natural regeneration expansion\",\n      \"value\": 498105,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈8.16% of current agricultural area (61,048 km²)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Compost coverage expansion\",\n      \"value\": 14400,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈0.24% of current agricultural area (61,048 km²)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Various plantations established\",\n      \"value\": 500000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈9.1% of current forest area (54,838 km²)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual increase in reforested or restored mangrove area (approximately)\",\n      \"value\": 1297,\n      \"unit\": \"hectares per year\",\n      \"timeframe\": \"annually\",\n      \"context\": \"Equivalent to ≈0.35% of current mapped wetland area (3,662 km²)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual increase in reforested or restored other plantation area (approximately)\",\n      \"value\": 21000,\n      \"unit\": \"hectares per year\",\n      \"timeframe\": \"annually\",\n      \"context\": \"Equivalent to ≈0.38% of current forest area (54,838 km²)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove reforestation and restoration\",\n      \"value\": 4000,\n      \"unit\": \"hectares per year\",\n      \"timeframe\": \"annually\",\n      \"context\": \"Equivalent to ≈1.09% of current mapped wetland area (3,662 km²)\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,34 @@
+{
+  "iso3": "ATG",
+  "country": "Antigua and Barbuda",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 411.5,
+    "land_cover_km2": {
+      "Agriculture": 7.0,
+      "Forest": 165.0,
+      "Grassland": 158.0,
+      "Wetland": 26.0,
+      "Settlement": 11.0,
+      "Shrubland": 1.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 45.0
+    }
+  },
+  "summary": "Antigua and Barbuda’s extracted pledge is a restoration commitment focused on the northwest watershed. It aims to restore 3 km of waterways to improve the watershed’s ability to manage extreme rainfall and strengthen the resilience of the built environment. The project also provides concessional loans for households and small businesses and community grants and contracts to sustain interventions, but the only stated quantitative ecological target is the 3 km restoration length; no completion date is provided. In the 2022 land-cover context, wetlands cover 26 km² (6.3% of the country) and water covers 45 km² (10.9%). Because the target is measured in kilometres, it cannot be directly compared with those area figures.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Waterways restored",
+      "value": 3.0,
+      "unit": "km",
+      "timeframe": null,
+      "context": "A linear watershed restoration target; it is not directly comparable with the country’s 26 km² wetland area or 45 km² water area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Antigua and Barbuda’s extracted pledge is a restoration commitment focused on the northwest watershed. It aims to restore 3 km of waterways to improve the watershed’s ability to manage extreme rainfall and strengthen the resilience of the built environment. The project also provides concessional loans for households and small businesses and community grants and contracts to sustain interventions, but the only stated quantitative ecological target is the 3 km restoration length; no completion date is provided. In the 2022 land-cover context, wetlands cover 26 km² (6.3% of the country) and water covers 45 km² (10.9%). Because the target is measured in kilometres, it cannot be directly compared with those area figures.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Waterways restored\",\n      \"value\": 3.0,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": \"A linear watershed restoration target; it is not directly comparable with the country’s 26 km² wetland area or 45 km² water area.\"\n    }\n  ]\n}",
+  "errors": []
+}

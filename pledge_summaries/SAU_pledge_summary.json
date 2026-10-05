@@ -1,0 +1,74 @@
+{
+  "iso3": "SAU",
+  "country": "Saudi Arabia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 6,
+  "geo_context": {
+    "country_area_km2": 1932997.1,
+    "land_cover_km2": {
+      "Agriculture": 25199.0,
+      "Forest": 589.0,
+      "Grassland": 12.0,
+      "Wetland": 36.0,
+      "Settlement": 4728.0,
+      "Shrubland": 3978.0,
+      "Sparse_vegetation": 82767.0,
+      "Bare_area": 1815158.0,
+      "Water": 534.0
+    }
+  },
+  "summary": "Saudi Arabia's restoration commitments comprise ongoing and planned afforestation, land restoration and rehabilitation initiatives covering approximately 4,000,000 hectares to combat desertification—about 2.1% of the country's total land area—in a 2022 landscape that is 93.9% bare area. The Kingdom also joins a collective G20 ambition to reduce degraded land by 50% by 2040. Its mixed restoration-and-conservation agenda targets a 30% enhancement of Red Sea coastal biodiversity by 2040 through coral-reef, mangrove, seagrass and native-vegetation restoration and rewilding, alongside an integrated aquifer-recharge system to capture and treat stormwater over 100 hectares by 2040. Conservation commitments seek protected marine areas covering 30% of coastal marine zones and preservation of 95% of nature within NEOM. The supplied land-cover data do not provide denominators for the coastal, degraded-land or NEOM percentages.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation, land restoration and rehabilitation area",
+      "value": 4000000.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "For scale, ≈2.1% of total land area; 2022 bare area accounts for 93.9% of the country"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded land reduction (collective G20 ambition)",
+      "value": 50.0,
+      "unit": "%",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Red Sea coastal biological diversity enhancement",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Integrated aquifer-recharge system area",
+      "value": 100.0,
+      "unit": "hectares",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected marine area coverage",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Nature preservation within NEOM",
+      "value": 95.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Saudi Arabia's restoration commitments comprise ongoing and planned afforestation, land restoration and rehabilitation initiatives covering approximately 4,000,000 hectares to combat desertification—about 2.1% of the country's total land area—in a 2022 landscape that is 93.9% bare area. The Kingdom also joins a collective G20 ambition to reduce degraded land by 50% by 2040. Its mixed restoration-and-conservation agenda targets a 30% enhancement of Red Sea coastal biodiversity by 2040 through coral-reef, mangrove, seagrass and native-vegetation restoration and rewilding, alongside an integrated aquifer-recharge system to capture and treat stormwater over 100 hectares by 2040. Conservation commitments seek protected marine areas covering 30% of coastal marine zones and preservation of 95% of nature within NEOM. The supplied land-cover data do not provide denominators for the coastal, degraded-land or NEOM percentages.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation, land restoration and rehabilitation area\",\n      \"value\": 4000000.0,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"For scale, ≈2.1% of total land area; 2022 bare area accounts for 93.9% of the country\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded land reduction (collective G20 ambition)\",\n      \"value\": 50.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Red Sea coastal biological diversity enhancement\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Integrated aquifer-recharge system area\",\n      \"value\": 100.0,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected marine area coverage\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Nature preservation within NEOM\",\n      \"value\": 95.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

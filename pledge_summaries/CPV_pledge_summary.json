@@ -1,0 +1,114 @@
+{
+  "iso3": "CPV",
+  "country": "Cabo Verde",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 16,
+  "geo_context": {
+    "country_area_km2": 4080.2,
+    "land_cover_km2": {
+      "Agriculture": 235.0,
+      "Forest": 165.0,
+      "Grassland": 523.0,
+      "Wetland": 0.0,
+      "Settlement": 24.0,
+      "Shrubland": 1454.0,
+      "Sparse_vegetation": 60.0,
+      "Bare_area": 1420.0,
+      "Water": 203.0
+    }
+  },
+  "summary": "Restoration pledges aim to afforest 7,000 hectares and reforest 3,000 hectares by 2030 with diverse, resilient, adapted species; these areas are equivalent to roughly 42% and 18% of the current 165 km2 forest cover, respectively. Conservation commitments include delineating 6,000 hectares of priority areas by 2025, a 50% increase in coastal and marine protected sites from a reported 128,000 hectares by 2030, management plans for 100% of marine protected areas by 2030, a 30% marine protected-area target, and conservation and monitoring plans for 100% of priority species by 2030. Agriculture establishes 3,250 hectares of new agroforestry systems by 2030, equivalent in area to about 14% of current agricultural area. Cross-cutting measures seek a 21% AFOLU emissions reduction relative to BAU by 2035 and priority habitat restoration and ecological corridors in at least three landscapes or islands; a -21% LULUCF change is also reported.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation",
+      "value": 7000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area-equivalent to approximately 42% of current forest cover (165 km2)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area-equivalent to approximately 18% of current forest cover (165 km2)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority area delineation",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "Area-equivalent to approximately 1.5% of total land area (4,080 km2)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal and marine protected-site area increase",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "50% increase from the reported current baseline of 128,000 ha"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected-area management-plan coverage",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected-area share",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority species conservation and monitoring plans",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF change",
+      "value": -21,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New agroforestry systems",
+      "value": 3250,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area-equivalent to approximately 14% of current agricultural area (235 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFOLU emissions reduction relative to BAU",
+      "value": 21,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority habitat restoration and ecological corridors",
+      "value": 3,
+      "unit": "landscapes/islands",
+      "timeframe": null,
+      "context": "At least 3 landscapes/islands"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges aim to afforest 7,000 hectares and reforest 3,000 hectares by 2030 with diverse, resilient, adapted species; these areas are equivalent to roughly 42% and 18% of the current 165 km2 forest cover, respectively. Conservation commitments include delineating 6,000 hectares of priority areas by 2025, a 50% increase in coastal and marine protected sites from a reported 128,000 hectares by 2030, management plans for 100% of marine protected areas by 2030, a 30% marine protected-area target, and conservation and monitoring plans for 100% of priority species by 2030. Agriculture establishes 3,250 hectares of new agroforestry systems by 2030, equivalent in area to about 14% of current agricultural area. Cross-cutting measures seek a 21% AFOLU emissions reduction relative to BAU by 2035 and priority habitat restoration and ecological corridors in at least three landscapes or islands; a -21% LULUCF change is also reported.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation\",\n      \"value\": 7000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area-equivalent to approximately 42% of current forest cover (165 km2)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area-equivalent to approximately 18% of current forest cover (165 km2)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority area delineation\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"Area-equivalent to approximately 1.5% of total land area (4,080 km2)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal and marine protected-site area increase\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"50% increase from the reported current baseline of 128,000 ha\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine protected-area management-plan coverage\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine protected-area share\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority species conservation and monitoring plans\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF change\",\n      \"value\": -21,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New agroforestry systems\",\n      \"value\": 3250,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area-equivalent to approximately 14% of current agricultural area (235 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFOLU emissions reduction relative to BAU\",\n      \"value\": 21,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority habitat restoration and ecological corridors\",\n      \"value\": 3,\n      \"unit\": \"landscapes/islands\",\n      \"timeframe\": null,\n      \"context\": \"At least 3 landscapes/islands\"\n    }\n  ]\n}",
+  "errors": []
+}

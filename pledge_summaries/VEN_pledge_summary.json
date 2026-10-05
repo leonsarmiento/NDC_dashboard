@@ -1,0 +1,1498 @@
+{
+  "iso3": "VEN",
+  "country": "Venezuela",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 220,
+  "geo_context": {
+    "country_area_km2": 915503.9,
+    "land_cover_km2": {
+      "Agriculture": 128280.0,
+      "Forest": 520337.0,
+      "Grassland": 167117.0,
+      "Wetland": 19854.0,
+      "Settlement": 3539.0,
+      "Shrubland": 56985.0,
+      "Sparse_vegetation": 5581.0,
+      "Bare_area": 1024.0,
+      "Water": 12793.0
+    }
+  },
+  "summary": "Restoration is the dominant pledge: Venezuela aims to restore 215,520 ha by 2030, increase forest cover by 262,361 ha by 2030, and recover 791,050 ha of degraded land under land-degradation neutrality; annual reforestation commitments include 27,800 ha and a separate 25,000 ha/year. The 215,520-ha goal is about 0.41% of the 52.03 million ha currently mapped as forest. Conservation combines protection and management, including 28.72 million ha under strengthened ABRAE arrangements by 2030, 18.26 million ha of carbon sinks, 4.47 million ha monitored, and a 50% reduction in forest-fire incidence. Mixed measures cover 55,800 ha of forest management and 1,550 ha of community restoration. Agriculture targets 237,000 ha of sustainable or agroforestry production, 100,000 ha of cultivated land recovered and maintained each year, 542,246 ha under land-management plans in 2025–2030, and sustainable management of 30% of agricultural land. The annual 100,000-ha pledge equals roughly 0.78% of current agricultural cover; 237,000 ha equals 1.85%.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest-species establishment in mining-affected areas",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mining-area remediation projects selected and executed",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded terrestrial ecosystems under effective restoration",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National Action Plan actions executed",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land Degradation Neutrality integrated in territorial ordering",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Substrate produced for forest-species nurseries",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Marine-coastal ecosystems restored",
+      "value": 5,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mining-area reforestation",
+      "value": 18,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Morichal reforestation",
+      "value": 250,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.01% of current wetland cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest reforestation",
+      "value": 323,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban fruit and polychromatic forest area",
+      "value": 480,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forests restored",
+      "value": 1170,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded oil-industry areas recovered",
+      "value": 1200,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded forestlands restored in protected-area buffer zones",
+      "value": 1246,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mining- and hydrocarbon-affected areas restored",
+      "value": 2250,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration area component in fire-affected areas",
+      "value": 2476.2,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Part of the 12,381-ha fire-area restoration target"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forests and landscapes restored as carbon sinks",
+      "value": 2720,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest restoration and regeneration",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.006% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded forest and agricultural lands restored",
+      "value": 5246,
+      "unit": "ha",
+      "timeframe": "by 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Repopulated or reforested intervention areas",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Component of the 55,800-ha forest-management target"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration area component in fire-affected areas",
+      "value": 9904.8,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Part of the 12,381-ha fire-area restoration target"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Vegetation-fire-affected areas restored",
+      "value": 12381,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.024% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Planted forests established",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.05% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Areas repopulated or reforested",
+      "value": 52000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.10% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forests and lands rehabilitated through reforestation",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.19% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land restored through 136.5 million plants",
+      "value": 215520,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.41% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded land recovered under the Land Degradation Neutrality strategy",
+      "value": 791050,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.86% of the country's supplied land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation in prioritized watersheds",
+      "value": 25000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Annual rate equals ≈0.05% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum annual national reforestation plan",
+      "value": 27800,
+      "unit": "ha/year",
+      "timeframe": "annually",
+      "context": "Annual rate equals ≈0.053% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Aquatic area restored after invasive-species removal",
+      "value": 100000,
+      "unit": "m",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Avoided emissions from restoring degraded forest and agricultural lands",
+      "value": 2392849,
+      "unit": "tCO2eq",
+      "timeframe": "by 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual silviculture and urban-landscaping activities",
+      "value": 1,
+      "unit": "days",
+      "timeframe": "annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation activities",
+      "value": 50,
+      "unit": "activities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree-planting days",
+      "value": 108,
+      "unit": "days",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation days",
+      "value": 4000,
+      "unit": "days",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Landfills scheduled for sanitation",
+      "value": 35,
+      "unit": "landfills",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Sanitary landfills scheduled for construction",
+      "value": 2,
+      "unit": "landfills",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Transfer stations scheduled for construction",
+      "value": 4,
+      "unit": "stations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban landfills sanitized",
+      "value": 14,
+      "unit": "sites",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Sanitary landfills constructed",
+      "value": 1,
+      "unit": "sites",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Transfer stations constructed",
+      "value": 3,
+      "unit": "stations",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban landfills sanitized",
+      "value": 21,
+      "unit": "sites",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Sanitary landfills constructed",
+      "value": 1,
+      "unit": "sites",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Transfer stations constructed",
+      "value": 1,
+      "unit": "stations",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Ecobrigades formed",
+      "value": 11414,
+      "unit": "ecobrigades",
+      "timeframe": "from 2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "EcoBrigadists grouped into ecobrigades",
+      "value": 400000,
+      "unit": "people",
+      "timeframe": "from 2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Fruit forests established",
+      "value": 88,
+      "unit": "forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Polychromatic forests established",
+      "value": 127,
+      "unit": "forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Ornamental plants for urban green nuclei",
+      "value": 300000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted in degraded areas",
+      "value": 8700000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted for urban green nuclei",
+      "value": 4800000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Native trees planted in mining-affected areas",
+      "value": 48375,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Fruit and forest trees planted per federal entity",
+      "value": 50,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum trees planted per year in each participating space",
+      "value": 10,
+      "unit": "trees/year",
+      "timeframe": "to 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Native and promising plants cultivated",
+      "value": 100000000,
+      "unit": "plants",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual plant production",
+      "value": 16700000,
+      "unit": "plants/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Plants established",
+      "value": 26850000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Plants produced for reforestation and rehabilitation",
+      "value": 65000000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Nurseries established",
+      "value": 2300,
+      "unit": "nurseries",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Communal nurseries created",
+      "value": 5336,
+      "unit": "nurseries",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Technical-school students trained in restoration",
+      "value": 4000,
+      "unit": "students",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Participatory restoration-design workshops",
+      "value": 12,
+      "unit": "workshops",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Indigenous and criollo people incorporating restoration approaches",
+      "value": 7000,
+      "unit": "persons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Indigenous persons incorporating restoration approaches",
+      "value": 200,
+      "unit": "persons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "People incorporated into ecobrigades",
+      "value": 3850,
+      "unit": "brigades",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "People involved in tree-planting actions",
+      "value": 22000,
+      "unit": "people",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Young nursery workers trained",
+      "value": 5336,
+      "unit": "workers",
+      "timeframe": "within 6 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Maximum sulfur-content limit for vessels outside emission-control areas",
+      "value": 0.5,
+      "unit": "%",
+      "timeframe": "from 2020-01-01",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ozone-depleting-substance consumption reduction",
+      "value": 35,
+      "unit": "%",
+      "timeframe": "to date",
+      "context": "Reported reduction is more than 35%"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-cover change rate maintained",
+      "value": 0.2,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage states this is equivalent to 90,000 ha/year"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Basic schools reached by water-awareness programmes",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory under Areas Under Special Administration Regime",
+      "value": 68.4,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Coverage reported by the passage"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National land surface in sustainable forest-management ABRAEs",
+      "value": 11.15,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈10.21 million ha using the supplied national land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest share located in the Guiana Shield",
+      "value": 76,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈39.55 million ha of current mapped forest"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ships inspected under MARPOL",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Reported implementation level"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Blue-carbon monitoring programme implemented at pilot sites",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National ODS elimination under the Montreal Protocol",
+      "value": 67.5,
+      "unit": "%",
+      "timeframe": "2013-2040 elimination schedule",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "ODS consumption reduction in refrigeration and climate control",
+      "value": 67.5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Potential vegetation-fire impact in Amazonas",
+      "value": 1.6,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in forest-fire incidence",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Methodology developed and applied for forest carbon estimates",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Guidelines and registration mechanisms for environmental-damage compensation",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon-sink and protection forests maintained by PDVSA",
+      "value": 14423,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.03% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural forests improved through silvicultural techniques",
+      "value": 800,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Component of the 55,800-ha forest-management target"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Middle Wilderness Reserve areas designated",
+      "value": 24000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.05% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Area referenced for Tortuga",
+      "value": 468.55,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Declared forest lots",
+      "value": 967093,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.86% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest ecosystems monitored and evaluated",
+      "value": 4465909,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈8.58% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "ABRAE areas under improved management for conservation and sustainable use",
+      "value": 7712919,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈14.82% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "ABRAE area subject to regulatory strengthening",
+      "value": 10464227.88,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈11.43% of the country's supplied land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Amazonas protected terrestrial areas covered by management plans",
+      "value": 10538305.98,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈11.51% of the country's supplied land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon sinks conserved in the Caroní River Basin",
+      "value": 18263462.53,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈35.10% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "ABRAE area covered by strengthened management arrangements",
+      "value": 28715452.86,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈31.37% of the country's supplied land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon fixation in sink forests",
+      "value": 14000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈26.90% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Maximum HFC consumption",
+      "value": 5157618.44,
+      "unit": "tCO2eq",
+      "timeframe": "2025-2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deadline to submit national coastal-zone conservation policies",
+      "value": 1,
+      "unit": "year",
+      "timeframe": "within 1 year of decree publication",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Prioritized watersheds proposed for adaptation measures",
+      "value": 2,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Decree projects for new ABRAE declarations",
+      "value": 4,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Decree projects for ABRAE management and use regulations",
+      "value": 2,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Degree theses on hydrocarbon impacts on ecosystems",
+      "value": 3,
+      "unit": "theses",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Indigenous community volunteer brigades",
+      "value": 3,
+      "unit": "brigades",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Management and use plans elaborated",
+      "value": 4,
+      "unit": "plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Laboratory analysis and environmental-impact assessment services",
+      "value": 5,
+      "unit": "services",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ramsar wetland sites",
+      "value": 5,
+      "unit": "sites",
+      "timeframe": null,
+      "context": "Reported current count"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity conservation workshops",
+      "value": 9,
+      "unit": "workshops",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual habitat and housing plans",
+      "value": 9,
+      "unit": "plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal-zone integrated-management programmes",
+      "value": 10,
+      "unit": "programmes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Management and conservation plans in prioritized watersheds",
+      "value": 11,
+      "unit": "plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Decree projects modifying ABRAE polygons",
+      "value": 16,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Potential protected-area and territorial-ordering cases",
+      "value": 20,
+      "unit": "cases",
+      "timeframe": null,
+      "context": "The reported estimate is more than 20 cases"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Environmental brigades in university spaces",
+      "value": 22,
+      "unit": "brigades",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecoparks created annually",
+      "value": 24,
+      "unit": "ecoparks",
+      "timeframe": "annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Permanent multipurpose forest-monitoring parcels",
+      "value": 36,
+      "unit": "parcels",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable-development training seminars",
+      "value": 120,
+      "unit": "seminars",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Revolutionary water-service transfer experiences consolidated",
+      "value": 292,
+      "unit": "experiences",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Climate-awareness brigades established",
+      "value": 665,
+      "unit": "brigades",
+      "timeframe": "currently",
+      "context": "Reported completed count"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community Water Management Offices established",
+      "value": 800,
+      "unit": "offices",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water Technical Tables consolidated",
+      "value": 20000,
+      "unit": "tables",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National educational circuits forming Ecological Brigades",
+      "value": 3663,
+      "unit": "circuits",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecological Brigades formed for educational institutions",
+      "value": 29376,
+      "unit": "brigades",
+      "timeframe": null,
+      "context": "Reported completed count"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Alternative bio-construction dwellings",
+      "value": 700000,
+      "unit": "dwellings",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wildlife specimens bred per species",
+      "value": 140000,
+      "unit": "specimens/species",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wildlife specimens released per species",
+      "value": 140000,
+      "unit": "specimens/species",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wildlife specimens planted per species",
+      "value": 700,
+      "unit": "specimens/species",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Aquatic ecosystems monitored",
+      "value": 300,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural, fisheries and forestry areas managed sustainably",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Equivalent to ≈3.85 million ha if applied to current mapped agriculture"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable-management milestone in land-production systems",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Scrublands and pastures under sustainable management",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈11.21 million ha if applied to current mapped grassland and shrubland"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic waste recovered or treated in selected communities",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction of organic waste disposed in landfills",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic waste collection and processing indicator",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic waste recovered or treated in selected Aragua municipalities",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual waste and organic-residue collection and processing",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Landscapes under improved practices outside ABRAEs",
+      "value": 50,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Component of the 1,550-ha community-restoration target"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Productive-patio agroforestry systems",
+      "value": 178,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural area cultivated",
+      "value": 200,
+      "unit": "ha",
+      "timeframe": "2025-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable agroforestry systems using conucos and crop residues",
+      "value": 401,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Planted forests established for multiple-use purposes",
+      "value": 155000,
+      "unit": "ha",
+      "timeframe": "over an eight-year period",
+      "context": "≈0.30% of current forest cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cultivated agricultural area recovered and maintained annually",
+      "value": 100000,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": "Annual area equals ≈0.78% of current agricultural cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Landscapes under climate-smart agroforestry and sustainable management",
+      "value": 237000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.85% of current agricultural cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land under sustainable land-management plans",
+      "value": 542246,
+      "unit": "ha",
+      "timeframe": "2025-2030",
+      "context": "≈4.23% of current agricultural cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Non-contaminating agroecological systems established",
+      "value": 90,
+      "unit": "systems",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroecology and organic-production outreach, training and support activities",
+      "value": 50000,
+      "unit": "activities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural communities benefiting from agroecological systems",
+      "value": 90,
+      "unit": "communities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers benefiting from resilient production activities",
+      "value": 200000,
+      "unit": "farmers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Food-production contingency CLAPs activated",
+      "value": 10000,
+      "unit": "CLAPs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Institutional sustainability areas for students and staff",
+      "value": 1250,
+      "unit": "areas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainability areas for grassroots organizations",
+      "value": 2400,
+      "unit": "areas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Indigenous communes strengthened for communal agro-food development",
+      "value": 3200,
+      "unit": "communes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Technical agricultural schools incorporated into restoration strategies",
+      "value": 12,
+      "unit": "schools",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Indigenous people benefiting from resilient livelihoods and forest co-management",
+      "value": 250,
+      "unit": "persons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Schools incorporated into the organic-waste management pilot",
+      "value": 10,
+      "unit": "schools",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Producer activities promoting sustainable agricultural practices",
+      "value": 75,
+      "unit": "activities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Circular-economy composting pilot projects",
+      "value": 1,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biopesticides produced",
+      "value": 2705,
+      "unit": "L",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biofertilizer produced",
+      "value": 119,
+      "unit": "L",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Substrate produced",
+      "value": 1288.3,
+      "unit": "m3",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biofertilizers produced in agricultural bio-input laboratories",
+      "value": 20000,
+      "unit": "L",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biocontrol-agent doses produced",
+      "value": 20000,
+      "unit": "doses",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biosal processed",
+      "value": 2000,
+      "unit": "tonnes",
+      "timeframe": "2025-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Compensatory-forest increase",
+      "value": 1820,
+      "unit": "ha",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry systems established in priority river basins",
+      "value": 126,
+      "unit": "ha",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forests under participatory sustainable management",
+      "value": 166634,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.32% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Savanna protection area for passive restoration",
+      "value": 12081,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.07% of current grassland cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community restoration and co-management in ABRAEs",
+      "value": 1550,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Active forest and multi-use fruit-tree restoration in ABRAEs",
+      "value": 700,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Component of the 1,550-ha community-restoration target"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry restoration in ABRAEs",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Component of the 1,550-ha community-restoration target"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded agricultural lands restored in ABRAE buffer zones",
+      "value": 4000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.03% of current agricultural cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "ABRAE buffer zones under improved management",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.58% of current forest cover for scale"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land under forest-management practices",
+      "value": 55800,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈1.07% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest and agroforestry systems established as environmental-recovery carbon sinks",
+      "value": 1838,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Scrublands and pastures naturally regenerated as forest",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈11.21 million ha if applied to current mapped grassland and shrubland"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Institutional coordination and participatory mechanisms improved",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Carbon capture increase in the Caroní River Basin",
+      "value": -1535378,
+      "unit": "tCO2eq",
+      "timeframe": null,
+      "context": "Reported using a negative sign to denote carbon capture"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Net carbon dioxide equivalent sequestered",
+      "value": -4894400.08,
+      "unit": "tCO2eq",
+      "timeframe": "by 2030",
+      "context": "Reported using a negative sign to denote sequestration"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Institutional nurseries installed",
+      "value": 55,
+      "unit": "nurseries",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community nurseries installed",
+      "value": 240,
+      "unit": "nurseries",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Native and promising plants produced",
+      "value": 8797255,
+      "unit": "plants",
+      "timeframe": "5-year period from 2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Legal instruments for agroecological crop production",
+      "value": 10,
+      "unit": "instruments",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reservoirs rehabilitated and stabilized",
+      "value": 104,
+      "unit": "reservoirs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority basins selected for ecosystem and agricultural intervention",
+      "value": 11,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Participatory community restoration and co-management plans",
+      "value": 11,
+      "unit": "plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Aquaculture and restocking species covered",
+      "value": 3,
+      "unit": "species",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Food-security research, innovation and project lines",
+      "value": 17,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is the dominant pledge: Venezuela aims to restore 215,520 ha by 2030, increase forest cover by 262,361 ha by 2030, and recover 791,050 ha of degraded land under land-degradation neutrality; annual reforestation commitments include 27,800 ha and a separate 25,000 ha/year. The 215,520-ha goal is about 0.41% of the 52.03 million ha currently mapped as forest. Conservation combines protection and management, including 28.72 million ha under strengthened ABRAE arrangements by 2030, 18.26 million ha of carbon sinks, 4.47 million ha monitored, and a 50% reduction in forest-fire incidence. Mixed measures cover 55,800 ha of forest management and 1,550 ha of community restoration. Agriculture targets 237,000 ha of sustainable or agroforestry production, 100,000 ha of cultivated land recovered and maintained each year, 542,246 ha under land-management plans in 2025–2030, and sustainable management of 30% of agricultural land. The annual 100,000-ha pledge equals roughly 0.78% of current agricultural cover; 237,000 ha equals 1.85%.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest-species establishment in mining-affected areas\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mining-area remediation projects selected and executed\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded terrestrial ecosystems under effective restoration\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National Action Plan actions executed\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land Degradation Neutrality integrated in territorial ordering\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Substrate produced for forest-species nurseries\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Marine-coastal ecosystems restored\",\n      \"value\": 5,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mining-area reforestation\",\n      \"value\": 18,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Morichal reforestation\",\n      \"value\": 250,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.01% of current wetland cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest reforestation\",\n      \"value\": 323,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban fruit and polychromatic forest area\",\n      \"value\": 480,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forests restored\",\n      \"value\": 1170,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded oil-industry areas recovered\",\n      \"value\": 1200,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded forestlands restored in protected-area buffer zones\",\n      \"value\": 1246,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mining- and hydrocarbon-affected areas restored\",\n      \"value\": 2250,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration area component in fire-affected areas\",\n      \"value\": 2476.2,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Part of the 12,381-ha fire-area restoration target\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forests and landscapes restored as carbon sinks\",\n      \"value\": 2720,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest restoration and regeneration\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.006% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded forest and agricultural lands restored\",\n      \"value\": 5246,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Repopulated or reforested intervention areas\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Component of the 55,800-ha forest-management target\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration area component in fire-affected areas\",\n      \"value\": 9904.8,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Part of the 12,381-ha fire-area restoration target\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Vegetation-fire-affected areas restored\",\n      \"value\": 12381,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.024% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Planted forests established\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.05% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Areas repopulated or reforested\",\n      \"value\": 52000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.10% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forests and lands rehabilitated through reforestation\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.19% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land restored through 136.5 million plants\",\n      \"value\": 215520,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.41% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded land recovered under the Land Degradation Neutrality strategy\",\n      \"value\": 791050,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.86% of the country's supplied land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation in prioritized watersheds\",\n      \"value\": 25000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Annual rate equals ≈0.05% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum annual national reforestation plan\",\n      \"value\": 27800,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"annually\",\n      \"context\": \"Annual rate equals ≈0.053% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Aquatic area restored after invasive-species removal\",\n      \"value\": 100000,\n      \"unit\": \"m\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Avoided emissions from restoring degraded forest and agricultural lands\",\n      \"value\": 2392849,\n      \"unit\": \"tCO2eq\",\n      \"timeframe\": \"by 2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual silviculture and urban-landscaping activities\",\n      \"value\": 1,\n      \"unit\": \"days\",\n      \"timeframe\": \"annually\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation activities\",\n      \"value\": 50,\n      \"unit\": \"activities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Tree-planting days\",\n      \"value\": 108,\n      \"unit\": \"days\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation days\",\n      \"value\": 4000,\n      \"unit\": \"days\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Landfills scheduled for sanitation\",\n      \"value\": 35,\n      \"unit\": \"landfills\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Sanitary landfills scheduled for construction\",\n      \"value\": 2,\n      \"unit\": \"landfills\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Transfer stations scheduled for construction\",\n      \"value\": 4,\n      \"unit\": \"stations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban landfills sanitized\",\n      \"value\": 14,\n      \"unit\": \"sites\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Sanitary landfills constructed\",\n      \"value\": 1,\n      \"unit\": \"sites\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Transfer stations constructed\",\n      \"value\": 3,\n      \"unit\": \"stations\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban landfills sanitized\",\n      \"value\": 21,\n      \"unit\": \"sites\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Sanitary landfills constructed\",\n      \"value\": 1,\n      \"unit\": \"sites\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Transfer stations constructed\",\n      \"value\": 1,\n      \"unit\": \"stations\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Ecobrigades formed\",\n      \"value\": 11414,\n      \"unit\": \"ecobrigades\",\n      \"timeframe\": \"from 2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EcoBrigadists grouped into ecobrigades\",\n      \"value\": 400000,\n      \"unit\": \"people\",\n      \"timeframe\": \"from 2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Fruit forests established\",\n      \"value\": 88,\n      \"unit\": \"forests\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Polychromatic forests established\",\n      \"value\": 127,\n      \"unit\": \"forests\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Ornamental plants for urban green nuclei\",\n      \"value\": 300000,\n      \"unit\": \"plants\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted in degraded areas\",\n      \"value\": 8700000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted for urban green nuclei\",\n      \"value\": 4800000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Native trees planted in mining-affected areas\",\n      \"value\": 48375,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Fruit and forest trees planted per federal entity\",\n      \"value\": 50,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum trees planted per year in each participating space\",\n      \"value\": 10,\n      \"unit\": \"trees/year\",\n      \"timeframe\": \"to 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Native and promising plants cultivated\",\n      \"value\": 100000000,\n      \"unit\": \"plants\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual plant production\",\n      \"value\": 16700000,\n      \"unit\": \"plants/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Plants established\",\n      \"value\": 26850000,\n      \"unit\": \"plants\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Plants produced for reforestation and rehabilitation\",\n      \"value\": 65000000,\n      \"unit\": \"plants\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Nurseries established\",\n      \"value\": 2300,\n      \"unit\": \"nurseries\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Communal nurseries created\",\n      \"value\": 5336,\n      \"unit\": \"nurseries\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Technical-school students trained in restoration\",\n      \"value\": 4000,\n      \"unit\": \"students\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Participatory restoration-design workshops\",\n      \"value\": 12,\n      \"unit\": \"workshops\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Indigenous and criollo people incorporating restoration approaches\",\n      \"value\": 7000,\n      \"unit\": \"persons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Indigenous persons incorporating restoration approaches\",\n      \"value\": 200,\n      \"unit\": \"persons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"People incorporated into ecobrigades\",\n      \"value\": 3850,\n      \"unit\": \"brigades\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"People involved in tree-planting actions\",\n      \"value\": 22000,\n      \"unit\": \"people\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Young nursery workers trained\",\n      \"value\": 5336,\n      \"unit\": \"workers\",\n      \"timeframe\": \"within 6 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Maximum sulfur-content limit for vessels outside emission-control areas\",\n      \"value\": 0.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2020-01-01\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ozone-depleting-substance consumption reduction\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": \"to date\",\n      \"context\": \"Reported reduction is more than 35%\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-cover change rate maintained\",\n      \"value\": 0.2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage states this is equivalent to 90,000 ha/year\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Basic schools reached by water-awareness programmes\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National territory under Areas Under Special Administration Regime\",\n      \"value\": 68.4,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Coverage reported by the passage\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National land surface in sustainable forest-management ABRAEs\",\n      \"value\": 11.15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈10.21 million ha using the supplied national land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest share located in the Guiana Shield\",\n      \"value\": 76,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈39.55 million ha of current mapped forest\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ships inspected under MARPOL\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Reported implementation level\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Blue-carbon monitoring programme implemented at pilot sites\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National ODS elimination under the Montreal Protocol\",\n      \"value\": 67.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"2013-2040 elimination schedule\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"ODS consumption reduction in refrigeration and climate control\",\n      \"value\": 67.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Potential vegetation-fire impact in Amazonas\",\n      \"value\": 1.6,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in forest-fire incidence\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Methodology developed and applied for forest carbon estimates\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Guidelines and registration mechanisms for environmental-damage compensation\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon-sink and protection forests maintained by PDVSA\",\n      \"value\": 14423,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.03% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural forests improved through silvicultural techniques\",\n      \"value\": 800,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Component of the 55,800-ha forest-management target\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Middle Wilderness Reserve areas designated\",\n      \"value\": 24000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.05% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Area referenced for Tortuga\",\n      \"value\": 468.55,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Declared forest lots\",\n      \"value\": 967093,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.86% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest ecosystems monitored and evaluated\",\n      \"value\": 4465909,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈8.58% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"ABRAE areas under improved management for conservation and sustainable use\",\n      \"value\": 7712919,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈14.82% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"ABRAE area subject to regulatory strengthening\",\n      \"value\": 10464227.88,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈11.43% of the country's supplied land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Amazonas protected terrestrial areas covered by management plans\",\n      \"value\": 10538305.98,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈11.51% of the country's supplied land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon sinks conserved in the Caroní River Basin\",\n      \"value\": 18263462.53,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈35.10% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"ABRAE area covered by strengthened management arrangements\",\n      \"value\": 28715452.86,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈31.37% of the country's supplied land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon fixation in sink forests\",\n      \"value\": 14000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈26.90% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Maximum HFC consumption\",\n      \"value\": 5157618.44,\n      \"unit\": \"tCO2eq\",\n      \"timeframe\": \"2025-2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deadline to submit national coastal-zone conservation policies\",\n      \"value\": 1,\n      \"unit\": \"year\",\n      \"timeframe\": \"within 1 year of decree publication\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Prioritized watersheds proposed for adaptation measures\",\n      \"value\": 2,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Decree projects for new ABRAE declarations\",\n      \"value\": 4,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Decree projects for ABRAE management and use regulations\",\n      \"value\": 2,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Degree theses on hydrocarbon impacts on ecosystems\",\n      \"value\": 3,\n      \"unit\": \"theses\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Indigenous community volunteer brigades\",\n      \"value\": 3,\n      \"unit\": \"brigades\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Management and use plans elaborated\",\n      \"value\": 4,\n      \"unit\": \"plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Laboratory analysis and environmental-impact assessment services\",\n      \"value\": 5,\n      \"unit\": \"services\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ramsar wetland sites\",\n      \"value\": 5,\n      \"unit\": \"sites\",\n      \"timeframe\": null,\n      \"context\": \"Reported current count\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity conservation workshops\",\n      \"value\": 9,\n      \"unit\": \"workshops\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual habitat and housing plans\",\n      \"value\": 9,\n      \"unit\": \"plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal-zone integrated-management programmes\",\n      \"value\": 10,\n      \"unit\": \"programmes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Management and conservation plans in prioritized watersheds\",\n      \"value\": 11,\n      \"unit\": \"plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Decree projects modifying ABRAE polygons\",\n      \"value\": 16,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Potential protected-area and territorial-ordering cases\",\n      \"value\": 20,\n      \"unit\": \"cases\",\n      \"timeframe\": null,\n      \"context\": \"The reported estimate is more than 20 cases\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Environmental brigades in university spaces\",\n      \"value\": 22,\n      \"unit\": \"brigades\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecoparks created annually\",\n      \"value\": 24,\n      \"unit\": \"ecoparks\",\n      \"timeframe\": \"annually\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Permanent multipurpose forest-monitoring parcels\",\n      \"value\": 36,\n      \"unit\": \"parcels\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sustainable-development training seminars\",\n      \"value\": 120,\n      \"unit\": \"seminars\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Revolutionary water-service transfer experiences consolidated\",\n      \"value\": 292,\n      \"unit\": \"experiences\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Climate-awareness brigades established\",\n      \"value\": 665,\n      \"unit\": \"brigades\",\n      \"timeframe\": \"currently\",\n      \"context\": \"Reported completed count\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community Water Management Offices established\",\n      \"value\": 800,\n      \"unit\": \"offices\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water Technical Tables consolidated\",\n      \"value\": 20000,\n      \"unit\": \"tables\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National educational circuits forming Ecological Brigades\",\n      \"value\": 3663,\n      \"unit\": \"circuits\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecological Brigades formed for educational institutions\",\n      \"value\": 29376,\n      \"unit\": \"brigades\",\n      \"timeframe\": null,\n      \"context\": \"Reported completed count\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Alternative bio-construction dwellings\",\n      \"value\": 700000,\n      \"unit\": \"dwellings\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wildlife specimens bred per species\",\n      \"value\": 140000,\n      \"unit\": \"specimens/species\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wildlife specimens released per species\",\n      \"value\": 140000,\n      \"unit\": \"specimens/species\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wildlife specimens planted per species\",\n      \"value\": 700,\n      \"unit\": \"specimens/species\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Aquatic ecosystems monitored\",\n      \"value\": 300,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural, fisheries and forestry areas managed sustainably\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈3.85 million ha if applied to current mapped agriculture\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable-management milestone in land-production systems\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Scrublands and pastures under sustainable management\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈11.21 million ha if applied to current mapped grassland and shrubland\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic waste recovered or treated in selected communities\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction of organic waste disposed in landfills\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic waste collection and processing indicator\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic waste recovered or treated in selected Aragua municipalities\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual waste and organic-residue collection and processing\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Landscapes under improved practices outside ABRAEs\",\n      \"value\": 50,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Component of the 1,550-ha community-restoration target\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Productive-patio agroforestry systems\",\n      \"value\": 178,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural area cultivated\",\n      \"value\": 200,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2025-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable agroforestry systems using conucos and crop residues\",\n      \"value\": 401,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Planted forests established for multiple-use purposes\",\n      \"value\": 155000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"over an eight-year period\",\n      \"context\": \"≈0.30% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cultivated agricultural area recovered and maintained annually\",\n      \"value\": 100000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Annual area equals ≈0.78% of current agricultural cover\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Landscapes under climate-smart agroforestry and sustainable management\",\n      \"value\": 237000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.85% of current agricultural cover\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural land under sustainable land-management plans\",\n      \"value\": 542246,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2025-2030\",\n      \"context\": \"≈4.23% of current agricultural cover\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Non-contaminating agroecological systems established\",\n      \"value\": 90,\n      \"unit\": \"systems\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroecology and organic-production outreach, training and support activities\",\n      \"value\": 50000,\n      \"unit\": \"activities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural communities benefiting from agroecological systems\",\n      \"value\": 90,\n      \"unit\": \"communities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers benefiting from resilient production activities\",\n      \"value\": 200000,\n      \"unit\": \"farmers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Food-production contingency CLAPs activated\",\n      \"value\": 10000,\n      \"unit\": \"CLAPs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Institutional sustainability areas for students and staff\",\n      \"value\": 1250,\n      \"unit\": \"areas\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainability areas for grassroots organizations\",\n      \"value\": 2400,\n      \"unit\": \"areas\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Indigenous communes strengthened for communal agro-food development\",\n      \"value\": 3200,\n      \"unit\": \"communes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Technical agricultural schools incorporated into restoration strategies\",\n      \"value\": 12,\n      \"unit\": \"schools\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Indigenous people benefiting from resilient livelihoods and forest co-management\",\n      \"value\": 250,\n      \"unit\": \"persons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Schools incorporated into the organic-waste management pilot\",\n      \"value\": 10,\n      \"unit\": \"schools\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Producer activities promoting sustainable agricultural practices\",\n      \"value\": 75,\n      \"unit\": \"activities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Circular-economy composting pilot projects\",\n      \"value\": 1,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biopesticides produced\",\n      \"value\": 2705,\n      \"unit\": \"L\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biofertilizer produced\",\n      \"value\": 119,\n      \"unit\": \"L\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Substrate produced\",\n      \"value\": 1288.3,\n      \"unit\": \"m3\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biofertilizers produced in agricultural bio-input laboratories\",\n      \"value\": 20000,\n      \"unit\": \"L\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biocontrol-agent doses produced\",\n      \"value\": 20000,\n      \"unit\": \"doses\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biosal processed\",\n      \"value\": 2000,\n      \"unit\": \"tonnes\",\n      \"timeframe\": \"2025-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Compensatory-forest increase\",\n      \"value\": 1820,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroforestry systems established in priority river basins\",\n      \"value\": 126,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forests under participatory sustainable management\",\n      \"value\": 166634,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.32% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Savanna protection area for passive restoration\",\n      \"value\": 12081,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.07% of current grassland cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community restoration and co-management in ABRAEs\",\n      \"value\": 1550,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Active forest and multi-use fruit-tree restoration in ABRAEs\",\n      \"value\": 700,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Component of the 1,550-ha community-restoration target\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroforestry restoration in ABRAEs\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Component of the 1,550-ha community-restoration target\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded agricultural lands restored in ABRAE buffer zones\",\n      \"value\": 4000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.03% of current agricultural cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"ABRAE buffer zones under improved management\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.58% of current forest cover for scale\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Land under forest-management practices\",\n      \"value\": 55800,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1.07% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest and agroforestry systems established as environmental-recovery carbon sinks\",\n      \"value\": 1838,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Scrublands and pastures naturally regenerated as forest\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈11.21 million ha if applied to current mapped grassland and shrubland\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Institutional coordination and participatory mechanisms improved\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Carbon capture increase in the Caroní River Basin\",\n      \"value\": -1535378,\n      \"unit\": \"tCO2eq\",\n      \"timeframe\": null,\n      \"context\": \"Reported using a negative sign to denote carbon capture\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Net carbon dioxide equivalent sequestered\",\n      \"value\": -4894400.08,\n      \"unit\": \"tCO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Reported using a negative sign to denote sequestration\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Institutional nurseries installed\",\n      \"value\": 55,\n      \"unit\": \"nurseries\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community nurseries installed\",\n      \"value\": 240,\n      \"unit\": \"nurseries\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Native and promising plants produced\",\n      \"value\": 8797255,\n      \"unit\": \"plants\",\n      \"timeframe\": \"5-year period from 2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Legal instruments for agroecological crop production\",\n      \"value\": 10,\n      \"unit\": \"instruments\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reservoirs rehabilitated and stabilized\",\n      \"value\": 104,\n      \"unit\": \"reservoirs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority basins selected for ecosystem and agricultural intervention\",\n      \"value\": 11,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Participatory community restoration and co-management plans\",\n      \"value\": 11,\n      \"unit\": \"plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Aquaculture and restocking species covered\",\n      \"value\": 3,\n      \"unit\": \"species\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Food-security research, innovation and project lines\",\n      \"value\": 17,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

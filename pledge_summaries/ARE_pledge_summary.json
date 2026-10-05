@@ -1,0 +1,178 @@
+{
+  "iso3": "ARE",
+  "country": "United Arab Emirates",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 23,
+  "geo_context": {
+    "country_area_km2": 71216.4,
+    "land_cover_km2": {
+      "Agriculture": 2317.0,
+      "Forest": 33.0,
+      "Grassland": 0.0,
+      "Wetland": 5.0,
+      "Settlement": 3083.0,
+      "Shrubland": 12.0,
+      "Sparse_vegetation": 3124.0,
+      "Bare_area": 62373.0,
+      "Water": 102.0
+    }
+  },
+  "summary": "Restoration and mixed pledges include 160 million additional mangroves by 2030, a 100 million-mangrove project, restoring half of recent mangrove losses, and enhancing negative-emission capacity to −9.3 MtCO2e by 2035; Dubai’s tree-planting target is 100% complete. Conservation commitments include 18.4% protection of terrestrial and inland water and 12.1% of coastal and marine areas (met by 2020), a 30% land-and-sea goal for 2030, and 60% of Dubai’s area preserved as natural areas or reserves by 2040. The UAE endorsed global mangrove and seagrass goals of 15 million hectares and 150,000 km² by 2030, alongside a $4 billion mangrove-investment goal by 2030 and $100 million for nature-climate projects. Of the UAE’s 71,216 km² land area, 87.6% is bare, 3.3% agricultural, and only 33 km² is forest. Low-relevance agriculture entries give an unspecified 39% target and a built-environment water-use endpoint of 2,393 million cubic meters by 2050.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional mangrove planting",
+      "value": 160000000,
+      "unit": "mangroves",
+      "timeframe": "by 2030",
+      "context": "The passage separately reports 201 km² of natural and planted mangrove coverage, but no planting density, so the count cannot be converted to an area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree-planting initiative completion",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "past year",
+      "context": "Dubai Municipality reports that the initiative target was achieved over the past year."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Recent mangrove losses restored",
+      "value": 0.5,
+      "unit": "share",
+      "timeframe": null,
+      "context": "No UAE-specific area or deadline is stated for this mangrove-loss restoration target."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Aichi terrestrial and inland-water protection",
+      "value": 18.4,
+      "unit": "%",
+      "timeframe": "by 2020",
+      "context": "The passage describes this Aichi protection target as met."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Aichi coastal and marine-area protection",
+      "value": 12.1,
+      "unit": "%",
+      "timeframe": "by 2020",
+      "context": "The passage describes this Aichi protection target as met."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "30x30 terrestrial and marine protection",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The goal covers both land and sea; the supplied 71,216 km² total is land area only."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Dubai natural areas and reserves preserved",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2040",
+      "context": "This is a Dubai-specific target; no Dubai area is supplied."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Nature-based mitigation contribution",
+      "value": 10,
+      "unit": "GtCO2e per year",
+      "timeframe": null,
+      "context": "The framework sets a global contribution goal rather than a stated UAE-specific annual target."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Global mangrove protection doubling",
+      "value": 2,
+      "unit": "times",
+      "timeframe": null,
+      "context": "The objective is global; no UAE-specific baseline is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove conservation investment",
+      "value": 4,
+      "unit": "USD billion",
+      "timeframe": "by 2030",
+      "context": "No UAE-specific spending or ecosystem area is specified for this financial goal."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "African heritage conservation finance",
+      "value": 1000000,
+      "unit": "USD",
+      "timeframe": null,
+      "context": "The funds are directed toward African heritage conservation, including Lake Malawi National Park."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture-sector target with unspecified indicator",
+      "value": 39,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The excerpt does not define the indicator or denominator for the 39% value."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Built-environment water-use endpoint",
+      "value": 2393,
+      "unit": "million cubic meters",
+      "timeframe": "by 2050",
+      "context": "The stated endpoint is for built-environment water use, not a land-cover area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Negative-emission capacity",
+      "value": -9.3,
+      "unit": "MtCO2e",
+      "timeframe": "by 2035",
+      "context": "The value is linked to land-use sequestration, mangrove planting and direct air capture; no area is specified."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFOLU emissions reduction",
+      "value": -5.6,
+      "unit": "MTCO2e",
+      "timeframe": null,
+      "context": "The excerpt provides no timeframe for this AFOLU table value."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangroves conserved and restored",
+      "value": 15000000,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "This is a global Mangrove Breakthrough goal endorsed by the UAE, not a stated UAE-only area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Seagrass meadows protected and restored",
+      "value": 150000,
+      "unit": "km²",
+      "timeframe": "by 2030",
+      "context": "This is a global Seagrass Breakthrough goal; no UAE seagrass baseline is supplied."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove plantation project",
+      "value": 100000000,
+      "unit": "mangroves",
+      "timeframe": null,
+      "context": "The passage gives no planting deadline or area for the project."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Nature-climate aid finance",
+      "value": 100,
+      "unit": "USD mn",
+      "timeframe": null,
+      "context": "The package names forest, mangrove and coastal interventions but specifies no area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration and mixed pledges include 160 million additional mangroves by 2030, a 100 million-mangrove project, restoring half of recent mangrove losses, and enhancing negative-emission capacity to −9.3 MtCO2e by 2035; Dubai’s tree-planting target is 100% complete. Conservation commitments include 18.4% protection of terrestrial and inland water and 12.1% of coastal and marine areas (met by 2020), a 30% land-and-sea goal for 2030, and 60% of Dubai’s area preserved as natural areas or reserves by 2040. The UAE endorsed global mangrove and seagrass goals of 15 million hectares and 150,000 km² by 2030, alongside a $4 billion mangrove-investment goal by 2030 and $100 million for nature-climate projects. Of the UAE’s 71,216 km² land area, 87.6% is bare, 3.3% agricultural, and only 33 km² is forest. Low-relevance agriculture entries give an unspecified 39% target and a built-environment water-use endpoint of 2,393 million cubic meters by 2050.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional mangrove planting\",\n      \"value\": 160000000,\n      \"unit\": \"mangroves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage separately reports 201 km² of natural and planted mangrove coverage, but no planting density, so the count cannot be converted to an area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Tree-planting initiative completion\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"past year\",\n      \"context\": \"Dubai Municipality reports that the initiative target was achieved over the past year.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Recent mangrove losses restored\",\n      \"value\": 0.5,\n      \"unit\": \"share\",\n      \"timeframe\": null,\n      \"context\": \"No UAE-specific area or deadline is stated for this mangrove-loss restoration target.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Aichi terrestrial and inland-water protection\",\n      \"value\": 18.4,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2020\",\n      \"context\": \"The passage describes this Aichi protection target as met.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Aichi coastal and marine-area protection\",\n      \"value\": 12.1,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2020\",\n      \"context\": \"The passage describes this Aichi protection target as met.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"30x30 terrestrial and marine protection\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The goal covers both land and sea; the supplied 71,216 km² total is land area only.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Dubai natural areas and reserves preserved\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040\",\n      \"context\": \"This is a Dubai-specific target; no Dubai area is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Nature-based mitigation contribution\",\n      \"value\": 10,\n      \"unit\": \"GtCO2e per year\",\n      \"timeframe\": null,\n      \"context\": \"The framework sets a global contribution goal rather than a stated UAE-specific annual target.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Global mangrove protection doubling\",\n      \"value\": 2,\n      \"unit\": \"times\",\n      \"timeframe\": null,\n      \"context\": \"The objective is global; no UAE-specific baseline is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mangrove conservation investment\",\n      \"value\": 4,\n      \"unit\": \"USD billion\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"No UAE-specific spending or ecosystem area is specified for this financial goal.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"African heritage conservation finance\",\n      \"value\": 1000000,\n      \"unit\": \"USD\",\n      \"timeframe\": null,\n      \"context\": \"The funds are directed toward African heritage conservation, including Lake Malawi National Park.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agriculture-sector target with unspecified indicator\",\n      \"value\": 39,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The excerpt does not define the indicator or denominator for the 39% value.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Built-environment water-use endpoint\",\n      \"value\": 2393,\n      \"unit\": \"million cubic meters\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"The stated endpoint is for built-environment water use, not a land-cover area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Negative-emission capacity\",\n      \"value\": -9.3,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The value is linked to land-use sequestration, mangrove planting and direct air capture; no area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFOLU emissions reduction\",\n      \"value\": -5.6,\n      \"unit\": \"MTCO2e\",\n      \"timeframe\": null,\n      \"context\": \"The excerpt provides no timeframe for this AFOLU table value.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangroves conserved and restored\",\n      \"value\": 15000000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"This is a global Mangrove Breakthrough goal endorsed by the UAE, not a stated UAE-only area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Seagrass meadows protected and restored\",\n      \"value\": 150000,\n      \"unit\": \"km²\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"This is a global Seagrass Breakthrough goal; no UAE seagrass baseline is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove plantation project\",\n      \"value\": 100000000,\n      \"unit\": \"mangroves\",\n      \"timeframe\": null,\n      \"context\": \"The passage gives no planting deadline or area for the project.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Nature-climate aid finance\",\n      \"value\": 100,\n      \"unit\": \"USD mn\",\n      \"timeframe\": null,\n      \"context\": \"The package names forest, mangrove and coastal interventions but specifies no area.\"\n    }\n  ]\n}",
+  "errors": []
+}

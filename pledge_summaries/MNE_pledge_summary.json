@@ -1,0 +1,34 @@
+{
+  "iso3": "MNE",
+  "country": "Montenegro",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 13670.6,
+    "land_cover_km2": {
+      "Agriculture": 1901.0,
+      "Forest": 9745.0,
+      "Grassland": 1524.0,
+      "Wetland": 108.0,
+      "Settlement": 107.0,
+      "Shrubland": 28.0,
+      "Sparse_vegetation": 97.0,
+      "Bare_area": 23.0,
+      "Water": 121.0
+    }
+  },
+  "summary": "Montenegro’s high-relevance pledge is a conservation measure focused on reducing untreated wastewater: by 2035, 93% of the population is to be connected to sewerage systems, with agglomerations below 2,000 population equivalents exempt from the Urban Waste Water Treatment Directive requirement. The commitment builds on the reported decrease in wastewater from septic tanks entering aquatic environments as sewerage systems and wastewater-treatment plants have expanded. It is a population-service target rather than an ecosystem-area target, so it cannot be directly compared with Montenegro’s 13,671 km² land area or its 71.3% forest, 11.1% grassland, and 13.9% agricultural cover. Overall, the pledge supports environmental protection through improved sewage collection and treatment.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Population connected to sewerage systems",
+      "value": 93,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Montenegro’s high-relevance pledge is a conservation measure focused on reducing untreated wastewater: by 2035, 93% of the population is to be connected to sewerage systems, with agglomerations below 2,000 population equivalents exempt from the Urban Waste Water Treatment Directive requirement. The commitment builds on the reported decrease in wastewater from septic tanks entering aquatic environments as sewerage systems and wastewater-treatment plants have expanded. It is a population-service target rather than an ecosystem-area target, so it cannot be directly compared with Montenegro’s 13,671 km² land area or its 71.3% forest, 11.1% grassland, and 13.9% agricultural cover. Overall, the pledge supports environmental protection through improved sewage collection and treatment.\",\"targets\":[{\"commitment_type\":\"Conservation\",\"metric\":\"Population connected to sewerage systems\",\"value\":93,\"unit\":\"%\",\"timeframe\":\"by 2035\",\"context\":null}]}",
+  "errors": []
+}

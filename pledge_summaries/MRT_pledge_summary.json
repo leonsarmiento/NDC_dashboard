@@ -1,0 +1,490 @@
+{
+  "iso3": "MRT",
+  "country": "Mauritania",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 46,
+  "geo_context": {
+    "country_area_km2": 1042859.7,
+    "land_cover_km2": {
+      "Agriculture": 21410.0,
+      "Forest": 1187.0,
+      "Grassland": 114230.0,
+      "Wetland": 1920.0,
+      "Settlement": 383.0,
+      "Shrubland": 4522.0,
+      "Sparse_vegetation": 56949.0,
+      "Bare_area": 841718.0,
+      "Water": 682.0
+    }
+  },
+  "summary": "Restoration is the core of Mauritania’s pledges: restore 50,000 ha of degraded ecosystems and 100,000 ha overall, reforest 31,686 ha of village woodlots, and expand annual interventions including 4,000 ha/year of unconditional reforestation, 5,000 ha/year of assisted forest regeneration, and a potential additional 10,000 ha/year through regional programmes. Other plans cover 5,332 ha of dune stabilization, 500 ha of mangroves and 2,075 ha of land exclusion. Conservation targets 1,126 km² of marine protected areas, 150,000 ha of aerial seeding, 20 classified forests, 10 wetlands and protection of coastal and dune systems. Agriculture includes 6,000 ha of organic/agroecology, 10,000 ha/year of cover crops, 6,000 ha of no-till farming by 2030, and 20,000 ha of pastoral reserves. The village-woodlot programme alone equals about 26.7% of current forest cover, while organic/agroecology covers about 0.3% of current agricultural land.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Great Green Wall programme area",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "over 5 years",
+      "context": "The programme is 2,000 ha/year over five years; 10,000 ha is ≈0.01% of current total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded ecosystems restored",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.05% of current total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Village woodlots reforested",
+      "value": 31686,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈26.7% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Sand dunes stabilized",
+      "value": 5332,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land under rest periods or exclusion",
+      "value": 2075,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangroves planted",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.26% of current wetland area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation under the 2015 NDC",
+      "value": 10000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Reported unmet; one target year equals ≈8.4% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Great Green Wall annual implementation",
+      "value": 2000,
+      "unit": "ha/year",
+      "timeframe": "over 5 years",
+      "context": "Annual form of the 10,000-ha programme; one target year equals ≈1.7% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Rangeland regenerated",
+      "value": 3000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "One target year equals ≈0.03% of current grassland area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Desertification control",
+      "value": 10000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration",
+      "value": 5000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "One target year equals ≈4.2% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Unconditional reforestation",
+      "value": 4000,
+      "unit": "ha/year",
+      "timeframe": "in 2030",
+      "context": "One target year equals ≈3.4% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional regional reforestation",
+      "value": 10000,
+      "unit": "ha/year",
+      "timeframe": "in 2030",
+      "context": "Conditional increment beyond 4,000 ha/year; one target year equals ≈8.4% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Potential annual reforestation",
+      "value": 17000,
+      "unit": "ha/year",
+      "timeframe": "in 2050",
+      "context": "Potential rate if the conditional component is maintained; one target year equals ≈14.3% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional assisted forest regeneration",
+      "value": 10000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Conditional increment beyond 5,000 ha/year; one target year equals ≈8.4% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Potential annual assisted forest regeneration",
+      "value": 35000,
+      "unit": "ha/year",
+      "timeframe": "in 2050",
+      "context": "Potential rate if the conditional component expands beyond 71%; one target year equals ≈29.5% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Waterways restored by dredging",
+      "value": 1000,
+      "unit": "ml",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fishing-sector resilience target",
+      "value": 60,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-sector emissions balance with mitigation",
+      "value": -237.9,
+      "unit": "Gg CO2-eq",
+      "timeframe": "in 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Aerial seeding",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.14% of current total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water bodies developed",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.52% of current wetland area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Dune cord fixed",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Lopel forest secured",
+      "value": 15,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.3% of current forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected areas created or consolidated",
+      "value": 1126,
+      "unit": "km²",
+      "timeframe": null,
+      "context": "Reported as 0.72% of Mauritania's EEZ."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Programme-wide classified forests",
+      "value": 20,
+      "unit": "forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetland areas developed or managed",
+      "value": 10,
+      "unit": "wetlands",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rural fishing sites developed",
+      "value": 20,
+      "unit": "sites",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Pilot sites for water-body development",
+      "value": 10,
+      "unit": "pilot sites",
+      "timeframe": null,
+      "context": "Pilot sites within the rural water-body development programme."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal-cord breaches filled",
+      "value": 11,
+      "unit": "breaches",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Guelb-richat new forests classified",
+      "value": 5,
+      "unit": "forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Zones within the wetland programme",
+      "value": 45,
+      "unit": "zones",
+      "timeframe": null,
+      "context": "Part of the 10-wetland programme."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New AGLC established",
+      "value": 9,
+      "unit": "AGLC",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient food and agricultural production target",
+      "value": 96,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock environmental-services target",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Grass matter share in livestock feed supplements",
+      "value": 3,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fat content in livestock feed",
+      "value": 3,
+      "unit": "%",
+      "timeframe": "in 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New artificial insemination farms",
+      "value": 20,
+      "unit": "farms",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic agriculture and agroecology",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.28% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pastoral reserves established",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.18% of current grassland area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "No-till farming",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.28% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "No-till farming",
+      "value": 12000,
+      "unit": "ha",
+      "timeframe": "in 2035",
+      "context": "≈0.56% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "No-till farming",
+      "value": 15000,
+      "unit": "ha",
+      "timeframe": "in 2050",
+      "context": "≈0.70% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cover crops",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "in 2050",
+      "context": "60% conditional; ≈1.17% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated land mapped for fertility analysis",
+      "value": 12000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.56% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rainfed land mapped for fertility analysis",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.23% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cover crops",
+      "value": 10000,
+      "unit": "ha/year",
+      "timeframe": "in 2030",
+      "context": "Fully conditional; one target year equals ≈0.47% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Ecosystem-based adaptation and nature-based solutions target",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pastoral-zone restoration share",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Overall ecosystems restored",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.10% of current total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural land restored through adaptation practices",
+      "value": 1503,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.07% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Coastal ecosystems restored",
+      "value": 180,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pastoral land restoration planned",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.26% of current grassland area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pastoral restoration milestone",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Reported as approximately one-third of the 30,000-ha plan; 10,000 ha is ≈0.09% of current grassland area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Silvopastoral reforestation and regeneration",
+      "value": 3000,
+      "unit": "ha/year",
+      "timeframe": "in 2030",
+      "context": "Fully conditional; one target year equals ≈2.5% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional silvopastoral reforestation and regeneration",
+      "value": 5000,
+      "unit": "ha/year",
+      "timeframe": "in 2050",
+      "context": "Additional component toward 8,000 ha/year; one target year equals ≈4.2% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Potential silvopastoral reforestation and regeneration",
+      "value": 8000,
+      "unit": "ha/year",
+      "timeframe": "in 2050",
+      "context": "Potential 2050 rate; one target year equals ≈6.7% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pasture firebreaks opened and maintained",
+      "value": 41695,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Dune-cord breaches filled",
+      "value": 3,
+      "unit": "breaches",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is the core of Mauritania’s pledges: restore 50,000 ha of degraded ecosystems and 100,000 ha overall, reforest 31,686 ha of village woodlots, and expand annual interventions including 4,000 ha/year of unconditional reforestation, 5,000 ha/year of assisted forest regeneration, and a potential additional 10,000 ha/year through regional programmes. Other plans cover 5,332 ha of dune stabilization, 500 ha of mangroves and 2,075 ha of land exclusion. Conservation targets 1,126 km² of marine protected areas, 150,000 ha of aerial seeding, 20 classified forests, 10 wetlands and protection of coastal and dune systems. Agriculture includes 6,000 ha of organic/agroecology, 10,000 ha/year of cover crops, 6,000 ha of no-till farming by 2030, and 20,000 ha of pastoral reserves. The village-woodlot programme alone equals about 26.7% of current forest cover, while organic/agroecology covers about 0.3% of current agricultural land.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Great Green Wall programme area\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"over 5 years\",\n      \"context\": \"The programme is 2,000 ha/year over five years; 10,000 ha is ≈0.01% of current total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded ecosystems restored\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.05% of current total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Village woodlots reforested\",\n      \"value\": 31686,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈26.7% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Sand dunes stabilized\",\n      \"value\": 5332,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land under rest periods or exclusion\",\n      \"value\": 2075,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangroves planted\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.26% of current wetland area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation under the 2015 NDC\",\n      \"value\": 10000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Reported unmet; one target year equals ≈8.4% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Great Green Wall annual implementation\",\n      \"value\": 2000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"over 5 years\",\n      \"context\": \"Annual form of the 10,000-ha programme; one target year equals ≈1.7% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Rangeland regenerated\",\n      \"value\": 3000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"One target year equals ≈0.03% of current grassland area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Desertification control\",\n      \"value\": 10000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted forest regeneration\",\n      \"value\": 5000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"One target year equals ≈4.2% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Unconditional reforestation\",\n      \"value\": 4000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2030\",\n      \"context\": \"One target year equals ≈3.4% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional regional reforestation\",\n      \"value\": 10000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2030\",\n      \"context\": \"Conditional increment beyond 4,000 ha/year; one target year equals ≈8.4% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Potential annual reforestation\",\n      \"value\": 17000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2050\",\n      \"context\": \"Potential rate if the conditional component is maintained; one target year equals ≈14.3% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional assisted forest regeneration\",\n      \"value\": 10000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Conditional increment beyond 5,000 ha/year; one target year equals ≈8.4% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Potential annual assisted forest regeneration\",\n      \"value\": 35000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2050\",\n      \"context\": \"Potential rate if the conditional component expands beyond 71%; one target year equals ≈29.5% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Waterways restored by dredging\",\n      \"value\": 1000,\n      \"unit\": \"ml\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fishing-sector resilience target\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-sector emissions balance with mitigation\",\n      \"value\": -237.9,\n      \"unit\": \"Gg CO2-eq\",\n      \"timeframe\": \"in 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Aerial seeding\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.14% of current total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water bodies developed\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.52% of current wetland area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Dune cord fixed\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Lopel forest secured\",\n      \"value\": 15,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.3% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine protected areas created or consolidated\",\n      \"value\": 1126,\n      \"unit\": \"km²\",\n      \"timeframe\": null,\n      \"context\": \"Reported as 0.72% of Mauritania's EEZ.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Programme-wide classified forests\",\n      \"value\": 20,\n      \"unit\": \"forests\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetland areas developed or managed\",\n      \"value\": 10,\n      \"unit\": \"wetlands\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rural fishing sites developed\",\n      \"value\": 20,\n      \"unit\": \"sites\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Pilot sites for water-body development\",\n      \"value\": 10,\n      \"unit\": \"pilot sites\",\n      \"timeframe\": null,\n      \"context\": \"Pilot sites within the rural water-body development programme.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal-cord breaches filled\",\n      \"value\": 11,\n      \"unit\": \"breaches\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Guelb-richat new forests classified\",\n      \"value\": 5,\n      \"unit\": \"forests\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Zones within the wetland programme\",\n      \"value\": 45,\n      \"unit\": \"zones\",\n      \"timeframe\": null,\n      \"context\": \"Part of the 10-wetland programme.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New AGLC established\",\n      \"value\": 9,\n      \"unit\": \"AGLC\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient food and agricultural production target\",\n      \"value\": 96,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock environmental-services target\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Grass matter share in livestock feed supplements\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fat content in livestock feed\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": \"in 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New artificial insemination farms\",\n      \"value\": 20,\n      \"unit\": \"farms\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic agriculture and agroecology\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.28% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pastoral reserves established\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.18% of current grassland area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"No-till farming\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.28% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"No-till farming\",\n      \"value\": 12000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"in 2035\",\n      \"context\": \"≈0.56% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"No-till farming\",\n      \"value\": 15000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"in 2050\",\n      \"context\": \"≈0.70% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cover crops\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"in 2050\",\n      \"context\": \"60% conditional; ≈1.17% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated land mapped for fertility analysis\",\n      \"value\": 12000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.56% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rainfed land mapped for fertility analysis\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.23% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cover crops\",\n      \"value\": 10000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2030\",\n      \"context\": \"Fully conditional; one target year equals ≈0.47% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Ecosystem-based adaptation and nature-based solutions target\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pastoral-zone restoration share\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Overall ecosystems restored\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.10% of current total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural land restored through adaptation practices\",\n      \"value\": 1503,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.07% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Coastal ecosystems restored\",\n      \"value\": 180,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pastoral land restoration planned\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.26% of current grassland area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pastoral restoration milestone\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Reported as approximately one-third of the 30,000-ha plan; 10,000 ha is ≈0.09% of current grassland area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Silvopastoral reforestation and regeneration\",\n      \"value\": 3000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2030\",\n      \"context\": \"Fully conditional; one target year equals ≈2.5% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional silvopastoral reforestation and regeneration\",\n      \"value\": 5000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2050\",\n      \"context\": \"Additional component toward 8,000 ha/year; one target year equals ≈4.2% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Potential silvopastoral reforestation and regeneration\",\n      \"value\": 8000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"in 2050\",\n      \"context\": \"Potential 2050 rate; one target year equals ≈6.7% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pasture firebreaks opened and maintained\",\n      \"value\": 41695,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Dune-cord breaches filled\",\n      \"value\": 3,\n      \"unit\": \"breaches\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

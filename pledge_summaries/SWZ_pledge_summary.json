@@ -1,0 +1,138 @@
+{
+  "iso3": "SWZ",
+  "country": "Kingdom of Eswatini",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 21,
+  "geo_context": {
+    "country_area_km2": 17432.4,
+    "land_cover_km2": {
+      "Agriculture": 6285.0,
+      "Forest": 6519.0,
+      "Grassland": 2746.0,
+      "Wetland": 27.0,
+      "Settlement": 47.0,
+      "Shrubland": 1499.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 254.0,
+      "Water": 69.0
+    }
+  },
+  "summary": "Restoration targets 15 million trees by 2030, 5,000 ha of degraded forest and woodland by 2035—about 0.8% of current forest cover—and at least 100,000 ha of degraded rangeland, equivalent to 36.4% of current grassland. Conservation includes fire-management plans in 10 forest-adjacent communities, climate-resilient land-use plans in five chiefdoms by 2035, and at least three OECMs. Agriculture seeks climate-smart practices on 50,000 ha of cropland by 2035 (about 8.0% of current agriculture), manure management on 20% of commercial livestock farms, and irrigation efficiency of at least 70% by 2030. Mixed commitments rehabilitate 75,000 ha of communal grazing by 2035 (27.3% of current grassland), raise soil organic carbon by an average of 5% across 30,000 ha of agricultural and grazing land by 2035, and conserve 174,000 ha while restoring 150,000 ha by 2035—about 10.0% and 8.6% of total land, respectively.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Total tree-planting target",
+      "value": 15000000,
+      "unit": "trees",
+      "timeframe": "by 2030",
+      "context": "Supersedes the prior 10-million-tree target; 8.5 million trees were reported already planted."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded indigenous forest and woodland restored",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈0.8% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum degraded rangeland restored",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈36.4% of current grassland cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Chiefdoms with climate-resilient land-use plans",
+      "value": 5,
+      "unit": "chiefdoms",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Communities with community-based fire-management plans",
+      "value": 10,
+      "unit": "communities",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum OECMs established",
+      "value": 3,
+      "unit": "OECMs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart cropland coverage",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈8.0% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Commercial livestock farms covered by improved manure management",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The denominator is commercial livestock farms, not total agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum irrigation efficiency",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Increase from approximately 40%."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded communal grazing land rehabilitated",
+      "value": 75000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈27.3% of current grassland cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural and grazing land targeted for soil organic carbon increase",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈3.3% of the current combined agriculture and grassland area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Average soil organic carbon increase",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Applies across 30,000 ha of targeted agricultural and grazing land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Terrestrial and inland water ecosystems conserved",
+      "value": 174000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈10.0% of the reported total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded terrestrial and inland water ecosystems restored",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈8.6% of the reported total land area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration targets 15 million trees by 2030, 5,000 ha of degraded forest and woodland by 2035—about 0.8% of current forest cover—and at least 100,000 ha of degraded rangeland, equivalent to 36.4% of current grassland. Conservation includes fire-management plans in 10 forest-adjacent communities, climate-resilient land-use plans in five chiefdoms by 2035, and at least three OECMs. Agriculture seeks climate-smart practices on 50,000 ha of cropland by 2035 (about 8.0% of current agriculture), manure management on 20% of commercial livestock farms, and irrigation efficiency of at least 70% by 2030. Mixed commitments rehabilitate 75,000 ha of communal grazing by 2035 (27.3% of current grassland), raise soil organic carbon by an average of 5% across 30,000 ha of agricultural and grazing land by 2035, and conserve 174,000 ha while restoring 150,000 ha by 2035—about 10.0% and 8.6% of total land, respectively.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Total tree-planting target\",\n      \"value\": 15000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Supersedes the prior 10-million-tree target; 8.5 million trees were reported already planted.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded indigenous forest and woodland restored\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈0.8% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum degraded rangeland restored\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈36.4% of current grassland cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Chiefdoms with climate-resilient land-use plans\",\n      \"value\": 5,\n      \"unit\": \"chiefdoms\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Communities with community-based fire-management plans\",\n      \"value\": 10,\n      \"unit\": \"communities\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum OECMs established\",\n      \"value\": 3,\n      \"unit\": \"OECMs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart cropland coverage\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈8.0% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Commercial livestock farms covered by improved manure management\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The denominator is commercial livestock farms, not total agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum irrigation efficiency\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Increase from approximately 40%.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded communal grazing land rehabilitated\",\n      \"value\": 75000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈27.3% of current grassland cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural and grazing land targeted for soil organic carbon increase\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈3.3% of the current combined agriculture and grassland area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Average soil organic carbon increase\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Applies across 30,000 ha of targeted agricultural and grazing land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Terrestrial and inland water ecosystems conserved\",\n      \"value\": 174000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈10.0% of the reported total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded terrestrial and inland water ecosystems restored\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈8.6% of the reported total land area.\"\n    }\n  ]\n}",
+  "errors": []
+}

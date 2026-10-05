@@ -1,0 +1,58 @@
+{
+  "iso3": "QAT",
+  "country": "Qatar",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 11584.0,
+    "land_cover_km2": {
+      "Agriculture": 189.0,
+      "Forest": 3.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 607.0,
+      "Shrubland": 12.0,
+      "Sparse_vegetation": 114.0,
+      "Bare_area": 10650.0,
+      "Water": 18.0
+    }
+  },
+  "summary": "Qatar’s pledges combine agricultural self-sufficiency, large-scale tree planting, and broad resilience planning. Under agriculture, it plans to reach 70% self-sufficiency in greenhouse-grown vegetables under hot conditions, supported by hydroponic greenhouses, programs, and subsidies, alongside broader efforts involving vegetables, red meat, fish, and groundwater-dependent feed production. Restoration centers on two tree initiatives: one million trees under the Plant One Million Tree Initiative, launched in 2019 and completed in 2022, and a subsequent ten-million-tree initiative launched in 2022. These efforts are notable in a landscape where forest covers only 3 km² (reported as 0.0%) and bare area occupies 91.9% of the country; the tree targets are counts, so they cannot be translated directly into hectares. A cross-cutting adaptation aim also seeks to strengthen resilience in six sectors.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Greenhouse-grown vegetable self-sufficiency",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Agricultural land covers 189 km² (1.6%); the pledge does not specify the area covered."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under the Plant One Million Tree Initiative",
+      "value": 1000000,
+      "unit": "trees",
+      "timeframe": "completed in 2022",
+      "context": "Forest covers only 3 km² (0.0% of the country); tree counts cannot be directly converted into forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under the Plant Ten Million Trees Initiative",
+      "value": 10000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "The initiative addresses a landscape where forest is 3 km² and bare area represents 91.9% of the country."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sectors covered by resilience strengthening",
+      "value": 6,
+      "unit": "sectors",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Qatar’s pledges combine agricultural self-sufficiency, large-scale tree planting, and broad resilience planning. Under agriculture, it plans to reach 70% self-sufficiency in greenhouse-grown vegetables under hot conditions, supported by hydroponic greenhouses, programs, and subsidies, alongside broader efforts involving vegetables, red meat, fish, and groundwater-dependent feed production. Restoration centers on two tree initiatives: one million trees under the Plant One Million Tree Initiative, launched in 2019 and completed in 2022, and a subsequent ten-million-tree initiative launched in 2022. These efforts are notable in a landscape where forest covers only 3 km² (reported as 0.0%) and bare area occupies 91.9% of the country; the tree targets are counts, so they cannot be translated directly into hectares. A cross-cutting adaptation aim also seeks to strengthen resilience in six sectors.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Greenhouse-grown vegetable self-sufficiency\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Agricultural land covers 189 km² (1.6%); the pledge does not specify the area covered.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted under the Plant One Million Tree Initiative\",\n      \"value\": 1000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"completed in 2022\",\n      \"context\": \"Forest covers only 3 km² (0.0% of the country); tree counts cannot be directly converted into forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted under the Plant Ten Million Trees Initiative\",\n      \"value\": 10000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"The initiative addresses a landscape where forest is 3 km² and bare area represents 91.9% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sectors covered by resilience strengthening\",\n      \"value\": 6,\n      \"unit\": \"sectors\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

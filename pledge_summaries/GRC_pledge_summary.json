@@ -1,0 +1,90 @@
+{
+  "iso3": "GRC",
+  "country": "Greece",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 8,
+  "geo_context": {
+    "country_area_km2": 132212.1,
+    "land_cover_km2": {
+      "Agriculture": 52218.0,
+      "Forest": 38810.0,
+      "Grassland": 7182.0,
+      "Wetland": 175.0,
+      "Settlement": 1941.0,
+      "Shrubland": 26451.0,
+      "Sparse_vegetation": 577.0,
+      "Bare_area": 1644.0,
+      "Water": 3218.0
+    }
+  },
+  "summary": "For conservation, Greece’s country-specific pledge is a 2030 LULUCF target of -1,154 Kt CO2eq against the 2016–2018 average, to be reported in 2032 and forming part of the EU-wide 310 Mt CO2 net-removals target. Under mixed restoration and conservation, ecologically sound reforestation and sustainable forest management offer 8–235 Mt CO2-eq/yr of mitigation potential; forest covers 38,810 km² (29.4%) of Greece, although no national allocation is given. For restoration, the EU target covers at least 20% of land and sea areas by 2030, with all ecosystems needing restoration by 2050, while peatland and wetland restoration offers 51–54 Mt CO2-eq/yr; Greece’s wetland class covers 175 km² (0.1%). In agriculture, improved fertiliser-use efficiency offers 19 Mt CO2-eq/yr, relevant to the 52,218 km² (39.5%) under agriculture, but this figure is EU-wide.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum EU land and sea areas with restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide minimum rather than a Greece-specific share; no Greek land or sea restoration area is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential — lower bound",
+      "value": 51,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide mitigation potential; Greece has 175 km² of wetland, 0.1% of the country."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential — upper bound",
+      "value": 54,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide mitigation potential; Greece has 175 km² of wetland, 0.1% of the country."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EU LULUCF net greenhouse-gas removals",
+      "value": 310,
+      "unit": "Mt CO2-eq",
+      "timeframe": "2030",
+      "context": "Collective EU target, also reported as -310 Mt CO2-eq under carbon-sink accounting."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Greece LULUCF net-removals target",
+      "value": -1154,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030 (relative to 2016-2018; reported in 2032)",
+      "context": "Greece-specific allocation within the EU-wide target; no Greek land-area coverage is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertiliser-use efficiency emissions-reduction potential",
+      "value": 19,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide mitigation potential; agriculture covers 52,218 km², or 39.5% of Greece."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential — lower bound",
+      "value": 8,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide mitigation potential; Greece has 38,810 km² of forest, 29.4% of the country."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential — upper bound",
+      "value": 235,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide mitigation potential; Greece has 38,810 km² of forest, 29.4% of the country."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"For conservation, Greece’s country-specific pledge is a 2030 LULUCF target of -1,154 Kt CO2eq against the 2016–2018 average, to be reported in 2032 and forming part of the EU-wide 310 Mt CO2 net-removals target. Under mixed restoration and conservation, ecologically sound reforestation and sustainable forest management offer 8–235 Mt CO2-eq/yr of mitigation potential; forest covers 38,810 km² (29.4%) of Greece, although no national allocation is given. For restoration, the EU target covers at least 20% of land and sea areas by 2030, with all ecosystems needing restoration by 2050, while peatland and wetland restoration offers 51–54 Mt CO2-eq/yr; Greece’s wetland class covers 175 km² (0.1%). In agriculture, improved fertiliser-use efficiency offers 19 Mt CO2-eq/yr, relevant to the 52,218 km² (39.5%) under agriculture, but this figure is EU-wide.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Minimum EU land and sea areas with restoration measures\",\"value\":20,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"EU-wide minimum rather than a Greece-specific share; no Greek land or sea restoration area is stated.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Peatland and wetland restoration mitigation potential — lower bound\",\"value\":51,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide mitigation potential; Greece has 175 km² of wetland, 0.1% of the country.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Peatland and wetland restoration mitigation potential — upper bound\",\"value\":54,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide mitigation potential; Greece has 175 km² of wetland, 0.1% of the country.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"EU LULUCF net greenhouse-gas removals\",\"value\":310,\"unit\":\"Mt CO2-eq\",\"timeframe\":\"2030\",\"context\":\"Collective EU target, also reported as -310 Mt CO2-eq under carbon-sink accounting.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Greece LULUCF net-removals target\",\"value\":-1154,\"unit\":\"Kt CO2eq\",\"timeframe\":\"2030 (relative to 2016-2018; reported in 2032)\",\"context\":\"Greece-specific allocation within the EU-wide target; no Greek land-area coverage is specified.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Fertiliser-use efficiency emissions-reduction potential\",\"value\":19,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide mitigation potential; agriculture covers 52,218 km², or 39.5% of Greece.\"},{\"commitment_type\":\"Both\",\"metric\":\"Reforestation and sustainable forest management mitigation potential — lower bound\",\"value\":8,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide mitigation potential; Greece has 38,810 km² of forest, 29.4% of the country.\"},{\"commitment_type\":\"Both\",\"metric\":\"Reforestation and sustainable forest management mitigation potential — upper bound\",\"value\":235,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide mitigation potential; Greece has 38,810 km² of forest, 29.4% of the country.\"}]}",
+  "errors": []
+}

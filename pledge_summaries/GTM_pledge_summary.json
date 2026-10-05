@@ -1,0 +1,186 @@
+{
+  "iso3": "GTM",
+  "country": "Guatemala",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 50,
+  "geo_context": {
+    "country_area_km2": 109283.9,
+    "land_cover_km2": {
+      "Agriculture": 28905.0,
+      "Forest": 72952.0,
+      "Grassland": 4912.0,
+      "Wetland": 113.0,
+      "Settlement": 939.0,
+      "Shrubland": 255.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 17.0,
+      "Water": 1247.0
+    }
+  },
+  "summary": "Restoration pledges target at least 1,500 ha of mangroves and more than 3,000 ha of riparian forest by 2025; mangroves alone equal about 13.3% of current mapped wetland. Conservation goals include 32% forest cover, forest-fire degradation reduced to 36,972 ha annually, technical studies for two and incorporation of one new Pacific coastal protected area by 2025, and watershed management, protection planning and water-quality indices in 35%, 50% and 10% of watersheds. SIGAP coverage is reported as 32–33%. Mixed actions seek 30,300 ha of additional forest restoration/management by 2025, including a 10,659-ha agroforestry sub-target, plus sustainable livestock on at least 13,500 ha. The first two equal about 0.42% and 0.15% of current forest; livestock and separate goals of 19,500 additional ha under soil conservation and at least 40,000 ha of pasture improvement equal 0.47%, 0.67% and 1.38% of current agriculture. Carbon measures quantify 129,330–1,545,200 t CO2-eq in reductions or sequestration.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove ecosystem restoration and reforestation",
+      "value": 1500,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "For scale, ≈13.3% of current mapped wetland area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Riparian forest restoration",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional sequestration from forest plantations",
+      "value": 177300,
+      "unit": "t CO2-eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional sequestration from degraded-area restoration",
+      "value": 944300,
+      "unit": "t CO2-eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory covered by SIGAP",
+      "value": 33,
+      "unit": "%",
+      "timeframe": null,
+      "context": "System-wide figure; other passages report 32% for SIGAP."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover",
+      "value": 32,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "For reference, the supplied 2022 land-cover map classifies 66.8% of the country as forest."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "SIGAP coverage under protected-area safeguards",
+      "value": 32,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Protected-area safeguard figure; the system overview elsewhere reports 33%."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watersheds with integrated water-resource management",
+      "value": 35,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watersheds with protection and sustainable-management plans",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watersheds with water-quality and flow indices",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area technical studies approved",
+      "value": 2,
+      "unit": "protected areas",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New protected area incorporated into SIGAP",
+      "value": 1,
+      "unit": "protected areas",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual forest-fire degradation",
+      "value": 36972,
+      "unit": "ha/year",
+      "timeframe": "by 2025",
+      "context": "For scale, ≈0.51% of current mapped forest area per year."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided emissions from forest conservation and sustainable management",
+      "value": 1545200,
+      "unit": "t CO2-eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided emissions from forest-fire prevention and control",
+      "value": 129330,
+      "unit": "t CO2-eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional area under soil conservation",
+      "value": 19500,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "For scale, ≈0.67% of current mapped agricultural area; additional beyond the 2020 baseline."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under agroforestry systems",
+      "value": 10659,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "For scale, ≈0.37% of current agricultural area; already included in the 30,300-ha mixed commitment."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pasture improvement",
+      "value": 40000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "For scale, ≈1.38% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional forest restoration and managed area",
+      "value": 30300,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "For scale, ≈0.42% of current mapped forest area; includes the 10,659-ha agroforestry sub-target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Area under sustainable livestock practices",
+      "value": 13500,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "For scale, ≈0.47% of current mapped agricultural area; the practices also conserve forest remnants."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Restoration pledges target at least 1,500 ha of mangroves and more than 3,000 ha of riparian forest by 2025; mangroves alone equal about 13.3% of current mapped wetland. Conservation goals include 32% forest cover, forest-fire degradation reduced to 36,972 ha annually, technical studies for two and incorporation of one new Pacific coastal protected area by 2025, and watershed management, protection planning and water-quality indices in 35%, 50% and 10% of watersheds. SIGAP coverage is reported as 32–33%. Mixed actions seek 30,300 ha of additional forest restoration/management by 2025, including a 10,659-ha agroforestry sub-target, plus sustainable livestock on at least 13,500 ha. The first two equal about 0.42% and 0.15% of current forest; livestock and separate goals of 19,500 additional ha under soil conservation and at least 40,000 ha of pasture improvement equal 0.47%, 0.67% and 1.38% of current agriculture. Carbon measures quantify 129,330–1,545,200 t CO2-eq in reductions or sequestration.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove ecosystem restoration and reforestation\",\"value\":1500,\"unit\":\"ha\",\"timeframe\":\"by 2025\",\"context\":\"For scale, ≈13.3% of current mapped wetland area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Riparian forest restoration\",\"value\":3000,\"unit\":\"ha\",\"timeframe\":\"by 2025\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Additional sequestration from forest plantations\",\"value\":177300,\"unit\":\"t CO2-eq\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Additional sequestration from degraded-area restoration\",\"value\":944300,\"unit\":\"t CO2-eq\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"National territory covered by SIGAP\",\"value\":33,\"unit\":\"%\",\"timeframe\":null,\"context\":\"System-wide figure; other passages report 32% for SIGAP.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Forest cover\",\"value\":32,\"unit\":\"%\",\"timeframe\":\"by 2025\",\"context\":\"For reference, the supplied 2022 land-cover map classifies 66.8% of the country as forest.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"SIGAP coverage under protected-area safeguards\",\"value\":32,\"unit\":\"%\",\"timeframe\":null,\"context\":\"Protected-area safeguard figure; the system overview elsewhere reports 33%.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Watersheds with integrated water-resource management\",\"value\":35,\"unit\":\"%\",\"timeframe\":\"by 2025\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Watersheds with protection and sustainable-management plans\",\"value\":50,\"unit\":\"%\",\"timeframe\":\"by 2025\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Watersheds with water-quality and flow indices\",\"value\":10,\"unit\":\"%\",\"timeframe\":\"by 2025\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Protected-area technical studies approved\",\"value\":2,\"unit\":\"protected areas\",\"timeframe\":\"by 2025\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"New protected area incorporated into SIGAP\",\"value\":1,\"unit\":\"protected areas\",\"timeframe\":\"by 2025\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Annual forest-fire degradation\",\"value\":36972,\"unit\":\"ha/year\",\"timeframe\":\"by 2025\",\"context\":\"For scale, ≈0.51% of current mapped forest area per year.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Avoided emissions from forest conservation and sustainable management\",\"value\":1545200,\"unit\":\"t CO2-eq\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Avoided emissions from forest-fire prevention and control\",\"value\":129330,\"unit\":\"t CO2-eq\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Additional area under soil conservation\",\"value\":19500,\"unit\":\"ha\",\"timeframe\":\"by 2025\",\"context\":\"For scale, ≈0.67% of current mapped agricultural area; additional beyond the 2020 baseline.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Area under agroforestry systems\",\"value\":10659,\"unit\":\"ha\",\"timeframe\":\"by 2025\",\"context\":\"For scale, ≈0.37% of current agricultural area; already included in the 30,300-ha mixed commitment.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Pasture improvement\",\"value\":40000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"For scale, ≈1.38% of current mapped agricultural area.\"},{\"commitment_type\":\"Both\",\"metric\":\"Additional forest restoration and managed area\",\"value\":30300,\"unit\":\"ha\",\"timeframe\":\"by 2025\",\"context\":\"For scale, ≈0.42% of current mapped forest area; includes the 10,659-ha agroforestry sub-target.\"},{\"commitment_type\":\"Both\",\"metric\":\"Area under sustainable livestock practices\",\"value\":13500,\"unit\":\"ha\",\"timeframe\":\"by 2025\",\"context\":\"For scale, ≈0.47% of current mapped agricultural area; the practices also conserve forest remnants.\"}]}",
+  "errors": []
+}

@@ -1,0 +1,130 @@
+{
+  "iso3": "CAN",
+  "country": "Canada",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 20,
+  "geo_context": {
+    "country_area_km2": 9943321.5,
+    "land_cover_km2": {
+      "Agriculture": 576442.0,
+      "Forest": 4698382.0,
+      "Grassland": 229330.0,
+      "Wetland": 82667.0,
+      "Settlement": 12687.0,
+      "Shrubland": 360211.0,
+      "Sparse_vegetation": 2353387.0,
+      "Bare_area": 396685.0,
+      "Water": 1042942.0
+    }
+  },
+  "summary": "Canada’s restoration commitment is to plant 2 billion trees by 2031, backed by more than $3 billion over 10 years, and to restore wetlands, grasslands and other ecosystems; the tree count cannot be converted into a share of forest from the provided data. Conservation combines over $5 billion for natural climate solutions with 25% protection of both land and oceans by 2025 and 30% protection of each by 2030. The current landscape is 47.3% forest, 5.8% agriculture, 2.3% grassland and 0.8% wetland. Agricultural measures target 95% waste diversion, 12.5% of the S-CAP envelope for resilient agricultural landscapes, a 10–15% cut in Prince Edward Island agricultural emissions, and a 30% reduction in fertilizer-attributable emissions below 2020 levels by 2030. The forestry pillar targets 10–15% more carbon sequestration by 2030. These agricultural percentages do not denote coverage of the 576,442 km² agricultural area.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 2,
+      "unit": "billion trees",
+      "timeframe": "by 2031",
+      "context": "No planting-density figure is provided to convert this count into hectares or a share of Canada's 4,698,382 km² forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural Climate Solutions Fund investment (over)",
+      "value": 5,
+      "unit": "$B",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land protected",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "≈2.49 million km² of the reported 9,943,322 km² national land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Oceans protected",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "No marine-area denominator is provided."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Lands and waters protected and conserved",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The 2025 passage specifies 30% of each; for land, this is ≈2.98 million km² of the reported national area, while marine area is not provided."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Potential share of needed emission reductions from natural climate solutions",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "An approximate contribution potential, not a dated Canadian land or ocean protection target."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural, industrial and municipal waste diversion",
+      "value": 95,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The target covers waste streams rather than agricultural land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "S-CAP envelope allocated to the Resilient Agricultural Landscapes Program",
+      "value": 12.5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "This is a share of the S-CAP funding envelope, not of the 576,442 km² classified as agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Prince Edward Island agricultural emissions reduction (lower bound)",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Prince Edward Island agricultural emissions reduction (upper bound)",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertilizer-attributable emissions reduction below 2020 levels",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The percentage applies to fertilizer-attributable emissions, not agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forestry carbon sequestration increase (lower bound)",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Forest covers 4,698,382 km² (47.3%), but the pledge gives no sequestration baseline or planting area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forestry carbon sequestration increase (upper bound)",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Forest covers 4,698,382 km² (47.3%), but the pledge gives no sequestration baseline or planting area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Canada’s restoration commitment is to plant 2 billion trees by 2031, backed by more than $3 billion over 10 years, and to restore wetlands, grasslands and other ecosystems; the tree count cannot be converted into a share of forest from the provided data. Conservation combines over $5 billion for natural climate solutions with 25% protection of both land and oceans by 2025 and 30% protection of each by 2030. The current landscape is 47.3% forest, 5.8% agriculture, 2.3% grassland and 0.8% wetland. Agricultural measures target 95% waste diversion, 12.5% of the S-CAP envelope for resilient agricultural landscapes, a 10–15% cut in Prince Edward Island agricultural emissions, and a 30% reduction in fertilizer-attributable emissions below 2020 levels by 2030. The forestry pillar targets 10–15% more carbon sequestration by 2030. These agricultural percentages do not denote coverage of the 576,442 km² agricultural area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted\",\n      \"value\": 2,\n      \"unit\": \"billion trees\",\n      \"timeframe\": \"by 2031\",\n      \"context\": \"No planting-density figure is provided to convert this count into hectares or a share of Canada's 4,698,382 km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural Climate Solutions Fund investment (over)\",\n      \"value\": 5,\n      \"unit\": \"$B\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land protected\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈2.49 million km² of the reported 9,943,322 km² national land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Oceans protected\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"No marine-area denominator is provided.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Lands and waters protected and conserved\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The 2025 passage specifies 30% of each; for land, this is ≈2.98 million km² of the reported national area, while marine area is not provided.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Potential share of needed emission reductions from natural climate solutions\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"An approximate contribution potential, not a dated Canadian land or ocean protection target.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural, industrial and municipal waste diversion\",\n      \"value\": 95,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The target covers waste streams rather than agricultural land area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"S-CAP envelope allocated to the Resilient Agricultural Landscapes Program\",\n      \"value\": 12.5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"This is a share of the S-CAP funding envelope, not of the 576,442 km² classified as agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Prince Edward Island agricultural emissions reduction (lower bound)\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Prince Edward Island agricultural emissions reduction (upper bound)\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertilizer-attributable emissions reduction below 2020 levels\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The percentage applies to fertilizer-attributable emissions, not agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forestry carbon sequestration increase (lower bound)\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Forest covers 4,698,382 km² (47.3%), but the pledge gives no sequestration baseline or planting area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forestry carbon sequestration increase (upper bound)\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Forest covers 4,698,382 km² (47.3%), but the pledge gives no sequestration baseline or planting area.\"\n    }\n  ]\n}",
+  "errors": []
+}

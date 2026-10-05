@@ -1,0 +1,34 @@
+{
+  "iso3": "AND",
+  "country": "Andorra",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 465.8,
+    "land_cover_km2": {
+      "Agriculture": 0.0,
+      "Forest": 282.0,
+      "Grassland": 118.0,
+      "Wetland": 0.0,
+      "Settlement": 4.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 51.0,
+      "Bare_area": 9.0,
+      "Water": 0.0
+    }
+  },
+  "summary": "Under a combined conservation-and-restoration approach, Andorra commits to maintaining at least the annual carbon sink capacity of its forests, quantified at -139 Gg CO2 eq/year relative to 2017, while pursuing an unspecified increase through nature-based solutions, adaptive silviculture and voluntary carbon-market projects. The pledge is especially significant because forests cover 282 km², or 60.5% of the country, and the passage states that they absorb around 23% of territorial emissions. It also calls for local administrations’ thermal demand to be met primarily by biomass, supporting adaptive forest management. No numerical increase, implementation area, deadline, or agricultural commitment is specified.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Minimum annual forest carbon sink capacity",
+      "value": -139,
+      "unit": "Gg CO2 eq/year",
+      "timeframe": "2017 baseline",
+      "context": "The target applies to 282 km² of forest (60.5% of the country), which the text says absorbs around 23% of territorial emissions."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Under a combined conservation-and-restoration approach, Andorra commits to maintaining at least the annual carbon sink capacity of its forests, quantified at -139 Gg CO2 eq/year relative to 2017, while pursuing an unspecified increase through nature-based solutions, adaptive silviculture and voluntary carbon-market projects. The pledge is especially significant because forests cover 282 km², or 60.5% of the country, and the passage states that they absorb around 23% of territorial emissions. It also calls for local administrations’ thermal demand to be met primarily by biomass, supporting adaptive forest management. No numerical increase, implementation area, deadline, or agricultural commitment is specified.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minimum annual forest carbon sink capacity\",\n      \"value\": -139,\n      \"unit\": \"Gg CO2 eq/year\",\n      \"timeframe\": \"2017 baseline\",\n      \"context\": \"The target applies to 282 km² of forest (60.5% of the country), which the text says absorbs around 23% of territorial emissions.\"\n    }\n  ]\n}",
+  "errors": []
+}

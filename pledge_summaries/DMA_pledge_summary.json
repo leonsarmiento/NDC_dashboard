@@ -1,0 +1,186 @@
+{
+  "iso3": "DMA",
+  "country": "Commonwealth of Dominica",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 22,
+  "geo_context": {
+    "country_area_km2": 754.8,
+    "land_cover_km2": {
+      "Agriculture": 1.0,
+      "Forest": 726.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 2.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 3.0,
+      "Bare_area": 0.0,
+      "Water": 20.0
+    }
+  },
+  "summary": "Dominica’s pledges mix forest conservation, restoration and agricultural transformation. Conservation targets 65% protected forest—about 471.9 km² if applied to the current 726 km² (96.2%) forest area—and REDD+ sequestration of 648 Gg annually in 2020–2025 and 621 Gg in 2025–2030; passages report differing annual figures of about 100 Gg and 600+ Gg. Restoration sets 6,995 Gg CO2e sequestration by 2030, a reported 980% increase above 2018, improvement of 20% of degraded land, 25% higher healthy coral reef cover and one million trees. Mixed measures rehabilitate 75% of degraded land in Saint Andrew plus 100 km² elsewhere by 2030, and restore 25% of degraded areas with 100 km² of sustainable cropland and agroforestry. A 100 km² component equals 13.2% of the 755 km² land area. Agriculture targets 50% increases in agroforestry farming and farmer numbers, 50% lower emissions, 20% productivity/SOC gains, 50% tree crops on sloped land and 40% organic cultivation.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Approximate annual forest carbon sequestration under sustainable management",
+      "value": 100,
+      "unit": "Gg",
+      "timeframe": "annually during 2020–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual forest carbon sequestration (600+)",
+      "value": 600,
+      "unit": "Gg",
+      "timeframe": "annually during 2020–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Approximate annual REDD+ forest carbon sequestration",
+      "value": 648,
+      "unit": "Gg",
+      "timeframe": "2020–2025, annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Approximate annual REDD+ forest carbon sequestration",
+      "value": 621,
+      "unit": "Gg",
+      "timeframe": "2025–2030, annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area protected",
+      "value": 65,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈471.9 km² if applied to the current 726 km² forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "LULUCF carbon sequestration (≈648 Gg CO2e annually)",
+      "value": 6995,
+      "unit": "Gg CO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "LULUCF carbon sequestration increase above 2018",
+      "value": 980,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional degraded national land improved",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Increase in healthy coral reef cover relative to 2020",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National tree planting",
+      "value": 1000000,
+      "unit": "number of trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded land rehabilitated in Saint Andrew",
+      "value": 75,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded areas restored through sustainable land management",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional land rehabilitated through sustainable crop production",
+      "value": 100,
+      "unit": "km2",
+      "timeframe": "by 2030",
+      "context": "13.2% of the country's 755 km² land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable cropland and agroforestry area restored",
+      "value": 100,
+      "unit": "km2",
+      "timeframe": null,
+      "context": "13.2% of the country's 755 km² land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in agroforestry farming",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cropland and grassland productivity and SOC stock improvement",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030, from a 2015 baseline",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural-sector emissions reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in agroforestry farmers",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural sloped land cultivated with tree crops",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land cultivated organically",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈0.4 km² if applied to the 1 km² currently mapped as agriculture."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Dominica’s pledges mix forest conservation, restoration and agricultural transformation. Conservation targets 65% protected forest—about 471.9 km² if applied to the current 726 km² (96.2%) forest area—and REDD+ sequestration of 648 Gg annually in 2020–2025 and 621 Gg in 2025–2030; passages report differing annual figures of about 100 Gg and 600+ Gg. Restoration sets 6,995 Gg CO2e sequestration by 2030, a reported 980% increase above 2018, improvement of 20% of degraded land, 25% higher healthy coral reef cover and one million trees. Mixed measures rehabilitate 75% of degraded land in Saint Andrew plus 100 km² elsewhere by 2030, and restore 25% of degraded areas with 100 km² of sustainable cropland and agroforestry. A 100 km² component equals 13.2% of the 755 km² land area. Agriculture targets 50% increases in agroforestry farming and farmer numbers, 50% lower emissions, 20% productivity/SOC gains, 50% tree crops on sloped land and 40% organic cultivation.\",\"targets\":[{\"commitment_type\":\"Conservation\",\"metric\":\"Approximate annual forest carbon sequestration under sustainable management\",\"value\":100,\"unit\":\"Gg\",\"timeframe\":\"annually during 2020–2030\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Annual forest carbon sequestration (600+)\",\"value\":600,\"unit\":\"Gg\",\"timeframe\":\"annually during 2020–2030\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Approximate annual REDD+ forest carbon sequestration\",\"value\":648,\"unit\":\"Gg\",\"timeframe\":\"2020–2025, annually\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Approximate annual REDD+ forest carbon sequestration\",\"value\":621,\"unit\":\"Gg\",\"timeframe\":\"2025–2030, annually\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Forest area protected\",\"value\":65,\"unit\":\"%\",\"timeframe\":null,\"context\":\"≈471.9 km² if applied to the current 726 km² forest area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"LULUCF carbon sequestration (≈648 Gg CO2e annually)\",\"value\":6995,\"unit\":\"Gg CO2e\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"LULUCF carbon sequestration increase above 2018\",\"value\":980,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Additional degraded national land improved\",\"value\":20,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Increase in healthy coral reef cover relative to 2020\",\"value\":25,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"National tree planting\",\"value\":1000000,\"unit\":\"number of trees\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Degraded land rehabilitated in Saint Andrew\",\"value\":75,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Degraded areas restored through sustainable land management\",\"value\":25,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Additional land rehabilitated through sustainable crop production\",\"value\":100,\"unit\":\"km2\",\"timeframe\":\"by 2030\",\"context\":\"13.2% of the country's 755 km² land area.\"},{\"commitment_type\":\"Both\",\"metric\":\"Sustainable cropland and agroforestry area restored\",\"value\":100,\"unit\":\"km2\",\"timeframe\":null,\"context\":\"13.2% of the country's 755 km² land area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Increase in agroforestry farming\",\"value\":50,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Cropland and grassland productivity and SOC stock improvement\",\"value\":20,\"unit\":\"%\",\"timeframe\":\"by 2030, from a 2015 baseline\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural-sector emissions reduction\",\"value\":50,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Increase in agroforestry farmers\",\"value\":50,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural sloped land cultivated with tree crops\",\"value\":50,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural land cultivated organically\",\"value\":40,\"unit\":\"%\",\"timeframe\":null,\"context\":\"≈0.4 km² if applied to the 1 km² currently mapped as agriculture.\"}]}",
+  "errors": []
+}

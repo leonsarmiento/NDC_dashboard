@@ -1,0 +1,82 @@
+{
+  "iso3": "OMN",
+  "country": "Sultanate of Oman",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 9,
+  "geo_context": {
+    "country_area_km2": 309705.4,
+    "land_cover_km2": {
+      "Agriculture": 2664.0,
+      "Forest": 357.0,
+      "Grassland": 0.0,
+      "Wetland": 19.0,
+      "Settlement": 616.0,
+      "Shrubland": 398.0,
+      "Sparse_vegetation": 20389.0,
+      "Bare_area": 284985.0,
+      "Water": 269.0
+    }
+  },
+  "summary": "Restoration and mixed measures include a proposal to construct 58 dams and rehabilitate wadi channels, a nationwide initiative to plant 10 million natural trees to combat desertification and improve conditions in populated areas, and artificial rain-seeding stations. The tree effort is notable in a country that is 92.0% bare area, while forest covers only 357 km² (0.1%). Conservation commitments prioritize 112 of 4,100 identified wadis for baseflow monitoring and targeted intervention, support 51 community dams, and commit more than 1.2 billion USD to the fishery sector, mainly for resilience. Oman also plans 7 billion USD over the next 20 years for wastewater-treatment plants and nationwide sewage-network extension. The agriculture entry reports 1.1 MtCO2e/year but does not explain the measure; no interpretation is assigned.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Proposed dam construction",
+      "value": 58,
+      "unit": "dams",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wadi catchments prioritized for monitoring and intervention",
+      "value": 112,
+      "unit": "wadis",
+      "timeframe": null,
+      "context": "112 of the 4,100 wadis identified nationally"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Local community dams supported",
+      "value": 51,
+      "unit": "dams",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fishery-sector resilience investment (lower bound)",
+      "value": 1.2,
+      "unit": "billion USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wastewater treatment and sewage-network investment",
+      "value": 7000000000,
+      "unit": "USD",
+      "timeframe": "over the next 20 years",
+      "context": "Countrywide investment; no share of the 616 km² settlement class is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture commitment (measure unspecified in passage)",
+      "value": 1.1,
+      "unit": "MtCO2e/year",
+      "timeframe": null,
+      "context": "Agriculture covers 2,664 km² (0.9% of land area), but no land area linked to the figure is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural-tree planting",
+      "value": 10000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Nationwide in a country where forest covers 357 km² (0.1% of land area); the pledge is a tree count, not a forest-area target."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration and mixed measures include a proposal to construct 58 dams and rehabilitate wadi channels, a nationwide initiative to plant 10 million natural trees to combat desertification and improve conditions in populated areas, and artificial rain-seeding stations. The tree effort is notable in a country that is 92.0% bare area, while forest covers only 357 km² (0.1%). Conservation commitments prioritize 112 of 4,100 identified wadis for baseflow monitoring and targeted intervention, support 51 community dams, and commit more than 1.2 billion USD to the fishery sector, mainly for resilience. Oman also plans 7 billion USD over the next 20 years for wastewater-treatment plants and nationwide sewage-network extension. The agriculture entry reports 1.1 MtCO2e/year but does not explain the measure; no interpretation is assigned.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Proposed dam construction\",\n      \"value\": 58,\n      \"unit\": \"dams\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wadi catchments prioritized for monitoring and intervention\",\n      \"value\": 112,\n      \"unit\": \"wadis\",\n      \"timeframe\": null,\n      \"context\": \"112 of the 4,100 wadis identified nationally\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Local community dams supported\",\n      \"value\": 51,\n      \"unit\": \"dams\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fishery-sector resilience investment (lower bound)\",\n      \"value\": 1.2,\n      \"unit\": \"billion USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wastewater treatment and sewage-network investment\",\n      \"value\": 7000000000,\n      \"unit\": \"USD\",\n      \"timeframe\": \"over the next 20 years\",\n      \"context\": \"Countrywide investment; no share of the 616 km² settlement class is specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agriculture commitment (measure unspecified in passage)\",\n      \"value\": 1.1,\n      \"unit\": \"MtCO2e/year\",\n      \"timeframe\": null,\n      \"context\": \"Agriculture covers 2,664 km² (0.9% of land area), but no land area linked to the figure is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural-tree planting\",\n      \"value\": 10000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Nationwide in a country where forest covers 357 km² (0.1% of land area); the pledge is a tree count, not a forest-area target.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,194 @@
+{
+  "iso3": "SLV",
+  "country": "El Salvador",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 26,
+  "geo_context": {
+    "country_area_km2": 20372.0,
+    "land_cover_km2": {
+      "Agriculture": 4371.0,
+      "Forest": 15116.0,
+      "Grassland": 18.0,
+      "Wetland": 10.0,
+      "Settlement": 354.0,
+      "Shrubland": 132.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 17.0,
+      "Water": 366.0
+    }
+  },
+  "summary": "El Salvador’s pledge is to restore or rehabilitate 1,000,000 ha of degraded agricultural and ecosystem landscapes in 2035–2040. AFOLU transition measures cover 818,421 ha and are linked to a cumulative 50,857.5 Kton CO 2 Eq reduction for 2035–2040, counted from 2015. The headline area equals 49.1% of land—66.2% of mapped forest in area terms—and includes agricultural land. Restoration covers 18,930 ha of riparian forest and a 30% forest-cover increase in hydroelectric sub-basins. Conservation references 207,387 ha of Ramsar sites and a 606,541.78-ha forest inventory. Agriculture includes 27,600 ha of green sugarcane harvest—6.3% of mapped agriculture and 35% of sugarcane area—3% annual expansion, 50,000 ha of training and 10,000 ha under good practices, 500 producers, 2,600 and 400 manzanas of soil recovery, and 626 kt CO₂eq of livestock-emission reductions by 2035. LULUCF scenarios report 144,000 and 144,290 ha by 2035 and 275,000 ha by 2040.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Conservation, restoration and rehabilitation of degraded landscapes",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "2035–2040",
+      "context": "≈49.1% of total land; ≈66.2% of current mapped forest and ≈2.29× current mapped agriculture as area comparisons"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFOLU mitigation transition footprint",
+      "value": 818421,
+      "unit": "ha",
+      "timeframe": "2035–2040 (starting from 2015)",
+      "context": "≈40.2% of total land; transition footprint associated with the broader 1,000,000-ha effort"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF restoration and conservation (WM scenario)",
+      "value": 144290,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈9.5% of current mapped forest as an area comparison; another passage reports 144,000 ha for the same WM scenario"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF restoration and conservation (WAM scenario)",
+      "value": 275000,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": "≈18.2% of current mapped forest as an area comparison"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted natural regeneration of forest (minimum)",
+      "value": 146,
+      "unit": "ha",
+      "timeframe": "since 2005; projected until 2025",
+      "context": "≈0.01% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Riparian forest rehabilitation",
+      "value": 18930,
+      "unit": "ha",
+      "timeframe": "2035–2040",
+      "context": "≈1.3% of current mapped forest area; passage requires avoiding double counting with the 1,000,000-ha target"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration plantation management near hydroelectric plants",
+      "value": 427,
+      "unit": "ha",
+      "timeframe": "since 1980; projected until 2025",
+      "context": "≈0.03% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Hydrographic sub-basins targeted for restoration and water recharge",
+      "value": 4,
+      "unit": "number of sub-basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest-cover increase in hydroelectric sub-basins",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Stated as ≈190 additional ha over 627 currently protected by CEL"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest management around reservoirs and hydroelectric facilities",
+      "value": 46,
+      "unit": "ha",
+      "timeframe": "since 2013; projected until 2025",
+      "context": "≈0.003% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest strata analyzed for conservation",
+      "value": 606541.78,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈40.1% of current mapped forest area; reported as a forest-strata inventory"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ramsar protected-site network",
+      "value": 207387,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈10.2% of total land across seven existing Ramsar sites"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cumulative agricultural-landscape AFOLU emission reductions",
+      "value": 50857.5,
+      "unit": "Kton CO 2 Eq",
+      "timeframe": "2035–2040 (counted from 2015)",
+      "context": "Associated with the 818,421-ha AFOLU transition footprint; the passage makes it conditional on large-scale financing"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual mechanized sugarcane-harvest expansion",
+      "value": 3,
+      "unit": "%",
+      "timeframe": "each year",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Mechanized green sugarcane harvest",
+      "value": 27600,
+      "unit": "ha",
+      "timeframe": "2024–2025 harvest",
+      "context": "≈6.3% of current mapped agricultural area; stated as 35% of total sugarcane area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sugarcane-producer training coverage (minimum)",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈11.4% of current mapped agricultural area as a scale comparison"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sugarcane area implementing Good Agricultural Practices (minimum)",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈2.3% of current mapped agricultural area as a scale comparison"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice and rancher producers receiving sustainable and climate-adapted agriculture capacity building",
+      "value": 500,
+      "unit": "number of producers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroecological soil recovery in basic grains",
+      "value": 2600,
+      "unit": "manzanas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroecological soil recovery in coffee",
+      "value": 400,
+      "unit": "manzanas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Approximate livestock-farming emission reductions",
+      "value": 626,
+      "unit": "kt CO₂eq",
+      "timeframe": "by 2035",
+      "context": "Supports low-carbon, resilient livestock farming"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"El Salvador’s pledge is to restore or rehabilitate 1,000,000 ha of degraded agricultural and ecosystem landscapes in 2035–2040. AFOLU transition measures cover 818,421 ha and are linked to a cumulative 50,857.5 Kton CO 2 Eq reduction for 2035–2040, counted from 2015. The headline area equals 49.1% of land—66.2% of mapped forest in area terms—and includes agricultural land. Restoration covers 18,930 ha of riparian forest and a 30% forest-cover increase in hydroelectric sub-basins. Conservation references 207,387 ha of Ramsar sites and a 606,541.78-ha forest inventory. Agriculture includes 27,600 ha of green sugarcane harvest—6.3% of mapped agriculture and 35% of sugarcane area—3% annual expansion, 50,000 ha of training and 10,000 ha under good practices, 500 producers, 2,600 and 400 manzanas of soil recovery, and 626 kt CO₂eq of livestock-emission reductions by 2035. LULUCF scenarios report 144,000 and 144,290 ha by 2035 and 275,000 ha by 2040.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conservation, restoration and rehabilitation of degraded landscapes\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2035–2040\",\n      \"context\": \"≈49.1% of total land; ≈66.2% of current mapped forest and ≈2.29× current mapped agriculture as area comparisons\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFOLU mitigation transition footprint\",\n      \"value\": 818421,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2035–2040 (starting from 2015)\",\n      \"context\": \"≈40.2% of total land; transition footprint associated with the broader 1,000,000-ha effort\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LULUCF restoration and conservation (WM scenario)\",\n      \"value\": 144290,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈9.5% of current mapped forest as an area comparison; another passage reports 144,000 ha for the same WM scenario\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LULUCF restoration and conservation (WAM scenario)\",\n      \"value\": 275000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": \"≈18.2% of current mapped forest as an area comparison\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted natural regeneration of forest (minimum)\",\n      \"value\": 146,\n      \"unit\": \"ha\",\n      \"timeframe\": \"since 2005; projected until 2025\",\n      \"context\": \"≈0.01% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Riparian forest rehabilitation\",\n      \"value\": 18930,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2035–2040\",\n      \"context\": \"≈1.3% of current mapped forest area; passage requires avoiding double counting with the 1,000,000-ha target\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration plantation management near hydroelectric plants\",\n      \"value\": 427,\n      \"unit\": \"ha\",\n      \"timeframe\": \"since 1980; projected until 2025\",\n      \"context\": \"≈0.03% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Hydrographic sub-basins targeted for restoration and water recharge\",\n      \"value\": 4,\n      \"unit\": \"number of sub-basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest-cover increase in hydroelectric sub-basins\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Stated as ≈190 additional ha over 627 currently protected by CEL\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest management around reservoirs and hydroelectric facilities\",\n      \"value\": 46,\n      \"unit\": \"ha\",\n      \"timeframe\": \"since 2013; projected until 2025\",\n      \"context\": \"≈0.003% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest strata analyzed for conservation\",\n      \"value\": 606541.78,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈40.1% of current mapped forest area; reported as a forest-strata inventory\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ramsar protected-site network\",\n      \"value\": 207387,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈10.2% of total land across seven existing Ramsar sites\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cumulative agricultural-landscape AFOLU emission reductions\",\n      \"value\": 50857.5,\n      \"unit\": \"Kton CO 2 Eq\",\n      \"timeframe\": \"2035–2040 (counted from 2015)\",\n      \"context\": \"Associated with the 818,421-ha AFOLU transition footprint; the passage makes it conditional on large-scale financing\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual mechanized sugarcane-harvest expansion\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": \"each year\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Mechanized green sugarcane harvest\",\n      \"value\": 27600,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2024–2025 harvest\",\n      \"context\": \"≈6.3% of current mapped agricultural area; stated as 35% of total sugarcane area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sugarcane-producer training coverage (minimum)\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈11.4% of current mapped agricultural area as a scale comparison\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sugarcane area implementing Good Agricultural Practices (minimum)\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈2.3% of current mapped agricultural area as a scale comparison\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice and rancher producers receiving sustainable and climate-adapted agriculture capacity building\",\n      \"value\": 500,\n      \"unit\": \"number of producers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroecological soil recovery in basic grains\",\n      \"value\": 2600,\n      \"unit\": \"manzanas\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroecological soil recovery in coffee\",\n      \"value\": 400,\n      \"unit\": \"manzanas\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Approximate livestock-farming emission reductions\",\n      \"value\": 626,\n      \"unit\": \"kt CO₂eq\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Supports low-carbon, resilient livestock farming\"\n    }\n  ]\n}",
+  "errors": []
+}

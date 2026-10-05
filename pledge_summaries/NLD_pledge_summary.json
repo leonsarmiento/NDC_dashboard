@@ -1,0 +1,106 @@
+{
+  "iso3": "NLD",
+  "country": "Netherlands",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 35046.0,
+    "land_cover_km2": {
+      "Agriculture": 12357.0,
+      "Forest": 3517.0,
+      "Grassland": 13244.0,
+      "Wetland": 490.0,
+      "Settlement": 4250.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 6.0,
+      "Bare_area": 37.0,
+      "Water": 1132.0
+    }
+  },
+  "summary": "Restoration pledges are mainly EU-level: by 2030, measures should cover at least 20% of EU land and 20% of EU sea areas, and by 2050 they should cover all ecosystems needing restoration. Rewetting peatlands and wetlands is estimated to provide 51-54 Mt CO2-eq/yr, while reforestation and sustainable forest management, which combine restoration and conservation, are estimated at 8-235 Mt CO2-eq/yr. Conservation sets an EU LULUCF net-removals target of 310 Mt CO2-eq by 2030 (shown as -310 Mt in carbon-sinks accounting), 42 Mt above the 2016-2018 average. Agriculture includes a 19 Mt CO2-eq/yr EU mitigation potential from improved fertiliser efficiency. The Netherlands' LULUCF allocation is -435 Kt CO2eq by 2030. For scale, 20% of its 35,046 km2 land area is about 7,009 km2; forest, grassland, agriculture and wetlands cover 10.0%, 37.8%, 35.3% and 1.4%, respectively, but the quoted percentage and mitigation potentials are EU-wide, not Dutch area targets.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum land-area share under restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide; for scale only, 20% of the Netherlands' 35,046 km2 land area is about 7,009 km2, but no Dutch land-area allocation is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum sea-area share under restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide; the provided geographical context gives no Netherlands sea-area figure."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland rewetting/restoration mitigation potential, lower bound",
+      "value": 51.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide; wetlands cover 490 km2, or 1.4% of the Netherlands, but no Dutch rewetting or restoration area is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland rewetting/restoration mitigation potential, upper bound",
+      "value": 54.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Upper bound of the EU-wide 51-54 range; no Dutch area share is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential, lower bound",
+      "value": 8.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide; forest covers 3,517 km2, or 10.0% of the Netherlands, but no Dutch reforestation area is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential, upper bound",
+      "value": 235.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Upper bound of the EU-wide 8-235 range; no Dutch area share is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved fertiliser-use efficiency mitigation potential",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide; agriculture covers 12,357 km2, or 35.3% of the Netherlands, but no Dutch farming area is specified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EU LULUCF carbon-sinks/net-removals target",
+      "value": -310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU-wide collective target, not solely Dutch; the same commitment is also stated as 310 Mt CO2 net removals."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional net removals relative to the 2016-2018 average",
+      "value": 42.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "Incremental EU-wide component of the 2030 target; this passage does not assign a Netherlands-specific share."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Netherlands LULUCF net-removals allocation",
+      "value": -435.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030",
+      "context": "Netherlands-specific allocation; no Dutch land-area share is stated."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges are mainly EU-level: by 2030, measures should cover at least 20% of EU land and 20% of EU sea areas, and by 2050 they should cover all ecosystems needing restoration. Rewetting peatlands and wetlands is estimated to provide 51-54 Mt CO2-eq/yr, while reforestation and sustainable forest management, which combine restoration and conservation, are estimated at 8-235 Mt CO2-eq/yr. Conservation sets an EU LULUCF net-removals target of 310 Mt CO2-eq by 2030 (shown as -310 Mt in carbon-sinks accounting), 42 Mt above the 2016-2018 average. Agriculture includes a 19 Mt CO2-eq/yr EU mitigation potential from improved fertiliser efficiency. The Netherlands' LULUCF allocation is -435 Kt CO2eq by 2030. For scale, 20% of its 35,046 km2 land area is about 7,009 km2; forest, grassland, agriculture and wetlands cover 10.0%, 37.8%, 35.3% and 1.4%, respectively, but the quoted percentage and mitigation potentials are EU-wide, not Dutch area targets.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum land-area share under restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide; for scale only, 20% of the Netherlands' 35,046 km2 land area is about 7,009 km2, but no Dutch land-area allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum sea-area share under restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide; the provided geographical context gives no Netherlands sea-area figure.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland rewetting/restoration mitigation potential, lower bound\",\n      \"value\": 51.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU-wide; wetlands cover 490 km2, or 1.4% of the Netherlands, but no Dutch rewetting or restoration area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland rewetting/restoration mitigation potential, upper bound\",\n      \"value\": 54.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Upper bound of the EU-wide 51-54 range; no Dutch area share is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential, lower bound\",\n      \"value\": 8.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU-wide; forest covers 3,517 km2, or 10.0% of the Netherlands, but no Dutch reforestation area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential, upper bound\",\n      \"value\": 235.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Upper bound of the EU-wide 8-235 range; no Dutch area share is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved fertiliser-use efficiency mitigation potential\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU-wide; agriculture covers 12,357 km2, or 35.3% of the Netherlands, but no Dutch farming area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EU LULUCF carbon-sinks/net-removals target\",\n      \"value\": -310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide collective target, not solely Dutch; the same commitment is also stated as 310 Mt CO2 net removals.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional net removals relative to the 2016-2018 average\",\n      \"value\": 42.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Incremental EU-wide component of the 2030 target; this passage does not assign a Netherlands-specific share.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Netherlands LULUCF net-removals allocation\",\n      \"value\": -435.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Netherlands-specific allocation; no Dutch land-area share is stated.\"\n    }\n  ]\n}",
+  "errors": []
+}

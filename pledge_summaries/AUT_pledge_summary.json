@@ -1,0 +1,90 @@
+{
+  "iso3": "AUT",
+  "country": "Austria",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 35,
+  "geo_context": {
+    "country_area_km2": 83899.9,
+    "land_cover_km2": {
+      "Agriculture": 19211.0,
+      "Forest": 44361.0,
+      "Grassland": 14177.0,
+      "Wetland": 123.0,
+      "Settlement": 1974.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 1043.0,
+      "Bare_area": 1943.0,
+      "Water": 716.0
+    }
+  },
+  "summary": "Austria's pledges combine ecosystem restoration and conservation with agricultural and land-sector measures. For conservation, Austria's LULUCF commitment is -879 Kt CO2eq by 2030, within an EU carbon-sinks goal of -310 Mt CO2-eq (310 Mt of net removals), including 42 Mt CO2-eq more removals than the 2016-2018 average; these are carbon-sink rather than hectare targets. Restoration is framed at EU level, with measures covering at least 20% of EU land and 20% of EU seas by 2030; no Austria-specific restoration area is stated, despite forests covering 52.9% of Austria and grasslands 16.9%. Mixed measures also include a EUR 243 million LIFE package. For agriculture, 40% of the EU CAP allocation should contribute to climate objectives, 25% of annual Pillar I direct-payment funds is earmarked for eco-schemes, and 35% of Pillar II funds supports environmental and climate activities; these are funding shares, not coverage of Austria's 22.9% agricultural land.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration coverage of EU land and sea areas",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The minimum applies separately to EU land and sea areas; no Austria-specific area is stated. Austria is 52.9% forest and 16.9% grassland."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Austria LULUCF net greenhouse-gas removals",
+      "value": -879,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "National managed-land target in a country that is 52.9% forest; no hectare allocation is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CAP allocation contributing to climate objectives",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "2023-2027",
+      "context": "EU-wide funding share; it is not a percentage of Austria's 19,211 km2 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pillar I direct-payment funds earmarked for eco-schemes",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": "At least 25% of annual EU direct-payment funding is covered, rather than physical farmland."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pillar II funds dedicated to environment and climate activities",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "At least 35% of EU rural-development funding is covered, rather than physical farmland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "EU LULUCF carbon-sinks and net-removals target",
+      "value": -310,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU collective managed-land target; the passages report -310 Mt CO2-eq in sink notation and 310 Mt as the removals magnitude."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional LULUCF net removals versus the 2016-2018 average",
+      "value": 42,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "Additional EU managed-land removals relative to 2016-2018; no national allocation is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LIFE Programme investment package",
+      "value": 243,
+      "unit": "EUR million",
+      "timeframe": null,
+      "context": "EU-level programme investment rather than a national ecosystem-area target."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Austria's pledges combine ecosystem restoration and conservation with agricultural and land-sector measures. For conservation, Austria's LULUCF commitment is -879 Kt CO2eq by 2030, within an EU carbon-sinks goal of -310 Mt CO2-eq (310 Mt of net removals), including 42 Mt CO2-eq more removals than the 2016-2018 average; these are carbon-sink rather than hectare targets. Restoration is framed at EU level, with measures covering at least 20% of EU land and 20% of EU seas by 2030; no Austria-specific restoration area is stated, despite forests covering 52.9% of Austria and grasslands 16.9%. Mixed measures also include a EUR 243 million LIFE package. For agriculture, 40% of the EU CAP allocation should contribute to climate objectives, 25% of annual Pillar I direct-payment funds is earmarked for eco-schemes, and 35% of Pillar II funds supports environmental and climate activities; these are funding shares, not coverage of Austria's 22.9% agricultural land.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration coverage of EU land and sea areas\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The minimum applies separately to EU land and sea areas; no Austria-specific area is stated. Austria is 52.9% forest and 16.9% grassland.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Austria LULUCF net greenhouse-gas removals\",\n      \"value\": -879,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"National managed-land target in a country that is 52.9% forest; no hectare allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CAP allocation contributing to climate objectives\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023-2027\",\n      \"context\": \"EU-wide funding share; it is not a percentage of Austria's 19,211 km2 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pillar I direct-payment funds earmarked for eco-schemes\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually\",\n      \"context\": \"At least 25% of annual EU direct-payment funding is covered, rather than physical farmland.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pillar II funds dedicated to environment and climate activities\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"At least 35% of EU rural-development funding is covered, rather than physical farmland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"EU LULUCF carbon-sinks and net-removals target\",\n      \"value\": -310,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU collective managed-land target; the passages report -310 Mt CO2-eq in sink notation and 310 Mt as the removals magnitude.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional LULUCF net removals versus the 2016-2018 average\",\n      \"value\": 42,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Additional EU managed-land removals relative to 2016-2018; no national allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LIFE Programme investment package\",\n      \"value\": 243,\n      \"unit\": \"EUR million\",\n      \"timeframe\": null,\n      \"context\": \"EU-level programme investment rather than a national ecosystem-area target.\"\n    }\n  ]\n}",
+  "errors": []
+}

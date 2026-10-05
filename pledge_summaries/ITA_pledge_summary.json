@@ -1,0 +1,90 @@
+{
+  "iso3": "ITA",
+  "country": "Italy",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 8,
+  "geo_context": {
+    "country_area_km2": 300997.3,
+    "land_cover_km2": {
+      "Agriculture": 158061.0,
+      "Forest": 92936.0,
+      "Grassland": 19646.0,
+      "Wetland": 234.0,
+      "Settlement": 13096.0,
+      "Shrubland": 6464.0,
+      "Sparse_vegetation": 2072.0,
+      "Bare_area": 4249.0,
+      "Water": 3764.0
+    }
+  },
+  "summary": "Restoration pledges are chiefly EU-level: at least 20% each of EU land and sea areas should have restoration measures by 2030, and all ecosystems needing restoration should have them by 2050; the reported EU mitigation potential from rewetting and restoring peatlands and wetlands is 51–54 Mt CO2-eq/yr. Conservation centers on an EU LULUCF carbon-sink target of -310 Mt CO2-eq by 2030; Italy’s binding 2030 allocation, reported relative to 2016-2018, is -3,158 kt CO2eq. A combined restoration-conservation measure—ecologically appropriate reforestation and sustainable forest management—has a potential of 8–235 Mt CO2-eq/yr. Agriculture includes improved fertiliser-use efficiency to cut 19 Mt CO2-eq/yr. These figures are mainly EU-level commitments rather than Italian hectare goals. Forests cover 92,936 km² (30.9% of Italy), agriculture 158,061 km² (52.5%), and wetlands 234 km² (0.1%), but no class-specific national area allocation is given.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land and sea restoration coverage",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU collective minimum; it is not stated as 20% of Italy's 300,997 km² land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential—lower bound",
+      "value": 51.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU mitigation potential; Italy has 234 km² of wetland, but no Italian target area is specified."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential—upper bound",
+      "value": 54.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU mitigation potential; Italy has 234 km² of wetland, but no Italian target area is specified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EU LULUCF carbon-sink target",
+      "value": -310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU collective target; other passages express the magnitude as 310 Mt CO2 net removals."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Italy LULUCF net-removals allocation",
+      "value": -3158.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030 (2016-2018 baseline)",
+      "context": "Italy-specific allocation; no hectare or land-cover-class breakdown is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential—lower bound",
+      "value": 8.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "No hectare allocation is stated; Italy has 92,936 km² of forest, or 30.9% of the country."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential—upper bound",
+      "value": 235.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "No hectare allocation is stated; Italy has 92,936 km² of forest, or 30.9% of the country."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertiliser-use efficiency emissions reduction",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "No eligible-area share is stated; agriculture covers 158,061 km², or 52.5% of Italy."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges are chiefly EU-level: at least 20% each of EU land and sea areas should have restoration measures by 2030, and all ecosystems needing restoration should have them by 2050; the reported EU mitigation potential from rewetting and restoring peatlands and wetlands is 51–54 Mt CO2-eq/yr. Conservation centers on an EU LULUCF carbon-sink target of -310 Mt CO2-eq by 2030; Italy’s binding 2030 allocation, reported relative to 2016-2018, is -3,158 kt CO2eq. A combined restoration-conservation measure—ecologically appropriate reforestation and sustainable forest management—has a potential of 8–235 Mt CO2-eq/yr. Agriculture includes improved fertiliser-use efficiency to cut 19 Mt CO2-eq/yr. These figures are mainly EU-level commitments rather than Italian hectare goals. Forests cover 92,936 km² (30.9% of Italy), agriculture 158,061 km² (52.5%), and wetlands 234 km² (0.1%), but no class-specific national area allocation is given.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU land and sea restoration coverage\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU collective minimum; it is not stated as 20% of Italy's 300,997 km² land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential—lower bound\",\n      \"value\": 51.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU mitigation potential; Italy has 234 km² of wetland, but no Italian target area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential—upper bound\",\n      \"value\": 54.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU mitigation potential; Italy has 234 km² of wetland, but no Italian target area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EU LULUCF carbon-sink target\",\n      \"value\": -310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU collective target; other passages express the magnitude as 310 Mt CO2 net removals.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Italy LULUCF net-removals allocation\",\n      \"value\": -3158.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030 (2016-2018 baseline)\",\n      \"context\": \"Italy-specific allocation; no hectare or land-cover-class breakdown is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential—lower bound\",\n      \"value\": 8.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"No hectare allocation is stated; Italy has 92,936 km² of forest, or 30.9% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential—upper bound\",\n      \"value\": 235.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"No hectare allocation is stated; Italy has 92,936 km² of forest, or 30.9% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertiliser-use efficiency emissions reduction\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"No eligible-area share is stated; agriculture covers 158,061 km², or 52.5% of Italy.\"\n    }\n  ]\n}",
+  "errors": []
+}

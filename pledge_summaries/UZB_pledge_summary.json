@@ -1,0 +1,258 @@
+{
+  "iso3": "UZB",
+  "country": "Uzbekistan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 33,
+  "geo_context": {
+    "country_area_km2": 449244.6,
+    "land_cover_km2": {
+      "Agriculture": 88119.0,
+      "Forest": 664.0,
+      "Grassland": 28573.0,
+      "Wetland": 705.0,
+      "Settlement": 4576.0,
+      "Shrubland": 40127.0,
+      "Sparse_vegetation": 26245.0,
+      "Bare_area": 251975.0,
+      "Water": 7824.0
+    }
+  },
+  "summary": "Uzbekistan’s restoration commitments include forest-cover targets of 4.5 million and 6.1 million hectares, with 2.3 million hectares for Aral Sea afforestation; planting one billion trees and shrubs over five years; growing 919 million trees by 2030; and raising forest cover to 15%, versus 0.1% currently mapped. Other goals include 30% greening by 2026 and 100,000 hectares of water management in Southern Karakalpakstan. The Aral Sea afforestation pledge equals about 34.6 times current mapped forest area. Conservation aims to expand protected natural territories to 14.5% in 2025 and 17% by 2030, with a 12% strategy goal, while a conservation target sets forest cover at 4.1 million hectares. Agriculture includes up to 1 million hectares of drip irrigation, 2 million hectares of water-saving technology, yield increases of 20–40% and 30–35%, and 25% better water-use efficiency; a 1-million-hectare irrigation area equals about 11.3% of current mapped agricultural land.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest establishment on the dried Aral Sea bed",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈30.1% of current mapped forest area (66,400 ha)."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest nursery area",
+      "value": 1500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "15 km², ≈0.003% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest-covered area",
+      "value": 4500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "The passage states an increase from 3.2 million ha; ≈67.8× current mapped forest area and ≈10.0% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Aral Sea reforestation area",
+      "value": 2300000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Part of the 6.1-million-ha forest expansion; ≈34.6× current mapped forest area and ≈5.1% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest-cover share",
+      "value": 15,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The pledge states a rise from 8%; ESA 2022 maps forest at 0.1% of the country."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Dried Aral Sea bed forest-planting share",
+      "value": 60,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage states that 60% corresponds to 2 million ha, up from 28% or 0.9 million ha."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Green plantings and vegetation share",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The stated baseline is 8%."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Green zones and parks share",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban territory covered by greening zones",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Yashil Makon tree and shrub planting",
+      "value": 1000000000,
+      "unit": "trees and shrubs",
+      "timeframe": "over five years from 2021",
+      "context": "The same programme is also described as planting 200 million trees per year."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees to be grown under the greening plan",
+      "value": 919000000,
+      "unit": "trees",
+      "timeframe": "through 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-covered area",
+      "value": 4100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈61.7× current mapped forest area and ≈9.1% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected natural territory coverage",
+      "value": 12,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage states 5.4 million ha, up from 3.5% or 1.5 million ha."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected natural territory coverage",
+      "value": 14.5,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": "Equivalent to approximately 6.51 million ha of the country's total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected natural territory coverage",
+      "value": 17,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 7.64 million ha of the country's total land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Drip-irrigation area",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "The upper-end area is ≈11.3% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land using modern water-saving technologies",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.4% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Water-saving technology area",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈22.7% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop yield increase, range lower bound",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop yield increase, range upper bound",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Average agricultural productivity increase, range lower bound",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Average agricultural productivity increase, range upper bound",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Yield increase from drought-resistant crop varieties, range lower bound",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Yield increase from drought-resistant crop varieties, range upper bound",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural sector greenhouse-gas emissions reduction",
+      "value": 34,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Water-use efficiency improvement",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation canal beds to be concreted",
+      "value": 46,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Water-resource management area in Southern Karakalpakstan",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,000 km², ≈0.22% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-cover expansion",
+      "value": 6100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈91.9× current mapped forest area and ≈13.6% of total land area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Uzbekistan’s restoration commitments include forest-cover targets of 4.5 million and 6.1 million hectares, with 2.3 million hectares for Aral Sea afforestation; planting one billion trees and shrubs over five years; growing 919 million trees by 2030; and raising forest cover to 15%, versus 0.1% currently mapped. Other goals include 30% greening by 2026 and 100,000 hectares of water management in Southern Karakalpakstan. The Aral Sea afforestation pledge equals about 34.6 times current mapped forest area. Conservation aims to expand protected natural territories to 14.5% in 2025 and 17% by 2030, with a 12% strategy goal, while a conservation target sets forest cover at 4.1 million hectares. Agriculture includes up to 1 million hectares of drip irrigation, 2 million hectares of water-saving technology, yield increases of 20–40% and 30–35%, and 25% better water-use efficiency; a 1-million-hectare irrigation area equals about 11.3% of current mapped agricultural land.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest establishment on the dried Aral Sea bed\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈30.1% of current mapped forest area (66,400 ha).\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest nursery area\",\n      \"value\": 1500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"15 km², ≈0.003% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest-covered area\",\n      \"value\": 4500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"The passage states an increase from 3.2 million ha; ≈67.8× current mapped forest area and ≈10.0% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Aral Sea reforestation area\",\n      \"value\": 2300000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Part of the 6.1-million-ha forest expansion; ≈34.6× current mapped forest area and ≈5.1% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest-cover share\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The pledge states a rise from 8%; ESA 2022 maps forest at 0.1% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Dried Aral Sea bed forest-planting share\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage states that 60% corresponds to 2 million ha, up from 28% or 0.9 million ha.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Green plantings and vegetation share\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The stated baseline is 8%.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Green zones and parks share\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban territory covered by greening zones\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Yashil Makon tree and shrub planting\",\n      \"value\": 1000000000,\n      \"unit\": \"trees and shrubs\",\n      \"timeframe\": \"over five years from 2021\",\n      \"context\": \"The same programme is also described as planting 200 million trees per year.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees to be grown under the greening plan\",\n      \"value\": 919000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"through 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-covered area\",\n      \"value\": 4100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈61.7× current mapped forest area and ≈9.1% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected natural territory coverage\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage states 5.4 million ha, up from 3.5% or 1.5 million ha.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected natural territory coverage\",\n      \"value\": 14.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": \"Equivalent to approximately 6.51 million ha of the country's total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected natural territory coverage\",\n      \"value\": 17,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 7.64 million ha of the country's total land area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Drip-irrigation area\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"The upper-end area is ≈11.3% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural land using modern water-saving technologies\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.4% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Water-saving technology area\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈22.7% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop yield increase, range lower bound\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop yield increase, range upper bound\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Average agricultural productivity increase, range lower bound\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Average agricultural productivity increase, range upper bound\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Yield increase from drought-resistant crop varieties, range lower bound\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Yield increase from drought-resistant crop varieties, range upper bound\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural sector greenhouse-gas emissions reduction\",\n      \"value\": 34,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Water-use efficiency improvement\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation canal beds to be concreted\",\n      \"value\": 46,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Water-resource management area in Southern Karakalpakstan\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,000 km², ≈0.22% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-cover expansion\",\n      \"value\": 6100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈91.9× current mapped forest area and ≈13.6% of total land area.\"\n    }\n  ]\n}",
+  "errors": []
+}

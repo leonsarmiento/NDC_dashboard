@@ -1,0 +1,114 @@
+{
+  "iso3": "MNG",
+  "country": "Mongolia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 12,
+  "geo_context": {
+    "country_area_km2": 1564287.6,
+    "land_cover_km2": {
+      "Agriculture": 69060.0,
+      "Forest": 96520.0,
+      "Grassland": 343123.0,
+      "Wetland": 3767.0,
+      "Settlement": 735.0,
+      "Shrubland": 6707.0,
+      "Sparse_vegetation": 359105.0,
+      "Bare_area": 670038.0,
+      "Water": 14601.0
+    }
+  },
+  "summary": "Conservation pledges dominate Mongolia’s ecosystem agenda, targeting a 44.9% overall GHG-emission reduction by 2030 and forest sequestration of -24.4 million t CO₂-eq by 2035, including about 3.3 Mt CO₂-eq of enhanced uptake over business as usual. Full international support could yield a conditional sequestration-based reduction of 3.9 Mt CO₂-eq by 2035, while protection is targeted to reach 33.1% of the country by 2035—30% plus an additional 3.1%—about 517,779 km² using the supplied land area. Another conservation measure would retain 6.4 km³ of meltwater in upstream basins. The mixed restoration-and-conservation pledge would restore 10% of heavily degraded steppe and forest-steppe rangelands, although no deadline or base area is stated. Grassland covers 21.9% of Mongolia, so this pledge cannot be compared directly with the full grassland class.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Total GHG emission reduction",
+      "value": 44.9,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Base protected-territory share",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "≈469,286 km² using the supplied 1,564,288 km² land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional protected-territory share",
+      "value": 3.1,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "≈48,493 km² using the supplied 1,564,288 km² land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Overall protected-territory share",
+      "value": 33.1,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "≈517,779 km² using the supplied 1,564,288 km² land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest GHG removals",
+      "value": -2.6,
+      "unit": "Mt CO₂ eq.",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Total GHG emission reduction including conditional measures and forest sink",
+      "value": 22.8,
+      "unit": "Mt CO₂ eq.",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest sequestration with enhanced measures",
+      "value": -24.4,
+      "unit": "million t CO₂-eq",
+      "timeframe": "by 2035",
+      "context": "Forest covers 96,520 km² (6.2%); the pledge gives no intervention-area target"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional carbon sequestration versus business as usual",
+      "value": 3.3,
+      "unit": "Mt CO₂ eq.",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Conditional emissions reduction through carbon sequestration",
+      "value": 3.9,
+      "unit": "Mt CO₂ eq.",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Meltwater retained in upstream river basins",
+      "value": 6.4,
+      "unit": "km³",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Restoration of heavily degraded rangelands",
+      "value": 10.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Grassland covers 21.9% of the country, but the heavily degraded rangeland base is not quantified"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation pledges dominate Mongolia’s ecosystem agenda, targeting a 44.9% overall GHG-emission reduction by 2030 and forest sequestration of -24.4 million t CO₂-eq by 2035, including about 3.3 Mt CO₂-eq of enhanced uptake over business as usual. Full international support could yield a conditional sequestration-based reduction of 3.9 Mt CO₂-eq by 2035, while protection is targeted to reach 33.1% of the country by 2035—30% plus an additional 3.1%—about 517,779 km² using the supplied land area. Another conservation measure would retain 6.4 km³ of meltwater in upstream basins. The mixed restoration-and-conservation pledge would restore 10% of heavily degraded steppe and forest-steppe rangelands, although no deadline or base area is stated. Grassland covers 21.9% of Mongolia, so this pledge cannot be compared directly with the full grassland class.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Total GHG emission reduction\",\n      \"value\": 44.9,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Base protected-territory share\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈469,286 km² using the supplied 1,564,288 km² land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional protected-territory share\",\n      \"value\": 3.1,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈48,493 km² using the supplied 1,564,288 km² land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Overall protected-territory share\",\n      \"value\": 33.1,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈517,779 km² using the supplied 1,564,288 km² land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest GHG removals\",\n      \"value\": -2.6,\n      \"unit\": \"Mt CO₂ eq.\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Total GHG emission reduction including conditional measures and forest sink\",\n      \"value\": 22.8,\n      \"unit\": \"Mt CO₂ eq.\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest sequestration with enhanced measures\",\n      \"value\": -24.4,\n      \"unit\": \"million t CO₂-eq\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Forest covers 96,520 km² (6.2%); the pledge gives no intervention-area target\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional carbon sequestration versus business as usual\",\n      \"value\": 3.3,\n      \"unit\": \"Mt CO₂ eq.\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Conditional emissions reduction through carbon sequestration\",\n      \"value\": 3.9,\n      \"unit\": \"Mt CO₂ eq.\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Meltwater retained in upstream river basins\",\n      \"value\": 6.4,\n      \"unit\": \"km³\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Restoration of heavily degraded rangelands\",\n      \"value\": 10.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Grassland covers 21.9% of the country, but the heavily degraded rangeland base is not quantified\"\n    }\n  ]\n}",
+  "errors": []
+}

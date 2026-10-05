@@ -1,0 +1,82 @@
+{
+  "iso3": "EGY",
+  "country": "Egypt",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 1004418.3,
+    "land_cover_km2": {
+      "Agriculture": 48963.0,
+      "Forest": 7.0,
+      "Grassland": 9.0,
+      "Wetland": 10798.0,
+      "Settlement": 3246.0,
+      "Shrubland": 685.0,
+      "Sparse_vegetation": 13024.0,
+      "Bare_area": 917370.0,
+      "Water": 10294.0
+    }
+  },
+  "summary": "Egypt’s restoration pledge is to rehabilitate and line 20,000 km of irrigation canals, with drainage-system rehabilitation also planned to support agricultural climate resilience and conserve water. Its agriculture pledge covers 4 million feddans with modern surface irrigation, aims to raise agricultural water-use efficiency by 20%, and combines tolerant crops with soil maintenance and protection from degradation. Conservation commitments seek protectorates covering 17% of national marine and wildlife areas, including at least a 5% coastal component, plus sustainable parks in new cities of 5–20 feddans. In context, the country is overwhelmingly bare area (91.3%; 917,370 km²), while agriculture covers 48,963 km² (4.9%); forest and grassland are just 7 and 9 km², respectively. Thus, the quantified pledges focus on irrigation networks, agricultural production and protected areas rather than large-scale forest or grassland restoration.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Irrigation canal rehabilitation and lining",
+      "value": 20000,
+      "unit": "km",
+      "timeframe": null,
+      "context": "This is a canal-network length target, not a 20,000 km² land-restoration target."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under modern surface irrigation",
+      "value": 4000000,
+      "unit": "feddans",
+      "timeframe": null,
+      "context": "Agricultural land covers 48,963 km² (4.9% of Egypt); no feddan-to-km² conversion is supplied for calculating the pledge’s share."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in agricultural water-use efficiency",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The measure concerns water use in the agricultural sector, which covers 48,963 km² (4.9% of Egypt)."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protectorate coverage of national marine and wildlife areas",
+      "value": 17,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The denominator is the country’s marine and wildlife areas, whose combined area is not specified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum coastal component of protected areas",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "This is a stated minimum share; the coastal-area denominator is not specified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable park area in new cities — range minimum",
+      "value": 5,
+      "unit": "feddans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable park area in new cities — range maximum",
+      "value": 20,
+      "unit": "feddans",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Egypt’s restoration pledge is to rehabilitate and line 20,000 km of irrigation canals, with drainage-system rehabilitation also planned to support agricultural climate resilience and conserve water. Its agriculture pledge covers 4 million feddans with modern surface irrigation, aims to raise agricultural water-use efficiency by 20%, and combines tolerant crops with soil maintenance and protection from degradation. Conservation commitments seek protectorates covering 17% of national marine and wildlife areas, including at least a 5% coastal component, plus sustainable parks in new cities of 5–20 feddans. In context, the country is overwhelmingly bare area (91.3%; 917,370 km²), while agriculture covers 48,963 km² (4.9%); forest and grassland are just 7 and 9 km², respectively. Thus, the quantified pledges focus on irrigation networks, agricultural production and protected areas rather than large-scale forest or grassland restoration.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Irrigation canal rehabilitation and lining\",\"value\":20000,\"unit\":\"km\",\"timeframe\":null,\"context\":\"This is a canal-network length target, not a 20,000 km² land-restoration target.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Area under modern surface irrigation\",\"value\":4000000,\"unit\":\"feddans\",\"timeframe\":null,\"context\":\"Agricultural land covers 48,963 km² (4.9% of Egypt); no feddan-to-km² conversion is supplied for calculating the pledge’s share.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Increase in agricultural water-use efficiency\",\"value\":20,\"unit\":\"%\",\"timeframe\":null,\"context\":\"The measure concerns water use in the agricultural sector, which covers 48,963 km² (4.9% of Egypt).\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Protectorate coverage of national marine and wildlife areas\",\"value\":17,\"unit\":\"%\",\"timeframe\":null,\"context\":\"The denominator is the country’s marine and wildlife areas, whose combined area is not specified.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Minimum coastal component of protected areas\",\"value\":5,\"unit\":\"%\",\"timeframe\":null,\"context\":\"This is a stated minimum share; the coastal-area denominator is not specified.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Sustainable park area in new cities — range minimum\",\"value\":5,\"unit\":\"feddans\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Sustainable park area in new cities — range maximum\",\"value\":20,\"unit\":\"feddans\",\"timeframe\":null,\"context\":null}]}",
+  "errors": []
+}

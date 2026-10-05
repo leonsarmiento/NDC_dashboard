@@ -1,0 +1,362 @@
+{
+  "iso3": "GAB",
+  "country": "Gabon",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 41,
+  "geo_context": {
+    "country_area_km2": 262272.0,
+    "land_cover_km2": {
+      "Agriculture": 10396.0,
+      "Forest": 239981.0,
+      "Grassland": 4740.0,
+      "Wetland": 111.0,
+      "Settlement": 279.0,
+      "Shrubland": 4834.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 1951.0
+    }
+  },
+  "summary": "Conservation is central to Gabon’s pledges: net absorption is projected at -79.4 MtCO₂ eq in 2030 and -92.4 MtCO₂ eq from 2035 under existing measures, reaching -94.9 and -121.5 MtCO₂ eq in 2030/2035 with support; removals could improve by up to 108% versus BAU. Gabon targets 2,000 ha under conservation status, 21% protected territory and 30% ecosystem protection by 2030; mixed land-use measures place 60% of territory in sustainable forestry concessions, while maintaining net removals of at least 100 million tCO₂ eq/year beyond 2050. Restoration includes 10,000 ha of degraded-forest reforestation and rehabilitation of eight landfills. Agriculture includes 700 ha of shade coffee (140 ha annually), 2 ha of cacao annually, five composting platforms and a possible 50% cut in per-hectare emissions. With forest at 91.5% and agriculture at 4.0%, the 10,000-ha restoration target is about 0.04% of forest; 700 ha of coffee is about 0.07% of agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-forest reforestation",
+      "value": 10000.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "100 km², ≈0.04% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Uncontrolled landfill rehabilitation",
+      "value": 8.0,
+      "unit": "décharges non contrôlées",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption under existing measures",
+      "value": -79.4,
+      "unit": "MtCO₂ eq",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption under existing measures",
+      "value": -92.4,
+      "unit": "MtCO₂ eq",
+      "timeframe": "from 2035 onwards",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption under additional measures",
+      "value": -94.9,
+      "unit": "MtCO₂ eq",
+      "timeframe": "from 2030",
+      "context": "Conditional on international support and technologies"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption under additional measures",
+      "value": -121.5,
+      "unit": "MtCO₂ eq",
+      "timeframe": "2035",
+      "context": "Conditional on international support and technologies"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sink-removal improvement vs BAU (WEM)",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sink-removal improvement vs BAU (WAM)",
+      "value": 37.0,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Maximum sink-removal improvement vs BAU",
+      "value": 108.0,
+      "unit": "%",
+      "timeframe": "2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption estimate",
+      "value": -87578.0,
+      "unit": "GgCO₂ eq",
+      "timeframe": null,
+      "context": "Reported with a +10% improvement vs BAU"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "BAU improvement associated with net absorption",
+      "value": 10.0,
+      "unit": "% vs BAU",
+      "timeframe": null,
+      "context": "-87,578 GgCO₂ eq net absorption"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption estimate",
+      "value": -102114.0,
+      "unit": "GgCO₂ eq",
+      "timeframe": null,
+      "context": "Reported with a +28% improvement vs BAU"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "BAU improvement associated with net absorption",
+      "value": 28.0,
+      "unit": "% vs BAU",
+      "timeframe": null,
+      "context": "-102,114 GgCO₂ eq net absorption"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption estimate",
+      "value": -101301.0,
+      "unit": "GgCO₂ eq",
+      "timeframe": null,
+      "context": "Reported with a +45% improvement vs BAU"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "BAU improvement associated with net absorption",
+      "value": 45.0,
+      "unit": "% vs BAU",
+      "timeframe": null,
+      "context": "-101,301 GgCO₂ eq net absorption"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net absorption estimate",
+      "value": -128387.0,
+      "unit": "GgCO₂ eq",
+      "timeframe": null,
+      "context": "Reported with a +84% improvement vs BAU"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "BAU improvement associated with net absorption",
+      "value": 84.0,
+      "unit": "% vs BAU",
+      "timeframe": null,
+      "context": "-128,387 GgCO₂ eq net absorption"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon-sequestration improvement vs BAU",
+      "value": 58.7,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Area under conservation status",
+      "value": 2000.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "20 km², ≈0.008% of current forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Climate-resilient ecological corridors",
+      "value": 5.0,
+      "unit": "corridors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community fire-surveillance watch posts",
+      "value": 30.0,
+      "unit": "postes de veille",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Meteorological and hydrological stations",
+      "value": 80.0,
+      "unit": "stations météo/hydrologiques",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net removals maintained",
+      "value": 100000000.0,
+      "unit": "tCO₂ eq/year",
+      "timeframe": "beyond 2050",
+      "context": "At least this level, subject to support"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Territory under protected areas",
+      "value": 21.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈55,077 km² using the stated total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National parks network",
+      "value": 13.0,
+      "unit": "national parks",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National parks coverage",
+      "value": 11.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈28,850 km² using the stated total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Catchments constructed",
+      "value": 5.0,
+      "unit": "bassins versants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine ecosystems protected",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage compares this with 27% currently"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cacao-tree area established annually",
+      "value": 2.0,
+      "unit": "ha/year",
+      "timeframe": "2026–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Shade coffee area created",
+      "value": 700.0,
+      "unit": "ha",
+      "timeframe": "2026–2030",
+      "context": "7 km², ≈0.07% of current agricultural area; 140 ha/year during 2026–2030"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fodder-producing agricultural land",
+      "value": 71.0,
+      "unit": "mil ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cacao seed field",
+      "value": 1.5,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Coffee seed field",
+      "value": 1.5,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Composting platforms constructed",
+      "value": 5.0,
+      "unit": "plateformes de compostage",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Potential RIL-C emissions reduction per hectare",
+      "value": 50.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Compared with current national average"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Zero net deforestation",
+      "value": 0.0,
+      "unit": "",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "CIBEL plant target",
+      "value": 20000.0,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "CIBEL plants planted",
+      "value": 80000.0,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Major basins under watershed management and reforestation",
+      "value": 6.0,
+      "unit": "grands bassins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Territory under sustainable forestry concessions",
+      "value": 60.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈157,363 km² of the stated total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Generalized sustainable forest certification",
+      "value": 2025.0,
+      "unit": "year",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Terrestrial and aquatic ecosystems protected",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "30x30 protected-ecosystems initiative; ≈78,682 km² if applied to the stated land area"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation is central to Gabon’s pledges: net absorption is projected at -79.4 MtCO₂ eq in 2030 and -92.4 MtCO₂ eq from 2035 under existing measures, reaching -94.9 and -121.5 MtCO₂ eq in 2030/2035 with support; removals could improve by up to 108% versus BAU. Gabon targets 2,000 ha under conservation status, 21% protected territory and 30% ecosystem protection by 2030; mixed land-use measures place 60% of territory in sustainable forestry concessions, while maintaining net removals of at least 100 million tCO₂ eq/year beyond 2050. Restoration includes 10,000 ha of degraded-forest reforestation and rehabilitation of eight landfills. Agriculture includes 700 ha of shade coffee (140 ha annually), 2 ha of cacao annually, five composting platforms and a possible 50% cut in per-hectare emissions. With forest at 91.5% and agriculture at 4.0%, the 10,000-ha restoration target is about 0.04% of forest; 700 ha of coffee is about 0.07% of agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-forest reforestation\",\n      \"value\": 10000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"100 km², ≈0.04% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Uncontrolled landfill rehabilitation\",\n      \"value\": 8.0,\n      \"unit\": \"décharges non contrôlées\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption under existing measures\",\n      \"value\": -79.4,\n      \"unit\": \"MtCO₂ eq\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption under existing measures\",\n      \"value\": -92.4,\n      \"unit\": \"MtCO₂ eq\",\n      \"timeframe\": \"from 2035 onwards\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption under additional measures\",\n      \"value\": -94.9,\n      \"unit\": \"MtCO₂ eq\",\n      \"timeframe\": \"from 2030\",\n      \"context\": \"Conditional on international support and technologies\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption under additional measures\",\n      \"value\": -121.5,\n      \"unit\": \"MtCO₂ eq\",\n      \"timeframe\": \"2035\",\n      \"context\": \"Conditional on international support and technologies\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sink-removal improvement vs BAU (WEM)\",\n      \"value\": 15.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sink-removal improvement vs BAU (WAM)\",\n      \"value\": 37.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Maximum sink-removal improvement vs BAU\",\n      \"value\": 108.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption estimate\",\n      \"value\": -87578.0,\n      \"unit\": \"GgCO₂ eq\",\n      \"timeframe\": null,\n      \"context\": \"Reported with a +10% improvement vs BAU\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"BAU improvement associated with net absorption\",\n      \"value\": 10.0,\n      \"unit\": \"% vs BAU\",\n      \"timeframe\": null,\n      \"context\": \"-87,578 GgCO₂ eq net absorption\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption estimate\",\n      \"value\": -102114.0,\n      \"unit\": \"GgCO₂ eq\",\n      \"timeframe\": null,\n      \"context\": \"Reported with a +28% improvement vs BAU\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"BAU improvement associated with net absorption\",\n      \"value\": 28.0,\n      \"unit\": \"% vs BAU\",\n      \"timeframe\": null,\n      \"context\": \"-102,114 GgCO₂ eq net absorption\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption estimate\",\n      \"value\": -101301.0,\n      \"unit\": \"GgCO₂ eq\",\n      \"timeframe\": null,\n      \"context\": \"Reported with a +45% improvement vs BAU\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"BAU improvement associated with net absorption\",\n      \"value\": 45.0,\n      \"unit\": \"% vs BAU\",\n      \"timeframe\": null,\n      \"context\": \"-101,301 GgCO₂ eq net absorption\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net absorption estimate\",\n      \"value\": -128387.0,\n      \"unit\": \"GgCO₂ eq\",\n      \"timeframe\": null,\n      \"context\": \"Reported with a +84% improvement vs BAU\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"BAU improvement associated with net absorption\",\n      \"value\": 84.0,\n      \"unit\": \"% vs BAU\",\n      \"timeframe\": null,\n      \"context\": \"-128,387 GgCO₂ eq net absorption\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon-sequestration improvement vs BAU\",\n      \"value\": 58.7,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Area under conservation status\",\n      \"value\": 2000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"20 km², ≈0.008% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Climate-resilient ecological corridors\",\n      \"value\": 5.0,\n      \"unit\": \"corridors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community fire-surveillance watch posts\",\n      \"value\": 30.0,\n      \"unit\": \"postes de veille\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Meteorological and hydrological stations\",\n      \"value\": 80.0,\n      \"unit\": \"stations météo/hydrologiques\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net removals maintained\",\n      \"value\": 100000000.0,\n      \"unit\": \"tCO₂ eq/year\",\n      \"timeframe\": \"beyond 2050\",\n      \"context\": \"At least this level, subject to support\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Territory under protected areas\",\n      \"value\": 21.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈55,077 km² using the stated total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National parks network\",\n      \"value\": 13.0,\n      \"unit\": \"national parks\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National parks coverage\",\n      \"value\": 11.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈28,850 km² using the stated total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Catchments constructed\",\n      \"value\": 5.0,\n      \"unit\": \"bassins versants\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine ecosystems protected\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage compares this with 27% currently\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cacao-tree area established annually\",\n      \"value\": 2.0,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2026–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Shade coffee area created\",\n      \"value\": 700.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2026–2030\",\n      \"context\": \"7 km², ≈0.07% of current agricultural area; 140 ha/year during 2026–2030\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fodder-producing agricultural land\",\n      \"value\": 71.0,\n      \"unit\": \"mil ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cacao seed field\",\n      \"value\": 1.5,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Coffee seed field\",\n      \"value\": 1.5,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Composting platforms constructed\",\n      \"value\": 5.0,\n      \"unit\": \"plateformes de compostage\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Potential RIL-C emissions reduction per hectare\",\n      \"value\": 50.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Compared with current national average\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Zero net deforestation\",\n      \"value\": 0.0,\n      \"unit\": \"\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"CIBEL plant target\",\n      \"value\": 20000.0,\n      \"unit\": \"plants\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"CIBEL plants planted\",\n      \"value\": 80000.0,\n      \"unit\": \"plants\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Major basins under watershed management and reforestation\",\n      \"value\": 6.0,\n      \"unit\": \"grands bassins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Territory under sustainable forestry concessions\",\n      \"value\": 60.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈157,363 km² of the stated total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Generalized sustainable forest certification\",\n      \"value\": 2025.0,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Terrestrial and aquatic ecosystems protected\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"30x30 protected-ecosystems initiative; ≈78,682 km² if applied to the stated land area\"\n    }\n  ]\n}",
+  "errors": []
+}

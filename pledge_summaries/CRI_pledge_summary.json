@@ -1,0 +1,418 @@
+{
+  "iso3": "CRI",
+  "country": "Costa Rica",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 48,
+  "geo_context": {
+    "country_area_km2": 50971.4,
+    "land_cover_km2": {
+      "Agriculture": 12647.0,
+      "Forest": 37354.0,
+      "Grassland": 150.0,
+      "Wetland": 20.0,
+      "Settlement": 485.0,
+      "Shrubland": 2.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 11.0,
+      "Water": 298.0
+    }
+  },
+  "summary": "Costa Rica’s pledges combine conservation, restoration, agriculture and integrated action. Conservation aims at a 60% forest-cover target and zero mature-forest deforestation by 2030, 30% ocean protection by 2022, and 100% protection of inventoried coastal wetlands by 2025. Agriculture targets 69,500 ha of silvopastoral and agroforestry systems by 2030, 70% of the cattle herd and 60% of livestock area under low-emission systems, 50% of coffee-growing area under sustainable production, and a 1% annual pasture reduction with 1–2% annual growth in well-managed pasture. Restoration includes an additional 30,000 ha of urban forest landscapes, 2,000 ha of mangroves, 600 ha at prioritized sites, and 80% of restoration-eligible Gulf of Nicoya mangroves. Integrated action will intervene across 1,000,000 ha of forest landscapes by 2030—about 26.8% of the 37,354 km² currently mapped as forest—and manage 25,000 ha of secondary forest, while restoring and conserving 10,000 ha of recharge zones and riparian corridors.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Gulf of Nicoya mangroves with rehabilitation potential entering restoration",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest-cover increase in water-source protection zones",
+      "value": 100,
+      "unit": "hectares",
+      "timeframe": "by 2022",
+      "context": "≈0.03% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Landscape and urban micro-corridor restoration",
+      "value": 300,
+      "unit": "hectares",
+      "timeframe": "by 2022",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional forest-cover restoration in urban landscapes",
+      "value": 30000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.8% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum landscape restoration in prioritized adaptation sites",
+      "value": 600,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Hydrologically important sites in restoration",
+      "value": 90,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove area in restoration",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual mangrove recovery",
+      "value": 500,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum increase in building use of wood, bamboo and other local materials",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2025 (2018 baseline)",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The 2022 land-cover context reports 73.3% forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ocean under official protection",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2022",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Inventoried coastal wetlands protected and conserved",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum increase in registered estuarine wetland area",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum share of indigenous territories strengthening traditional productive systems in forest and biodiversity buffers",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area management plans containing climate-risk and adaptation analysis",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Municipalities integrating climate adaptation into territorial and coastal and marine planning",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Interurban biological corridors with a management-effectiveness monitoring tool",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum management-effectiveness evaluation score for terrestrial protected areas",
+      "value": 60,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Level 1 fires adequately attended",
+      "value": 90,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National illegal-logging strategy implemented",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "State protected wild areas with inclusive general management plans",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected marine area managed effectively",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum share of indigenous territories maintaining or expanding forest cover",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mature-forest deforestation rate",
+      "value": 0,
+      "unit": "deforestation rate",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided deforestation in the La Amistad Pacific buffer zone",
+      "value": 3000,
+      "unit": "hectares",
+      "timeframe": "by 2022",
+      "context": "≈0.08% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Area of key ecosystems under biodiversity conservation strategies",
+      "value": 33039.7,
+      "unit": "km²",
+      "timeframe": null,
+      "context": "51.2 km² above the stated 2020 baseline; ≈64.8% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Metropolitan Area interurban biological corridors with management plans",
+      "value": 2,
+      "unit": "number of corridors",
+      "timeframe": "by 2022",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biological corridors managing climate refuges",
+      "value": 6,
+      "unit": "number of corridors",
+      "timeframe": "by 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial protected wild areas receiving management-effectiveness evaluations",
+      "value": 4,
+      "unit": "number of protected areas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle herd implementing low-emission production systems",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock area implementing low-emission production systems",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National coffee-growing area under sustainable and low-emission practices",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Referenced crop area under sustainable low-emission production systems",
+      "value": 32,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Country Climate Leadership Program affiliates obtaining Adapted or Adapted+ certification",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual reduction rate in total pasture area",
+      "value": 1,
+      "unit": "% annual rate",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Lower bound for annual increase in well-managed pasture area over the baseline trend",
+      "value": 1,
+      "unit": "% annual rate",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Upper bound for annual increase in well-managed pasture area over the baseline trend",
+      "value": 2,
+      "unit": "% annual rate",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in complete silvopastoral and agroforestry systems",
+      "value": 69500,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "≈5.5% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fishing, aquaculture and mariculture initiatives or projects implementing adaptation",
+      "value": 150,
+      "unit": "number of initiatives",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organizations and independent persons obtaining adaptation-oriented credit",
+      "value": 15,
+      "unit": "number of organizations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Businesses obtaining climate-risk, clean-technology or adaptation incentives or recognitions",
+      "value": 1735,
+      "unit": "number of businesses",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "NAMA Ganadería quantified target with denominator unspecified",
+      "value": 18,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority Red List ecosystems with conservation actions for ecosystem-service recovery",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest landscapes intervened to prevent degradation and support biodiversity",
+      "value": 1000000,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "≈26.8% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Secondary-growth forest under management",
+      "value": 25000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈6.7% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Water recharge zones and riparian corridors restored and conserved",
+      "value": 10000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "100 km², ≈0.2% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable agrolandscape restoration",
+      "value": 600,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "6 km², ≈0.05% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Interurban biological corridors with adaptation-focused management plans",
+      "value": 7,
+      "unit": "number of corridors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tourism units with climate-adaptation training programs",
+      "value": 7,
+      "unit": "number of tourism units",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Costa Rica’s pledges combine conservation, restoration, agriculture and integrated action. Conservation aims at a 60% forest-cover target and zero mature-forest deforestation by 2030, 30% ocean protection by 2022, and 100% protection of inventoried coastal wetlands by 2025. Agriculture targets 69,500 ha of silvopastoral and agroforestry systems by 2030, 70% of the cattle herd and 60% of livestock area under low-emission systems, 50% of coffee-growing area under sustainable production, and a 1% annual pasture reduction with 1–2% annual growth in well-managed pasture. Restoration includes an additional 30,000 ha of urban forest landscapes, 2,000 ha of mangroves, 600 ha at prioritized sites, and 80% of restoration-eligible Gulf of Nicoya mangroves. Integrated action will intervene across 1,000,000 ha of forest landscapes by 2030—about 26.8% of the 37,354 km² currently mapped as forest—and manage 25,000 ha of secondary forest, while restoring and conserving 10,000 ha of recharge zones and riparian corridors.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Gulf of Nicoya mangroves with rehabilitation potential entering restoration\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest-cover increase in water-source protection zones\",\n      \"value\": 100,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2022\",\n      \"context\": \"≈0.03% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Landscape and urban micro-corridor restoration\",\n      \"value\": 300,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2022\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional forest-cover restoration in urban landscapes\",\n      \"value\": 30000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈0.8% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum landscape restoration in prioritized adaptation sites\",\n      \"value\": 600,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Hydrologically important sites in restoration\",\n      \"value\": 90,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove area in restoration\",\n      \"value\": 2000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual mangrove recovery\",\n      \"value\": 500,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum increase in building use of wood, bamboo and other local materials\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025 (2018 baseline)\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The 2022 land-cover context reports 73.3% forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ocean under official protection\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2022\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Inventoried coastal wetlands protected and conserved\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum increase in registered estuarine wetland area\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum share of indigenous territories strengthening traditional productive systems in forest and biodiversity buffers\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area management plans containing climate-risk and adaptation analysis\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Municipalities integrating climate adaptation into territorial and coastal and marine planning\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Interurban biological corridors with a management-effectiveness monitoring tool\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum management-effectiveness evaluation score for terrestrial protected areas\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Level 1 fires adequately attended\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National illegal-logging strategy implemented\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"State protected wild areas with inclusive general management plans\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected marine area managed effectively\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum share of indigenous territories maintaining or expanding forest cover\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mature-forest deforestation rate\",\n      \"value\": 0,\n      \"unit\": \"deforestation rate\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Avoided deforestation in the La Amistad Pacific buffer zone\",\n      \"value\": 3000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2022\",\n      \"context\": \"≈0.08% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Area of key ecosystems under biodiversity conservation strategies\",\n      \"value\": 33039.7,\n      \"unit\": \"km²\",\n      \"timeframe\": null,\n      \"context\": \"51.2 km² above the stated 2020 baseline; ≈64.8% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Metropolitan Area interurban biological corridors with management plans\",\n      \"value\": 2,\n      \"unit\": \"number of corridors\",\n      \"timeframe\": \"by 2022\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biological corridors managing climate refuges\",\n      \"value\": 6,\n      \"unit\": \"number of corridors\",\n      \"timeframe\": \"by 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial protected wild areas receiving management-effectiveness evaluations\",\n      \"value\": 4,\n      \"unit\": \"number of protected areas\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle herd implementing low-emission production systems\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock area implementing low-emission production systems\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National coffee-growing area under sustainable and low-emission practices\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Referenced crop area under sustainable low-emission production systems\",\n      \"value\": 32,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Country Climate Leadership Program affiliates obtaining Adapted or Adapted+ certification\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual reduction rate in total pasture area\",\n      \"value\": 1,\n      \"unit\": \"% annual rate\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Lower bound for annual increase in well-managed pasture area over the baseline trend\",\n      \"value\": 1,\n      \"unit\": \"% annual rate\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Upper bound for annual increase in well-managed pasture area over the baseline trend\",\n      \"value\": 2,\n      \"unit\": \"% annual rate\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in complete silvopastoral and agroforestry systems\",\n      \"value\": 69500,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈5.5% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fishing, aquaculture and mariculture initiatives or projects implementing adaptation\",\n      \"value\": 150,\n      \"unit\": \"number of initiatives\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organizations and independent persons obtaining adaptation-oriented credit\",\n      \"value\": 15,\n      \"unit\": \"number of organizations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Businesses obtaining climate-risk, clean-technology or adaptation incentives or recognitions\",\n      \"value\": 1735,\n      \"unit\": \"number of businesses\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"NAMA Ganadería quantified target with denominator unspecified\",\n      \"value\": 18,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority Red List ecosystems with conservation actions for ecosystem-service recovery\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest landscapes intervened to prevent degradation and support biodiversity\",\n      \"value\": 1000000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈26.8% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Secondary-growth forest under management\",\n      \"value\": 25000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈6.7% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Water recharge zones and riparian corridors restored and conserved\",\n      \"value\": 10000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"100 km², ≈0.2% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable agrolandscape restoration\",\n      \"value\": 600,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"6 km², ≈0.05% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Interurban biological corridors with adaptation-focused management plans\",\n      \"value\": 7,\n      \"unit\": \"number of corridors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tourism units with climate-adaptation training programs\",\n      \"value\": 7,\n      \"unit\": \"number of tourism units\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,34 @@
+{
+  "iso3": "ISL",
+  "country": "Iceland",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 101601.0,
+    "land_cover_km2": {
+      "Agriculture": 0.0,
+      "Forest": 10.0,
+      "Grassland": 24235.0,
+      "Wetland": 6629.0,
+      "Settlement": 21.0,
+      "Shrubland": 82.0,
+      "Sparse_vegetation": 36629.0,
+      "Bare_area": 20338.0,
+      "Water": 2601.0
+    }
+  },
+  "summary": "Under conservation, Iceland’s pledge focuses exclusively on the LULUCF sector rather than a numerical area-restoration programme. It commits to an annual net reduction of 400–500 kt CO2eq by 2035 relative to 2025, with all three passages expressing the same target. The pledge is relevant to a landscape where grassland covers 24,235 km² (23.9%), sparse vegetation 36,629 km² (36.1%), and wetlands 6,629 km² (6.5%), while forest covers only 10 km² (shown as 0.0% of the country). However, because the commitment is expressed as an emissions reduction and is not allocated to a particular land-cover class, the provided information does not support translating it into hectares or a percentage of current forest, grassland, or wetland area.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual net LULUCF emissions reduction (lower bound)",
+      "value": 400,
+      "unit": "kt CO2eq",
+      "timeframe": "by 2035 relative to 2025",
+      "context": "The reported range is 400–500 kt CO2eq, with this entry recording the lower bound; no land-cover share can be calculated from the class-specific data."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Under conservation, Iceland’s pledge focuses exclusively on the LULUCF sector rather than a numerical area-restoration programme. It commits to an annual net reduction of 400–500 kt CO2eq by 2035 relative to 2025, with all three passages expressing the same target. The pledge is relevant to a landscape where grassland covers 24,235 km² (23.9%), sparse vegetation 36,629 km² (36.1%), and wetlands 6,629 km² (6.5%), while forest covers only 10 km² (shown as 0.0% of the country). However, because the commitment is expressed as an emissions reduction and is not allocated to a particular land-cover class, the provided information does not support translating it into hectares or a percentage of current forest, grassland, or wetland area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual net LULUCF emissions reduction (lower bound)\",\n      \"value\": 400,\n      \"unit\": \"kt CO2eq\",\n      \"timeframe\": \"by 2035 relative to 2025\",\n      \"context\": \"The reported range is 400–500 kt CO2eq, with this entry recording the lower bound; no land-cover share can be calculated from the class-specific data.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,34 @@
+{
+  "iso3": "DZA",
+  "country": "Algeria",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 2316919.1,
+    "land_cover_km2": {
+      "Agriculture": 104125.0,
+      "Forest": 20748.0,
+      "Grassland": 71.0,
+      "Wetland": 7.0,
+      "Settlement": 3069.0,
+      "Shrubland": 17025.0,
+      "Sparse_vegetation": 86804.0,
+      "Bare_area": 2083484.0,
+      "Water": 1605.0
+    }
+  },
+  "summary": "Algeria’s ecosystem pledge is restoration-focused: it aims to accelerate and intensify its National Reforestation Plan toward a global reforestation target of 1,245,000 hectares, with no specific deadline stated. This planned reforestation area equals 12,450 km², about 0.5% of Algeria’s total land area and roughly 60% of its current 20,748 km² forest cover. The target also exceeds the mapped 17,025 km² of shrubland, indicating that it could substantially reshape the country’s comparatively limited vegetated landscape, which is dominated by bare area covering 89.9% of the country. The passage presents reforestation principally as a carbon-sequestration measure.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 1245000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "Equivalent to 12,450 km², approximately 0.5% of total land area and 60% of current forest cover."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Algeria’s ecosystem pledge is restoration-focused: it aims to accelerate and intensify its National Reforestation Plan toward a global reforestation target of 1,245,000 hectares, with no specific deadline stated. This planned reforestation area equals 12,450 km², about 0.5% of Algeria’s total land area and roughly 60% of its current 20,748 km² forest cover. The target also exceeds the mapped 17,025 km² of shrubland, indicating that it could substantially reshape the country’s comparatively limited vegetated landscape, which is dominated by bare area covering 89.9% of the country. The passage presents reforestation principally as a carbon-sequestration measure.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 1245000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to 12,450 km², approximately 0.5% of total land area and 60% of current forest cover.\"\n    }\n  ]\n}",
+  "errors": []
+}

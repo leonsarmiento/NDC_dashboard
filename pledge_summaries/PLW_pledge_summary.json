@@ -1,0 +1,82 @@
+{
+  "iso3": "PLW",
+  "country": "Republic of Palau",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 7,
+  "geo_context": {
+    "country_area_km2": 409.0,
+    "land_cover_km2": {
+      "Agriculture": 96.0,
+      "Forest": 272.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 36.0
+    }
+  },
+  "summary": "Palau’s restoration commitments are the most concrete: afforestation and reforestation of degraded land are planned for up to 500 ha by 2040, including 250 ha by 2035, while a separate 120 ha of reforested land is reported without a timeframe; the 500-ha maximum equals about 1.8% of the country’s current 272 km² forest area. Restoration also includes rehabilitating eight closed dump sites by 2030. Under mixed agriculture and conservation measures, Palau targets a 50% increase in land used for taro production, while pursuing sustainable farm improvements, coral and mangrove protection, and coastal restoration. Its conservation strategy seeks 100% sustainable management of the exclusive economic zone. Agricultural measures also introduce biogas at 16 commercial pig farms; because neither taro area nor farm size is reported, these pledges cannot be compared directly with the country’s 96 km² of agricultural land.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and reforestation of degraded land",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": "Maximum scale is ≈1.8% of current forest area (272 km²) and ≈1.2% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and reforestation milestone",
+      "value": 250,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.9% of current forest area and ≈0.6% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforested land",
+      "value": 120,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.4% of current forest area and ≈0.3% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Closed dump sites rehabilitated",
+      "value": 8,
+      "unit": "number of closed dump sites",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in land used for taro production",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The current taro area is not stated, so coverage of the 96 km² agricultural area cannot be calculated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable management of the exclusive economic zone",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Commercial pig farms implementing biogas",
+      "value": 16,
+      "unit": "number of commercial farms",
+      "timeframe": null,
+      "context": "Farm size is not reported, so coverage of the current 96 km² agricultural area cannot be calculated."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Palau’s restoration commitments are the most concrete: afforestation and reforestation of degraded land are planned for up to 500 ha by 2040, including 250 ha by 2035, while a separate 120 ha of reforested land is reported without a timeframe; the 500-ha maximum equals about 1.8% of the country’s current 272 km² forest area. Restoration also includes rehabilitating eight closed dump sites by 2030. Under mixed agriculture and conservation measures, Palau targets a 50% increase in land used for taro production, while pursuing sustainable farm improvements, coral and mangrove protection, and coastal restoration. Its conservation strategy seeks 100% sustainable management of the exclusive economic zone. Agricultural measures also introduce biogas at 16 commercial pig farms; because neither taro area nor farm size is reported, these pledges cannot be compared directly with the country’s 96 km² of agricultural land.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Afforestation and reforestation of degraded land\",\"value\":500,\"unit\":\"ha\",\"timeframe\":\"by 2040\",\"context\":\"Maximum scale is ≈1.8% of current forest area (272 km²) and ≈1.2% of total land area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Afforestation and reforestation milestone\",\"value\":250,\"unit\":\"ha\",\"timeframe\":\"by 2035\",\"context\":\"≈0.9% of current forest area and ≈0.6% of total land area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Reforested land\",\"value\":120,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.4% of current forest area and ≈0.3% of total land area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Closed dump sites rehabilitated\",\"value\":8,\"unit\":\"number of closed dump sites\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Increase in land used for taro production\",\"value\":50,\"unit\":\"%\",\"timeframe\":null,\"context\":\"The current taro area is not stated, so coverage of the 96 km² agricultural area cannot be calculated.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Sustainable management of the exclusive economic zone\",\"value\":100,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Commercial pig farms implementing biogas\",\"value\":16,\"unit\":\"number of commercial farms\",\"timeframe\":null,\"context\":\"Farm size is not reported, so coverage of the current 96 km² agricultural area cannot be calculated.\"}]}",
+  "errors": []
+}

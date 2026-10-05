@@ -1,0 +1,234 @@
+{
+  "iso3": "PAK",
+  "country": "Pakistan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 25,
+  "geo_context": {
+    "country_area_km2": 790324.1,
+    "land_cover_km2": {
+      "Agriculture": 278935.0,
+      "Forest": 19283.0,
+      "Grassland": 176868.0,
+      "Wetland": 3601.0,
+      "Settlement": 4630.0,
+      "Shrubland": 57876.0,
+      "Sparse_vegetation": 27536.0,
+      "Bare_area": 214409.0,
+      "Water": 4941.0
+    }
+  },
+  "summary": "Pakistan’s conservation commitments expand protected areas from 12% to 15% of national land by 2023 and manage at least 1.5 million ha of snow-leopard habitat; flood measures cover 2.47 million ha protected from inundation, 779,250 ha from erosion and 154,180 ha reclaimed. Restoration leads the mixed agenda: by 2030, restore 30% of degraded forest, 5% of degraded cropland, 6% of degraded grassland and 10% of degraded wetlands. Major programmes include 1.2 million ha of forest restoration by 2023, 1 million ha of mass afforestation, 145,300 ha under sustainable forest management and 350,000 ha in the Indus delta. The 1.2-million-ha programme equals an area equal to about 62% of ESA’s 2022 forest cover. Other mixed pledges target 16,552 ha of new mangrove plantations, a 6.5% forest share and 148.76 MtCO2e of sequestration by 2030, alongside six recharge sites.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area coverage",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2023",
+      "context": "15% of the stated 790,324 km² land area is approximately 118,549 km²."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Snow-leopard habitat under integrated management",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2023",
+      "context": "Area-equivalent to about 15,000 km², or 19.0% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land protected from flood inundation",
+      "value": 2470000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to about 3.1% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land protected from erosion",
+      "value": 779250,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to about 1.0% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Eroded land reclaimed",
+      "value": 154180,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to about 0.2% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reported protected-area coverage",
+      "value": 20.44,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Reported for terrestrial and marine territory and described as exceeding the 15% goal."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forest restored",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The target applies to degraded forest, not to all 19,283 km² of mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded cropland restored",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The target applies to degraded cropland, not to all 278,935 km² of agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded grassland restored",
+      "value": 6,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The target applies to degraded grassland, not to all 176,868 km² of grassland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded wetlands restored",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The target applies to degraded wetlands, not to all 3,601 km² of mapped wetland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "National forest-area share",
+      "value": 6.5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The policy states an increase from 5.4%; ESA separately reports 2022 forest cover at 2.4% of the country."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mass-afforestation area",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to about 51.9% of ESA’s 2022 forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New mangrove plantation area",
+      "value": 16552,
+      "unit": "ha",
+      "timeframe": "2020-2049",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest landscape under sustainable management",
+      "value": 145300,
+      "unit": "ha",
+      "timeframe": "2016-2021",
+      "context": "Area-equivalent to about 7.5% of ESA’s 2022 forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Rangeland rehabilitation",
+      "value": 4500,
+      "unit": "acres",
+      "timeframe": "FY 2020-21",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove restoration area",
+      "value": 1200,
+      "unit": "ha",
+      "timeframe": "ongoing from 1990",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Indus Basin recharge sites",
+      "value": 6,
+      "unit": "sites",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Miyawaki urban forest projects",
+      "value": 126,
+      "unit": "projects",
+      "timeframe": "2019 onward",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest restoration area",
+      "value": 1200000,
+      "unit": "ha",
+      "timeframe": "by 2023",
+      "context": "Area-equivalent to about 62.2% of ESA’s 2022 forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Indus Delta restoration area",
+      "value": 350000,
+      "unit": "ha",
+      "timeframe": "within 60 years",
+      "context": "Area-equivalent to about 0.44% of total land area; the degraded-land area is not specified."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forestry sequestration",
+      "value": 148.76,
+      "unit": "MtCO2e",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded habitats restored",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "This broad habitat target is distinct from the specific 30% degraded-forest restoration component."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reported olive trees planted",
+      "value": 6300000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reported mangroves planted",
+      "value": 23000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Riverine areas reforested",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Riverine forests restored",
+      "value": 405,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Pakistan’s conservation commitments expand protected areas from 12% to 15% of national land by 2023 and manage at least 1.5 million ha of snow-leopard habitat; flood measures cover 2.47 million ha protected from inundation, 779,250 ha from erosion and 154,180 ha reclaimed. Restoration leads the mixed agenda: by 2030, restore 30% of degraded forest, 5% of degraded cropland, 6% of degraded grassland and 10% of degraded wetlands. Major programmes include 1.2 million ha of forest restoration by 2023, 1 million ha of mass afforestation, 145,300 ha under sustainable forest management and 350,000 ha in the Indus delta. The 1.2-million-ha programme equals an area equal to about 62% of ESA’s 2022 forest cover. Other mixed pledges target 16,552 ha of new mangrove plantations, a 6.5% forest share and 148.76 MtCO2e of sequestration by 2030, alongside six recharge sites.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area coverage\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2023\",\n      \"context\": \"15% of the stated 790,324 km² land area is approximately 118,549 km².\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Snow-leopard habitat under integrated management\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2023\",\n      \"context\": \"Area-equivalent to about 15,000 km², or 19.0% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land protected from flood inundation\",\n      \"value\": 2470000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to about 3.1% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land protected from erosion\",\n      \"value\": 779250,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to about 1.0% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Eroded land reclaimed\",\n      \"value\": 154180,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to about 0.2% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reported protected-area coverage\",\n      \"value\": 20.44,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Reported for terrestrial and marine territory and described as exceeding the 15% goal.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded forest restored\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The target applies to degraded forest, not to all 19,283 km² of mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded cropland restored\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The target applies to degraded cropland, not to all 278,935 km² of agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded grassland restored\",\n      \"value\": 6,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The target applies to degraded grassland, not to all 176,868 km² of grassland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded wetlands restored\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The target applies to degraded wetlands, not to all 3,601 km² of mapped wetland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"National forest-area share\",\n      \"value\": 6.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The policy states an increase from 5.4%; ESA separately reports 2022 forest cover at 2.4% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mass-afforestation area\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to about 51.9% of ESA’s 2022 forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New mangrove plantation area\",\n      \"value\": 16552,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2020-2049\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest landscape under sustainable management\",\n      \"value\": 145300,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2016-2021\",\n      \"context\": \"Area-equivalent to about 7.5% of ESA’s 2022 forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Rangeland rehabilitation\",\n      \"value\": 4500,\n      \"unit\": \"acres\",\n      \"timeframe\": \"FY 2020-21\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove restoration area\",\n      \"value\": 1200,\n      \"unit\": \"ha\",\n      \"timeframe\": \"ongoing from 1990\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Indus Basin recharge sites\",\n      \"value\": 6,\n      \"unit\": \"sites\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Miyawaki urban forest projects\",\n      \"value\": 126,\n      \"unit\": \"projects\",\n      \"timeframe\": \"2019 onward\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest restoration area\",\n      \"value\": 1200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2023\",\n      \"context\": \"Area-equivalent to about 62.2% of ESA’s 2022 forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Indus Delta restoration area\",\n      \"value\": 350000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"within 60 years\",\n      \"context\": \"Area-equivalent to about 0.44% of total land area; the degraded-land area is not specified.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forestry sequestration\",\n      \"value\": 148.76,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded habitats restored\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"This broad habitat target is distinct from the specific 30% degraded-forest restoration component.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reported olive trees planted\",\n      \"value\": 6300000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reported mangroves planted\",\n      \"value\": 23000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Riverine areas reforested\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Riverine forests restored\",\n      \"value\": 405,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

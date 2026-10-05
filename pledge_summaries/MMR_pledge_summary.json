@@ -1,0 +1,914 @@
+{
+  "iso3": "MMR",
+  "country": "The Republic of the Union of Myanmar",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 77,
+  "geo_context": {
+    "country_area_km2": 664021.7,
+    "land_cover_km2": {
+      "Agriculture": 218063.0,
+      "Forest": 350398.0,
+      "Grassland": 5734.0,
+      "Wetland": 350.0,
+      "Settlement": 1162.0,
+      "Shrubland": 80386.0,
+      "Sparse_vegetation": 16.0,
+      "Bare_area": 16.0,
+      "Water": 7971.0
+    }
+  },
+  "summary": "Conservation pledges set an unconditional 25% net-emissions/deforestation reduction by 2030 and a conditional 50% reduction, while seeking to bring Reserved Forest/Protected Public Forest jurisdiction to 30% of national land and the Protected Areas System to 10% by 2030. Restoration centres on the MRRP: up to 251,000 ha of new forest, potentially 340,000 additional ha by 2030, and about 580,000 ha of plantations absorbing CO2 by 2030; detailed phases also target 331,251 ha of natural regeneration and 250,622 ha of new forest. Agriculture and cross-sector measures include tree-canopy enhancement and agroforestry on 275,000 ha—about 1.3% of current mapped agricultural land—with over 10.4 million tCO2e sequestration in 2021–2030, plus management of 0.25 million ha of plantations. The 251,000-ha new-forest aim equals roughly 0.7% of current mapped forest, and the 580,000-ha plantation total about 1.7%.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Conditional net-emissions/deforestation reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Conditional on international support."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Unconditional net-emissions/deforestation reduction",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The forestry passage specifies the 2005-2015 emissions and removals baseline."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reserved Forest and Protected Public Forest jurisdiction",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Target is 30% of total national land, rather than forest area alone."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected Areas System coverage",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Target is 10% of total national land."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual deforestation-rate reduction",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage states an annualized reduction from 428,984 to 300,300 ha/year against the 2005-2015 baseline."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Unconditional intermediate net-emissions reduction",
+      "value": 11,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Conditional intermediate net-emissions reduction",
+      "value": 27,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Expected annualized unconditional net-emissions reduction",
+      "value": 2.8,
+      "unit": "%/year",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Expected annualized conditional net-emissions reduction",
+      "value": 6.9,
+      "unit": "%/year",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "MRRP Reserved Forest conservation",
+      "value": 0.59,
+      "unit": "million hectares",
+      "timeframe": "2017-2027",
+      "context": "≈1.7% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected Forest Estate expansion — Phase 1",
+      "value": 3017079,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected Forest Estate expansion — Phase 2",
+      "value": 1168344,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected Forest Estate expansion — total",
+      "value": 4185424,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "Rounded elsewhere as 4.1 million ha; ≈11.9% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Dry Zone natural-forest conservation — Phase 1",
+      "value": 101172,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Dry Zone natural-forest conservation — Phase 2",
+      "value": 101172,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Dry Zone natural-forest conservation — total",
+      "value": 202343,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "≈0.6% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual deforestation area under reduction target",
+      "value": 300300,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": "Stated reduction endpoint from a baseline of 428,984 ha/year."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual net-zero LUCF emissions",
+      "value": 2037,
+      "unit": "year",
+      "timeframe": "by 2037",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Conditional annual net-zero FOLU emissions",
+      "value": 2031,
+      "unit": "year",
+      "timeframe": "by the end of 2031",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net-zero deforestation",
+      "value": 2045,
+      "unit": "year",
+      "timeframe": "by 2045",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net-zero forestry and other land-use emissions",
+      "value": 2040,
+      "unit": "year",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Potential accumulated net-emissions reductions — lower bound",
+      "value": 44,
+      "unit": "M t of CO2e",
+      "timeframe": "2025/26",
+      "context": "Stated as part of a potential 44-68 M t of CO2e range."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Potential accumulated net-emissions reductions — upper bound",
+      "value": 68,
+      "unit": "M t of CO2e",
+      "timeframe": "2025/26",
+      "context": "Stated as part of a potential 44-68 M t of CO2e range."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Conditional cumulative FOLU emissions reduction",
+      "value": 256.57,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Unconditional cumulative FOLU emissions reduction",
+      "value": 123.62,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "DZGD contribution to NDC targets",
+      "value": 0.493,
+      "unit": "MtCO2e",
+      "timeframe": null,
+      "context": "The passage describes this as 10% of the program contribution assigned to Myanmar's NDC."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "DoA contribution to NDC targets",
+      "value": 2.246,
+      "unit": "MtCO2e",
+      "timeframe": null,
+      "context": "The passage describes this as 20% of the program contribution assigned to Myanmar's NDC."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LPG stove distribution",
+      "value": 1000000,
+      "unit": "LPG stoves",
+      "timeframe": "by 2030",
+      "context": "Also described as support across 1 million households, with potential reductions of 14.94 million tCO2."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Potential LPG-cooking emissions reduction",
+      "value": 14.94,
+      "unit": "million tCO2",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mitigation-table stove total",
+      "value": 5131479,
+      "unit": "stoves",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional forest under extended MRRP",
+      "value": 340000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Conditional on extension of the MRRP; ≈1.0% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Active reforestation and agroforestry plantations",
+      "value": 580000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Scale is ≈1.7% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Government forest plantations — Phase 1",
+      "value": 68678,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Government forest plantations — Phase 2",
+      "value": 66567,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Government forest plantations — total",
+      "value": 135245,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Commercial plantations — Phase 1",
+      "value": 33265,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Commercial plantations — Phase 2",
+      "value": 32658,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Commercial plantations — total",
+      "value": 65923,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove plantations — Phase 1",
+      "value": 2206,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove plantations — Phase 2",
+      "value": 2428,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove plantations — total",
+      "value": 4634,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Firewood-supply plantations — Phase 1",
+      "value": 22164,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Firewood-supply plantations — Phase 2",
+      "value": 20151,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Firewood-supply plantations — total",
+      "value": 42315,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Other greening plantations — Phase 1",
+      "value": 1518,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Other greening plantations — Phase 2",
+      "value": 1720,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Other greening plantations — total",
+      "value": 3237,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mountain plantations — Phase 1",
+      "value": 2509,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mountain plantations — Phase 2",
+      "value": 2630,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mountain plantations — total",
+      "value": 5140,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Private forest plantations — Phase 1",
+      "value": 70863,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Private forest plantations — Phase 2",
+      "value": 44514,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Private forest plantations — total",
+      "value": 115378,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "New-forest establishment — Phase 1",
+      "value": 139541,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "New-forest establishment — Phase 2",
+      "value": 111081,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "New-forest establishment — total",
+      "value": 250622,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "Rounded elsewhere as up to 251,000 ha; ≈0.7% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Teak plantations — Phase 1",
+      "value": 21393,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Teak plantations — Phase 2",
+      "value": 13024,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Teak plantations — total",
+      "value": 34418,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Other hardwood plantations — Phase 1",
+      "value": 49470,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Other hardwood plantations — Phase 2",
+      "value": 31490,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Other hardwood plantations — total",
+      "value": 80960,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Natural regeneration — Phase 1",
+      "value": 177153,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Natural regeneration — Phase 2",
+      "value": 154098,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Natural regeneration — total",
+      "value": 331251,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "≈0.9% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Enrichment planting — Phase 1",
+      "value": 28735,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Enrichment planting — Phase 2",
+      "value": 30863,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Enrichment planting — total",
+      "value": 59598,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "≈0.2% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Public seedling distribution — Phase 1",
+      "value": 48839435,
+      "unit": "seedlings",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Public seedling distribution — Phase 2",
+      "value": 48259454,
+      "unit": "seedlings",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Public seedling distribution — total",
+      "value": 97098889,
+      "unit": "seedlings",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cumulative agricultural carbon sequestration",
+      "value": 10.402,
+      "unit": "MtCO2e",
+      "timeframe": "2021-2030",
+      "context": "The narrative describes this as more than 10.4 million tCO2e."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Public and private plantation management",
+      "value": 0.25,
+      "unit": "million hectares",
+      "timeframe": null,
+      "context": "Scale comparison is ≈1.1% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry establishment and maintenance support duration",
+      "value": 3,
+      "unit": "years",
+      "timeframe": "3-year support period",
+      "context": "Support covers seedlings, irrigation and fertilization."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tending old commercial plantations — Phase 1",
+      "value": 24875,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tending old commercial plantations — Phase 2",
+      "value": 20190,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tending old commercial plantations — total",
+      "value": 45065,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tending plantations more than five years old — Phase 1",
+      "value": 61430,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tending plantations more than five years old — Phase 2",
+      "value": 44156,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tending plantations more than five years old — total",
+      "value": 105586,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pruning and cleaning — Phase 1",
+      "value": 20412,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pruning and cleaning — Phase 2",
+      "value": 14552,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pruning and cleaning — total",
+      "value": 34964,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Thinning — Phase 1",
+      "value": 41018,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Thinning — Phase 2",
+      "value": 29604,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Thinning — total",
+      "value": 70622,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Hedge gardens and seed-production areas — Phase 1",
+      "value": 1063,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Hedge gardens and seed-production areas — Phase 2",
+      "value": 668,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Hedge gardens and seed-production areas — total",
+      "value": 1731,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry — Phase 1",
+      "value": 3558,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry — Phase 2",
+      "value": 3206,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry — total",
+      "value": 6764,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tree-canopy enhancement on agricultural land",
+      "value": 275000,
+      "unit": "ha",
+      "timeframe": "2021-2030",
+      "context": "Applies to agricultural land with less than 10% tree canopy per hectare; ≈1.3% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Annual plantation",
+      "value": 27500,
+      "unit": "ha",
+      "timeframe": "2021-2027",
+      "context": "The same annual figure is repeated in each table row from 2021 through 2027."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watershed plantations — Phase 1",
+      "value": 7017,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watershed plantations — Phase 2",
+      "value": 6979,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watershed plantations — total",
+      "value": 13996,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community forests and agroforestry — Phase 1",
+      "value": 191347,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community forests and agroforestry — Phase 2",
+      "value": 127159,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community forests and agroforestry — total",
+      "value": 318507,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "≈0.9% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community-forest establishment — Phase 1",
+      "value": 187789,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community-forest establishment — Phase 2",
+      "value": 123953,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community-forest establishment — total",
+      "value": 311743,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "≈0.9% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Silvicultural operations — Phase 1",
+      "value": 394428,
+      "unit": "ha",
+      "timeframe": "2017-2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Silvicultural operations — Phase 2",
+      "value": 351146,
+      "unit": "ha",
+      "timeframe": "2022-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Silvicultural operations — total",
+      "value": 745574,
+      "unit": "ha",
+      "timeframe": "2017-2026",
+      "context": "≈2.1% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community Forestry Management and Agroforestry",
+      "value": 0.3,
+      "unit": "million hectares",
+      "timeframe": null,
+      "context": "≈0.45% of total national land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Net carbon-stock enhancement",
+      "value": 30,
+      "unit": "million tons CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Share of 10-year MRRP activities to be implemented",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "10-year MRRP period",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-resilient rehabilitation of farm roads",
+      "value": 130,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-resilient rehabilitation of tertiary canals",
+      "value": 300,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation pledges set an unconditional 25% net-emissions/deforestation reduction by 2030 and a conditional 50% reduction, while seeking to bring Reserved Forest/Protected Public Forest jurisdiction to 30% of national land and the Protected Areas System to 10% by 2030. Restoration centres on the MRRP: up to 251,000 ha of new forest, potentially 340,000 additional ha by 2030, and about 580,000 ha of plantations absorbing CO2 by 2030; detailed phases also target 331,251 ha of natural regeneration and 250,622 ha of new forest. Agriculture and cross-sector measures include tree-canopy enhancement and agroforestry on 275,000 ha—about 1.3% of current mapped agricultural land—with over 10.4 million tCO2e sequestration in 2021–2030, plus management of 0.25 million ha of plantations. The 251,000-ha new-forest aim equals roughly 0.7% of current mapped forest, and the 580,000-ha plantation total about 1.7%.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Conditional net-emissions/deforestation reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Conditional on international support.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Unconditional net-emissions/deforestation reduction\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The forestry passage specifies the 2005-2015 emissions and removals baseline.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reserved Forest and Protected Public Forest jurisdiction\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Target is 30% of total national land, rather than forest area alone.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected Areas System coverage\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Target is 10% of total national land.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual deforestation-rate reduction\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage states an annualized reduction from 428,984 to 300,300 ha/year against the 2005-2015 baseline.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Unconditional intermediate net-emissions reduction\",\n      \"value\": 11,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Conditional intermediate net-emissions reduction\",\n      \"value\": 27,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Expected annualized unconditional net-emissions reduction\",\n      \"value\": 2.8,\n      \"unit\": \"%/year\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Expected annualized conditional net-emissions reduction\",\n      \"value\": 6.9,\n      \"unit\": \"%/year\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"MRRP Reserved Forest conservation\",\n      \"value\": 0.59,\n      \"unit\": \"million hectares\",\n      \"timeframe\": \"2017-2027\",\n      \"context\": \"≈1.7% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected Forest Estate expansion — Phase 1\",\n      \"value\": 3017079,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected Forest Estate expansion — Phase 2\",\n      \"value\": 1168344,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected Forest Estate expansion — total\",\n      \"value\": 4185424,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"Rounded elsewhere as 4.1 million ha; ≈11.9% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Dry Zone natural-forest conservation — Phase 1\",\n      \"value\": 101172,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Dry Zone natural-forest conservation — Phase 2\",\n      \"value\": 101172,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Dry Zone natural-forest conservation — total\",\n      \"value\": 202343,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"≈0.6% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual deforestation area under reduction target\",\n      \"value\": 300300,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Stated reduction endpoint from a baseline of 428,984 ha/year.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual net-zero LUCF emissions\",\n      \"value\": 2037,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2037\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Conditional annual net-zero FOLU emissions\",\n      \"value\": 2031,\n      \"unit\": \"year\",\n      \"timeframe\": \"by the end of 2031\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net-zero deforestation\",\n      \"value\": 2045,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2045\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net-zero forestry and other land-use emissions\",\n      \"value\": 2040,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Potential accumulated net-emissions reductions — lower bound\",\n      \"value\": 44,\n      \"unit\": \"M t of CO2e\",\n      \"timeframe\": \"2025/26\",\n      \"context\": \"Stated as part of a potential 44-68 M t of CO2e range.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Potential accumulated net-emissions reductions — upper bound\",\n      \"value\": 68,\n      \"unit\": \"M t of CO2e\",\n      \"timeframe\": \"2025/26\",\n      \"context\": \"Stated as part of a potential 44-68 M t of CO2e range.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Conditional cumulative FOLU emissions reduction\",\n      \"value\": 256.57,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Unconditional cumulative FOLU emissions reduction\",\n      \"value\": 123.62,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"DZGD contribution to NDC targets\",\n      \"value\": 0.493,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": null,\n      \"context\": \"The passage describes this as 10% of the program contribution assigned to Myanmar's NDC.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"DoA contribution to NDC targets\",\n      \"value\": 2.246,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": null,\n      \"context\": \"The passage describes this as 20% of the program contribution assigned to Myanmar's NDC.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LPG stove distribution\",\n      \"value\": 1000000,\n      \"unit\": \"LPG stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Also described as support across 1 million households, with potential reductions of 14.94 million tCO2.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Potential LPG-cooking emissions reduction\",\n      \"value\": 14.94,\n      \"unit\": \"million tCO2\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mitigation-table stove total\",\n      \"value\": 5131479,\n      \"unit\": \"stoves\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional forest under extended MRRP\",\n      \"value\": 340000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Conditional on extension of the MRRP; ≈1.0% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Active reforestation and agroforestry plantations\",\n      \"value\": 580000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Scale is ≈1.7% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Government forest plantations — Phase 1\",\n      \"value\": 68678,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Government forest plantations — Phase 2\",\n      \"value\": 66567,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Government forest plantations — total\",\n      \"value\": 135245,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Commercial plantations — Phase 1\",\n      \"value\": 33265,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Commercial plantations — Phase 2\",\n      \"value\": 32658,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Commercial plantations — total\",\n      \"value\": 65923,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove plantations — Phase 1\",\n      \"value\": 2206,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove plantations — Phase 2\",\n      \"value\": 2428,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove plantations — total\",\n      \"value\": 4634,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Firewood-supply plantations — Phase 1\",\n      \"value\": 22164,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Firewood-supply plantations — Phase 2\",\n      \"value\": 20151,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Firewood-supply plantations — total\",\n      \"value\": 42315,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Other greening plantations — Phase 1\",\n      \"value\": 1518,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Other greening plantations — Phase 2\",\n      \"value\": 1720,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Other greening plantations — total\",\n      \"value\": 3237,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mountain plantations — Phase 1\",\n      \"value\": 2509,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mountain plantations — Phase 2\",\n      \"value\": 2630,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mountain plantations — total\",\n      \"value\": 5140,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Private forest plantations — Phase 1\",\n      \"value\": 70863,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Private forest plantations — Phase 2\",\n      \"value\": 44514,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Private forest plantations — total\",\n      \"value\": 115378,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New-forest establishment — Phase 1\",\n      \"value\": 139541,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New-forest establishment — Phase 2\",\n      \"value\": 111081,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New-forest establishment — total\",\n      \"value\": 250622,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"Rounded elsewhere as up to 251,000 ha; ≈0.7% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Teak plantations — Phase 1\",\n      \"value\": 21393,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Teak plantations — Phase 2\",\n      \"value\": 13024,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Teak plantations — total\",\n      \"value\": 34418,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Other hardwood plantations — Phase 1\",\n      \"value\": 49470,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Other hardwood plantations — Phase 2\",\n      \"value\": 31490,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Other hardwood plantations — total\",\n      \"value\": 80960,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Natural regeneration — Phase 1\",\n      \"value\": 177153,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Natural regeneration — Phase 2\",\n      \"value\": 154098,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Natural regeneration — total\",\n      \"value\": 331251,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"≈0.9% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Enrichment planting — Phase 1\",\n      \"value\": 28735,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Enrichment planting — Phase 2\",\n      \"value\": 30863,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Enrichment planting — total\",\n      \"value\": 59598,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"≈0.2% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Public seedling distribution — Phase 1\",\n      \"value\": 48839435,\n      \"unit\": \"seedlings\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Public seedling distribution — Phase 2\",\n      \"value\": 48259454,\n      \"unit\": \"seedlings\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Public seedling distribution — total\",\n      \"value\": 97098889,\n      \"unit\": \"seedlings\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cumulative agricultural carbon sequestration\",\n      \"value\": 10.402,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": \"The narrative describes this as more than 10.4 million tCO2e.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Public and private plantation management\",\n      \"value\": 0.25,\n      \"unit\": \"million hectares\",\n      \"timeframe\": null,\n      \"context\": \"Scale comparison is ≈1.1% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry establishment and maintenance support duration\",\n      \"value\": 3,\n      \"unit\": \"years\",\n      \"timeframe\": \"3-year support period\",\n      \"context\": \"Support covers seedlings, irrigation and fertilization.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tending old commercial plantations — Phase 1\",\n      \"value\": 24875,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tending old commercial plantations — Phase 2\",\n      \"value\": 20190,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tending old commercial plantations — total\",\n      \"value\": 45065,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tending plantations more than five years old — Phase 1\",\n      \"value\": 61430,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tending plantations more than five years old — Phase 2\",\n      \"value\": 44156,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tending plantations more than five years old — total\",\n      \"value\": 105586,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pruning and cleaning — Phase 1\",\n      \"value\": 20412,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pruning and cleaning — Phase 2\",\n      \"value\": 14552,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pruning and cleaning — total\",\n      \"value\": 34964,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Thinning — Phase 1\",\n      \"value\": 41018,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Thinning — Phase 2\",\n      \"value\": 29604,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Thinning — total\",\n      \"value\": 70622,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Hedge gardens and seed-production areas — Phase 1\",\n      \"value\": 1063,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Hedge gardens and seed-production areas — Phase 2\",\n      \"value\": 668,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Hedge gardens and seed-production areas — total\",\n      \"value\": 1731,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry — Phase 1\",\n      \"value\": 3558,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry — Phase 2\",\n      \"value\": 3206,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry — total\",\n      \"value\": 6764,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tree-canopy enhancement on agricultural land\",\n      \"value\": 275000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": \"Applies to agricultural land with less than 10% tree canopy per hectare; ≈1.3% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Annual plantation\",\n      \"value\": 27500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2021-2027\",\n      \"context\": \"The same annual figure is repeated in each table row from 2021 through 2027.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Watershed plantations — Phase 1\",\n      \"value\": 7017,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Watershed plantations — Phase 2\",\n      \"value\": 6979,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Watershed plantations — total\",\n      \"value\": 13996,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community forests and agroforestry — Phase 1\",\n      \"value\": 191347,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community forests and agroforestry — Phase 2\",\n      \"value\": 127159,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community forests and agroforestry — total\",\n      \"value\": 318507,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"≈0.9% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community-forest establishment — Phase 1\",\n      \"value\": 187789,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community-forest establishment — Phase 2\",\n      \"value\": 123953,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community-forest establishment — total\",\n      \"value\": 311743,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"≈0.9% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Silvicultural operations — Phase 1\",\n      \"value\": 394428,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Silvicultural operations — Phase 2\",\n      \"value\": 351146,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022-2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Silvicultural operations — total\",\n      \"value\": 745574,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2017-2026\",\n      \"context\": \"≈2.1% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community Forestry Management and Agroforestry\",\n      \"value\": 0.3,\n      \"unit\": \"million hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈0.45% of total national land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Net carbon-stock enhancement\",\n      \"value\": 30,\n      \"unit\": \"million tons CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Share of 10-year MRRP activities to be implemented\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"10-year MRRP period\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate-resilient rehabilitation of farm roads\",\n      \"value\": 130,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate-resilient rehabilitation of tertiary canals\",\n      \"value\": 300,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,138 @@
+{
+  "iso3": "MLI",
+  "country": "Mali",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 19,
+  "geo_context": {
+    "country_area_km2": 1260887.4,
+    "land_cover_km2": {
+      "Agriculture": 263568.0,
+      "Forest": 24409.0,
+      "Grassland": 148270.0,
+      "Wetland": 3122.0,
+      "Settlement": 646.0,
+      "Shrubland": 71930.0,
+      "Sparse_vegetation": 53222.0,
+      "Bare_area": 691722.0,
+      "Water": 3972.0
+    }
+  },
+  "summary": "Mali’s restoration pledges include 275,000 ha of restored areas, 100 ha of stabilized dunes, 12,500 ha of secured reforestation by 2030, 15,000 ha of reforestation with economically valuable species, and 76,000 ha reforested annually. A separate mixed package restores 325,000 ha and strengthens protection across more than 9 million ha. By 2030, the REDD+ framework targets approximately 1,540,000 ha, comprising 200,000 ha of plantations, 340,000 ha under the National Reforestation Plan, and 1,000,000 ha of natural formations under management and protection. Agriculture commitments include replacing 20% of urea fertilizer with organic fertilizer by 2030, developing 92,000 ha of climate-smart agriculture, and establishing 400,000 ha of pastoral areas. The REDD+ scope equals about 63% of current forest area; the two area-based agricultural targets are equivalent to about 0.35% of current agriculture and 2.7% of current grassland, respectively.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restored areas",
+      "value": 275000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈0.22% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Stabilized dunes",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Secured reforestation",
+      "value": 12500,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.5% of current forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation with economically valuable species",
+      "value": 15000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.6% of current forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National Reforestation Plan",
+      "value": 340000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈13.9% of current forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual land reforestation",
+      "value": 76000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈3.1% of current forest area per year."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "REDD+ implementation area",
+      "value": 1540000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈63.1% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Gum Arabic and other forest-product plantations",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to ≈8.2% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Restoration and assisted natural regeneration",
+      "value": 325000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈0.26% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Protected areas to be strengthened",
+      "value": 9000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "More than 7.1% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural forest formations under management and protection",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈41.0% of current forest area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart hydro-agricultural development",
+      "value": 92000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.35% of current agriculture area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pastoral areas established",
+      "value": 400000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈2.7% of current grassland area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Urea fertilizer replaced by organic fertilizer",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Mali’s restoration pledges include 275,000 ha of restored areas, 100 ha of stabilized dunes, 12,500 ha of secured reforestation by 2030, 15,000 ha of reforestation with economically valuable species, and 76,000 ha reforested annually. A separate mixed package restores 325,000 ha and strengthens protection across more than 9 million ha. By 2030, the REDD+ framework targets approximately 1,540,000 ha, comprising 200,000 ha of plantations, 340,000 ha under the National Reforestation Plan, and 1,000,000 ha of natural formations under management and protection. Agriculture commitments include replacing 20% of urea fertilizer with organic fertilizer by 2030, developing 92,000 ha of climate-smart agriculture, and establishing 400,000 ha of pastoral areas. The REDD+ scope equals about 63% of current forest area; the two area-based agricultural targets are equivalent to about 0.35% of current agriculture and 2.7% of current grassland, respectively.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restored areas\",\n      \"value\": 275000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈0.22% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Stabilized dunes\",\n      \"value\": 100,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Secured reforestation\",\n      \"value\": 12500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.5% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation with economically valuable species\",\n      \"value\": 15000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.6% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National Reforestation Plan\",\n      \"value\": 340000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈13.9% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual land reforestation\",\n      \"value\": 76000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈3.1% of current forest area per year.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"REDD+ implementation area\",\n      \"value\": 1540000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈63.1% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Gum Arabic and other forest-product plantations\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to ≈8.2% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Restoration and assisted natural regeneration\",\n      \"value\": 325000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈0.26% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Protected areas to be strengthened\",\n      \"value\": 9000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"More than 7.1% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural forest formations under management and protection\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈41.0% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart hydro-agricultural development\",\n      \"value\": 92000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.35% of current agriculture area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pastoral areas established\",\n      \"value\": 400000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈2.7% of current grassland area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Urea fertilizer replaced by organic fertilizer\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

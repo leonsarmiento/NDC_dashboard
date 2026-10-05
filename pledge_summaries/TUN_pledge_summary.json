@@ -1,0 +1,506 @@
+{
+  "iso3": "TUN",
+  "country": "Tunisia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 55,
+  "geo_context": {
+    "country_area_km2": 155639.6,
+    "land_cover_km2": {
+      "Agriculture": 47551.0,
+      "Forest": 3941.0,
+      "Grassland": 12.0,
+      "Wetland": 0.0,
+      "Settlement": 1351.0,
+      "Shrubland": 737.0,
+      "Sparse_vegetation": 15038.0,
+      "Bare_area": 86368.0,
+      "Water": 615.0
+    }
+  },
+  "summary": "Tunisia combines restoration, conservation and agricultural resilience. Integrated programmes aim to restore degraded agricultural, forest and pastoral landscapes across 487,000 hectares by 2030 and 855,000 by 2035, while 1.2 million hectares are to receive conservation, restoration and soil protection. Dune stabilization reaches 100,000 hectares annually, alongside a cumulative 20,000 hectares of semi-forest plantings over 2026–2035. Conservation targets include 480,000 hectares of forest managed with climate risks—about 122% of Tunisia’s 2022 mapped forest area—fire damage limited to 3,000 hectares annually from 2030 and 1,000 thereafter, protection of 315 km of coast, and ecological water for 10 of 42 wetlands. Agriculture targets include 500,000 hectares under organic farming (≈10.5% of agricultural land), 450,000 hectares irrigated at 90% intensification, 725,000 hectares of collective and public grazing land improved, and 510,000 hectares/year of private grazing land. These actions could deliver 22 million tCO2 in reductions and sequestration over 2026–2035.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Nurseries rehabilitated",
+      "value": 8,
+      "unit": "pépinières",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected coastal areas decreed with management plans",
+      "value": 8,
+      "unit": "AMCP",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystems and biodiversity amount",
+      "value": 6401,
+      "unit": "MUSD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetlands supplied with ecological water",
+      "value": 10,
+      "unit": "ZHC&C/42",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Native and climate-resilient genetic-resource entries",
+      "value": 27523,
+      "unit": "entrées en ressources génétiques",
+      "timeframe": null,
+      "context": "≈5% above the 2025 baseline of 26,212 entries"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area managed with climate risks",
+      "value": 480000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈122% of 2022 mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Average annual forest-fire area affected from 2030",
+      "value": 3000,
+      "unit": "hectares per year",
+      "timeframe": "from 2030",
+      "context": "≈0.8% of 2022 mapped forest area annually"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual forest-fire area cap beyond 2030",
+      "value": 1000,
+      "unit": "hectares per year",
+      "timeframe": "beyond 2030",
+      "context": "≈0.3% of 2022 mapped forest area annually"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coast protected against erosion",
+      "value": 315,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Beaches with active management plans",
+      "value": 140,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional third-generation STEP",
+      "value": 43,
+      "unit": "STEP",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Technical sectors integrating biodiversity",
+      "value": 5,
+      "unit": "secteurs techniques clés",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Heritage fishing sites brought under protection",
+      "value": 4,
+      "unit": "sites patrimoniaux de pêche",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual fish-production increase",
+      "value": 900,
+      "unit": "tonne/an",
+      "timeframe": "over 2015–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Average annual fish production",
+      "value": 140000,
+      "unit": "tonnes/an",
+      "timeframe": "over 2015–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area area increase",
+      "value": 1,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Detrimental incentives and subsidies eliminated and reallocated",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity projects led by women, youth and persons with disabilities",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Port infrastructure rehabilitated",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water stress index",
+      "value": 90,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastline with reliable and shared data",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Major heritage sites with updated vulnerability maps",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Major-site management plans incorporating climate risk",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal fishers equipped and trained",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture and food amount",
+      "value": 8043,
+      "unit": "MUSD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Green water retained",
+      "value": 445,
+      "unit": "Millions de m3 par an",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rainfed cereal yield",
+      "value": 25,
+      "unit": "Qx/ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated cereal yield",
+      "value": 60,
+      "unit": "Qx/ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rainfed holdings with improved resilience",
+      "value": 250000,
+      "unit": "exploitations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional area monitored",
+      "value": 75000,
+      "unit": "ha",
+      "timeframe": "2026–2035",
+      "context": "≈1.6% of 2022 mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Collective and public grazing areas developed and improved",
+      "value": 725000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈4.7% of total land area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic agriculture area",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈10.5% of 2022 mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area irrigated",
+      "value": 450000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈9.5% of 2022 mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional area consolidated or cleared",
+      "value": 125000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.6% of 2022 mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Private grazing areas developed and improved",
+      "value": 510000,
+      "unit": "ha/an",
+      "timeframe": null,
+      "context": "≈3.3% of total land area annually"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Olive oil production",
+      "value": 280000,
+      "unit": "tonnes/an",
+      "timeframe": "five-year average",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pilot zones for organic agriculture",
+      "value": 5,
+      "unit": "zones",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New forest and pastoral zones",
+      "value": 5,
+      "unit": "zones",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural product loss at harvest",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ewe units genomically indexed",
+      "value": 15,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New tree plantations using drought- and salinity-tolerant varieties",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation water sourced from non-conventional sources",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National cattle population genomically indexed",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Selected seeds used",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock keepers with climate-adapted buildings",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Non-conventional water reuse rate in irrigated agriculture",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Island agricultural area with a management plan",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Collective irrigation-network efficiency",
+      "value": 65,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation intensification rate",
+      "value": 90,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ramli cultivated land with active management",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional sequestration versus BaU",
+      "value": 4,
+      "unit": "MteCO2",
+      "timeframe": "in 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional biological-rest compensation budget",
+      "value": 4,
+      "unit": "Millions de dinars",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Annual dune stabilization",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "annually",
+      "context": "≈0.6% of total land area annually"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Semi-forest species plantation area",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "cumulative 2026–2035",
+      "context": "≈5.1% of 2022 mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Integrated landscape restoration programme coverage",
+      "value": 487000,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "≈3.1% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Integrated landscape restoration programme coverage",
+      "value": 855000,
+      "unit": "hectares",
+      "timeframe": "by 2035",
+      "context": "≈5.5% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded land under conservation, restoration and soil-protection measures",
+      "value": 1200000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈7.7% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Low-lying coast protected",
+      "value": 70,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cumulative emissions reductions and sequestration",
+      "value": 22,
+      "unit": "million tCO2",
+      "timeframe": "2026–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Gabès oasis drainage system rehabilitated with active management",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Tunisia combines restoration, conservation and agricultural resilience. Integrated programmes aim to restore degraded agricultural, forest and pastoral landscapes across 487,000 hectares by 2030 and 855,000 by 2035, while 1.2 million hectares are to receive conservation, restoration and soil protection. Dune stabilization reaches 100,000 hectares annually, alongside a cumulative 20,000 hectares of semi-forest plantings over 2026–2035. Conservation targets include 480,000 hectares of forest managed with climate risks—about 122% of Tunisia’s 2022 mapped forest area—fire damage limited to 3,000 hectares annually from 2030 and 1,000 thereafter, protection of 315 km of coast, and ecological water for 10 of 42 wetlands. Agriculture targets include 500,000 hectares under organic farming (≈10.5% of agricultural land), 450,000 hectares irrigated at 90% intensification, 725,000 hectares of collective and public grazing land improved, and 510,000 hectares/year of private grazing land. These actions could deliver 22 million tCO2 in reductions and sequestration over 2026–2035.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Nurseries rehabilitated\",\n      \"value\": 8,\n      \"unit\": \"pépinières\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected coastal areas decreed with management plans\",\n      \"value\": 8,\n      \"unit\": \"AMCP\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystems and biodiversity amount\",\n      \"value\": 6401,\n      \"unit\": \"MUSD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetlands supplied with ecological water\",\n      \"value\": 10,\n      \"unit\": \"ZHC&C/42\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Native and climate-resilient genetic-resource entries\",\n      \"value\": 27523,\n      \"unit\": \"entrées en ressources génétiques\",\n      \"timeframe\": null,\n      \"context\": \"≈5% above the 2025 baseline of 26,212 entries\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest area managed with climate risks\",\n      \"value\": 480000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈122% of 2022 mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Average annual forest-fire area affected from 2030\",\n      \"value\": 3000,\n      \"unit\": \"hectares per year\",\n      \"timeframe\": \"from 2030\",\n      \"context\": \"≈0.8% of 2022 mapped forest area annually\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual forest-fire area cap beyond 2030\",\n      \"value\": 1000,\n      \"unit\": \"hectares per year\",\n      \"timeframe\": \"beyond 2030\",\n      \"context\": \"≈0.3% of 2022 mapped forest area annually\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coast protected against erosion\",\n      \"value\": 315,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Beaches with active management plans\",\n      \"value\": 140,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional third-generation STEP\",\n      \"value\": 43,\n      \"unit\": \"STEP\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Technical sectors integrating biodiversity\",\n      \"value\": 5,\n      \"unit\": \"secteurs techniques clés\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Heritage fishing sites brought under protection\",\n      \"value\": 4,\n      \"unit\": \"sites patrimoniaux de pêche\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual fish-production increase\",\n      \"value\": 900,\n      \"unit\": \"tonne/an\",\n      \"timeframe\": \"over 2015–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Average annual fish production\",\n      \"value\": 140000,\n      \"unit\": \"tonnes/an\",\n      \"timeframe\": \"over 2015–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area area increase\",\n      \"value\": 1,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Detrimental incentives and subsidies eliminated and reallocated\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity projects led by women, youth and persons with disabilities\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Port infrastructure rehabilitated\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water stress index\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastline with reliable and shared data\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Major heritage sites with updated vulnerability maps\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Major-site management plans incorporating climate risk\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal fishers equipped and trained\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agriculture and food amount\",\n      \"value\": 8043,\n      \"unit\": \"MUSD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Green water retained\",\n      \"value\": 445,\n      \"unit\": \"Millions de m3 par an\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rainfed cereal yield\",\n      \"value\": 25,\n      \"unit\": \"Qx/ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated cereal yield\",\n      \"value\": 60,\n      \"unit\": \"Qx/ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rainfed holdings with improved resilience\",\n      \"value\": 250000,\n      \"unit\": \"exploitations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional area monitored\",\n      \"value\": 75000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2026–2035\",\n      \"context\": \"≈1.6% of 2022 mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Collective and public grazing areas developed and improved\",\n      \"value\": 725000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈4.7% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic agriculture area\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈10.5% of 2022 mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area irrigated\",\n      \"value\": 450000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈9.5% of 2022 mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional area consolidated or cleared\",\n      \"value\": 125000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.6% of 2022 mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Private grazing areas developed and improved\",\n      \"value\": 510000,\n      \"unit\": \"ha/an\",\n      \"timeframe\": null,\n      \"context\": \"≈3.3% of total land area annually\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Olive oil production\",\n      \"value\": 280000,\n      \"unit\": \"tonnes/an\",\n      \"timeframe\": \"five-year average\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pilot zones for organic agriculture\",\n      \"value\": 5,\n      \"unit\": \"zones\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New forest and pastoral zones\",\n      \"value\": 5,\n      \"unit\": \"zones\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural product loss at harvest\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Ewe units genomically indexed\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New tree plantations using drought- and salinity-tolerant varieties\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation water sourced from non-conventional sources\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National cattle population genomically indexed\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Selected seeds used\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock keepers with climate-adapted buildings\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Non-conventional water reuse rate in irrigated agriculture\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Island agricultural area with a management plan\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Collective irrigation-network efficiency\",\n      \"value\": 65,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation intensification rate\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Ramli cultivated land with active management\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional sequestration versus BaU\",\n      \"value\": 4,\n      \"unit\": \"MteCO2\",\n      \"timeframe\": \"in 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional biological-rest compensation budget\",\n      \"value\": 4,\n      \"unit\": \"Millions de dinars\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Annual dune stabilization\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"annually\",\n      \"context\": \"≈0.6% of total land area annually\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Semi-forest species plantation area\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"cumulative 2026–2035\",\n      \"context\": \"≈5.1% of 2022 mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Integrated landscape restoration programme coverage\",\n      \"value\": 487000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈3.1% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Integrated landscape restoration programme coverage\",\n      \"value\": 855000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈5.5% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded land under conservation, restoration and soil-protection measures\",\n      \"value\": 1200000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈7.7% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Low-lying coast protected\",\n      \"value\": 70,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cumulative emissions reductions and sequestration\",\n      \"value\": 22,\n      \"unit\": \"million tCO2\",\n      \"timeframe\": \"2026–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Gabès oasis drainage system rehabilitated with active management\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

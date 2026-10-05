@@ -1,0 +1,114 @@
+{
+  "iso3": "ETH",
+  "country": "Ethiopia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 11,
+  "geo_context": {
+    "country_area_km2": 1136054.5,
+    "land_cover_km2": {
+      "Agriculture": 262625.0,
+      "Forest": 247038.0,
+      "Grassland": 82571.0,
+      "Wetland": 1397.0,
+      "Settlement": 1370.0,
+      "Shrubland": 459093.0,
+      "Sparse_vegetation": 2915.0,
+      "Bare_area": 71198.0,
+      "Water": 7853.0
+    }
+  },
+  "summary": "Ethiopia's conservation commitments seek 30% forest cover by 2030, above the 21.7% forest share in the current land-cover map; community forest management involves over 2 million ha, 2.98 million ha of natural forest is reported conserved under sustainable management, and the sustainable-management area is targeted to reach 7.2 million ha by 2035. Urban green infrastructure is planned at 30% coverage in 240 towns by 2035. Restoration and mixed watershed actions include 5 million ha of watershed protection or rehabilitation and 100,000 ha of degraded mining-land rehabilitation by 2035; forest coverage is reported at 23.6%. Agricultural and mixed measures target 17.9 million ha of climate-smart rain-fed cropland by 2025—about 68% of the current mapped Agriculture area—and 1.8 million ha of climate-smart irrigation by 2035; forest-product output is expected to reach 11.0 million tons by 2035. The watershed pledge is about 4.4% of land area.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover goal",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Current mapped Forest is 21.7% of the country; the goal is 8.3 percentage points higher."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Urban green infrastructure coverage threshold",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The threshold applies to 240 towns by 2035, up from 75 in 2025."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Participatory forest management area",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to about 8.1% of current mapped Forest (247,038 km2)."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural forest conserved under SFM (reported)",
+      "value": 2980000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to about 12.1% of current mapped Forest (247,038 km2)."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural forest under SFM (2035 target)",
+      "value": 7.2,
+      "unit": "million ha",
+      "timeframe": "by 2035",
+      "context": "Area equivalent to about 29.1% of current mapped Forest (247,038 km2)."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest coverage reported",
+      "value": 23.6,
+      "unit": "%",
+      "timeframe": "2019-2024",
+      "context": "The passage reports 23.6%, compared with 21.7% in the current mapped Forest class."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded mining land rehabilitation",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area equivalent to about 0.09% of the 1,136,054 km2 total land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart rain-fed cropland",
+      "value": 17900000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "Area equivalent to about 68.2% of current mapped Agriculture (262,625 km2)."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forest products",
+      "value": 11.0,
+      "unit": "million tons",
+      "timeframe": "2025-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watershed area protected or rehabilitated",
+      "value": 5,
+      "unit": "million ha",
+      "timeframe": null,
+      "context": "Area equivalent to about 4.4% of the 1,136,054 km2 total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-smart irrigation area",
+      "value": 1.8,
+      "unit": "million ha",
+      "timeframe": "by 2035",
+      "context": "Area equivalent to about 6.9% of current mapped Agriculture (262,625 km2)."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Ethiopia's conservation commitments seek 30% forest cover by 2030, above the 21.7% forest share in the current land-cover map; community forest management involves over 2 million ha, 2.98 million ha of natural forest is reported conserved under sustainable management, and the sustainable-management area is targeted to reach 7.2 million ha by 2035. Urban green infrastructure is planned at 30% coverage in 240 towns by 2035. Restoration and mixed watershed actions include 5 million ha of watershed protection or rehabilitation and 100,000 ha of degraded mining-land rehabilitation by 2035; forest coverage is reported at 23.6%. Agricultural and mixed measures target 17.9 million ha of climate-smart rain-fed cropland by 2025—about 68% of the current mapped Agriculture area—and 1.8 million ha of climate-smart irrigation by 2035; forest-product output is expected to reach 11.0 million tons by 2035. The watershed pledge is about 4.4% of land area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover goal\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Current mapped Forest is 21.7% of the country; the goal is 8.3 percentage points higher.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Urban green infrastructure coverage threshold\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The threshold applies to 240 towns by 2035, up from 75 in 2025.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Participatory forest management area\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to about 8.1% of current mapped Forest (247,038 km2).\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural forest conserved under SFM (reported)\",\n      \"value\": 2980000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to about 12.1% of current mapped Forest (247,038 km2).\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural forest under SFM (2035 target)\",\n      \"value\": 7.2,\n      \"unit\": \"million ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equivalent to about 29.1% of current mapped Forest (247,038 km2).\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest coverage reported\",\n      \"value\": 23.6,\n      \"unit\": \"%\",\n      \"timeframe\": \"2019-2024\",\n      \"context\": \"The passage reports 23.6%, compared with 21.7% in the current mapped Forest class.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded mining land rehabilitation\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equivalent to about 0.09% of the 1,136,054 km2 total land area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart rain-fed cropland\",\n      \"value\": 17900000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"Area equivalent to about 68.2% of current mapped Agriculture (262,625 km2).\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forest products\",\n      \"value\": 11.0,\n      \"unit\": \"million tons\",\n      \"timeframe\": \"2025-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Watershed area protected or rehabilitated\",\n      \"value\": 5,\n      \"unit\": \"million ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to about 4.4% of the 1,136,054 km2 total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate-smart irrigation area\",\n      \"value\": 1.8,\n      \"unit\": \"million ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equivalent to about 6.9% of current mapped Agriculture (262,625 km2).\"\n    }\n  ]\n}",
+  "errors": []
+}

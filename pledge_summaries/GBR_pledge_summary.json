@@ -1,0 +1,258 @@
+{
+  "iso3": "GBR",
+  "country": "United Kingdom of Great Britain and Northern Ireland",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 39,
+  "geo_context": {
+    "country_area_km2": 244366.3,
+    "land_cover_km2": {
+      "Agriculture": 71415.0,
+      "Forest": 18799.0,
+      "Grassland": 118710.0,
+      "Wetland": 11801.0,
+      "Settlement": 13592.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 5127.0,
+      "Bare_area": 391.0,
+      "Water": 4566.0
+    }
+  },
+  "summary": "Restoration and mixed land pledges include peatland restoration across hundreds of thousands of hectares, 9,000 hectares of new woodland in Northern Ireland by 2030, and at least 45,000 miles of managed hedgerows in England by 2050. Mixed woodland targets are 16.5% woodland/tree-canopy cover in England and 12% woodland cover in Northern Ireland, both by 2050. The 9,000 hectares equal 90 km², roughly 0.5% of the UK’s 18,799 km² forest area, though the target applies to Northern Ireland. Conservation combines protection of 30% of land and sea by 2030, highly protected marine areas by 2026, and halting species-abundance decline by 2030. Agriculture has a 10-year food-and-drinks strategy and domestic methane action, but no quantified farm-area target against the country’s 71,415 km² of agricultural land. Cross-cutting goals include halting deforestation and degradation by 2030; nature-related finance includes £750 million, at least £3 billion in 2021/22–2025/26, and £1.5 billion for forests.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Refreshed Environmental Improvement Plan publication",
+      "value": 2023,
+      "unit": "year",
+      "timeframe": "by January 2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Northern Ireland Marine Plan finalisation and publication",
+      "value": 2023,
+      "unit": "year",
+      "timeframe": "expected in 2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine Protected Areas network fishery-management measures",
+      "value": 2024,
+      "unit": "year",
+      "timeframe": "by 2024",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Northern Ireland Blue Carbon Action Plan publication",
+      "value": 2025,
+      "unit": "year",
+      "timeframe": "by March 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine Protected Area Strategy publication",
+      "value": 2025,
+      "unit": "year",
+      "timeframe": "in 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fishery management across the offshore Marine Protected Area network",
+      "value": 2025,
+      "unit": "year",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Guernsey marine spatial plan publication",
+      "value": 2025,
+      "unit": "year",
+      "timeframe": "by the end of 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Highly protected marine area network delivery",
+      "value": 2026,
+      "unit": "year",
+      "timeframe": "by 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "International climate and nature strategic framework",
+      "value": 2030,
+      "unit": "year",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Halt and reverse the decline in species abundance",
+      "value": 2030,
+      "unit": "year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "International support for locally led sustainable stewardship in forest countries",
+      "value": 2030,
+      "unit": "year",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Scottish Blue Economy long-term ecosystem-health outcomes",
+      "value": 2045,
+      "unit": "year",
+      "timeframe": "to 2045",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Welsh National Marine Plan horizon",
+      "value": 20,
+      "unit": "years",
+      "timeframe": "next 20 years from November 2019",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum long-term legally binding biodiversity targets",
+      "value": 1,
+      "unit": "targets",
+      "timeframe": "long term",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Legally binding environmental targets under the Environment Act",
+      "value": 13,
+      "unit": "targets",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Global biodiversity framework targets to be achieved",
+      "value": 23,
+      "unit": "targets",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Scottish food and drinks strategy horizon",
+      "value": 10,
+      "unit": "years",
+      "timeframe": "next 10 years",
+      "context": "Agriculture covers 71,415 km² (29.2%) of the country; no farm-area coverage is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Domestic methane-reduction action in agriculture, waste and fossil fuels",
+      "value": 2030,
+      "unit": "year",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Minimum nature-focused International Climate Finance investment",
+      "value": 3,
+      "unit": "£bn",
+      "timeframe": "between 2021-22 and 2025-26",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest protection and restoration finance",
+      "value": 1.5,
+      "unit": "£bn",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Nature for Climate Fund",
+      "value": 750,
+      "unit": "£m",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Northern Ireland woodland cover",
+      "value": 12,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": "The UK forest class is 7.7% of land overall; this woodland target applies specifically to Northern Ireland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "England woodland and tree-canopy cover",
+      "value": 16.5,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": "The UK forest class is 7.7% of land overall; this woodland-and-canopy target applies specifically to England."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land and sea protected",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The commitment spans land and sea, while the geographical context reports land cover only."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Northern Ireland new woodland creation",
+      "value": 9000,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "90 km², ≈0.5% of the UK's 18,799 km² forest area; the target applies to Northern Ireland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "England managed hedgerow creation or restoration",
+      "value": 45000,
+      "unit": "miles",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Halt and reverse deforestation and forest degradation",
+      "value": 2030,
+      "unit": "year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Partner action on forest finance, governance and agricultural deforestation",
+      "value": 2030,
+      "unit": "year",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "CBD vision for biodiversity conservation, restoration and wise use",
+      "value": 2050,
+      "unit": "year",
+      "timeframe": "by 2050",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration and mixed land pledges include peatland restoration across hundreds of thousands of hectares, 9,000 hectares of new woodland in Northern Ireland by 2030, and at least 45,000 miles of managed hedgerows in England by 2050. Mixed woodland targets are 16.5% woodland/tree-canopy cover in England and 12% woodland cover in Northern Ireland, both by 2050. The 9,000 hectares equal 90 km², roughly 0.5% of the UK’s 18,799 km² forest area, though the target applies to Northern Ireland. Conservation combines protection of 30% of land and sea by 2030, highly protected marine areas by 2026, and halting species-abundance decline by 2030. Agriculture has a 10-year food-and-drinks strategy and domestic methane action, but no quantified farm-area target against the country’s 71,415 km² of agricultural land. Cross-cutting goals include halting deforestation and degradation by 2030; nature-related finance includes £750 million, at least £3 billion in 2021/22–2025/26, and £1.5 billion for forests.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Refreshed Environmental Improvement Plan publication\",\n      \"value\": 2023,\n      \"unit\": \"year\",\n      \"timeframe\": \"by January 2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Northern Ireland Marine Plan finalisation and publication\",\n      \"value\": 2023,\n      \"unit\": \"year\",\n      \"timeframe\": \"expected in 2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine Protected Areas network fishery-management measures\",\n      \"value\": 2024,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2024\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Northern Ireland Blue Carbon Action Plan publication\",\n      \"value\": 2025,\n      \"unit\": \"year\",\n      \"timeframe\": \"by March 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine Protected Area Strategy publication\",\n      \"value\": 2025,\n      \"unit\": \"year\",\n      \"timeframe\": \"in 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fishery management across the offshore Marine Protected Area network\",\n      \"value\": 2025,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Guernsey marine spatial plan publication\",\n      \"value\": 2025,\n      \"unit\": \"year\",\n      \"timeframe\": \"by the end of 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Highly protected marine area network delivery\",\n      \"value\": 2026,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"International climate and nature strategic framework\",\n      \"value\": 2030,\n      \"unit\": \"year\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Halt and reverse the decline in species abundance\",\n      \"value\": 2030,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"International support for locally led sustainable stewardship in forest countries\",\n      \"value\": 2030,\n      \"unit\": \"year\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Scottish Blue Economy long-term ecosystem-health outcomes\",\n      \"value\": 2045,\n      \"unit\": \"year\",\n      \"timeframe\": \"to 2045\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Welsh National Marine Plan horizon\",\n      \"value\": 20,\n      \"unit\": \"years\",\n      \"timeframe\": \"next 20 years from November 2019\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum long-term legally binding biodiversity targets\",\n      \"value\": 1,\n      \"unit\": \"targets\",\n      \"timeframe\": \"long term\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Legally binding environmental targets under the Environment Act\",\n      \"value\": 13,\n      \"unit\": \"targets\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Global biodiversity framework targets to be achieved\",\n      \"value\": 23,\n      \"unit\": \"targets\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Scottish food and drinks strategy horizon\",\n      \"value\": 10,\n      \"unit\": \"years\",\n      \"timeframe\": \"next 10 years\",\n      \"context\": \"Agriculture covers 71,415 km² (29.2%) of the country; no farm-area coverage is specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Domestic methane-reduction action in agriculture, waste and fossil fuels\",\n      \"value\": 2030,\n      \"unit\": \"year\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minimum nature-focused International Climate Finance investment\",\n      \"value\": 3,\n      \"unit\": \"£bn\",\n      \"timeframe\": \"between 2021-22 and 2025-26\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest protection and restoration finance\",\n      \"value\": 1.5,\n      \"unit\": \"£bn\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Nature for Climate Fund\",\n      \"value\": 750,\n      \"unit\": \"£m\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Northern Ireland woodland cover\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"The UK forest class is 7.7% of land overall; this woodland target applies specifically to Northern Ireland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"England woodland and tree-canopy cover\",\n      \"value\": 16.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"The UK forest class is 7.7% of land overall; this woodland-and-canopy target applies specifically to England.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Land and sea protected\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The commitment spans land and sea, while the geographical context reports land cover only.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Northern Ireland new woodland creation\",\n      \"value\": 9000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"90 km², ≈0.5% of the UK's 18,799 km² forest area; the target applies to Northern Ireland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"England managed hedgerow creation or restoration\",\n      \"value\": 45000,\n      \"unit\": \"miles\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Halt and reverse deforestation and forest degradation\",\n      \"value\": 2030,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Partner action on forest finance, governance and agricultural deforestation\",\n      \"value\": 2030,\n      \"unit\": \"year\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"CBD vision for biodiversity conservation, restoration and wise use\",\n      \"value\": 2050,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,330 @@
+{
+  "iso3": "SLE",
+  "country": "Sierra Leone",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 52,
+  "geo_context": {
+    "country_area_km2": 70961.4,
+    "land_cover_km2": {
+      "Agriculture": 47999.0,
+      "Forest": 21052.0,
+      "Grassland": 608.0,
+      "Wetland": 85.0,
+      "Settlement": 385.0,
+      "Shrubland": 534.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 5.0,
+      "Water": 302.0
+    }
+  },
+  "summary": "Sierra Leone's pledges combine restoration, conservation and agricultural action. Restoration includes a 5-million-tree initiative within 4–5 years, 14,000 ha of degraded-land reforestation (an area equal to about 0.7% of current forest cover), 5,000 ha of mangrove restoration and management over 10 years, and separate 60,000 and 120,000 ha restoration targets; by 2035, 200,000 ha of forest is earmarked for restoration, while 3,000–30,000 ha of mangroves could be rehabilitated by 2030. Conservation includes 50,000 ha under community management or co-management (≈2.4% of current forest), forest and mangrove management goals of 200,000 and 100,000 ha by 2035, and a 50% vulnerability-reduction goal. Agriculture scales unburned and sedentary-farming areas from 30,000 ha in 2030 to 60,000 and 90,000 ha in 2035, places 30,000 ha under CSA by 2030, and expands irrigation to 45,000 ha by 2035 (≈0.9% of the current agricultural area).",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restored land",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈2.8% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restored land",
+      "value": 120000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈5.7% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National tree planting",
+      "value": 5000000,
+      "unit": "trees",
+      "timeframe": "within the next 4–5 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree survival at year 3",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "at year 3",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree survival",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest conservation area",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈4.7% of current forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove conservation area",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈0.85% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Vulnerability reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The source notes that no quantifiable supporting metrics were defined."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wood and charcoal reduction versus baseline",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustained wood and charcoal reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "REDD+ financing",
+      "value": 45,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Blue Bond financing",
+      "value": 60,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystemic payments financing",
+      "value": 20,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forestry and mangroves financing",
+      "value": 159,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water and coastal management financing",
+      "value": 270,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forestry, land use and ecosystems financing",
+      "value": 170,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farming area not burned",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farming area not burned",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.3% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional area from sedentary farming",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional area from sedentary farming",
+      "value": 90000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.9% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under climate-smart agriculture",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation coverage",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation coverage",
+      "value": 45000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.9% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmer-field-school demonstration plots",
+      "value": 200,
+      "unit": "demonstration plots",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Certified climate-resilient seed demand met",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Post-harvest loss reduction",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Youth engagement in smart agriculture",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Seed demand met locally",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Joint aflatoxin laboratories established",
+      "value": 2,
+      "unit": "joint aflatoxin labs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroecology and food-system transformation financing",
+      "value": 39,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture and food security financing",
+      "value": 532,
+      "unit": "M USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded-land reforestation",
+      "value": 14000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈0.7% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove restoration and management",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "within the next 10 years",
+      "context": "Area-equivalent to ≈58.8% of the broader mapped wetland class."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest management",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area-equivalent to ≈9.5% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove management",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area-equivalent to ≈1.4% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest restoration",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area-equivalent to ≈9.5% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community forest management and co-managed protected areas",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈2.4% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded-land and mangrove restoration (3,000–30,000 ha mangrove range)",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "The 30,000 ha upper commitment is ≈0.4% of total land; the source states a 3,000–30,000 ha mangrove-rehabilitation range."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Sierra Leone's pledges combine restoration, conservation and agricultural action. Restoration includes a 5-million-tree initiative within 4–5 years, 14,000 ha of degraded-land reforestation (an area equal to about 0.7% of current forest cover), 5,000 ha of mangrove restoration and management over 10 years, and separate 60,000 and 120,000 ha restoration targets; by 2035, 200,000 ha of forest is earmarked for restoration, while 3,000–30,000 ha of mangroves could be rehabilitated by 2030. Conservation includes 50,000 ha under community management or co-management (≈2.4% of current forest), forest and mangrove management goals of 200,000 and 100,000 ha by 2035, and a 50% vulnerability-reduction goal. Agriculture scales unburned and sedentary-farming areas from 30,000 ha in 2030 to 60,000 and 90,000 ha in 2035, places 30,000 ha under CSA by 2030, and expands irrigation to 45,000 ha by 2035 (≈0.9% of the current agricultural area).\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restored land\",\n      \"value\": 60000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈2.8% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restored land\",\n      \"value\": 120000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈5.7% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National tree planting\",\n      \"value\": 5000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"within the next 4–5 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Tree survival at year 3\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"at year 3\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Tree survival\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest conservation area\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈4.7% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mangrove conservation area\",\n      \"value\": 60000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈0.85% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Vulnerability reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The source notes that no quantifiable supporting metrics were defined.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wood and charcoal reduction versus baseline\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sustained wood and charcoal reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"REDD+ financing\",\n      \"value\": 45,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Blue Bond financing\",\n      \"value\": 60,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystemic payments financing\",\n      \"value\": 20,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forestry and mangroves financing\",\n      \"value\": 159,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water and coastal management financing\",\n      \"value\": 270,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forestry, land use and ecosystems financing\",\n      \"value\": 170,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farming area not burned\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farming area not burned\",\n      \"value\": 60000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈1.3% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional area from sedentary farming\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional area from sedentary farming\",\n      \"value\": 90000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈1.9% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area under climate-smart agriculture\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation coverage\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation coverage\",\n      \"value\": 45000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈0.9% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmer-field-school demonstration plots\",\n      \"value\": 200,\n      \"unit\": \"demonstration plots\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Certified climate-resilient seed demand met\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Post-harvest loss reduction\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Youth engagement in smart agriculture\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Seed demand met locally\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Joint aflatoxin laboratories established\",\n      \"value\": 2,\n      \"unit\": \"joint aflatoxin labs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroecology and food-system transformation financing\",\n      \"value\": 39,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agriculture and food security financing\",\n      \"value\": 532,\n      \"unit\": \"M USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded-land reforestation\",\n      \"value\": 14000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈0.7% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove restoration and management\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"within the next 10 years\",\n      \"context\": \"Area-equivalent to ≈58.8% of the broader mapped wetland class.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest management\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area-equivalent to ≈9.5% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove management\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area-equivalent to ≈1.4% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest restoration\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area-equivalent to ≈9.5% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community forest management and co-managed protected areas\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈2.4% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded-land and mangrove restoration (3,000–30,000 ha mangrove range)\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The 30,000 ha upper commitment is ≈0.4% of total land; the source states a 3,000–30,000 ha mangrove-rehabilitation range.\"\n    }\n  ]\n}",
+  "errors": []
+}

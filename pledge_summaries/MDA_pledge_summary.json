@@ -1,0 +1,122 @@
+{
+  "iso3": "MDA",
+  "country": "Republic of Moldova",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 12,
+  "geo_context": {
+    "country_area_km2": 33840.5,
+    "land_cover_km2": {
+      "Agriculture": 29284.0,
+      "Forest": 2422.0,
+      "Grassland": 51.0,
+      "Wetland": 43.0,
+      "Settlement": 1833.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 207.0
+    }
+  },
+  "summary": "Restoration and mixed forest commitments aim to expand forest cover by 145 kha by 2032 (the next 10 years), through 110 kha of new afforestation/production forests and 35 kha of rehabilitation; this equals about 60% of Moldova’s current 2,422 km² forest area. The expansion is expected to raise sequestration potential by around 56%. A separate NFERP program supports planting or rehabilitation of over 63.2 kha in 2024–2028, while 1.0 million MDL is earmarked for urban and rural green spaces and proposed centers would provide 85–90 million seedlings annually. Conservation combines a 10% reduction in municipal and industrial water-system losses with halting deforestation and degradation by 2030. Agriculture targets a 20% expansion of organically farmed land, drip irrigation on 133.5 thousand ha of orchards and 135.3 thousand ha of vineyards—about 4.6% each and 9.2% combined of current agricultural area—and at least 40% of subsidies for women-led initiatives.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic agricultural area expansion",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The pledge expands the organic-farming area by about 20%; no baseline area is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Subsidies targeting women-led agricultural initiatives",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": "This is a minimum subsidy-allocation share, not a share of agricultural land."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Drip irrigation area in orchards",
+      "value": 133.5,
+      "unit": "thousand ha",
+      "timeframe": null,
+      "context": "≈4.6% of current agricultural area; the orchard and vineyard targets together represent ≈9.2%."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Drip irrigation area in vineyards",
+      "value": 135.3,
+      "unit": "thousand ha",
+      "timeframe": null,
+      "context": "≈4.6% of current agricultural area; the orchard and vineyard targets together represent ≈9.2%."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest area expansion",
+      "value": 145,
+      "unit": "kha",
+      "timeframe": "by 2032",
+      "context": "≈59.9% of current forest area; the total comprises 110 kha of afforestation and 35 kha of rehabilitation and is expected to raise GHG sequestration potential by around 56%."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Afforestation and production-forest establishment",
+      "value": 110,
+      "unit": "kha",
+      "timeframe": null,
+      "context": "≈45.4% of current forest area; one component of the 145 kha forest-expansion target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forest rehabilitation and reforestation",
+      "value": 35,
+      "unit": "kha",
+      "timeframe": null,
+      "context": "≈14.5% of current forest area; one component of the 145 kha forest-expansion target."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Municipal and industrial water-system loss reduction",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deadline to halt deforestation and forest degradation",
+      "value": 2030,
+      "unit": "year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Funding for urban and rural green spaces",
+      "value": 1.0,
+      "unit": "million MDL",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest planting and rehabilitation area",
+      "value": 63.2,
+      "unit": "kha",
+      "timeframe": "2024–2028",
+      "context": "≈26.1% of current forest area; the pledge specifies over this area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Seedling production capacity",
+      "value": 85,
+      "unit": "million seedlings per year",
+      "timeframe": null,
+      "context": "The stated range is 85–90 million per year, with the value recording its lower bound; this would cover about 80–90% of sectoral needs."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration and mixed forest commitments aim to expand forest cover by 145 kha by 2032 (the next 10 years), through 110 kha of new afforestation/production forests and 35 kha of rehabilitation; this equals about 60% of Moldova’s current 2,422 km² forest area. The expansion is expected to raise sequestration potential by around 56%. A separate NFERP program supports planting or rehabilitation of over 63.2 kha in 2024–2028, while 1.0 million MDL is earmarked for urban and rural green spaces and proposed centers would provide 85–90 million seedlings annually. Conservation combines a 10% reduction in municipal and industrial water-system losses with halting deforestation and degradation by 2030. Agriculture targets a 20% expansion of organically farmed land, drip irrigation on 133.5 thousand ha of orchards and 135.3 thousand ha of vineyards—about 4.6% each and 9.2% combined of current agricultural area—and at least 40% of subsidies for women-led initiatives.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic agricultural area expansion\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The pledge expands the organic-farming area by about 20%; no baseline area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Subsidies targeting women-led agricultural initiatives\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"This is a minimum subsidy-allocation share, not a share of agricultural land.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Drip irrigation area in orchards\",\n      \"value\": 133.5,\n      \"unit\": \"thousand ha\",\n      \"timeframe\": null,\n      \"context\": \"≈4.6% of current agricultural area; the orchard and vineyard targets together represent ≈9.2%.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Drip irrigation area in vineyards\",\n      \"value\": 135.3,\n      \"unit\": \"thousand ha\",\n      \"timeframe\": null,\n      \"context\": \"≈4.6% of current agricultural area; the orchard and vineyard targets together represent ≈9.2%.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest area expansion\",\n      \"value\": 145,\n      \"unit\": \"kha\",\n      \"timeframe\": \"by 2032\",\n      \"context\": \"≈59.9% of current forest area; the total comprises 110 kha of afforestation and 35 kha of rehabilitation and is expected to raise GHG sequestration potential by around 56%.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Afforestation and production-forest establishment\",\n      \"value\": 110,\n      \"unit\": \"kha\",\n      \"timeframe\": null,\n      \"context\": \"≈45.4% of current forest area; one component of the 145 kha forest-expansion target.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded forest rehabilitation and reforestation\",\n      \"value\": 35,\n      \"unit\": \"kha\",\n      \"timeframe\": null,\n      \"context\": \"≈14.5% of current forest area; one component of the 145 kha forest-expansion target.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Municipal and industrial water-system loss reduction\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deadline to halt deforestation and forest degradation\",\n      \"value\": 2030,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Funding for urban and rural green spaces\",\n      \"value\": 1.0,\n      \"unit\": \"million MDL\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest planting and rehabilitation area\",\n      \"value\": 63.2,\n      \"unit\": \"kha\",\n      \"timeframe\": \"2024–2028\",\n      \"context\": \"≈26.1% of current forest area; the pledge specifies over this area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Seedling production capacity\",\n      \"value\": 85,\n      \"unit\": \"million seedlings per year\",\n      \"timeframe\": null,\n      \"context\": \"The stated range is 85–90 million per year, with the value recording its lower bound; this would cover about 80–90% of sectoral needs.\"\n    }\n  ]\n}",
+  "errors": []
+}

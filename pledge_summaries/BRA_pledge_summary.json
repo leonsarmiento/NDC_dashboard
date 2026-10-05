@@ -1,0 +1,74 @@
+{
+  "iso3": "BRA",
+  "country": "Brazil",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 7,
+  "geo_context": {
+    "country_area_km2": 8520002.2,
+    "land_cover_km2": {
+      "Agriculture": 2014410.0,
+      "Forest": 4419142.0,
+      "Grassland": 435858.0,
+      "Wetland": 133322.0,
+      "Settlement": 30332.0,
+      "Shrubland": 1355322.0,
+      "Sparse_vegetation": 879.0,
+      "Bare_area": 3632.0,
+      "Water": 127221.0
+    }
+  },
+  "summary": "Brazil’s ecosystem pledges span restoration, conservation, agriculture and a cross-cutting deforestation objective. Restoration targets are 6 million forest hectares by 2030, a 12-million-hectare recovery target by 2030 and 24 million hectares by 2050. Brazil’s current forest cover is 4.42 million km² (51.9% of the country); as a scale reference, the 6-, 12- and 24-million-hectare figures are approximately 1.4%, 2.7% and 5.4% of that cover, respectively. The conservation pledge seeks a 1% per-year increase in technological and sustainable biodiversity use by industry. The cross-cutting Both commitment pursues zero deforestation by eliminating illegal deforestation and compensating for legal suppression of native vegetation, although no date is stated. The agriculture pledge calls for a 50% increase in biofuels’ share of the transport energy matrix, also without a stated date.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest restoration",
+      "value": 6000000,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "≈1.4% of current forest cover (4,419,142 km²)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Ecosystem recovery",
+      "value": 12000000,
+      "unit": "hectares",
+      "timeframe": "by 2030",
+      "context": "≈2.7% of current forest cover as a scale reference"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Large-scale restoration",
+      "value": 24000000,
+      "unit": "hectares",
+      "timeframe": "by 2050",
+      "context": "≈5.4% of current forest cover (4,419,142 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Technological and sustainable biodiversity use by industry",
+      "value": 1,
+      "unit": "% per year",
+      "timeframe": "per year",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in biofuels' share of the transport energy matrix",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Zero deforestation",
+      "value": 0,
+      "unit": "deforestation",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Brazil’s ecosystem pledges span restoration, conservation, agriculture and a cross-cutting deforestation objective. Restoration targets are 6 million forest hectares by 2030, a 12-million-hectare recovery target by 2030 and 24 million hectares by 2050. Brazil’s current forest cover is 4.42 million km² (51.9% of the country); as a scale reference, the 6-, 12- and 24-million-hectare figures are approximately 1.4%, 2.7% and 5.4% of that cover, respectively. The conservation pledge seeks a 1% per-year increase in technological and sustainable biodiversity use by industry. The cross-cutting Both commitment pursues zero deforestation by eliminating illegal deforestation and compensating for legal suppression of native vegetation, although no date is stated. The agriculture pledge calls for a 50% increase in biofuels’ share of the transport energy matrix, also without a stated date.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest restoration\",\n      \"value\": 6000000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1.4% of current forest cover (4,419,142 km²)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Ecosystem recovery\",\n      \"value\": 12000000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈2.7% of current forest cover as a scale reference\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Large-scale restoration\",\n      \"value\": 24000000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"≈5.4% of current forest cover (4,419,142 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Technological and sustainable biodiversity use by industry\",\n      \"value\": 1,\n      \"unit\": \"% per year\",\n      \"timeframe\": \"per year\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in biofuels' share of the transport energy matrix\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Zero deforestation\",\n      \"value\": 0,\n      \"unit\": \"deforestation\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

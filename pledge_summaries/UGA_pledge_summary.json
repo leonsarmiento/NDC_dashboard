@@ -1,0 +1,482 @@
+{
+  "iso3": "UGA",
+  "country": "Uganda",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 48,
+  "geo_context": {
+    "country_area_km2": 242963.5,
+    "land_cover_km2": {
+      "Agriculture": 116641.0,
+      "Forest": 58050.0,
+      "Grassland": 6644.0,
+      "Wetland": 3549.0,
+      "Settlement": 745.0,
+      "Shrubland": 19573.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 2.0,
+      "Water": 37719.0
+    }
+  },
+  "summary": "Restoration pledges include 70,000 ha of wetlands restored by 2030—about 19.7% of currently mapped wetland extent—100,000 ha each of natural-forest regeneration and degraded protected-forest restoration, and 2.5 million ha of restored forest landscape by 2030; a separate planted-forest series reaches 407,608, but its unit is not stated. Conservation pledges target 23 catchment plans and 100% climate-adaptation compliance for those plans by 2030, 25% of urban land as preserved parks or greenbelts, and 1.7 million tonnes/year of fish stock by 2030. Agriculture targets 1.3 million ha of agroforestry (≈11.1% of current agricultural land), 152,622 ha under irrigation, and 70.7% of farmers practising sustainable land management by 2030. Mixed measures target 12% wetland coverage and 21% forest cover by 2030, plus a 40-million-tree campaign, 4,100 km of wetland boundaries, 62 MCM of water storage, and varied mitigation contributions.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Planted forest area",
+      "value": 307000,
+      "unit": "",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Planted forest area",
+      "value": 407608,
+      "unit": "",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National water-standards compliance",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National water-standards compliance",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Surface-water abstraction permit compliance",
+      "value": 82,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Surface-water abstraction permit compliance",
+      "value": 86,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Groundwater abstraction permit compliance",
+      "value": 81,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Groundwater abstraction permit compliance",
+      "value": 86,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ambient water quality",
+      "value": 8,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ambient water quality",
+      "value": 16,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Catchment-management-plan climate-adaptation compliance",
+      "value": 74,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Catchment-management-plan climate-adaptation compliance",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Preserved parks or greenbelts in urban land",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Catchment management plans developed and implemented",
+      "value": 21,
+      "unit": "plans",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Catchment management plans developed and implemented",
+      "value": 23,
+      "unit": "plans",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fish stock volume",
+      "value": 1200000,
+      "unit": "tonnes/yr",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fish stock volume",
+      "value": 1700000,
+      "unit": "tonnes/yr",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Emissions reduction from increased household electricity access",
+      "value": 0.02,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers practising sustainable land management",
+      "value": 51.2,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers practising sustainable land management",
+      "value": 70.7,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Charcoal conversion efficiency",
+      "value": 75,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Charcoal produced in improved-efficiency kilns",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Energy met from sustainably sourced biomass",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Share of mitigation action from AFOLU",
+      "value": 82.7,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under irrigation",
+      "value": 28934,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈2.5% of current agricultural area (116,641 km2)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under irrigation",
+      "value": 152622,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈13.1% of current agricultural area (116,641 km2)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry landscape area",
+      "value": 1300000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈11.1% of current agricultural area (116,641 km2)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Emissions reduction from commercial bioenergy woodlots",
+      "value": 2.9,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Emissions reduction from pole and timber plantations with coffee agroforestry",
+      "value": 0.37,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Emissions reduction from commercial pole and sawlog plantations",
+      "value": 5,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Emissions reduction from cattle-corridor livestock management",
+      "value": 2.9,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Emissions reduction from improved livestock feed and manure management",
+      "value": 0.5,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Emissions reduction from cooking efficiency and fuel switching",
+      "value": 1.09,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Wetland coverage",
+      "value": 9.57,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "Pledge baseline is 8.9% in 2020; ESA 2022 maps wetlands at 1.5% of land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Wetland coverage",
+      "value": 12,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Pledge baseline is 8.9% in 2020; ESA 2022 maps wetlands at 1.5% of land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "National road reserves using green infrastructure",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "National road reserves using green infrastructure",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest cover",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "Pledge baseline is 12.5% in 2020; ESA 2022 maps forest at 23.9% of land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest cover",
+      "value": 21,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Pledge baseline is 12.5% in 2020; ESA 2022 maps forest at 23.9% of land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Irradiation potential targeted",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFOLU net emissions reduction",
+      "value": 24.9,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Wetland area restored",
+      "value": 55906,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈15.8% of current mapped wetland area (3,549 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Wetland area restored",
+      "value": 70000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈19.7% of current mapped wetland area (3,549 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded riverbank and lakeshore area restored and maintained",
+      "value": 1550,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded hilly and mountainous area restored",
+      "value": 7500,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈0.03% of total land area (242,964 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded hilly and mountainous area restored",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.4% of total land area (242,964 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest landscape restored",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈3.4% of current forest area (58,050 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest landscape restored",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈43.1% of current forest area (58,050 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural forest area rehabilitated",
+      "value": 100000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈1.7% of current forest area (58,050 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded protected natural forest area restored",
+      "value": 100000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈1.7% of current forest area (58,050 km2)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Wetland boundaries demarcated",
+      "value": 4100,
+      "unit": "KM",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-restoration tree campaign",
+      "value": 40000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Campaign launched on 2 March 2021; no completion deadline is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Water-for-production storage capacity",
+      "value": 62,
+      "unit": "MCM",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFOLU emissions level",
+      "value": 30.4,
+      "unit": "MtCO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Emissions reduction from greenhouse vegetable cultivation",
+      "value": 0.3,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Emissions reduction from transmission-pole and timber plantations",
+      "value": 5,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Emissions reduction from improved charcoal production",
+      "value": 0.48,
+      "unit": "MtCO2e",
+      "timeframe": "by 2030",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges include 70,000 ha of wetlands restored by 2030—about 19.7% of currently mapped wetland extent—100,000 ha each of natural-forest regeneration and degraded protected-forest restoration, and 2.5 million ha of restored forest landscape by 2030; a separate planted-forest series reaches 407,608, but its unit is not stated. Conservation pledges target 23 catchment plans and 100% climate-adaptation compliance for those plans by 2030, 25% of urban land as preserved parks or greenbelts, and 1.7 million tonnes/year of fish stock by 2030. Agriculture targets 1.3 million ha of agroforestry (≈11.1% of current agricultural land), 152,622 ha under irrigation, and 70.7% of farmers practising sustainable land management by 2030. Mixed measures target 12% wetland coverage and 21% forest cover by 2030, plus a 40-million-tree campaign, 4,100 km of wetland boundaries, 62 MCM of water storage, and varied mitigation contributions.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Planted forest area\",\n      \"value\": 307000,\n      \"unit\": \"\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Planted forest area\",\n      \"value\": 407608,\n      \"unit\": \"\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National water-standards compliance\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National water-standards compliance\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Surface-water abstraction permit compliance\",\n      \"value\": 82,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Surface-water abstraction permit compliance\",\n      \"value\": 86,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Groundwater abstraction permit compliance\",\n      \"value\": 81,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Groundwater abstraction permit compliance\",\n      \"value\": 86,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ambient water quality\",\n      \"value\": 8,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ambient water quality\",\n      \"value\": 16,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Catchment-management-plan climate-adaptation compliance\",\n      \"value\": 74,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Catchment-management-plan climate-adaptation compliance\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Preserved parks or greenbelts in urban land\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Catchment management plans developed and implemented\",\n      \"value\": 21,\n      \"unit\": \"plans\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Catchment management plans developed and implemented\",\n      \"value\": 23,\n      \"unit\": \"plans\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fish stock volume\",\n      \"value\": 1200000,\n      \"unit\": \"tonnes/yr\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fish stock volume\",\n      \"value\": 1700000,\n      \"unit\": \"tonnes/yr\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Emissions reduction from increased household electricity access\",\n      \"value\": 0.02,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers practising sustainable land management\",\n      \"value\": 51.2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers practising sustainable land management\",\n      \"value\": 70.7,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Charcoal conversion efficiency\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Charcoal produced in improved-efficiency kilns\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Energy met from sustainably sourced biomass\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Share of mitigation action from AFOLU\",\n      \"value\": 82.7,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area under irrigation\",\n      \"value\": 28934,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈2.5% of current agricultural area (116,641 km2)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area under irrigation\",\n      \"value\": 152622,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈13.1% of current agricultural area (116,641 km2)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry landscape area\",\n      \"value\": 1300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈11.1% of current agricultural area (116,641 km2)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Emissions reduction from commercial bioenergy woodlots\",\n      \"value\": 2.9,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Emissions reduction from pole and timber plantations with coffee agroforestry\",\n      \"value\": 0.37,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Emissions reduction from commercial pole and sawlog plantations\",\n      \"value\": 5,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Emissions reduction from cattle-corridor livestock management\",\n      \"value\": 2.9,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Emissions reduction from improved livestock feed and manure management\",\n      \"value\": 0.5,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Emissions reduction from cooking efficiency and fuel switching\",\n      \"value\": 1.09,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Wetland coverage\",\n      \"value\": 9.57,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"Pledge baseline is 8.9% in 2020; ESA 2022 maps wetlands at 1.5% of land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Wetland coverage\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Pledge baseline is 8.9% in 2020; ESA 2022 maps wetlands at 1.5% of land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"National road reserves using green infrastructure\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"National road reserves using green infrastructure\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest cover\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"Pledge baseline is 12.5% in 2020; ESA 2022 maps forest at 23.9% of land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest cover\",\n      \"value\": 21,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Pledge baseline is 12.5% in 2020; ESA 2022 maps forest at 23.9% of land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Irradiation potential targeted\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFOLU net emissions reduction\",\n      \"value\": 24.9,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Wetland area restored\",\n      \"value\": 55906,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈15.8% of current mapped wetland area (3,549 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Wetland area restored\",\n      \"value\": 70000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈19.7% of current mapped wetland area (3,549 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded riverbank and lakeshore area restored and maintained\",\n      \"value\": 1550,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded hilly and mountainous area restored\",\n      \"value\": 7500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈0.03% of total land area (242,964 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded hilly and mountainous area restored\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.4% of total land area (242,964 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest landscape restored\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈3.4% of current forest area (58,050 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest landscape restored\",\n      \"value\": 2500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈43.1% of current forest area (58,050 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural forest area rehabilitated\",\n      \"value\": 100000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈1.7% of current forest area (58,050 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded protected natural forest area restored\",\n      \"value\": 100000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈1.7% of current forest area (58,050 km2)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Wetland boundaries demarcated\",\n      \"value\": 4100,\n      \"unit\": \"KM\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-restoration tree campaign\",\n      \"value\": 40000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Campaign launched on 2 March 2021; no completion deadline is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Water-for-production storage capacity\",\n      \"value\": 62,\n      \"unit\": \"MCM\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFOLU emissions level\",\n      \"value\": 30.4,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Emissions reduction from greenhouse vegetable cultivation\",\n      \"value\": 0.3,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Emissions reduction from transmission-pole and timber plantations\",\n      \"value\": 5,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Emissions reduction from improved charcoal production\",\n      \"value\": 0.48,\n      \"unit\": \"MtCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

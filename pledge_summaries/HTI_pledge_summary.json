@@ -1,0 +1,202 @@
+{
+  "iso3": "HTI",
+  "country": "Haiti",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 22,
+  "geo_context": {
+    "country_area_km2": 26892.4,
+    "land_cover_km2": {
+      "Agriculture": 4411.0,
+      "Forest": 3677.0,
+      "Grassland": 15021.0,
+      "Wetland": 2898.0,
+      "Settlement": 406.0,
+      "Shrubland": 3.0,
+      "Sparse_vegetation": 59.0,
+      "Bare_area": 0.0,
+      "Water": 405.0
+    }
+  },
+  "summary": "Haiti’s pledges combine restoration, conservation, agriculture and mixed measures. Restoration includes 50,000 ha of afforestation/reforestation—about 13.6% of current forest cover—15,000 ha of separate reforestation, assisted-regeneration targets of 15,000 and 10,000 ha, 10,500 and 681 ha of mangrove restoration, 5,000 ha of energy forest, 151 km of roadside vegetation, and 605 ha of denuded-area reforestation. Conservation sets avoided-deforestation targets of 11,000 and 5,000 ha, manages 454 ha of tree cover, and lists coral/seagrass protection at 76 and 151 ha. Agriculture targets 20,000 ha of improved pasture, 25,000 ha of fruit trees, 30,000 ha of crop cover and 76 ha of soil-and-water conservation. Fruit trees and crop cover equal about 12.5% of current agriculture; pasture improvement equals 1.3% of grassland. Mixed actions comprise 15,000 and 3,000 ha of agroforestry reforestation, 605 ha of road-slope restoration and 454 ha of mangrove-stand management.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pasture quality improvement with legumes",
+      "value": 20.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈1.3% of current grassland cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit tree cultivation",
+      "value": 25.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈5.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop cover for increased soil carbon",
+      "value": 30.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈6.8% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Soil and water conservation",
+      "value": 76.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and reforestation",
+      "value": 50.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈13.6% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration",
+      "value": 15.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈4.1% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove forest restoration",
+      "value": 10.5,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈3.6% of current wetland cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Energy forest",
+      "value": 5.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈1.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 15.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈4.1% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration",
+      "value": 10.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈2.7% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Road-edge and embankment vegetation",
+      "value": 151.0,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove ecosystem restoration and maintenance",
+      "value": 681.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.24% of current wetland cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and reforestation of denuded areas",
+      "value": 605.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.02% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "REDD avoided deforestation",
+      "value": 11.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈3.0% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "REDD avoided deforestation",
+      "value": 5.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "≈1.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Tree-cover management for groundwater recharge",
+      "value": 454.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.12% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coral reef and marine seagrass protection",
+      "value": 76.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.19% of current water cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coral reef and marine seagrass protection",
+      "value": 151.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.37% of current water cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with agroforestry",
+      "value": 15.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with agroforestry",
+      "value": 3.0,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Road-slope afforestation, reforestation and protection",
+      "value": 605.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.02% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove-stand multiplication, regeneration and management",
+      "value": 454.0,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.16% of current wetland cover"
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Haiti’s pledges combine restoration, conservation, agriculture and mixed measures. Restoration includes 50,000 ha of afforestation/reforestation—about 13.6% of current forest cover—15,000 ha of separate reforestation, assisted-regeneration targets of 15,000 and 10,000 ha, 10,500 and 681 ha of mangrove restoration, 5,000 ha of energy forest, 151 km of roadside vegetation, and 605 ha of denuded-area reforestation. Conservation sets avoided-deforestation targets of 11,000 and 5,000 ha, manages 454 ha of tree cover, and lists coral/seagrass protection at 76 and 151 ha. Agriculture targets 20,000 ha of improved pasture, 25,000 ha of fruit trees, 30,000 ha of crop cover and 76 ha of soil-and-water conservation. Fruit trees and crop cover equal about 12.5% of current agriculture; pasture improvement equals 1.3% of grassland. Mixed actions comprise 15,000 and 3,000 ha of agroforestry reforestation, 605 ha of road-slope restoration and 454 ha of mangrove-stand management.\",\"targets\":[{\"commitment_type\":\"Agriculture\",\"metric\":\"Pasture quality improvement with legumes\",\"value\":20.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈1.3% of current grassland cover\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Fruit tree cultivation\",\"value\":25.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈5.7% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Crop cover for increased soil carbon\",\"value\":30.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈6.8% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Soil and water conservation\",\"value\":76.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.02% of current agricultural area\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Afforestation and reforestation\",\"value\":50.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈13.6% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Assisted forest regeneration\",\"value\":15.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈4.1% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove forest restoration\",\"value\":10.5,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈3.6% of current wetland cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Energy forest\",\"value\":5.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈1.4% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Reforestation\",\"value\":15.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈4.1% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Assisted forest regeneration\",\"value\":10.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈2.7% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Road-edge and embankment vegetation\",\"value\":151.0,\"unit\":\"km\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove ecosystem restoration and maintenance\",\"value\":681.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.24% of current wetland cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Afforestation and reforestation of denuded areas\",\"value\":605.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.02% of total land area\"},{\"commitment_type\":\"Conservation\",\"metric\":\"REDD avoided deforestation\",\"value\":11.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈3.0% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"REDD avoided deforestation\",\"value\":5.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":\"≈1.4% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Tree-cover management for groundwater recharge\",\"value\":454.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.12% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Coral reef and marine seagrass protection\",\"value\":76.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.19% of current water cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Coral reef and marine seagrass protection\",\"value\":151.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.37% of current water cover\"},{\"commitment_type\":\"Both\",\"metric\":\"Reforestation with agroforestry\",\"value\":15.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Reforestation with agroforestry\",\"value\":3.0,\"unit\":\"1000 ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Road-slope afforestation, reforestation and protection\",\"value\":605.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.02% of total land area\"},{\"commitment_type\":\"Both\",\"metric\":\"Mangrove-stand multiplication, regeneration and management\",\"value\":454.0,\"unit\":\"hectares\",\"timeframe\":null,\"context\":\"≈0.16% of current wetland cover\"}]}",
+  "errors": []
+}

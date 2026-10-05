@@ -1,0 +1,90 @@
+{
+  "iso3": "LVA",
+  "country": "Latvia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 64370.0,
+    "land_cover_km2": {
+      "Agriculture": 18559.0,
+      "Forest": 38032.0,
+      "Grassland": 4685.0,
+      "Wetland": 1450.0,
+      "Settlement": 365.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 2.0,
+      "Water": 1258.0
+    }
+  },
+  "summary": "Latvia’s 2030 LULUCF balance target is −639 kt CO2eq within an EU-wide net-removals framework. The collective 2030 carbon-sink target is −310 Mt CO2-eq, also described as 310 Mt of net removals, with removals 42 Mt CO2-eq higher than the 2016–2018 average. Restoration is mainly an EU-level pledge: measures should cover at least 20% of EU land and sea areas by 2030—about 12,874 km² if the land share were applied proportionally to Latvia’s 64,370 km²—and all ecosystems needing restoration by 2050. EU-wide mitigation potentials are 51–54 Mt CO2-eq/yr from peatland and wetland rewetting and 8–235 Mt CO2-eq/yr from biodiversity-respecting reforestation and sustainable forest management. Improved fertiliser efficiency offers 19 Mt CO2-eq/yr. Latvia is 59.1% forest and 28.8% agricultural land, with grasslands and wetlands at 7.3% and 2.3%.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Collective EU LULUCF carbon-sink target",
+      "value": -310,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU-wide; also stated as 310 Mt of net removals, implying a 42 Mt CO2-eq increase relative to 2016–2018."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Latvia LULUCF balance target",
+      "value": -639,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Latvia-specific component of the collective EU LULUCF target."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum share of EU land and sea areas under restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The minimum applies separately to land and sea; if applied proportionally to Latvia’s land area, it equals ≈12,874 km²."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential — lower bound",
+      "value": 51,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide potential; Latvia has 1,450 km² of wetland (2.3%), but no national rewetting area is specified."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential — upper bound",
+      "value": 54,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide potential; Latvia has 1,450 km² of wetland (2.3%), but no national rewetting area is specified."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Biodiversity-respecting reforestation and sustainable forest management mitigation potential — lower bound",
+      "value": 8,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide potential; Latvia has 38,032 km² of forest (59.1%), but no national reforestation area is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Biodiversity-respecting reforestation and sustainable forest management mitigation potential — upper bound",
+      "value": 235,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide potential; Latvia has 38,032 km² of forest (59.1%), but no national reforestation area is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved fertiliser efficiency mitigation potential",
+      "value": 19,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-wide potential; Latvia has 18,559 km² of agriculture (28.8%), but no covered farming area is stated."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Latvia’s 2030 LULUCF balance target is −639 kt CO2eq within an EU-wide net-removals framework. The collective 2030 carbon-sink target is −310 Mt CO2-eq, also described as 310 Mt of net removals, with removals 42 Mt CO2-eq higher than the 2016–2018 average. Restoration is mainly an EU-level pledge: measures should cover at least 20% of EU land and sea areas by 2030—about 12,874 km² if the land share were applied proportionally to Latvia’s 64,370 km²—and all ecosystems needing restoration by 2050. EU-wide mitigation potentials are 51–54 Mt CO2-eq/yr from peatland and wetland rewetting and 8–235 Mt CO2-eq/yr from biodiversity-respecting reforestation and sustainable forest management. Improved fertiliser efficiency offers 19 Mt CO2-eq/yr. Latvia is 59.1% forest and 28.8% agricultural land, with grasslands and wetlands at 7.3% and 2.3%.\",\"targets\":[{\"commitment_type\":\"Conservation\",\"metric\":\"Collective EU LULUCF carbon-sink target\",\"value\":-310,\"unit\":\"Mt CO2-eq\",\"timeframe\":\"by 2030\",\"context\":\"EU-wide; also stated as 310 Mt of net removals, implying a 42 Mt CO2-eq increase relative to 2016–2018.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Latvia LULUCF balance target\",\"value\":-639,\"unit\":\"Kt CO2eq\",\"timeframe\":\"2030\",\"context\":\"Latvia-specific component of the collective EU LULUCF target.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Minimum share of EU land and sea areas under restoration measures\",\"value\":20,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"The minimum applies separately to land and sea; if applied proportionally to Latvia’s land area, it equals ≈12,874 km².\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Peatland and wetland restoration mitigation potential — lower bound\",\"value\":51,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide potential; Latvia has 1,450 km² of wetland (2.3%), but no national rewetting area is specified.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Peatland and wetland restoration mitigation potential — upper bound\",\"value\":54,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide potential; Latvia has 1,450 km² of wetland (2.3%), but no national rewetting area is specified.\"},{\"commitment_type\":\"Both\",\"metric\":\"Biodiversity-respecting reforestation and sustainable forest management mitigation potential — lower bound\",\"value\":8,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide potential; Latvia has 38,032 km² of forest (59.1%), but no national reforestation area is stated.\"},{\"commitment_type\":\"Both\",\"metric\":\"Biodiversity-respecting reforestation and sustainable forest management mitigation potential — upper bound\",\"value\":235,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide potential; Latvia has 38,032 km² of forest (59.1%), but no national reforestation area is stated.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Improved fertiliser efficiency mitigation potential\",\"value\":19,\"unit\":\"Mt CO2-eq/yr\",\"timeframe\":null,\"context\":\"EU-wide potential; Latvia has 18,559 km² of agriculture (28.8%), but no covered farming area is stated.\"}]}",
+  "errors": []
+}

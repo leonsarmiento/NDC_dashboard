@@ -1,0 +1,66 @@
+{
+  "iso3": "BHS",
+  "country": "The Bahamas",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 16,
+  "geo_context": {
+    "country_area_km2": 11649.3,
+    "land_cover_km2": {
+      "Agriculture": 144.0,
+      "Forest": 5322.0,
+      "Grassland": 1390.0,
+      "Wetland": 2410.0,
+      "Settlement": 147.0,
+      "Shrubland": 7.0,
+      "Sparse_vegetation": 15.0,
+      "Bare_area": 2.0,
+      "Water": 2231.0
+    }
+  },
+  "summary": "The Bahamas combines a mixed ocean-and-land conservation programme with targeted ecosystem restoration. Its November 2024 debt conversion directs US$124 million in savings over 15 years to ocean protection, mangrove restoration and marine-park management. Conservation pledges designate 20% of land cover as forest reserves, protected forests or conservation forests; taking 20% of the 11,649 km² land area gives about 2,330 km², roughly 44% of the 5,322 km² currently mapped as forest. The marine-energy passages report two facility figures—up to three and five—for carbon-neutral marine protected-area facilities using photovoltaic rather than diesel systems. Restoration concentrates on re-establishing and rehabilitating 50 ha (0.5 km²) of Davis Creek on Andros, about 0.02% of current mapped wetland. The package links forest governance, carbon-neutral marine management and a focused mangrove-restoration pilot.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Debt-service savings directed to ocean protection, mangrove restoration and marine-park management",
+      "value": 124000000,
+      "unit": "USD",
+      "timeframe": "over 15 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest estate designation and sustainable management",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "At country scale, 20% of 11,649 km² is ≈2,330 km², about 44% of current mapped forest (5,322 km²; 45.7%)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon-neutral marine protected-area facilities (up to)",
+      "value": 3,
+      "unit": "number of facilities",
+      "timeframe": "over 15 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon-neutral marine protected-area facilities (five facilities)",
+      "value": 5,
+      "unit": "number of facilities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Davis Creek, Andros ecosystem rehabilitation and mangrove restoration pilot",
+      "value": 50,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "50 ha is 0.5 km², about 0.02% of current mapped wetland (2,410 km²; 20.7%)"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"The Bahamas combines a mixed ocean-and-land conservation programme with targeted ecosystem restoration. Its November 2024 debt conversion directs US$124 million in savings over 15 years to ocean protection, mangrove restoration and marine-park management. Conservation pledges designate 20% of land cover as forest reserves, protected forests or conservation forests; taking 20% of the 11,649 km² land area gives about 2,330 km², roughly 44% of the 5,322 km² currently mapped as forest. The marine-energy passages report two facility figures—up to three and five—for carbon-neutral marine protected-area facilities using photovoltaic rather than diesel systems. Restoration concentrates on re-establishing and rehabilitating 50 ha (0.5 km²) of Davis Creek on Andros, about 0.02% of current mapped wetland. The package links forest governance, carbon-neutral marine management and a focused mangrove-restoration pilot.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Debt-service savings directed to ocean protection, mangrove restoration and marine-park management\",\n      \"value\": 124000000,\n      \"unit\": \"USD\",\n      \"timeframe\": \"over 15 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest estate designation and sustainable management\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"At country scale, 20% of 11,649 km² is ≈2,330 km², about 44% of current mapped forest (5,322 km²; 45.7%)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon-neutral marine protected-area facilities (up to)\",\n      \"value\": 3,\n      \"unit\": \"number of facilities\",\n      \"timeframe\": \"over 15 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon-neutral marine protected-area facilities (five facilities)\",\n      \"value\": 5,\n      \"unit\": \"number of facilities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Davis Creek, Andros ecosystem rehabilitation and mangrove restoration pilot\",\n      \"value\": 50,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"50 ha is 0.5 km², about 0.02% of current mapped wetland (2,410 km²; 20.7%)\"\n    }\n  ]\n}",
+  "errors": []
+}

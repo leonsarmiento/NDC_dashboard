@@ -1,0 +1,34 @@
+{
+  "iso3": "BIH",
+  "country": "Bosnia and Herzegovina",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 51240.0,
+    "land_cover_km2": {
+      "Agriculture": 14414.0,
+      "Forest": 29820.0,
+      "Grassland": 5292.0,
+      "Wetland": 47.0,
+      "Settlement": 434.0,
+      "Shrubland": 962.0,
+      "Sparse_vegetation": 24.0,
+      "Bare_area": 11.0,
+      "Water": 243.0
+    }
+  },
+  "summary": "Conservation is the country’s sole quantified ecosystem pledge in the supplied passages: Bosnia and Herzegovina plans to increase carbon sinks in the forestry sector by 93 GgCO2eq until 2030. This focus is consistent with the country’s land-cover context, where forests cover 29,820 km², or 58.2% of the total land area, making the forestry sector the largest land-cover class. The commitment is expressed as a greenhouse-gas sink enhancement rather than a hectare, percentage, or species target, so it cannot be directly compared with a stated share of forest area. No numerical restoration, agricultural, or broader conservation-area target is provided.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forestry-sector carbon sink increase",
+      "value": 93.0,
+      "unit": "GgCO2eq",
+      "timeframe": "until 2030",
+      "context": "The forestry sector covers 29,820 km², or 58.2% of the country’s land area."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Conservation is the country’s sole quantified ecosystem pledge in the supplied passages: Bosnia and Herzegovina plans to increase carbon sinks in the forestry sector by 93 GgCO2eq until 2030. This focus is consistent with the country’s land-cover context, where forests cover 29,820 km², or 58.2% of the total land area, making the forestry sector the largest land-cover class. The commitment is expressed as a greenhouse-gas sink enhancement rather than a hectare, percentage, or species target, so it cannot be directly compared with a stated share of forest area. No numerical restoration, agricultural, or broader conservation-area target is provided.\",\"targets\":[{\"commitment_type\":\"Conservation\",\"metric\":\"Forestry-sector carbon sink increase\",\"value\":93.0,\"unit\":\"GgCO2eq\",\"timeframe\":\"until 2030\",\"context\":\"The forestry sector covers 29,820 km², or 58.2% of the country’s land area.\"}]}",
+  "errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "iso3": "KIR",
+  "country": "Kiribati",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 949.6,
+    "land_cover_km2": {
+      "Agriculture": 456.0,
+      "Forest": 9.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 49.0,
+      "Bare_area": 0.0,
+      "Water": 432.0
+    }
+  },
+  "summary": "For Kiribati, restoration is the only commitment type represented. The revised NDC gives a mangrove-enhancement sink estimate of 0.15 ktCO2, also stated as ktCO2e, in 2030, replacing an earlier 7.1 ktCO2 INDC estimate that the passage calls erroneous. A further passage gives 0.16 ktCO2e sequestration in 2025 and also repeats 0.15 ktCO2 for 2025, creating a timing inconsistency with the 2030 statement. The conditional AFOLU action is to plant 7 ha of mangrove forest, with no year specified. For scale, 7 ha is about 0.8% of the country's reported 9 km² forest class and about 0.007% of its 950 km² total area. The extracted pledges quantify restoration outcomes and planting area; no numerical conservation or agriculture targets are provided.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove forest enhancement sequestration",
+      "value": 0.15,
+      "unit": "ktCO2",
+      "timeframe": "2030",
+      "context": "The same numerical 0.15 target is also reported with the unit label ktCO2e; the duplicate is merged."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove planting sequestration",
+      "value": 0.16,
+      "unit": "ktCO2e",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Conditional mangrove forest planting",
+      "value": 7.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "If implemented, 7 ha would be approximately 0.8% of the reported 9 km² forest area and 0.007% of the 950 km² total area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"For Kiribati, restoration is the only commitment type represented. The revised NDC gives a mangrove-enhancement sink estimate of 0.15 ktCO2, also stated as ktCO2e, in 2030, replacing an earlier 7.1 ktCO2 INDC estimate that the passage calls erroneous. A further passage gives 0.16 ktCO2e sequestration in 2025 and also repeats 0.15 ktCO2 for 2025, creating a timing inconsistency with the 2030 statement. The conditional AFOLU action is to plant 7 ha of mangrove forest, with no year specified. For scale, 7 ha is about 0.8% of the country's reported 9 km² forest class and about 0.007% of its 950 km² total area. The extracted pledges quantify restoration outcomes and planting area; no numerical conservation or agriculture targets are provided.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove forest enhancement sequestration\",\n      \"value\": 0.15,\n      \"unit\": \"ktCO2\",\n      \"timeframe\": \"2030\",\n      \"context\": \"The same numerical 0.15 target is also reported with the unit label ktCO2e; the duplicate is merged.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove planting sequestration\",\n      \"value\": 0.16,\n      \"unit\": \"ktCO2e\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Conditional mangrove forest planting\",\n      \"value\": 7.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"If implemented, 7 ha would be approximately 0.8% of the reported 9 km² forest area and 0.007% of the 950 km² total area.\"\n    }\n  ]\n}",
+  "errors": []
+}

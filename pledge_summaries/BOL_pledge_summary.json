@@ -1,0 +1,194 @@
+{
+  "iso3": "BOL",
+  "country": "Bolivia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 40,
+  "geo_context": {
+    "country_area_km2": 1090076.9,
+    "land_cover_km2": {
+      "Agriculture": 71224.0,
+      "Forest": 620460.0,
+      "Grassland": 97920.0,
+      "Wetland": 27017.0,
+      "Settlement": 1443.0,
+      "Shrubland": 98301.0,
+      "Sparse_vegetation": 76761.0,
+      "Bare_area": 83919.0,
+      "Water": 12194.0
+    }
+  },
+  "summary": "Bolivia’s ecosystem pledges are restoration-oriented. By 2035, restoration, afforestation and reforestation will add 1,000,000 hectares of forest cover—about 1.6% of 2022 forest cover—while protecting and restoring 11,000,000 hectares of priority forest ecosystems, equivalent to 17.7% of 2022 forest area. Conservation measures target an 80% reduction in deforestation outside protected areas, 100% inside them, and a 60% reduction in fire-affected area. Integrated action covers 1,000,000 hectares of agricultural soils (about 14.0% of 2022 agricultural area), includes a 1,000,000-hectare agroforestry target, 25,000 hectares of SAF systems, 20,000 hectares of resilient fruit systems, 2,500,000 hectares of sustainably used forest (4.0% of 2022 forest cover), 40,000 hectares of recharge zones and degradation control on 19,800 hectares. Agriculture targets 40% of climate-affected production units, sustainable livestock practices on 155,000 hectares, water-efficient irrigation on 653,981 hectares, a 30% crop-yield gain, resilience for 400,000 producers and a 276 million tCO₂-eq emissions cut.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest cover increase through restoration, afforestation and reforestation",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈1.6% of 2022 forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation reduction outside protected areas",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation reduction in protected areas",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-fire area reduction",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Unspecified area target",
+      "value": 0,
+      "unit": "ha",
+      "timeframe": "by 2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forested protected areas receiving strategic financial plans",
+      "value": 16,
+      "unit": "protected areas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-resource management plans in implementation",
+      "value": 102,
+      "unit": "plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock area using sustainable and regenerative practices",
+      "value": 155000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈2.2% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forest area under sustainable and integral use",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈4.0% of 2022 forest area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural area using water-efficient irrigation technologies",
+      "value": 653981,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈9.2% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-affected agri-food production units with improved adaptive capacity",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Average strategic-crop yield increase from the 2019–2024 baseline",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural-sector emissions reduction",
+      "value": 276000000,
+      "unit": "tCO₂-eq",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural producers with strengthened resilience",
+      "value": 400000,
+      "unit": "producers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural soils conserved, managed and recovered",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈14.0% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Integrated SAF systems implemented",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈0.35% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable fruit systems implemented",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈0.28% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Potential watershed recharge-zone area conserved and regenerated",
+      "value": 40000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degradation controlled or avoided on at-risk land",
+      "value": 19800,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry-system area increase",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈14.0% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority forest ecosystems protected and restored",
+      "value": 11000000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale equals ≈17.7% of 2022 forest area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Bolivia’s ecosystem pledges are restoration-oriented. By 2035, restoration, afforestation and reforestation will add 1,000,000 hectares of forest cover—about 1.6% of 2022 forest cover—while protecting and restoring 11,000,000 hectares of priority forest ecosystems, equivalent to 17.7% of 2022 forest area. Conservation measures target an 80% reduction in deforestation outside protected areas, 100% inside them, and a 60% reduction in fire-affected area. Integrated action covers 1,000,000 hectares of agricultural soils (about 14.0% of 2022 agricultural area), includes a 1,000,000-hectare agroforestry target, 25,000 hectares of SAF systems, 20,000 hectares of resilient fruit systems, 2,500,000 hectares of sustainably used forest (4.0% of 2022 forest cover), 40,000 hectares of recharge zones and degradation control on 19,800 hectares. Agriculture targets 40% of climate-affected production units, sustainable livestock practices on 155,000 hectares, water-efficient irrigation on 653,981 hectares, a 30% crop-yield gain, resilience for 400,000 producers and a 276 million tCO₂-eq emissions cut.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest cover increase through restoration, afforestation and reforestation\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈1.6% of 2022 forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation reduction outside protected areas\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation reduction in protected areas\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-fire area reduction\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Unspecified area target\",\n      \"value\": 0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forested protected areas receiving strategic financial plans\",\n      \"value\": 16,\n      \"unit\": \"protected areas\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-resource management plans in implementation\",\n      \"value\": 102,\n      \"unit\": \"plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock area using sustainable and regenerative practices\",\n      \"value\": 155000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈2.2% of 2022 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forest area under sustainable and integral use\",\n      \"value\": 2500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈4.0% of 2022 forest area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural area using water-efficient irrigation technologies\",\n      \"value\": 653981,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈9.2% of 2022 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-affected agri-food production units with improved adaptive capacity\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Average strategic-crop yield increase from the 2019–2024 baseline\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural-sector emissions reduction\",\n      \"value\": 276000000,\n      \"unit\": \"tCO₂-eq\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural producers with strengthened resilience\",\n      \"value\": 400000,\n      \"unit\": \"producers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural soils conserved, managed and recovered\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈14.0% of 2022 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Integrated SAF systems implemented\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈0.35% of 2022 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable fruit systems implemented\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈0.28% of 2022 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Potential watershed recharge-zone area conserved and regenerated\",\n      \"value\": 40000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degradation controlled or avoided on at-risk land\",\n      \"value\": 19800,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroforestry-system area increase\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈14.0% of 2022 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority forest ecosystems protected and restored\",\n      \"value\": 11000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale equals ≈17.7% of 2022 forest area.\"\n    }\n  ]\n}",
+  "errors": []
+}

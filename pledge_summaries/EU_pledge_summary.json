@@ -1,0 +1,325 @@
+{
+  "iso3": "EU",
+  "country": "European Union and its Member States",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 103,
+  "geo_context": null,
+  "summary": "Restoration pledges target measures on at least 20% of EU land and 20% of sea areas by 2030, with measures in place for all ecosystems needing restoration by 2050; identified mitigation potential includes 51–54 Mt CO2-eq/year from rewetting peatlands and wetlands and 8–235 Mt CO2-eq/year from biodiversity-respecting reforestation and sustainable forest management. Across conservation and restoration, the LULUCF sector is to deliver 310 Mt CO2-eq of net removals by 2030—42 Mt CO2-eq more than the 2016–2018 average—with binding national targets across Member States. Agricultural measures target 19 Mt CO2-eq/year in avoided nitrous oxide emissions through better fertiliser efficiency. For 2023–2027, 40% of Common Agricultural Policy financing is intended to support climate objectives, including at least 25% of annual Pillar I direct-payment funds for eco-schemes and at least 35% of Pillar II funds for environmental and climate activities.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "EU LULUCF net greenhouse-gas removals",
+      "value": 310,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "Also expressed as a -310 Mt CO2-eq carbon-sinks target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional LULUCF net removals relative to the 2016-2018 average",
+      "value": 42,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "Incremental component of the EU LULUCF target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential, lower estimate",
+      "value": 8,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential, upper estimate",
+      "value": 235,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum share of EU land with restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum share of EU sea areas with restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential, lower estimate",
+      "value": 51,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential, upper estimate",
+      "value": 54,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nitrous oxide reduction from improved fertiliser-use efficiency",
+      "value": 19,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Share of total Common Agricultural Policy financial allocation supporting climate objectives",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "2023-2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum annual Pillar I direct-payment funds earmarked for eco-schemes",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "2023-2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum Pillar II funds dedicated to environment and climate activities",
+      "value": 35,
+      "unit": "%",
+      "timeframe": "2023-2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Belgium LULUCF target",
+      "value": -320,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Bulgaria LULUCF target",
+      "value": -1163,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Czechia LULUCF target",
+      "value": -827,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Denmark LULUCF target",
+      "value": -441,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Germany LULUCF target",
+      "value": -3751,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Estonia LULUCF target",
+      "value": -434,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ireland LULUCF target",
+      "value": -626,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Greece LULUCF target",
+      "value": -1154,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Spain LULUCF target",
+      "value": -5309,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "France LULUCF target",
+      "value": -6693,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Croatia LULUCF target",
+      "value": -593,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Italy LULUCF target",
+      "value": -3158,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cyprus LULUCF target",
+      "value": -63,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Latvia LULUCF target",
+      "value": -639,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Lithuania LULUCF target",
+      "value": -661,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Luxembourg LULUCF target",
+      "value": -27,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Hungary LULUCF target",
+      "value": -934,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Malta LULUCF target",
+      "value": -2,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Netherlands LULUCF target",
+      "value": -435,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Austria LULUCF target",
+      "value": -879,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Poland LULUCF target",
+      "value": -3278,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Portugal LULUCF target",
+      "value": -968,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Romania LULUCF target",
+      "value": -2380,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Slovenia LULUCF target",
+      "value": -212,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Slovakia LULUCF target",
+      "value": -504,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Finland LULUCF target",
+      "value": -2889,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sweden LULUCF target",
+      "value": -3955,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Binding Member State target within the EU LULUCF framework."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges target measures on at least 20% of EU land and 20% of sea areas by 2030, with measures in place for all ecosystems needing restoration by 2050; identified mitigation potential includes 51–54 Mt CO2-eq/year from rewetting peatlands and wetlands and 8–235 Mt CO2-eq/year from biodiversity-respecting reforestation and sustainable forest management. Across conservation and restoration, the LULUCF sector is to deliver 310 Mt CO2-eq of net removals by 2030—42 Mt CO2-eq more than the 2016–2018 average—with binding national targets across Member States. Agricultural measures target 19 Mt CO2-eq/year in avoided nitrous oxide emissions through better fertiliser efficiency. For 2023–2027, 40% of Common Agricultural Policy financing is intended to support climate objectives, including at least 25% of annual Pillar I direct-payment funds for eco-schemes and at least 35% of Pillar II funds for environmental and climate activities.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"EU LULUCF net greenhouse-gas removals\",\n      \"value\": 310,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Also expressed as a -310 Mt CO2-eq carbon-sinks target.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional LULUCF net removals relative to the 2016-2018 average\",\n      \"value\": 42,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Incremental component of the EU LULUCF target.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential, lower estimate\",\n      \"value\": 8,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential, upper estimate\",\n      \"value\": 235,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum share of EU land with restoration measures\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum share of EU sea areas with restoration measures\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential, lower estimate\",\n      \"value\": 51,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential, upper estimate\",\n      \"value\": 54,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Nitrous oxide reduction from improved fertiliser-use efficiency\",\n      \"value\": 19,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Share of total Common Agricultural Policy financial allocation supporting climate objectives\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023-2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum annual Pillar I direct-payment funds earmarked for eco-schemes\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023-2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum Pillar II funds dedicated to environment and climate activities\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023-2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Belgium LULUCF target\",\n      \"value\": -320,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Bulgaria LULUCF target\",\n      \"value\": -1163,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Czechia LULUCF target\",\n      \"value\": -827,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Denmark LULUCF target\",\n      \"value\": -441,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Germany LULUCF target\",\n      \"value\": -3751,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Estonia LULUCF target\",\n      \"value\": -434,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ireland LULUCF target\",\n      \"value\": -626,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Greece LULUCF target\",\n      \"value\": -1154,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Spain LULUCF target\",\n      \"value\": -5309,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"France LULUCF target\",\n      \"value\": -6693,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Croatia LULUCF target\",\n      \"value\": -593,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Italy LULUCF target\",\n      \"value\": -3158,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cyprus LULUCF target\",\n      \"value\": -63,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Latvia LULUCF target\",\n      \"value\": -639,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Lithuania LULUCF target\",\n      \"value\": -661,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Luxembourg LULUCF target\",\n      \"value\": -27,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Hungary LULUCF target\",\n      \"value\": -934,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Malta LULUCF target\",\n      \"value\": -2,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Netherlands LULUCF target\",\n      \"value\": -435,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Austria LULUCF target\",\n      \"value\": -879,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Poland LULUCF target\",\n      \"value\": -3278,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Portugal LULUCF target\",\n      \"value\": -968,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Romania LULUCF target\",\n      \"value\": -2380,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Slovenia LULUCF target\",\n      \"value\": -212,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Slovakia LULUCF target\",\n      \"value\": -504,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Finland LULUCF target\",\n      \"value\": -2889,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sweden LULUCF target\",\n      \"value\": -3955,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Binding Member State target within the EU LULUCF framework.\"\n    }\n  ]\n}",
+  "errors": []
+}

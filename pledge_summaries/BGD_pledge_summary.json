@@ -1,0 +1,162 @@
+{
+  "iso3": "BGD",
+  "country": "Bangladesh",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 22,
+  "geo_context": {
+    "country_area_km2": 134003.8,
+    "land_cover_km2": {
+      "Agriculture": 105047.0,
+      "Forest": 13789.0,
+      "Grassland": 910.0,
+      "Wetland": 230.0,
+      "Settlement": 1117.0,
+      "Shrubland": 4004.0,
+      "Sparse_vegetation": 5.0,
+      "Bare_area": 121.0,
+      "Water": 8773.0
+    }
+  },
+  "summary": "Bangladesh’s forestry pledges combine restoration and conservation. It aims for 24% tree cover, restoration of 230,000 ha of deforested sal forest, and 100,000 ha of afforestation/reforestation across coastal, island and degraded lands, while maintaining forest cover through 72,000 ha of protected-area co-management and 79,000 ha of sustainable forest-management and livelihood activities. Other restoration includes 10 million tree saplings and 2,725.1 ha of rehabilitated marshland. Agriculture pledges include separate AWD area targets of 50,000 ha and 100,000 ha, rice-varietal improvement across 2,129,000 ha, 30% coverage under both AWD and short-duration rice varieties, 1.882 million large ruminants, 107,000 mini-biogas plants, 30% improved manure management, and crossbred dairy-cow feed-improvement targets of 0.2 million and 1.5 million. The rice-varietal target equals about 20.3% of 2022 agricultural land, while sal-forest restoration equals about 16.7% of 2022 forest cover.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Tree cover",
+      "value": 24,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The 2022 forest class is 10.3% of land area, but that land-cover measure is not directly comparable with tree-cover share."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area co-management",
+      "value": 72000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈5.2% of 2022 forest-class area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forests under sustainable management and livelihood support",
+      "value": 79000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈5.7% of 2022 forest-class area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree saplings planted",
+      "value": 10000000,
+      "unit": "tree saplings",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Marshland rehabilitation",
+      "value": 2725.1,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈11.8% of 2022 wetland-class area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Coastal, island and degraded-land afforestation and reforestation",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈7.3% of 2022 forest-class area; 20% unconditional and 80% conditional."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Deforested sal-forest restoration",
+      "value": 230000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈16.7% of 2022 forest-class area; 30% unconditional and 70% conditional."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Boro rice area under alternate wetting and drying",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "10% of the total target is unconditional and 90% is conditional."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Aman and Boro rice area under short-duration varieties",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "40% of the total target is unconditional and 60% is conditional."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Manure management improvement",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "10% of the total target is unconditional and 90% is conditional."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dry-season rice area under alternate wetting and drying",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.5% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dry-season rice area under alternate wetting and drying",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.0% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice-varietal improvement area",
+      "value": 2129000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈20.3% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crossbred dairy cows under feed improvement",
+      "value": 0.2,
+      "unit": "million crossbred dairy cows",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crossbred dairy cows under feed improvement",
+      "value": 1.5,
+      "unit": "million crossbred dairy cows",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Large-ruminant replacement with crossbred cattle",
+      "value": 1882000,
+      "unit": "large ruminants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Mini-biogas plants promoted",
+      "value": 107000,
+      "unit": "mini biogas plants",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Bangladesh’s forestry pledges combine restoration and conservation. It aims for 24% tree cover, restoration of 230,000 ha of deforested sal forest, and 100,000 ha of afforestation/reforestation across coastal, island and degraded lands, while maintaining forest cover through 72,000 ha of protected-area co-management and 79,000 ha of sustainable forest-management and livelihood activities. Other restoration includes 10 million tree saplings and 2,725.1 ha of rehabilitated marshland. Agriculture pledges include separate AWD area targets of 50,000 ha and 100,000 ha, rice-varietal improvement across 2,129,000 ha, 30% coverage under both AWD and short-duration rice varieties, 1.882 million large ruminants, 107,000 mini-biogas plants, 30% improved manure management, and crossbred dairy-cow feed-improvement targets of 0.2 million and 1.5 million. The rice-varietal target equals about 20.3% of 2022 agricultural land, while sal-forest restoration equals about 16.7% of 2022 forest cover.\",\"targets\":[{\"commitment_type\":\"Both\",\"metric\":\"Tree cover\",\"value\":24,\"unit\":\"%\",\"timeframe\":null,\"context\":\"The 2022 forest class is 10.3% of land area, but that land-cover measure is not directly comparable with tree-cover share.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Protected-area co-management\",\"value\":72000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈5.2% of 2022 forest-class area.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Forests under sustainable management and livelihood support\",\"value\":79000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈5.7% of 2022 forest-class area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Tree saplings planted\",\"value\":10000000,\"unit\":\"tree saplings\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Marshland rehabilitation\",\"value\":2725.1,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈11.8% of 2022 wetland-class area.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Coastal, island and degraded-land afforestation and reforestation\",\"value\":100000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈7.3% of 2022 forest-class area; 20% unconditional and 80% conditional.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Deforested sal-forest restoration\",\"value\":230000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈16.7% of 2022 forest-class area; 30% unconditional and 70% conditional.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Boro rice area under alternate wetting and drying\",\"value\":30,\"unit\":\"%\",\"timeframe\":null,\"context\":\"10% of the total target is unconditional and 90% is conditional.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Aman and Boro rice area under short-duration varieties\",\"value\":30,\"unit\":\"%\",\"timeframe\":null,\"context\":\"40% of the total target is unconditional and 60% is conditional.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Manure management improvement\",\"value\":30,\"unit\":\"%\",\"timeframe\":null,\"context\":\"10% of the total target is unconditional and 90% is conditional.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Dry-season rice area under alternate wetting and drying\",\"value\":50000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.5% of 2022 agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Dry-season rice area under alternate wetting and drying\",\"value\":100000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈1.0% of 2022 agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Rice-varietal improvement area\",\"value\":2129000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈20.3% of 2022 agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Crossbred dairy cows under feed improvement\",\"value\":0.2,\"unit\":\"million crossbred dairy cows\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Crossbred dairy cows under feed improvement\",\"value\":1.5,\"unit\":\"million crossbred dairy cows\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Large-ruminant replacement with crossbred cattle\",\"value\":1882000,\"unit\":\"large ruminants\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Mini-biogas plants promoted\",\"value\":107000,\"unit\":\"mini biogas plants\",\"timeframe\":null,\"context\":null}]}",
+  "errors": []
+}

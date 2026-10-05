@@ -1,0 +1,42 @@
+{
+  "iso3": "MCO",
+  "country": "Monaco",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 1.9,
+    "land_cover_km2": {
+      "Agriculture": 0.0,
+      "Forest": 0.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 3.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 0.0
+    }
+  },
+  "summary": "Monaco’s two high-relevance pledges are urban measures combining restoration and conservation. Its renaturation plan seeks to transform at least 20% of the road surfaces, themselves reported as approximately 30% of Monaco’s area, into biodiversity-friendly space by 2030, representing a gain of more than 13 ha. The tree programme aims for at least a 20% increase in urban tree numbers by 2030, equivalent to 2,400 additional trees alongside 12,000 already present. Both commitments therefore concentrate on nature-positive management within a very compact urban territory rather than agricultural restoration. The supplied geography lists only settlement cover, at 3 km², but also gives a 2 km² total land area; the resulting 155.6% share is internally inconsistent, while still indicating that these are city-scale interventions.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Urban road-surface renaturation",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "At least 20% of road surfaces reported as approximately 30% of Monaco; the stated gain of more than 13 ha exceeds 6.5% of the reported 2 km² total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Urban tree-number increase",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The stated increase equates to planting 2,400 additional trees, alongside the 12,000 trees already present."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Monaco’s two high-relevance pledges are urban measures combining restoration and conservation. Its renaturation plan seeks to transform at least 20% of the road surfaces, themselves reported as approximately 30% of Monaco’s area, into biodiversity-friendly space by 2030, representing a gain of more than 13 ha. The tree programme aims for at least a 20% increase in urban tree numbers by 2030, equivalent to 2,400 additional trees alongside 12,000 already present. Both commitments therefore concentrate on nature-positive management within a very compact urban territory rather than agricultural restoration. The supplied geography lists only settlement cover, at 3 km², but also gives a 2 km² total land area; the resulting 155.6% share is internally inconsistent, while still indicating that these are city-scale interventions.\",\"targets\":[{\"commitment_type\":\"Both\",\"metric\":\"Urban road-surface renaturation\",\"value\":20.0,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"At least 20% of road surfaces reported as approximately 30% of Monaco; the stated gain of more than 13 ha exceeds 6.5% of the reported 2 km² total land area.\"},{\"commitment_type\":\"Both\",\"metric\":\"Urban tree-number increase\",\"value\":20.0,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"The stated increase equates to planting 2,400 additional trees, alongside the 12,000 trees already present.\"}]}",
+  "errors": []
+}

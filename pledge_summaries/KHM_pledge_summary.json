@@ -1,0 +1,442 @@
+{
+  "iso3": "KHM",
+  "country": "Cambodia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 71,
+  "geo_context": {
+    "country_area_km2": 182335.4,
+    "land_cover_km2": {
+      "Agriculture": 78824.0,
+      "Forest": 87100.0,
+      "Grassland": 959.0,
+      "Wetland": 6692.0,
+      "Settlement": 344.0,
+      "Shrubland": 4037.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 13.0,
+      "Water": 4360.0
+    }
+  },
+  "summary": "Cambodia’s pledges combine restoration, conservation and agriculture. By 2035, restoration includes 600,000 ha of forest plantations, 220,000 ha of restored land and 450,000 ha of assisted natural regeneration or forest restoration—amounting to about 6.9%, 2.5% and 5.2% when compared with its current 87,100 km² forest area. Conservation targets include halving the deforestation rate by 2030, improved management of 60% of forest land by 2035, 2,000,000 ha of community forestry by 2029, and sourcing 30% of key-industry wood from certified sustainable sources by 2030 and 80% by 2035. Mixed pledges include over 96,000 ha of aquatic restoration and 6,120 ha of mangrove restoration by 2035. Agriculture covers 2,000,000 ha of rice, 756,985 ha under nutrient management, 100,000 ha under mDSR, 50,000 ha of sustainable rubber and 160,000 ha of agroforestry by 2050; the rice goal equals 25.4% of current agricultural area.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest plantation area",
+      "value": 600000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈6.9% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restored forest land",
+      "value": 220000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈2.5% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted natural regeneration and forest restoration",
+      "value": 450000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈5.2% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest restoration at cultural heritage sites",
+      "value": 3040,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded production forest restored",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.3% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum annual afforestation and reforestation saplings distributed",
+      "value": 1000000,
+      "unit": "saplings",
+      "timeframe": "annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Production forest under ecosystem and biodiversity management",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.3% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community forestry area",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": "by 2029",
+      "context": "≈23.0% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Clean cookstove adoption among rural households",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Clean cookstove adoption among rural households",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Key-industry wood sourced from certified sustainable sources",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Key-industry wood sourced from certified sustainable sources",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity tracking tools integrated into CEMIS",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas with climate-specific monitoring and evaluation frameworks",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "NBSAP targets included in the tracking tool",
+      "value": 23,
+      "unit": "targets",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity-climate development plans",
+      "value": 20,
+      "unit": "development plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Communities trained for biodiversity monitoring",
+      "value": 30,
+      "unit": "communities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area climate vulnerability assessments",
+      "value": 10,
+      "unit": "vulnerability assessments",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Private sectors engaged in payment for ecosystem services",
+      "value": 5,
+      "unit": "private sectors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecotourism community sites supported for climate resilience",
+      "value": 20,
+      "unit": "sites",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecotourism sites supported",
+      "value": 5,
+      "unit": "sites",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural and cultural heritage sites with enhanced resilience",
+      "value": 136,
+      "unit": "sites",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-management plans or schemes integrating traditional and Indigenous systems",
+      "value": 13,
+      "unit": "water management plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Traditional-knowledge conservation initiatives",
+      "value": 3,
+      "unit": "initiatives",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice area under sustainable-production measures",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈25.4% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Integrated nutrient management area",
+      "value": 756985,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈9.6% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry area",
+      "value": 160000,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "≈2.0% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable rubber-wood harvesting area",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.9% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Mechanized direct seeded rice area",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.3% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable natural rubber and good agricultural practices area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.6% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈0.6% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart fodder management and production area",
+      "value": 22000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.3% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agro-ecological and climate-smart agricultural practices",
+      "value": 16000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.2% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rubber-plantation agroforestry for smallholders",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.03% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in solar-irrigation adoption",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice-production area collected for alternative uses",
+      "value": 75,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop area adopting resilient, high-yield varieties",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land under climate-smart agriculture practices",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land under diverse, climate-resilient high-value crops",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Households with livestock biodigesters",
+      "value": 97000,
+      "unit": "households",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Other cattle receiving improved feeding practices",
+      "value": 201391,
+      "unit": "heads",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rubber-processing factories upgraded for efficiency and solar drying",
+      "value": 10,
+      "unit": "factories",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Aquaculture farmers upgraded and certified as trainers",
+      "value": 100,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Aquatic ecosystem restoration",
+      "value": 96000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "For scale, ≈14.3% of current mapped wetland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove restoration",
+      "value": 6120,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "For scale, ≈0.9% of current mapped wetland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community fishery reserve coverage",
+      "value": 315302,
+      "unit": "ha",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Deforestation rate reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest land under improved management plans",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Mapped forest currently covers 47.8% of Cambodia’s land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Marine and coastal areas restored and protected through spatial planning",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community Fishery Reserves strengthened",
+      "value": 344,
+      "unit": "Community Fishery Reserves",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Indigenous communities participating in conservation or restoration",
+      "value": 100,
+      "unit": "Indigenous communities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Marine and coastal protected areas established or strengthened",
+      "value": 5,
+      "unit": "protected areas",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Cambodia’s pledges combine restoration, conservation and agriculture. By 2035, restoration includes 600,000 ha of forest plantations, 220,000 ha of restored land and 450,000 ha of assisted natural regeneration or forest restoration—amounting to about 6.9%, 2.5% and 5.2% when compared with its current 87,100 km² forest area. Conservation targets include halving the deforestation rate by 2030, improved management of 60% of forest land by 2035, 2,000,000 ha of community forestry by 2029, and sourcing 30% of key-industry wood from certified sustainable sources by 2030 and 80% by 2035. Mixed pledges include over 96,000 ha of aquatic restoration and 6,120 ha of mangrove restoration by 2035. Agriculture covers 2,000,000 ha of rice, 756,985 ha under nutrient management, 100,000 ha under mDSR, 50,000 ha of sustainable rubber and 160,000 ha of agroforestry by 2050; the rice goal equals 25.4% of current agricultural area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest plantation area\",\n      \"value\": 600000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈6.9% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restored forest land\",\n      \"value\": 220000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈2.5% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted natural regeneration and forest restoration\",\n      \"value\": 450000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈5.2% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest restoration at cultural heritage sites\",\n      \"value\": 3040,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded production forest restored\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.3% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum annual afforestation and reforestation saplings distributed\",\n      \"value\": 1000000,\n      \"unit\": \"saplings\",\n      \"timeframe\": \"annually\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Production forest under ecosystem and biodiversity management\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.3% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community forestry area\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2029\",\n      \"context\": \"≈23.0% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Clean cookstove adoption among rural households\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Clean cookstove adoption among rural households\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Key-industry wood sourced from certified sustainable sources\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Key-industry wood sourced from certified sustainable sources\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity tracking tools integrated into CEMIS\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas with climate-specific monitoring and evaluation frameworks\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"NBSAP targets included in the tracking tool\",\n      \"value\": 23,\n      \"unit\": \"targets\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity-climate development plans\",\n      \"value\": 20,\n      \"unit\": \"development plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Communities trained for biodiversity monitoring\",\n      \"value\": 30,\n      \"unit\": \"communities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area climate vulnerability assessments\",\n      \"value\": 10,\n      \"unit\": \"vulnerability assessments\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Private sectors engaged in payment for ecosystem services\",\n      \"value\": 5,\n      \"unit\": \"private sectors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecotourism community sites supported for climate resilience\",\n      \"value\": 20,\n      \"unit\": \"sites\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecotourism sites supported\",\n      \"value\": 5,\n      \"unit\": \"sites\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural and cultural heritage sites with enhanced resilience\",\n      \"value\": 136,\n      \"unit\": \"sites\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-management plans or schemes integrating traditional and Indigenous systems\",\n      \"value\": 13,\n      \"unit\": \"water management plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Traditional-knowledge conservation initiatives\",\n      \"value\": 3,\n      \"unit\": \"initiatives\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice area under sustainable-production measures\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈25.4% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Integrated nutrient management area\",\n      \"value\": 756985,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈9.6% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry area\",\n      \"value\": 160000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"≈2.0% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable rubber-wood harvesting area\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈1.9% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Mechanized direct seeded rice area\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈1.3% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable natural rubber and good agricultural practices area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈0.6% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈0.6% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart fodder management and production area\",\n      \"value\": 22000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈0.3% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agro-ecological and climate-smart agricultural practices\",\n      \"value\": 16000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈0.2% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rubber-plantation agroforestry for smallholders\",\n      \"value\": 2000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈0.03% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in solar-irrigation adoption\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice-production area collected for alternative uses\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop area adopting resilient, high-yield varieties\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural land under climate-smart agriculture practices\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural land under diverse, climate-resilient high-value crops\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Households with livestock biodigesters\",\n      \"value\": 97000,\n      \"unit\": \"households\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Other cattle receiving improved feeding practices\",\n      \"value\": 201391,\n      \"unit\": \"heads\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rubber-processing factories upgraded for efficiency and solar drying\",\n      \"value\": 10,\n      \"unit\": \"factories\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Aquaculture farmers upgraded and certified as trainers\",\n      \"value\": 100,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Aquatic ecosystem restoration\",\n      \"value\": 96000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"For scale, ≈14.3% of current mapped wetland area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove restoration\",\n      \"value\": 6120,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"For scale, ≈0.9% of current mapped wetland area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community fishery reserve coverage\",\n      \"value\": 315302,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Deforestation rate reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest land under improved management plans\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Mapped forest currently covers 47.8% of Cambodia’s land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Marine and coastal areas restored and protected through spatial planning\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community Fishery Reserves strengthened\",\n      \"value\": 344,\n      \"unit\": \"Community Fishery Reserves\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Indigenous communities participating in conservation or restoration\",\n      \"value\": 100,\n      \"unit\": \"Indigenous communities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Marine and coastal protected areas established or strengthened\",\n      \"value\": 5,\n      \"unit\": \"protected areas\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

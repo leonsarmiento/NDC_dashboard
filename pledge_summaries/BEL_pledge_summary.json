@@ -1,0 +1,90 @@
+{
+  "iso3": "BEL",
+  "country": "Belgium",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 30557.1,
+    "land_cover_km2": {
+      "Agriculture": 15524.0,
+      "Forest": 6726.0,
+      "Grassland": 4693.0,
+      "Wetland": 90.0,
+      "Settlement": 3433.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 90.0
+    }
+  },
+  "summary": "Conservation/LULUCF is anchored by Belgium's listed national figure of -320 Kt CO2eq in the 2030 framework, while the document also reports a collective EU carbon-sinks target of -310 Mt CO2-eq by 2030 (elsewhere expressed as 310 Mt of net removals). Restoration provisions call for measures on at least 20% of EU land and sea areas by 2030 and for all ecosystems needing restoration by 2050; peatland and wetland rewetting has a reported mitigation potential of 51–54 MtCO2-eq/yr. The mixed reforestation measure, respecting biodiversity and sustainable forest management, has a reported mitigation potential of 8–235 MtCO2-eq/yr. Agriculture focuses on fertiliser-use efficiency, linked to 19 MtCO2-eq/yr. Except for Belgium's -320 figure, these figures are EU-wide, not Belgian allocations. Belgium's land cover is 50.8% agriculture, 22.0% forest, 15.4% grassland and 0.3% wetland, so no Belgian area share for the collective measures is supplied.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "EU LULUCF carbon-sinks/net-removals target",
+      "value": -310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "Collective EU target, also reported as 310 Mt CO2 net removals; Belgium's forest covers 22.0% of land, but no Belgian area allocation is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land and sea restoration coverage",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide minimum; no 20% share of Belgium's 30,557 km² land area is specified."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential (lower bound)",
+      "value": 51.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "Lower bound of the EU-level 51–54 MtCO2-eq/yr range; Belgium's wetland cover is 90 km² (0.3%), but no Belgian allocation is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential (upper bound)",
+      "value": 54.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "Upper bound of the same EU-level 51–54 MtCO2-eq/yr range; no Belgian allocation is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertiliser-use efficiency mitigation potential",
+      "value": 19.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "EU-level mitigation potential; no share of Belgium's 15,524 km² agricultural area (50.8%) is specified."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Belgium LULUCF national target",
+      "value": -320.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Belgium-specific national value; the surrounding text places Member State targets in 2030, but gives no land-cover allocation."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Biodiversity-respecting reforestation mitigation potential (lower bound)",
+      "value": 8.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "Lower bound of the EU-level 8–235 MtCO2-eq/yr range; Belgium has 6,726 km² (22.0%) forest, but this is not a stated Belgian forest-area target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Biodiversity-respecting reforestation mitigation potential (upper bound)",
+      "value": 235.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "Upper bound of the same EU-level 8–235 MtCO2-eq/yr range; no Belgian forest-area allocation is stated."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation/LULUCF is anchored by Belgium's listed national figure of -320 Kt CO2eq in the 2030 framework, while the document also reports a collective EU carbon-sinks target of -310 Mt CO2-eq by 2030 (elsewhere expressed as 310 Mt of net removals). Restoration provisions call for measures on at least 20% of EU land and sea areas by 2030 and for all ecosystems needing restoration by 2050; peatland and wetland rewetting has a reported mitigation potential of 51–54 MtCO2-eq/yr. The mixed reforestation measure, respecting biodiversity and sustainable forest management, has a reported mitigation potential of 8–235 MtCO2-eq/yr. Agriculture focuses on fertiliser-use efficiency, linked to 19 MtCO2-eq/yr. Except for Belgium's -320 figure, these figures are EU-wide, not Belgian allocations. Belgium's land cover is 50.8% agriculture, 22.0% forest, 15.4% grassland and 0.3% wetland, so no Belgian area share for the collective measures is supplied.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EU LULUCF carbon-sinks/net-removals target\",\n      \"value\": -310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Collective EU target, also reported as 310 Mt CO2 net removals; Belgium's forest covers 22.0% of land, but no Belgian area allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU land and sea restoration coverage\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide minimum; no 20% share of Belgium's 30,557 km² land area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential (lower bound)\",\n      \"value\": 51.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Lower bound of the EU-level 51–54 MtCO2-eq/yr range; Belgium's wetland cover is 90 km² (0.3%), but no Belgian allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential (upper bound)\",\n      \"value\": 54.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Upper bound of the same EU-level 51–54 MtCO2-eq/yr range; no Belgian allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertiliser-use efficiency mitigation potential\",\n      \"value\": 19.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU-level mitigation potential; no share of Belgium's 15,524 km² agricultural area (50.8%) is specified.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Belgium LULUCF national target\",\n      \"value\": -320.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Belgium-specific national value; the surrounding text places Member State targets in 2030, but gives no land-cover allocation.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Biodiversity-respecting reforestation mitigation potential (lower bound)\",\n      \"value\": 8.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Lower bound of the EU-level 8–235 MtCO2-eq/yr range; Belgium has 6,726 km² (22.0%) forest, but this is not a stated Belgian forest-area target.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Biodiversity-respecting reforestation mitigation potential (upper bound)\",\n      \"value\": 235.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Upper bound of the same EU-level 8–235 MtCO2-eq/yr range; no Belgian forest-area allocation is stated.\"\n    }\n  ]\n}",
+  "errors": []
+}

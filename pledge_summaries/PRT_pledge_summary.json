@@ -1,0 +1,74 @@
+{
+  "iso3": "PRT",
+  "country": "Portugal",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 92118.7,
+    "land_cover_km2": {
+      "Agriculture": 44277.0,
+      "Forest": 41298.0,
+      "Grassland": 768.0,
+      "Wetland": 77.0,
+      "Settlement": 2917.0,
+      "Shrubland": 1157.0,
+      "Sparse_vegetation": 50.0,
+      "Bare_area": 163.0,
+      "Water": 1395.0
+    }
+  },
+  "summary": "Portugal’s country-specific ecosystem commitment is a mixed conservation-and-restoration LULUCF target of -968 Kt CO2eq by 2030, rather than a hectare- or percentage-based national land target. Within the 2022 land-cover context, forests cover 41,298 km² (44.8%) and agriculture 44,277 km² (48.1%), while grasslands account for only 0.8%. The NDC also reports EU-level measures: a 310 Mt CO2 net-removals target for 2030; restoration measures in at least 20% of EU land areas and 20% of sea areas by 2030; and Common Agricultural Policy allocations in which 40% of the EU financial allocation supports climate objectives in 2023–2027, at least 25% of annual direct-payment funds is earmarked for eco-schemes, and 35% of Pillar II funds is dedicated to environment-and-climate activities. These are collective EU commitments, not Portugal-specific area or farming-coverage targets.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land and sea areas covered by restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-level target; it does not establish that 20% of Portugal’s 92,119 km² land area must be restored."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Share of EU Common Agricultural Policy financial allocation supporting climate objectives",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "2023–2027",
+      "context": "Financial-allocation share, not 40% of Portugal’s 44,277 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum share of annual Pillar I direct-payment funds earmarked for eco-schemes",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": "A funding share, not a percentage of Portugal’s agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum share of Pillar II funds dedicated to environment and climate activities",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "A funding share, not a percentage of Portugal’s agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "EU collective LULUCF net-removals target",
+      "value": 310,
+      "unit": "Mt CO2",
+      "timeframe": "by 2030",
+      "context": "Collective EU managed-land target, also reported as -310 Mt CO2-eq for the carbon sink; not Portugal-specific."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Portugal LULUCF national target",
+      "value": -968,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030",
+      "context": "Portugal-specific carbon-sector target; no directly comparable restoration or agricultural-area target is stated."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Portugal’s country-specific ecosystem commitment is a mixed conservation-and-restoration LULUCF target of -968 Kt CO2eq by 2030, rather than a hectare- or percentage-based national land target. Within the 2022 land-cover context, forests cover 41,298 km² (44.8%) and agriculture 44,277 km² (48.1%), while grasslands account for only 0.8%. The NDC also reports EU-level measures: a 310 Mt CO2 net-removals target for 2030; restoration measures in at least 20% of EU land areas and 20% of sea areas by 2030; and Common Agricultural Policy allocations in which 40% of the EU financial allocation supports climate objectives in 2023–2027, at least 25% of annual direct-payment funds is earmarked for eco-schemes, and 35% of Pillar II funds is dedicated to environment-and-climate activities. These are collective EU commitments, not Portugal-specific area or farming-coverage targets.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"EU land and sea areas covered by restoration measures\",\"value\":20,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":\"EU-level target; it does not establish that 20% of Portugal’s 92,119 km² land area must be restored.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Share of EU Common Agricultural Policy financial allocation supporting climate objectives\",\"value\":40,\"unit\":\"%\",\"timeframe\":\"2023–2027\",\"context\":\"Financial-allocation share, not 40% of Portugal’s 44,277 km² agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Minimum share of annual Pillar I direct-payment funds earmarked for eco-schemes\",\"value\":25,\"unit\":\"%\",\"timeframe\":\"annually\",\"context\":\"A funding share, not a percentage of Portugal’s agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Minimum share of Pillar II funds dedicated to environment and climate activities\",\"value\":35,\"unit\":\"%\",\"timeframe\":null,\"context\":\"A funding share, not a percentage of Portugal’s agricultural area.\"},{\"commitment_type\":\"Both\",\"metric\":\"EU collective LULUCF net-removals target\",\"value\":310,\"unit\":\"Mt CO2\",\"timeframe\":\"by 2030\",\"context\":\"Collective EU managed-land target, also reported as -310 Mt CO2-eq for the carbon sink; not Portugal-specific.\"},{\"commitment_type\":\"Both\",\"metric\":\"Portugal LULUCF national target\",\"value\":-968,\"unit\":\"Kt CO2eq\",\"timeframe\":\"by 2030\",\"context\":\"Portugal-specific carbon-sector target; no directly comparable restoration or agricultural-area target is stated.\"}]}",
+  "errors": []
+}

@@ -1,0 +1,506 @@
+{
+  "iso3": "PSE",
+  "country": "State of Palestine",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 57,
+  "geo_context": {
+    "country_area_km2": 6194.1,
+    "land_cover_km2": {
+      "Agriculture": 2883.0,
+      "Forest": 411.0,
+      "Grassland": 1.0,
+      "Wetland": 0.0,
+      "Settlement": 501.0,
+      "Shrubland": 1.0,
+      "Sparse_vegetation": 1060.0,
+      "Bare_area": 1117.0,
+      "Water": 210.0
+    }
+  },
+  "summary": "Restoration pledges include 14,500 ha in the West Bank and 800 ha in Gaza for terrestrial ecosystems and 400 ha of afforestation/reforestation—about 1.0% of the 411 km² forest cover. One passage identifies a potential 200 ha/year over five years, while passages report well and spring rehabilitation at 100% by 2030 and 95%. Conservation targets 320 km² under protected management in the West Bank (5.2% of national land area), 3,000 ha of coastal/marine management, and 70% treated-wastewater reuse by 2030. Agriculture commits 50% of farms to gender-sensitive climate-smart farming by 2040 and 35,000 ha in the West Bank plus 6,500 ha in Gaza under resilient practices, together equivalent to 14.4% of the 2,883 km² agricultural area. Mixed pledges cover 15,500 ha in the West Bank and 4,500 ha in Gaza restored or managed, plus a 2% annual increase in rehabilitated or managed green areas through 2040.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Dumpsites closed or remediated",
+      "value": 94,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Wells and springs rehabilitated",
+      "value": 95,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Identified wells and springs rehabilitated",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation rate",
+      "value": 200,
+      "unit": "ha/year",
+      "timeframe": "over five years",
+      "context": "At the stated rate for five years, 1,000 ha would equal ≈2.4% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Terrestrial ecosystem restoration — West Bank",
+      "value": 14500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.3% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Terrestrial ecosystem restoration — Gaza",
+      "value": 800,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.13% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Wadi Gaza ecosystem restoration",
+      "value": 120,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Cumulative afforestation and reforestation area",
+      "value": 400,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.0% of current forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Treated wastewater from large-scale plants reused — West Bank and Gaza",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority-urban rainwater drained and collected",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2032",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Groundwater abstraction relative to sustainable yield",
+      "value": 86,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wastewater treated before discharge",
+      "value": 58,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Raw wastewater discharge reduction",
+      "value": 62,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rainwater harvested — West Bank",
+      "value": 7,
+      "unit": "MCM",
+      "timeframe": "by 2032",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Large-scale rainwater harvesting infrastructure",
+      "value": 8.5,
+      "unit": "MCM/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal aquifer managed recharge",
+      "value": 44,
+      "unit": "MCM/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rainwater harvested — Gaza",
+      "value": 1.8,
+      "unit": "MCM/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas in the national network",
+      "value": 50,
+      "unit": "protected areas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity hotspots — West Bank",
+      "value": 51,
+      "unit": "biodiversity hotspots",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity hotspots — Gaza Strip",
+      "value": 3,
+      "unit": "biodiversity hotspots",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional sectors with NDC implementation plans",
+      "value": 6,
+      "unit": "sectors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Active fishers benefiting from resilient fisheries management",
+      "value": 2800,
+      "unit": "active fishers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Communities implementing ecosystem management plans — West Bank",
+      "value": 85,
+      "unit": "communities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Communities implementing ecosystem management plans — Gaza",
+      "value": 22,
+      "unit": "communities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Registered eco-tourism sites and trails",
+      "value": 50,
+      "unit": "registered eco-tourism sites and trails",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastline under formal protection",
+      "value": 10,
+      "unit": "km",
+      "timeframe": null,
+      "context": "25% of the approximately 40 km coastline cited in the pledge."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal zone under nature-based protection",
+      "value": 22,
+      "unit": "km",
+      "timeframe": null,
+      "context": "≈55% of the approximately 40 km coastline cited in the 10 km protection pledge."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land under formal protected status and active management — West Bank",
+      "value": 320,
+      "unit": "km²",
+      "timeframe": null,
+      "context": "≈5.2% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal and marine areas under resilient management",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈14.3% of the current water-class area of 21,000 ha."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farms applying gender-sensitive climate-smart agriculture",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Post-harvest loss reduction — West Bank",
+      "value": 16,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Post-harvest loss reduction — Gaza",
+      "value": 15,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Domestic consumption met by local production — West Bank",
+      "value": 29.2,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Domestic consumption met by local production — Gaza",
+      "value": 22,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic municipal solid waste fraction diverted",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cropland under conservation tillage or CSA crop management",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated area under drip or micro-irrigation with solar pumping",
+      "value": 48,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural organic waste streams diverted to productive reuse",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cropland under integrated soil fertility management",
+      "value": 16,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock under improved feed and manure management",
+      "value": 42,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural and AFOLU MRV implementation",
+      "value": 85,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Land under climate-resilient agricultural practices — West Bank",
+      "value": 35000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈12.1% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Land under climate-resilient agricultural practices — Gaza",
+      "value": 6500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.3% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Drought- and heat-tolerant crop area — West Bank",
+      "value": 5500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.9% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Drought- and heat-tolerant crop area — Gaza",
+      "value": 4500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cumulative agroforestry area",
+      "value": 1100,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.38% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional water secured for agriculture — West Bank",
+      "value": 96,
+      "unit": "MCM/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional water secured for agriculture — Gaza",
+      "value": 25,
+      "unit": "MCM/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Treated wastewater reused for agriculture",
+      "value": 20,
+      "unit": "MCM/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock keepers and poultry farmers benefiting — West Bank",
+      "value": 9500,
+      "unit": "livestock keepers and poultry farmers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock keepers and poultry farmers benefiting — Gaza",
+      "value": 4800,
+      "unit": "livestock keepers and poultry farmers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Annual increase in forest, rangeland and upland area rehabilitated or sustainably managed",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "until 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Irrigation and municipal pumps solar-powered",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural land restored or sustainably managed — West Bank",
+      "value": 15500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈5.4% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural land restored or sustainably managed — Gaza",
+      "value": 4500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-resilient urban and peri-urban agriculture — West Bank",
+      "value": 1700,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.59% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-resilient urban and peri-urban agriculture — Gaza",
+      "value": 400,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.14% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Habitats restored or protected — Gaza",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Operational monitoring stations — West Bank",
+      "value": 18,
+      "unit": "operational monitoring stations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Urban green space per person",
+      "value": 2.5,
+      "unit": "m²/person",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges include 14,500 ha in the West Bank and 800 ha in Gaza for terrestrial ecosystems and 400 ha of afforestation/reforestation—about 1.0% of the 411 km² forest cover. One passage identifies a potential 200 ha/year over five years, while passages report well and spring rehabilitation at 100% by 2030 and 95%. Conservation targets 320 km² under protected management in the West Bank (5.2% of national land area), 3,000 ha of coastal/marine management, and 70% treated-wastewater reuse by 2030. Agriculture commits 50% of farms to gender-sensitive climate-smart farming by 2040 and 35,000 ha in the West Bank plus 6,500 ha in Gaza under resilient practices, together equivalent to 14.4% of the 2,883 km² agricultural area. Mixed pledges cover 15,500 ha in the West Bank and 4,500 ha in Gaza restored or managed, plus a 2% annual increase in rehabilitated or managed green areas through 2040.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Dumpsites closed or remediated\",\n      \"value\": 94,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Wells and springs rehabilitated\",\n      \"value\": 95,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Identified wells and springs rehabilitated\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation rate\",\n      \"value\": 200,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"over five years\",\n      \"context\": \"At the stated rate for five years, 1,000 ha would equal ≈2.4% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Terrestrial ecosystem restoration — West Bank\",\n      \"value\": 14500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.3% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Terrestrial ecosystem restoration — Gaza\",\n      \"value\": 800,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.13% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Wadi Gaza ecosystem restoration\",\n      \"value\": 120,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.02% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Cumulative afforestation and reforestation area\",\n      \"value\": 400,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.0% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Treated wastewater from large-scale plants reused — West Bank and Gaza\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority-urban rainwater drained and collected\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2032\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Groundwater abstraction relative to sustainable yield\",\n      \"value\": 86,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wastewater treated before discharge\",\n      \"value\": 58,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Raw wastewater discharge reduction\",\n      \"value\": 62,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rainwater harvested — West Bank\",\n      \"value\": 7,\n      \"unit\": \"MCM\",\n      \"timeframe\": \"by 2032\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Large-scale rainwater harvesting infrastructure\",\n      \"value\": 8.5,\n      \"unit\": \"MCM/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal aquifer managed recharge\",\n      \"value\": 44,\n      \"unit\": \"MCM/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rainwater harvested — Gaza\",\n      \"value\": 1.8,\n      \"unit\": \"MCM/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas in the national network\",\n      \"value\": 50,\n      \"unit\": \"protected areas\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity hotspots — West Bank\",\n      \"value\": 51,\n      \"unit\": \"biodiversity hotspots\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity hotspots — Gaza Strip\",\n      \"value\": 3,\n      \"unit\": \"biodiversity hotspots\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional sectors with NDC implementation plans\",\n      \"value\": 6,\n      \"unit\": \"sectors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Active fishers benefiting from resilient fisheries management\",\n      \"value\": 2800,\n      \"unit\": \"active fishers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Communities implementing ecosystem management plans — West Bank\",\n      \"value\": 85,\n      \"unit\": \"communities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Communities implementing ecosystem management plans — Gaza\",\n      \"value\": 22,\n      \"unit\": \"communities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Registered eco-tourism sites and trails\",\n      \"value\": 50,\n      \"unit\": \"registered eco-tourism sites and trails\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastline under formal protection\",\n      \"value\": 10,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": \"25% of the approximately 40 km coastline cited in the pledge.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal zone under nature-based protection\",\n      \"value\": 22,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": \"≈55% of the approximately 40 km coastline cited in the 10 km protection pledge.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land under formal protected status and active management — West Bank\",\n      \"value\": 320,\n      \"unit\": \"km²\",\n      \"timeframe\": null,\n      \"context\": \"≈5.2% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal and marine areas under resilient management\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈14.3% of the current water-class area of 21,000 ha.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farms applying gender-sensitive climate-smart agriculture\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Post-harvest loss reduction — West Bank\",\n      \"value\": 16,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Post-harvest loss reduction — Gaza\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Domestic consumption met by local production — West Bank\",\n      \"value\": 29.2,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Domestic consumption met by local production — Gaza\",\n      \"value\": 22,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic municipal solid waste fraction diverted\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cropland under conservation tillage or CSA crop management\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated area under drip or micro-irrigation with solar pumping\",\n      \"value\": 48,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural organic waste streams diverted to productive reuse\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cropland under integrated soil fertility management\",\n      \"value\": 16,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock under improved feed and manure management\",\n      \"value\": 42,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural and AFOLU MRV implementation\",\n      \"value\": 85,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Land under climate-resilient agricultural practices — West Bank\",\n      \"value\": 35000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈12.1% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Land under climate-resilient agricultural practices — Gaza\",\n      \"value\": 6500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.3% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Drought- and heat-tolerant crop area — West Bank\",\n      \"value\": 5500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.9% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Drought- and heat-tolerant crop area — Gaza\",\n      \"value\": 4500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cumulative agroforestry area\",\n      \"value\": 1100,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.38% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional water secured for agriculture — West Bank\",\n      \"value\": 96,\n      \"unit\": \"MCM/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional water secured for agriculture — Gaza\",\n      \"value\": 25,\n      \"unit\": \"MCM/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Treated wastewater reused for agriculture\",\n      \"value\": 20,\n      \"unit\": \"MCM/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock keepers and poultry farmers benefiting — West Bank\",\n      \"value\": 9500,\n      \"unit\": \"livestock keepers and poultry farmers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock keepers and poultry farmers benefiting — Gaza\",\n      \"value\": 4800,\n      \"unit\": \"livestock keepers and poultry farmers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Annual increase in forest, rangeland and upland area rehabilitated or sustainably managed\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"until 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Irrigation and municipal pumps solar-powered\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural land restored or sustainably managed — West Bank\",\n      \"value\": 15500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈5.4% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural land restored or sustainably managed — Gaza\",\n      \"value\": 4500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate-resilient urban and peri-urban agriculture — West Bank\",\n      \"value\": 1700,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.59% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate-resilient urban and peri-urban agriculture — Gaza\",\n      \"value\": 400,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.14% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Habitats restored or protected — Gaza\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Operational monitoring stations — West Bank\",\n      \"value\": 18,\n      \"unit\": \"operational monitoring stations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Urban green space per person\",\n      \"value\": 2.5,\n      \"unit\": \"m²/person\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

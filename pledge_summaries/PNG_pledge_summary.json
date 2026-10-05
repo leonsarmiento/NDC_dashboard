@@ -1,0 +1,130 @@
+{
+  "iso3": "PNG",
+  "country": "Papua New Guinea",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 16,
+  "geo_context": {
+    "country_area_km2": 460513.5,
+    "land_cover_km2": {
+      "Agriculture": 52492.0,
+      "Forest": 396522.0,
+      "Grassland": 1777.0,
+      "Wetland": 0.0,
+      "Settlement": 220.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 4067.0,
+      "Bare_area": 12.0,
+      "Water": 5403.0
+    }
+  },
+  "summary": "PNG’s restoration and conservation package emphasizes forest protection and recovery. Restoration includes 10 million trees and 60,000 ha already planted—about 0.15% of its 396,522 km² mapped forest—plus afforestation, reforestation and ecosystem restoration. Conservation combines maintaining NDC-reported forest cover of 78% with 25% reductions by 2030 in deforestation and degradation from 2015 levels, equivalent to 8,300 and 43,300 ha annually. PNG seeks a 10,000 Gg CO₂ eq emissions reduction and an 8,284 Gg CO₂ eq LULUCF net sink by 2030, a more-than-50% round-log export cut in 2025, and scaled-up LMMA coverage, currently 159,259 ha or 0.4% of mapped forest. Agriculture targets concern capacity rather than area: by 2025, 20% of 163,000 smallholders and 63,000 beneficiaries (20% women) will gain climate-resilient capacity, while 50% of 20,000 direct beneficiaries will apply commercial and diversification planning. None specifies hectares within PNG’s 52,492 km² of agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Annual deforestation and degradation area reduction",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Against 2015 levels; equivalent to 8,300 ha of annual deforestation and 43,300 ha of annual degradation avoided."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover level to maintain",
+      "value": 78,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The NDC reports 78%, while the supplied 2022 land-cover context classifies 86.1% of the country as forest."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual deforestation area reduction",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The stated 8,300 ha annual reduction is, for scale, ≈0.02% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual forest degradation area reduction",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The stated 43,300 ha annual reduction is, for scale, ≈0.11% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual net emissions reduction from deforestation and degradation",
+      "value": 10000,
+      "unit": "Gg CO2 eq",
+      "timeframe": "by 2030",
+      "context": "Relative to 2015 and linked to agricultural expansion and commercial logging."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF net emissions",
+      "value": -8284,
+      "unit": "Gg CO2 eq",
+      "timeframe": "by 2030",
+      "context": "A shift from a 1,716 Gg CO2 eq net source in 2015 to a net sink by 2030."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Current LMMA coverage requiring scale-up",
+      "value": 159259,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Current coverage is ≈0.4% of the 396,522 km² mapped forest area and is identified for replication and scale-up."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Round-log export reduction threshold",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "in 2025",
+      "context": "The pledge states more than 50%; no export baseline is given."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 10000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Planted forest already established",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "60,000 ha is ≈0.15% of the 396,522 km² mapped forest area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum smallholder beneficiary share gaining capacity to apply climate-resilient practices",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "The stated base is 163,000 beneficiaries; no hectares are specified relative to the 52,492 km² agriculture class."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum beneficiary count gaining capacity to implement climate-resilient practices",
+      "value": 63000,
+      "unit": "beneficiaries",
+      "timeframe": "by 2025",
+      "context": "20% of beneficiaries are women; no hectares are specified relative to the 52,492 km² agriculture class."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum direct beneficiary share applying commercial and diversification planning",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "The stated base is 20,000 direct beneficiaries; no hectares are specified relative to the 52,492 km² agriculture class."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"PNG’s restoration and conservation package emphasizes forest protection and recovery. Restoration includes 10 million trees and 60,000 ha already planted—about 0.15% of its 396,522 km² mapped forest—plus afforestation, reforestation and ecosystem restoration. Conservation combines maintaining NDC-reported forest cover of 78% with 25% reductions by 2030 in deforestation and degradation from 2015 levels, equivalent to 8,300 and 43,300 ha annually. PNG seeks a 10,000 Gg CO₂ eq emissions reduction and an 8,284 Gg CO₂ eq LULUCF net sink by 2030, a more-than-50% round-log export cut in 2025, and scaled-up LMMA coverage, currently 159,259 ha or 0.4% of mapped forest. Agriculture targets concern capacity rather than area: by 2025, 20% of 163,000 smallholders and 63,000 beneficiaries (20% women) will gain climate-resilient capacity, while 50% of 20,000 direct beneficiaries will apply commercial and diversification planning. None specifies hectares within PNG’s 52,492 km² of agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Annual deforestation and degradation area reduction\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Against 2015 levels; equivalent to 8,300 ha of annual deforestation and 43,300 ha of annual degradation avoided.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover level to maintain\",\n      \"value\": 78,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The NDC reports 78%, while the supplied 2022 land-cover context classifies 86.1% of the country as forest.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual deforestation area reduction\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The stated 8,300 ha annual reduction is, for scale, ≈0.02% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual forest degradation area reduction\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The stated 43,300 ha annual reduction is, for scale, ≈0.11% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual net emissions reduction from deforestation and degradation\",\n      \"value\": 10000,\n      \"unit\": \"Gg CO2 eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Relative to 2015 and linked to agricultural expansion and commercial logging.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF net emissions\",\n      \"value\": -8284,\n      \"unit\": \"Gg CO2 eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"A shift from a 1,716 Gg CO2 eq net source in 2015 to a net sink by 2030.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Current LMMA coverage requiring scale-up\",\n      \"value\": 159259,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Current coverage is ≈0.4% of the 396,522 km² mapped forest area and is identified for replication and scale-up.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Round-log export reduction threshold\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"in 2025\",\n      \"context\": \"The pledge states more than 50%; no export baseline is given.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted\",\n      \"value\": 10000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Planted forest already established\",\n      \"value\": 60000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"60,000 ha is ≈0.15% of the 396,522 km² mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum smallholder beneficiary share gaining capacity to apply climate-resilient practices\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"The stated base is 163,000 beneficiaries; no hectares are specified relative to the 52,492 km² agriculture class.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum beneficiary count gaining capacity to implement climate-resilient practices\",\n      \"value\": 63000,\n      \"unit\": \"beneficiaries\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"20% of beneficiaries are women; no hectares are specified relative to the 52,492 km² agriculture class.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum direct beneficiary share applying commercial and diversification planning\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"The stated base is 20,000 direct beneficiaries; no hectares are specified relative to the 52,492 km² agriculture class.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,66 @@
+{
+  "iso3": "MHL",
+  "country": "Republic of the Marshall Islands",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 8,
+  "geo_context": {
+    "country_area_km2": 242.7,
+    "land_cover_km2": {
+      "Agriculture": 13.0,
+      "Forest": 0.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 11.0,
+      "Bare_area": 0.0,
+      "Water": 217.0
+    }
+  },
+  "summary": "The Republic of the Marshall Islands' ecosystem pledges are exclusively conservation-oriented. The Challenge sought to conserve at least 30% of near-shore marine resources and 20% of terrestrial resources across Micronesia by 2020. Leaders including RMI subsequently affirmed the new Micronesia Challenge 2030, with collective goals to manage at least 50% of marine resources and 30% of terrestrial resources. In 2025, the government established the Bikar and Bokak national sanctuaries, protecting around 48,000 km² of ocean and atolls. This marine area is about 197.5 times the country's reported 243 km² total land area; the geographical context records 217 km² of water, or 89.4% of the country. The supplied non-water classes total 24 km²—13 km² of agriculture and 11 km² of sparse vegetation. Because the percentage targets are regional rather than country-specific, they are not direct percentages of national land-cover shares.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Near-shore marine resources conserved",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2020",
+      "context": "Regional marine-resource target; water covers 217 km 2 (89.4%) of the country, but the target uses a different denominator."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial resources conserved",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2020",
+      "context": "Regional terrestrial target; the supplied non-water classes total 24 km 2, so it is not directly comparable to national land cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine resources managed",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": "Collective regional target under the Micronesia Challenge 2030; water covers 217 km 2 (89.4%) of the country, but the target uses a different denominator."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial resources managed",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": "Collective regional target under the Micronesia Challenge 2030; the supplied non-water classes total 24 km 2, so it is not directly comparable to national land cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National sanctuary area protected",
+      "value": 48000,
+      "unit": "km 2",
+      "timeframe": "2025",
+      "context": "About 197.5 times the country's reported 243 km 2 total land area; the protected area includes ocean and atolls."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"The Republic of the Marshall Islands' ecosystem pledges are exclusively conservation-oriented. The Challenge sought to conserve at least 30% of near-shore marine resources and 20% of terrestrial resources across Micronesia by 2020. Leaders including RMI subsequently affirmed the new Micronesia Challenge 2030, with collective goals to manage at least 50% of marine resources and 30% of terrestrial resources. In 2025, the government established the Bikar and Bokak national sanctuaries, protecting around 48,000 km² of ocean and atolls. This marine area is about 197.5 times the country's reported 243 km² total land area; the geographical context records 217 km² of water, or 89.4% of the country. The supplied non-water classes total 24 km²—13 km² of agriculture and 11 km² of sparse vegetation. Because the percentage targets are regional rather than country-specific, they are not direct percentages of national land-cover shares.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Near-shore marine resources conserved\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2020\",\n      \"context\": \"Regional marine-resource target; water covers 217 km 2 (89.4%) of the country, but the target uses a different denominator.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial resources conserved\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2020\",\n      \"context\": \"Regional terrestrial target; the supplied non-water classes total 24 km 2, so it is not directly comparable to national land cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine resources managed\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Collective regional target under the Micronesia Challenge 2030; water covers 217 km 2 (89.4%) of the country, but the target uses a different denominator.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial resources managed\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Collective regional target under the Micronesia Challenge 2030; the supplied non-water classes total 24 km 2, so it is not directly comparable to national land cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National sanctuary area protected\",\n      \"value\": 48000,\n      \"unit\": \"km 2\",\n      \"timeframe\": \"2025\",\n      \"context\": \"About 197.5 times the country's reported 243 km 2 total land area; the protected area includes ocean and atolls.\"\n    }\n  ]\n}",
+  "errors": []
+}

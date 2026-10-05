@@ -1,0 +1,66 @@
+{
+  "iso3": "LAO",
+  "country": "Lao People's Democratic Republic",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 14,
+  "geo_context": {
+    "country_area_km2": 230962.4,
+    "land_cover_km2": {
+      "Agriculture": 40064.0,
+      "Forest": 135205.0,
+      "Grassland": 528.0,
+      "Wetland": 695.0,
+      "Settlement": 149.0,
+      "Shrubland": 51887.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 2424.0
+    }
+  },
+  "summary": "Lao PDR’s ecosystem pledges focus on forest conservation and cover expansion, aiming to raise forest cover from 58.5% in 2022 to 70% of land area, an 11.5-percentage-point increase (the passage states 16.58 million ha). The LUCF commitment targets average abatement of 1,100 ktCO2e per year over 2020–2030 and is presented as equivalent to increasing forest stocks over about 8,300 ha annually. An additional mitigation commitment is 45,000 ktCO2e per year on average over 2020–2030, although no sectoral allocation is given. In agriculture, 50,000 ha of lowland rice cultivation will use adjusted water-management practices, equivalent to about 1.2% of current agricultural area. Overall, the quantified pledges combine forest-cover expansion, emissions reduction, carbon-stock enhancement, sustainable forest management and agricultural water management.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": "11.5 percentage points above current forest cover of 58.5%; the pledge states an area of 16.58 million ha."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Adjusted water management in lowland rice cultivation",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.2% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Equivalent increase in forest stocks",
+      "value": 8300,
+      "unit": "ha/year",
+      "timeframe": "2020–2030 average",
+      "context": "Area-equivalent scale is ≈0.06% of current forest area annually."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LUCF emissions reduction",
+      "value": 1100,
+      "unit": "ktCO2e/year",
+      "timeframe": "2020–2030 average",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Average annual mitigation abatement",
+      "value": 45000,
+      "unit": "ktCO2e/year",
+      "timeframe": "2020–2030 average",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Lao PDR’s ecosystem pledges focus on forest conservation and cover expansion, aiming to raise forest cover from 58.5% in 2022 to 70% of land area, an 11.5-percentage-point increase (the passage states 16.58 million ha). The LUCF commitment targets average abatement of 1,100 ktCO2e per year over 2020–2030 and is presented as equivalent to increasing forest stocks over about 8,300 ha annually. An additional mitigation commitment is 45,000 ktCO2e per year on average over 2020–2030, although no sectoral allocation is given. In agriculture, 50,000 ha of lowland rice cultivation will use adjusted water-management practices, equivalent to about 1.2% of current agricultural area. Overall, the quantified pledges combine forest-cover expansion, emissions reduction, carbon-stock enhancement, sustainable forest management and agricultural water management.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"11.5 percentage points above current forest cover of 58.5%; the pledge states an area of 16.58 million ha.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Adjusted water management in lowland rice cultivation\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.2% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Equivalent increase in forest stocks\",\n      \"value\": 8300,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2020–2030 average\",\n      \"context\": \"Area-equivalent scale is ≈0.06% of current forest area annually.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LUCF emissions reduction\",\n      \"value\": 1100,\n      \"unit\": \"ktCO2e/year\",\n      \"timeframe\": \"2020–2030 average\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Average annual mitigation abatement\",\n      \"value\": 45000,\n      \"unit\": \"ktCO2e/year\",\n      \"timeframe\": \"2020–2030 average\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

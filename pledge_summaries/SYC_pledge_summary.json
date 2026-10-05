@@ -1,0 +1,58 @@
+{
+  "iso3": "SYC",
+  "country": "Seychelles",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 9,
+  "geo_context": {
+    "country_area_km2": 456.3,
+    "land_cover_km2": {
+      "Agriculture": 198.0,
+      "Forest": 137.0,
+      "Grassland": 6.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 1.0,
+      "Water": 108.0
+    }
+  },
+  "summary": "Seychelles’ ecosystem pledges are primarily marine conservation commitments: it will protect at least 50% of its seagrass and mangrove ecosystems by 2025 and 100% by 2030, subject in places to external support, while implementing marine spatial planning and effectively managing 30% of its Exclusive Economic Zone as marine protected areas. The restoration agenda includes a recently commenced six-year project to restore 2.5 ha of coral reefs and build capacity, alongside NGO projects at multiple sites. Because the quantified commitments concern marine ecosystems, the supplied land-cover data—137 km² of forest (30.0%), 198 km² of agriculture (43.4%), and 6 km² of grassland (1.3%)—do not provide a direct denominator for measuring their scale.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Seagrass and mangrove ecosystem protection",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Seagrass and mangrove ecosystem protection",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected areas within the Exclusive Economic Zone",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Coral reef restoration",
+      "value": 2.5,
+      "unit": "ha",
+      "timeframe": "six-year project",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Seychelles’ ecosystem pledges are primarily marine conservation commitments: it will protect at least 50% of its seagrass and mangrove ecosystems by 2025 and 100% by 2030, subject in places to external support, while implementing marine spatial planning and effectively managing 30% of its Exclusive Economic Zone as marine protected areas. The restoration agenda includes a recently commenced six-year project to restore 2.5 ha of coral reefs and build capacity, alongside NGO projects at multiple sites. Because the quantified commitments concern marine ecosystems, the supplied land-cover data—137 km² of forest (30.0%), 198 km² of agriculture (43.4%), and 6 km² of grassland (1.3%)—do not provide a direct denominator for measuring their scale.\",\"targets\":[{\"commitment_type\":\"Conservation\",\"metric\":\"Seagrass and mangrove ecosystem protection\",\"value\":50,\"unit\":\"%\",\"timeframe\":\"by 2025\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Seagrass and mangrove ecosystem protection\",\"value\":100,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Marine protected areas within the Exclusive Economic Zone\",\"value\":30,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Coral reef restoration\",\"value\":2.5,\"unit\":\"ha\",\"timeframe\":\"six-year project\",\"context\":null}]}",
+  "errors": []
+}

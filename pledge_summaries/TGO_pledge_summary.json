@@ -1,0 +1,642 @@
+{
+  "iso3": "TGO",
+  "country": "Togo",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 154,
+  "geo_context": {
+    "country_area_km2": 57033.8,
+    "land_cover_km2": {
+      "Agriculture": 26181.0,
+      "Forest": 24856.0,
+      "Grassland": 5.0,
+      "Wetland": 4.0,
+      "Settlement": 495.0,
+      "Shrubland": 5235.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 1.0,
+      "Water": 225.0
+    }
+  },
+  "summary": "Togo’s restoration commitments centre on 1,000,000 ha of reforestation, one billion trees by 2030 and a strengthened programme delivering 50,000 ha/year. The 1-million-ha goal equals about 40% of Togo’s current 24,856 km² forest area. Togo also targets 30% forest cover, restoration of at least 80% of degraded land by 2030, 20,000 ha of floodplain savanna, and mangrove and urban-forest restoration. Conservation combines protection of 578,000 ha of protected areas and corridors with a 5% reduction in burned vegetation and 30% lower deforestation. Agriculture emphasises climate-resilient zones on 500,000 ha, agroecology on 200,000 ha, conservation agriculture on 100,000 ha, SRI rice and community agroforestry on 50,000 ha each, irrigation, sustainable land management, and clean cooking for 500,000 households. The 500,000-ha zone programme covers about 19% of current 26,181 km² of agricultural area.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest-cover rate",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Increase in forested and reforested area",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Scale comparison: approximately 124,280 ha, or 5% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded land restored",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage associates the pledge with 187,920 ha of degraded land."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Community-forest share of the annual reforestation programme",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Applies to the strengthened programme targeting 50,000 ha/year."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation area",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Scale comparison: approximately 40.2% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "New plantations established",
+      "value": 34400,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.4% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban forestry",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈10.1% of current mapped settlement area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Coastal mangrove restoration",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Floodplain savanna restoration",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.8% of the current mapped Shrubland class."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban green spaces and forests",
+      "value": 200,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.4% of current mapped settlement area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual reforestation",
+      "value": 50000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈2.0% of current mapped forest area per year."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 1000000000,
+      "unit": "trees",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove-restoration sequestration rate",
+      "value": 4,
+      "unit": "tCO₂/ha/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban heat-island reduction",
+      "value": -3,
+      "unit": "°C",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Burned vegetation area reduction",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Limit on degradation of not-yet-degraded land",
+      "value": 2,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage states 108,802 ha relative to the 2010 baseline."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation reduction",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-cover rate",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural river-flow regime",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National forest-cover rate",
+      "value": 26,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Joint water-management committee coverage",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas and ecological corridors secured",
+      "value": 578000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈23.3% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ramsar wetland area covered",
+      "value": 40000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Urban green spaces",
+      "value": 5200,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈10.5% of current mapped settlement area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Transboundary river basins under integrated management",
+      "value": 5,
+      "unit": "transboundary river basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Charcoal produced using improved techniques",
+      "value": 45,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Manure and agricultural residues converted to compost or biogas",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Chemical-fertilizer use reduction",
+      "value": 3,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated-rice area reduction",
+      "value": 3,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Producer groups or enterprises integrating adaptation and mitigation",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated agricultural area share",
+      "value": 3,
+      "unit": "%",
+      "timeframe": "by 2034",
+      "context": "The stated increase is from 1.2%."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural BAU emissions reduction",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage states a corresponding reduction of 4,600 ktCO₂e."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Regions covered by non-timber forest-product value chains",
+      "value": 5,
+      "unit": "regions",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Regions covered by the resilient-seed programme",
+      "value": 5,
+      "unit": "regions",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar pumps developed",
+      "value": 10000,
+      "unit": "solar pumps",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Women farmers receiving climate microcredit",
+      "value": 200000,
+      "unit": "farmers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock farms modernized",
+      "value": 50000,
+      "unit": "farms",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural biogas units",
+      "value": 100,
+      "unit": "units",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar cold rooms and hermetic silos",
+      "value": 500,
+      "unit": "units",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cantons covered by climate-resilient agricultural zones",
+      "value": 350,
+      "unit": "cantons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural water-retention structures and basins",
+      "value": 1500,
+      "unit": "water-retention structures",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pastoral and multipurpose water-retention structures",
+      "value": 500,
+      "unit": "water-retention structures",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Producers covered by climate insurance",
+      "value": 500000,
+      "unit": "producers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Communes covered by agrometeorological advice",
+      "value": 117,
+      "unit": "communes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "SRI rice cultivation",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.9% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry for cocoa, coffee and shea",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.1% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable or resilient irrigation",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.1% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable land management",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.0% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient planned agricultural development zones",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈19.1% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Community agroforestry for cocoa, coffee and karité",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.9% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated agricultural land supported by retention structures",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈5.7% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-area increase",
+      "value": 3,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage states 43,557 ha."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land with negative net productivity reduced to",
+      "value": 0.3333333333333333,
+      "unit": "share of land",
+      "timeframe": null,
+      "context": "The passage states 73,260 ha."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land reserved for reforestation",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage states 720,000 ha."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fuelwood-purpose reforestation",
+      "value": 17400,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.7% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "State forests under sustainable management",
+      "value": 600,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforested and rehabilitated community and private lands",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.2% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-landscape restoration",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.0% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conservation agriculture",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.8% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove restoration",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Improved pastures",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Improved pastures and transhumance corridors",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove and vegetated coastal-buffer restoration",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroecological transition and restoration of degraded-soil fertility",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈7.6% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable land management against desertification",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.1% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Lowland and floodplain management",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cumulative restored agricultural soils",
+      "value": 530000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈20.2% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangroves and blue-carbon conservation area",
+      "value": 605,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cumulative forest, restoration and protected-area coverage",
+      "value": 1.08,
+      "unit": "M ha",
+      "timeframe": null,
+      "context": "≈43.5% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "State-forest implementation rate",
+      "value": 100,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Part of the 600 ha sustainable-management commitment."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional AFAT sequestration relative to BAU",
+      "value": -10500,
+      "unit": "ktCO₂e",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFAT net sink",
+      "value": -12500,
+      "unit": "ktCO₂e",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sequestration-capacity increase",
+      "value": 7,
+      "unit": "×",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Communal forests created",
+      "value": 50,
+      "unit": "communal forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "School forests created",
+      "value": 200,
+      "unit": "school forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Households receiving sustainable fuelwood or improved cookstoves",
+      "value": 500000,
+      "unit": "households",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Nature-based voluntary AFAT and REDD+ volume",
+      "value": 1200,
+      "unit": "kt/year",
+      "timeframe": "2027-2028",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Togo’s restoration commitments centre on 1,000,000 ha of reforestation, one billion trees by 2030 and a strengthened programme delivering 50,000 ha/year. The 1-million-ha goal equals about 40% of Togo’s current 24,856 km² forest area. Togo also targets 30% forest cover, restoration of at least 80% of degraded land by 2030, 20,000 ha of floodplain savanna, and mangrove and urban-forest restoration. Conservation combines protection of 578,000 ha of protected areas and corridors with a 5% reduction in burned vegetation and 30% lower deforestation. Agriculture emphasises climate-resilient zones on 500,000 ha, agroecology on 200,000 ha, conservation agriculture on 100,000 ha, SRI rice and community agroforestry on 50,000 ha each, irrigation, sustainable land management, and clean cooking for 500,000 households. The 500,000-ha zone programme covers about 19% of current 26,181 km² of agricultural area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest-cover rate\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Increase in forested and reforested area\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Scale comparison: approximately 124,280 ha, or 5% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded land restored\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage associates the pledge with 187,920 ha of degraded land.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Community-forest share of the annual reforestation programme\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Applies to the strengthened programme targeting 50,000 ha/year.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation area\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Scale comparison: approximately 40.2% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New plantations established\",\n      \"value\": 34400,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.4% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban forestry\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈10.1% of current mapped settlement area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Coastal mangrove restoration\",\n      \"value\": 100,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Floodplain savanna restoration\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.8% of the current mapped Shrubland class.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban green spaces and forests\",\n      \"value\": 200,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.4% of current mapped settlement area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual reforestation\",\n      \"value\": 50000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈2.0% of current mapped forest area per year.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted\",\n      \"value\": 1000000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove-restoration sequestration rate\",\n      \"value\": 4,\n      \"unit\": \"tCO₂/ha/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban heat-island reduction\",\n      \"value\": -3,\n      \"unit\": \"°C\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Burned vegetation area reduction\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Limit on degradation of not-yet-degraded land\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage states 108,802 ha relative to the 2010 baseline.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation reduction\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-cover rate\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural river-flow regime\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National forest-cover rate\",\n      \"value\": 26,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Joint water-management committee coverage\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas and ecological corridors secured\",\n      \"value\": 578000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈23.3% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ramsar wetland area covered\",\n      \"value\": 40000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Urban green spaces\",\n      \"value\": 5200,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈10.5% of current mapped settlement area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Transboundary river basins under integrated management\",\n      \"value\": 5,\n      \"unit\": \"transboundary river basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Charcoal produced using improved techniques\",\n      \"value\": 45,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Manure and agricultural residues converted to compost or biogas\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Chemical-fertilizer use reduction\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated-rice area reduction\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Producer groups or enterprises integrating adaptation and mitigation\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated agricultural area share\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2034\",\n      \"context\": \"The stated increase is from 1.2%.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural BAU emissions reduction\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage states a corresponding reduction of 4,600 ktCO₂e.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Regions covered by non-timber forest-product value chains\",\n      \"value\": 5,\n      \"unit\": \"regions\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Regions covered by the resilient-seed programme\",\n      \"value\": 5,\n      \"unit\": \"regions\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar pumps developed\",\n      \"value\": 10000,\n      \"unit\": \"solar pumps\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Women farmers receiving climate microcredit\",\n      \"value\": 200000,\n      \"unit\": \"farmers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock farms modernized\",\n      \"value\": 50000,\n      \"unit\": \"farms\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural biogas units\",\n      \"value\": 100,\n      \"unit\": \"units\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar cold rooms and hermetic silos\",\n      \"value\": 500,\n      \"unit\": \"units\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cantons covered by climate-resilient agricultural zones\",\n      \"value\": 350,\n      \"unit\": \"cantons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural water-retention structures and basins\",\n      \"value\": 1500,\n      \"unit\": \"water-retention structures\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pastoral and multipurpose water-retention structures\",\n      \"value\": 500,\n      \"unit\": \"water-retention structures\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Producers covered by climate insurance\",\n      \"value\": 500000,\n      \"unit\": \"producers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Communes covered by agrometeorological advice\",\n      \"value\": 117,\n      \"unit\": \"communes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"SRI rice cultivation\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.9% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry for cocoa, coffee and shea\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.1% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable or resilient irrigation\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.1% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable land management\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.0% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient planned agricultural development zones\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈19.1% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Community agroforestry for cocoa, coffee and karité\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.9% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated agricultural land supported by retention structures\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈5.7% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-area increase\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage states 43,557 ha.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Land with negative net productivity reduced to\",\n      \"value\": 0.3333333333333333,\n      \"unit\": \"share of land\",\n      \"timeframe\": null,\n      \"context\": \"The passage states 73,260 ha.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Land reserved for reforestation\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage states 720,000 ha.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fuelwood-purpose reforestation\",\n      \"value\": 17400,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.7% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"State forests under sustainable management\",\n      \"value\": 600,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.02% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforested and rehabilitated community and private lands\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.2% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-landscape restoration\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.0% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conservation agriculture\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.8% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove restoration\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Improved pastures\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Improved pastures and transhumance corridors\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove and vegetated coastal-buffer restoration\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroecological transition and restoration of degraded-soil fertility\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈7.6% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable land management against desertification\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.1% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Lowland and floodplain management\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cumulative restored agricultural soils\",\n      \"value\": 530000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈20.2% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangroves and blue-carbon conservation area\",\n      \"value\": 605,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cumulative forest, restoration and protected-area coverage\",\n      \"value\": 1.08,\n      \"unit\": \"M ha\",\n      \"timeframe\": null,\n      \"context\": \"≈43.5% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"State-forest implementation rate\",\n      \"value\": 100,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Part of the 600 ha sustainable-management commitment.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional AFAT sequestration relative to BAU\",\n      \"value\": -10500,\n      \"unit\": \"ktCO₂e\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFAT net sink\",\n      \"value\": -12500,\n      \"unit\": \"ktCO₂e\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sequestration-capacity increase\",\n      \"value\": 7,\n      \"unit\": \"×\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Communal forests created\",\n      \"value\": 50,\n      \"unit\": \"communal forests\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"School forests created\",\n      \"value\": 200,\n      \"unit\": \"school forests\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Households receiving sustainable fuelwood or improved cookstoves\",\n      \"value\": 500000,\n      \"unit\": \"households\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Nature-based voluntary AFAT and REDD+ volume\",\n      \"value\": 1200,\n      \"unit\": \"kt/year\",\n      \"timeframe\": \"2027-2028\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

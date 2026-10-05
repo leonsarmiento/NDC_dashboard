@@ -1,0 +1,58 @@
+{
+  "iso3": "IRQ",
+  "country": "Iraq",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 438178.1,
+    "land_cover_km2": {
+      "Agriculture": 95199.0,
+      "Forest": 242.0,
+      "Grassland": 2627.0,
+      "Wetland": 238.0,
+      "Settlement": 3009.0,
+      "Shrubland": 1311.0,
+      "Sparse_vegetation": 3672.0,
+      "Bare_area": 326979.0,
+      "Water": 4878.0
+    }
+  },
+  "summary": "Iraq’s pledges combine conservation and restoration, while the supplied passages state no separate numerical agricultural-area commitment. Conservation calls for at least 5.305 billion cubic meters of freshwater annually, released with appropriate quality and timing to sustain ecological and cultural functions and carbon storage, and for a water flow of 5 billion cubic meters to the marshes, with other nutrients. The mixed restoration-and-conservation package calls for restoring 50% of degraded forest areas in northern Iraq, protecting and increasing natural tree vegetation in desert areas by 50% or more, expanding protected areas, and mainstreaming ecosystem management, nature-based solutions, climate-resilient biodiversity planning, and improved livestock and rangeland management. These ambitions address a landscape where forest covers only 242 km² (0.1%) and wetlands 238 km² (0.1%), while agriculture occupies 21.7% and bare areas 74.6%; the vegetation percentages concern degraded or desert areas rather than quantified national cover.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum annual freshwater allocation for ecosystem sustainability",
+      "value": 5305000000,
+      "unit": "cubic meters",
+      "timeframe": "annually",
+      "context": "The allocation is intended to sustain ecological and cultural functions and carbon storage; no matching area baseline is provided."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water flow to marshes",
+      "value": 5000000000,
+      "unit": "cubic meters",
+      "timeframe": null,
+      "context": "The wetland class covers 238 km² (0.1%) of Iraq, but the passage does not specify the marsh area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forest restoration in northern Iraq",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Forest covers 242 km² (0.1%) nationally; the 50% target applies to degraded forest areas, not total forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Minimum increase in natural tree vegetation cover in desert areas",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": "No national area is specified for desert tree vegetation, so the target cannot be expressed as a share of total land cover."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Iraq’s pledges combine conservation and restoration, while the supplied passages state no separate numerical agricultural-area commitment. Conservation calls for at least 5.305 billion cubic meters of freshwater annually, released with appropriate quality and timing to sustain ecological and cultural functions and carbon storage, and for a water flow of 5 billion cubic meters to the marshes, with other nutrients. The mixed restoration-and-conservation package calls for restoring 50% of degraded forest areas in northern Iraq, protecting and increasing natural tree vegetation in desert areas by 50% or more, expanding protected areas, and mainstreaming ecosystem management, nature-based solutions, climate-resilient biodiversity planning, and improved livestock and rangeland management. These ambitions address a landscape where forest covers only 242 km² (0.1%) and wetlands 238 km² (0.1%), while agriculture occupies 21.7% and bare areas 74.6%; the vegetation percentages concern degraded or desert areas rather than quantified national cover.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum annual freshwater allocation for ecosystem sustainability\",\n      \"value\": 5305000000,\n      \"unit\": \"cubic meters\",\n      \"timeframe\": \"annually\",\n      \"context\": \"The allocation is intended to sustain ecological and cultural functions and carbon storage; no matching area baseline is provided.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water flow to marshes\",\n      \"value\": 5000000000,\n      \"unit\": \"cubic meters\",\n      \"timeframe\": null,\n      \"context\": \"The wetland class covers 238 km² (0.1%) of Iraq, but the passage does not specify the marsh area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded forest restoration in northern Iraq\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Forest covers 242 km² (0.1%) nationally; the 50% target applies to degraded forest areas, not total forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minimum increase in natural tree vegetation cover in desert areas\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"No national area is specified for desert tree vegetation, so the target cannot be expressed as a share of total land cover.\"\n    }\n  ]\n}",
+  "errors": []
+}

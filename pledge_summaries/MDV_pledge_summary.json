@@ -1,0 +1,66 @@
+{
+  "iso3": "MDV",
+  "country": "Maldives",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 193.9,
+    "land_cover_km2": {
+      "Agriculture": 19.0,
+      "Forest": 1.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 3.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 2.0,
+      "Water": 161.0
+    }
+  },
+  "summary": "The Maldives’ ecosystem pledges combine conservation, restoration and cross-cutting measures. For conservation, it commits to protect at least one island, one reef and one wetland from every atoll, although the passage gives no national total because no atoll count is stated. Restoration includes remediating the two largest dumpsites and establishing island waste and resource management centres throughout the country. Under the combined agenda, a 5 million-tree planting programme is central, alongside natural-capital valuation, coral-reef monitoring, ecosystem restoration and expansion of the protected-area network. This planting commitment is significant in a country where water covers 83.1% of the land area and forest occupies only 1 km², or 0.5%; however, no planting area or tree-density assumption is provided, so it cannot be expressed as a share of forest cover.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Islands protected",
+      "value": 1,
+      "unit": "island from each atoll",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reefs protected",
+      "value": 1,
+      "unit": "reef from each atoll",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetlands protected",
+      "value": 1,
+      "unit": "wetland from each atoll",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Largest dumpsites remediated",
+      "value": 2,
+      "unit": "dumpsites",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tree planting programme",
+      "value": 5000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Current forest cover is only 1 km² (0.5% of the country), but no planting area is specified."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"The Maldives’ ecosystem pledges combine conservation, restoration and cross-cutting measures. For conservation, it commits to protect at least one island, one reef and one wetland from every atoll, although the passage gives no national total because no atoll count is stated. Restoration includes remediating the two largest dumpsites and establishing island waste and resource management centres throughout the country. Under the combined agenda, a 5 million-tree planting programme is central, alongside natural-capital valuation, coral-reef monitoring, ecosystem restoration and expansion of the protected-area network. This planting commitment is significant in a country where water covers 83.1% of the land area and forest occupies only 1 km², or 0.5%; however, no planting area or tree-density assumption is provided, so it cannot be expressed as a share of forest cover.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Islands protected\",\n      \"value\": 1,\n      \"unit\": \"island from each atoll\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reefs protected\",\n      \"value\": 1,\n      \"unit\": \"reef from each atoll\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetlands protected\",\n      \"value\": 1,\n      \"unit\": \"wetland from each atoll\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Largest dumpsites remediated\",\n      \"value\": 2,\n      \"unit\": \"dumpsites\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tree planting programme\",\n      \"value\": 5000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Current forest cover is only 1 km² (0.5% of the country), but no planting area is specified.\"\n    }\n  ]\n}",
+  "errors": []
+}

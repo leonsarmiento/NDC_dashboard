@@ -1,0 +1,210 @@
+{
+  "iso3": "ERI",
+  "country": "Eritrea",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 27,
+  "geo_context": {
+    "country_area_km2": 121639.8,
+    "land_cover_km2": {
+      "Agriculture": 23722.0,
+      "Forest": 3767.0,
+      "Grassland": 23181.0,
+      "Wetland": 152.0,
+      "Settlement": 162.0,
+      "Shrubland": 13459.0,
+      "Sparse_vegetation": 9294.0,
+      "Bare_area": 47536.0,
+      "Water": 376.0
+    }
+  },
+  "summary": "Restoration is prominent: develop over 750,000 ha of enclosures; afforest 36,000 ha, 7,880 ha and 771,220 ha, restore 125,011 ha, address 2.4 million ha of degraded land, rehabilitate 83,974 ha, plant 20,143,186 seedlings, and restore over 6,400 ha with around one million date palms by 2030. Mixed actions add 35,000 ha of agroforestry, 86,000 ha of silvopasture and improved management/agroforestry on 1,251,220 ha; mitigation contributions are 3.61 kt CO2e/year from assisted forest regeneration and 0.95 kt CO2e/year from reforestation. Conservation targets over 1.5 million ha of terrestrial and marine protected areas, 646,209 ha of enclosures and 480,000 ha for forest conservation. Agriculture includes 170,000 ha of irrigation, conservation agriculture on 5% of cultivable land, sustainable land management on 15% of land and 50 dairy farms. Reported degraded land is ≈19.7% of the country, the 36,000-ha afforestation target ≈9.6% of mapped forest, and irrigation ≈7.2% of mapped agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Development and establishment of new enclosure areas",
+      "value": 750000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Stated as over 750,000 ha; ≈6.2% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation program",
+      "value": 36000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Stated as over 36,000 ha; ≈9.6% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded land reported for reclamation",
+      "value": 2400000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "The passage reports 19% of land as degraded; 2.4 million ha is ≈19.7% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land restoration through date-palm planting",
+      "value": 6400,
+      "unit": "ha",
+      "timeframe": "by the end of 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation program area",
+      "value": 7880,
+      "unit": "ha",
+      "timeframe": "since 2018",
+      "context": "7,880 ha is ≈2.1% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and degraded-forest restoration",
+      "value": 771220,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Stated as over 771,220 ha; ≈6.3% of total land area and about 205% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Community-based soil and water conservation",
+      "value": 83974,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.7% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove plantation",
+      "value": 456.5,
+      "unit": "ha",
+      "timeframe": "since 2018",
+      "context": "For scale, ≈3.0% of current mapped wetland area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest restoration",
+      "value": 125011,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈33.2% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration mitigation contribution",
+      "value": 3.61,
+      "unit": "kt CO2e/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation mitigation contribution",
+      "value": 0.95,
+      "unit": "kt CO2e/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation tree seedlings",
+      "value": 20143186,
+      "unit": "number of tree seedlings",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial and marine protected areas",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈12.3% of total land area on a numerical basis; the pledge combines terrestrial and marine areas, so the comparison is not like-for-like"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New enclosure areas",
+      "value": 646209,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈5.3% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest conservation",
+      "value": 480000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Stated as over 480,000 ha; ≈3.9% of total land area and ≈127% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Conservation agriculture coverage",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Cultivable land is not separately quantified in the supplied geography"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable land management coverage",
+      "value": 15,
+      "unit": "%",
+      "timeframe": null,
+      "context": "15% is specified for total land, not only the mapped agricultural class"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation schemes",
+      "value": 170000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈7.2% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Hydroponic fodder production",
+      "value": 50,
+      "unit": "dairy farms",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded-land rehabilitation for agriculture",
+      "value": 250000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Stated as over 250,000 ha; for scale, ≈2.1% of total land and ≈10.5% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with agroforestry",
+      "value": 35000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "For scale, ≈1.5% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with silvopasture",
+      "value": 86000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.7% of current mapped grassland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Improved forest management and agroforestry",
+      "value": 1251220,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈10.3% of total land area; the passage describes trees and shrubs outside forests"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is prominent: develop over 750,000 ha of enclosures; afforest 36,000 ha, 7,880 ha and 771,220 ha, restore 125,011 ha, address 2.4 million ha of degraded land, rehabilitate 83,974 ha, plant 20,143,186 seedlings, and restore over 6,400 ha with around one million date palms by 2030. Mixed actions add 35,000 ha of agroforestry, 86,000 ha of silvopasture and improved management/agroforestry on 1,251,220 ha; mitigation contributions are 3.61 kt CO2e/year from assisted forest regeneration and 0.95 kt CO2e/year from reforestation. Conservation targets over 1.5 million ha of terrestrial and marine protected areas, 646,209 ha of enclosures and 480,000 ha for forest conservation. Agriculture includes 170,000 ha of irrigation, conservation agriculture on 5% of cultivable land, sustainable land management on 15% of land and 50 dairy farms. Reported degraded land is ≈19.7% of the country, the 36,000-ha afforestation target ≈9.6% of mapped forest, and irrigation ≈7.2% of mapped agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Development and establishment of new enclosure areas\",\n      \"value\": 750000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Stated as over 750,000 ha; ≈6.2% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation program\",\n      \"value\": 36000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Stated as over 36,000 ha; ≈9.6% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded land reported for reclamation\",\n      \"value\": 2400000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"The passage reports 19% of land as degraded; 2.4 million ha is ≈19.7% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land restoration through date-palm planting\",\n      \"value\": 6400,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by the end of 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation program area\",\n      \"value\": 7880,\n      \"unit\": \"ha\",\n      \"timeframe\": \"since 2018\",\n      \"context\": \"7,880 ha is ≈2.1% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation and degraded-forest restoration\",\n      \"value\": 771220,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Stated as over 771,220 ha; ≈6.3% of total land area and about 205% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Community-based soil and water conservation\",\n      \"value\": 83974,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.7% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove plantation\",\n      \"value\": 456.5,\n      \"unit\": \"ha\",\n      \"timeframe\": \"since 2018\",\n      \"context\": \"For scale, ≈3.0% of current mapped wetland area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest restoration\",\n      \"value\": 125011,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈33.2% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted forest regeneration mitigation contribution\",\n      \"value\": 3.61,\n      \"unit\": \"kt CO2e/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation mitigation contribution\",\n      \"value\": 0.95,\n      \"unit\": \"kt CO2e/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation tree seedlings\",\n      \"value\": 20143186,\n      \"unit\": \"number of tree seedlings\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial and marine protected areas\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈12.3% of total land area on a numerical basis; the pledge combines terrestrial and marine areas, so the comparison is not like-for-like\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New enclosure areas\",\n      \"value\": 646209,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈5.3% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest conservation\",\n      \"value\": 480000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Stated as over 480,000 ha; ≈3.9% of total land area and ≈127% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Conservation agriculture coverage\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Cultivable land is not separately quantified in the supplied geography\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable land management coverage\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"15% is specified for total land, not only the mapped agricultural class\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation schemes\",\n      \"value\": 170000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈7.2% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Hydroponic fodder production\",\n      \"value\": 50,\n      \"unit\": \"dairy farms\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded-land rehabilitation for agriculture\",\n      \"value\": 250000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Stated as over 250,000 ha; for scale, ≈2.1% of total land and ≈10.5% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation with agroforestry\",\n      \"value\": 35000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"For scale, ≈1.5% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation with silvopasture\",\n      \"value\": 86000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.7% of current mapped grassland area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Improved forest management and agroforestry\",\n      \"value\": 1251220,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈10.3% of total land area; the passage describes trees and shrubs outside forests\"\n    }\n  ]\n}",
+  "errors": []
+}

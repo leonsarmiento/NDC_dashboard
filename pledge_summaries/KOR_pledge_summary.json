@@ -1,0 +1,50 @@
+{
+  "iso3": "KOR",
+  "country": "Democratic People's Republic of Korea",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 100712.9,
+    "land_cover_km2": {
+      "Agriculture": 45698.0,
+      "Forest": 47398.0,
+      "Grassland": 100.0,
+      "Wetland": 15.0,
+      "Settlement": 4244.0,
+      "Shrubland": 329.0,
+      "Sparse_vegetation": 142.0,
+      "Bare_area": 182.0,
+      "Water": 2586.0
+    }
+  },
+  "summary": "Restoration is the main commitment type in the DPRK's ecosystem pledges. The first phase of the Forest Campaign is reported to have reforested 603,000 hectares between 2015 and 2017, an area equivalent to about 12.7% of the country's current 47,398 km2 forest cover. A further restoration plan targets more than 1,000,000 hectares of mountain areas to be forested and reforested by 2024, equivalent to roughly 21.1% of current forest cover. The mixed resilience commitment will establish measures to manage 84 climate risks across six sectors, including water management, ecosystems, national land and coastal areas, agriculture and fisheries, health, and industry and energy. No separately quantified conservation- or agriculture-specific pledge is stated.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation completed",
+      "value": 603000,
+      "unit": "ha",
+      "timeframe": "2015-2017",
+      "context": "About 12.7% of current forest cover (47,398 km2), on an area-equivalent basis"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mountain areas planned for forest and reforestation",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2024",
+      "context": "Approximately 21.1% of current forest cover (47,398 km2), as a lower-bound area-equivalent comparison"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate risks managed",
+      "value": 84,
+      "unit": "climate risks",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is the main commitment type in the DPRK's ecosystem pledges. The first phase of the Forest Campaign is reported to have reforested 603,000 hectares between 2015 and 2017, an area equivalent to about 12.7% of the country's current 47,398 km2 forest cover. A further restoration plan targets more than 1,000,000 hectares of mountain areas to be forested and reforested by 2024, equivalent to roughly 21.1% of current forest cover. The mixed resilience commitment will establish measures to manage 84 climate risks across six sectors, including water management, ecosystems, national land and coastal areas, agriculture and fisheries, health, and industry and energy. No separately quantified conservation- or agriculture-specific pledge is stated.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation completed\",\n      \"value\": 603000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2015-2017\",\n      \"context\": \"About 12.7% of current forest cover (47,398 km2), on an area-equivalent basis\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mountain areas planned for forest and reforestation\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2024\",\n      \"context\": \"Approximately 21.1% of current forest cover (47,398 km2), as a lower-bound area-equivalent comparison\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate risks managed\",\n      \"value\": 84,\n      \"unit\": \"climate risks\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

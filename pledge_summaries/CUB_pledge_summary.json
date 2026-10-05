@@ -1,0 +1,250 @@
+{
+  "iso3": "CUB",
+  "country": "Cuba",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 45,
+  "geo_context": {
+    "country_area_km2": 105710.0,
+    "land_cover_km2": {
+      "Agriculture": 52195.0,
+      "Forest": 43115.0,
+      "Grassland": 6038.0,
+      "Wetland": 1564.0,
+      "Settlement": 831.0,
+      "Shrubland": 21.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 2.0,
+      "Water": 1908.0
+    }
+  },
+  "summary": "Cuba’s restoration pledges seek a 165,000 ha forest-area increase during 2019–2030, with 80,000 ha stated as achievable with domestic resources and the full 165,000 ha conditional on support; another formulation sets 50 kha unconditionally and 40 kha conditionally, including 50 kha during 2031–2035. The headline forest-cover goal is 33% by 2030. Conservation combines management of 75 kha unconditionally and 90 kha conditionally to reduce degradation, including 75 kha during 2031–2035, alongside forest-carbon uptake and removal estimates. The 165,000 ha expansion is about 3.8% of supplied 2022 forest area (43,115 km²), while the 33% goal is below the supplied 40.8% forest share. Agriculture targets 18,534 biodigesters, 5,000 solar pumping systems, full treatment of pig-sector wastewater, and lower dairy emissions through diet, manure management and silvopastoral systems. These livestock measures address a landscape where agriculture occupies 49.4% of the country; pig-sector emissions reduction is 8 MtCO2eq for 2020–2030.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Conditional total forest-area increase",
+      "value": 165000,
+      "unit": "ha",
+      "timeframe": "2019-2030",
+      "context": "≈3.8% of current mapped forest area (4,311,500 ha)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Unconditional forest-area increase with domestic resources",
+      "value": 80000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈1.9% of current mapped forest area (4,311,500 ha)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "New forest area incorporated unconditionally",
+      "value": 50,
+      "unit": "kha",
+      "timeframe": null,
+      "context": "≈1.2% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional new forest area incorporated conditionally",
+      "value": 40,
+      "unit": "kha",
+      "timeframe": null,
+      "context": "≈0.9% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "New forest area incorporated",
+      "value": 50,
+      "unit": "kha",
+      "timeframe": "2031-2035",
+      "context": "≈1.2% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Estimated CO2 removal from expanded forest cover",
+      "value": 150000,
+      "unit": "kt",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "CO2 effect of preceding forest measures",
+      "value": -32,
+      "unit": "MtCO2",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net forest carbon-uptake improvement",
+      "value": 3.0,
+      "unit": "MtCO2eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar pumping systems installed",
+      "value": 5000,
+      "unit": "sistemas de bombeos solares",
+      "timeframe": null,
+      "context": "Agriculture covers 49.4% of the country; no target area is specified"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biodigesters installed",
+      "value": 18534,
+      "unit": "biodigestores",
+      "timeframe": "2020-2030",
+      "context": "Agriculture covers 49.4% of the country; no target area is specified"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction in GHG emissions per kilogram of milk relative to 2028",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Total dairy-sector mitigation value",
+      "value": 4934,
+      "unit": "ktCO2eq",
+      "timeframe": "2029-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual emissions reduction from dietary changes",
+      "value": 355,
+      "unit": "ktCO2eq",
+      "timeframe": "annual",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual emissions reduction from proper manure management",
+      "value": 341,
+      "unit": "ktCO2eq",
+      "timeframe": "annual",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual emissions reduction from silvopastoral systems or agroforestry",
+      "value": 8800,
+      "unit": "kgCO2eq",
+      "timeframe": "annual",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Energy-efficiency and energy-savings target for listed sectors",
+      "value": 0.7,
+      "unit": "MtCO2eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Energy-efficiency increase",
+      "value": 0.135,
+      "unit": "MtCO2eq",
+      "timeframe": "2031-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dairy-cattle-sector emissions reduction",
+      "value": 0.7,
+      "unit": "MtCO2eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-cover share",
+      "value": 33,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The supplied 2022 forest share is 40.8%, 7.8 percentage points above this goal"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reported forest-covered area",
+      "value": 3434400,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "34,344 km²: ≈32.5% of total land and ≈79.7% of current mapped forest"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pig-sector wastewater and residue treatment",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "2020-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pig-sector cumulative emissions reduction",
+      "value": 8,
+      "unit": "MtCO2eq",
+      "timeframe": "2020-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Unconditional management to reduce forest degradation",
+      "value": 75,
+      "unit": "kha",
+      "timeframe": null,
+      "context": "≈1.7% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conditional management to reduce forest degradation",
+      "value": 90,
+      "unit": "kha",
+      "timeframe": null,
+      "context": "≈2.1% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest degradation reduced",
+      "value": 75,
+      "unit": "kha",
+      "timeframe": "2031-2035",
+      "context": "≈1.7% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Net carbon absorption from forest contributions",
+      "value": 150,
+      "unit": "Mt",
+      "timeframe": "2031-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "GHG effect of unconditional forest contributions",
+      "value": -687,
+      "unit": "ktCO2eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "GHG effect of conditional forest contributions",
+      "value": -1105,
+      "unit": "ktCO2eq",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Cuba’s restoration pledges seek a 165,000 ha forest-area increase during 2019–2030, with 80,000 ha stated as achievable with domestic resources and the full 165,000 ha conditional on support; another formulation sets 50 kha unconditionally and 40 kha conditionally, including 50 kha during 2031–2035. The headline forest-cover goal is 33% by 2030. Conservation combines management of 75 kha unconditionally and 90 kha conditionally to reduce degradation, including 75 kha during 2031–2035, alongside forest-carbon uptake and removal estimates. The 165,000 ha expansion is about 3.8% of supplied 2022 forest area (43,115 km²), while the 33% goal is below the supplied 40.8% forest share. Agriculture targets 18,534 biodigesters, 5,000 solar pumping systems, full treatment of pig-sector wastewater, and lower dairy emissions through diet, manure management and silvopastoral systems. These livestock measures address a landscape where agriculture occupies 49.4% of the country; pig-sector emissions reduction is 8 MtCO2eq for 2020–2030.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Conditional total forest-area increase\",\n      \"value\": 165000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2019-2030\",\n      \"context\": \"≈3.8% of current mapped forest area (4,311,500 ha)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Unconditional forest-area increase with domestic resources\",\n      \"value\": 80000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1.9% of current mapped forest area (4,311,500 ha)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New forest area incorporated unconditionally\",\n      \"value\": 50,\n      \"unit\": \"kha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.2% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional new forest area incorporated conditionally\",\n      \"value\": 40,\n      \"unit\": \"kha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.9% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New forest area incorporated\",\n      \"value\": 50,\n      \"unit\": \"kha\",\n      \"timeframe\": \"2031-2035\",\n      \"context\": \"≈1.2% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Estimated CO2 removal from expanded forest cover\",\n      \"value\": 150000,\n      \"unit\": \"kt\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"CO2 effect of preceding forest measures\",\n      \"value\": -32,\n      \"unit\": \"MtCO2\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net forest carbon-uptake improvement\",\n      \"value\": 3.0,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar pumping systems installed\",\n      \"value\": 5000,\n      \"unit\": \"sistemas de bombeos solares\",\n      \"timeframe\": null,\n      \"context\": \"Agriculture covers 49.4% of the country; no target area is specified\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biodigesters installed\",\n      \"value\": 18534,\n      \"unit\": \"biodigestores\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": \"Agriculture covers 49.4% of the country; no target area is specified\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction in GHG emissions per kilogram of milk relative to 2028\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Total dairy-sector mitigation value\",\n      \"value\": 4934,\n      \"unit\": \"ktCO2eq\",\n      \"timeframe\": \"2029-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual emissions reduction from dietary changes\",\n      \"value\": 355,\n      \"unit\": \"ktCO2eq\",\n      \"timeframe\": \"annual\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual emissions reduction from proper manure management\",\n      \"value\": 341,\n      \"unit\": \"ktCO2eq\",\n      \"timeframe\": \"annual\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual emissions reduction from silvopastoral systems or agroforestry\",\n      \"value\": 8800,\n      \"unit\": \"kgCO2eq\",\n      \"timeframe\": \"annual\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Energy-efficiency and energy-savings target for listed sectors\",\n      \"value\": 0.7,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Energy-efficiency increase\",\n      \"value\": 0.135,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": \"2031-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Dairy-cattle-sector emissions reduction\",\n      \"value\": 0.7,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-cover share\",\n      \"value\": 33,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The supplied 2022 forest share is 40.8%, 7.8 percentage points above this goal\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reported forest-covered area\",\n      \"value\": 3434400,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"34,344 km²: ≈32.5% of total land and ≈79.7% of current mapped forest\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pig-sector wastewater and residue treatment\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pig-sector cumulative emissions reduction\",\n      \"value\": 8,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Unconditional management to reduce forest degradation\",\n      \"value\": 75,\n      \"unit\": \"kha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.7% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conditional management to reduce forest degradation\",\n      \"value\": 90,\n      \"unit\": \"kha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.1% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest degradation reduced\",\n      \"value\": 75,\n      \"unit\": \"kha\",\n      \"timeframe\": \"2031-2035\",\n      \"context\": \"≈1.7% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Net carbon absorption from forest contributions\",\n      \"value\": 150,\n      \"unit\": \"Mt\",\n      \"timeframe\": \"2031-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"GHG effect of unconditional forest contributions\",\n      \"value\": -687,\n      \"unit\": \"ktCO2eq\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"GHG effect of conditional forest contributions\",\n      \"value\": -1105,\n      \"unit\": \"ktCO2eq\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

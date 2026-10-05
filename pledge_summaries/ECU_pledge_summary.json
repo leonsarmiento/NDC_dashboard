@@ -1,0 +1,42 @@
+{
+  "iso3": "ECU",
+  "country": "Ecuador",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 2,
+  "geo_context": {
+    "country_area_km2": 256054.2,
+    "land_cover_km2": {
+      "Agriculture": 30246.0,
+      "Forest": 180026.0,
+      "Grassland": 12380.0,
+      "Wetland": 702.0,
+      "Settlement": 1763.0,
+      "Shrubland": 24022.0,
+      "Sparse_vegetation": 334.0,
+      "Bare_area": 3735.0,
+      "Water": 2684.0
+    }
+  },
+  "summary": "Conservation is the sole commitment type in Ecuador’s extracted pledges. The first identifies 20% of the territory as protected under different area categories, with the National System of Protected Areas intended to maintain ecosystem coverage and connectivity at terrestrial, marine, and marine-coastal levels. Applied to the reported 256,054 km2 land area, 20% would equal approximately 5.12 million ha, although the commitment is stated as a territorial share. As of December 2022, the SNAP had registered 76 areas totaling 26,208,785.58 ha, a much larger absolute footprint that includes categories extending beyond land. Forest represents 70.3% of Ecuador’s land area, but neither passage specifies how protected areas overlap forests or provides restoration, agricultural, or forest-specific targets.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area territorial coverage",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "About 5.12 million ha if applied to the reported 256,054 km2 land area; forest covers 70.3% of the country, but no forest-specific allocation is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National System of Protected Areas area",
+      "value": 26208785.58,
+      "unit": "ha",
+      "timeframe": "as of December 2022",
+      "context": "Registered area of 76 protected areas; the passage includes terrestrial and marine-coastal levels, so the total is not directly comparable as a land-cover share."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation is the sole commitment type in Ecuador’s extracted pledges. The first identifies 20% of the territory as protected under different area categories, with the National System of Protected Areas intended to maintain ecosystem coverage and connectivity at terrestrial, marine, and marine-coastal levels. Applied to the reported 256,054 km2 land area, 20% would equal approximately 5.12 million ha, although the commitment is stated as a territorial share. As of December 2022, the SNAP had registered 76 areas totaling 26,208,785.58 ha, a much larger absolute footprint that includes categories extending beyond land. Forest represents 70.3% of Ecuador’s land area, but neither passage specifies how protected areas overlap forests or provides restoration, agricultural, or forest-specific targets.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area territorial coverage\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"About 5.12 million ha if applied to the reported 256,054 km2 land area; forest covers 70.3% of the country, but no forest-specific allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National System of Protected Areas area\",\n      \"value\": 26208785.58,\n      \"unit\": \"ha\",\n      \"timeframe\": \"as of December 2022\",\n      \"context\": \"Registered area of 76 protected areas; the passage includes terrestrial and marine-coastal levels, so the total is not directly comparable as a land-cover share.\"\n    }\n  ]\n}",
+  "errors": []
+}

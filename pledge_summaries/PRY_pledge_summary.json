@@ -1,0 +1,482 @@
+{
+  "iso3": "PRY",
+  "country": "Paraguay",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 52,
+  "geo_context": {
+    "country_area_km2": 401404.9,
+    "land_cover_km2": {
+      "Agriculture": 90585.0,
+      "Forest": 170671.0,
+      "Grassland": 13289.0,
+      "Wetland": 32715.0,
+      "Settlement": 847.0,
+      "Shrubland": 88994.0,
+      "Sparse_vegetation": 10.0,
+      "Bare_area": 2.0,
+      "Water": 4150.0
+    }
+  },
+  "summary": "Paraguay’s restoration pledges include 187,942 ha of energy and timber forest plantations by 2030—about 1.1% of the country’s 42.5% forest cover—plus 4,588 ha of forest restoration by 2030, 50 ha of protective forest and two pilot restoration projects by 2035. Conservation targets include a 15–18% increase in protected wildlife areas and protection of at least 20% of national territory by 2030, with 10% effectively managed; fire-prevention work also reaches 75% of rural educational institutions by 2035. Agricultural measures reach 50% of small-scale cattle farmers, reduce nitrogen fertilizer use by 5–10%, use efficient rice varieties on 30% of the 2030 area, and expand direct seeding by 20% against a projected 3.9 million ha surface. The 6,536.3 ha agroforestry pledge is ≈0.07% of current agriculture. Mixed measures add a 60% certified-forest increase to 72,323 ha, two wetland projects, four stream interventions and eight-department agroforestry.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest ecosystem restoration",
+      "value": 4588,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈45.9 km², or ≈0.027% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Municipalities trained to prepare tree-planting ordinances",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Municipalities approving tree-planting ordinances",
+      "value": 50,
+      "unit": "municipalities",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Pilot forest-restoration projects",
+      "value": 2,
+      "unit": "pilot forest-restoration projects",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Protective forest restored along watercourses",
+      "value": 50,
+      "unit": "hectares",
+      "timeframe": "by 2035",
+      "context": "0.5 km², or ≈0.0003% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected Wildlife Area increase, lower bound",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The cited 650,645 ha equals ≈1.6% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected Wildlife Area increase, upper bound",
+      "value": 18,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The cited 650,645 ha equals ≈1.6% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rural households equipped with efficient stoves",
+      "value": 3450,
+      "unit": "hogares rurales",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rural educational institutions covered by the forest-fire prevention project",
+      "value": 75,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Subnational Women's Secretariats engaged",
+      "value": 15,
+      "unit": "Women's Secretariats",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Educational institutions covered by the Ñamapotï Paraguay Environmental Project",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Communities receiving sustainable rural-tourism training",
+      "value": 20,
+      "unit": "communities",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecotourism circuits implemented in Protected Wilderness Areas",
+      "value": 10,
+      "unit": "ecotourism circuits",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Key actors trained on environmental services",
+      "value": 2000,
+      "unit": "key actors",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Environmental judges and prosecutors trained",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Environmental consultants trained",
+      "value": 250,
+      "unit": "registered environmental consultants",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Actors participating in environmental-service regulation development",
+      "value": 50,
+      "unit": "institutional, technical and territorial actors",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Comparative analyses of forest-fire losses and prevention costs",
+      "value": 1,
+      "unit": "comparative analysis",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory protected",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈80,281 km², or 20.0% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory under effective management",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈40,141 km² of the country's total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Participatory-management work platforms established annually",
+      "value": 1,
+      "unit": "work platforms to establish annually or renew",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Participatory-management work platforms renewed annually",
+      "value": 4,
+      "unit": "work platforms to establish annually or renew",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "People receiving watershed environmental education",
+      "value": 8000,
+      "unit": "people",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Municipalities covered by watershed environmental education",
+      "value": 8,
+      "unit": "municipalities",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual watershed-management outreach events",
+      "value": 1,
+      "unit": "event per year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority watersheds and/or aquifers covered by water-balance updates",
+      "value": 5,
+      "unit": "priority watersheds and/or aquifers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Integrated watershed-management plans prepared",
+      "value": 5,
+      "unit": "integrated watershed-management plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Municipal governments coordinating natural-asset protection actions",
+      "value": 5,
+      "unit": "municipal governments",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Efficient-water-use awareness and education programs",
+      "value": 50,
+      "unit": "awareness and education programs",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Programs strengthening women and vulnerable communities in water management",
+      "value": 3,
+      "unit": "programs",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Management plans per hydrographic unit",
+      "value": 3,
+      "unit": "management plans per hydrographic unit",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National wetlands committees established",
+      "value": 1,
+      "unit": "wetlands committee",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Validated national wetlands-inventory methodologies",
+      "value": 1,
+      "unit": "validated inventory methodology",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Regulations for aquifer recharge and discharge areas",
+      "value": 1,
+      "unit": "conservation regulation",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Technical proposals or manuals for headwater protection and management",
+      "value": 1,
+      "unit": "technical proposal and/or manual",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small-scale cattle farmers improving digestibility and organic-fertilizer use",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nitrogen fertilizer-use reduction in soybean, wheat and maize, lower bound",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nitrogen fertilizer-use reduction in soybean, wheat and maize, upper bound",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice area using more efficient varieties",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural surface increase under direct seeding",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage's 3.9 million ha reference is ≈43.1% of current mapped agriculture"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Peasant family-farming area under conservation agriculture",
+      "value": 2,
+      "unit": "times current estimated surface",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Educational community participation in sustainable-practice activities",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forestry technicians trained annually",
+      "value": 24,
+      "unit": "forestry technicians per year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry systems implemented with peasant and Indigenous families",
+      "value": 6536.3,
+      "unit": "hectares",
+      "timeframe": "by 2026",
+      "context": "≈65.4 km², or ≈0.072% of current mapped agriculture"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Social-program families receiving family gardens",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Certified forest area increase",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The stated 72,323-ha endpoint is ≈0.42% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest plantations for energy and timber",
+      "value": 187942,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈1,879 km², or ≈1.10% of current mapped forest cover and ≈0.47% of total land"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "PROEZA agroforestry systems",
+      "value": 8,
+      "unit": "departments",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Municipalities applying the Urban Green Infrastructure Manual",
+      "value": 50,
+      "unit": "municipalities",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Wetland and/or lagoon rehabilitation projects",
+      "value": 2,
+      "unit": "projects",
+      "timeframe": "by 2030",
+      "context": "Wetlands currently cover 8.2% of the country, but no project area is specified"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Stream banks restored or protected",
+      "value": 4,
+      "unit": "streams",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Departmental governments trained on nature-based or ecosystem-based approaches",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fish-resource breeding and harvesting systems",
+      "value": 5,
+      "unit": "fish breeding and harvesting systems",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Rural producers receiving annual forestry technical assistance",
+      "value": 2000,
+      "unit": "rural producers per year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Yguazú and Acaray restoration and conservation sites",
+      "value": 10,
+      "unit": "headwaters, streams and/or river sections",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Municipalities forming alliances to enforce protective-forest law",
+      "value": 90,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority water headwaters receiving conservation and restoration actions",
+      "value": 5,
+      "unit": "priority water headwaters",
+      "timeframe": "by 2035",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Paraguay’s restoration pledges include 187,942 ha of energy and timber forest plantations by 2030—about 1.1% of the country’s 42.5% forest cover—plus 4,588 ha of forest restoration by 2030, 50 ha of protective forest and two pilot restoration projects by 2035. Conservation targets include a 15–18% increase in protected wildlife areas and protection of at least 20% of national territory by 2030, with 10% effectively managed; fire-prevention work also reaches 75% of rural educational institutions by 2035. Agricultural measures reach 50% of small-scale cattle farmers, reduce nitrogen fertilizer use by 5–10%, use efficient rice varieties on 30% of the 2030 area, and expand direct seeding by 20% against a projected 3.9 million ha surface. The 6,536.3 ha agroforestry pledge is ≈0.07% of current agriculture. Mixed measures add a 60% certified-forest increase to 72,323 ha, two wetland projects, four stream interventions and eight-department agroforestry.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest ecosystem restoration\",\n      \"value\": 4588,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈45.9 km², or ≈0.027% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Municipalities trained to prepare tree-planting ordinances\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Municipalities approving tree-planting ordinances\",\n      \"value\": 50,\n      \"unit\": \"municipalities\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Pilot forest-restoration projects\",\n      \"value\": 2,\n      \"unit\": \"pilot forest-restoration projects\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Protective forest restored along watercourses\",\n      \"value\": 50,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"0.5 km², or ≈0.0003% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected Wildlife Area increase, lower bound\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The cited 650,645 ha equals ≈1.6% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected Wildlife Area increase, upper bound\",\n      \"value\": 18,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The cited 650,645 ha equals ≈1.6% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rural households equipped with efficient stoves\",\n      \"value\": 3450,\n      \"unit\": \"hogares rurales\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rural educational institutions covered by the forest-fire prevention project\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Subnational Women's Secretariats engaged\",\n      \"value\": 15,\n      \"unit\": \"Women's Secretariats\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Educational institutions covered by the Ñamapotï Paraguay Environmental Project\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Communities receiving sustainable rural-tourism training\",\n      \"value\": 20,\n      \"unit\": \"communities\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecotourism circuits implemented in Protected Wilderness Areas\",\n      \"value\": 10,\n      \"unit\": \"ecotourism circuits\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Key actors trained on environmental services\",\n      \"value\": 2000,\n      \"unit\": \"key actors\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Environmental judges and prosecutors trained\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Environmental consultants trained\",\n      \"value\": 250,\n      \"unit\": \"registered environmental consultants\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Actors participating in environmental-service regulation development\",\n      \"value\": 50,\n      \"unit\": \"institutional, technical and territorial actors\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Comparative analyses of forest-fire losses and prevention costs\",\n      \"value\": 1,\n      \"unit\": \"comparative analysis\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National territory protected\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈80,281 km², or 20.0% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National territory under effective management\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈40,141 km² of the country's total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Participatory-management work platforms established annually\",\n      \"value\": 1,\n      \"unit\": \"work platforms to establish annually or renew\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Participatory-management work platforms renewed annually\",\n      \"value\": 4,\n      \"unit\": \"work platforms to establish annually or renew\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"People receiving watershed environmental education\",\n      \"value\": 8000,\n      \"unit\": \"people\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Municipalities covered by watershed environmental education\",\n      \"value\": 8,\n      \"unit\": \"municipalities\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual watershed-management outreach events\",\n      \"value\": 1,\n      \"unit\": \"event per year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority watersheds and/or aquifers covered by water-balance updates\",\n      \"value\": 5,\n      \"unit\": \"priority watersheds and/or aquifers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Integrated watershed-management plans prepared\",\n      \"value\": 5,\n      \"unit\": \"integrated watershed-management plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Municipal governments coordinating natural-asset protection actions\",\n      \"value\": 5,\n      \"unit\": \"municipal governments\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Efficient-water-use awareness and education programs\",\n      \"value\": 50,\n      \"unit\": \"awareness and education programs\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Programs strengthening women and vulnerable communities in water management\",\n      \"value\": 3,\n      \"unit\": \"programs\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Management plans per hydrographic unit\",\n      \"value\": 3,\n      \"unit\": \"management plans per hydrographic unit\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National wetlands committees established\",\n      \"value\": 1,\n      \"unit\": \"wetlands committee\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Validated national wetlands-inventory methodologies\",\n      \"value\": 1,\n      \"unit\": \"validated inventory methodology\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Regulations for aquifer recharge and discharge areas\",\n      \"value\": 1,\n      \"unit\": \"conservation regulation\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Technical proposals or manuals for headwater protection and management\",\n      \"value\": 1,\n      \"unit\": \"technical proposal and/or manual\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small-scale cattle farmers improving digestibility and organic-fertilizer use\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Nitrogen fertilizer-use reduction in soybean, wheat and maize, lower bound\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Nitrogen fertilizer-use reduction in soybean, wheat and maize, upper bound\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice area using more efficient varieties\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural surface increase under direct seeding\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage's 3.9 million ha reference is ≈43.1% of current mapped agriculture\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Peasant family-farming area under conservation agriculture\",\n      \"value\": 2,\n      \"unit\": \"times current estimated surface\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Educational community participation in sustainable-practice activities\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forestry technicians trained annually\",\n      \"value\": 24,\n      \"unit\": \"forestry technicians per year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry systems implemented with peasant and Indigenous families\",\n      \"value\": 6536.3,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2026\",\n      \"context\": \"≈65.4 km², or ≈0.072% of current mapped agriculture\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Social-program families receiving family gardens\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Certified forest area increase\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The stated 72,323-ha endpoint is ≈0.42% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest plantations for energy and timber\",\n      \"value\": 187942,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1,879 km², or ≈1.10% of current mapped forest cover and ≈0.47% of total land\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"PROEZA agroforestry systems\",\n      \"value\": 8,\n      \"unit\": \"departments\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Municipalities applying the Urban Green Infrastructure Manual\",\n      \"value\": 50,\n      \"unit\": \"municipalities\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Wetland and/or lagoon rehabilitation projects\",\n      \"value\": 2,\n      \"unit\": \"projects\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Wetlands currently cover 8.2% of the country, but no project area is specified\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Stream banks restored or protected\",\n      \"value\": 4,\n      \"unit\": \"streams\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Departmental governments trained on nature-based or ecosystem-based approaches\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fish-resource breeding and harvesting systems\",\n      \"value\": 5,\n      \"unit\": \"fish breeding and harvesting systems\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Rural producers receiving annual forestry technical assistance\",\n      \"value\": 2000,\n      \"unit\": \"rural producers per year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Yguazú and Acaray restoration and conservation sites\",\n      \"value\": 10,\n      \"unit\": \"headwaters, streams and/or river sections\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Municipalities forming alliances to enforce protective-forest law\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority water headwaters receiving conservation and restoration actions\",\n      \"value\": 5,\n      \"unit\": \"priority water headwaters\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

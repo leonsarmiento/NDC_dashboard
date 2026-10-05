@@ -1,0 +1,298 @@
+{
+  "iso3": "IDN",
+  "country": "Indonesia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 27,
+  "geo_context": {
+    "country_area_km2": 1870976.3,
+    "land_cover_km2": {
+      "Agriculture": 662326.0,
+      "Forest": 1139264.0,
+      "Grassland": 6316.0,
+      "Wetland": 0.0,
+      "Settlement": 18200.0,
+      "Shrubland": 1084.0,
+      "Sparse_vegetation": 20532.0,
+      "Bare_area": 0.0,
+      "Water": 22976.0
+    }
+  },
+  "summary": "Restoration is central: Indonesia aims to restore 2,000,000 ha of peatland by 2030, an area equal to about 1.8% of current forest cover; rehabilitate 8,300,000 and 12,000,000 ha of degraded land, about 4.4% and 6.4% of total land; and expand post-mine reclamation from an 81,069 ha base, with another pathway targeting 280,000 ha/year. Conservation combines a 2030 FOLU net-sink target of -140 MtCO2 with CM1 and CM2 deforestation rates of 0.359 and 0.175 million ha/year and a 0.450 million-ha cap on planned plus unplanned loss. Agriculture targets 902,000–932,000 ha of low-emission crops and 2,583,000–3,376,000 ha of water-efficiency implementation—about 1.4% and 3.9%–5.1% of current agricultural area—plus organic fertilizer, biogas and paddy measures. Cross-sector plans set 320,000 ha/year of timber planting, a 50 cm peatland water-level increase, and 2030 water-management coverage of 892,000 ha in palm oil and 329,000–548,000 ha in timber plantations.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland restoration",
+      "value": 2000000.0,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equivalent to ≈1.8% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-land rehabilitation (12 million-ha figure)",
+      "value": 12000000.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈6.4% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-land rehabilitation (8.3 million-ha figure)",
+      "value": 8300000.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈4.4% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Post-mine reclamation",
+      "value": 81069.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.04% of total land area; the passage calls for expansion from this reported base."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land-rehabilitation planting rate",
+      "value": 280000.0,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": "Annual rate equivalent to ≈0.15% of total land area; the passage states 5.6 million ha cumulatively by 2030."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "FOLU net sink",
+      "value": -140.0,
+      "unit": "MtCO2",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Combined planned and unplanned deforestation cap under CM1 and CM2",
+      "value": 0.45,
+      "unit": "million ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈0.40% of current forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation rate under CM1",
+      "value": 0.359,
+      "unit": "million ha/year",
+      "timeframe": "2021-2030",
+      "context": "≈0.32% of current forest area per year; the model table also gives 359 (000 ha) for 2020-2030."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation rate under CM2",
+      "value": 0.175,
+      "unit": "million ha/year",
+      "timeframe": "2021-2030",
+      "context": "≈0.15% of current forest area per year; the model table also gives 175 (000 ha) for 2020-2030."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Modeled unplanned deforestation under CM1",
+      "value": 459.0,
+      "unit": "000 ha",
+      "timeframe": "2013-2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Modeled planned deforestation under CM1",
+      "value": 209.0,
+      "unit": "000 ha",
+      "timeframe": "2013-2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Modeled planned deforestation under CM1",
+      "value": 146.0,
+      "unit": "000 ha",
+      "timeframe": "2020-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Modeled unplanned deforestation under CM2",
+      "value": 300.0,
+      "unit": "000 ha",
+      "timeframe": "2013-2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Modeled planned deforestation under CM2",
+      "value": 68.0,
+      "unit": "000 ha",
+      "timeframe": "2013-2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Modeled planned deforestation under CM2",
+      "value": 57.0,
+      "unit": "000 ha",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Low-emission crop area (lower 2030 figure)",
+      "value": 902000.0,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "Equivalent to ≈1.36% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Low-emission crop area (higher 2030 figure)",
+      "value": 932000.0,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "Equivalent to ≈1.41% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Water-efficiency implementation area (lower 2030 figure)",
+      "value": 2583000.0,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "Equivalent to ≈3.90% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Water-efficiency implementation area (higher 2030 figure)",
+      "value": 3376000.0,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "Equivalent to ≈5.10% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic fertilizer application (lower 2030 figure)",
+      "value": 1287000.0,
+      "unit": "ton",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic fertilizer application (higher 2030 figure)",
+      "value": 1368000.0,
+      "unit": "ton",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle supplying manure for biogas (lower 2030 figure)",
+      "value": 166000.0,
+      "unit": "cattle",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle supplying manure for biogas (higher 2030 figure)",
+      "value": 249000.0,
+      "unit": "cattle",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ruminants supplied with feed supplement (lower 2030 figure)",
+      "value": 6942000.0,
+      "unit": "ruminants",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ruminants supplied with feed supplement (higher 2030 figure)",
+      "value": 8075000.0,
+      "unit": "ruminants",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Synthetic nitrogen fertilizer reduction per unit of organic fertilizer",
+      "value": 0.15,
+      "unit": "ton synthetic nitrogen fertilizer per one-ton organic fertilizer",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Paddy index in Java",
+      "value": 2.2,
+      "unit": "paddy index",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Paddy index outside Java",
+      "value": 1.7,
+      "unit": "paddy index",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable natural-forest wood extraction rate",
+      "value": 30.0,
+      "unit": "m3/ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Improved peatland water management in palm-oil plantations under CM1 and CM2",
+      "value": 892000.0,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "Equivalent to ≈1.35% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Improved peatland water management in timber plantations under CM1",
+      "value": 329000.0,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "Equivalent to ≈0.50% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Improved peatland water management in timber plantations under CM2",
+      "value": 548000.0,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "Equivalent to ≈0.83% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Timber-plantation planting rate",
+      "value": 320000.0,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": "Annual rate equivalent to ≈0.17% of total land area; the passage states 6.4 million ha cumulatively by 2030."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Peatland water-level increase in palm-oil and timber plantations",
+      "value": 50.0,
+      "unit": "cm",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is central: Indonesia aims to restore 2,000,000 ha of peatland by 2030, an area equal to about 1.8% of current forest cover; rehabilitate 8,300,000 and 12,000,000 ha of degraded land, about 4.4% and 6.4% of total land; and expand post-mine reclamation from an 81,069 ha base, with another pathway targeting 280,000 ha/year. Conservation combines a 2030 FOLU net-sink target of -140 MtCO2 with CM1 and CM2 deforestation rates of 0.359 and 0.175 million ha/year and a 0.450 million-ha cap on planned plus unplanned loss. Agriculture targets 902,000–932,000 ha of low-emission crops and 2,583,000–3,376,000 ha of water-efficiency implementation—about 1.4% and 3.9%–5.1% of current agricultural area—plus organic fertilizer, biogas and paddy measures. Cross-sector plans set 320,000 ha/year of timber planting, a 50 cm peatland water-level increase, and 2030 water-management coverage of 892,000 ha in palm oil and 329,000–548,000 ha in timber plantations.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland restoration\",\n      \"value\": 2000000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equivalent to ≈1.8% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-land rehabilitation (12 million-ha figure)\",\n      \"value\": 12000000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈6.4% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-land rehabilitation (8.3 million-ha figure)\",\n      \"value\": 8300000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈4.4% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Post-mine reclamation\",\n      \"value\": 81069.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.04% of total land area; the passage calls for expansion from this reported base.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land-rehabilitation planting rate\",\n      \"value\": 280000.0,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Annual rate equivalent to ≈0.15% of total land area; the passage states 5.6 million ha cumulatively by 2030.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"FOLU net sink\",\n      \"value\": -140.0,\n      \"unit\": \"MtCO2\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Combined planned and unplanned deforestation cap under CM1 and CM2\",\n      \"value\": 0.45,\n      \"unit\": \"million ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈0.40% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation rate under CM1\",\n      \"value\": 0.359,\n      \"unit\": \"million ha/year\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": \"≈0.32% of current forest area per year; the model table also gives 359 (000 ha) for 2020-2030.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation rate under CM2\",\n      \"value\": 0.175,\n      \"unit\": \"million ha/year\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": \"≈0.15% of current forest area per year; the model table also gives 175 (000 ha) for 2020-2030.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Modeled unplanned deforestation under CM1\",\n      \"value\": 459.0,\n      \"unit\": \"000 ha\",\n      \"timeframe\": \"2013-2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Modeled planned deforestation under CM1\",\n      \"value\": 209.0,\n      \"unit\": \"000 ha\",\n      \"timeframe\": \"2013-2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Modeled planned deforestation under CM1\",\n      \"value\": 146.0,\n      \"unit\": \"000 ha\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Modeled unplanned deforestation under CM2\",\n      \"value\": 300.0,\n      \"unit\": \"000 ha\",\n      \"timeframe\": \"2013-2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Modeled planned deforestation under CM2\",\n      \"value\": 68.0,\n      \"unit\": \"000 ha\",\n      \"timeframe\": \"2013-2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Modeled planned deforestation under CM2\",\n      \"value\": 57.0,\n      \"unit\": \"000 ha\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Low-emission crop area (lower 2030 figure)\",\n      \"value\": 902000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Equivalent to ≈1.36% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Low-emission crop area (higher 2030 figure)\",\n      \"value\": 932000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Equivalent to ≈1.41% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Water-efficiency implementation area (lower 2030 figure)\",\n      \"value\": 2583000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Equivalent to ≈3.90% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Water-efficiency implementation area (higher 2030 figure)\",\n      \"value\": 3376000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Equivalent to ≈5.10% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic fertilizer application (lower 2030 figure)\",\n      \"value\": 1287000.0,\n      \"unit\": \"ton\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic fertilizer application (higher 2030 figure)\",\n      \"value\": 1368000.0,\n      \"unit\": \"ton\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle supplying manure for biogas (lower 2030 figure)\",\n      \"value\": 166000.0,\n      \"unit\": \"cattle\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle supplying manure for biogas (higher 2030 figure)\",\n      \"value\": 249000.0,\n      \"unit\": \"cattle\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Ruminants supplied with feed supplement (lower 2030 figure)\",\n      \"value\": 6942000.0,\n      \"unit\": \"ruminants\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Ruminants supplied with feed supplement (higher 2030 figure)\",\n      \"value\": 8075000.0,\n      \"unit\": \"ruminants\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Synthetic nitrogen fertilizer reduction per unit of organic fertilizer\",\n      \"value\": 0.15,\n      \"unit\": \"ton synthetic nitrogen fertilizer per one-ton organic fertilizer\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Paddy index in Java\",\n      \"value\": 2.2,\n      \"unit\": \"paddy index\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Paddy index outside Java\",\n      \"value\": 1.7,\n      \"unit\": \"paddy index\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable natural-forest wood extraction rate\",\n      \"value\": 30.0,\n      \"unit\": \"m3/ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Improved peatland water management in palm-oil plantations under CM1 and CM2\",\n      \"value\": 892000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Equivalent to ≈1.35% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Improved peatland water management in timber plantations under CM1\",\n      \"value\": 329000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Equivalent to ≈0.50% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Improved peatland water management in timber plantations under CM2\",\n      \"value\": 548000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Equivalent to ≈0.83% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Timber-plantation planting rate\",\n      \"value\": 320000.0,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Annual rate equivalent to ≈0.17% of total land area; the passage states 6.4 million ha cumulatively by 2030.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Peatland water-level increase in palm-oil and timber plantations\",\n      \"value\": 50.0,\n      \"unit\": \"cm\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

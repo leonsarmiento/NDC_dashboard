@@ -1,0 +1,250 @@
+{
+  "iso3": "FJI",
+  "country": "Fiji",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 33,
+  "geo_context": {
+    "country_area_km2": 18430.6,
+    "land_cover_km2": {
+      "Agriculture": 5477.0,
+      "Forest": 12521.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 41.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 61.0,
+      "Bare_area": 0.0,
+      "Water": 349.0
+    }
+  },
+  "summary": "Fiji’s restoration agenda seeks to restore 30% of priority degraded ecosystems and plant 30 million trees, including mangroves, by 2035; mangrove targets rise to 48,000 ha in 2025–2027 and 50,000 ha in 2025–2029, while degraded-area reforestation reaches $1.8 million and $2.8 million. Conservation pledges designate 30% of the EEZ as marine protected areas and manage 100% sustainably by 2030, raise long-term conservation to 18 then 19 forest reserves/parks, and set forest at 63% then 64% of total area, compared with 67.9% mapped in 2022 (12,521 km²). Agriculture commitments include biogas-system targets of 200 and 1,000, 1,500 improved-breed livestock, and support for 100 smallholder farmers by 2035; organic-support recipients rise from 15,000 in 2026 to 25,000 in 2028. By 2035, 50% of agricultural area should be productively and sustainably managed—half of the 5,477 km² mapped as agriculture—and 50% irrigated, while agricultural adoption targets are 10–13%.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted, including mangroves",
+      "value": 30000000,
+      "unit": "trees",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove ecosystem restoration area",
+      "value": 48000,
+      "unit": "ha",
+      "timeframe": "2025-2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove ecosystem restoration area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "2025-2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation of degraded areas",
+      "value": 1.8,
+      "unit": "$m",
+      "timeframe": "2025-2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation of degraded areas",
+      "value": 2.8,
+      "unit": "$m",
+      "timeframe": "2025-2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EEZ designated as marine protected areas",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EEZ under sustainable management",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area as a proportion of total area",
+      "value": 63,
+      "unit": "%",
+      "timeframe": "2025-2027",
+      "context": "The milestone is below the 2022 mapped forest share of 67.9% (12,521 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area as a proportion of total area",
+      "value": 64,
+      "unit": "%",
+      "timeframe": "2025-2029",
+      "context": "The milestone is below the 2022 mapped forest share of 67.9% (12,521 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest reserves and parks under long-term conservation",
+      "value": 18,
+      "unit": "number",
+      "timeframe": "2025-2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest reserves and parks under long-term conservation",
+      "value": 19,
+      "unit": "number",
+      "timeframe": "2025-2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biogas systems installed for smallholder farmers",
+      "value": 200,
+      "unit": "biogas systems",
+      "timeframe": "between 2025 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biogas systems installed for smallholder farmers",
+      "value": 1000,
+      "unit": "biogas systems",
+      "timeframe": "between 2025 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved-breed livestock distributed to smallholder farms",
+      "value": 1500,
+      "unit": "improved breed livestock",
+      "timeframe": "between 2025 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Smallholder farmers receiving animal-feed support",
+      "value": 100,
+      "unit": "smallholder farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers provided with organic farming support",
+      "value": 15000,
+      "unit": "farmers",
+      "timeframe": "2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers provided with organic farming support",
+      "value": 20000,
+      "unit": "farmers",
+      "timeframe": "2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers provided with organic farming support",
+      "value": 25000,
+      "unit": "farmers",
+      "timeframe": "2028",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers adopting sustainable resource management and climate-smart agriculture",
+      "value": 13,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farms adopting good farm husbandry practices",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural area under productive and sustainable agriculture",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Equivalent to half of the 5,477 km² mapped as agriculture in 2022 (29.7% of Fiji)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural communities adopting good land-use practices",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural area under irrigation",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Equivalent to half of the 5,477 km² mapped as agriculture in 2022 (29.7% of Fiji)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "MAW training policy implementation",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in youths trained at Navuso and Tutu Training Centre",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in youth graduates engaged in sustainable commercial farming",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in forestry-sector businesses owned by youths and women",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority degraded ecosystems restored",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Fiji’s restoration agenda seeks to restore 30% of priority degraded ecosystems and plant 30 million trees, including mangroves, by 2035; mangrove targets rise to 48,000 ha in 2025–2027 and 50,000 ha in 2025–2029, while degraded-area reforestation reaches $1.8 million and $2.8 million. Conservation pledges designate 30% of the EEZ as marine protected areas and manage 100% sustainably by 2030, raise long-term conservation to 18 then 19 forest reserves/parks, and set forest at 63% then 64% of total area, compared with 67.9% mapped in 2022 (12,521 km²). Agriculture commitments include biogas-system targets of 200 and 1,000, 1,500 improved-breed livestock, and support for 100 smallholder farmers by 2035; organic-support recipients rise from 15,000 in 2026 to 25,000 in 2028. By 2035, 50% of agricultural area should be productively and sustainably managed—half of the 5,477 km² mapped as agriculture—and 50% irrigated, while agricultural adoption targets are 10–13%.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted, including mangroves\",\n      \"value\": 30000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove ecosystem restoration area\",\n      \"value\": 48000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2025-2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove ecosystem restoration area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2025-2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation of degraded areas\",\n      \"value\": 1.8,\n      \"unit\": \"$m\",\n      \"timeframe\": \"2025-2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation of degraded areas\",\n      \"value\": 2.8,\n      \"unit\": \"$m\",\n      \"timeframe\": \"2025-2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EEZ designated as marine protected areas\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EEZ under sustainable management\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest area as a proportion of total area\",\n      \"value\": 63,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025-2027\",\n      \"context\": \"The milestone is below the 2022 mapped forest share of 67.9% (12,521 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest area as a proportion of total area\",\n      \"value\": 64,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025-2029\",\n      \"context\": \"The milestone is below the 2022 mapped forest share of 67.9% (12,521 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest reserves and parks under long-term conservation\",\n      \"value\": 18,\n      \"unit\": \"number\",\n      \"timeframe\": \"2025-2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest reserves and parks under long-term conservation\",\n      \"value\": 19,\n      \"unit\": \"number\",\n      \"timeframe\": \"2025-2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biogas systems installed for smallholder farmers\",\n      \"value\": 200,\n      \"unit\": \"biogas systems\",\n      \"timeframe\": \"between 2025 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biogas systems installed for smallholder farmers\",\n      \"value\": 1000,\n      \"unit\": \"biogas systems\",\n      \"timeframe\": \"between 2025 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved-breed livestock distributed to smallholder farms\",\n      \"value\": 1500,\n      \"unit\": \"improved breed livestock\",\n      \"timeframe\": \"between 2025 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Smallholder farmers receiving animal-feed support\",\n      \"value\": 100,\n      \"unit\": \"smallholder farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers provided with organic farming support\",\n      \"value\": 15000,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers provided with organic farming support\",\n      \"value\": 20000,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers provided with organic farming support\",\n      \"value\": 25000,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"2028\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers adopting sustainable resource management and climate-smart agriculture\",\n      \"value\": 13,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farms adopting good farm husbandry practices\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural area under productive and sustainable agriculture\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to half of the 5,477 km² mapped as agriculture in 2022 (29.7% of Fiji)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural communities adopting good land-use practices\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural area under irrigation\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to half of the 5,477 km² mapped as agriculture in 2022 (29.7% of Fiji)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"MAW training policy implementation\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in youths trained at Navuso and Tutu Training Centre\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in youth graduates engaged in sustainable commercial farming\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in forestry-sector businesses owned by youths and women\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority degraded ecosystems restored\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

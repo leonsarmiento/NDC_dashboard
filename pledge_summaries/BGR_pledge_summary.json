@@ -1,0 +1,42 @@
+{
+  "iso3": "BGR",
+  "country": "Bulgaria",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 29,
+  "geo_context": {
+    "country_area_km2": 111036.2,
+    "land_cover_km2": {
+      "Agriculture": 61406.0,
+      "Forest": 44358.0,
+      "Grassland": 1481.0,
+      "Wetland": 58.0,
+      "Settlement": 1991.0,
+      "Shrubland": 186.0,
+      "Sparse_vegetation": 118.0,
+      "Bare_area": 447.0,
+      "Water": 987.0
+    }
+  },
+  "summary": "Bulgaria’s ecosystem-related numerical commitment is framed as conservation through LULUCF greenhouse-gas performance. The NDC cites an EU-wide 2030 goal of 310 Mt CO2 net removals, to be delivered through binding national targets, and gives Bulgaria’s national figure as -1,163 Kt CO2eq. The latter is a gas-volume target rather than a restoration, protection, or sustainable-farming area target; no hectare, percentage, or annual area commitment is stated in the supplied passages. This is relevant to a landscape where forest covers 39.9% and agriculture 55.3%, while grassland accounts for only 1.3%, but the pledge cannot be compared directly with those land-cover shares.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "EU collective LULUCF net removals",
+      "value": 310.0,
+      "unit": "Mt CO2 net removals",
+      "timeframe": "2030",
+      "context": "Collective EU target rather than a Bulgaria-specific land-area commitment."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Bulgaria LULUCF greenhouse-gas balance target",
+      "value": -1163.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "A gas-volume target; forest and agriculture together cover 95.2% of Bulgaria."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Bulgaria’s ecosystem-related numerical commitment is framed as conservation through LULUCF greenhouse-gas performance. The NDC cites an EU-wide 2030 goal of 310 Mt CO2 net removals, to be delivered through binding national targets, and gives Bulgaria’s national figure as -1,163 Kt CO2eq. The latter is a gas-volume target rather than a restoration, protection, or sustainable-farming area target; no hectare, percentage, or annual area commitment is stated in the supplied passages. This is relevant to a landscape where forest covers 39.9% and agriculture 55.3%, while grassland accounts for only 1.3%, but the pledge cannot be compared directly with those land-cover shares.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EU collective LULUCF net removals\",\n      \"value\": 310.0,\n      \"unit\": \"Mt CO2 net removals\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Collective EU target rather than a Bulgaria-specific land-area commitment.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Bulgaria LULUCF greenhouse-gas balance target\",\n      \"value\": -1163.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"A gas-volume target; forest and agriculture together cover 95.2% of Bulgaria.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,74 @@
+{
+  "iso3": "DEU",
+  "country": "Germany",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 357012.6,
+    "land_cover_km2": {
+      "Agriculture": 161364.0,
+      "Forest": 114594.0,
+      "Grassland": 53035.0,
+      "Wetland": 939.0,
+      "Settlement": 22438.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 227.0,
+      "Bare_area": 134.0,
+      "Water": 4272.0
+    }
+  },
+  "summary": "At conservation level, the EU LULUCF framework sets a -310 Mt CO2-eq carbon-sinks target by 2030, associated with 42 Mt CO2-eq of additional net removals versus 2016–2018. For restoration, at least 20% of EU land areas and 20% of EU sea areas should have restoration measures by 2030, and all ecosystems needing restoration should have such measures by 2050. Peatland and wetland rewetting/restoration is associated with 51–54 MtCO2-eq/yr of potential, while the mixed restoration/conservation measure combining reforestation respecting ecological principles for biodiversity with sustainable forest management has 8–235 MtCO2-eq/yr potential. Agriculture seeks better fertiliser-use efficiency, with 19 MtCO2-eq/yr potential. No Germany-specific allocation is supplied. Germany has 114,594 km² of forest (32.1%), 53,035 km² of grassland (14.9%), 939 km² of wetland (0.3%), and 161,364 km² of agriculture (45.2%), but these EU-level or non-area figures cannot establish the national share covered.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF carbon-sinks target",
+      "value": -310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU-level target; the passage associates it with 42 Mt CO2-eq of additional net removals relative to 2016–2018, but gives no Germany allocation."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum share of EU land areas with restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The denominator is total EU land area; Germany’s 357,013 km² is not the stated denominator, and no national allocation is provided."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum share of EU sea areas with restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The denominator is total EU sea area; no Germany-specific marine share is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential (range lower bound)",
+      "value": 51.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "The reported range is 51–54 MtCO2-eq/yr; the value field records its lower bound. This is an EU mitigation-potential total, while Germany’s wetland class is 939 km²; no national allocation is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential (range lower bound)",
+      "value": 8.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "The reported range is 8–235 MtCO2-eq/yr; the value field records its lower bound. No reforestation area is assigned against Germany’s 114,594 km² of forest."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved fertiliser-use efficiency mitigation potential",
+      "value": 19.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "No share of Germany’s 161,364 km² of agricultural land is specified; the figure is mitigation potential rather than covered area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"At conservation level, the EU LULUCF framework sets a -310 Mt CO2-eq carbon-sinks target by 2030, associated with 42 Mt CO2-eq of additional net removals versus 2016–2018. For restoration, at least 20% of EU land areas and 20% of EU sea areas should have restoration measures by 2030, and all ecosystems needing restoration should have such measures by 2050. Peatland and wetland rewetting/restoration is associated with 51–54 MtCO2-eq/yr of potential, while the mixed restoration/conservation measure combining reforestation respecting ecological principles for biodiversity with sustainable forest management has 8–235 MtCO2-eq/yr potential. Agriculture seeks better fertiliser-use efficiency, with 19 MtCO2-eq/yr potential. No Germany-specific allocation is supplied. Germany has 114,594 km² of forest (32.1%), 53,035 km² of grassland (14.9%), 939 km² of wetland (0.3%), and 161,364 km² of agriculture (45.2%), but these EU-level or non-area figures cannot establish the national share covered.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF carbon-sinks target\",\n      \"value\": -310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-level target; the passage associates it with 42 Mt CO2-eq of additional net removals relative to 2016–2018, but gives no Germany allocation.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum share of EU land areas with restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The denominator is total EU land area; Germany’s 357,013 km² is not the stated denominator, and no national allocation is provided.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum share of EU sea areas with restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The denominator is total EU sea area; no Germany-specific marine share is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential (range lower bound)\",\n      \"value\": 51.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"The reported range is 51–54 MtCO2-eq/yr; the value field records its lower bound. This is an EU mitigation-potential total, while Germany’s wetland class is 939 km²; no national allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential (range lower bound)\",\n      \"value\": 8.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"The reported range is 8–235 MtCO2-eq/yr; the value field records its lower bound. No reforestation area is assigned against Germany’s 114,594 km² of forest.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved fertiliser-use efficiency mitigation potential\",\n      \"value\": 19.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"No share of Germany’s 161,364 km² of agricultural land is specified; the figure is mitigation potential rather than covered area.\"\n    }\n  ]\n}",
+  "errors": []
+}

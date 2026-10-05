@@ -1,0 +1,114 @@
+{
+  "iso3": "NAM",
+  "country": "Namibia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 12,
+  "geo_context": {
+    "country_area_km2": 827797.3,
+    "land_cover_km2": {
+      "Agriculture": 24885.0,
+      "Forest": 83606.0,
+      "Grassland": 390152.0,
+      "Wetland": 1392.0,
+      "Settlement": 912.0,
+      "Shrubland": 148561.0,
+      "Sparse_vegetation": 23498.0,
+      "Bare_area": 149658.0,
+      "Water": 5147.0
+    }
+  },
+  "summary": "Namibia’s mixed restoration and conservation pledges focus on buffers and land management: establish or restore one riparian buffer, reinstate 10,000 ha of riparian buffer, restore 5,000 ha in the Okavango, improve soil organic carbon and pastures on 100,000 ha of thinned bushland, and create 5,000 ha of urban green space and corridors. The latter equals about 5.5% of current mapped settlement land, while the pasture commitment covers roughly 0.3% of current grassland. Conservation measures also target a 13% enhancement of the business-as-usual sink in 2030 and 5,000 km of firebreaks. Agriculture pledges include converting 10,000 ha of cropland set-aside to perennial crops—about 0.4% of current agricultural area—developing 400 ha of net-house vegetable systems, substituting renewables in 20,000 photovoltaic pumps, and fattening 147,000 cattle in feedlots.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Pasture and soil-organic-carbon improvement",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.3% of current grassland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Riparian buffer reinstatement",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Okavango riparian buffer establishment or restoration",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Urban green spaces and corridors",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈5.5% of current settlement-cover area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Riparian buffer establishment and restoration",
+      "value": 1,
+      "unit": "riparian buffer",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "BAU sink potential enhancement",
+      "value": 13,
+      "unit": "%",
+      "timeframe": "in 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Firebreak development",
+      "value": 5000,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cropland set-aside conversion to perennial cropland",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Net-house vegetable production systems",
+      "value": 400,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle fattening in feedlots",
+      "value": 147000,
+      "unit": "heads of cattle",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Renewable-energy photovoltaic pumps",
+      "value": 20000,
+      "unit": "units",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Namibia’s mixed restoration and conservation pledges focus on buffers and land management: establish or restore one riparian buffer, reinstate 10,000 ha of riparian buffer, restore 5,000 ha in the Okavango, improve soil organic carbon and pastures on 100,000 ha of thinned bushland, and create 5,000 ha of urban green space and corridors. The latter equals about 5.5% of current mapped settlement land, while the pasture commitment covers roughly 0.3% of current grassland. Conservation measures also target a 13% enhancement of the business-as-usual sink in 2030 and 5,000 km of firebreaks. Agriculture pledges include converting 10,000 ha of cropland set-aside to perennial crops—about 0.4% of current agricultural area—developing 400 ha of net-house vegetable systems, substituting renewables in 20,000 photovoltaic pumps, and fattening 147,000 cattle in feedlots.\",\"targets\":[{\"commitment_type\":\"Both\",\"metric\":\"Pasture and soil-organic-carbon improvement\",\"value\":100000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.3% of current grassland area\"},{\"commitment_type\":\"Both\",\"metric\":\"Riparian buffer reinstatement\",\"value\":10000,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Okavango riparian buffer establishment or restoration\",\"value\":5000,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Urban green spaces and corridors\",\"value\":5000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈5.5% of current settlement-cover area\"},{\"commitment_type\":\"Both\",\"metric\":\"Riparian buffer establishment and restoration\",\"value\":1,\"unit\":\"riparian buffer\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"BAU sink potential enhancement\",\"value\":13,\"unit\":\"%\",\"timeframe\":\"in 2030\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Firebreak development\",\"value\":5000,\"unit\":\"km\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Cropland set-aside conversion to perennial cropland\",\"value\":10000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.4% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Net-house vegetable production systems\",\"value\":400,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.02% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Cattle fattening in feedlots\",\"value\":147000,\"unit\":\"heads of cattle\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Renewable-energy photovoltaic pumps\",\"value\":20000,\"unit\":\"units\",\"timeframe\":null,\"context\":null}]}",
+  "errors": []
+}

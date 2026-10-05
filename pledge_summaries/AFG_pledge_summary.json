@@ -1,0 +1,50 @@
+{
+  "iso3": "AFG",
+  "country": "Islamic Republic of Afghanistan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 643466.9,
+    "land_cover_km2": {
+      "Agriculture": 64918.0,
+      "Forest": 7146.0,
+      "Grassland": 250552.0,
+      "Wetland": 20.0,
+      "Settlement": 983.0,
+      "Shrubland": 18954.0,
+      "Sparse_vegetation": 44044.0,
+      "Bare_area": 253149.0,
+      "Water": 634.0
+    }
+  },
+  "summary": "Afghanistan’s agriculture pledge is to restore and develop irrigation systems until irrigated agricultural land reaches 3.14 M-ha, equivalent to about 48.4% of the country’s mapped 2022 agricultural area. For conservation, it aims to bring at least 10% of national land and selected species’ habitat under a conservation system. Its mixed forest-and-rangeland commitment calls for regeneration of at least 40% of existing degraded areas. The pledge estimates coverage at approximately 232,050 ha for forestry, equal to about 32.5% of current forest cover, and 5.35 million ha for rangelands, about 21.4% of current grassland cover. The latter percentages refer only to degraded forest and rangeland, whereas the land-cover comparisons use each class’s total current area; no timeframe is stated.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated agricultural land",
+      "value": 3.14,
+      "unit": "M-ha",
+      "timeframe": null,
+      "context": "The endpoint is ≈48.4% of current agricultural cover (64,918 km²)."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land and selected-species habitat under conservation",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": "10% of total land area, equivalent to approximately 64,347 km²; no denominator is stated for selected-species habitat."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Regeneration of degraded forests and rangelands",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Approximate coverage is 232,050 ha for forestry and 5.35 million ha for rangelands—≈32.5% of current forest and ≈21.4% of current grassland cover, respectively."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Afghanistan’s agriculture pledge is to restore and develop irrigation systems until irrigated agricultural land reaches 3.14 M-ha, equivalent to about 48.4% of the country’s mapped 2022 agricultural area. For conservation, it aims to bring at least 10% of national land and selected species’ habitat under a conservation system. Its mixed forest-and-rangeland commitment calls for regeneration of at least 40% of existing degraded areas. The pledge estimates coverage at approximately 232,050 ha for forestry, equal to about 32.5% of current forest cover, and 5.35 million ha for rangelands, about 21.4% of current grassland cover. The latter percentages refer only to degraded forest and rangeland, whereas the land-cover comparisons use each class’s total current area; no timeframe is stated.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated agricultural land\",\n      \"value\": 3.14,\n      \"unit\": \"M-ha\",\n      \"timeframe\": null,\n      \"context\": \"The endpoint is ≈48.4% of current agricultural cover (64,918 km²).\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land and selected-species habitat under conservation\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"10% of total land area, equivalent to approximately 64,347 km²; no denominator is stated for selected-species habitat.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Regeneration of degraded forests and rangelands\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Approximate coverage is 232,050 ha for forestry and 5.35 million ha for rangelands—≈32.5% of current forest and ≈21.4% of current grassland cover, respectively.\"\n    }\n  ]\n}",
+  "errors": []
+}

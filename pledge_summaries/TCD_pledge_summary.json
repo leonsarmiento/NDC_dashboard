@@ -1,0 +1,50 @@
+{
+  "iso3": "TCD",
+  "country": "Chad",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 2,
+  "geo_context": {
+    "country_area_km2": 1277148.4,
+    "land_cover_km2": {
+      "Agriculture": 235293.0,
+      "Forest": 47082.0,
+      "Grassland": 128373.0,
+      "Wetland": 6765.0,
+      "Settlement": 398.0,
+      "Shrubland": 129959.0,
+      "Sparse_vegetation": 92246.0,
+      "Bare_area": 633062.0,
+      "Water": 3925.0
+    }
+  },
+  "summary": "Chad's NDC is restoration-led and mixes restoration with conservation. Under the mixed (Both) category, Chad plans reforestation and afforestation to improve the carbon sink, committing under the Bonn Challenge to 5,000,000 hectares by 2030: 3,500,000 hectares in Sahelian shrub savannas and 1,500,000 hectares in Sudanian wooded savannas. The same passage separately states protection actions to avoid deforestation (877,000 ha) and restoration actions (50,000 ha) in an action plan by 2030. The Restoration passage reiterates the 5,000,000-hectare commitment, describing restoration of degraded and deforested land by 2030. For perspective, the 5,000,000 hectares amount to about 39% of Chad's mapped grassland (128,373 km2), although the pledge also covers shrub and wooded savannas; the 877,000 hectares are about 19% of mapped forest (47,082 km2). No agricultural pledge appears in these two passages.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and afforestation",
+      "value": 5000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Regional split: 3,500,000 ha in Sahelian shrub savannas and 1,500,000 ha in Sudanian wooded savannas; the combined 5,000,000 ha is about 39% of current mapped grassland (128,373 km2) for scale."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Protection to avoid deforestation",
+      "value": 877000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "About 18.6% of current mapped forest (47,082 km2) for scale."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Restoration actions in the action plan",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "About 1.1% of current mapped forest (47,082 km2) for scale."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Chad's NDC is restoration-led and mixes restoration with conservation. Under the mixed (Both) category, Chad plans reforestation and afforestation to improve the carbon sink, committing under the Bonn Challenge to 5,000,000 hectares by 2030: 3,500,000 hectares in Sahelian shrub savannas and 1,500,000 hectares in Sudanian wooded savannas. The same passage separately states protection actions to avoid deforestation (877,000 ha) and restoration actions (50,000 ha) in an action plan by 2030. The Restoration passage reiterates the 5,000,000-hectare commitment, describing restoration of degraded and deforested land by 2030. For perspective, the 5,000,000 hectares amount to about 39% of Chad's mapped grassland (128,373 km2), although the pledge also covers shrub and wooded savannas; the 877,000 hectares are about 19% of mapped forest (47,082 km2). No agricultural pledge appears in these two passages.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and afforestation\",\n      \"value\": 5000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Regional split: 3,500,000 ha in Sahelian shrub savannas and 1,500,000 ha in Sudanian wooded savannas; the combined 5,000,000 ha is about 39% of current mapped grassland (128,373 km2) for scale.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Protection to avoid deforestation\",\n      \"value\": 877000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"About 18.6% of current mapped forest (47,082 km2) for scale.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Restoration actions in the action plan\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"About 1.1% of current mapped forest (47,082 km2) for scale.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,914 @@
+{
+  "iso3": "BEN",
+  "country": "Benin",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 164,
+  "geo_context": {
+    "country_area_km2": 115912.7,
+    "land_cover_km2": {
+      "Agriculture": 42681.0,
+      "Forest": 47057.0,
+      "Grassland": 8.0,
+      "Wetland": 18.0,
+      "Settlement": 740.0,
+      "Shrubland": 25156.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 114.0
+    }
+  },
+  "summary": "Benin’s pledges combine restoration, conservation and agricultural transformation. For restoration, it targets at least 15,000 ha of reforestation annually through 2035 (150,000 ha), with a later target of 30,000 ha/year from 2029, equivalent to 210,000 ha by 2035; the latter cumulative area is about 4.5% of the country’s 47,057 km² forest cover. Conservation measures include cutting net deforestation to no more than 35,000 ha/year by 2035 and placing 950,958 ha under sustainable forest management in 2026–2030, with separate targets of 300,000 ha in 2028–2030 and 506,280 ha in 2030–2035. Agriculture dominates by scale: improved techniques and soil-fertility maintenance each cover 5,000,000 ha in 2021–2030, equivalent to about 117% of current agricultural area, while water-controlled rice land rises to 52,000 ha by 2035 and 70,000 ha by 2040. Integrated projects include 140,000 ha of mangrove restoration and 100,000 ha of old-cashew-plantation rehabilitation.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Classified forest ecosystems restored",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded forest ecosystems restored",
+      "value": 15806,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.34% of current forest cover; project text also states a 15,000-ha objective"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest landscape reforestation",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.06% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest land restored and enriched",
+      "value": 2712,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.06% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest plantations created, first phase",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": "first phase of 2026-2035",
+      "context": "≈1.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest plantations created, second phase",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": "second phase of 2026-2035",
+      "context": "≈3.2% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Cumulative national reforestation",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": "by 2030 / by 2035, as stated",
+      "context": "≈3.2% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Cumulative national reforestation",
+      "value": 210000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈4.5% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove restoration",
+      "value": 64,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove restoration",
+      "value": 102,
+      "unit": "ha",
+      "timeframe": "2030-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Municipal forest plantations, first phase",
+      "value": 489,
+      "unit": "ha",
+      "timeframe": "first phase of 2026-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Municipal forest plantations, second phase",
+      "value": 330,
+      "unit": "ha",
+      "timeframe": "second phase of 2026-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Conditional municipal forest plantations, first phase",
+      "value": 3500,
+      "unit": "ha",
+      "timeframe": "first phase of 2026-2035",
+      "context": "≈0.07% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Conditional municipal forest plantations, second phase",
+      "value": 2144,
+      "unit": "ha",
+      "timeframe": "second phase of 2026-2035",
+      "context": "≈0.05% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded quarry rehabilitation",
+      "value": 20,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.002% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Fast-growing seedling planting area",
+      "value": 20,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Allada commune reforestation",
+      "value": 24,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "School and CEG plantation establishment",
+      "value": 5,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Fishers’ reforestation intervention area",
+      "value": 5,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove planting and restoration",
+      "value": 170,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove restoration",
+      "value": 14,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove restoration",
+      "value": 50,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Plantation establishment",
+      "value": 12,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land development and restoration",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National reforestation rate",
+      "value": 15000,
+      "unit": "ha/year",
+      "timeframe": "2021-2030; at least through 2035",
+      "context": "≈0.32% of current forest area annually"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National reforestation rate",
+      "value": 30000,
+      "unit": "ha/year",
+      "timeframe": "from 2029",
+      "context": "≈0.64% of current forest area annually"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Local reforestation rate",
+      "value": 5,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈0.01% of current forest area annually"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Community forests established",
+      "value": 5,
+      "unit": "community forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "School nurseries established",
+      "value": 3,
+      "unit": "school nurseries",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation seedlings planted",
+      "value": 5000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Fast-growing plants planted",
+      "value": 6000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Fruit trees planted",
+      "value": 100000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "School establishments covered by greening plan",
+      "value": 32,
+      "unit": "school establishments",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-domain forest conservation and management",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈53.1% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest plantations under monitoring",
+      "value": 120000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.6% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Participatory forest management",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.1% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover under sustainable management",
+      "value": 950958,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈20.2% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover under sustainable management",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": "2028-2030",
+      "context": "≈6.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover under sustainable management",
+      "value": 506280,
+      "unit": "ha",
+      "timeframe": "2030-2035",
+      "context": "≈10.8% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystem land planted and maintained",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "first phase of 2026-2035",
+      "context": "≈0.64% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Communal forest creation",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net deforestation ceiling",
+      "value": 35000,
+      "unit": "ha/year",
+      "timeframe": "by 2035",
+      "context": "Rate cap equivalent to ≈0.74% of current forest area annually"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wildlife corridors identified and marked",
+      "value": 109,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Expected cumulative emissions reduction including forestry",
+      "value": 590.8,
+      "unit": "Mt CO₂-eq",
+      "timeframe": "2026-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Households accessing improved charcoal stoves",
+      "value": 20000,
+      "unit": "households",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area using improved agricultural techniques",
+      "value": 5000000,
+      "unit": "ha",
+      "timeframe": "2021-2030",
+      "context": "When considered separately, ≈117.1% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area using soil-fertility maintenance techniques",
+      "value": 5000000,
+      "unit": "ha",
+      "timeframe": "2021-2030",
+      "context": "When considered separately, ≈117.1% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under annual soil-fertility maintenance",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": "annually; horizon not stated",
+      "context": "≈11.7% of current agricultural area per stated annual intervention"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional irrigated area",
+      "value": 80000,
+      "unit": "ha",
+      "timeframe": "by 2033",
+      "context": "≈1.9% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Water-controlled rice area",
+      "value": 70000,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": "≈1.6% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New oil-palm plantation area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cashew plantation area",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cashew plantation expansion",
+      "value": 35000,
+      "unit": "ha",
+      "timeframe": "2020-2026",
+      "context": "≈0.8% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Water-controlled rice area",
+      "value": 52000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Private-sector rice area under water management",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New oil-palm plantation area",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.6% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice perimeters with water control",
+      "value": 17128,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice perimeters with water control in use",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "2028-2030",
+      "context": "≈0.12% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ongoing water-controlled rice projects",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.07% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Hydro-agricultural development",
+      "value": 2300,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.05% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated perimeters developed",
+      "value": 1927,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.05% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Oil-palm area planted",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice and vegetable production area",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Municipal water-controlled rice area, first phase",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": "2028-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Municipal water-controlled rice area, second phase",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": "2031-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice lowlands developed",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.01% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Lowlands for rice and vegetable production",
+      "value": 405,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.01% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ecological and organic agriculture intensity",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Municipal agricultural productivity multiplier",
+      "value": 2,
+      "unit": "times",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle watering and feeding space per site",
+      "value": 5,
+      "unit": "ha/site",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Soils protected or rehabilitated, range minimum",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Soils protected or rehabilitated, range maximum",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Irrigated perimeters rehabilitated",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded agricultural land rehabilitated",
+      "value": 200,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Niger Valley irrigated perimeters developed",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Classified-forest plantations and enrichment",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land restoration and forest plantations for biomass",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.06% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "River green belt",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.06% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Old cashew plantations rehabilitated",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.3% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural or degraded land restored",
+      "value": 15000,
+      "unit": "ha",
+      "timeframe": "by 2029",
+      "context": "≈0.35% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded land restored",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.12% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cashew agroforestry plantations",
+      "value": 350000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "≈8.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Plantain and banana agroforestry plantations",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "≈0.5% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Orange agroforestry plantations",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "≈0.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Oil-palm agroforestry plantations",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "≈0.12% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "African-apple agroforestry plantations",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "≈0.05% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Coconut agroforestry plantations",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "≈0.05% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mango agroforestry plantations",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Plantation and food-crop programme agroforestry area",
+      "value": 195000,
+      "unit": "ha",
+      "timeframe": "2026-2035 (conditional)",
+      "context": "Programme total equals ≈4.6% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove ecosystems restored",
+      "value": 140000,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈3.0% of current forest cover; includes 50,000 ha in nine municipalities and 90,000 ha in neighbouring municipalities"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest ecosystems restored",
+      "value": 60500,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈1.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watercourse banks reforested",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "first phase of 2026-2035",
+      "context": "≈0.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove ecosystems restored",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "first phase of 2026-2035",
+      "context": "≈0.11% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forest restoration area",
+      "value": 2,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watercourse protection zones reforested",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry plantations rehabilitated or created",
+      "value": 67.21,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fruit-tree agroforestry plantations",
+      "value": 5087,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.12% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry plantations rehabilitated or created",
+      "value": 5500,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.13% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community agroforestry projects",
+      "value": 574,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.01% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conditional community agroforestry projects, first phase",
+      "value": 1378,
+      "unit": "ha",
+      "timeframe": "first phase of 2028-2035",
+      "context": "≈0.03% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conditional community agroforestry projects, second phase",
+      "value": 801,
+      "unit": "ha",
+      "timeframe": "second phase of 2028-2035",
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural land restored with improved cropping",
+      "value": 14060,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": "≈0.33% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural land restored with improved cropping",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded agricultural land restored",
+      "value": 233119,
+      "unit": "ha",
+      "timeframe": "2028-2035",
+      "context": "≈5.5% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural fertility restored",
+      "value": 1250,
+      "unit": "ha",
+      "timeframe": "2028-2035",
+      "context": "≈0.03% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation project cost support, range minimum",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation project cost support, range maximum",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "African-afzelia trees planted",
+      "value": 2000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-resilient trees planted",
+      "value": 2000,
+      "unit": "plants",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Local community members involved",
+      "value": 50,
+      "unit": "community members",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Benin’s pledges combine restoration, conservation and agricultural transformation. For restoration, it targets at least 15,000 ha of reforestation annually through 2035 (150,000 ha), with a later target of 30,000 ha/year from 2029, equivalent to 210,000 ha by 2035; the latter cumulative area is about 4.5% of the country’s 47,057 km² forest cover. Conservation measures include cutting net deforestation to no more than 35,000 ha/year by 2035 and placing 950,958 ha under sustainable forest management in 2026–2030, with separate targets of 300,000 ha in 2028–2030 and 506,280 ha in 2030–2035. Agriculture dominates by scale: improved techniques and soil-fertility maintenance each cover 5,000,000 ha in 2021–2030, equivalent to about 117% of current agricultural area, while water-controlled rice land rises to 52,000 ha by 2035 and 70,000 ha by 2040. Integrated projects include 140,000 ha of mangrove restoration and 100,000 ha of old-cashew-plantation rehabilitation.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Classified forest ecosystems restored\",\"value\":20000,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.4% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Degraded forest ecosystems restored\",\"value\":15806,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.34% of current forest cover; project text also states a 15,000-ha objective\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Forest landscape reforestation\",\"value\":3000,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.06% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Forest land restored and enriched\",\"value\":2712,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.06% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Forest plantations created, first phase\",\"value\":60000,\"unit\":\"ha\",\"timeframe\":\"first phase of 2026-2035\",\"context\":\"≈1.3% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Forest plantations created, second phase\",\"value\":150000,\"unit\":\"ha\",\"timeframe\":\"second phase of 2026-2035\",\"context\":\"≈3.2% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Cumulative national reforestation\",\"value\":150000,\"unit\":\"ha\",\"timeframe\":\"by 2030 / by 2035, as stated\",\"context\":\"≈3.2% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Cumulative national reforestation\",\"value\":210000,\"unit\":\"ha\",\"timeframe\":\"by 2035\",\"context\":\"≈4.5% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove restoration\",\"value\":64,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove restoration\",\"value\":102,\"unit\":\"ha\",\"timeframe\":\"2030-2035\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Municipal forest plantations, first phase\",\"value\":489,\"unit\":\"ha\",\"timeframe\":\"first phase of 2026-2035\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Municipal forest plantations, second phase\",\"value\":330,\"unit\":\"ha\",\"timeframe\":\"second phase of 2026-2035\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Conditional municipal forest plantations, first phase\",\"value\":3500,\"unit\":\"ha\",\"timeframe\":\"first phase of 2026-2035\",\"context\":\"≈0.07% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Conditional municipal forest plantations, second phase\",\"value\":2144,\"unit\":\"ha\",\"timeframe\":\"second phase of 2026-2035\",\"context\":\"≈0.05% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Degraded quarry rehabilitation\",\"value\":20,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Reforestation\",\"value\":100,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.002% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Fast-growing seedling planting area\",\"value\":20,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Allada commune reforestation\",\"value\":24,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"School and CEG plantation establishment\",\"value\":5,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Fishers’ reforestation intervention area\",\"value\":5,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove planting and restoration\",\"value\":170,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove restoration\",\"value\":14,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Mangrove restoration\",\"value\":50,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Plantation establishment\",\"value\":12,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Land development and restoration\",\"value\":1000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.02% of current forest cover\"},{\"commitment_type\":\"Restoration\",\"metric\":\"National reforestation rate\",\"value\":15000,\"unit\":\"ha/year\",\"timeframe\":\"2021-2030; at least through 2035\",\"context\":\"≈0.32% of current forest area annually\"},{\"commitment_type\":\"Restoration\",\"metric\":\"National reforestation rate\",\"value\":30000,\"unit\":\"ha/year\",\"timeframe\":\"from 2029\",\"context\":\"≈0.64% of current forest area annually\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Local reforestation rate\",\"value\":5,\"unit\":\"ha/year\",\"timeframe\":null,\"context\":\"≈0.01% of current forest area annually\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Community forests established\",\"value\":5,\"unit\":\"community forests\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"School nurseries established\",\"value\":3,\"unit\":\"school nurseries\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Reforestation seedlings planted\",\"value\":5000,\"unit\":\"plants\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Fast-growing plants planted\",\"value\":6000,\"unit\":\"plants\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Fruit trees planted\",\"value\":100000,\"unit\":\"plants\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"School establishments covered by greening plan\",\"value\":32,\"unit\":\"school establishments\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Protected-domain forest conservation and management\",\"value\":2500000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈53.1% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Forest plantations under monitoring\",\"value\":120000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈2.6% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Participatory forest management\",\"value\":100000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈2.1% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Forest cover under sustainable management\",\"value\":950958,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈20.2% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Forest cover under sustainable management\",\"value\":300000,\"unit\":\"ha\",\"timeframe\":\"2028-2030\",\"context\":\"≈6.4% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Forest cover under sustainable management\",\"value\":506280,\"unit\":\"ha\",\"timeframe\":\"2030-2035\",\"context\":\"≈10.8% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Ecosystem land planted and maintained\",\"value\":30000,\"unit\":\"ha\",\"timeframe\":\"first phase of 2026-2035\",\"context\":\"≈0.64% of current forest cover\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Communal forest creation\",\"value\":100,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Net deforestation ceiling\",\"value\":35000,\"unit\":\"ha/year\",\"timeframe\":\"by 2035\",\"context\":\"Rate cap equivalent to ≈0.74% of current forest area annually\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Wildlife corridors identified and marked\",\"value\":109,\"unit\":\"km\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Expected cumulative emissions reduction including forestry\",\"value\":590.8,\"unit\":\"Mt CO₂-eq\",\"timeframe\":\"2026-2035\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Households accessing improved charcoal stoves\",\"value\":20000,\"unit\":\"households\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Area using improved agricultural techniques\",\"value\":5000000,\"unit\":\"ha\",\"timeframe\":\"2021-2030\",\"context\":\"When considered separately, ≈117.1% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Area using soil-fertility maintenance techniques\",\"value\":5000000,\"unit\":\"ha\",\"timeframe\":\"2021-2030\",\"context\":\"When considered separately, ≈117.1% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Area under annual soil-fertility maintenance\",\"value\":500000,\"unit\":\"ha\",\"timeframe\":\"annually; horizon not stated\",\"context\":\"≈11.7% of current agricultural area per stated annual intervention\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Additional irrigated area\",\"value\":80000,\"unit\":\"ha\",\"timeframe\":\"by 2033\",\"context\":\"≈1.9% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Water-controlled rice area\",\"value\":70000,\"unit\":\"ha\",\"timeframe\":\"by 2040\",\"context\":\"≈1.6% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"New oil-palm plantation area\",\"value\":50000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈1.2% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Cashew plantation area\",\"value\":60000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈1.4% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Cashew plantation expansion\",\"value\":35000,\"unit\":\"ha\",\"timeframe\":\"2020-2026\",\"context\":\"≈0.8% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Water-controlled rice area\",\"value\":52000,\"unit\":\"ha\",\"timeframe\":\"by 2035\",\"context\":\"≈1.2% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Private-sector rice area under water management\",\"value\":30000,\"unit\":\"ha\",\"timeframe\":\"by 2035\",\"context\":\"≈0.7% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"New oil-palm plantation area\",\"value\":25000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.6% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Rice perimeters with water control\",\"value\":17128,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.4% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Rice perimeters with water control in use\",\"value\":5000,\"unit\":\"ha\",\"timeframe\":\"2028-2030\",\"context\":\"≈0.12% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Ongoing water-controlled rice projects\",\"value\":3000,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.07% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Hydro-agricultural development\",\"value\":2300,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.05% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Irrigated perimeters developed\",\"value\":1927,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.05% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Oil-palm area planted\",\"value\":1000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.02% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Rice and vegetable production area\",\"value\":1000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.02% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Municipal water-controlled rice area, first phase\",\"value\":100,\"unit\":\"ha\",\"timeframe\":\"2028-2030\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Municipal water-controlled rice area, second phase\",\"value\":100,\"unit\":\"ha\",\"timeframe\":\"2031-2035\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Rice lowlands developed\",\"value\":500,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.01% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Lowlands for rice and vegetable production\",\"value\":405,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.01% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Ecological and organic agriculture intensity\",\"value\":10,\"unit\":\"%\",\"timeframe\":\"by 2035\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Municipal agricultural productivity multiplier\",\"value\":2,\"unit\":\"times\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Cattle watering and feeding space per site\",\"value\":5,\"unit\":\"ha/site\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Soils protected or rehabilitated, range minimum\",\"value\":30000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.7% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Soils protected or rehabilitated, range maximum\",\"value\":50000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈1.2% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Irrigated perimeters rehabilitated\",\"value\":1000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.02% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Degraded agricultural land rehabilitated\",\"value\":200,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Niger Valley irrigated perimeters developed\",\"value\":500,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Classified-forest plantations and enrichment\",\"value\":20000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.4% of current forest cover\"},{\"commitment_type\":\"Both\",\"metric\":\"Land restoration and forest plantations for biomass\",\"value\":3000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.06% of current forest cover\"},{\"commitment_type\":\"Both\",\"metric\":\"River green belt\",\"value\":3000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.06% of current forest cover\"},{\"commitment_type\":\"Both\",\"metric\":\"Old cashew plantations rehabilitated\",\"value\":100000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈2.3% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Agricultural or degraded land restored\",\"value\":15000,\"unit\":\"ha\",\"timeframe\":\"by 2029\",\"context\":\"≈0.35% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Degraded land restored\",\"value\":5000,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.12% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Cashew agroforestry plantations\",\"value\":350000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"≈8.2% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Plantain and banana agroforestry plantations\",\"value\":20000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"≈0.5% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Orange agroforestry plantations\",\"value\":10000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"≈0.2% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Oil-palm agroforestry plantations\",\"value\":5000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"≈0.12% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"African-apple agroforestry plantations\",\"value\":2000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"≈0.05% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Coconut agroforestry plantations\",\"value\":2000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"≈0.05% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Mango agroforestry plantations\",\"value\":1000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"≈0.02% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Plantation and food-crop programme agroforestry area\",\"value\":195000,\"unit\":\"ha\",\"timeframe\":\"2026-2035 (conditional)\",\"context\":\"Programme total equals ≈4.6% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Mangrove ecosystems restored\",\"value\":140000,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈3.0% of current forest cover; includes 50,000 ha in nine municipalities and 90,000 ha in neighbouring municipalities\"},{\"commitment_type\":\"Both\",\"metric\":\"Forest ecosystems restored\",\"value\":60500,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈1.3% of current forest cover\"},{\"commitment_type\":\"Both\",\"metric\":\"Watercourse banks reforested\",\"value\":20000,\"unit\":\"ha\",\"timeframe\":\"first phase of 2026-2035\",\"context\":\"≈0.4% of current forest cover\"},{\"commitment_type\":\"Both\",\"metric\":\"Mangrove ecosystems restored\",\"value\":5000,\"unit\":\"ha\",\"timeframe\":\"first phase of 2026-2035\",\"context\":\"≈0.11% of current forest cover\"},{\"commitment_type\":\"Both\",\"metric\":\"Degraded forest restoration area\",\"value\":2,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Watercourse protection zones reforested\",\"value\":500,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Agroforestry plantations rehabilitated or created\",\"value\":67.21,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Fruit-tree agroforestry plantations\",\"value\":5087,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.12% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Agroforestry plantations rehabilitated or created\",\"value\":5500,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.13% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Community agroforestry projects\",\"value\":574,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.01% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Conditional community agroforestry projects, first phase\",\"value\":1378,\"unit\":\"ha\",\"timeframe\":\"first phase of 2028-2035\",\"context\":\"≈0.03% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Conditional community agroforestry projects, second phase\",\"value\":801,\"unit\":\"ha\",\"timeframe\":\"second phase of 2028-2035\",\"context\":\"≈0.02% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Agricultural land restored with improved cropping\",\"value\":14060,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":\"≈0.33% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Agricultural land restored with improved cropping\",\"value\":100,\"unit\":\"ha\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Degraded agricultural land restored\",\"value\":233119,\"unit\":\"ha\",\"timeframe\":\"2028-2035\",\"context\":\"≈5.5% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Agricultural fertility restored\",\"value\":1250,\"unit\":\"ha\",\"timeframe\":\"2028-2035\",\"context\":\"≈0.03% of current agricultural area\"},{\"commitment_type\":\"Both\",\"metric\":\"Reforestation project cost support, range minimum\",\"value\":10,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Reforestation project cost support, range maximum\",\"value\":20,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"African-afzelia trees planted\",\"value\":2000,\"unit\":\"plants\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Climate-resilient trees planted\",\"value\":2000,\"unit\":\"plants\",\"timeframe\":\"2026-2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Local community members involved\",\"value\":50,\"unit\":\"community members\",\"timeframe\":null,\"context\":null}]}",
+  "errors": []
+}

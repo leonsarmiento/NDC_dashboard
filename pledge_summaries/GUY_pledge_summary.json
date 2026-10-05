@@ -1,0 +1,98 @@
+{
+  "iso3": "GUY",
+  "country": "Guyana",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 7,
+  "geo_context": {
+    "country_area_km2": 211683.5,
+    "land_cover_km2": {
+      "Agriculture": 2797.0,
+      "Forest": 196477.0,
+      "Grassland": 1003.0,
+      "Wetland": 1264.0,
+      "Settlement": 201.0,
+      "Shrubland": 9321.0,
+      "Sparse_vegetation": 18.0,
+      "Bare_area": 35.0,
+      "Water": 554.0
+    }
+  },
+  "summary": "Conservation dominates: Guyana reports forest at approximately 85% of the national territory and 18 million hectares at end-2022, and targets annual emissions reductions of 21,653,431 tCO2e from sustainable forest management and conservation (0.1% of forest carbon stock). It commits 50% of GFC staff to field monitoring, rising to 60% by 2030 and 65% by 2035; carbon-credit revenue is intended to benefit 80% of Indigenous villages and communities by 2030 and 100% by 2035. The agriculture pledge uses carbon-market revenues from 2016-2025 to sustainably irrigate 100,000 acres and strengthen drainage and irrigation resilience; this is about 405 km2, or 14.5% of mapped agricultural area (2,797 km2). The 18-million-hectare estimate corresponds to about 91.6% of mapped forest (196,477 km2, 92.8% of country).",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover reported",
+      "value": 85,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The 2022 map records 196,477 km2 (92.8%) as forest, compared with the passage's approximate 85% national-territory figure."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Staff dedicated to forest field monitoring",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Staff dedicated to forest field monitoring",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Staff dedicated to forest field monitoring",
+      "value": 65,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Share of Indigenous villages and communities benefiting from carbon-credit revenue",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Share of Indigenous villages and communities benefiting from carbon-credit revenue",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area reported",
+      "value": 18000000,
+      "unit": "hectares",
+      "timeframe": "end of 2022",
+      "context": "Approximately 180,000 km2, about 85.0% of total land area (211,684 km2) and 91.6% of mapped forest (196,477 km2)."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual emissions reductions from sustainable forest management and conservation",
+      "value": 21653431,
+      "unit": "tCO2e",
+      "timeframe": "annually",
+      "context": "The passage links the reduction to 0.1% of forest carbon stock and cites 21,653,431,243 tCO2 of storage capacity including soil carbon."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land under sustainable irrigation",
+      "value": 100000,
+      "unit": "acres",
+      "timeframe": "2016-2025",
+      "context": "Approximately 405 km2 equivalent, or 14.5% of the mapped 2,797 km2 agricultural area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation dominates: Guyana reports forest at approximately 85% of the national territory and 18 million hectares at end-2022, and targets annual emissions reductions of 21,653,431 tCO2e from sustainable forest management and conservation (0.1% of forest carbon stock). It commits 50% of GFC staff to field monitoring, rising to 60% by 2030 and 65% by 2035; carbon-credit revenue is intended to benefit 80% of Indigenous villages and communities by 2030 and 100% by 2035. The agriculture pledge uses carbon-market revenues from 2016-2025 to sustainably irrigate 100,000 acres and strengthen drainage and irrigation resilience; this is about 405 km2, or 14.5% of mapped agricultural area (2,797 km2). The 18-million-hectare estimate corresponds to about 91.6% of mapped forest (196,477 km2, 92.8% of country).\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover reported\",\n      \"value\": 85,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The 2022 map records 196,477 km2 (92.8%) as forest, compared with the passage's approximate 85% national-territory figure.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Staff dedicated to forest field monitoring\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Staff dedicated to forest field monitoring\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Staff dedicated to forest field monitoring\",\n      \"value\": 65,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Share of Indigenous villages and communities benefiting from carbon-credit revenue\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Share of Indigenous villages and communities benefiting from carbon-credit revenue\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest area reported\",\n      \"value\": 18000000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"end of 2022\",\n      \"context\": \"Approximately 180,000 km2, about 85.0% of total land area (211,684 km2) and 91.6% of mapped forest (196,477 km2).\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual emissions reductions from sustainable forest management and conservation\",\n      \"value\": 21653431,\n      \"unit\": \"tCO2e\",\n      \"timeframe\": \"annually\",\n      \"context\": \"The passage links the reduction to 0.1% of forest carbon stock and cites 21,653,431,243 tCO2 of storage capacity including soil carbon.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural land under sustainable irrigation\",\n      \"value\": 100000,\n      \"unit\": \"acres\",\n      \"timeframe\": \"2016-2025\",\n      \"context\": \"Approximately 405 km2 equivalent, or 14.5% of the mapped 2,797 km2 agricultural area.\"\n    }\n  ]\n}",
+  "errors": []
+}

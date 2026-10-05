@@ -1,0 +1,74 @@
+{
+  "iso3": "KEN",
+  "country": "Kenya",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 6,
+  "geo_context": {
+    "country_area_km2": 586021.9,
+    "land_cover_km2": {
+      "Agriculture": 140765.0,
+      "Forest": 98545.0,
+      "Grassland": 136359.0,
+      "Wetland": 8839.0,
+      "Settlement": 732.0,
+      "Shrubland": 167859.0,
+      "Sparse_vegetation": 3179.0,
+      "Bare_area": 17328.0,
+      "Water": 12443.0
+    }
+  },
+  "summary": "Kenya's ecosystem pledges combine conservation, agricultural production and mixed land-use measures. The conservation agenda seeks progress toward at least 10% tree cover; as a scale reference, that is about 58,602 km², or 59.5% of the current mapped forest area (98,545 km², 16.8% of the country), alongside a 40% increase from the baseline in companies participating in energy-efficient water-use initiatives. Agriculture pledges establish at least 2,000 hectares for nature-based non-wood-forest-product enterprises and plant 350,000 agroforestry trees in farmlands; the supplied agricultural class covers 140,765 km² (24.0% of the country). Mixed commitments establish 150,000 hectares of commercial private forest plantations—about 1.5% of current forest area—and green 14,000 hectares of infrastructure and coastal ecosystems, roughly 0.024% of total land area. No dates are stated for these targets, and the water-use initiative's baseline is unspecified.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Tree cover as a share of land area",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Scale reference: the 10% threshold equals about 58,602 km², or 59.5% of the current mapped forest area (98,545 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Increase in companies participating in energy-efficient water-use initiatives",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area to promote nature-based non-wood forest products enterprises",
+      "value": 2000,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "Scale reference: 2,000 hectares is about 20 km², or 0.014% of current agricultural area (140,765 km²); no specific geographic allocation is stated"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry trees planted in farmlands",
+      "value": 350000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "The supplied agricultural class covers 140,765 km² (24.0% of Kenya), but no planting density or spatial allocation is stated"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Commercial private forest plantation area",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Scale reference: 150,000 ha equals 1,500 km², about 1.5% of current forest area (98,545 km²)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Greening area for infrastructure and coastal ecosystems",
+      "value": 14000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Scale reference: 14,000 ha equals 140 km², about 0.024% of total land area (586,022 km²); no ecosystem breakdown is stated"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Kenya's ecosystem pledges combine conservation, agricultural production and mixed land-use measures. The conservation agenda seeks progress toward at least 10% tree cover; as a scale reference, that is about 58,602 km², or 59.5% of the current mapped forest area (98,545 km², 16.8% of the country), alongside a 40% increase from the baseline in companies participating in energy-efficient water-use initiatives. Agriculture pledges establish at least 2,000 hectares for nature-based non-wood-forest-product enterprises and plant 350,000 agroforestry trees in farmlands; the supplied agricultural class covers 140,765 km² (24.0% of the country). Mixed commitments establish 150,000 hectares of commercial private forest plantations—about 1.5% of current forest area—and green 14,000 hectares of infrastructure and coastal ecosystems, roughly 0.024% of total land area. No dates are stated for these targets, and the water-use initiative's baseline is unspecified.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Tree cover as a share of land area\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Scale reference: the 10% threshold equals about 58,602 km², or 59.5% of the current mapped forest area (98,545 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Increase in companies participating in energy-efficient water-use initiatives\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area to promote nature-based non-wood forest products enterprises\",\n      \"value\": 2000,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"Scale reference: 2,000 hectares is about 20 km², or 0.014% of current agricultural area (140,765 km²); no specific geographic allocation is stated\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry trees planted in farmlands\",\n      \"value\": 350000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"The supplied agricultural class covers 140,765 km² (24.0% of Kenya), but no planting density or spatial allocation is stated\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Commercial private forest plantation area\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Scale reference: 150,000 ha equals 1,500 km², about 1.5% of current forest area (98,545 km²)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Greening area for infrastructure and coastal ecosystems\",\n      \"value\": 14000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Scale reference: 14,000 ha equals 140 km², about 0.024% of total land area (586,022 km²); no ecosystem breakdown is stated\"\n    }\n  ]\n}",
+  "errors": []
+}

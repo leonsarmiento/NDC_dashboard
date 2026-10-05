@@ -1,0 +1,66 @@
+{
+  "iso3": "HRV",
+  "country": "Croatia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 7,
+  "geo_context": {
+    "country_area_km2": 56574.4,
+    "land_cover_km2": {
+      "Agriculture": 23631.0,
+      "Forest": 26444.0,
+      "Grassland": 3089.0,
+      "Wetland": 315.0,
+      "Settlement": 776.0,
+      "Shrubland": 950.0,
+      "Sparse_vegetation": 297.0,
+      "Bare_area": 75.0,
+      "Water": 1013.0
+    }
+  },
+  "summary": "Most quantified commitments in Croatia's submission are framed at EU level rather than as Croatia-specific allocations. For conservation, the EU LULUCF target is 310 million tonnes of CO2 equivalent in net removals by 2030. Restoration measures are to cover at least 20% of EU land areas and 20% of EU sea areas by 2030, with measures in place for all ecosystems that need restoration by 2050. The reported potential from rewetting and restoring peatlands and wetlands is 51–54 Mt CO2-eq/yr. The mixed, biodiversity-respecting reforestation and sustainable-forest-management measure has a reported potential of 8–235 Mt CO2-eq/yr, while improved fertiliser-use efficiency is associated with 19 Mt CO2-eq/yr in agriculture. Croatia's current cover includes 26,444 km² of forest (46.7%), 23,631 km² of agriculture (41.8%) and 315 km² of wetland (0.6%), but no quantified Croatian shares are given.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF net greenhouse-gas removals",
+      "value": 310000000.0,
+      "unit": "tonnes of CO2 equivalent",
+      "timeframe": "by 2030",
+      "context": "Collective EU target; the same commitment is also reported as 310 Mt CO2 and -310 Mt CO2-eq for the carbon sink. Croatia's forest cover is 26,444 km² (46.7%), but no national allocation is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land and sea areas under restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide target of 20% for land areas and 20% for sea areas; it is not a Croatia-specific share. Croatia is 46.7% forest and 41.8% agriculture."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland rewetting and restoration mitigation potential",
+      "value": 51.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU mitigation potential is reported as 51–54 Mt CO2-eq/yr; the value shows the lower endpoint. Croatia's wetland cover is 315 km² (0.6%)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential",
+      "value": 8.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Reported mitigation potential is 8–235 Mt CO2-eq/yr; the value shows the lower endpoint. Croatia's forest cover is 26,444 km² (46.7%)."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertiliser-use efficiency mitigation potential",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Reported agricultural mitigation potential; Croatia's agriculture covers 23,631 km² (41.8%), but no area-based Croatian share is specified."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Most quantified commitments in Croatia's submission are framed at EU level rather than as Croatia-specific allocations. For conservation, the EU LULUCF target is 310 million tonnes of CO2 equivalent in net removals by 2030. Restoration measures are to cover at least 20% of EU land areas and 20% of EU sea areas by 2030, with measures in place for all ecosystems that need restoration by 2050. The reported potential from rewetting and restoring peatlands and wetlands is 51–54 Mt CO2-eq/yr. The mixed, biodiversity-respecting reforestation and sustainable-forest-management measure has a reported potential of 8–235 Mt CO2-eq/yr, while improved fertiliser-use efficiency is associated with 19 Mt CO2-eq/yr in agriculture. Croatia's current cover includes 26,444 km² of forest (46.7%), 23,631 km² of agriculture (41.8%) and 315 km² of wetland (0.6%), but no quantified Croatian shares are given.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF net greenhouse-gas removals\",\n      \"value\": 310000000.0,\n      \"unit\": \"tonnes of CO2 equivalent\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Collective EU target; the same commitment is also reported as 310 Mt CO2 and -310 Mt CO2-eq for the carbon sink. Croatia's forest cover is 26,444 km² (46.7%), but no national allocation is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land and sea areas under restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide target of 20% for land areas and 20% for sea areas; it is not a Croatia-specific share. Croatia is 46.7% forest and 41.8% agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland rewetting and restoration mitigation potential\",\n      \"value\": 51.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU mitigation potential is reported as 51–54 Mt CO2-eq/yr; the value shows the lower endpoint. Croatia's wetland cover is 315 km² (0.6%).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential\",\n      \"value\": 8.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Reported mitigation potential is 8–235 Mt CO2-eq/yr; the value shows the lower endpoint. Croatia's forest cover is 26,444 km² (46.7%).\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertiliser-use efficiency mitigation potential\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Reported agricultural mitigation potential; Croatia's agriculture covers 23,631 km² (41.8%), but no area-based Croatian share is specified.\"\n    }\n  ]\n}",
+  "errors": []
+}

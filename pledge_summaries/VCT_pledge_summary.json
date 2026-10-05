@@ -1,0 +1,194 @@
+{
+  "iso3": "VCT",
+  "country": "Saint Vincent and the Grenadines",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 45,
+  "geo_context": {
+    "country_area_km2": 388.9,
+    "land_cover_km2": {
+      "Agriculture": 24.0,
+      "Forest": 324.0,
+      "Grassland": 1.0,
+      "Wetland": 0.0,
+      "Settlement": 8.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 9.0,
+      "Water": 22.0
+    }
+  },
+  "summary": "Conservation pledges include protecting 20% of nearshore marine and coastal resources by 2020 and gender-responsive forest-carbon-sink stewardship: 30% women’s representation, 40% higher workshop/campaign participation, 70% consultation input, 60% training/certification and 80% completion by 2025–2026. Training commitments cover 500 women in water management by 2027 and 500 women and youth in sustainable tourism by 2028. Restoration/forestry actions extending to 2030 emphasize REDD+, reforestation, afforestation, sustainable forest management, mangroves and land-degradation neutrality, but state no hectare target, so no share of the country’s 324 km² forest cover (83.3%) can be quantified; agriculture occupies 24 km² (6.2%). Agriculture pledges focus on inclusion rather than acreage: 50–80% platform use, training, insurance coverage or extension-service targeting, a 30% financing increase for women/youth-led initiatives, 100 youth innovators and 20 projects by 2025, and three agri-tech projects by 2028. Mixed pledges support 50 women entrepreneurs, 30 network members and one climate-innovation hub.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Nearshore marine and coastal resources protected",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2020",
+      "context": "The 22 km² water class is not a directly comparable baseline for nearshore marine and coastal resources."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum women’s representation in nature-based-solution and carbon-sink decision-making bodies",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2025 (an associated indicator states 2024)",
+      "context": "Forest covers 324 km² (83.3% of the country); the target concerns representation, not forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Increase in women and youth participation in workshops and campaigns",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by the end of 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum consultation input from women and youth in carbon-sink areas",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Women and youth of working age trained and certified for nature-based solutions and carbon-sink maintenance",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by the end of 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Women and youth training-program completion rate",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Women trained in water management and conservation",
+      "value": 500,
+      "unit": "women",
+      "timeframe": "by 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Women and youth targeted for sustainable-tourism training",
+      "value": 500,
+      "unit": "women and youth",
+      "timeframe": "by 2028",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum community-driven tourism enterprises established",
+      "value": 5,
+      "unit": "community-driven tourism enterprises",
+      "timeframe": "by the end of 2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Women and youth participation in the Ministry of Agriculture digital platform",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by the end of 2026",
+      "context": "Agriculture covers 24 km² (6.2% of the country); this is user participation, not land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Women and youth farmers receiving climate-smart training",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2027",
+      "context": "Agriculture covers 24 km² (6.2% of the country); the target concerns farmer coverage, not farmland area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in climate-adaptation financing for women- and youth-led agricultural initiatives",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Women and youth trained in climate-smart agriculture and sustainable farming practices",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2027",
+      "context": "Agriculture covers 24 km² (6.2% of the country); this is participant coverage, not farmland area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vulnerable women and youth farmers covered by weather-indexed insurance",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2028",
+      "context": "Insurance coverage is measured among vulnerable farmers, not as a share of the current 24 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural extension services and support programs directly targeting vulnerable women and youth",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2029",
+      "context": "The target applies to extension-service targeting, not to the current 24 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum youth-led agri-tech projects supporting climate-resilient agriculture",
+      "value": 3,
+      "unit": "projects",
+      "timeframe": "by 2028",
+      "context": "No project footprint is stated relative to the current 24 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Youth-led climate innovators receiving training and mentorship",
+      "value": 100,
+      "unit": "youth-led climate innovators",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Circular economy-based youth-led climate projects funded",
+      "value": 20,
+      "unit": "circular economy-based youth-led climate projects",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Women entrepreneurs empowered to initiate climate-resilient projects",
+      "value": 50,
+      "unit": "women entrepreneurs",
+      "timeframe": "by 2024",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Women-led green enterprise network membership",
+      "value": 30,
+      "unit": "members",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Youth-led climate innovation hub launched",
+      "value": 1,
+      "unit": "youth-led climate innovation hub",
+      "timeframe": "by 2023",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation pledges include protecting 20% of nearshore marine and coastal resources by 2020 and gender-responsive forest-carbon-sink stewardship: 30% women’s representation, 40% higher workshop/campaign participation, 70% consultation input, 60% training/certification and 80% completion by 2025–2026. Training commitments cover 500 women in water management by 2027 and 500 women and youth in sustainable tourism by 2028. Restoration/forestry actions extending to 2030 emphasize REDD+, reforestation, afforestation, sustainable forest management, mangroves and land-degradation neutrality, but state no hectare target, so no share of the country’s 324 km² forest cover (83.3%) can be quantified; agriculture occupies 24 km² (6.2%). Agriculture pledges focus on inclusion rather than acreage: 50–80% platform use, training, insurance coverage or extension-service targeting, a 30% financing increase for women/youth-led initiatives, 100 youth innovators and 20 projects by 2025, and three agri-tech projects by 2028. Mixed pledges support 50 women entrepreneurs, 30 network members and one climate-innovation hub.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Nearshore marine and coastal resources protected\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2020\",\n      \"context\": \"The 22 km² water class is not a directly comparable baseline for nearshore marine and coastal resources.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum women’s representation in nature-based-solution and carbon-sink decision-making bodies\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025 (an associated indicator states 2024)\",\n      \"context\": \"Forest covers 324 km² (83.3% of the country); the target concerns representation, not forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Increase in women and youth participation in workshops and campaigns\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by the end of 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum consultation input from women and youth in carbon-sink areas\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Women and youth of working age trained and certified for nature-based solutions and carbon-sink maintenance\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by the end of 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Women and youth training-program completion rate\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Women trained in water management and conservation\",\n      \"value\": 500,\n      \"unit\": \"women\",\n      \"timeframe\": \"by 2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Women and youth targeted for sustainable-tourism training\",\n      \"value\": 500,\n      \"unit\": \"women and youth\",\n      \"timeframe\": \"by 2028\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum community-driven tourism enterprises established\",\n      \"value\": 5,\n      \"unit\": \"community-driven tourism enterprises\",\n      \"timeframe\": \"by the end of 2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Women and youth participation in the Ministry of Agriculture digital platform\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by the end of 2026\",\n      \"context\": \"Agriculture covers 24 km² (6.2% of the country); this is user participation, not land area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Women and youth farmers receiving climate-smart training\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2027\",\n      \"context\": \"Agriculture covers 24 km² (6.2% of the country); the target concerns farmer coverage, not farmland area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in climate-adaptation financing for women- and youth-led agricultural initiatives\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Women and youth trained in climate-smart agriculture and sustainable farming practices\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2027\",\n      \"context\": \"Agriculture covers 24 km² (6.2% of the country); this is participant coverage, not farmland area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vulnerable women and youth farmers covered by weather-indexed insurance\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2028\",\n      \"context\": \"Insurance coverage is measured among vulnerable farmers, not as a share of the current 24 km² agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural extension services and support programs directly targeting vulnerable women and youth\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2029\",\n      \"context\": \"The target applies to extension-service targeting, not to the current 24 km² agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum youth-led agri-tech projects supporting climate-resilient agriculture\",\n      \"value\": 3,\n      \"unit\": \"projects\",\n      \"timeframe\": \"by 2028\",\n      \"context\": \"No project footprint is stated relative to the current 24 km² agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Youth-led climate innovators receiving training and mentorship\",\n      \"value\": 100,\n      \"unit\": \"youth-led climate innovators\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Circular economy-based youth-led climate projects funded\",\n      \"value\": 20,\n      \"unit\": \"circular economy-based youth-led climate projects\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Women entrepreneurs empowered to initiate climate-resilient projects\",\n      \"value\": 50,\n      \"unit\": \"women entrepreneurs\",\n      \"timeframe\": \"by 2024\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Women-led green enterprise network membership\",\n      \"value\": 30,\n      \"unit\": \"members\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Youth-led climate innovation hub launched\",\n      \"value\": 1,\n      \"unit\": \"youth-led climate innovation hub\",\n      \"timeframe\": \"by 2023\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

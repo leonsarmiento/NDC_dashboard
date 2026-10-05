@@ -1,0 +1,122 @@
+{
+  "iso3": "WSM",
+  "country": "Samoa",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 42,
+  "geo_context": {
+    "country_area_km2": 2845.1,
+    "land_cover_km2": {
+      "Agriculture": 1802.0,
+      "Forest": 999.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 41.0
+    }
+  },
+  "summary": "Restoration pledges seek a 5% mangrove expansion by 2030 relative to 2018. Mixed marine–AFOLU commitments seek a 5% mangrove expansion by 2035 relative to 2022 and a 1.6% rise in forest cover, about 16.0 km² of the 999 km² forest (35.1% of land) mapped in 2022; another pledge targets 2% forest growth by 2030 relative to 2013. Conservation commitments expand Central Savaii Rainforest protection from 13.3% to 50% by 2035, extend community aquaculture or fisheries management to 60% of 310 villages (186), and establish three national fisheries service hubs. Agriculture targets include an additional 5% of agricultural land under agroforestry by 2030, adoption by 30% of commercial and community-based farms, and at least three crop varieties by 2035; an undated passage separately states at least five crop varieties. For scale, 5% of the current 1,802 km² agricultural area (63.3% of land) is 90.1 km².",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove forest area expansion",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Relative to 2018; mangroves are not separately reported in the supplied 2022 land-cover classes."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Central Savaii Rainforest protected-area share",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The target is a 36.7 percentage-point increase from 13.3%."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Villages under community-based aquaculture or fisheries management",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Equivalent to 186 of 310 coastal villages; the stated baseline is 39%."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum national fisheries service hubs established",
+      "value": 3,
+      "unit": "hubs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry expansion on agricultural land",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "For scale, 5% of the 2022 agricultural area (1,802 km²) is ≈90.1 km²; the pledge baseline is 2018."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farms adopting climate-resilient production systems",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The target is a share of farms, not land area; agriculture covers 63.3% of the country."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum climate-resilient crop varieties developed and distributed",
+      "value": 3,
+      "unit": "crop varieties",
+      "timeframe": "by 2035",
+      "context": "The varieties are to be adapted to Samoa's agro-ecological zones."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum climate-resilient crop varieties developed and distributed",
+      "value": 5,
+      "unit": "crop varieties",
+      "timeframe": null,
+      "context": "No timeframe is stated; a separate passage sets at least three varieties by 2035."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove forest area expansion",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Most passages use a 2022 baseline; one duplicate states 2020. Mangroves are not separately reported in the supplied land-cover classes."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Total forest cover increase",
+      "value": 1.6,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "≈16.0 km², equal to 1.6% of the 2022 forest area (999 km²; 35.1% of land)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Total forest cover increase",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "For scale, 2% of the 2022 forest area is ≈20.0 km², but the pledge baseline is 2013."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New mangrove area required",
+      "value": 5.9,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Stated new planting needed for the associated 5% mangrove expansion; no timeframe is given in this passage."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges seek a 5% mangrove expansion by 2030 relative to 2018. Mixed marine–AFOLU commitments seek a 5% mangrove expansion by 2035 relative to 2022 and a 1.6% rise in forest cover, about 16.0 km² of the 999 km² forest (35.1% of land) mapped in 2022; another pledge targets 2% forest growth by 2030 relative to 2013. Conservation commitments expand Central Savaii Rainforest protection from 13.3% to 50% by 2035, extend community aquaculture or fisheries management to 60% of 310 villages (186), and establish three national fisheries service hubs. Agriculture targets include an additional 5% of agricultural land under agroforestry by 2030, adoption by 30% of commercial and community-based farms, and at least three crop varieties by 2035; an undated passage separately states at least five crop varieties. For scale, 5% of the current 1,802 km² agricultural area (63.3% of land) is 90.1 km².\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove forest area expansion\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Relative to 2018; mangroves are not separately reported in the supplied 2022 land-cover classes.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Central Savaii Rainforest protected-area share\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The target is a 36.7 percentage-point increase from 13.3%.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Villages under community-based aquaculture or fisheries management\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to 186 of 310 coastal villages; the stated baseline is 39%.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum national fisheries service hubs established\",\n      \"value\": 3,\n      \"unit\": \"hubs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry expansion on agricultural land\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"For scale, 5% of the 2022 agricultural area (1,802 km²) is ≈90.1 km²; the pledge baseline is 2018.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farms adopting climate-resilient production systems\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The target is a share of farms, not land area; agriculture covers 63.3% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum climate-resilient crop varieties developed and distributed\",\n      \"value\": 3,\n      \"unit\": \"crop varieties\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The varieties are to be adapted to Samoa's agro-ecological zones.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum climate-resilient crop varieties developed and distributed\",\n      \"value\": 5,\n      \"unit\": \"crop varieties\",\n      \"timeframe\": null,\n      \"context\": \"No timeframe is stated; a separate passage sets at least three varieties by 2035.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove forest area expansion\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Most passages use a 2022 baseline; one duplicate states 2020. Mangroves are not separately reported in the supplied land-cover classes.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Total forest cover increase\",\n      \"value\": 1.6,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈16.0 km², equal to 1.6% of the 2022 forest area (999 km²; 35.1% of land).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Total forest cover increase\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"For scale, 2% of the 2022 forest area is ≈20.0 km², but the pledge baseline is 2013.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New mangrove area required\",\n      \"value\": 5.9,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Stated new planting needed for the associated 5% mangrove expansion; no timeframe is given in this passage.\"\n    }\n  ]\n}",
+  "errors": []
+}

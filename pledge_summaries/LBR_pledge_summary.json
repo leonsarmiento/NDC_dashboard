@@ -1,0 +1,306 @@
+{
+  "iso3": "LBR",
+  "country": "Liberia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 39,
+  "geo_context": {
+    "country_area_km2": 96349.2,
+    "land_cover_km2": {
+      "Agriculture": 51450.0,
+      "Forest": 44057.0,
+      "Grassland": 4.0,
+      "Wetland": 12.0,
+      "Settlement": 328.0,
+      "Shrubland": 206.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 302.0
+    }
+  },
+  "summary": "Restoration pledges include 12,285 ha/year of reforestation (≈0.28% of current forest area), restoration of 25% of priority degraded forests and 35% of degraded coastal wetlands/mangroves by 2030, and enhanced natural regeneration in 5% of priority degraded forests by 2035. Conservation targets 1.5 million ha of protected forest and 1 million ha of community forest by 2030—about 34% and 23% of current forest cover—plus 30% mangrove protection, four marine/coastal areas, 200,000 ha of protected areas by 2029, and a 64% emissions cut versus BAU by 2035. Agriculture targets 1.15 million ha of crops and pasture by 2030 (22.4% of current agricultural area), 5,000 farmers, 60% lower fertilizer use, 30% less residue burning and 60% alternative wetting and drying in rice cultivation. Mixed pledges cover 100,000 ha of degraded-land concessions, 50 ha/year of urban restoration in each of five cities, and forest catchments with 100% cataloguing by 2029 and 50% under management plans by 2030.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual reforestation",
+      "value": 12285,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈122.85 km²/year, or ≈0.28% of current forest area (44,057 km²) annually."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Priority degraded forests restored",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded coastal wetlands and mangroves restored",
+      "value": 35,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Priority degraded forests under enhanced natural regeneration",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Total forest protected area",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈15,000 km², equivalent to ≈34.0% of current forest area; overlap with other forest targets is unspecified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community Forest Area designated",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈10,000 km², equivalent to ≈22.7% of current forest area; overlap with other forest targets is unspecified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum new protected-area coverage",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2029",
+      "context": "≈2,000 km², or ≈4.5% of current forest area; overlap with other protected-area targets is unspecified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine and coastal protected areas established",
+      "value": 4,
+      "unit": "protected areas",
+      "timeframe": "by 2030",
+      "context": "Comprises 2 marine and 2 coastal protected areas."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine Protected Areas established",
+      "value": 2,
+      "unit": "protected areas",
+      "timeframe": "by 2028 (also stated for 2030 and 2035)",
+      "context": "The marine count overlaps with the broader pledge for 2 marine and 2 coastal protected areas."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove ecosystems with improved protection and conservation",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Highly vulnerable coastline covered by green-gray infrastructure",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual increase in urban stormwater capture",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "annually to 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual increase in rain-garden and rainwater-harvesting installations",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "annually to 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-area water catchments catalogued",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2029",
+      "context": "The denominator is the number of catchments in forest areas, not forest land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Emissions reduction versus BAU",
+      "value": 64,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-dependent communities engaged",
+      "value": 3500,
+      "unit": "communities",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual forest-management training capacity",
+      "value": 5,
+      "unit": "trainings/year",
+      "timeframe": "from 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum young-person representation on forest-management bodies",
+      "value": 1,
+      "unit": "young person",
+      "timeframe": "by 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum youth trained on climate actions",
+      "value": 5000,
+      "unit": "youth",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Lowland crop systems under sustainable low-carbon development",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": "by 2030 (also stated for 2035)",
+      "context": "≈1,500 km², or ≈2.9% of current agricultural area (51,450 km²)."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Upland sedentary crop systems under sustainable low-carbon development",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": "by 2030 (also stated for 2035)",
+      "context": "≈5,000 km², or ≈9.7% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pastureland under sustainable low-carbon development",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": "by 2030 (also stated for 2035)",
+      "context": "≈5,000 km², or ≈9.7% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Chemical fertilizer use reduction",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Field-residue burning reduction",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2028",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice cultivation using alternative wetting and drying",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural households adopting sustainable practices",
+      "value": 1500,
+      "unit": "households",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum farmers trained in sustainable agriculture",
+      "value": 5000,
+      "unit": "farmers",
+      "timeframe": "by 2025 (also stated for 2028)",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural extension agents trained per district",
+      "value": 3,
+      "unit": "agents per district per year",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmer field schools established",
+      "value": 100,
+      "unit": "farmer field schools",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forested counties covered by alternative-livelihood programs",
+      "value": 5,
+      "unit": "forested counties",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Urban natural areas restored or enhanced per city",
+      "value": 50,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": "The minimum applies in each of five named cities, not as a single national total."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural concessions sited on degraded land",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈1,000 km², or ≈1.9% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-area water catchments under sustainable management plans",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The denominator is catchments in forest areas, not forest land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Aquaculture kits provided to smallholder fishers",
+      "value": 25,
+      "unit": "aquaculture kits",
+      "timeframe": "by 2028",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cross-sector training and capacity-building initiatives",
+      "value": 10,
+      "unit": "training initiatives/year",
+      "timeframe": "from 2026",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges include 12,285 ha/year of reforestation (≈0.28% of current forest area), restoration of 25% of priority degraded forests and 35% of degraded coastal wetlands/mangroves by 2030, and enhanced natural regeneration in 5% of priority degraded forests by 2035. Conservation targets 1.5 million ha of protected forest and 1 million ha of community forest by 2030—about 34% and 23% of current forest cover—plus 30% mangrove protection, four marine/coastal areas, 200,000 ha of protected areas by 2029, and a 64% emissions cut versus BAU by 2035. Agriculture targets 1.15 million ha of crops and pasture by 2030 (22.4% of current agricultural area), 5,000 farmers, 60% lower fertilizer use, 30% less residue burning and 60% alternative wetting and drying in rice cultivation. Mixed pledges cover 100,000 ha of degraded-land concessions, 50 ha/year of urban restoration in each of five cities, and forest catchments with 100% cataloguing by 2029 and 50% under management plans by 2030.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual reforestation\",\n      \"value\": 12285,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈122.85 km²/year, or ≈0.28% of current forest area (44,057 km²) annually.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Priority degraded forests restored\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded coastal wetlands and mangroves restored\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Priority degraded forests under enhanced natural regeneration\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Total forest protected area\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈15,000 km², equivalent to ≈34.0% of current forest area; overlap with other forest targets is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community Forest Area designated\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈10,000 km², equivalent to ≈22.7% of current forest area; overlap with other forest targets is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum new protected-area coverage\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2029\",\n      \"context\": \"≈2,000 km², or ≈4.5% of current forest area; overlap with other protected-area targets is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine and coastal protected areas established\",\n      \"value\": 4,\n      \"unit\": \"protected areas\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Comprises 2 marine and 2 coastal protected areas.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine Protected Areas established\",\n      \"value\": 2,\n      \"unit\": \"protected areas\",\n      \"timeframe\": \"by 2028 (also stated for 2030 and 2035)\",\n      \"context\": \"The marine count overlaps with the broader pledge for 2 marine and 2 coastal protected areas.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mangrove ecosystems with improved protection and conservation\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Highly vulnerable coastline covered by green-gray infrastructure\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual increase in urban stormwater capture\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually to 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual increase in rain-garden and rainwater-harvesting installations\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually to 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-area water catchments catalogued\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2029\",\n      \"context\": \"The denominator is the number of catchments in forest areas, not forest land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Emissions reduction versus BAU\",\n      \"value\": 64,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-dependent communities engaged\",\n      \"value\": 3500,\n      \"unit\": \"communities\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual forest-management training capacity\",\n      \"value\": 5,\n      \"unit\": \"trainings/year\",\n      \"timeframe\": \"from 2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum young-person representation on forest-management bodies\",\n      \"value\": 1,\n      \"unit\": \"young person\",\n      \"timeframe\": \"by 2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum youth trained on climate actions\",\n      \"value\": 5000,\n      \"unit\": \"youth\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Lowland crop systems under sustainable low-carbon development\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030 (also stated for 2035)\",\n      \"context\": \"≈1,500 km², or ≈2.9% of current agricultural area (51,450 km²).\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Upland sedentary crop systems under sustainable low-carbon development\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030 (also stated for 2035)\",\n      \"context\": \"≈5,000 km², or ≈9.7% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pastureland under sustainable low-carbon development\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030 (also stated for 2035)\",\n      \"context\": \"≈5,000 km², or ≈9.7% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Chemical fertilizer use reduction\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Field-residue burning reduction\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2028\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice cultivation using alternative wetting and drying\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural households adopting sustainable practices\",\n      \"value\": 1500,\n      \"unit\": \"households\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum farmers trained in sustainable agriculture\",\n      \"value\": 5000,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2025 (also stated for 2028)\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural extension agents trained per district\",\n      \"value\": 3,\n      \"unit\": \"agents per district per year\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmer field schools established\",\n      \"value\": 100,\n      \"unit\": \"farmer field schools\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forested counties covered by alternative-livelihood programs\",\n      \"value\": 5,\n      \"unit\": \"forested counties\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Urban natural areas restored or enhanced per city\",\n      \"value\": 50,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The minimum applies in each of five named cities, not as a single national total.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural concessions sited on degraded land\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1,000 km², or ≈1.9% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-area water catchments under sustainable management plans\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The denominator is catchments in forest areas, not forest land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Aquaculture kits provided to smallholder fishers\",\n      \"value\": 25,\n      \"unit\": \"aquaculture kits\",\n      \"timeframe\": \"by 2028\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cross-sector training and capacity-building initiatives\",\n      \"value\": 10,\n      \"unit\": \"training initiatives/year\",\n      \"timeframe\": \"from 2026\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

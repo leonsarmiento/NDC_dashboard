@@ -1,0 +1,298 @@
+{
+  "iso3": "VUT",
+  "country": "Vanuatu",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 32,
+  "geo_context": {
+    "country_area_km2": 12281.1,
+    "land_cover_km2": {
+      "Agriculture": 455.0,
+      "Forest": 11478.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 1.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 5.0,
+      "Bare_area": 29.0,
+      "Water": 310.0
+    }
+  },
+  "summary": "Vanuatu’s restoration pledge is to restore 25,000 hectares of degraded natural forest and 1,000 hectares of mangrove forest by 2035—about 2.2% of the broader 11,478 km² Forest class. The mixed forest/AFOLU package includes 1,500 hectares of new forest, 1,500 hectares improved with native species, and a 587.07 kt CO₂ eq overall AFOLU emissions reduction through 2035. Conservation targets include six Water Protection Zones, 20 Community Conservation Areas, 40 integrated coastal-management plans, 100 FADs, 100% mapping of forest areas of significance, and at least 17% of important biodiversity areas, 30% of natural forest, 10% of wetlands, 10% of marine areas, plus 30% of the ocean. Agriculture covers all six provinces, targets 30% producer training and 40% pasture conversion, and sets farmer targets of 60–1,000 by 2035; agriculture is 3.7% of land, while grassland extent is not supplied.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded natural forest restored",
+      "value": 25000,
+      "unit": "hectares",
+      "timeframe": "by 2035",
+      "context": "≈2.2% of the broader current Forest class (11,478 km²)."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded mangrove forest restored",
+      "value": 1000,
+      "unit": "hectares",
+      "timeframe": "by 2035",
+      "context": "Mangrove extent is not separately reported in the supplied land-cover context."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Integrated coastal management plans developed and implemented",
+      "value": 40,
+      "unit": "integrated coastal management plans",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "FADs distributed throughout Vanuatu",
+      "value": 100,
+      "unit": "FADs",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Climate-resilient Water Protection Zones declared",
+      "value": 6,
+      "unit": "Water Protection Zones",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community Conservation Areas officially registered",
+      "value": 20,
+      "unit": "Community Conservation Areas",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Model schools implementing environmental resilience programmes",
+      "value": 1,
+      "unit": "model school in each province",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Important biodiversity areas conserved",
+      "value": 17,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural forest conserved",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The broader Forest class is 11,478 km² (93.5% of the country), but natural-forest extent is not separately reported."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetland areas conserved",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Wetland extent is not separately reported in the supplied land-cover context."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine areas conserved",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Marine extent is not separately reported in the supplied land-cover context."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Development projects complying with EIA requirements",
+      "value": 90,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest areas of significance mapped",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The broader mapped Forest class is 11,478 km², but the significant-forest subset is unspecified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National Climate Change and Disaster Risk Reduction Policy priorities implemented",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ocean protected through MSP and OECMs",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Ocean extent is not separately reported in the supplied land-cover context."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Subsistence agriculture resilience measures implemented",
+      "value": 6,
+      "unit": "provinces",
+      "timeframe": "by 2030",
+      "context": "The pledge covers all six provinces; Agriculture is 455 km² (3.7% of the country)."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Producers undergoing agro-meteorology training",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Agriculture is 455 km² (3.7%), but no producer-to-area denominator is supplied."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Government/NGO training covering food preservation and storage",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Existing grassland pastures converted to enhanced silvo-pastoral livestock systems",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Grassland extent is not reported, so the 40% target cannot be converted to a national area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Excess nutrient loss and highly hazardous chemical use reduced",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle farmers receiving agribusiness training",
+      "value": 1000,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Bee farmers receiving agribusiness training",
+      "value": 60,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small-ruminant farmers receiving agribusiness training",
+      "value": 100,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Poultry farmers receiving agribusiness training",
+      "value": 100,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pig farmers receiving agribusiness training",
+      "value": 100,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle farmers using climate-resilient livestock breeds",
+      "value": 500,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Bee farmers using climate-resilient livestock breeds",
+      "value": 60,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small-ruminant farmers using climate-resilient livestock breeds",
+      "value": 200,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Poultry farmers using climate-resilient livestock breeds",
+      "value": 200,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pig farmers using climate-resilient livestock breeds",
+      "value": 200,
+      "unit": "farmers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFOLU emissions reduction",
+      "value": 587.07,
+      "unit": "kt CO₂ eq",
+      "timeframe": "through 2035",
+      "context": "Forest covers 93.5% and Agriculture 3.7% of the country; this is an emissions target rather than a land-area target."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New forest in botanical gardens, forest protected areas, and kastom forest conservation areas",
+      "value": 1500,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.13% of the broader current Forest class (11,478 km²)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forests improved with native plant species",
+      "value": 1500,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "≈0.13% of the broader current Forest class (11,478 km²)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Integrated Water Resource Management (IWRM) Plan developed",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Vanuatu’s restoration pledge is to restore 25,000 hectares of degraded natural forest and 1,000 hectares of mangrove forest by 2035—about 2.2% of the broader 11,478 km² Forest class. The mixed forest/AFOLU package includes 1,500 hectares of new forest, 1,500 hectares improved with native species, and a 587.07 kt CO₂ eq overall AFOLU emissions reduction through 2035. Conservation targets include six Water Protection Zones, 20 Community Conservation Areas, 40 integrated coastal-management plans, 100 FADs, 100% mapping of forest areas of significance, and at least 17% of important biodiversity areas, 30% of natural forest, 10% of wetlands, 10% of marine areas, plus 30% of the ocean. Agriculture covers all six provinces, targets 30% producer training and 40% pasture conversion, and sets farmer targets of 60–1,000 by 2035; agriculture is 3.7% of land, while grassland extent is not supplied.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded natural forest restored\",\n      \"value\": 25000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈2.2% of the broader current Forest class (11,478 km²).\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded mangrove forest restored\",\n      \"value\": 1000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Mangrove extent is not separately reported in the supplied land-cover context.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Integrated coastal management plans developed and implemented\",\n      \"value\": 40,\n      \"unit\": \"integrated coastal management plans\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"FADs distributed throughout Vanuatu\",\n      \"value\": 100,\n      \"unit\": \"FADs\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Climate-resilient Water Protection Zones declared\",\n      \"value\": 6,\n      \"unit\": \"Water Protection Zones\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community Conservation Areas officially registered\",\n      \"value\": 20,\n      \"unit\": \"Community Conservation Areas\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Model schools implementing environmental resilience programmes\",\n      \"value\": 1,\n      \"unit\": \"model school in each province\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Important biodiversity areas conserved\",\n      \"value\": 17,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural forest conserved\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The broader Forest class is 11,478 km² (93.5% of the country), but natural-forest extent is not separately reported.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetland areas conserved\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Wetland extent is not separately reported in the supplied land-cover context.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine areas conserved\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Marine extent is not separately reported in the supplied land-cover context.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Development projects complying with EIA requirements\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest areas of significance mapped\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The broader mapped Forest class is 11,478 km², but the significant-forest subset is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National Climate Change and Disaster Risk Reduction Policy priorities implemented\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ocean protected through MSP and OECMs\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Ocean extent is not separately reported in the supplied land-cover context.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Subsistence agriculture resilience measures implemented\",\n      \"value\": 6,\n      \"unit\": \"provinces\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The pledge covers all six provinces; Agriculture is 455 km² (3.7% of the country).\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Producers undergoing agro-meteorology training\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Agriculture is 455 km² (3.7%), but no producer-to-area denominator is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Government/NGO training covering food preservation and storage\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Existing grassland pastures converted to enhanced silvo-pastoral livestock systems\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Grassland extent is not reported, so the 40% target cannot be converted to a national area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Excess nutrient loss and highly hazardous chemical use reduced\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle farmers receiving agribusiness training\",\n      \"value\": 1000,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Bee farmers receiving agribusiness training\",\n      \"value\": 60,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small-ruminant farmers receiving agribusiness training\",\n      \"value\": 100,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Poultry farmers receiving agribusiness training\",\n      \"value\": 100,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pig farmers receiving agribusiness training\",\n      \"value\": 100,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle farmers using climate-resilient livestock breeds\",\n      \"value\": 500,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Bee farmers using climate-resilient livestock breeds\",\n      \"value\": 60,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small-ruminant farmers using climate-resilient livestock breeds\",\n      \"value\": 200,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Poultry farmers using climate-resilient livestock breeds\",\n      \"value\": 200,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pig farmers using climate-resilient livestock breeds\",\n      \"value\": 200,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFOLU emissions reduction\",\n      \"value\": 587.07,\n      \"unit\": \"kt CO₂ eq\",\n      \"timeframe\": \"through 2035\",\n      \"context\": \"Forest covers 93.5% and Agriculture 3.7% of the country; this is an emissions target rather than a land-area target.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New forest in botanical gardens, forest protected areas, and kastom forest conservation areas\",\n      \"value\": 1500,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈0.13% of the broader current Forest class (11,478 km²).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forests improved with native plant species\",\n      \"value\": 1500,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"≈0.13% of the broader current Forest class (11,478 km²).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Integrated Water Resource Management (IWRM) Plan developed\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,74 @@
+{
+  "iso3": "PER",
+  "country": "Peru",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 6,
+  "geo_context": {
+    "country_area_km2": 1300127.4,
+    "land_cover_km2": {
+      "Agriculture": 36457.0,
+      "Forest": 835737.0,
+      "Grassland": 164078.0,
+      "Wetland": 2151.0,
+      "Settlement": 2909.0,
+      "Shrubland": 85849.0,
+      "Sparse_vegetation": 64677.0,
+      "Bare_area": 91058.0,
+      "Water": 14249.0
+    }
+  },
+  "summary": "Peru’s restoration pledge is 30% of degraded ecosystems. Conservation calls for a 50% reduction in deforestation in the regions; by 2035, it also strengthens the capacities of fishers and aquaculturists in good productive, sanitary and environmental practices in at least 30% of the country’s regions. Agriculture has two 2035 goals: strengthen agricultural-system resilience in at least 87% of the country’s regions and increase livestock producers’ adaptive capacity in 100% of the country’s regions. The cross-sector LULUCF commitment reports a 54.0–69.9 MtCO₂eq target by 2035, with forest, protected-area, peatland, community and plantation measures. These are regional, degraded-area or emissions targets, not hectare targets. In 2022, forest covered 835,737 km² (64.3%), grassland 164,078 km² (12.6%), and agriculture 36,457 km² (2.8%); missing denominators prevent conversion into land shares, so 87% and 100% are regional rather than agricultural-area coverage.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded ecosystem restoration",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Forest covers 835,737 km² (64.3%) and grassland 164,078 km² (12.6%), but the degraded-ecosystem area to which 30% applies is unspecified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation reduction in regions",
+      "value": 50.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The 50% applies in the regions; forest covers 835,737 km² (64.3%) of Peru, but no affected-region area or baseline is specified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Regional fisheries and aquaculture good-practice capacity",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "At least 30% of the country’s regions; no area denominator is provided."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural-system resilience in regions",
+      "value": 87.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "At least 87% of the country’s regions, not 87% of the 36,457 km² agricultural area (2.8%)."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock-producer adaptive-capacity increase",
+      "value": 100.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "100% of the country’s regions, not 100% of the 36,457 km² agricultural area (2.8%)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF target range (54.0–69.9; lower endpoint)",
+      "value": 54.0,
+      "unit": "MtCO₂eq",
+      "timeframe": "by 2035",
+      "context": "The passage states a 54.0–69.9 MtCO₂eq range; this entry records the lower endpoint. Forest covers 835,737 km² (64.3%) of Peru, but no hectare equivalent is stated."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Peru’s restoration pledge is 30% of degraded ecosystems. Conservation calls for a 50% reduction in deforestation in the regions; by 2035, it also strengthens the capacities of fishers and aquaculturists in good productive, sanitary and environmental practices in at least 30% of the country’s regions. Agriculture has two 2035 goals: strengthen agricultural-system resilience in at least 87% of the country’s regions and increase livestock producers’ adaptive capacity in 100% of the country’s regions. The cross-sector LULUCF commitment reports a 54.0–69.9 MtCO₂eq target by 2035, with forest, protected-area, peatland, community and plantation measures. These are regional, degraded-area or emissions targets, not hectare targets. In 2022, forest covered 835,737 km² (64.3%), grassland 164,078 km² (12.6%), and agriculture 36,457 km² (2.8%); missing denominators prevent conversion into land shares, so 87% and 100% are regional rather than agricultural-area coverage.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded ecosystem restoration\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Forest covers 835,737 km² (64.3%) and grassland 164,078 km² (12.6%), but the degraded-ecosystem area to which 30% applies is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation reduction in regions\",\n      \"value\": 50.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The 50% applies in the regions; forest covers 835,737 km² (64.3%) of Peru, but no affected-region area or baseline is specified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Regional fisheries and aquaculture good-practice capacity\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"At least 30% of the country’s regions; no area denominator is provided.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural-system resilience in regions\",\n      \"value\": 87.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"At least 87% of the country’s regions, not 87% of the 36,457 km² agricultural area (2.8%).\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock-producer adaptive-capacity increase\",\n      \"value\": 100.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"100% of the country’s regions, not 100% of the 36,457 km² agricultural area (2.8%).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LULUCF target range (54.0–69.9; lower endpoint)\",\n      \"value\": 54.0,\n      \"unit\": \"MtCO₂eq\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The passage states a 54.0–69.9 MtCO₂eq range; this entry records the lower endpoint. Forest covers 835,737 km² (64.3%) of Peru, but no hectare equivalent is stated.\"\n    }\n  ]\n}",
+  "errors": []
+}

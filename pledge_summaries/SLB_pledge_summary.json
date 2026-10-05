@@ -1,0 +1,106 @@
+{
+  "iso3": "SLB",
+  "country": "Solomon Islands",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 10,
+  "geo_context": {
+    "country_area_km2": 27813.3,
+    "land_cover_km2": {
+      "Agriculture": 358.0,
+      "Forest": 26547.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 6.0,
+      "Shrubland": 5.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 921.0
+    }
+  },
+  "summary": "Solomon Islands’ mixed pledges combine forest restoration, conservation and agricultural mitigation. Restoration targets are 8,000 ha of new sustainable terrestrial forest and 4,000 ha of mangrove forest; the former is about 0.3% of current 26,547 km² forest area and the latter about 0.14% of total land area. Fully implemented afforestation and reforestation actions are expected to add up to 200 ktCO2e of carbon removal in 2035, while a related metric reports 200.0 ktCO2/yr for forest removals/sequestration. Solomon Islands also intends sustainable logging and protection of forest above the 400-meter contour. Conservation targets are at least 20% of terrestrial and inland waters and 15% of coastal and marine areas. Agriculture includes four farm-scale biogas units, a planned 2.4 ktCO2e biogas impact and a 2.4 ktCO2e/yr livestock-mitigation metric, with implementation still requiring support.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Minimum elevation for forest protection",
+      "value": 400,
+      "unit": "meter contour",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Afforestation and reforestation carbon removal",
+      "value": 200,
+      "unit": "ktCO2e",
+      "timeframe": "in 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New sustainable terrestrial forest area",
+      "value": 8000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.3% of the 2022 forest area (26,547 km²)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New sustainable mangrove forest area",
+      "value": 4000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.14% of total land area; mangrove extent is not separately mapped"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial and inland-water area protected",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "2016-2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal and marine area protected",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "2016-2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest removals/sequestration",
+      "value": 200.0,
+      "unit": "ktCO2/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural biogas GHG impact",
+      "value": 2.4,
+      "unit": "ktCO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farm-scale biogas units installed",
+      "value": 4,
+      "unit": "no.",
+      "timeframe": null,
+      "context": "Current agriculture covers 358 km², but the pledge is a unit count rather than an area target."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock GHG mitigation",
+      "value": 2.4,
+      "unit": "ktCO2e/yr",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Solomon Islands’ mixed pledges combine forest restoration, conservation and agricultural mitigation. Restoration targets are 8,000 ha of new sustainable terrestrial forest and 4,000 ha of mangrove forest; the former is about 0.3% of current 26,547 km² forest area and the latter about 0.14% of total land area. Fully implemented afforestation and reforestation actions are expected to add up to 200 ktCO2e of carbon removal in 2035, while a related metric reports 200.0 ktCO2/yr for forest removals/sequestration. Solomon Islands also intends sustainable logging and protection of forest above the 400-meter contour. Conservation targets are at least 20% of terrestrial and inland waters and 15% of coastal and marine areas. Agriculture includes four farm-scale biogas units, a planned 2.4 ktCO2e biogas impact and a 2.4 ktCO2e/yr livestock-mitigation metric, with implementation still requiring support.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minimum elevation for forest protection\",\n      \"value\": 400,\n      \"unit\": \"meter contour\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Afforestation and reforestation carbon removal\",\n      \"value\": 200,\n      \"unit\": \"ktCO2e\",\n      \"timeframe\": \"in 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New sustainable terrestrial forest area\",\n      \"value\": 8000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.3% of the 2022 forest area (26,547 km²)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New sustainable mangrove forest area\",\n      \"value\": 4000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.14% of total land area; mangrove extent is not separately mapped\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial and inland-water area protected\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"2016-2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal and marine area protected\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"2016-2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest removals/sequestration\",\n      \"value\": 200.0,\n      \"unit\": \"ktCO2/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural biogas GHG impact\",\n      \"value\": 2.4,\n      \"unit\": \"ktCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farm-scale biogas units installed\",\n      \"value\": 4,\n      \"unit\": \"no.\",\n      \"timeframe\": null,\n      \"context\": \"Current agriculture covers 358 km², but the pledge is a unit count rather than an area target.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock GHG mitigation\",\n      \"value\": 2.4,\n      \"unit\": \"ktCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

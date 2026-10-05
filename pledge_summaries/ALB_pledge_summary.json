@@ -1,0 +1,98 @@
+{
+  "iso3": "ALB",
+  "country": "Albania",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 17,
+  "geo_context": {
+    "country_area_km2": 28624.3,
+    "land_cover_km2": {
+      "Agriculture": 13523.0,
+      "Forest": 11508.0,
+      "Grassland": 1390.0,
+      "Wetland": 68.0,
+      "Settlement": 277.0,
+      "Shrubland": 659.0,
+      "Sparse_vegetation": 343.0,
+      "Bare_area": 322.0,
+      "Water": 542.0
+    }
+  },
+  "summary": "Albania’s NDC pairs restoration with forest conservation and agricultural measures. Restoration is centred on new afforestation at 300 ha per year—about 0.03% of current forest area annually—while a mixed restoration-conservation forest-management action is applied progressively to 5,000 ha per year, about 0.43% of the 11,508 km² forest area annually. Conservation measures target a 5% reduction in wildfire risk, a 4% decrease in fuelwood consumption between 2016 and 2030, and a 3% reduction in fuelwood-harvesting losses. Agricultural actions include 100 ha of agroforestry and improved soil practices covering 20% of cultivated cropland by 2030, plus restoration of irrigation on 360,000 ha of potentially irrigable arable land, equivalent to about 26.6% of the mapped agricultural area. The mixed grassland action also expands sustainable management to enhance carbon sequestration and biodiversity, from 2% in 2021 to 20% by 2030, roughly 278 km² of currently mapped grassland.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "New afforestation",
+      "value": 300,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": "≈0.03% of current mapped forest area (11,508 km²) per year"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wildfire risk reduction",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈500 ha/year relative to the stated 10,000 ha/year mean fire-risk baseline"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fuelwood consumption reduction",
+      "value": 4,
+      "unit": "%",
+      "timeframe": "2016–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fuelwood-harvest loss reduction",
+      "value": 3,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Improved sustainable forest management",
+      "value": 5000,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": "≈0.43% of current mapped forest area (11,508 km²) annually"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable grassland management coverage",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈278 km², equal to 20% of current mapped grassland (1,390 km²)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry area",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "1 km², ≈0.007% of current mapped agricultural area (13,523 km²)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cropland soil-practice coverage",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation restoration area",
+      "value": 360000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "3,600 km², equivalent to ≈26.6% of current mapped agricultural area (13,523 km²)"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Albania’s NDC pairs restoration with forest conservation and agricultural measures. Restoration is centred on new afforestation at 300 ha per year—about 0.03% of current forest area annually—while a mixed restoration-conservation forest-management action is applied progressively to 5,000 ha per year, about 0.43% of the 11,508 km² forest area annually. Conservation measures target a 5% reduction in wildfire risk, a 4% decrease in fuelwood consumption between 2016 and 2030, and a 3% reduction in fuelwood-harvesting losses. Agricultural actions include 100 ha of agroforestry and improved soil practices covering 20% of cultivated cropland by 2030, plus restoration of irrigation on 360,000 ha of potentially irrigable arable land, equivalent to about 26.6% of the mapped agricultural area. The mixed grassland action also expands sustainable management to enhance carbon sequestration and biodiversity, from 2% in 2021 to 20% by 2030, roughly 278 km² of currently mapped grassland.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New afforestation\",\n      \"value\": 300,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.03% of current mapped forest area (11,508 km²) per year\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wildfire risk reduction\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈500 ha/year relative to the stated 10,000 ha/year mean fire-risk baseline\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fuelwood consumption reduction\",\n      \"value\": 4,\n      \"unit\": \"%\",\n      \"timeframe\": \"2016–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fuelwood-harvest loss reduction\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Improved sustainable forest management\",\n      \"value\": 5000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.43% of current mapped forest area (11,508 km²) annually\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable grassland management coverage\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈278 km², equal to 20% of current mapped grassland (1,390 km²)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry area\",\n      \"value\": 100,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"1 km², ≈0.007% of current mapped agricultural area (13,523 km²)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cropland soil-practice coverage\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation restoration area\",\n      \"value\": 360000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"3,600 km², equivalent to ≈26.6% of current mapped agricultural area (13,523 km²)\"\n    }\n  ]\n}",
+  "errors": []
+}

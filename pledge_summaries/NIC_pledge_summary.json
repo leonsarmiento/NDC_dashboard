@@ -1,0 +1,370 @@
+{
+  "iso3": "NIC",
+  "country": "Nicaragua",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 58,
+  "geo_context": {
+    "country_area_km2": 127841.8,
+    "land_cover_km2": {
+      "Agriculture": 40544.0,
+      "Forest": 72351.0,
+      "Grassland": 4443.0,
+      "Wetland": 249.0,
+      "Settlement": 291.0,
+      "Shrubland": 150.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 21.0,
+      "Water": 9704.0
+    }
+  },
+  "summary": "Nicaragua’s restoration agenda is led by a 2030 goal to increase forest cover by 21.47%, alongside 1,425,935 ha of natural regeneration in protected/recovered areas—about 19.7% of the country’s current 7,235,100 ha forest cover—and 1,166,362 ha of degraded land to be improved. It also reports more than 47,000 ha of annual forest recovery since 2007 and a 2024–2029 plan to establish 99.3 million plants. Conservation combines a conditional 25% reduction in gross-deforestation emissions by 2030 from the national baseline with 104,000 ha of pine monitoring, 25,000 ha of soil-and-water works, and protection of 363 springs. Mixed restoration/management measures include 2.8 million ha under the 20x20 objective, recovery of 1,110,721 ha degraded land, and 6,464 linear km of windbreaks. Agriculture targets 555,361 ha of agroforestry—13.7% of current agricultural area—plus 416,520 ha of timber plantations and 277,680 ha supporting sustainable agricultural businesses.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Increase in forest cover",
+      "value": 21.47,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Equivalent to ≈1,553,376 ha if measured against current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum annual forest landscape recovery",
+      "value": 47000,
+      "unit": "ha/year",
+      "timeframe": "since 2007",
+      "context": "Equivalent to ≈0.65% of current forest area per year."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 26000,
+      "unit": "ha",
+      "timeframe": "for 2017",
+      "context": "Equivalent to ≈0.36% of current forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-land improvement",
+      "value": 1166362,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to ≈9.1% of total land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Plant production and establishment",
+      "value": 99300000,
+      "unit": "plants",
+      "timeframe": "2024–2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon-sequestration capacity increase relative to the reference scenario",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Carbon-sequestration capacity increase relative to the reference scenario",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-source springs protected",
+      "value": 363,
+      "unit": "springs",
+      "timeframe": "last 10 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area resilience coverage",
+      "value": 13,
+      "unit": "protected areas",
+      "timeframe": "beginning in 2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest, watershed, recharge-zone and biodiversity conservation",
+      "value": 7500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈0.10% of current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Soil and water conservation works",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈0.20% of total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community forest management",
+      "value": 43656,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈0.6% of current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum pine-forest monitoring area",
+      "value": 78474,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈1.1% of current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Pine monitoring and bark-beetle prevention",
+      "value": 104000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Approximate target; equivalent to ≈1.4% of current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest plantations providing ecosystem services",
+      "value": 138820,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈1.9% of current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Resilient landscape management coverage",
+      "value": 141355,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈2.0% of current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity-management project coverage",
+      "value": 808631,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈11.2% of current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided deforestation and forest-degradation emissions reduction",
+      "value": 11000000,
+      "unit": "tCO2",
+      "timeframe": "over five years, with implementation stated for 2021",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Final annual gross-deforestation emissions target",
+      "value": 10837555.5,
+      "unit": "tCO2/year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area implementing forest businesses",
+      "value": 277680,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈6.8% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Timber-product plantations",
+      "value": 416520,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈10.3% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry",
+      "value": 555361,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈13.7% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Plantations supporting sustainable agricultural businesses",
+      "value": 277680,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈6.8% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "2018 NDC sector emissions reduction relative to baseline",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conditional gross-deforestation emissions reduction relative to baseline",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Conditional on international climate finance."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Deforestation-rate reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Minimum environmental observers coordinating fire prevention",
+      "value": 1400,
+      "unit": "observers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land restoration under the 20x20 objective",
+      "value": 2800000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Approximate target; equivalent to ≈21.9% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Productive reforestation",
+      "value": 1666082,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈23.0% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Recovery of degraded land",
+      "value": 1110721,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈8.7% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Environmental restoration through agroforestry, silvopastoral and riverbank forests",
+      "value": 43672.1,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈0.34% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural regeneration identified in protected areas",
+      "value": 211824.32,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈2.9% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural regeneration and reforestation in protected and recovered areas",
+      "value": 1425935,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈19.7% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community forest governance area",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈2.8% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Silvopastoral systems area",
+      "value": 266000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈6.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry systems area",
+      "value": 160000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈3.9% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Combined community-forest and farm-system programme area",
+      "value": 669656,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Reported programme total; equivalent to ≈5.2% of total land area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Windbreaks planted in protected areas and agricultural holdings",
+      "value": 1672.43,
+      "unit": "linear km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Windbreaks established",
+      "value": 6464,
+      "unit": "linear km",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Caribbean Coast avoided-deforestation emissions reduction",
+      "value": 13.69,
+      "unit": "MtCO2eq",
+      "timeframe": "2020–2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Caribbean Coast emissions-reduction programme",
+      "value": 14.13,
+      "unit": "MtCO2eq",
+      "timeframe": "over five years",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Annual emissions-reduction potential",
+      "value": 2.73,
+      "unit": "MtCO2/year",
+      "timeframe": "2020–2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Approximate investment in biosphere-reserve protection and reforestation",
+      "value": 400,
+      "unit": "USD million",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Nicaragua’s restoration agenda is led by a 2030 goal to increase forest cover by 21.47%, alongside 1,425,935 ha of natural regeneration in protected/recovered areas—about 19.7% of the country’s current 7,235,100 ha forest cover—and 1,166,362 ha of degraded land to be improved. It also reports more than 47,000 ha of annual forest recovery since 2007 and a 2024–2029 plan to establish 99.3 million plants. Conservation combines a conditional 25% reduction in gross-deforestation emissions by 2030 from the national baseline with 104,000 ha of pine monitoring, 25,000 ha of soil-and-water works, and protection of 363 springs. Mixed restoration/management measures include 2.8 million ha under the 20x20 objective, recovery of 1,110,721 ha degraded land, and 6,464 linear km of windbreaks. Agriculture targets 555,361 ha of agroforestry—13.7% of current agricultural area—plus 416,520 ha of timber plantations and 277,680 ha supporting sustainable agricultural businesses.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Increase in forest cover\",\n      \"value\": 21.47,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to ≈1,553,376 ha if measured against current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum annual forest landscape recovery\",\n      \"value\": 47000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"since 2007\",\n      \"context\": \"Equivalent to ≈0.65% of current forest area per year.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 26000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"for 2017\",\n      \"context\": \"Equivalent to ≈0.36% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-land improvement\",\n      \"value\": 1166362,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to ≈9.1% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Plant production and establishment\",\n      \"value\": 99300000,\n      \"unit\": \"plants\",\n      \"timeframe\": \"2024–2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon-sequestration capacity increase relative to the reference scenario\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Carbon-sequestration capacity increase relative to the reference scenario\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-source springs protected\",\n      \"value\": 363,\n      \"unit\": \"springs\",\n      \"timeframe\": \"last 10 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area resilience coverage\",\n      \"value\": 13,\n      \"unit\": \"protected areas\",\n      \"timeframe\": \"beginning in 2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest, watershed, recharge-zone and biodiversity conservation\",\n      \"value\": 7500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈0.10% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Soil and water conservation works\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈0.20% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community forest management\",\n      \"value\": 43656,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈0.6% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum pine-forest monitoring area\",\n      \"value\": 78474,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈1.1% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Pine monitoring and bark-beetle prevention\",\n      \"value\": 104000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Approximate target; equivalent to ≈1.4% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest plantations providing ecosystem services\",\n      \"value\": 138820,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈1.9% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Resilient landscape management coverage\",\n      \"value\": 141355,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈2.0% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity-management project coverage\",\n      \"value\": 808631,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈11.2% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Avoided deforestation and forest-degradation emissions reduction\",\n      \"value\": 11000000,\n      \"unit\": \"tCO2\",\n      \"timeframe\": \"over five years, with implementation stated for 2021\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Final annual gross-deforestation emissions target\",\n      \"value\": 10837555.5,\n      \"unit\": \"tCO2/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area implementing forest businesses\",\n      \"value\": 277680,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈6.8% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Timber-product plantations\",\n      \"value\": 416520,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈10.3% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry\",\n      \"value\": 555361,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈13.7% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Plantations supporting sustainable agricultural businesses\",\n      \"value\": 277680,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈6.8% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"2018 NDC sector emissions reduction relative to baseline\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conditional gross-deforestation emissions reduction relative to baseline\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Conditional on international climate finance.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Deforestation-rate reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minimum environmental observers coordinating fire prevention\",\n      \"value\": 1400,\n      \"unit\": \"observers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Land restoration under the 20x20 objective\",\n      \"value\": 2800000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Approximate target; equivalent to ≈21.9% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Productive reforestation\",\n      \"value\": 1666082,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈23.0% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Recovery of degraded land\",\n      \"value\": 1110721,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈8.7% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Environmental restoration through agroforestry, silvopastoral and riverbank forests\",\n      \"value\": 43672.1,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈0.34% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural regeneration identified in protected areas\",\n      \"value\": 211824.32,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈2.9% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural regeneration and reforestation in protected and recovered areas\",\n      \"value\": 1425935,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈19.7% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community forest governance area\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈2.8% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Silvopastoral systems area\",\n      \"value\": 266000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈6.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroforestry systems area\",\n      \"value\": 160000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈3.9% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Combined community-forest and farm-system programme area\",\n      \"value\": 669656,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Reported programme total; equivalent to ≈5.2% of total land area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Windbreaks planted in protected areas and agricultural holdings\",\n      \"value\": 1672.43,\n      \"unit\": \"linear km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Windbreaks established\",\n      \"value\": 6464,\n      \"unit\": \"linear km\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Caribbean Coast avoided-deforestation emissions reduction\",\n      \"value\": 13.69,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": \"2020–2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Caribbean Coast emissions-reduction programme\",\n      \"value\": 14.13,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": \"over five years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Annual emissions-reduction potential\",\n      \"value\": 2.73,\n      \"unit\": \"MtCO2/year\",\n      \"timeframe\": \"2020–2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Approximate investment in biosphere-reserve protection and reforestation\",\n      \"value\": 400,\n      \"unit\": \"USD million\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

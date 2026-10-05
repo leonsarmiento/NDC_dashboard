@@ -1,0 +1,82 @@
+{
+  "iso3": "NIU",
+  "country": "Niue",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 263.4,
+    "land_cover_km2": {
+      "Agriculture": 45.0,
+      "Forest": 215.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 3.0
+    }
+  },
+  "summary": "Niue’s conservation pledges focus on its ocean: it commits to effectively managing 100% of its EEZ by 2030, including a 127,000 km² no-take marine protected area covering 40% of the EEZ, and sets a conditional goal to protect all ocean components with carbon-sequestration potential by 2030. Its forest commitments combine conservation and restoration: the 2013 plan records about 19,000 ha of native forest, roughly 88% of the 215 km² currently mapped as forest, while the pledge maintains mature dense forest equal to 21% of land and regenerates medium-dense forest equal to 51%. These represent approximately 55 km² and 134 km², respectively, against 263 km² of total land. No agriculture-specific numerical commitment is stated.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "EEZ marine space and resources managed",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Applies to all of Niue's marine space and resources through its EEZ-wide marine spatial plan."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "No-take marine protected area",
+      "value": 127000,
+      "unit": "km²",
+      "timeframe": "by 2030",
+      "context": "Covers 40% of Niue's EEZ."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EEZ under no-take protection",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "At least 127,000 km² is designated as a large-scale marine protected area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Native forest area",
+      "value": 19000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Approximately 190 km², or about 88% of current mapped forest cover; the plan describes it as about 70% of the island."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ocean components with carbon-sequestration potential protected",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Conditional goal covering all relevant ocean components."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mature dense forest maintained",
+      "value": 21,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Approximately 55 km², or 26% of current mapped forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Medium dense forest regenerated",
+      "value": 51,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Approximately 134 km², or 62% of current mapped forest cover."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Niue’s conservation pledges focus on its ocean: it commits to effectively managing 100% of its EEZ by 2030, including a 127,000 km² no-take marine protected area covering 40% of the EEZ, and sets a conditional goal to protect all ocean components with carbon-sequestration potential by 2030. Its forest commitments combine conservation and restoration: the 2013 plan records about 19,000 ha of native forest, roughly 88% of the 215 km² currently mapped as forest, while the pledge maintains mature dense forest equal to 21% of land and regenerates medium-dense forest equal to 51%. These represent approximately 55 km² and 134 km², respectively, against 263 km² of total land. No agriculture-specific numerical commitment is stated.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EEZ marine space and resources managed\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Applies to all of Niue's marine space and resources through its EEZ-wide marine spatial plan.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"No-take marine protected area\",\n      \"value\": 127000,\n      \"unit\": \"km²\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Covers 40% of Niue's EEZ.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EEZ under no-take protection\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"At least 127,000 km² is designated as a large-scale marine protected area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Native forest area\",\n      \"value\": 19000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 190 km², or about 88% of current mapped forest cover; the plan describes it as about 70% of the island.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ocean components with carbon-sequestration potential protected\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Conditional goal covering all relevant ocean components.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mature dense forest maintained\",\n      \"value\": 21,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 55 km², or 26% of current mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Medium dense forest regenerated\",\n      \"value\": 51,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 134 km², or 62% of current mapped forest cover.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "iso3": "RUS",
+  "country": "Russian Federation",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 16845239.9,
+    "land_cover_km2": {
+      "Agriculture": 1843584.0,
+      "Forest": 9998837.0,
+      "Grassland": 1122669.0,
+      "Wetland": 835907.0,
+      "Settlement": 35996.0,
+      "Shrubland": 823797.0,
+      "Sparse_vegetation": 1347847.0,
+      "Bare_area": 320384.0,
+      "Water": 461309.0
+    }
+  },
+  "summary": "Russia’s extracted pledges are classified as conservation and focus on economy-wide greenhouse-gas emissions rather than numerical ecosystem restoration or agricultural-area commitments. The first NDC aims, by 2030, to reduce emissions to 70% of the 1990 level. The second NDC sets a 2035 target of 65–67% of that level, while making implementation dependent on the maximum possible absorbing capacity of forests and other natural ecosystems, sustainable and balanced socioeconomic development, and access to relevant equipment and technologies. This focus on natural sinks is significant because forests cover 9,998,837 km², or 59.4% of Russia’s land, compared with 6.7% grassland and 10.9% agriculture. However, the passages do not quantify forest protection, restoration, reforestation, or sustainable-farming areas, so the pledges cannot be expressed as shares of those land-cover classes.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "GHG emissions level relative to 1990 (2035 range lower bound)",
+      "value": 65,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Natural sinks are explicitly considered; forest currently covers 59.4% of the country."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "GHG emissions level relative to 1990 (2035 range upper bound)",
+      "value": 67,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Natural sinks are explicitly considered; forest currently covers 59.4% of the country."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "GHG emissions level relative to 1990",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Natural sinks are explicitly considered; forest currently covers 59.4% of the country."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Russia’s extracted pledges are classified as conservation and focus on economy-wide greenhouse-gas emissions rather than numerical ecosystem restoration or agricultural-area commitments. The first NDC aims, by 2030, to reduce emissions to 70% of the 1990 level. The second NDC sets a 2035 target of 65–67% of that level, while making implementation dependent on the maximum possible absorbing capacity of forests and other natural ecosystems, sustainable and balanced socioeconomic development, and access to relevant equipment and technologies. This focus on natural sinks is significant because forests cover 9,998,837 km², or 59.4% of Russia’s land, compared with 6.7% grassland and 10.9% agriculture. However, the passages do not quantify forest protection, restoration, reforestation, or sustainable-farming areas, so the pledges cannot be expressed as shares of those land-cover classes.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"GHG emissions level relative to 1990 (2035 range lower bound)\",\n      \"value\": 65,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Natural sinks are explicitly considered; forest currently covers 59.4% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"GHG emissions level relative to 1990 (2035 range upper bound)\",\n      \"value\": 67,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Natural sinks are explicitly considered; forest currently covers 59.4% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"GHG emissions level relative to 1990\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Natural sinks are explicitly considered; forest currently covers 59.4% of the country.\"\n    }\n  ]\n}",
+  "errors": []
+}

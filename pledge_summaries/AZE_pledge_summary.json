@@ -1,0 +1,66 @@
+{
+  "iso3": "AZE",
+  "country": "Azerbaijan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 86060.7,
+    "land_cover_km2": {
+      "Agriculture": 50265.0,
+      "Forest": 11564.0,
+      "Grassland": 3683.0,
+      "Wetland": 31.0,
+      "Settlement": 1635.0,
+      "Shrubland": 5326.0,
+      "Sparse_vegetation": 8649.0,
+      "Bare_area": 3639.0,
+      "Water": 1179.0
+    }
+  },
+  "summary": "Azerbaijan’s mixed land-use approach combines afforestation, reforestation, sustainable forest management, rotational grazing and land restoration. Its clearest forward commitment is approximately 30,000 hectares of forest-land expansion by 2026—300 km², or about 2.6% of the 11,564 km² mapped as forest in 2022—while the passage gives a projected total forest-coverage figure of 12.3%. It reports forestry and land use across 12.19% of national land and grasslands and pastures across 28%; the latter is not directly comparable with the 4.3% grassland-only map class. For conservation, it cites 2022 LULUCF net sequestration of 5.2 MtCO₂eq, including 3.6 MtCO₂ of forest-land removals across 1.04 million hectares, nearly 90% of mapped forest area. It also reports 2016 absorption of 7.2 million tons CO₂ equivalent, double the 1990 level. No separate sustainable-agriculture area is specified.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Forestry and land-use share",
+      "value": 12.19,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Reported scope rather than a dated future target; equivalent to approximately 10,491 km² of national land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Grasslands and pastures share",
+      "value": 28,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Equivalent to approximately 24,097 km², or 6.5 times the mapped grassland class; the passage also includes pastures."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-land expansion",
+      "value": 30000,
+      "unit": "hectares",
+      "timeframe": "by 2026",
+      "context": "300 km², approximately 2.6% of the 11,564 km² mapped as forest in 2022."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest land included in emission removals",
+      "value": 1040000,
+      "unit": "hectares",
+      "timeframe": "2022",
+      "context": "A 2022 accounting area rather than a stated future target; approximately 89.9% of mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Greenhouse-gas absorption level",
+      "value": 7200000,
+      "unit": "tons of CO2 equivalent",
+      "timeframe": "2016",
+      "context": "A historical absorption level reported as twice the 1990 level."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Azerbaijan’s mixed land-use approach combines afforestation, reforestation, sustainable forest management, rotational grazing and land restoration. Its clearest forward commitment is approximately 30,000 hectares of forest-land expansion by 2026—300 km², or about 2.6% of the 11,564 km² mapped as forest in 2022—while the passage gives a projected total forest-coverage figure of 12.3%. It reports forestry and land use across 12.19% of national land and grasslands and pastures across 28%; the latter is not directly comparable with the 4.3% grassland-only map class. For conservation, it cites 2022 LULUCF net sequestration of 5.2 MtCO₂eq, including 3.6 MtCO₂ of forest-land removals across 1.04 million hectares, nearly 90% of mapped forest area. It also reports 2016 absorption of 7.2 million tons CO₂ equivalent, double the 1990 level. No separate sustainable-agriculture area is specified.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forestry and land-use share\",\n      \"value\": 12.19,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Reported scope rather than a dated future target; equivalent to approximately 10,491 km² of national land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Grasslands and pastures share\",\n      \"value\": 28,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 24,097 km², or 6.5 times the mapped grassland class; the passage also includes pastures.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-land expansion\",\n      \"value\": 30000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"by 2026\",\n      \"context\": \"300 km², approximately 2.6% of the 11,564 km² mapped as forest in 2022.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest land included in emission removals\",\n      \"value\": 1040000,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"2022\",\n      \"context\": \"A 2022 accounting area rather than a stated future target; approximately 89.9% of mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Greenhouse-gas absorption level\",\n      \"value\": 7200000,\n      \"unit\": \"tons of CO2 equivalent\",\n      \"timeframe\": \"2016\",\n      \"context\": \"A historical absorption level reported as twice the 1990 level.\"\n    }\n  ]\n}",
+  "errors": []
+}

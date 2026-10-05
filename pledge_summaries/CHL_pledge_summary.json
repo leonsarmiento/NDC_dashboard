@@ -1,0 +1,234 @@
+{
+  "iso3": "CHL",
+  "country": "Chile",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 54,
+  "geo_context": {
+    "country_area_km2": 754193.4,
+    "land_cover_km2": {
+      "Agriculture": 45199.0,
+      "Forest": 239057.0,
+      "Grassland": 30831.0,
+      "Wetland": 98.0,
+      "Settlement": 2999.0,
+      "Shrubland": 121713.0,
+      "Sparse_vegetation": 133263.0,
+      "Bare_area": 123531.0,
+      "Water": 29221.0
+    }
+  },
+  "summary": "Chile’s pledges mix sustainable native-forest management and recovery, afforestation and landscape restoration with protected-area and marine measures. Chile commits to managing or recovering 200,000 hectares of native forest and afforesting 200,000 hectares by 2030; each equals 2,000 km², about 0.84% of current forest cover, with respective annual carbon-capture goals of at least 0.9 and 3 MtCO2eq. It also plans to bring 1,000,000 hectares into restoration by 2030 (1.33% of national land area) and begin at least three water-security restoration plans by 2035, while expanding official continental terrestrial and aquatic protection by at least 1,000,000 hectares. Conservation targets include a 25% reduction in native-forest degradation and deforestation emissions by 2030, 20 new coastal wetlands by 2025 plus 10 more by 2030, and stronger planning, monitoring and adaptation across marine protected areas. Follow-on forest targets are 50,000 hectares under management and 25,000 hectares afforested during 2031–2035.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Native forest management and recovery",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "2,000 km², ≈0.84% of current mapped forest cover and ≈0.27% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "2,000 km², ≈0.84% of current mapped forest cover and ≈0.27% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Landscape restoration area",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "10,000 km², equivalent to ≈1.33% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional afforestation",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "2031–2035",
+      "context": "250 km², ≈0.10% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Water-security restoration plans started",
+      "value": 3,
+      "unit": "plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation carbon sequestration",
+      "value": 3,
+      "unit": "MtCO2eq",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional afforestation annual carbon capture",
+      "value": 0.3,
+      "unit": "MtCO2eq",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Native forest under management plans",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "2031–2035",
+      "context": "500 km², ≈0.21% of current mapped forest cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Native-forest management carbon sequestration",
+      "value": 0.9,
+      "unit": "MtCO2eq",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Native-forest degradation and deforestation emissions reduction",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Underrepresented marine ecoregions protected",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Pre-2020 MPA management plans implemented",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Prioritized MPAs with governance and financial sustainability strategies",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Prioritized MPAs with emissions or captures estimates, impact assessment and adaptation measures",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Pre-2020 MPAs with adaptation management plans",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "2020–2025 MPAs with adaptation management plans",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "All MPAs created by 2025 with adaptation management plans",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Pre-2020 MPA management-plan implementation",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "MPA management-plan effectiveness methodology coverage",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Pre-2025 MPA management-plan implementation",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Official protection area expansion",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "10,000 km², equivalent to ≈1.33% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New coastal wetlands protected",
+      "value": 20,
+      "unit": "coastal wetlands",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional coastal wetlands protected",
+      "value": 10,
+      "unit": "coastal wetlands",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetland and peatland pilot sites",
+      "value": 5,
+      "unit": "pilot sites",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected areas with standardized metrics",
+      "value": 3,
+      "unit": "MPAs",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine protected areas applying adaptation or mitigation metrics",
+      "value": 5,
+      "unit": "MPAs",
+      "timeframe": "by 2030",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Chile’s pledges mix sustainable native-forest management and recovery, afforestation and landscape restoration with protected-area and marine measures. Chile commits to managing or recovering 200,000 hectares of native forest and afforesting 200,000 hectares by 2030; each equals 2,000 km², about 0.84% of current forest cover, with respective annual carbon-capture goals of at least 0.9 and 3 MtCO2eq. It also plans to bring 1,000,000 hectares into restoration by 2030 (1.33% of national land area) and begin at least three water-security restoration plans by 2035, while expanding official continental terrestrial and aquatic protection by at least 1,000,000 hectares. Conservation targets include a 25% reduction in native-forest degradation and deforestation emissions by 2030, 20 new coastal wetlands by 2025 plus 10 more by 2030, and stronger planning, monitoring and adaptation across marine protected areas. Follow-on forest targets are 50,000 hectares under management and 25,000 hectares afforested during 2031–2035.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Native forest management and recovery\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"2,000 km², ≈0.84% of current mapped forest cover and ≈0.27% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"2,000 km², ≈0.84% of current mapped forest cover and ≈0.27% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Landscape restoration area\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"10,000 km², equivalent to ≈1.33% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional afforestation\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2031–2035\",\n      \"context\": \"250 km², ≈0.10% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Water-security restoration plans started\",\n      \"value\": 3,\n      \"unit\": \"plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation carbon sequestration\",\n      \"value\": 3,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional afforestation annual carbon capture\",\n      \"value\": 0.3,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Native forest under management plans\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2031–2035\",\n      \"context\": \"500 km², ≈0.21% of current mapped forest cover\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Native-forest management carbon sequestration\",\n      \"value\": 0.9,\n      \"unit\": \"MtCO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Native-forest degradation and deforestation emissions reduction\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Underrepresented marine ecoregions protected\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Pre-2020 MPA management plans implemented\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Prioritized MPAs with governance and financial sustainability strategies\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Prioritized MPAs with emissions or captures estimates, impact assessment and adaptation measures\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Pre-2020 MPAs with adaptation management plans\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"2020–2025 MPAs with adaptation management plans\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"All MPAs created by 2025 with adaptation management plans\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Pre-2020 MPA management-plan implementation\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"MPA management-plan effectiveness methodology coverage\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Pre-2025 MPA management-plan implementation\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Official protection area expansion\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"10,000 km², equivalent to ≈1.33% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New coastal wetlands protected\",\n      \"value\": 20,\n      \"unit\": \"coastal wetlands\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional coastal wetlands protected\",\n      \"value\": 10,\n      \"unit\": \"coastal wetlands\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetland and peatland pilot sites\",\n      \"value\": 5,\n      \"unit\": \"pilot sites\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine protected areas with standardized metrics\",\n      \"value\": 3,\n      \"unit\": \"MPAs\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine protected areas applying adaptation or mitigation metrics\",\n      \"value\": 5,\n      \"unit\": \"MPAs\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

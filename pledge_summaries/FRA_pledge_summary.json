@@ -1,0 +1,74 @@
+{
+  "iso3": "FRA",
+  "country": "France",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 549094.0,
+    "land_cover_km2": {
+      "Agriculture": 269581.0,
+      "Forest": 151297.0,
+      "Grassland": 99035.0,
+      "Wetland": 1500.0,
+      "Settlement": 16127.0,
+      "Shrubland": 3255.0,
+      "Sparse_vegetation": 2228.0,
+      "Bare_area": 1882.0,
+      "Water": 3786.0
+    }
+  },
+  "summary": "France’s NDC excerpts combine EU-level and France-specific restoration, land-use, conservation and agriculture measures. For restoration, the EU-level objective is to put measures in place on at least 20% of EU land areas and 20% of its sea areas by 2030, with all ecosystems needing restoration addressed by 2050; peatland and wetland rewetting has a reported 51–54 Mt CO2-eq/yr mitigation potential. Biodiversity-respecting reforestation and sustainable forest management have a reported 8–235 Mt CO2-eq/yr potential. Conservation includes a collective EU LULUCF sink target of −310 Mt CO2-eq by 2030, representing 310 Mt of net removals and 42 Mt CO2-eq additional removals over the 2016–2018 average; France’s listed national 2030 target is −6,693 Kt CO2eq. Agriculture includes improving fertiliser-use efficiency, with a reported 19 Mt CO2-eq/yr potential. No French hectare allocation is stated; France’s 549,094 km2 land area has 2022 cover shares of 49.1% agriculture, 27.6% forest, 18.0% grassland and 0.3% wetland.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land and sea restoration coverage",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide minimum for both land and sea; no France-specific hectare allocation is stated, so it is not directly comparable with France's 2022 class shares."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland rewetting/restoration mitigation potential (reported range; lower endpoint)",
+      "value": 51.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "The source reports a 51–54 MtCO2-eq/yr EU mitigation-potential range; 51 is recorded as the lower endpoint. No date or French area is stated; wetlands are 0.3% of 2022 land cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Collective EU LULUCF carbon-sink target",
+      "value": -310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "The repeated EU target covers managed land collectively and specifies 42 Mt CO2-eq additional removals relative to the 2016–2018 average; France's national allocation is separate."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertiliser-use efficiency mitigation potential",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "No French coverage area is stated; agriculture is 49.1% of France's 2022 land cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Biodiversity-respecting reforestation and sustainable forest management mitigation potential (reported range; lower endpoint)",
+      "value": 8.0,
+      "unit": "MtCO2-eq/yr",
+      "timeframe": null,
+      "context": "The source reports an 8–235 MtCO2-eq/yr range; 8 is recorded as the lower endpoint. No French reforestation area is stated; forest is 27.6% of 2022 land cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "France LULUCF net-removals target",
+      "value": -6693.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030",
+      "context": "France-specific entry in the comparative Member State table and national allocation within the collective EU target; no hectare allocation is stated."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"France’s NDC excerpts combine EU-level and France-specific restoration, land-use, conservation and agriculture measures. For restoration, the EU-level objective is to put measures in place on at least 20% of EU land areas and 20% of its sea areas by 2030, with all ecosystems needing restoration addressed by 2050; peatland and wetland rewetting has a reported 51–54 Mt CO2-eq/yr mitigation potential. Biodiversity-respecting reforestation and sustainable forest management have a reported 8–235 Mt CO2-eq/yr potential. Conservation includes a collective EU LULUCF sink target of −310 Mt CO2-eq by 2030, representing 310 Mt of net removals and 42 Mt CO2-eq additional removals over the 2016–2018 average; France’s listed national 2030 target is −6,693 Kt CO2eq. Agriculture includes improving fertiliser-use efficiency, with a reported 19 Mt CO2-eq/yr potential. No French hectare allocation is stated; France’s 549,094 km2 land area has 2022 cover shares of 49.1% agriculture, 27.6% forest, 18.0% grassland and 0.3% wetland.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU land and sea restoration coverage\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide minimum for both land and sea; no France-specific hectare allocation is stated, so it is not directly comparable with France's 2022 class shares.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland rewetting/restoration mitigation potential (reported range; lower endpoint)\",\n      \"value\": 51.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"The source reports a 51–54 MtCO2-eq/yr EU mitigation-potential range; 51 is recorded as the lower endpoint. No date or French area is stated; wetlands are 0.3% of 2022 land cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Collective EU LULUCF carbon-sink target\",\n      \"value\": -310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The repeated EU target covers managed land collectively and specifies 42 Mt CO2-eq additional removals relative to the 2016–2018 average; France's national allocation is separate.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertiliser-use efficiency mitigation potential\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"No French coverage area is stated; agriculture is 49.1% of France's 2022 land cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Biodiversity-respecting reforestation and sustainable forest management mitigation potential (reported range; lower endpoint)\",\n      \"value\": 8.0,\n      \"unit\": \"MtCO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"The source reports an 8–235 MtCO2-eq/yr range; 8 is recorded as the lower endpoint. No French reforestation area is stated; forest is 27.6% of 2022 land cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"France LULUCF net-removals target\",\n      \"value\": -6693.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"France-specific entry in the comparative Member State table and national allocation within the collective EU target; no hectare allocation is stated.\"\n    }\n  ]\n}",
+  "errors": []
+}

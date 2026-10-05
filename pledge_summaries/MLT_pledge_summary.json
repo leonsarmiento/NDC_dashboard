@@ -1,0 +1,90 @@
+{
+  "iso3": "MLT",
+  "country": "Malta",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 316.4,
+    "land_cover_km2": {
+      "Agriculture": 177.0,
+      "Forest": 0.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 88.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 28.0,
+      "Water": 22.0
+    }
+  },
+  "summary": "Malta's LULUCF entry is a 2030 net-removals value of -2 Kt CO2eq. The document gives an EU-wide 310 Mt CO2-eq net-removals target for 2030; the FF55 passage expresses the same commitment as -310 Mt CO2-eq and an additional 42 Mt CO2-eq relative to the 2016-2018 average. These LULUCF figures are emissions/removals commitments, not area targets; the 2022 land-cover context does not report forest, grassland or wetland extent. Restoration is EU-level: at least 20% of EU land and 20% of EU sea areas by 2030, not a stated 20% share of Malta's 316 km². Agricultural measures are financial: 40% of CAP allocations in 2023-2027, at least 25% of annual direct-payment funds for eco-schemes, and 35% of Pillar II funds for environmental and climate activities. The supplied land-cover context records 177 km² of agriculture (55.9%), but no hectare coverage is specified.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Malta LULUCF net-removals target",
+      "value": -2,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Malta-specific Member State entry; the negative sign is as reported, and no hectare or land-cover share is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Collective EU LULUCF net-removals target",
+      "value": 310,
+      "unit": "Mt CO2-eq",
+      "timeframe": "2030",
+      "context": "Collective EU managed-land commitment, not a Malta-specific area target; the FF55 passage expresses the same commitment as -310 Mt CO2-eq under a carbon-sinks convention."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional LULUCF net removals",
+      "value": 42,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "Additional EU land-sector removals relative to the 2016-2018 average; no area denominator is given."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land-area restoration",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide target; Malta's total land area is 316 km², but the passage does not assign Malta a 20% share."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU sea-area restoration",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide target; Malta's water class is 22 km² (7.0%), but it is not identified as the target base."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "CAP climate allocation",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "2023-2027",
+      "context": "EU financial-allocation share rather than a Malta area target; Malta's agriculture class is 177 km² (55.9%)."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pillar I eco-schemes",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": "Annual direct-payment funding share; no Malta farm-area coverage is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pillar II environment and climate activities",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Pillar II funding share; no Malta hectare coverage or separate period is stated."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Malta's LULUCF entry is a 2030 net-removals value of -2 Kt CO2eq. The document gives an EU-wide 310 Mt CO2-eq net-removals target for 2030; the FF55 passage expresses the same commitment as -310 Mt CO2-eq and an additional 42 Mt CO2-eq relative to the 2016-2018 average. These LULUCF figures are emissions/removals commitments, not area targets; the 2022 land-cover context does not report forest, grassland or wetland extent. Restoration is EU-level: at least 20% of EU land and 20% of EU sea areas by 2030, not a stated 20% share of Malta's 316 km². Agricultural measures are financial: 40% of CAP allocations in 2023-2027, at least 25% of annual direct-payment funds for eco-schemes, and 35% of Pillar II funds for environmental and climate activities. The supplied land-cover context records 177 km² of agriculture (55.9%), but no hectare coverage is specified.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Malta LULUCF net-removals target\",\n      \"value\": -2,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Malta-specific Member State entry; the negative sign is as reported, and no hectare or land-cover share is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Collective EU LULUCF net-removals target\",\n      \"value\": 310,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Collective EU managed-land commitment, not a Malta-specific area target; the FF55 passage expresses the same commitment as -310 Mt CO2-eq under a carbon-sinks convention.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional LULUCF net removals\",\n      \"value\": 42,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Additional EU land-sector removals relative to the 2016-2018 average; no area denominator is given.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU land-area restoration\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide target; Malta's total land area is 316 km², but the passage does not assign Malta a 20% share.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU sea-area restoration\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide target; Malta's water class is 22 km² (7.0%), but it is not identified as the target base.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"CAP climate allocation\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023-2027\",\n      \"context\": \"EU financial-allocation share rather than a Malta area target; Malta's agriculture class is 177 km² (55.9%).\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pillar I eco-schemes\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually\",\n      \"context\": \"Annual direct-payment funding share; no Malta farm-area coverage is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pillar II environment and climate activities\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Pillar II funding share; no Malta hectare coverage or separate period is stated.\"\n    }\n  ]\n}",
+  "errors": []
+}

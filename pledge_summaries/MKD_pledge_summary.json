@@ -1,0 +1,58 @@
+{
+  "iso3": "MKD",
+  "country": "Republic of North Macedonia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 25456.9,
+    "land_cover_km2": {
+      "Agriculture": 8981.0,
+      "Forest": 12409.0,
+      "Grassland": 3000.0,
+      "Wetland": 11.0,
+      "Settlement": 322.0,
+      "Shrubland": 55.0,
+      "Sparse_vegetation": 112.0,
+      "Bare_area": 32.0,
+      "Water": 529.0
+    }
+  },
+  "summary": "North Macedonia’s commitments combine conservation, cross-sector mitigation and agricultural action, but they do not specify ecosystem-restoration or protected-area targets. For conservation, projected carbon sinks in 2030 are assumed to be 7% higher than in 2014, while LULUCF removals are targeted to increase by 95%. These ambitions are relevant to a landscape comprising 48.7% forest, 11.8% grassland and 35.3% agriculture, although no affected areas or baselines are provided for the removal targets. Under the cross-sector “Both” commitment, North Macedonia lists 63 mitigation policies and measures spanning energy, agriculture, LULUCF and waste, along with enabling measures. For agriculture, a 29% reduction is reported without specifying the baseline, activity or implementation period. Overall, the numerical commitments concern percentage changes and a policy count rather than land or ecosystem coverage.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Projected increase in carbon sinks",
+      "value": 7,
+      "unit": "%",
+      "timeframe": "2030 relative to 2014",
+      "context": "No land-area coverage is specified; forest currently covers 48.7% of the country."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mitigation policies and measures",
+      "value": 63,
+      "unit": "PAMs",
+      "timeframe": null,
+      "context": "The measures span energy, agriculture, LULUCF, waste and enabling sectors."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction in agriculture",
+      "value": 29,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The baseline and covered area are unspecified; agriculture covers 35.3% of the country."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Increase in LULUCF removals",
+      "value": 95,
+      "unit": "%",
+      "timeframe": null,
+      "context": "No affected area is specified; forest covers 12,409 km² and grassland 3,000 km²."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"North Macedonia’s commitments combine conservation, cross-sector mitigation and agricultural action, but they do not specify ecosystem-restoration or protected-area targets. For conservation, projected carbon sinks in 2030 are assumed to be 7% higher than in 2014, while LULUCF removals are targeted to increase by 95%. These ambitions are relevant to a landscape comprising 48.7% forest, 11.8% grassland and 35.3% agriculture, although no affected areas or baselines are provided for the removal targets. Under the cross-sector “Both” commitment, North Macedonia lists 63 mitigation policies and measures spanning energy, agriculture, LULUCF and waste, along with enabling measures. For agriculture, a 29% reduction is reported without specifying the baseline, activity or implementation period. Overall, the numerical commitments concern percentage changes and a policy count rather than land or ecosystem coverage.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Projected increase in carbon sinks\",\n      \"value\": 7,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030 relative to 2014\",\n      \"context\": \"No land-area coverage is specified; forest currently covers 48.7% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mitigation policies and measures\",\n      \"value\": 63,\n      \"unit\": \"PAMs\",\n      \"timeframe\": null,\n      \"context\": \"The measures span energy, agriculture, LULUCF, waste and enabling sectors.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction in agriculture\",\n      \"value\": 29,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The baseline and covered area are unspecified; agriculture covers 35.3% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Increase in LULUCF removals\",\n      \"value\": 95,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"No affected area is specified; forest covers 12,409 km² and grassland 3,000 km².\"\n    }\n  ]\n}",
+  "errors": []
+}

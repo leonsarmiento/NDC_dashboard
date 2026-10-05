@@ -1,0 +1,82 @@
+{
+  "iso3": "ROU",
+  "country": "Romania",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 235696.9,
+    "land_cover_km2": {
+      "Agriculture": 128623.0,
+      "Forest": 80124.0,
+      "Grassland": 15911.0,
+      "Wetland": 1298.0,
+      "Settlement": 6958.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 51.0,
+      "Bare_area": 36.0,
+      "Water": 2707.0
+    }
+  },
+  "summary": "Romania’s NDC combines conservation, restoration and agriculture measures, largely through the EU framework. It reports an EU LULUCF carbon-sinks target of -310 Mt CO2-eq by 2030, also expressed as 310 Mt of net removals, plus an additional 42 Mt CO2-eq above the 2016–2018 average, with remote-sensing monitoring and biodiversity synergies; Romania’s national LULUCF target is -2,380 Kt CO2eq by 2030. The restoration benchmark is at least 20% of EU land areas and 20% of EU sea areas by 2030, with no Romanian area specified. Agriculture targets are 40% of the EU CAP financial allocation for climate objectives in 2023–2027, at least 25% of annual Pillar I direct payments for eco-schemes, and at least 35% of Pillar II funds for environment and climate. Romania’s 235,697 km² is 54.6% agriculture, 34.0% forest and 6.8% grassland; the 20% restoration benchmark is EU-wide, and the finance targets are not area-coverage targets.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Collective EU LULUCF carbon-sinks target",
+      "value": -310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU collective target for managed land across the Union; the same commitment is also reported as 310 Mt CO2 net removals."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional EU LULUCF net removals versus 2016–2018 average",
+      "value": 42.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU-level increase relative to the 2016–2018 average; no Romanian hectare equivalent is specified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Romania LULUCF net-removals target",
+      "value": -2380.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": "Romania’s listed Member State target for 2030; no conversion to the country’s 80,124 km² forest or 15,911 km² grassland area is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land and sea areas under restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide benchmark; no Romania-specific share of the current 80,124 km² forest or 15,911 km² grassland is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "EU CAP financial allocation contributing to climate objectives",
+      "value": 40.0,
+      "unit": "%",
+      "timeframe": "2023–2027",
+      "context": "EU-wide financial share, not a stated coverage percentage of Romania’s 128,623 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "EU Pillar I direct payments earmarked for eco-schemes",
+      "value": 25.0,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": "Annual EU payment allocation; no corresponding share of Romania’s agricultural area is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "EU Pillar II funds dedicated to environment and climate activities",
+      "value": 35.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "EU-wide Pillar II funding share; no Romanian area coverage is stated."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Romania’s NDC combines conservation, restoration and agriculture measures, largely through the EU framework. It reports an EU LULUCF carbon-sinks target of -310 Mt CO2-eq by 2030, also expressed as 310 Mt of net removals, plus an additional 42 Mt CO2-eq above the 2016–2018 average, with remote-sensing monitoring and biodiversity synergies; Romania’s national LULUCF target is -2,380 Kt CO2eq by 2030. The restoration benchmark is at least 20% of EU land areas and 20% of EU sea areas by 2030, with no Romanian area specified. Agriculture targets are 40% of the EU CAP financial allocation for climate objectives in 2023–2027, at least 25% of annual Pillar I direct payments for eco-schemes, and at least 35% of Pillar II funds for environment and climate. Romania’s 235,697 km² is 54.6% agriculture, 34.0% forest and 6.8% grassland; the 20% restoration benchmark is EU-wide, and the finance targets are not area-coverage targets.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Collective EU LULUCF carbon-sinks target\",\n      \"value\": -310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU collective target for managed land across the Union; the same commitment is also reported as 310 Mt CO2 net removals.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional EU LULUCF net removals versus 2016–2018 average\",\n      \"value\": 42.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-level increase relative to the 2016–2018 average; no Romanian hectare equivalent is specified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Romania LULUCF net-removals target\",\n      \"value\": -2380.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Romania’s listed Member State target for 2030; no conversion to the country’s 80,124 km² forest or 15,911 km² grassland area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU land and sea areas under restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide benchmark; no Romania-specific share of the current 80,124 km² forest or 15,911 km² grassland is specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"EU CAP financial allocation contributing to climate objectives\",\n      \"value\": 40.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023–2027\",\n      \"context\": \"EU-wide financial share, not a stated coverage percentage of Romania’s 128,623 km² agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"EU Pillar I direct payments earmarked for eco-schemes\",\n      \"value\": 25.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually\",\n      \"context\": \"Annual EU payment allocation; no corresponding share of Romania’s agricultural area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"EU Pillar II funds dedicated to environment and climate activities\",\n      \"value\": 35.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"EU-wide Pillar II funding share; no Romanian area coverage is stated.\"\n    }\n  ]\n}",
+  "errors": []
+}

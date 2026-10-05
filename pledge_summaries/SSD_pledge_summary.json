@@ -1,0 +1,138 @@
+{
+  "iso3": "SSD",
+  "country": "South Sudan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 26,
+  "geo_context": {
+    "country_area_km2": 633858.0,
+    "land_cover_km2": {
+      "Agriculture": 28587.0,
+      "Forest": 257287.0,
+      "Grassland": 24948.0,
+      "Wetland": 37801.0,
+      "Settlement": 209.0,
+      "Shrubland": 283161.0,
+      "Sparse_vegetation": 44.0,
+      "Bare_area": 216.0,
+      "Water": 1632.0
+    }
+  },
+  "summary": "South Sudan's conservation pledges include a 70% reduction in deforested area by 2030, about 30% of natural forests designated as reserves (against 3% of forest area currently gazetted), and an additional 45.06 million tCO2e sequestered by 2030; the sustainable tourism/recreation sector has a 40% cumulative emissions-reduction target. Restoration includes planting 100 million trees over 10 years and a mixed agricultural-restoration irrigation measure reaching about 20% of farmers in northern Upper Nile. Agriculture targets a 23% cumulative sector emissions reduction and an 18% reduction in soil and livestock-management emissions versus 2017, alongside aquaculture for 10% of farmers, beekeeping reaching 3,000, 5,000 and 6,000 farmers in three regions, and rangeland/water management for 20,000 farmer households. The mixed water plan builds at least 10 structures and boreholes per state. Mapped forest covers 257,287 km² (40.6%), shrubland 44.7%, and agriculture 28,587 km² (4.5%); tree density is unspecified.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional sequestration potential",
+      "value": 45.06,
+      "unit": "million tCO2e",
+      "timeframe": "by 2030",
+      "context": "The same scenario is rounded to 45 million in another passage; mapped forest covers 257,287 km² (40.6%), while the target is not an area measure."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforested-area reduction",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Mapped forest covers 257,287 km² (40.6%); the passages cite 2018 and 2019 as comparison years."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural forests designated as reserve forests",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Only 3% of total forest area is reported as currently gazetted; the 30% pledge concerns natural forests."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative emissions reduction in tourism and recreation",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and reforestation tree planting",
+      "value": 100000000,
+      "unit": "trees",
+      "timeframe": "over 10 years",
+      "context": "Mapped forest covers 257,287 km² (40.6%); no planting density is stated, so the tree count cannot be converted to an area share."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cumulative agricultural emissions reduction",
+      "value": 23,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Agriculture covers 28,587 km² (4.5%); this is an emissions target, not a land-area commitment."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Soil and livestock-management emissions reduction",
+      "value": 18,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The comparison baseline is 2017; agriculture covers 4.5% of land, but no land area is targeted."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small-scale aquaculture coverage among farmers",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The denominator is farmers nationwide, not the 28,587 km² agricultural land class."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beekeeping farmers covered - Upper Nile Region",
+      "value": 3000,
+      "unit": "farmers",
+      "timeframe": null,
+      "context": "This is a farmer-count target in Upper Nile Region, not a land-area share."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beekeeping farmers covered - Bahr el Ghazal Region",
+      "value": 5000,
+      "unit": "farmers",
+      "timeframe": null,
+      "context": "This is a farmer-count target in Bahr el Ghazal Region, not a land-area share."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beekeeping farmers covered - Greater Equatorial",
+      "value": 6000,
+      "unit": "farmers",
+      "timeframe": null,
+      "context": "This is a farmer-count target in Greater Equatorial, not a land-area share."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmer households covered by rangeland mapping and water management",
+      "value": 20000,
+      "unit": "farmer households",
+      "timeframe": null,
+      "context": "The target spans Upper Nile, Bahr el Ghazal, and Greater Equatorial; no farmer-household denominator is provided."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Northern Upper Nile irrigation rehabilitation and farmer coverage",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The same rehabilitation measure is presented as both agricultural support and restoration; agriculture covers 4.5% of land, but the target is a farmer share."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Water-harvesting structures and boreholes construction",
+      "value": 10,
+      "unit": "water harvesting structures and boreholes per state",
+      "timeframe": null,
+      "context": "The target is per state; no state count is supplied, so a national total cannot be derived."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"South Sudan's conservation pledges include a 70% reduction in deforested area by 2030, about 30% of natural forests designated as reserves (against 3% of forest area currently gazetted), and an additional 45.06 million tCO2e sequestered by 2030; the sustainable tourism/recreation sector has a 40% cumulative emissions-reduction target. Restoration includes planting 100 million trees over 10 years and a mixed agricultural-restoration irrigation measure reaching about 20% of farmers in northern Upper Nile. Agriculture targets a 23% cumulative sector emissions reduction and an 18% reduction in soil and livestock-management emissions versus 2017, alongside aquaculture for 10% of farmers, beekeeping reaching 3,000, 5,000 and 6,000 farmers in three regions, and rangeland/water management for 20,000 farmer households. The mixed water plan builds at least 10 structures and boreholes per state. Mapped forest covers 257,287 km² (40.6%), shrubland 44.7%, and agriculture 28,587 km² (4.5%); tree density is unspecified.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional sequestration potential\",\n      \"value\": 45.06,\n      \"unit\": \"million tCO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The same scenario is rounded to 45 million in another passage; mapped forest covers 257,287 km² (40.6%), while the target is not an area measure.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforested-area reduction\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Mapped forest covers 257,287 km² (40.6%); the passages cite 2018 and 2019 as comparison years.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural forests designated as reserve forests\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Only 3% of total forest area is reported as currently gazetted; the 30% pledge concerns natural forests.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative emissions reduction in tourism and recreation\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation and reforestation tree planting\",\n      \"value\": 100000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"over 10 years\",\n      \"context\": \"Mapped forest covers 257,287 km² (40.6%); no planting density is stated, so the tree count cannot be converted to an area share.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cumulative agricultural emissions reduction\",\n      \"value\": 23,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Agriculture covers 28,587 km² (4.5%); this is an emissions target, not a land-area commitment.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Soil and livestock-management emissions reduction\",\n      \"value\": 18,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The comparison baseline is 2017; agriculture covers 4.5% of land, but no land area is targeted.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small-scale aquaculture coverage among farmers\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The denominator is farmers nationwide, not the 28,587 km² agricultural land class.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Beekeeping farmers covered - Upper Nile Region\",\n      \"value\": 3000,\n      \"unit\": \"farmers\",\n      \"timeframe\": null,\n      \"context\": \"This is a farmer-count target in Upper Nile Region, not a land-area share.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Beekeeping farmers covered - Bahr el Ghazal Region\",\n      \"value\": 5000,\n      \"unit\": \"farmers\",\n      \"timeframe\": null,\n      \"context\": \"This is a farmer-count target in Bahr el Ghazal Region, not a land-area share.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Beekeeping farmers covered - Greater Equatorial\",\n      \"value\": 6000,\n      \"unit\": \"farmers\",\n      \"timeframe\": null,\n      \"context\": \"This is a farmer-count target in Greater Equatorial, not a land-area share.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmer households covered by rangeland mapping and water management\",\n      \"value\": 20000,\n      \"unit\": \"farmer households\",\n      \"timeframe\": null,\n      \"context\": \"The target spans Upper Nile, Bahr el Ghazal, and Greater Equatorial; no farmer-household denominator is provided.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Northern Upper Nile irrigation rehabilitation and farmer coverage\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The same rehabilitation measure is presented as both agricultural support and restoration; agriculture covers 4.5% of land, but the target is a farmer share.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Water-harvesting structures and boreholes construction\",\n      \"value\": 10,\n      \"unit\": \"water harvesting structures and boreholes per state\",\n      \"timeframe\": null,\n      \"context\": \"The target is per state; no state count is supplied, so a national total cannot be derived.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,42 @@
+{
+  "iso3": "MYS",
+  "country": "Malaysia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 325341.7,
+    "land_cover_km2": {
+      "Agriculture": 106004.0,
+      "Forest": 210419.0,
+      "Grassland": 1.0,
+      "Wetland": 0.0,
+      "Settlement": 4742.0,
+      "Shrubland": 422.0,
+      "Sparse_vegetation": 227.0,
+      "Bare_area": 0.0,
+      "Water": 3496.0
+    }
+  },
+  "summary": "Malaysia’s ecosystem pledges are exclusively conservation-oriented. It commits to conserving at least 20% of terrestrial areas and inland waters by 2030 through effectively managed, ecologically representative protected areas and other conservation measures, making this a broad land-and-water commitment rather than one focused on a single land-cover class. Malaysia also aims to conserve at least 50% of forest and increase forest connectivity under the Central Forest Spine, Heart of Borneo, and urban-biodiversity initiatives; no deadline is stated for the 50% forest target. Forests currently cover 210,419 km², or 64.7% of Malaysia, so half of the country’s forest area would be about 105,210 km². Despite covering 32.6% of the country, agriculture is not explicitly included in a numerical ecosystem pledge.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial and inland-water conservation coverage",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "A broad conservation commitment covering terrestrial areas and inland waters."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest conservation coverage",
+      "value": 50.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Approximately 105,210 km², equal to half of Malaysia’s current forest area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Malaysia’s ecosystem pledges are exclusively conservation-oriented. It commits to conserving at least 20% of terrestrial areas and inland waters by 2030 through effectively managed, ecologically representative protected areas and other conservation measures, making this a broad land-and-water commitment rather than one focused on a single land-cover class. Malaysia also aims to conserve at least 50% of forest and increase forest connectivity under the Central Forest Spine, Heart of Borneo, and urban-biodiversity initiatives; no deadline is stated for the 50% forest target. Forests currently cover 210,419 km², or 64.7% of Malaysia, so half of the country’s forest area would be about 105,210 km². Despite covering 32.6% of the country, agriculture is not explicitly included in a numerical ecosystem pledge.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial and inland-water conservation coverage\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"A broad conservation commitment covering terrestrial areas and inland waters.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest conservation coverage\",\n      \"value\": 50.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 105,210 km², equal to half of Malaysia’s current forest area.\"\n    }\n  ]\n}",
+  "errors": []
+}

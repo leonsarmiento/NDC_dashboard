@@ -1,0 +1,698 @@
+{
+  "iso3": "MAR",
+  "country": "Morocco",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 121,
+  "geo_context": {
+    "country_area_km2": 415069.4,
+    "land_cover_km2": {
+      "Agriculture": 91418.0,
+      "Forest": 21015.0,
+      "Grassland": 493.0,
+      "Wetland": 0.0,
+      "Settlement": 2247.0,
+      "Shrubland": 15113.0,
+      "Sparse_vegetation": 100289.0,
+      "Bare_area": 183571.0,
+      "Water": 949.0
+    }
+  },
+  "summary": "Morocco combines restoration, conservation and agricultural measures. Restoration includes 50,000 ha of biological reforestation and regeneration annually under the unconditional plan, 20,000 ha annually under the conditional plan, an additional 20,000 ha of forest restoration, and restoration of 30% of degraded ecosystems by 2030; the annual 50,000-ha action equals about 2.4% of current forest cover. Agriculture and mixed measures include 1.5 million ha of direct seeding (about 16.4% of current agricultural land), 1 million ha equipped with efficient irrigation by 2030, 621,000 ha of olive planting, 340,500 ha of fruit trees and 46,500 ha of citrus. Watershed management covers 1.5 million ha in 2015–2030. Conservation combines sustainable management of 30% of terrestrial and aquatic areas, marine protection across 10% of the exclusive economic zone, sustainable plans for 90% of fish stocks, and a 50% groundwater-overexploitation reduction by 2030, alongside 17 aquifer contracts and 28 large dams by 2035.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded ecosystems benefiting from restoration",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional maritime and continental dune fixation",
+      "value": 200,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Compensatory reforestation",
+      "value": 113,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Cactus planting",
+      "value": 44000,
+      "unit": "ha",
+      "timeframe": "phase 1",
+      "context": "Area equivalent to ≈0.24% of current bare area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Cactus planting extension",
+      "value": 85150,
+      "unit": "ha",
+      "timeframe": "tranche 2",
+      "context": "Area equivalent to ≈0.85% of current sparse-vegetation area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Argan-tree plantation extension",
+      "value": 49300,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.49% of current sparse-vegetation area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Biological reforestation and regeneration",
+      "value": 50000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Annual area equivalent to ≈2.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Biological reforestation and regeneration, conditional",
+      "value": 20000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Annual area equivalent to ≈0.95% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assa-Zag green belt trees",
+      "value": 100000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Groundwater overexploitation reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030; equilibrium by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Exclusive economic zone under marine protection",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fish stocks under sustainable management plans",
+      "value": 90,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Dam sedimentation reduction, lower bound",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Dam sedimentation reduction, upper bound",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-pollution reduction",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wastewater reuse rate",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Hydrological telemetry network modernized",
+      "value": 68,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Developable spaces managed under sustainability plans",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial and aquatic areas sustainably managed and conserved",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity-sector objectives",
+      "value": 26,
+      "unit": "objectives",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sensitive-environment protection objectives",
+      "value": 12,
+      "unit": "objectives",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National parks developed",
+      "value": 10,
+      "unit": "national parks",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Participatory aquifer-management contracts",
+      "value": 17,
+      "unit": "contracts",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Environmental and health surveillance zones",
+      "value": 60,
+      "unit": "observation zones",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine-aquaculture development zones",
+      "value": 24000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Eucalyptus and pine area under private investment",
+      "value": 120000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈5.7% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional forest-defense compensation",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈1.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Participatory forest-protection planting",
+      "value": 50000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Annual area equivalent to ≈2.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-defense compensation coverage, unconditional",
+      "value": 90000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Annual area equivalent to ≈4.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-defense compensation coverage, conditional",
+      "value": 30000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Annual area equivalent to ≈1.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Maritime and continental dune fixation",
+      "value": 800,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Artificial groundwater-aquifer recharge",
+      "value": 180000000,
+      "unit": "m³/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Collected rainwater mobilized",
+      "value": 300000000,
+      "unit": "m³/year",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Flood-prone sites secured",
+      "value": 20,
+      "unit": "sites/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Methane-emissions reduction, moderate scenario",
+      "value": 23.5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated area converted or upgraded to localized irrigation",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Structural agricultural mitigation actions",
+      "value": 14,
+      "unit": "actions",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Civil-society organizations supporting sustainable forest management",
+      "value": 300,
+      "unit": "organizations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Date-palm planting extension",
+      "value": 2000000,
+      "unit": "date palms",
+      "timeframe": "phase 2",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved high-efficiency stoves distributed",
+      "value": 3000,
+      "unit": "stoves",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional fruit and forest plants distributed and planted",
+      "value": 100000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit trees distributed for vulnerable populations",
+      "value": 500000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Date-palm planting extension area",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Argan-tree planting",
+      "value": 13000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Argan-tree planting extension",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forage-shrub planting",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈40.6% of current grassland area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dam-associated irrigated perimeters",
+      "value": 20600,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional Saïss plain irrigation",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Citrus planting",
+      "value": 45000,
+      "unit": "ha",
+      "timeframe": "phase 1",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Citrus planting",
+      "value": 46500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cactus planting extension",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.5% of current sparse-vegetation area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New and dam-associated irrigated perimeters",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New irrigation perimeters downstream of dams",
+      "value": 70000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cactus planting in arid zones",
+      "value": 75949,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.76% of current sparse-vegetation area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional localized-irrigation coverage",
+      "value": 80000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Olive-program extension",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit-tree program extension",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small and medium hydraulic irrigation perimeter rehabilitation",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equivalent to ≈1.6% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit-tree planting",
+      "value": 160000,
+      "unit": "ha",
+      "timeframe": "phase 1",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Olive-program extension",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": "phase 2",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rangeland-development program extension",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": "tranche 2",
+      "context": "Area equivalent to ≈6.1 times current grassland area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit-tree planting",
+      "value": 340500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈3.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional localized-irrigation equipment",
+      "value": 350000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈3.8% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit-tree program extension",
+      "value": 400000,
+      "unit": "ha",
+      "timeframe": "phase 2",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Olive-tree planting",
+      "value": 621000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈6.8% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Collective lands mobilized for agricultural investment",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈10.9% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area equipped with efficient irrigation",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equivalent to ≈10.9% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-degradation recovery horizon",
+      "value": 30,
+      "unit": "years",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Minimum share of adaptation projects designated unconditional",
+      "value": 90,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Treated-wastewater reuse and coastal-aquifer reinjection capacity",
+      "value": 100,
+      "unit": "Mm³/year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "More ambitious treated-wastewater reuse capacity",
+      "value": 573,
+      "unit": "Mm³/year",
+      "timeframe": "by 2040–2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Date-palm planting",
+      "value": 3000000,
+      "unit": "date palms",
+      "timeframe": "phase 1",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forestry-sector projects",
+      "value": 17,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Large dams constructed",
+      "value": 28,
+      "unit": "dams",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Flood-protection thresholds",
+      "value": 2,
+      "unit": "thresholds",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "National flood-management program investment",
+      "value": 5700000000,
+      "unit": "dirhams",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watershed management and erosion control",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "2015–2030",
+      "context": "≈3.6% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Small and traditional irrigation perimeter rehabilitation",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈2.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fodder-shrub planting for rangeland development",
+      "value": 14500,
+      "unit": "ha",
+      "timeframe": "phase 1",
+      "context": "Area equivalent to ≈29.4% of current grassland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Olive-tree planting",
+      "value": 447000,
+      "unit": "ha",
+      "timeframe": "phase 1",
+      "context": "Area equivalent to ≈4.9% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Date-palm planting for oasis revitalization",
+      "value": 24000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.26% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Direct seeding for soil restoration",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈16.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-ecosystem reforestation",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.95% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Area covered by planned valorization actions",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.01% of current agricultural area"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Morocco combines restoration, conservation and agricultural measures. Restoration includes 50,000 ha of biological reforestation and regeneration annually under the unconditional plan, 20,000 ha annually under the conditional plan, an additional 20,000 ha of forest restoration, and restoration of 30% of degraded ecosystems by 2030; the annual 50,000-ha action equals about 2.4% of current forest cover. Agriculture and mixed measures include 1.5 million ha of direct seeding (about 16.4% of current agricultural land), 1 million ha equipped with efficient irrigation by 2030, 621,000 ha of olive planting, 340,500 ha of fruit trees and 46,500 ha of citrus. Watershed management covers 1.5 million ha in 2015–2030. Conservation combines sustainable management of 30% of terrestrial and aquatic areas, marine protection across 10% of the exclusive economic zone, sustainable plans for 90% of fish stocks, and a 50% groundwater-overexploitation reduction by 2030, alongside 17 aquifer contracts and 28 large dams by 2035.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded ecosystems benefiting from restoration\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional maritime and continental dune fixation\",\n      \"value\": 200,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Compensatory reforestation\",\n      \"value\": 113,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Cactus planting\",\n      \"value\": 44000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"phase 1\",\n      \"context\": \"Area equivalent to ≈0.24% of current bare area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Cactus planting extension\",\n      \"value\": 85150,\n      \"unit\": \"ha\",\n      \"timeframe\": \"tranche 2\",\n      \"context\": \"Area equivalent to ≈0.85% of current sparse-vegetation area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Argan-tree plantation extension\",\n      \"value\": 49300,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈0.49% of current sparse-vegetation area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Biological reforestation and regeneration\",\n      \"value\": 50000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Annual area equivalent to ≈2.4% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Biological reforestation and regeneration, conditional\",\n      \"value\": 20000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Annual area equivalent to ≈0.95% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assa-Zag green belt trees\",\n      \"value\": 100000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Groundwater overexploitation reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030; equilibrium by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Exclusive economic zone under marine protection\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fish stocks under sustainable management plans\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Dam sedimentation reduction, lower bound\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Dam sedimentation reduction, upper bound\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-pollution reduction\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wastewater reuse rate\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Hydrological telemetry network modernized\",\n      \"value\": 68,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Developable spaces managed under sustainability plans\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial and aquatic areas sustainably managed and conserved\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity-sector objectives\",\n      \"value\": 26,\n      \"unit\": \"objectives\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sensitive-environment protection objectives\",\n      \"value\": 12,\n      \"unit\": \"objectives\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National parks developed\",\n      \"value\": 10,\n      \"unit\": \"national parks\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Participatory aquifer-management contracts\",\n      \"value\": 17,\n      \"unit\": \"contracts\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Environmental and health surveillance zones\",\n      \"value\": 60,\n      \"unit\": \"observation zones\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine-aquaculture development zones\",\n      \"value\": 24000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Eucalyptus and pine area under private investment\",\n      \"value\": 120000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈5.7% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional forest-defense compensation\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈1.4% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Participatory forest-protection planting\",\n      \"value\": 50000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Annual area equivalent to ≈2.4% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-defense compensation coverage, unconditional\",\n      \"value\": 90000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Annual area equivalent to ≈4.3% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-defense compensation coverage, conditional\",\n      \"value\": 30000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Annual area equivalent to ≈1.4% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Maritime and continental dune fixation\",\n      \"value\": 800,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Artificial groundwater-aquifer recharge\",\n      \"value\": 180000000,\n      \"unit\": \"m³/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Collected rainwater mobilized\",\n      \"value\": 300000000,\n      \"unit\": \"m³/year\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Flood-prone sites secured\",\n      \"value\": 20,\n      \"unit\": \"sites/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Methane-emissions reduction, moderate scenario\",\n      \"value\": 23.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated area converted or upgraded to localized irrigation\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Structural agricultural mitigation actions\",\n      \"value\": 14,\n      \"unit\": \"actions\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Civil-society organizations supporting sustainable forest management\",\n      \"value\": 300,\n      \"unit\": \"organizations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Date-palm planting extension\",\n      \"value\": 2000000,\n      \"unit\": \"date palms\",\n      \"timeframe\": \"phase 2\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved high-efficiency stoves distributed\",\n      \"value\": 3000,\n      \"unit\": \"stoves\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional fruit and forest plants distributed and planted\",\n      \"value\": 100000,\n      \"unit\": \"plants\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit trees distributed for vulnerable populations\",\n      \"value\": 500000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Date-palm planting extension area\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Argan-tree planting\",\n      \"value\": 13000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Argan-tree planting extension\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forage-shrub planting\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈40.6% of current grassland area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Dam-associated irrigated perimeters\",\n      \"value\": 20600,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional Saïss plain irrigation\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Citrus planting\",\n      \"value\": 45000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"phase 1\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Citrus planting\",\n      \"value\": 46500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cactus planting extension\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈0.5% of current sparse-vegetation area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New and dam-associated irrigated perimeters\",\n      \"value\": 60000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New irrigation perimeters downstream of dams\",\n      \"value\": 70000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cactus planting in arid zones\",\n      \"value\": 75949,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈0.76% of current sparse-vegetation area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional localized-irrigation coverage\",\n      \"value\": 80000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Olive-program extension\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit-tree program extension\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small and medium hydraulic irrigation perimeter rehabilitation\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equivalent to ≈1.6% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit-tree planting\",\n      \"value\": 160000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"phase 1\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Olive-program extension\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"phase 2\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rangeland-development program extension\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"tranche 2\",\n      \"context\": \"Area equivalent to ≈6.1 times current grassland area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit-tree planting\",\n      \"value\": 340500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈3.7% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional localized-irrigation equipment\",\n      \"value\": 350000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈3.8% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit-tree program extension\",\n      \"value\": 400000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"phase 2\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Olive-tree planting\",\n      \"value\": 621000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈6.8% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Collective lands mobilized for agricultural investment\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈10.9% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area equipped with efficient irrigation\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equivalent to ≈10.9% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-degradation recovery horizon\",\n      \"value\": 30,\n      \"unit\": \"years\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minimum share of adaptation projects designated unconditional\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Treated-wastewater reuse and coastal-aquifer reinjection capacity\",\n      \"value\": 100,\n      \"unit\": \"Mm³/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"More ambitious treated-wastewater reuse capacity\",\n      \"value\": 573,\n      \"unit\": \"Mm³/year\",\n      \"timeframe\": \"by 2040–2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Date-palm planting\",\n      \"value\": 3000000,\n      \"unit\": \"date palms\",\n      \"timeframe\": \"phase 1\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forestry-sector projects\",\n      \"value\": 17,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Large dams constructed\",\n      \"value\": 28,\n      \"unit\": \"dams\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Flood-protection thresholds\",\n      \"value\": 2,\n      \"unit\": \"thresholds\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"National flood-management program investment\",\n      \"value\": 5700000000,\n      \"unit\": \"dirhams\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Watershed management and erosion control\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2015–2030\",\n      \"context\": \"≈3.6% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Small and traditional irrigation perimeter rehabilitation\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈2.2% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fodder-shrub planting for rangeland development\",\n      \"value\": 14500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"phase 1\",\n      \"context\": \"Area equivalent to ≈29.4% of current grassland area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Olive-tree planting\",\n      \"value\": 447000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"phase 1\",\n      \"context\": \"Area equivalent to ≈4.9% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Date-palm planting for oasis revitalization\",\n      \"value\": 24000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈0.26% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Direct seeding for soil restoration\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈16.4% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-ecosystem reforestation\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equivalent to ≈0.95% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Area covered by planned valorization actions\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.01% of current agricultural area\"\n    }\n  ]\n}",
+  "errors": []
+}

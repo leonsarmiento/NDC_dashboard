@@ -1,0 +1,1378 @@
+{
+  "iso3": "LKA",
+  "country": "Sri Lanka",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 137,
+  "geo_context": {
+    "country_area_km2": 66282.1,
+    "land_cover_km2": {
+      "Agriculture": 30836.0,
+      "Forest": 24549.0,
+      "Grassland": 75.0,
+      "Wetland": 0.0,
+      "Settlement": 1148.0,
+      "Shrubland": 7728.0,
+      "Sparse_vegetation": 64.0,
+      "Bare_area": 17.0,
+      "Water": 1884.0
+    }
+  },
+  "summary": "Restoration commitments include at least 18,000 ha of reforestation/afforestation, improved growing stock on 200,000 ha and a separate 278,000-ha intervention, 1,000 ha of coastal/mangrove restoration, 150 ha/year of mangrove restoration, and restoration of 10% of degraded climate-sensitive landscapes by 2035; other pledges cover 25% of identified degraded terrestrial, wetland, fog-zone and riparian landscapes. Conservation expands integrated management across 15 river basins and 47 fisheries areas, protects 38 coastal/marine sites, and targets ex-situ conservation of 6,500 species. Agriculture scales input-efficient farming from 50% of the target area in 2025 to 100% by 2030, alongside irrigation, soil, water and productivity measures. Mixed pledges aim for 32% forest cover and nearly four million trees over ten years. However, Sentinel-3 maps forest at 37% of land in 2022, so 32% is below the current mapped share; 18,000 ha is only 0.7% of current forest area.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "GHG emissions reduction",
+      "value": 14.5,
+      "unit": "%",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest cover",
+      "value": 32,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈21,210 km², versus the mapped current forest area of 24,549 km² (37.0% of the country)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural forest cover",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": "The target is below the supplied 2022 total forest share of 37.0%."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Carbon sequestration increase versus BAU",
+      "value": 7,
+      "unit": "%",
+      "timeframe": "2021-2030",
+      "context": "2% unconditional and 5% conditional; 2,357,000 MT CO 2e total estimated additional sequestration."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-cover contribution from plantations and natural forests",
+      "value": 30.8,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The remaining contribution is to come from Trees Outside Forests."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Major river catchments strengthened through tree planting",
+      "value": 10,
+      "unit": "major rivers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded-forest growing stock improved",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈8.1% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Growing stock improvement area",
+      "value": 278000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈11.3% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded terrestrial and wetland landscapes restored",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": "At least 25% of each identified landscape type."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-vulnerable riparian and instream areas restored",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": "At least 25% of the area identified by the feasibility study."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest cover",
+      "value": 32,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The 2035 target equals approximately 21,210 km², still below the mapped 2022 forest area of 24,549 km²."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Trees Outside Forests established",
+      "value": 7000000,
+      "unit": "TROFs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Major and medium reservoirs restored, rehabilitated or augmented",
+      "value": 25,
+      "unit": "major/medium reservoirs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Minor irrigation systems restored, rehabilitated or augmented",
+      "value": 300,
+      "unit": "minor irrigation systems",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Irrigation canals restored or augmented",
+      "value": 200,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tanks and canals restored",
+      "value": 50,
+      "unit": "tanks and canals",
+      "timeframe": "periodic (every 2 years)",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tank and canal restoration length",
+      "value": 100,
+      "unit": "km",
+      "timeframe": "periodic (every 2 years)",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Upper-catchment tree planting",
+      "value": 2000000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Lower-catchment tree planting",
+      "value": 1500000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tree planting at tanks",
+      "value": 200000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Six tanks are covered."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tree planting in protected areas",
+      "value": 225000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": "Six protected areas are covered."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Total trees targeted",
+      "value": 4000000,
+      "unit": "trees",
+      "timeframe": "ten-year period",
+      "context": "Reported as nearly four million trees."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded mangrove restoration",
+      "value": 150,
+      "unit": "ha/yr",
+      "timeframe": "ten-year period",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fish production increase",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fingerlings stocked",
+      "value": 1000,
+      "unit": "million fingerlings",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fingerling-stock assessments",
+      "value": 20,
+      "unit": "fingerling-stock assessments",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Highly climate-vulnerable lagoons identified",
+      "value": 35,
+      "unit": "lagoons",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Lagoon profiles developed",
+      "value": 20,
+      "unit": "lagoons",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Lagoon carrying-capacity assessments",
+      "value": 2,
+      "unit": "lagoons",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Coastal ecosystems restored",
+      "value": 100,
+      "unit": "hectares",
+      "timeframe": null,
+      "context": "Part of a broader 1,000-ha restoration target."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Non-forest land reforested or afforested",
+      "value": 18000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Minimum area; ≈0.7% of current mapped forest area and includes mangroves."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Fog-interception-zone natural ecosystems restored",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Coastal and mangrove ecosystems restored",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Broader target encompassing the 100-ha coastal activities."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban tree-cover increase",
+      "value": 500,
+      "unit": "ha/yr",
+      "timeframe": null,
+      "context": "Reported alongside 100,000 trees per year."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Major tanks restored or rehabilitated",
+      "value": 10,
+      "unit": "selected major tanks",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Medium tanks restored or rehabilitated",
+      "value": 25,
+      "unit": "medium tanks",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minor irrigation schemes restored or rehabilitated",
+      "value": 200,
+      "unit": "minor schemes",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded climate-sensitive terrestrial, aquatic and coastal landscapes restored",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-forest restoration in the dry zone",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-forest restoration in the wet zone",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "EAFM plans developed and implemented",
+      "value": 5,
+      "unit": "EAFM plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Flood-affected perennial reservoirs equipped with fish barricades",
+      "value": 50,
+      "unit": "perennial reservoirs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Lagoon fisheries and aquatic-resource production capacity",
+      "value": 30,
+      "unit": "lagoons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Vulnerable lagoons profiled",
+      "value": 30,
+      "unit": "lagoons",
+      "timeframe": "by 2022",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Lagoon carrying-capacity assessments",
+      "value": 30,
+      "unit": "lagoons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Co-managed fishery management areas",
+      "value": 10,
+      "unit": "lagoons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Lagoons with minimized aquatic pollution",
+      "value": 10,
+      "unit": "lagoons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River basins covered by Integrated River Basin Management",
+      "value": 15,
+      "unit": "river basins",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River-basin vulnerability, risk and capacity assessments",
+      "value": 15,
+      "unit": "river basins",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River-basin water-resource development and management plans",
+      "value": 15,
+      "unit": "river basins",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "IRBM plans prepared for critical river basins",
+      "value": 5,
+      "unit": "critical river basins",
+      "timeframe": "by 2025",
+      "context": "The named basins are Yan Oya, Mi Oya, Malwathu Oya, Gin Ganga and Nilwala Ganga."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority-basin flow and sediment monitoring systems",
+      "value": 5,
+      "unit": "priority basins",
+      "timeframe": null,
+      "context": "Includes gauges and collection of rainfall and river-flow data."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Climate-vulnerability plans entering implementation",
+      "value": 5,
+      "unit": "plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Remaining climate-inclusive river-basin development plans",
+      "value": 10,
+      "unit": "river basin development plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River basins with sustainable groundwater-extraction levels",
+      "value": 3,
+      "unit": "river basins",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional river basins covered by groundwater-extraction levels",
+      "value": 3,
+      "unit": "additional river basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rivers receiving salinity barriers",
+      "value": 3,
+      "unit": "rivers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority basins with flood assessment, mitigation and early-warning systems",
+      "value": 5,
+      "unit": "priority basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Groundwater sources identified",
+      "value": 177,
+      "unit": "groundwater sources",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Surface-water sources identified",
+      "value": 312,
+      "unit": "surface water sources",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional reservoirs developed",
+      "value": 5,
+      "unit": "additional reservoirs",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-quality and quantity monitoring locations",
+      "value": 1410,
+      "unit": "locations",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Real-time water-level and quality monitoring stations",
+      "value": 9,
+      "unit": "real-time monitoring stations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Domestic and institutional wastewater-reuse awareness programmes",
+      "value": 4,
+      "unit": "programmes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative salinity-barrier feasibility studies",
+      "value": 6,
+      "unit": "feasibility studies",
+      "timeframe": "by 2035",
+      "context": "One study is assigned to this action, within a cumulative total of six."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Existing salinity barriers improved",
+      "value": 1,
+      "unit": "existing salinity barriers",
+      "timeframe": "by 2035",
+      "context": "At least one."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New salinity barriers constructed",
+      "value": 2,
+      "unit": "new salinity barriers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-sector awareness programmes",
+      "value": 1052,
+      "unit": "programmes",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water and sanitation personnel trained",
+      "value": 550,
+      "unit": "staff",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rivers instrumented for flood monitoring",
+      "value": 10,
+      "unit": "rivers",
+      "timeframe": "up to 2035",
+      "context": "Includes reservoir and rainfall gauges."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River basins with flood-forecasting models",
+      "value": 10,
+      "unit": "river basins",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Flood-warning application capacity-building programmes",
+      "value": 20,
+      "unit": "programmes",
+      "timeframe": "up to 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Action and monitoring plans for climate-vulnerable ecosystems",
+      "value": 2,
+      "unit": "climate-vulnerable ecosystems",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Action and monitoring plans for climate-vulnerable habitats",
+      "value": 2,
+      "unit": "habitats",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Action and monitoring plans for climate-vulnerable species",
+      "value": 4,
+      "unit": "species",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ex-situ flora conservation facilities",
+      "value": 2,
+      "unit": "facilities",
+      "timeframe": "within 5 years",
+      "context": "Botanical gardens and arboreta in climate-vulnerable regions."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ex-situ fauna conservation facilities",
+      "value": 2,
+      "unit": "facilities",
+      "timeframe": "within 5 years",
+      "context": "Ex-situ conservation centres in climate-vulnerable regions."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Veterinary and epidemiology facilities",
+      "value": 3,
+      "unit": "facilities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Connectivity initiatives developed",
+      "value": 2,
+      "unit": "connectivity initiatives",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Environmental protected areas added to the network",
+      "value": 2,
+      "unit": "environmental PAs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Species covered by ex-situ conservation programmes",
+      "value": 6500,
+      "unit": "species",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Crop wild relatives preserved in gene banks",
+      "value": 15000,
+      "unit": "crop wild relatives",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Invasive alien species management plans",
+      "value": 4,
+      "unit": "management plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Predictive models for invasive alien species spread",
+      "value": 5,
+      "unit": "predictive models",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity plans and strategies incorporating adaptation",
+      "value": 8,
+      "unit": "biodiversity-related national plans and strategies",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biodiversity-related projects implemented",
+      "value": 70,
+      "unit": "biodiversity-related projects",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fisheries management areas declared",
+      "value": 47,
+      "unit": "areas",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystem-based fisheries management plans developed",
+      "value": 8,
+      "unit": "EBFM plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystem-based fisheries management plans implemented",
+      "value": 5,
+      "unit": "EBFM plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual climate-fisheries assessments",
+      "value": 4,
+      "unit": "assessments/year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fisheries segments covered by the research agenda",
+      "value": 15,
+      "unit": "fisheries segments",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fisheries research outcomes implemented",
+      "value": 8,
+      "unit": "research outcomes",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority coastal and marine sites protected",
+      "value": 38,
+      "unit": "sites",
+      "timeframe": "2024-2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal Zone Management Plan update frequency",
+      "value": 5,
+      "unit": "years",
+      "timeframe": "every 5 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Tourist-accommodation land reserved for green space",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-cover increase from a 29.7% baseline",
+      "value": 32,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The increase is 2.3 percentage points, but the endpoint remains below the supplied 2022 forest share of 37.0%."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative GHG emissions reduction versus BAU",
+      "value": 20.09,
+      "unit": "%",
+      "timeframe": "2026-2035",
+      "context": "8.11% unconditional and 11.98% conditional."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative GHG emissions reduction versus BAU",
+      "value": 116075800,
+      "unit": "MT CO 2e",
+      "timeframe": "2026-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net carbon removal increase versus BAU",
+      "value": 4.49,
+      "unit": "%",
+      "timeframe": "2026-2035",
+      "context": "0.96% unconditional and 3.53% conditional."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net carbon removal increase versus BAU",
+      "value": 8477900,
+      "unit": "MT CO 2e",
+      "timeframe": "2026-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mid-period GHG emissions reduction versus BAU",
+      "value": 15.61,
+      "unit": "%",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mid-period GHG emissions reduction versus BAU",
+      "value": 41245300,
+      "unit": "MT CO 2e",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mid-period net carbon removal increase versus BAU",
+      "value": 2.28,
+      "unit": "%",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mid-period net carbon removal increase versus BAU",
+      "value": 2132500,
+      "unit": "MT CO 2e",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nitrogen-waste reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The pledge is to halve nitrogen waste."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "State-owned forest-plantation growing stock improved",
+      "value": 78000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.2% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Paddy land-use productivity increase, unconditional",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Paddy land-use productivity increase, conditional",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertilizer-use-efficiency increase, unconditional",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertilizer-use-efficiency increase, conditional",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Milk-yield increase per cattle, unconditional",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Milk-yield increase per cattle, conditional",
+      "value": 55,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Productive milking cows in the herd, conditional",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural and livestock GHG emissions reduction versus BAU",
+      "value": 7,
+      "unit": "%",
+      "timeframe": "2021-2030",
+      "context": "4% unconditional and 3% conditional; 4,335,400 MT CO 2e total estimated mitigation."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in SL GAP-certified products from climate-vulnerable areas",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Target area covered by input-efficient farming systems",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "2025",
+      "context": "The denominator is an unspecified target area, not necessarily all national agricultural land."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Target area covered by input-efficient farming systems",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The denominator is an unspecified target area and cannot be equated to all 30,836 km² of mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Target area covered by farm rainwater harvesting",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Target area covered by stormwater management",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Target area using diversified, input-efficient and climate-tolerant varieties",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Target area using soil-conservation measures",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Major and medium reservoirs with augmented irrigation capacity",
+      "value": 25,
+      "unit": "major/medium reservoirs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minor irrigation systems with augmented capacity",
+      "value": 50,
+      "unit": "minor irrigation systems",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation schemes with enhanced water management",
+      "value": 40,
+      "unit": "irrigation schemes",
+      "timeframe": "up to 2035",
+      "context": "The later breakdown is 30 Department of Irrigation schemes and 10 Mahaweli Authority schemes."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation system water-use-efficiency increase",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated land covered by water-use-efficiency measures",
+      "value": 45000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.5% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tea-plantation tree planting",
+      "value": 200000,
+      "unit": "trees/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Coconut-plantation tree planting",
+      "value": 200000,
+      "unit": "trees/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Average home-garden tree planting",
+      "value": 500000,
+      "unit": "trees/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit post-harvest loss target range, lower endpoint",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit post-harvest loss target range, upper endpoint",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit post-harvest loss target range, lower endpoint",
+      "value": 12,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fruit post-harvest loss target range, upper endpoint",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vegetable post-harvest loss target range in the earlier passage, lower endpoint",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vegetable post-harvest loss target range in the earlier passage, upper endpoint",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vegetable post-harvest loss target range in the later passage, lower endpoint",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vegetable post-harvest loss target range in the later passage, upper endpoint",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vegetable post-harvest loss target range, lower endpoint",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vegetable post-harvest loss target range, upper endpoint",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Excess production receiving value addition",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Excess production receiving value addition",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertilizer-use-efficiency increase",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Water-use-efficiency increase",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National average paddy productivity",
+      "value": 5600,
+      "unit": "kg/ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tea productivity",
+      "value": 1725,
+      "unit": "kg/ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Coconut productivity",
+      "value": 7875,
+      "unit": "nuts/ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rubber productivity",
+      "value": 1300,
+      "unit": "kg/ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar-powered crop water pumps",
+      "value": 27000,
+      "unit": "water pumps",
+      "timeframe": "by 2035",
+      "context": "Reported as about 7.5% of irrigation pumps."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Share of irrigation pumps represented by the pump target",
+      "value": 7.5,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Equivalent context for the 27,000-pump target."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biomass dryers",
+      "value": 4000,
+      "unit": "biomass dryers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar-PV-integrated cold-storage systems",
+      "value": 1000,
+      "unit": "solar PV integrated cold storage systems",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dairy productivity-related percentage target",
+      "value": 65,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Per-head dairy productivity level",
+      "value": 7,
+      "unit": "l/day/head",
+      "timeframe": "by 2035",
+      "context": "Reported as greater than 7 l/day/head."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Second reported per-head dairy target",
+      "value": 5.0,
+      "unit": "l/day/head",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle-farm area target",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈0.6% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle farms covered",
+      "value": 1125,
+      "unit": "cattle farms",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle-farm rollout",
+      "value": 125,
+      "unit": "cattle farms per province per year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Productive monogastric animals",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farms adopting GAHP",
+      "value": 1350,
+      "unit": "farms",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar-PV livestock water pumps",
+      "value": 2700,
+      "unit": "water pumps",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar milk-can coolers",
+      "value": 450,
+      "unit": "milk can coolers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar-PV rooftop systems on livestock farms",
+      "value": 270,
+      "unit": "solar PV rooftop systems",
+      "timeframe": "by 2035",
+      "context": "Equivalent to 30 systems per province."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar-PV rooftop systems per province",
+      "value": 30,
+      "unit": "rooftop systems per province",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biogas digesters",
+      "value": 450,
+      "unit": "biogas digesters",
+      "timeframe": "by 2035",
+      "context": "Equivalent to 50 digesters per province."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biogas digesters per province",
+      "value": 50,
+      "unit": "biogas digesters per province",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fishery samples preserved",
+      "value": 600,
+      "unit": "samples/year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient fish farming technologies introduced",
+      "value": 5,
+      "unit": "farming technologies",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient fish breeding technologies introduced",
+      "value": 6,
+      "unit": "breeding technologies",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient fish varieties introduced",
+      "value": 6,
+      "unit": "climate-resilient fish varieties",
+      "timeframe": "by 2035",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration commitments include at least 18,000 ha of reforestation/afforestation, improved growing stock on 200,000 ha and a separate 278,000-ha intervention, 1,000 ha of coastal/mangrove restoration, 150 ha/year of mangrove restoration, and restoration of 10% of degraded climate-sensitive landscapes by 2035; other pledges cover 25% of identified degraded terrestrial, wetland, fog-zone and riparian landscapes. Conservation expands integrated management across 15 river basins and 47 fisheries areas, protects 38 coastal/marine sites, and targets ex-situ conservation of 6,500 species. Agriculture scales input-efficient farming from 50% of the target area in 2025 to 100% by 2030, alongside irrigation, soil, water and productivity measures. Mixed pledges aim for 32% forest cover and nearly four million trees over ten years. However, Sentinel-3 maps forest at 37% of land in 2022, so 32% is below the current mapped share; 18,000 ha is only 0.7% of current forest area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"GHG emissions reduction\",\n      \"value\": 14.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest cover\",\n      \"value\": 32,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈21,210 km², versus the mapped current forest area of 24,549 km² (37.0% of the country).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural forest cover\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"The target is below the supplied 2022 total forest share of 37.0%.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Carbon sequestration increase versus BAU\",\n      \"value\": 7,\n      \"unit\": \"%\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": \"2% unconditional and 5% conditional; 2,357,000 MT CO 2e total estimated additional sequestration.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest-cover contribution from plantations and natural forests\",\n      \"value\": 30.8,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The remaining contribution is to come from Trees Outside Forests.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Major river catchments strengthened through tree planting\",\n      \"value\": 10,\n      \"unit\": \"major rivers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded-forest growing stock improved\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈8.1% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Growing stock improvement area\",\n      \"value\": 278000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈11.3% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded terrestrial and wetland landscapes restored\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"At least 25% of each identified landscape type.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate-vulnerable riparian and instream areas restored\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"At least 25% of the area identified by the feasibility study.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest cover\",\n      \"value\": 32,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The 2035 target equals approximately 21,210 km², still below the mapped 2022 forest area of 24,549 km².\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Trees Outside Forests established\",\n      \"value\": 7000000,\n      \"unit\": \"TROFs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Major and medium reservoirs restored, rehabilitated or augmented\",\n      \"value\": 25,\n      \"unit\": \"major/medium reservoirs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minor irrigation systems restored, rehabilitated or augmented\",\n      \"value\": 300,\n      \"unit\": \"minor irrigation systems\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Irrigation canals restored or augmented\",\n      \"value\": 200,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tanks and canals restored\",\n      \"value\": 50,\n      \"unit\": \"tanks and canals\",\n      \"timeframe\": \"periodic (every 2 years)\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tank and canal restoration length\",\n      \"value\": 100,\n      \"unit\": \"km\",\n      \"timeframe\": \"periodic (every 2 years)\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Upper-catchment tree planting\",\n      \"value\": 2000000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Lower-catchment tree planting\",\n      \"value\": 1500000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tree planting at tanks\",\n      \"value\": 200000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Six tanks are covered.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tree planting in protected areas\",\n      \"value\": 225000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": \"Six protected areas are covered.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Total trees targeted\",\n      \"value\": 4000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"ten-year period\",\n      \"context\": \"Reported as nearly four million trees.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded mangrove restoration\",\n      \"value\": 150,\n      \"unit\": \"ha/yr\",\n      \"timeframe\": \"ten-year period\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fish production increase\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fingerlings stocked\",\n      \"value\": 1000,\n      \"unit\": \"million fingerlings\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fingerling-stock assessments\",\n      \"value\": 20,\n      \"unit\": \"fingerling-stock assessments\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Highly climate-vulnerable lagoons identified\",\n      \"value\": 35,\n      \"unit\": \"lagoons\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Lagoon profiles developed\",\n      \"value\": 20,\n      \"unit\": \"lagoons\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Lagoon carrying-capacity assessments\",\n      \"value\": 2,\n      \"unit\": \"lagoons\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Coastal ecosystems restored\",\n      \"value\": 100,\n      \"unit\": \"hectares\",\n      \"timeframe\": null,\n      \"context\": \"Part of a broader 1,000-ha restoration target.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Non-forest land reforested or afforested\",\n      \"value\": 18000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Minimum area; ≈0.7% of current mapped forest area and includes mangroves.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Fog-interception-zone natural ecosystems restored\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Coastal and mangrove ecosystems restored\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Broader target encompassing the 100-ha coastal activities.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban tree-cover increase\",\n      \"value\": 500,\n      \"unit\": \"ha/yr\",\n      \"timeframe\": null,\n      \"context\": \"Reported alongside 100,000 trees per year.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Major tanks restored or rehabilitated\",\n      \"value\": 10,\n      \"unit\": \"selected major tanks\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Medium tanks restored or rehabilitated\",\n      \"value\": 25,\n      \"unit\": \"medium tanks\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minor irrigation schemes restored or rehabilitated\",\n      \"value\": 200,\n      \"unit\": \"minor schemes\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded climate-sensitive terrestrial, aquatic and coastal landscapes restored\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-forest restoration in the dry zone\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-forest restoration in the wet zone\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"EAFM plans developed and implemented\",\n      \"value\": 5,\n      \"unit\": \"EAFM plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Flood-affected perennial reservoirs equipped with fish barricades\",\n      \"value\": 50,\n      \"unit\": \"perennial reservoirs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Lagoon fisheries and aquatic-resource production capacity\",\n      \"value\": 30,\n      \"unit\": \"lagoons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Vulnerable lagoons profiled\",\n      \"value\": 30,\n      \"unit\": \"lagoons\",\n      \"timeframe\": \"by 2022\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Lagoon carrying-capacity assessments\",\n      \"value\": 30,\n      \"unit\": \"lagoons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Co-managed fishery management areas\",\n      \"value\": 10,\n      \"unit\": \"lagoons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Lagoons with minimized aquatic pollution\",\n      \"value\": 10,\n      \"unit\": \"lagoons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River basins covered by Integrated River Basin Management\",\n      \"value\": 15,\n      \"unit\": \"river basins\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River-basin vulnerability, risk and capacity assessments\",\n      \"value\": 15,\n      \"unit\": \"river basins\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River-basin water-resource development and management plans\",\n      \"value\": 15,\n      \"unit\": \"river basins\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"IRBM plans prepared for critical river basins\",\n      \"value\": 5,\n      \"unit\": \"critical river basins\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"The named basins are Yan Oya, Mi Oya, Malwathu Oya, Gin Ganga and Nilwala Ganga.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority-basin flow and sediment monitoring systems\",\n      \"value\": 5,\n      \"unit\": \"priority basins\",\n      \"timeframe\": null,\n      \"context\": \"Includes gauges and collection of rainfall and river-flow data.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Climate-vulnerability plans entering implementation\",\n      \"value\": 5,\n      \"unit\": \"plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Remaining climate-inclusive river-basin development plans\",\n      \"value\": 10,\n      \"unit\": \"river basin development plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River basins with sustainable groundwater-extraction levels\",\n      \"value\": 3,\n      \"unit\": \"river basins\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional river basins covered by groundwater-extraction levels\",\n      \"value\": 3,\n      \"unit\": \"additional river basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rivers receiving salinity barriers\",\n      \"value\": 3,\n      \"unit\": \"rivers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority basins with flood assessment, mitigation and early-warning systems\",\n      \"value\": 5,\n      \"unit\": \"priority basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Groundwater sources identified\",\n      \"value\": 177,\n      \"unit\": \"groundwater sources\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Surface-water sources identified\",\n      \"value\": 312,\n      \"unit\": \"surface water sources\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional reservoirs developed\",\n      \"value\": 5,\n      \"unit\": \"additional reservoirs\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-quality and quantity monitoring locations\",\n      \"value\": 1410,\n      \"unit\": \"locations\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Real-time water-level and quality monitoring stations\",\n      \"value\": 9,\n      \"unit\": \"real-time monitoring stations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Domestic and institutional wastewater-reuse awareness programmes\",\n      \"value\": 4,\n      \"unit\": \"programmes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative salinity-barrier feasibility studies\",\n      \"value\": 6,\n      \"unit\": \"feasibility studies\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"One study is assigned to this action, within a cumulative total of six.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Existing salinity barriers improved\",\n      \"value\": 1,\n      \"unit\": \"existing salinity barriers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"At least one.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New salinity barriers constructed\",\n      \"value\": 2,\n      \"unit\": \"new salinity barriers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-sector awareness programmes\",\n      \"value\": 1052,\n      \"unit\": \"programmes\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water and sanitation personnel trained\",\n      \"value\": 550,\n      \"unit\": \"staff\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rivers instrumented for flood monitoring\",\n      \"value\": 10,\n      \"unit\": \"rivers\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": \"Includes reservoir and rainfall gauges.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River basins with flood-forecasting models\",\n      \"value\": 10,\n      \"unit\": \"river basins\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Flood-warning application capacity-building programmes\",\n      \"value\": 20,\n      \"unit\": \"programmes\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Action and monitoring plans for climate-vulnerable ecosystems\",\n      \"value\": 2,\n      \"unit\": \"climate-vulnerable ecosystems\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Action and monitoring plans for climate-vulnerable habitats\",\n      \"value\": 2,\n      \"unit\": \"habitats\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Action and monitoring plans for climate-vulnerable species\",\n      \"value\": 4,\n      \"unit\": \"species\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ex-situ flora conservation facilities\",\n      \"value\": 2,\n      \"unit\": \"facilities\",\n      \"timeframe\": \"within 5 years\",\n      \"context\": \"Botanical gardens and arboreta in climate-vulnerable regions.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ex-situ fauna conservation facilities\",\n      \"value\": 2,\n      \"unit\": \"facilities\",\n      \"timeframe\": \"within 5 years\",\n      \"context\": \"Ex-situ conservation centres in climate-vulnerable regions.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Veterinary and epidemiology facilities\",\n      \"value\": 3,\n      \"unit\": \"facilities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Connectivity initiatives developed\",\n      \"value\": 2,\n      \"unit\": \"connectivity initiatives\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Environmental protected areas added to the network\",\n      \"value\": 2,\n      \"unit\": \"environmental PAs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Species covered by ex-situ conservation programmes\",\n      \"value\": 6500,\n      \"unit\": \"species\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Crop wild relatives preserved in gene banks\",\n      \"value\": 15000,\n      \"unit\": \"crop wild relatives\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Invasive alien species management plans\",\n      \"value\": 4,\n      \"unit\": \"management plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Predictive models for invasive alien species spread\",\n      \"value\": 5,\n      \"unit\": \"predictive models\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity plans and strategies incorporating adaptation\",\n      \"value\": 8,\n      \"unit\": \"biodiversity-related national plans and strategies\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biodiversity-related projects implemented\",\n      \"value\": 70,\n      \"unit\": \"biodiversity-related projects\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fisheries management areas declared\",\n      \"value\": 47,\n      \"unit\": \"areas\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystem-based fisheries management plans developed\",\n      \"value\": 8,\n      \"unit\": \"EBFM plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystem-based fisheries management plans implemented\",\n      \"value\": 5,\n      \"unit\": \"EBFM plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual climate-fisheries assessments\",\n      \"value\": 4,\n      \"unit\": \"assessments/year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fisheries segments covered by the research agenda\",\n      \"value\": 15,\n      \"unit\": \"fisheries segments\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fisheries research outcomes implemented\",\n      \"value\": 8,\n      \"unit\": \"research outcomes\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority coastal and marine sites protected\",\n      \"value\": 38,\n      \"unit\": \"sites\",\n      \"timeframe\": \"2024-2029\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal Zone Management Plan update frequency\",\n      \"value\": 5,\n      \"unit\": \"years\",\n      \"timeframe\": \"every 5 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Tourist-accommodation land reserved for green space\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-cover increase from a 29.7% baseline\",\n      \"value\": 32,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The increase is 2.3 percentage points, but the endpoint remains below the supplied 2022 forest share of 37.0%.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative GHG emissions reduction versus BAU\",\n      \"value\": 20.09,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026-2035\",\n      \"context\": \"8.11% unconditional and 11.98% conditional.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative GHG emissions reduction versus BAU\",\n      \"value\": 116075800,\n      \"unit\": \"MT CO 2e\",\n      \"timeframe\": \"2026-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net carbon removal increase versus BAU\",\n      \"value\": 4.49,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026-2035\",\n      \"context\": \"0.96% unconditional and 3.53% conditional.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net carbon removal increase versus BAU\",\n      \"value\": 8477900,\n      \"unit\": \"MT CO 2e\",\n      \"timeframe\": \"2026-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mid-period GHG emissions reduction versus BAU\",\n      \"value\": 15.61,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mid-period GHG emissions reduction versus BAU\",\n      \"value\": 41245300,\n      \"unit\": \"MT CO 2e\",\n      \"timeframe\": \"2026-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mid-period net carbon removal increase versus BAU\",\n      \"value\": 2.28,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mid-period net carbon removal increase versus BAU\",\n      \"value\": 2132500,\n      \"unit\": \"MT CO 2e\",\n      \"timeframe\": \"2026-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Nitrogen-waste reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The pledge is to halve nitrogen waste.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"State-owned forest-plantation growing stock improved\",\n      \"value\": 78000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.2% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Paddy land-use productivity increase, unconditional\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Paddy land-use productivity increase, conditional\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertilizer-use-efficiency increase, unconditional\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertilizer-use-efficiency increase, conditional\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Milk-yield increase per cattle, unconditional\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Milk-yield increase per cattle, conditional\",\n      \"value\": 55,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Productive milking cows in the herd, conditional\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural and livestock GHG emissions reduction versus BAU\",\n      \"value\": 7,\n      \"unit\": \"%\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": \"4% unconditional and 3% conditional; 4,335,400 MT CO 2e total estimated mitigation.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in SL GAP-certified products from climate-vulnerable areas\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Target area covered by input-efficient farming systems\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025\",\n      \"context\": \"The denominator is an unspecified target area, not necessarily all national agricultural land.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Target area covered by input-efficient farming systems\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The denominator is an unspecified target area and cannot be equated to all 30,836 km² of mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Target area covered by farm rainwater harvesting\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Target area covered by stormwater management\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Target area using diversified, input-efficient and climate-tolerant varieties\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Target area using soil-conservation measures\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Major and medium reservoirs with augmented irrigation capacity\",\n      \"value\": 25,\n      \"unit\": \"major/medium reservoirs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minor irrigation systems with augmented capacity\",\n      \"value\": 50,\n      \"unit\": \"minor irrigation systems\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation schemes with enhanced water management\",\n      \"value\": 40,\n      \"unit\": \"irrigation schemes\",\n      \"timeframe\": \"up to 2035\",\n      \"context\": \"The later breakdown is 30 Department of Irrigation schemes and 10 Mahaweli Authority schemes.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation system water-use-efficiency increase\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated land covered by water-use-efficiency measures\",\n      \"value\": 45000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.5% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tea-plantation tree planting\",\n      \"value\": 200000,\n      \"unit\": \"trees/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Coconut-plantation tree planting\",\n      \"value\": 200000,\n      \"unit\": \"trees/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Average home-garden tree planting\",\n      \"value\": 500000,\n      \"unit\": \"trees/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit post-harvest loss target range, lower endpoint\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit post-harvest loss target range, upper endpoint\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit post-harvest loss target range, lower endpoint\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fruit post-harvest loss target range, upper endpoint\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vegetable post-harvest loss target range in the earlier passage, lower endpoint\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vegetable post-harvest loss target range in the earlier passage, upper endpoint\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vegetable post-harvest loss target range in the later passage, lower endpoint\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vegetable post-harvest loss target range in the later passage, upper endpoint\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vegetable post-harvest loss target range, lower endpoint\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vegetable post-harvest loss target range, upper endpoint\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Excess production receiving value addition\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Excess production receiving value addition\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertilizer-use-efficiency increase\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Water-use-efficiency increase\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National average paddy productivity\",\n      \"value\": 5600,\n      \"unit\": \"kg/ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tea productivity\",\n      \"value\": 1725,\n      \"unit\": \"kg/ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Coconut productivity\",\n      \"value\": 7875,\n      \"unit\": \"nuts/ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rubber productivity\",\n      \"value\": 1300,\n      \"unit\": \"kg/ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar-powered crop water pumps\",\n      \"value\": 27000,\n      \"unit\": \"water pumps\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Reported as about 7.5% of irrigation pumps.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Share of irrigation pumps represented by the pump target\",\n      \"value\": 7.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent context for the 27,000-pump target.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biomass dryers\",\n      \"value\": 4000,\n      \"unit\": \"biomass dryers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar-PV-integrated cold-storage systems\",\n      \"value\": 1000,\n      \"unit\": \"solar PV integrated cold storage systems\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Dairy productivity-related percentage target\",\n      \"value\": 65,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Per-head dairy productivity level\",\n      \"value\": 7,\n      \"unit\": \"l/day/head\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Reported as greater than 7 l/day/head.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Second reported per-head dairy target\",\n      \"value\": 5.0,\n      \"unit\": \"l/day/head\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle-farm area target\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈0.6% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle farms covered\",\n      \"value\": 1125,\n      \"unit\": \"cattle farms\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle-farm rollout\",\n      \"value\": 125,\n      \"unit\": \"cattle farms per province per year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Productive monogastric animals\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farms adopting GAHP\",\n      \"value\": 1350,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar-PV livestock water pumps\",\n      \"value\": 2700,\n      \"unit\": \"water pumps\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar milk-can coolers\",\n      \"value\": 450,\n      \"unit\": \"milk can coolers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar-PV rooftop systems on livestock farms\",\n      \"value\": 270,\n      \"unit\": \"solar PV rooftop systems\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to 30 systems per province.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar-PV rooftop systems per province\",\n      \"value\": 30,\n      \"unit\": \"rooftop systems per province\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biogas digesters\",\n      \"value\": 450,\n      \"unit\": \"biogas digesters\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to 50 digesters per province.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biogas digesters per province\",\n      \"value\": 50,\n      \"unit\": \"biogas digesters per province\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fishery samples preserved\",\n      \"value\": 600,\n      \"unit\": \"samples/year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient fish farming technologies introduced\",\n      \"value\": 5,\n      \"unit\": \"farming technologies\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient fish breeding technologies introduced\",\n      \"value\": 6,\n      \"unit\": \"breeding technologies\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient fish varieties introduced\",\n      \"value\": 6,\n      \"unit\": \"climate-resilient fish varieties\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

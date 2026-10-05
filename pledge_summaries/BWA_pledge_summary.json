@@ -1,0 +1,90 @@
+{
+  "iso3": "BWA",
+  "country": "Botswana",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 8,
+  "geo_context": {
+    "country_area_km2": 580937.6,
+    "land_cover_km2": {
+      "Agriculture": 29815.0,
+      "Forest": 48505.0,
+      "Grassland": 27259.0,
+      "Wetland": 7815.0,
+      "Settlement": 813.0,
+      "Shrubland": 456886.0,
+      "Sparse_vegetation": 373.0,
+      "Bare_area": 8913.0,
+      "Water": 569.0
+    }
+  },
+  "summary": "Botswana’s restoration commitments aim to rehabilitate 10% of degraded land and plant 1,200,000 trees, while a mixed restoration-conservation pledge sets bush encroachment control at 50%. Conservation targets include retaining 163,370 km2 of core wildlife refugia, equivalent to about 28.1% of the country’s total land area; providing two artificial water points per protected area; preventing alien invasive species spread by 10%; managing 25% through veldt-fire management; and applying an ecosystems-based approach for 80% in relation to extreme events such as floods and storms. Relative to the 2022 land-cover map, the refuge target is numerically equivalent to about 35.8% of current shrubland, although its land-cover composition is not specified.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-land rehabilitation",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree planting for rehabilitation",
+      "value": 1200000,
+      "unit": "number of trees planted",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Bush encroachment control",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Alien invasive species spread prevention",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Core wildlife refugia retained",
+      "value": 163370,
+      "unit": "km 2",
+      "timeframe": null,
+      "context": "≈28.1% of total land area; numerically equivalent to ≈35.8% of current shrubland area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Artificial water points per protected area",
+      "value": 2,
+      "unit": "number of boreholes per protected area",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Veldt-fire management",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystems-based approach for extreme-event regulation",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Botswana’s restoration commitments aim to rehabilitate 10% of degraded land and plant 1,200,000 trees, while a mixed restoration-conservation pledge sets bush encroachment control at 50%. Conservation targets include retaining 163,370 km2 of core wildlife refugia, equivalent to about 28.1% of the country’s total land area; providing two artificial water points per protected area; preventing alien invasive species spread by 10%; managing 25% through veldt-fire management; and applying an ecosystems-based approach for 80% in relation to extreme events such as floods and storms. Relative to the 2022 land-cover map, the refuge target is numerically equivalent to about 35.8% of current shrubland, although its land-cover composition is not specified.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-land rehabilitation\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Tree planting for rehabilitation\",\n      \"value\": 1200000,\n      \"unit\": \"number of trees planted\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Bush encroachment control\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Alien invasive species spread prevention\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Core wildlife refugia retained\",\n      \"value\": 163370,\n      \"unit\": \"km 2\",\n      \"timeframe\": null,\n      \"context\": \"≈28.1% of total land area; numerically equivalent to ≈35.8% of current shrubland area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Artificial water points per protected area\",\n      \"value\": 2,\n      \"unit\": \"number of boreholes per protected area\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Veldt-fire management\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystems-based approach for extreme-event regulation\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

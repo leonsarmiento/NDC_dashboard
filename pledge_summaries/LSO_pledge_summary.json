@@ -1,0 +1,402 @@
+{
+  "iso3": "LSO",
+  "country": "Lesotho",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 43,
+  "geo_context": {
+    "country_area_km2": 30664.1,
+    "land_cover_km2": {
+      "Agriculture": 7716.0,
+      "Forest": 3953.0,
+      "Grassland": 13823.0,
+      "Wetland": 2.0,
+      "Settlement": 138.0,
+      "Shrubland": 4947.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 5.0,
+      "Water": 75.0
+    }
+  },
+  "summary": "Lesotho’s pledges mix restoration, conservation and agriculture. The headline restoration target is to increase planted forests by 61,325 ha by 2030 relative to 2015—equivalent to about 15.5% of current mapped forest area (3,953 km²); a separate 5% forest-cover formulation equals about 1,533 km², while forest already covers 12.9% of land. Conservation and mixed measures include rehabilitating 30 pilot wetlands, implementing 18 of 74 catchment plans, cutting traditional biomass use to under 5%, and deploying 9,030 efficient stoves unconditionally or 30,800 conditionally by 2030. Agriculture targets include 20% of productive land under conservation agriculture, 60% more livestock under improved management, a 20% increase in farmer access to resilient seed, 80% more improved crop technologies, 15% more households fitted with rainwater harvesting and 100% of rural institutions. The mixed AFOLU pledge seeks a 6% unconditional reduction and another conditional 6% by 2030.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation and forest regeneration area",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "by 2020",
+      "context": "Equivalent to ≈5.1% of current mapped forest area (3,953 km²), although the deadline was 2020."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land under conservation and protection—lower stated share",
+      "value": 12,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Lower of two percentages stated in the passage; no date is supplied."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land under conservation and protection—higher stated share",
+      "value": 49,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Higher of two percentages stated in the passage; no date is supplied."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Local councils implementing more than 75% of ICM plans",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The figure concerns 6 of 74 supported sub-catchments and a >75% plan-implementation threshold."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Traditional biomass residential-use ceiling",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Communities covered by ecotourism-based rural livelihoods",
+      "value": 20,
+      "unit": "communities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Pilot programs for rural alternative sustainable industries",
+      "value": 2,
+      "unit": "pilot programs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Capacity-building programs for rural alternative sustainable industries",
+      "value": 10,
+      "unit": "capacity building programs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Technical-course programmes for sustainable industries",
+      "value": 2,
+      "unit": "programmes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Efficient woodstoves under the unconditional scenario—2025 milestone",
+      "value": 1250,
+      "unit": "stoves",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Efficient woodstoves under the unconditional scenario",
+      "value": 9030,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Efficient woodstoves under the conditional scenario",
+      "value": 30800,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biogas units under the unconditional scenario",
+      "value": 6300,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biogas units under the conditional scenario",
+      "value": 12600,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LPG stoves replacing wood stoves under the unconditional scenario",
+      "value": 8820,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LPG stoves replacing wood stoves under the conditional scenario",
+      "value": 31500,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sub-catchments under ReNOKA",
+      "value": 6,
+      "unit": "sub-catchments",
+      "timeframe": null,
+      "context": "6 of 74 sub-catchments (8.1%)."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Technicians trained to support sustainable industries",
+      "value": 100,
+      "unit": "technicians",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional households fitted with rainwater-harvesting infrastructure",
+      "value": 15,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rural institutions fitted with rainwater-harvesting infrastructure",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Technicians reached by climate-smart agriculture capacity and awareness activities",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Productive land under conservation agriculture",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Productive land is the stated denominator and is not specified as identical to the 7,716 km² agriculture class."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock under improved management",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Women, youth and vulnerable groups engaged in livestock diversification and management",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmer access to drought- and pest-resistant crop seed",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient crop support—secondary stated share",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The crops passage lists a second 20% value but does not define its indicator or date."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in improved crop technologies",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in drought-tolerant, fast-growing tree species planted",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Community councils adopting integrated land-use plans and management",
+      "value": 64,
+      "unit": "community councils",
+      "timeframe": null,
+      "context": "Companion target to the separate commitment covering 10 districts."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Integrated research and education programmes in agriculture, forestry and land use",
+      "value": 4,
+      "unit": "integrated research and education programmes",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Urban councils adopting integrated land-use plans and management",
+      "value": 11,
+      "unit": "urban councils",
+      "timeframe": null,
+      "context": "Companion target to the separate commitment covering 10 districts."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Unconditional AFOLU emissions reduction",
+      "value": 6,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Relative to business as usual through forest-cover and sustainable-farming practices."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conditional AFOLU emissions reduction",
+      "value": 6,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Additional reduction conditional on international support for reforestation and sustainable agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fertilizer reduction",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The source also calls for completion of the fertilizer-options assessment by 2025."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest land cover as a share of total land",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "5% of 30,664 km² is ≈1,533 km²; mapped forest already covers 12.9% of land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Livestock diversification and management—additional stated share",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The livestock passage pairs this with a 60% improved-management target but does not identify the population or date associated with 35%."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in planted forests relative to 2015",
+      "value": 61325,
+      "unit": "ha",
+      "timeframe": "by 2030 (relative to 2015)",
+      "context": "≈15.5% of current mapped forest area (3,953 km²)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "ICM catchment plans implemented",
+      "value": 18,
+      "unit": "catchment plans",
+      "timeframe": "by 2030",
+      "context": "18 of 74 catchments (24.3%)."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sub-catchment management development plans",
+      "value": 6,
+      "unit": "sub-catchment management development plans",
+      "timeframe": null,
+      "context": "Part of the 74-sub-catchment programme; no separate deadline is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Individuals trained on climate resilience in integrated catchment management",
+      "value": 200,
+      "unit": "individuals",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pilot wetland areas rehabilitated",
+      "value": 30,
+      "unit": "pilot wetland areas",
+      "timeframe": "by 2030",
+      "context": "A pilot-area footprint is not reported; the 2022 mapped wetland class totals 2 km²."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Communities engaged in sustainable eco-based businesses",
+      "value": 1,
+      "unit": "community in each district",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "People engaged in alternative sustainable livelihoods",
+      "value": 600,
+      "unit": "people",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Companies or cooperatives engaged in alternative sustainable livelihoods",
+      "value": 60,
+      "unit": "companies or cooperatives",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Initiatives under the National Land Use Plan",
+      "value": 3,
+      "unit": "initiatives",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Recommendations from the livestock-diet feasibility study implemented",
+      "value": 3,
+      "unit": "recommendations",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Districts adopting integrated land-use plans and management",
+      "value": 10,
+      "unit": "districts",
+      "timeframe": null,
+      "context": "Merged with the earlier target of 10 district councils adopting the same integrated land-use plans."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Lesotho’s pledges mix restoration, conservation and agriculture. The headline restoration target is to increase planted forests by 61,325 ha by 2030 relative to 2015—equivalent to about 15.5% of current mapped forest area (3,953 km²); a separate 5% forest-cover formulation equals about 1,533 km², while forest already covers 12.9% of land. Conservation and mixed measures include rehabilitating 30 pilot wetlands, implementing 18 of 74 catchment plans, cutting traditional biomass use to under 5%, and deploying 9,030 efficient stoves unconditionally or 30,800 conditionally by 2030. Agriculture targets include 20% of productive land under conservation agriculture, 60% more livestock under improved management, a 20% increase in farmer access to resilient seed, 80% more improved crop technologies, 15% more households fitted with rainwater harvesting and 100% of rural institutions. The mixed AFOLU pledge seeks a 6% unconditional reduction and another conditional 6% by 2030.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation and forest regeneration area\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2020\",\n      \"context\": \"Equivalent to ≈5.1% of current mapped forest area (3,953 km²), although the deadline was 2020.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land under conservation and protection—lower stated share\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Lower of two percentages stated in the passage; no date is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land under conservation and protection—higher stated share\",\n      \"value\": 49,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Higher of two percentages stated in the passage; no date is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Local councils implementing more than 75% of ICM plans\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The figure concerns 6 of 74 supported sub-catchments and a >75% plan-implementation threshold.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Traditional biomass residential-use ceiling\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Communities covered by ecotourism-based rural livelihoods\",\n      \"value\": 20,\n      \"unit\": \"communities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Pilot programs for rural alternative sustainable industries\",\n      \"value\": 2,\n      \"unit\": \"pilot programs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Capacity-building programs for rural alternative sustainable industries\",\n      \"value\": 10,\n      \"unit\": \"capacity building programs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Technical-course programmes for sustainable industries\",\n      \"value\": 2,\n      \"unit\": \"programmes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Efficient woodstoves under the unconditional scenario—2025 milestone\",\n      \"value\": 1250,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Efficient woodstoves under the unconditional scenario\",\n      \"value\": 9030,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Efficient woodstoves under the conditional scenario\",\n      \"value\": 30800,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biogas units under the unconditional scenario\",\n      \"value\": 6300,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biogas units under the conditional scenario\",\n      \"value\": 12600,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LPG stoves replacing wood stoves under the unconditional scenario\",\n      \"value\": 8820,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LPG stoves replacing wood stoves under the conditional scenario\",\n      \"value\": 31500,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sub-catchments under ReNOKA\",\n      \"value\": 6,\n      \"unit\": \"sub-catchments\",\n      \"timeframe\": null,\n      \"context\": \"6 of 74 sub-catchments (8.1%).\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Technicians trained to support sustainable industries\",\n      \"value\": 100,\n      \"unit\": \"technicians\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional households fitted with rainwater-harvesting infrastructure\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rural institutions fitted with rainwater-harvesting infrastructure\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Technicians reached by climate-smart agriculture capacity and awareness activities\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Productive land under conservation agriculture\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Productive land is the stated denominator and is not specified as identical to the 7,716 km² agriculture class.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock under improved management\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Women, youth and vulnerable groups engaged in livestock diversification and management\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmer access to drought- and pest-resistant crop seed\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient crop support—secondary stated share\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The crops passage lists a second 20% value but does not define its indicator or date.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in improved crop technologies\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in drought-tolerant, fast-growing tree species planted\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Community councils adopting integrated land-use plans and management\",\n      \"value\": 64,\n      \"unit\": \"community councils\",\n      \"timeframe\": null,\n      \"context\": \"Companion target to the separate commitment covering 10 districts.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Integrated research and education programmes in agriculture, forestry and land use\",\n      \"value\": 4,\n      \"unit\": \"integrated research and education programmes\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Urban councils adopting integrated land-use plans and management\",\n      \"value\": 11,\n      \"unit\": \"urban councils\",\n      \"timeframe\": null,\n      \"context\": \"Companion target to the separate commitment covering 10 districts.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Unconditional AFOLU emissions reduction\",\n      \"value\": 6,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Relative to business as usual through forest-cover and sustainable-farming practices.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conditional AFOLU emissions reduction\",\n      \"value\": 6,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Additional reduction conditional on international support for reforestation and sustainable agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fertilizer reduction\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The source also calls for completion of the fertilizer-options assessment by 2025.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest land cover as a share of total land\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"5% of 30,664 km² is ≈1,533 km²; mapped forest already covers 12.9% of land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Livestock diversification and management—additional stated share\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The livestock passage pairs this with a 60% improved-management target but does not identify the population or date associated with 35%.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in planted forests relative to 2015\",\n      \"value\": 61325,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030 (relative to 2015)\",\n      \"context\": \"≈15.5% of current mapped forest area (3,953 km²).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"ICM catchment plans implemented\",\n      \"value\": 18,\n      \"unit\": \"catchment plans\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"18 of 74 catchments (24.3%).\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sub-catchment management development plans\",\n      \"value\": 6,\n      \"unit\": \"sub-catchment management development plans\",\n      \"timeframe\": null,\n      \"context\": \"Part of the 74-sub-catchment programme; no separate deadline is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Individuals trained on climate resilience in integrated catchment management\",\n      \"value\": 200,\n      \"unit\": \"individuals\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pilot wetland areas rehabilitated\",\n      \"value\": 30,\n      \"unit\": \"pilot wetland areas\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"A pilot-area footprint is not reported; the 2022 mapped wetland class totals 2 km².\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Communities engaged in sustainable eco-based businesses\",\n      \"value\": 1,\n      \"unit\": \"community in each district\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"People engaged in alternative sustainable livelihoods\",\n      \"value\": 600,\n      \"unit\": \"people\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Companies or cooperatives engaged in alternative sustainable livelihoods\",\n      \"value\": 60,\n      \"unit\": \"companies or cooperatives\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Initiatives under the National Land Use Plan\",\n      \"value\": 3,\n      \"unit\": \"initiatives\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Recommendations from the livestock-diet feasibility study implemented\",\n      \"value\": 3,\n      \"unit\": \"recommendations\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Districts adopting integrated land-use plans and management\",\n      \"value\": 10,\n      \"unit\": \"districts\",\n      \"timeframe\": null,\n      \"context\": \"Merged with the earlier target of 10 district councils adopting the same integrated land-use plans.\"\n    }\n  ]\n}",
+  "errors": []
+}

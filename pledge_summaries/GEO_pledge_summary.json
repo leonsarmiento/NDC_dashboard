@@ -1,0 +1,50 @@
+{
+  "iso3": "GEO",
+  "country": "Georgia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 69679.1,
+    "land_cover_km2": {
+      "Agriculture": 23769.0,
+      "Forest": 34086.0,
+      "Grassland": 5677.0,
+      "Wetland": 57.0,
+      "Settlement": 974.0,
+      "Shrubland": 3002.0,
+      "Sparse_vegetation": 351.0,
+      "Bare_area": 1007.0,
+      "Water": 370.0
+    }
+  },
+  "summary": "Georgia’s forest commitments combine conservation with restoration. Under the conservation pledge, the forestry sector’s carbon-capturing capacity is to increase by 10% from the 2015 level by 2030. A broader mixed approach targets a 15% increase in forest-sector carbon sequestration by 2035 relative to 2015, using sustainable forest management, restoration of degraded forest landscapes, and integration of high-conservation-value forests into ecological networks and protected areas. Separately, Georgia plans to ecologically restore 70,000 hectares of degraded land by 2035, alongside modernization of irrigation infrastructure. The restoration area equals 700 km², approximately 1.0% of Georgia’s total land area. This forestry focus is significant given that forests cover 48.9% of the country in the supplied 2022 land-cover context, while no numerical agricultural-area commitment is stated.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-sector carbon-capturing capacity increase",
+      "value": 10.0,
+      "unit": "%",
+      "timeframe": "by 2030 relative to 2015",
+      "context": "Forest covers 48.9% of Georgia’s land in the 2022 geographical context."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest-sector carbon sequestration capacity increase",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": "by 2035 relative to 2015",
+      "context": "To be achieved through sustainable forest management, forest-landscape restoration and protected-area integration."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Ecological restoration of degraded land",
+      "value": 70000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to 700 km², approximately 1.0% of Georgia’s total land area."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Georgia’s forest commitments combine conservation with restoration. Under the conservation pledge, the forestry sector’s carbon-capturing capacity is to increase by 10% from the 2015 level by 2030. A broader mixed approach targets a 15% increase in forest-sector carbon sequestration by 2035 relative to 2015, using sustainable forest management, restoration of degraded forest landscapes, and integration of high-conservation-value forests into ecological networks and protected areas. Separately, Georgia plans to ecologically restore 70,000 hectares of degraded land by 2035, alongside modernization of irrigation infrastructure. The restoration area equals 700 km², approximately 1.0% of Georgia’s total land area. This forestry focus is significant given that forests cover 48.9% of the country in the supplied 2022 land-cover context, while no numerical agricultural-area commitment is stated.\",\"targets\":[{\"commitment_type\":\"Conservation\",\"metric\":\"Forest-sector carbon-capturing capacity increase\",\"value\":10.0,\"unit\":\"%\",\"timeframe\":\"by 2030 relative to 2015\",\"context\":\"Forest covers 48.9% of Georgia’s land in the 2022 geographical context.\"},{\"commitment_type\":\"Both\",\"metric\":\"Forest-sector carbon sequestration capacity increase\",\"value\":15.0,\"unit\":\"%\",\"timeframe\":\"by 2035 relative to 2015\",\"context\":\"To be achieved through sustainable forest management, forest-landscape restoration and protected-area integration.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Ecological restoration of degraded land\",\"value\":70000,\"unit\":\"ha\",\"timeframe\":\"by 2035\",\"context\":\"Equivalent to 700 km², approximately 1.0% of Georgia’s total land area.\"}]}",
+  "errors": []
+}

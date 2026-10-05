@@ -1,0 +1,330 @@
+{
+  "iso3": "KGZ",
+  "country": "Kyrgyzstan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 29,
+  "geo_context": {
+    "country_area_km2": 199561.5,
+    "land_cover_km2": {
+      "Agriculture": 44073.0,
+      "Forest": 13939.0,
+      "Grassland": 88132.0,
+      "Wetland": 0.0,
+      "Settlement": 759.0,
+      "Shrubland": 2628.0,
+      "Sparse_vegetation": 20277.0,
+      "Bare_area": 15827.0,
+      "Water": 7243.0
+    }
+  },
+  "summary": "Restoration pledges create 10,000 ha of forest stands (1,000 ha annually) and support natural regeneration over 20,000 ha (2,000 ha annually), together about 2.2% of current forest area; corresponding carbon-sequestration estimates are -199,561 and -311,771 thousand t CO2e. Conservation has no area target, but forest and biodiversity is assigned 46.15 million 2021 USD. Agriculture expands organic arable land to 76,570 ha in 2030 and 100,000 ha in 2035 (1.7–2.3% of current agricultural area), reduces water-resource losses and use by 10%, and combines 3.5%/7% livestock reductions in 2030/2035 with manure storage for 100,000 cattle and feed additives for 11,500–20,000. Mixed measures cover 56,000 ha of forest management, 1,000 ha of plantations, 30,000 ha of pasture overseeding, 50,000 ha of organic-fertilizer improvement, rotational management on 350,000 ha (4.0% of grassland), and 10,000 ha of orchards; aggregate LULUCF reductions are 203,031–315,241 thousand t CO2e.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "New forest-stand carbon sequestration (reported value 1)",
+      "value": -199561,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "New forest-stand carbon sequestration (reported value 2)",
+      "value": -311771,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest stands created",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.72% of current forest cover; implementation stated as 1,000 ha annually."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Natural forest regeneration",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.43% of current forest cover; implementation stated as 2,000 ha annually."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest and biodiversity financial amount",
+      "value": 46.15,
+      "unit": "million 2021 USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture emissions reduction (reported total 1)",
+      "value": 95777,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture emissions reduction (reported total 2)",
+      "value": 165436,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic-farming expansion emissions reduction (reported value 1)",
+      "value": 70824,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic-farming expansion emissions reduction (reported value 2)",
+      "value": 96915,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Herd-productivity emissions reduction (reported value 1)",
+      "value": 24952,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Herd-productivity emissions reduction (reported value 2)",
+      "value": 68521,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Perennial-plantation carbon sequestration",
+      "value": -3470,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural financial amount (reported value 1)",
+      "value": 19257,
+      "unit": "million 2021 USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural financial amount (reported value 2)",
+      "value": 276,
+      "unit": "million 2021 USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual reduction in low-productivity dairy cattle",
+      "value": 0.5,
+      "unit": "%",
+      "timeframe": "annually from 2022 to 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction in water-resource losses and use",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock-number reduction",
+      "value": 3.5,
+      "unit": "%",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock-number reduction",
+      "value": 7,
+      "unit": "%",
+      "timeframe": "2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cultivated-land area progression",
+      "value": 7975,
+      "unit": "ha",
+      "timeframe": "2022 starting point",
+      "context": "≈0.18% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cultivated-land area progression",
+      "value": 10775,
+      "unit": "ha",
+      "timeframe": "2050 endpoint",
+      "context": "≈0.24% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arable land under organic agriculture",
+      "value": 76570,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "≈1.74% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arable land under organic agriculture",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "2035",
+      "context": "≈2.27% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Potato and maize area treated with nitrification inhibitors",
+      "value": 18600,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "≈0.42% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Potato and maize area treated with nitrification inhibitors",
+      "value": 37200,
+      "unit": "ha",
+      "timeframe": "2035",
+      "context": "≈0.84% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Potato and maize area treated with urease inhibitors",
+      "value": 6250,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "≈0.14% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Potato and maize area treated with urease inhibitors",
+      "value": 12500,
+      "unit": "ha",
+      "timeframe": "2035",
+      "context": "≈0.28% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle provided with manure-storage facilities",
+      "value": 100000,
+      "unit": "head of cattle",
+      "timeframe": "2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle receiving feed additives",
+      "value": 11500,
+      "unit": "head of cattle",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle receiving feed additives",
+      "value": 20000,
+      "unit": "head of cattle",
+      "timeframe": "2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest management and LULUCF emissions reduction (reported aggregate 1)",
+      "value": 203031,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": "Aggregate of the forest-stand and perennial-plantation components; it should not be added to those component targets."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest management and LULUCF emissions reduction (reported aggregate 2)",
+      "value": 315241,
+      "unit": "kt CO2e",
+      "timeframe": null,
+      "context": "Aggregate of the forest-stand and perennial-plantation components; it should not be added to those component targets."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest management and LULUCF financial amount",
+      "value": 63007,
+      "unit": "million 2021 USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest plantations established",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.07% of current forest cover; implementation stated as 100 ha annually."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest management improved and degradation reduced",
+      "value": 56000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈4.02% of current forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded pasture improved by overseeding",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.34% of current grassland; implementation stated as 6,000 ha annually."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded pasture improved with organic fertilizers",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.57% of current grassland; implementation stated as 10,000 ha annually."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pasture improved through rotational use",
+      "value": 350000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.97% of current grassland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Orchards established on degraded pastures",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.23% of current agricultural area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges create 10,000 ha of forest stands (1,000 ha annually) and support natural regeneration over 20,000 ha (2,000 ha annually), together about 2.2% of current forest area; corresponding carbon-sequestration estimates are -199,561 and -311,771 thousand t CO2e. Conservation has no area target, but forest and biodiversity is assigned 46.15 million 2021 USD. Agriculture expands organic arable land to 76,570 ha in 2030 and 100,000 ha in 2035 (1.7–2.3% of current agricultural area), reduces water-resource losses and use by 10%, and combines 3.5%/7% livestock reductions in 2030/2035 with manure storage for 100,000 cattle and feed additives for 11,500–20,000. Mixed measures cover 56,000 ha of forest management, 1,000 ha of plantations, 30,000 ha of pasture overseeding, 50,000 ha of organic-fertilizer improvement, rotational management on 350,000 ha (4.0% of grassland), and 10,000 ha of orchards; aggregate LULUCF reductions are 203,031–315,241 thousand t CO2e.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New forest-stand carbon sequestration (reported value 1)\",\n      \"value\": -199561,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"New forest-stand carbon sequestration (reported value 2)\",\n      \"value\": -311771,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest stands created\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.72% of current forest cover; implementation stated as 1,000 ha annually.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Natural forest regeneration\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.43% of current forest cover; implementation stated as 2,000 ha annually.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest and biodiversity financial amount\",\n      \"value\": 46.15,\n      \"unit\": \"million 2021 USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agriculture emissions reduction (reported total 1)\",\n      \"value\": 95777,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agriculture emissions reduction (reported total 2)\",\n      \"value\": 165436,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic-farming expansion emissions reduction (reported value 1)\",\n      \"value\": 70824,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic-farming expansion emissions reduction (reported value 2)\",\n      \"value\": 96915,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Herd-productivity emissions reduction (reported value 1)\",\n      \"value\": 24952,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Herd-productivity emissions reduction (reported value 2)\",\n      \"value\": 68521,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Perennial-plantation carbon sequestration\",\n      \"value\": -3470,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural financial amount (reported value 1)\",\n      \"value\": 19257,\n      \"unit\": \"million 2021 USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural financial amount (reported value 2)\",\n      \"value\": 276,\n      \"unit\": \"million 2021 USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual reduction in low-productivity dairy cattle\",\n      \"value\": 0.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually from 2022 to 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction in water-resource losses and use\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock-number reduction\",\n      \"value\": 3.5,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock-number reduction\",\n      \"value\": 7,\n      \"unit\": \"%\",\n      \"timeframe\": \"2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cultivated-land area progression\",\n      \"value\": 7975,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2022 starting point\",\n      \"context\": \"≈0.18% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cultivated-land area progression\",\n      \"value\": 10775,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2050 endpoint\",\n      \"context\": \"≈0.24% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arable land under organic agriculture\",\n      \"value\": 76570,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"≈1.74% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arable land under organic agriculture\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2035\",\n      \"context\": \"≈2.27% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Potato and maize area treated with nitrification inhibitors\",\n      \"value\": 18600,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"≈0.42% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Potato and maize area treated with nitrification inhibitors\",\n      \"value\": 37200,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2035\",\n      \"context\": \"≈0.84% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Potato and maize area treated with urease inhibitors\",\n      \"value\": 6250,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"≈0.14% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Potato and maize area treated with urease inhibitors\",\n      \"value\": 12500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2035\",\n      \"context\": \"≈0.28% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle provided with manure-storage facilities\",\n      \"value\": 100000,\n      \"unit\": \"head of cattle\",\n      \"timeframe\": \"2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle receiving feed additives\",\n      \"value\": 11500,\n      \"unit\": \"head of cattle\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle receiving feed additives\",\n      \"value\": 20000,\n      \"unit\": \"head of cattle\",\n      \"timeframe\": \"2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest management and LULUCF emissions reduction (reported aggregate 1)\",\n      \"value\": 203031,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": \"Aggregate of the forest-stand and perennial-plantation components; it should not be added to those component targets.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest management and LULUCF emissions reduction (reported aggregate 2)\",\n      \"value\": 315241,\n      \"unit\": \"kt CO2e\",\n      \"timeframe\": null,\n      \"context\": \"Aggregate of the forest-stand and perennial-plantation components; it should not be added to those component targets.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest management and LULUCF financial amount\",\n      \"value\": 63007,\n      \"unit\": \"million 2021 USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest plantations established\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.07% of current forest cover; implementation stated as 100 ha annually.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest management improved and degradation reduced\",\n      \"value\": 56000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈4.02% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded pasture improved by overseeding\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.34% of current grassland; implementation stated as 6,000 ha annually.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded pasture improved with organic fertilizers\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.57% of current grassland; implementation stated as 10,000 ha annually.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pasture improved through rotational use\",\n      \"value\": 350000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.97% of current grassland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Orchards established on degraded pastures\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.23% of current agricultural area.\"\n    }\n  ]\n}",
+  "errors": []
+}

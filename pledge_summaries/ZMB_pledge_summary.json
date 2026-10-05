@@ -1,0 +1,114 @@
+{
+  "iso3": "ZMB",
+  "country": "Zambia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 11,
+  "geo_context": {
+    "country_area_km2": 755650.5,
+    "land_cover_km2": {
+      "Agriculture": 121445.0,
+      "Forest": 480317.0,
+      "Grassland": 9992.0,
+      "Wetland": 29076.0,
+      "Settlement": 1277.0,
+      "Shrubland": 99492.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 41.0,
+      "Water": 13926.0
+    }
+  },
+  "summary": "Zambia's NDC 3.0 combines restoration, conservation and agriculture measures. For restoration, it proposes restoring 6,000,000 ha of degraded forest by 2030—about 12.5% of the current 480,317 km² forest area—and rehabilitating 600,000 ha of degraded catchments. Conservation includes expanding water-quality monitoring from 1,000 to 1,800 sites by 2030, mapping and protecting 468 ground water aquifer resources, placing 8,369,501 ha of forest under community forest management (about 17.4% of current forest), and targeting 90% of mining operations to use water-efficient processes and dry-stack tailings by 2030; separately, 80% of catchments are to have allocation plans. Agriculture targets include 150,000 ha of solar-powered irrigation, 800,000 ha under climate-smart agriculture, 120,000 ha of insured smallholder production, and a 50% reduction in post-harvest losses. Individually, those three agricultural area targets equal about 1.2%, 6.6% and 1.0% of the current 121,445 km² agricultural area, respectively.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded forest restoration",
+      "value": 6000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to ≈ 12.5% of current forest area (480,317 km²)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded catchment rehabilitation",
+      "value": 600000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest under community forest management",
+      "value": 8369501,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈ 17.4% of current forest area (480,317 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-quality monitoring network expansion",
+      "value": 1800,
+      "unit": "monitoring sites",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Groundwater aquifer resources mapped and protected",
+      "value": 468,
+      "unit": "ground water aquifer resources",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mining operations adopting water-efficient processes and dry-stack tailings",
+      "value": 90,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Catchments with allocation plans",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar-powered irrigation area",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈ 1.2% of current agricultural area (121,445 km²)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart agriculture area",
+      "value": 800000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈ 6.6% of current agricultural area (121,445 km²)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Smallholder production area insured",
+      "value": 120000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈ 1.0% of current agricultural area (121,445 km²)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Post-harvest loss reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Zambia's NDC 3.0 combines restoration, conservation and agriculture measures. For restoration, it proposes restoring 6,000,000 ha of degraded forest by 2030—about 12.5% of the current 480,317 km² forest area—and rehabilitating 600,000 ha of degraded catchments. Conservation includes expanding water-quality monitoring from 1,000 to 1,800 sites by 2030, mapping and protecting 468 ground water aquifer resources, placing 8,369,501 ha of forest under community forest management (about 17.4% of current forest), and targeting 90% of mining operations to use water-efficient processes and dry-stack tailings by 2030; separately, 80% of catchments are to have allocation plans. Agriculture targets include 150,000 ha of solar-powered irrigation, 800,000 ha under climate-smart agriculture, 120,000 ha of insured smallholder production, and a 50% reduction in post-harvest losses. Individually, those three agricultural area targets equal about 1.2%, 6.6% and 1.0% of the current 121,445 km² agricultural area, respectively.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded forest restoration\",\n      \"value\": 6000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to ≈ 12.5% of current forest area (480,317 km²)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded catchment rehabilitation\",\n      \"value\": 600000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest under community forest management\",\n      \"value\": 8369501,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈ 17.4% of current forest area (480,317 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-quality monitoring network expansion\",\n      \"value\": 1800,\n      \"unit\": \"monitoring sites\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Groundwater aquifer resources mapped and protected\",\n      \"value\": 468,\n      \"unit\": \"ground water aquifer resources\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mining operations adopting water-efficient processes and dry-stack tailings\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Catchments with allocation plans\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar-powered irrigation area\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈ 1.2% of current agricultural area (121,445 km²)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart agriculture area\",\n      \"value\": 800000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈ 6.6% of current agricultural area (121,445 km²)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Smallholder production area insured\",\n      \"value\": 120000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈ 1.0% of current agricultural area (121,445 km²)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Post-harvest loss reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

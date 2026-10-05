@@ -1,0 +1,330 @@
+{
+  "iso3": "KAZ",
+  "country": "Kazakhstan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 31,
+  "geo_context": {
+    "country_area_km2": 2706245.9,
+    "land_cover_km2": {
+      "Agriculture": 633672.0,
+      "Forest": 53001.0,
+      "Grassland": 827091.0,
+      "Wetland": 12045.0,
+      "Settlement": 4736.0,
+      "Shrubland": 174656.0,
+      "Sparse_vegetation": 633192.0,
+      "Bare_area": 315812.0,
+      "Water": 50908.0
+    }
+  },
+  "summary": "Restoration centres on 1.5 million ha of degraded land to be afforested or reforested by 2030, equal in area to 28.3% of current mapped forest and 1.8% of grassland. Other programmes cover 676,000 ha, 2 billion trees on 500,000 ha by 2026, 700,000 ha by 2030 and 107,100 ha in 2026–2035. Conservation includes protection of 800,000 ha of forest by 2035, sustainable management on 1.3 million ha by 2040, 12% protected natural territories and LULUCF net removals of 23 million tCO₂-eq/year by 2030 and 28 million by 2035. Agriculture targets 3% of arable land under organic farming by 2030, 76,000 ha converted annually in 2026–2030 and 1.5 million additional hectares under improved irrigation by 2035, equivalent to 2.37% of current mapped agriculture, plus resilient crops and livestock. Mixed actions seek Class II water quality in 35% of water bodies and LULUCF, forestry, agriculture and water investment.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-land restoration through afforestation and reforestation",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equivalent to ≈28.3% of current forest cover, 1.8% of grassland and 0.55% of total land."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Large-scale tree-planting and degraded-land restoration",
+      "value": 676000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "The stated area is equivalent to ≈12.8% of current mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Tree-programme planting area",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": "by 2026",
+      "context": "The planting area is equivalent to ≈9.4% of current mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Additional afforestation and forest restoration",
+      "value": 700000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equivalent to ≈13.2% of current mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Voluntary planting for emissions compensation",
+      "value": 107100,
+      "unit": "ha",
+      "timeframe": "2026–2035",
+      "context": "Area equivalent to ≈2.0% of current mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 2000000000,
+      "unit": "trees",
+      "timeframe": "by 2026",
+      "context": "Paired with the 500,000 ha planting target, whose area is equivalent to ≈9.4% of current forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reported planting figure for settlements (unit not stated)",
+      "value": 15000000,
+      "unit": "",
+      "timeframe": null,
+      "context": "The extracted passage provides no unit, so the figure cannot be compared reliably with land-cover area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF net removals",
+      "value": 23000000,
+      "unit": "tCO₂-eq/year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF net removals",
+      "value": 28000000,
+      "unit": "tCO₂-eq/year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protection of forest from degradation",
+      "value": 800000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈15.1% of current mapped forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable forest management",
+      "value": 1300000,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": "≈24.5% of current mapped forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Astana green-zone area",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.06% of Kazakhstan's total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystem-based adaptation measures identified for pilots (lower bound)",
+      "value": 3,
+      "unit": "adaptation measures",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystem-based adaptation measures identified for pilots (upper bound)",
+      "value": 5,
+      "unit": "adaptation measures",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wastewater treated",
+      "value": 53,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected natural territories",
+      "value": 12,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The passage does not specify the area denominator, so no direct comparison with the supplied land-cover shares is possible."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Aerial patrol coverage of the fire-risk zone",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Hydrological observation stations",
+      "value": 419,
+      "unit": "stations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-resource investment",
+      "value": 13253,
+      "unit": "million USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic farming share of arable land",
+      "value": 3,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Up from approximately 1.5% in 2023; arable land is not separately mapped."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in agricultural-waste use for energy production",
+      "value": 16,
+      "unit": "%",
+      "timeframe": "2026–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation-loss rate",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "A 15-percentage-point reduction from the stated 50% level; no area denominator is supplied."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural-entity digital-platform participation",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmer uptake of heat- and drought-resistant crop varieties",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Advanced-irrigation loss-reduction territory share (first stated value in the 40–25% range)",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Advanced-irrigation loss-reduction territory share (second stated value in the 40–25% range)",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arable land converted to organic farming annually",
+      "value": 76000,
+      "unit": "ha/year",
+      "timeframe": "2026–2030",
+      "context": "The annual area is ≈0.12% of current mapped agriculture; the pledge applies specifically to arable land."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional land under advanced irrigation technology relative to 2025",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area equivalent to ≈2.37% of current mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Priority-region allocation of additional improved irrigation",
+      "value": 1173650,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equals 78% of the 1.5 million ha increase and ≈1.85% of current mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Heat-resistant cattle",
+      "value": 2500000,
+      "unit": "head of cattle",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Heat-resistant pigs",
+      "value": 40000,
+      "unit": "head of pigs",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Heat-resistant sheep",
+      "value": 7860000,
+      "unit": "head of sheep",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Heat-resistant goats",
+      "value": 840000,
+      "unit": "head of goats",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Heat-resistant poultry",
+      "value": 10000000,
+      "unit": "head of poultry",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural investment",
+      "value": 30950,
+      "unit": "million USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Water bodies with Class II surface-water quality",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The supplied map reports water area, not the number or quality classification of water bodies."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF investment",
+      "value": 600,
+      "unit": "million USD",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forestry and biodiversity investment",
+      "value": 1991,
+      "unit": "million USD",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration centres on 1.5 million ha of degraded land to be afforested or reforested by 2030, equal in area to 28.3% of current mapped forest and 1.8% of grassland. Other programmes cover 676,000 ha, 2 billion trees on 500,000 ha by 2026, 700,000 ha by 2030 and 107,100 ha in 2026–2035. Conservation includes protection of 800,000 ha of forest by 2035, sustainable management on 1.3 million ha by 2040, 12% protected natural territories and LULUCF net removals of 23 million tCO₂-eq/year by 2030 and 28 million by 2035. Agriculture targets 3% of arable land under organic farming by 2030, 76,000 ha converted annually in 2026–2030 and 1.5 million additional hectares under improved irrigation by 2035, equivalent to 2.37% of current mapped agriculture, plus resilient crops and livestock. Mixed actions seek Class II water quality in 35% of water bodies and LULUCF, forestry, agriculture and water investment.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-land restoration through afforestation and reforestation\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equivalent to ≈28.3% of current forest cover, 1.8% of grassland and 0.55% of total land.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Large-scale tree-planting and degraded-land restoration\",\n      \"value\": 676000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"The stated area is equivalent to ≈12.8% of current mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Tree-programme planting area\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2026\",\n      \"context\": \"The planting area is equivalent to ≈9.4% of current mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Additional afforestation and forest restoration\",\n      \"value\": 700000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equivalent to ≈13.2% of current mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Voluntary planting for emissions compensation\",\n      \"value\": 107100,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2026–2035\",\n      \"context\": \"Area equivalent to ≈2.0% of current mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted\",\n      \"value\": 2000000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"by 2026\",\n      \"context\": \"Paired with the 500,000 ha planting target, whose area is equivalent to ≈9.4% of current forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reported planting figure for settlements (unit not stated)\",\n      \"value\": 15000000,\n      \"unit\": \"\",\n      \"timeframe\": null,\n      \"context\": \"The extracted passage provides no unit, so the figure cannot be compared reliably with land-cover area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF net removals\",\n      \"value\": 23000000,\n      \"unit\": \"tCO₂-eq/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF net removals\",\n      \"value\": 28000000,\n      \"unit\": \"tCO₂-eq/year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protection of forest from degradation\",\n      \"value\": 800000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈15.1% of current mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sustainable forest management\",\n      \"value\": 1300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": \"≈24.5% of current mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Astana green-zone area\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.06% of Kazakhstan's total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystem-based adaptation measures identified for pilots (lower bound)\",\n      \"value\": 3,\n      \"unit\": \"adaptation measures\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystem-based adaptation measures identified for pilots (upper bound)\",\n      \"value\": 5,\n      \"unit\": \"adaptation measures\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wastewater treated\",\n      \"value\": 53,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected natural territories\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The passage does not specify the area denominator, so no direct comparison with the supplied land-cover shares is possible.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Aerial patrol coverage of the fire-risk zone\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Hydrological observation stations\",\n      \"value\": 419,\n      \"unit\": \"stations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water-resource investment\",\n      \"value\": 13253,\n      \"unit\": \"million USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic farming share of arable land\",\n      \"value\": 3,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Up from approximately 1.5% in 2023; arable land is not separately mapped.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in agricultural-waste use for energy production\",\n      \"value\": 16,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation-loss rate\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"A 15-percentage-point reduction from the stated 50% level; no area denominator is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural-entity digital-platform participation\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmer uptake of heat- and drought-resistant crop varieties\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Advanced-irrigation loss-reduction territory share (first stated value in the 40–25% range)\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Advanced-irrigation loss-reduction territory share (second stated value in the 40–25% range)\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arable land converted to organic farming annually\",\n      \"value\": 76000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2026–2030\",\n      \"context\": \"The annual area is ≈0.12% of current mapped agriculture; the pledge applies specifically to arable land.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional land under advanced irrigation technology relative to 2025\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equivalent to ≈2.37% of current mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Priority-region allocation of additional improved irrigation\",\n      \"value\": 1173650,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equals 78% of the 1.5 million ha increase and ≈1.85% of current mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Heat-resistant cattle\",\n      \"value\": 2500000,\n      \"unit\": \"head of cattle\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Heat-resistant pigs\",\n      \"value\": 40000,\n      \"unit\": \"head of pigs\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Heat-resistant sheep\",\n      \"value\": 7860000,\n      \"unit\": \"head of sheep\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Heat-resistant goats\",\n      \"value\": 840000,\n      \"unit\": \"head of goats\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Heat-resistant poultry\",\n      \"value\": 10000000,\n      \"unit\": \"head of poultry\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural investment\",\n      \"value\": 30950,\n      \"unit\": \"million USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Water bodies with Class II surface-water quality\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The supplied map reports water area, not the number or quality classification of water bodies.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LULUCF investment\",\n      \"value\": 600,\n      \"unit\": \"million USD\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forestry and biodiversity investment\",\n      \"value\": 1991,\n      \"unit\": \"million USD\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,370 @@
+{
+  "iso3": "URY",
+  "country": "Uruguay",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 81,
+  "geo_context": {
+    "country_area_km2": 178013.1,
+    "land_cover_km2": {
+      "Agriculture": 25609.0,
+      "Forest": 22997.0,
+      "Grassland": 119914.0,
+      "Wetland": 2622.0,
+      "Settlement": 705.0,
+      "Shrubland": 1624.0,
+      "Sparse_vegetation": 3.0,
+      "Bare_area": 36.0,
+      "Water": 4513.0
+    }
+  },
+  "summary": "Uruguay’s pledges mix conservation, restoration and agriculture. By 2030, it seeks to protect all 849,960 ha of native forest recorded in 2012 and optionally add 5% (42,498 ha); the latter equals about 1.8% of its currently mapped forest, while reversing degradation across 892,460 ha. Conservation goals include protecting 50% of 2020 peatlands, covering every vulnerable coastal component in adaptation plans, preparing six watershed plans, and reducing natural-grassland loss by 50% in 2026–2030. Agricultural actions extend good natural-field management over 1.5–4.0 million ha—12.5–33.4% of current grassland—and target 95% of agricultural area under soil-management plans, plus rice irrigation, dairy, fertilizer and soil-carbon measures. By 2035, Uruguay targets climate-risk plans in all protected areas, 10 watershed/aquifer plans, heat-stress measures on 70% of holdings, while newer forest pledges seek 20% expansions in managed plantations and shelter areas.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Native-forest degradation area subject to restoration",
+      "value": 892460,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈38.8% of current mapped forest (2,299,700 ha)."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Urban public-space recovery and greening projects",
+      "value": 3,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Peetland area protected",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Reported 2020 totals are 4,756–4,829 ha, each ≈1.8% of current mapped wetland."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas with management plans incorporating climate-risk analysis and actions",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas with climate-risk management plans",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Peatlands in good or regular conservation status protected",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The reported 2020 area is 4,829 ha, ≈1.8% of current mapped wetland."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Integrated watershed-management plans",
+      "value": 6,
+      "unit": "plans",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Integrated watershed and aquifer management plans",
+      "value": 10,
+      "unit": "plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Urban localities per department adopting ecosystem-based adaptation",
+      "value": 1,
+      "unit": "urban locality per department",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dairy establishments and confinement systems adopting animal heat-stress measures",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice-cultivation area adopting intermittent irrigation—lower bound",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Lower bound of the reported 5–10% range."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice-cultivation area adopting intermittent irrigation—upper bound",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Upper bound of the reported 5–10% range."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural area under soil-management plans with improved productivity, water storage and erosion resilience",
+      "value": 95,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Applies to agricultural area under plans, not automatically to all 2,560,900 ha mapped as agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National dairy herd reached by good effluent-management practices",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop area maintaining soil organic carbon under soil-management plans",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The denominator is crop area under the specified plans and rotation condition."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pasture share of rotation required for soil-organic-carbon maintenance, more than",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop area increasing soil organic carbon under soil-management plans",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The denominator is crop area under the specified plans and rotation condition."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pasture share of rotation required for soil-organic-carbon increase, more than",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National dairy herd using methane-emission management technologies",
+      "value": 55,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Winter-crop, maize and sorghum area using improved nitrogen-fertilizer efficiency",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "A separate extracted formulation reports 10% for the same scope and horizon."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Winter-crop, maize and sorghum area using improved nitrogen-fertilizer efficiency",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "A separate extracted formulation reports 25% for the same scope and horizon."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural and livestock holdings adopting animal heat-stress measures",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beef-cattle CH4 emission-intensity reduction",
+      "value": 35,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Relative to 1990; a separate extracted formulation reports 2% for the same baseline and horizon."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beef-cattle CH4 emission-intensity reduction",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Relative to 1990; a separate extracted formulation reports 35% for the same baseline and horizon."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beef-cattle N2O emission-intensity reduction",
+      "value": 36,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Relative to 1990; a separate extracted formulation reports 2% for the same baseline and horizon."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beef-cattle N2O emission-intensity reduction",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Relative to 1990; a separate extracted formulation reports 36% for the same baseline and horizon."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural establishments installing methane-capture systems",
+      "value": 10,
+      "unit": "agricultural establishments",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroecological community gardens implemented",
+      "value": 3,
+      "unit": "gardens",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Vulnerable coastal components covered by adaptation plans or programmes",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "2012 native-forest area maintained or protected",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030; reaffirmed for 2035",
+      "context": "The 849,960-ha baseline is ≈37.0% of current mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in 2012 native-forest area",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030; reaffirmed for 2035",
+      "context": "Equals 42,498 ha, ≈1.8% of current mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Effectively managed 2020 forest-plantation area maintained",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The 1,053,693-ha baseline is ≈45.8% of current mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in effectively managed forest-plantation area",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Equals ≈210,739 ha relative to the reported 2020 baseline."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "2018 shade-and-shelter plantation area maintained",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Uses an 88,348-ha baseline, ≈3.8% of current mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in 2018 shade-and-shelter plantation area",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Equals 8,835 additional ha, ≈0.38% of current mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "2018 shade-and-shelter plantation area maintained",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Uses a separately reported 81,956-ha baseline, ≈3.6% of current mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in agricultural-establishment shade-and-shelter plantation area",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Equals 16,391 ha relative to 2018, ≈0.71% of current mapped forest."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reduction in the average annual natural-grassland loss rate",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "2026–2030",
+      "context": "Lowers annual loss from 1.37% in 2000–2015 to 0.685%."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural area maintaining or recovering soil organic carbon under land-use and soil-management plans",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Applies to agricultural area requiring plans, not automatically to all 2,560,900 ha mapped as agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural-field and calving management for climate-vulnerability reduction—lower bound",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈12.5% of current mapped grassland; lower bound of the 1,500,000–4,000,000 ha range."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural-field and calving management for climate-vulnerability reduction—upper bound",
+      "value": 4000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈33.4% of current mapped grassland; upper bound of the reported range."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural-pasture management for soil-organic-carbon protection and sequestration",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈12.5% of current mapped grassland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural-pasture management for soil-organic-carbon protection and sequestration",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈20.8% of current mapped grassland."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Uruguay’s pledges mix conservation, restoration and agriculture. By 2030, it seeks to protect all 849,960 ha of native forest recorded in 2012 and optionally add 5% (42,498 ha); the latter equals about 1.8% of its currently mapped forest, while reversing degradation across 892,460 ha. Conservation goals include protecting 50% of 2020 peatlands, covering every vulnerable coastal component in adaptation plans, preparing six watershed plans, and reducing natural-grassland loss by 50% in 2026–2030. Agricultural actions extend good natural-field management over 1.5–4.0 million ha—12.5–33.4% of current grassland—and target 95% of agricultural area under soil-management plans, plus rice irrigation, dairy, fertilizer and soil-carbon measures. By 2035, Uruguay targets climate-risk plans in all protected areas, 10 watershed/aquifer plans, heat-stress measures on 70% of holdings, while newer forest pledges seek 20% expansions in managed plantations and shelter areas.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Native-forest degradation area subject to restoration\",\n      \"value\": 892460,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈38.8% of current mapped forest (2,299,700 ha).\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Urban public-space recovery and greening projects\",\n      \"value\": 3,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Peetland area protected\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Reported 2020 totals are 4,756–4,829 ha, each ≈1.8% of current mapped wetland.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas with management plans incorporating climate-risk analysis and actions\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas with climate-risk management plans\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Peatlands in good or regular conservation status protected\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The reported 2020 area is 4,829 ha, ≈1.8% of current mapped wetland.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Integrated watershed-management plans\",\n      \"value\": 6,\n      \"unit\": \"plans\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Integrated watershed and aquifer management plans\",\n      \"value\": 10,\n      \"unit\": \"plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Urban localities per department adopting ecosystem-based adaptation\",\n      \"value\": 1,\n      \"unit\": \"urban locality per department\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Dairy establishments and confinement systems adopting animal heat-stress measures\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice-cultivation area adopting intermittent irrigation—lower bound\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Lower bound of the reported 5–10% range.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice-cultivation area adopting intermittent irrigation—upper bound\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Upper bound of the reported 5–10% range.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural area under soil-management plans with improved productivity, water storage and erosion resilience\",\n      \"value\": 95,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Applies to agricultural area under plans, not automatically to all 2,560,900 ha mapped as agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National dairy herd reached by good effluent-management practices\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop area maintaining soil organic carbon under soil-management plans\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The denominator is crop area under the specified plans and rotation condition.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pasture share of rotation required for soil-organic-carbon maintenance, more than\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop area increasing soil organic carbon under soil-management plans\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The denominator is crop area under the specified plans and rotation condition.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pasture share of rotation required for soil-organic-carbon increase, more than\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National dairy herd using methane-emission management technologies\",\n      \"value\": 55,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Winter-crop, maize and sorghum area using improved nitrogen-fertilizer efficiency\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"A separate extracted formulation reports 10% for the same scope and horizon.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Winter-crop, maize and sorghum area using improved nitrogen-fertilizer efficiency\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"A separate extracted formulation reports 25% for the same scope and horizon.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural and livestock holdings adopting animal heat-stress measures\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Beef-cattle CH4 emission-intensity reduction\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Relative to 1990; a separate extracted formulation reports 2% for the same baseline and horizon.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Beef-cattle CH4 emission-intensity reduction\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Relative to 1990; a separate extracted formulation reports 35% for the same baseline and horizon.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Beef-cattle N2O emission-intensity reduction\",\n      \"value\": 36,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Relative to 1990; a separate extracted formulation reports 2% for the same baseline and horizon.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Beef-cattle N2O emission-intensity reduction\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Relative to 1990; a separate extracted formulation reports 36% for the same baseline and horizon.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural establishments installing methane-capture systems\",\n      \"value\": 10,\n      \"unit\": \"agricultural establishments\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroecological community gardens implemented\",\n      \"value\": 3,\n      \"unit\": \"gardens\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Vulnerable coastal components covered by adaptation plans or programmes\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"2012 native-forest area maintained or protected\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030; reaffirmed for 2035\",\n      \"context\": \"The 849,960-ha baseline is ≈37.0% of current mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in 2012 native-forest area\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030; reaffirmed for 2035\",\n      \"context\": \"Equals 42,498 ha, ≈1.8% of current mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Effectively managed 2020 forest-plantation area maintained\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The 1,053,693-ha baseline is ≈45.8% of current mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in effectively managed forest-plantation area\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Equals ≈210,739 ha relative to the reported 2020 baseline.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"2018 shade-and-shelter plantation area maintained\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Uses an 88,348-ha baseline, ≈3.8% of current mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in 2018 shade-and-shelter plantation area\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equals 8,835 additional ha, ≈0.38% of current mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"2018 shade-and-shelter plantation area maintained\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Uses a separately reported 81,956-ha baseline, ≈3.6% of current mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in agricultural-establishment shade-and-shelter plantation area\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Equals 16,391 ha relative to 2018, ≈0.71% of current mapped forest.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reduction in the average annual natural-grassland loss rate\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026–2030\",\n      \"context\": \"Lowers annual loss from 1.37% in 2000–2015 to 0.685%.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural area maintaining or recovering soil organic carbon under land-use and soil-management plans\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Applies to agricultural area requiring plans, not automatically to all 2,560,900 ha mapped as agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural-field and calving management for climate-vulnerability reduction—lower bound\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈12.5% of current mapped grassland; lower bound of the 1,500,000–4,000,000 ha range.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural-field and calving management for climate-vulnerability reduction—upper bound\",\n      \"value\": 4000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈33.4% of current mapped grassland; upper bound of the reported range.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural-pasture management for soil-organic-carbon protection and sequestration\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈12.5% of current mapped grassland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural-pasture management for soil-organic-carbon protection and sequestration\",\n      \"value\": 2500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈20.8% of current mapped grassland.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,234 @@
+{
+  "iso3": "SOM",
+  "country": "Somalia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 28,
+  "geo_context": {
+    "country_area_km2": 637169.3,
+    "land_cover_km2": {
+      "Agriculture": 59359.0,
+      "Forest": 42637.0,
+      "Grassland": 62601.0,
+      "Wetland": 439.0,
+      "Settlement": 566.0,
+      "Shrubland": 363128.0,
+      "Sparse_vegetation": 57813.0,
+      "Bare_area": 49985.0,
+      "Water": 565.0
+    }
+  },
+  "summary": "Restoration pledges include 2,000,000 ha of landscape restoration in ASALs—about 3.1% of Somalia's land area—and 50,000 ha of reforestation/afforestation, equivalent to roughly 1.2% of current forest cover. Conservation combines 120,000 ha of forest conservation (≈2.8% of current forest), 50,000 ha each of sustainable land management and wetland/mangrove degradation reduction, and deforestation/degradation reduction. Agriculture focuses on 50,000 ha of agroforestry (≈0.8% of current agricultural land), 30,000 ha of crop rotation, 20,000 ha of climate-smart agriculture, tillage, rice, irrigation and fodder measures, alongside a 500,000-animal livestock programme, 60,000 tons of improved manure management, technology transfer, and a 50% charcoal-production sustainability/efficiency target. The 2035 mitigation targets include 4.24 Mt CO₂e from agriculture (10.70% relative to BAU) and 19.3 Mt CO₂e, or 57%, from LULUCF; sector passages also cite 5.88 Mt CO₂e for agriculture and 18.10 Mt CO₂e for forestry.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation/afforestation area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to ≈1.2% of current forest area (4,263,700 ha)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "ASAL landscape restoration area",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Target area is ≈3.1% of total land area (63,716,900 ha)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Climate-resilient nation vision horizon",
+      "value": 2050,
+      "unit": "year",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest conservation area",
+      "value": 120000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.8% of current forest area (4,263,700 ha)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable land management area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.84% of current agricultural area (5,935,900 ha)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Biomass burning intervention area",
+      "value": 4000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetland/mangrove degradation reduction area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Target area is ≈114% of current wetland area (43,900 ha)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation/degradation reduction",
+      "value": 400000,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural mitigation emissions reduction",
+      "value": 4.24,
+      "unit": "Mt CO₂e",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural GHG reduction relative to BAU",
+      "value": 10.7,
+      "unit": "%",
+      "timeframe": "in 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainability and efficiency in charcoal production",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved livestock management coverage",
+      "value": 500000,
+      "unit": "animals",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Veterinary services coverage",
+      "value": 4845375,
+      "unit": "animals",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.84% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop rotation area",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.51% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart agriculture area",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.34% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Feed and fodder area",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.08% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum tillage area",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.05% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice cultivation area",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigation area",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved manure management volume",
+      "value": 60000,
+      "unit": "tons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Technology transfer and capacity building coverage",
+      "value": 300000,
+      "unit": "households",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agriculture-sector mitigation value",
+      "value": 5.88,
+      "unit": "Mt CO₂e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forestry-sector mitigation value",
+      "value": 18.1,
+      "unit": "Mt CO₂e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF mitigation emissions reduction",
+      "value": 19.3,
+      "unit": "Mt CO₂e",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF GHG reduction relative to BAU",
+      "value": 57,
+      "unit": "%",
+      "timeframe": "in 2035",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges include 2,000,000 ha of landscape restoration in ASALs—about 3.1% of Somalia's land area—and 50,000 ha of reforestation/afforestation, equivalent to roughly 1.2% of current forest cover. Conservation combines 120,000 ha of forest conservation (≈2.8% of current forest), 50,000 ha each of sustainable land management and wetland/mangrove degradation reduction, and deforestation/degradation reduction. Agriculture focuses on 50,000 ha of agroforestry (≈0.8% of current agricultural land), 30,000 ha of crop rotation, 20,000 ha of climate-smart agriculture, tillage, rice, irrigation and fodder measures, alongside a 500,000-animal livestock programme, 60,000 tons of improved manure management, technology transfer, and a 50% charcoal-production sustainability/efficiency target. The 2035 mitigation targets include 4.24 Mt CO₂e from agriculture (10.70% relative to BAU) and 19.3 Mt CO₂e, or 57%, from LULUCF; sector passages also cite 5.88 Mt CO₂e for agriculture and 18.10 Mt CO₂e for forestry.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation/afforestation area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to ≈1.2% of current forest area (4,263,700 ha)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"ASAL landscape restoration area\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Target area is ≈3.1% of total land area (63,716,900 ha)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Climate-resilient nation vision horizon\",\n      \"value\": 2050,\n      \"unit\": \"year\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest conservation area\",\n      \"value\": 120000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.8% of current forest area (4,263,700 ha)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sustainable land management area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.84% of current agricultural area (5,935,900 ha)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Biomass burning intervention area\",\n      \"value\": 4000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetland/mangrove degradation reduction area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Target area is ≈114% of current wetland area (43,900 ha)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation/degradation reduction\",\n      \"value\": 400000,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural mitigation emissions reduction\",\n      \"value\": 4.24,\n      \"unit\": \"Mt CO₂e\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural GHG reduction relative to BAU\",\n      \"value\": 10.70,\n      \"unit\": \"%\",\n      \"timeframe\": \"in 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainability and efficiency in charcoal production\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved livestock management coverage\",\n      \"value\": 500000,\n      \"unit\": \"animals\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Veterinary services coverage\",\n      \"value\": 4845375,\n      \"unit\": \"animals\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.84% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop rotation area\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.51% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart agriculture area\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.34% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Feed and fodder area\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.08% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum tillage area\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.05% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice cultivation area\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.02% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigation area\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.02% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved manure management volume\",\n      \"value\": 60000,\n      \"unit\": \"tons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Technology transfer and capacity building coverage\",\n      \"value\": 300000,\n      \"unit\": \"households\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agriculture-sector mitigation value\",\n      \"value\": 5.88,\n      \"unit\": \"Mt CO₂e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forestry-sector mitigation value\",\n      \"value\": 18.10,\n      \"unit\": \"Mt CO₂e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LULUCF mitigation emissions reduction\",\n      \"value\": 19.3,\n      \"unit\": \"Mt CO₂e\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"LULUCF GHG reduction relative to BAU\",\n      \"value\": 57,\n      \"unit\": \"%\",\n      \"timeframe\": \"in 2035\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,210 @@
+{
+  "iso3": "ZWE",
+  "country": "Zimbabwe",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 392833.5,
+    "land_cover_km2": {
+      "Agriculture": 144452.0,
+      "Forest": 119135.0,
+      "Grassland": 14359.0,
+      "Wetland": 145.0,
+      "Settlement": 1044.0,
+      "Shrubland": 108328.0,
+      "Sparse_vegetation": 179.0,
+      "Bare_area": 732.0,
+      "Water": 4459.0
+    }
+  },
+  "summary": "Zimbabwe seeks to raise forest land to 10.4 million ha by 2025, add 100,000 ha of natural forest annually in 2021–2025, and expand plantations to 118,848 ha; reported additions differ: 10,000 versus 7,000 ha/year. It plans 2,000 ha/year of native-tree planting on degraded or fallow land and 5,000 ha/year of exotic trees in tobacco areas. Conservation pledges seek a 500,000 ha burning reduction over 2020–2025, including annual cuts of 50,000 ha in natural forest, 30,000 ha in wooded grassland and 2,000 ha in plantations. Agricultural and agroforestry measures include conservation tillage and solar irrigation on 200,000 ha each by 2035, 20% organic-matter composting, 12% energy savings by 2030, improved feed and health for 5% and 10% of cattle, 0.3 ha of trees per ha of tobacco, and 10 fruit trees per household. The forest goal is 87.3% of 2022 mapped forest; the burning target covers 3.46% of mapped agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest plantation stock",
+      "value": 118848,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "Final stock is ≈1.0% of 2022 mapped forest area; the stated 50,000 ha increase is ≈0.42% of that area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural forest burning reduction (from 2020 level)",
+      "value": 50000,
+      "unit": "ha/year",
+      "timeframe": "2023–2035",
+      "context": "≈0.42% of 2022 mapped forest area per year"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wooded grassland burning reduction (from 2022 level)",
+      "value": 30000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈2.09% of 2022 mapped grassland per year"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Plantation burning reduction (from 2022 level)",
+      "value": 2000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈0.017% of 2022 mapped forest area per year"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural energy savings",
+      "value": 12,
+      "unit": "%",
+      "timeframe": "2030 compared with baseline scenario",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle on improved feed",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle under improved health",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tick-borne disease mortality ceiling (target is below)",
+      "value": 6,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic matter composted",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "2030; restated for 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area under conservation tillage",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.38% of 2022 mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar-PV irrigated area",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "2035",
+      "context": "≈1.38% of 2022 mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Households covered by tick and tick-borne disease control",
+      "value": 1000000,
+      "unit": "households",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle vaccinated against foot-and-mouth disease",
+      "value": 650000,
+      "unit": "cattle",
+      "timeframe": "twice annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Hay bales produced",
+      "value": 2000,
+      "unit": "tonnes/year",
+      "timeframe": "annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest land stock",
+      "value": 10400000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "Final stock is ≈87.3% of 2022 mapped forest area; the stated 500,000 ha increase is ≈4.2% of that area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Area burned reduction (agricultural landscapes)",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": "2020–2025",
+      "context": "≈3.46% of 2022 mapped agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural forest added",
+      "value": 100000,
+      "unit": "ha/year",
+      "timeframe": "2021–2025",
+      "context": "≈0.84% of 2022 mapped forest area per year"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Plantation forest added (2021–2025 rate)",
+      "value": 10000,
+      "unit": "ha/year",
+      "timeframe": "2021–2025",
+      "context": "≈0.084% of 2022 mapped forest area per year"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Plantation forest added (alternative reported rate)",
+      "value": 7000,
+      "unit": "ha/year",
+      "timeframe": "by 2025",
+      "context": "≈0.059% of 2022 mapped forest area per year"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Native trees planted on degraded and fallow land",
+      "value": 2000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "Annual gross target ≈0.017% of 2022 mapped forest stock"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Exotic trees planted in tobacco areas",
+      "value": 5000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈0.035% of 2022 mapped agricultural area per year"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fast-growing trees planted per tobacco hectare",
+      "value": 0.3,
+      "unit": "hectares of trees per hectare of tobacco",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Minimum fruit trees planted per household",
+      "value": 10,
+      "unit": "fruit trees per household",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Zimbabwe seeks to raise forest land to 10.4 million ha by 2025, add 100,000 ha of natural forest annually in 2021–2025, and expand plantations to 118,848 ha; reported additions differ: 10,000 versus 7,000 ha/year. It plans 2,000 ha/year of native-tree planting on degraded or fallow land and 5,000 ha/year of exotic trees in tobacco areas. Conservation pledges seek a 500,000 ha burning reduction over 2020–2025, including annual cuts of 50,000 ha in natural forest, 30,000 ha in wooded grassland and 2,000 ha in plantations. Agricultural and agroforestry measures include conservation tillage and solar irrigation on 200,000 ha each by 2035, 20% organic-matter composting, 12% energy savings by 2030, improved feed and health for 5% and 10% of cattle, 0.3 ha of trees per ha of tobacco, and 10 fruit trees per household. The forest goal is 87.3% of 2022 mapped forest; the burning target covers 3.46% of mapped agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest plantation stock\",\n      \"value\": 118848,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"Final stock is ≈1.0% of 2022 mapped forest area; the stated 50,000 ha increase is ≈0.42% of that area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural forest burning reduction (from 2020 level)\",\n      \"value\": 50000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2023–2035\",\n      \"context\": \"≈0.42% of 2022 mapped forest area per year\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wooded grassland burning reduction (from 2022 level)\",\n      \"value\": 30000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈2.09% of 2022 mapped grassland per year\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Plantation burning reduction (from 2022 level)\",\n      \"value\": 2000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈0.017% of 2022 mapped forest area per year\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural energy savings\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030 compared with baseline scenario\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle on improved feed\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle under improved health\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tick-borne disease mortality ceiling (target is below)\",\n      \"value\": 6,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic matter composted\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030; restated for 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area under conservation tillage\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈1.38% of 2022 mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar-PV irrigated area\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2035\",\n      \"context\": \"≈1.38% of 2022 mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Households covered by tick and tick-borne disease control\",\n      \"value\": 1000000,\n      \"unit\": \"households\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle vaccinated against foot-and-mouth disease\",\n      \"value\": 650000,\n      \"unit\": \"cattle\",\n      \"timeframe\": \"twice annually\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Hay bales produced\",\n      \"value\": 2000,\n      \"unit\": \"tonnes/year\",\n      \"timeframe\": \"annually\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest land stock\",\n      \"value\": 10400000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"Final stock is ≈87.3% of 2022 mapped forest area; the stated 500,000 ha increase is ≈4.2% of that area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Area burned reduction (agricultural landscapes)\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2020–2025\",\n      \"context\": \"≈3.46% of 2022 mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural forest added\",\n      \"value\": 100000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2021–2025\",\n      \"context\": \"≈0.84% of 2022 mapped forest area per year\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Plantation forest added (2021–2025 rate)\",\n      \"value\": 10000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2021–2025\",\n      \"context\": \"≈0.084% of 2022 mapped forest area per year\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Plantation forest added (alternative reported rate)\",\n      \"value\": 7000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈0.059% of 2022 mapped forest area per year\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Native trees planted on degraded and fallow land\",\n      \"value\": 2000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"Annual gross target ≈0.017% of 2022 mapped forest stock\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Exotic trees planted in tobacco areas\",\n      \"value\": 5000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈0.035% of 2022 mapped agricultural area per year\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fast-growing trees planted per tobacco hectare\",\n      \"value\": 0.3,\n      \"unit\": \"hectares of trees per hectare of tobacco\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Minimum fruit trees planted per household\",\n      \"value\": 10,\n      \"unit\": \"fruit trees per household\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

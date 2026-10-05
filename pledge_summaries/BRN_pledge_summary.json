@@ -1,0 +1,50 @@
+{
+  "iso3": "BRN",
+  "country": "Brunei Darussalam",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 5738.9,
+    "land_cover_km2": {
+      "Agriculture": 574.0,
+      "Forest": 4999.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 125.0,
+      "Shrubland": 2.0,
+      "Sparse_vegetation": 3.0,
+      "Bare_area": 0.0,
+      "Water": 35.0
+    }
+  },
+  "summary": "Brunei Darussalam combines ecosystem restoration and conservation through an afforestation and reforestation strategy aimed at planting 500,000 new trees to increase carbon sequestration and support habitats and biodiversity. Its conservation measures include 56 km of coastal protection structures already constructed to reduce exposure to waves and erosion, plus a policy objective to conserve up to 55% of the landmass as pristine rainforest. For perspective, the 2022 land-cover map already classifies 87.1% of the country as forest, although this mapped forest class should not be equated with pristine rainforest. The tree-planting commitment is not expressed as an area, and neither conservation figure has a clearly specified completion deadline in the supplied passages.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "New trees planted through afforestation and reforestation",
+      "value": 500000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal protection structures constructed",
+      "value": 56,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Landmass conserved as pristine rainforest",
+      "value": 55,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Applies to 55% of the 5,739 km² land area; mapped forest covers 87.1%, but is not necessarily pristine."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Brunei Darussalam combines ecosystem restoration and conservation through an afforestation and reforestation strategy aimed at planting 500,000 new trees to increase carbon sequestration and support habitats and biodiversity. Its conservation measures include 56 km of coastal protection structures already constructed to reduce exposure to waves and erosion, plus a policy objective to conserve up to 55% of the landmass as pristine rainforest. For perspective, the 2022 land-cover map already classifies 87.1% of the country as forest, although this mapped forest class should not be equated with pristine rainforest. The tree-planting commitment is not expressed as an area, and neither conservation figure has a clearly specified completion deadline in the supplied passages.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New trees planted through afforestation and reforestation\",\n      \"value\": 500000,\n      \"unit\": \"trees\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal protection structures constructed\",\n      \"value\": 56,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Landmass conserved as pristine rainforest\",\n      \"value\": 55,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Applies to 55% of the 5,739 km² land area; mapped forest covers 87.1%, but is not necessarily pristine.\"\n    }\n  ]\n}",
+  "errors": []
+}

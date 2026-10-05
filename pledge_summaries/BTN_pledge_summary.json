@@ -1,0 +1,122 @@
+{
+  "iso3": "BTN",
+  "country": "Bhutan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 19,
+  "geo_context": {
+    "country_area_km2": 38237.9,
+    "land_cover_km2": {
+      "Agriculture": 1024.0,
+      "Forest": 30348.0,
+      "Grassland": 5539.0,
+      "Wetland": 0.0,
+      "Settlement": 2.0,
+      "Shrubland": 188.0,
+      "Sparse_vegetation": 10.0,
+      "Bare_area": 23.0,
+      "Water": 3.0
+    }
+  },
+  "summary": "Bhutan’s pledges combine conservation and forest restoration with broad agricultural transitions. It aims to maintain over 70% forest cover (a 2023 inventory figure of 69.71% is also reported), maintain 436 million tonnes of forest carbon stock outside protected areas, and place at least 50% of the land under protection. Climate-smart plantation and restoration cover 2,000 ha, equivalent to about 0.07% of the 30,348 km2 forest area mapped for 2022. Agricultural measures include 15 acres of agroforestry, an annual 5% shift from synthetic to organic fertilisers, improved practices on 14,971 ha, perennial-crop biomass expansion on 17,495 ha, and 200 ha/year of reduced continuous rice flooding. The two area-based farming targets equal roughly 14.6% and 17.1% of current mapped agriculture, respectively. Bhutan also targets 10,254 domestic biogas units and breed and feeding improvements for 8,333 dairy cattle.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover maintained",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The 2022 land-cover map records 79.4% forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reported forest cover",
+      "value": 69.71,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land area under protection",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": "50% of the total land area equals 19,119 km2."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest carbon stock outside protected areas",
+      "value": 436000000,
+      "unit": "tonnes of forest carbon stock",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Plantation and restoration area",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "20 km2, approximately 0.07% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry promotion",
+      "value": 15,
+      "unit": "acres",
+      "timeframe": "12FYP",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Switch from synthetic to organic fertilisers",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved agricultural practices",
+      "value": 14971,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Approximately 14.6% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Perennial crop production for increased biomass",
+      "value": 17495,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Approximately 17.1% of current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction of continuous rice flooding",
+      "value": 200,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "2 km2/year, approximately 0.20% of current mapped agricultural area per year."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small and medium-scale domestic biogas production",
+      "value": 10254,
+      "unit": "nos",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dairy cattle breed and feeding improvements",
+      "value": 8333,
+      "unit": "nos",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Bhutan’s pledges combine conservation and forest restoration with broad agricultural transitions. It aims to maintain over 70% forest cover (a 2023 inventory figure of 69.71% is also reported), maintain 436 million tonnes of forest carbon stock outside protected areas, and place at least 50% of the land under protection. Climate-smart plantation and restoration cover 2,000 ha, equivalent to about 0.07% of the 30,348 km2 forest area mapped for 2022. Agricultural measures include 15 acres of agroforestry, an annual 5% shift from synthetic to organic fertilisers, improved practices on 14,971 ha, perennial-crop biomass expansion on 17,495 ha, and 200 ha/year of reduced continuous rice flooding. The two area-based farming targets equal roughly 14.6% and 17.1% of current mapped agriculture, respectively. Bhutan also targets 10,254 domestic biogas units and breed and feeding improvements for 8,333 dairy cattle.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover maintained\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The 2022 land-cover map records 79.4% forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reported forest cover\",\n      \"value\": 69.71,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land area under protection\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"50% of the total land area equals 19,119 km2.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest carbon stock outside protected areas\",\n      \"value\": 436000000,\n      \"unit\": \"tonnes of forest carbon stock\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Plantation and restoration area\",\n      \"value\": 2000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"20 km2, approximately 0.07% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry promotion\",\n      \"value\": 15,\n      \"unit\": \"acres\",\n      \"timeframe\": \"12FYP\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Switch from synthetic to organic fertilisers\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved agricultural practices\",\n      \"value\": 14971,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 14.6% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Perennial crop production for increased biomass\",\n      \"value\": 17495,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 17.1% of current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction of continuous rice flooding\",\n      \"value\": 200,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"2 km2/year, approximately 0.20% of current mapped agricultural area per year.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small and medium-scale domestic biogas production\",\n      \"value\": 10254,\n      \"unit\": \"nos\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Dairy cattle breed and feeding improvements\",\n      \"value\": 8333,\n      \"unit\": \"nos\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,298 @@
+{
+  "iso3": "DOM",
+  "country": "República Dominicana",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 52,
+  "geo_context": {
+    "country_area_km2": 48294.2,
+    "land_cover_km2": {
+      "Agriculture": 14294.0,
+      "Forest": 24510.0,
+      "Grassland": 5920.0,
+      "Wetland": 2077.0,
+      "Settlement": 807.0,
+      "Shrubland": 14.0,
+      "Sparse_vegetation": 16.0,
+      "Bare_area": 3.0,
+      "Water": 648.0
+    }
+  },
+  "summary": "Restoration and conservation form the core: the NDC calls for reforesting 4,500 km² of degraded forest in protected areas by 2030, equivalent to about 18.4% of current forest cover, and increasing removals by 1.35 MtCO₂/year, alongside a 15,000 ha/year reforestation rate. It seeks effective conservation of 30% of national territory (about 14,488 km²), zero net mangrove loss by 2030, and protection/restoration of 80% of priority coastal-marine areas by 2030 and 100% by 2035, while conservation/restoration/sustainable management of priority ecosystems rises from 50% by 2030 to 70% by 2035. Agriculture targets include 20% and 30% variants for sustainable management of national agricultural area, 50% biodigestion/composting treatment, lower cattle mortality, and low-carbon coffee, cocoa and rice areas of 75,102 ha, 146,648 ha and 30,000 ha. These commodity areas equal about 5.3%, 10.3% and 2.1% of current mapped agriculture, respectively.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Open-dump area closed",
+      "value": 120,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation rate",
+      "value": 15000,
+      "unit": "ha/año",
+      "timeframe": null,
+      "context": "≈0.61% of current forest area per year"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Sequestration per reforested hectare",
+      "value": 3,
+      "unit": "tCO₂/ha/año",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "GHG removals from reforestation",
+      "value": 1.35,
+      "unit": "MtCO₂/año",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Effective conservation of national territory",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Equivalent to ≈14,488 km² using the reported 48,294 km² land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove net loss",
+      "value": 0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water-security measures",
+      "value": 5,
+      "unit": "medidas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal-marine measures",
+      "value": 6,
+      "unit": "medidas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystems, biodiversity and forests measures",
+      "value": 6,
+      "unit": "medidas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove absorption/reduction",
+      "value": 660000,
+      "unit": "tCO₂ eq",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Green-jobs roadmap publication deadline",
+      "value": 2026,
+      "unit": "year",
+      "timeframe": "by 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Green TVET strategy development deadline",
+      "value": 2027,
+      "unit": "year",
+      "timeframe": "by 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture and food-security measures",
+      "value": 6,
+      "unit": "medidas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dairy cattle mortality target",
+      "value": 8,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Beef cattle mortality target",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable agricultural management (20% stated variant)",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈2,859 km² equivalent, or 5.9% of total country area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable agricultural management (30% stated variant)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈4,288 km² equivalent, or 8.9% of total country area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sludge from mixed/intensive systems managed in biodigesters",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solid waste from mixed/intensive systems managed by anaerobic composting",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Permanently flooded cultivated area reduction",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural GHG reduction potential — reported estimate 1",
+      "value": 1622,
+      "unit": "tCO₂ eq/año",
+      "timeframe": "cumulative total by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural GHG reduction potential — reported estimate 2",
+      "value": 14439.82,
+      "unit": "tCO₂ eq/año",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural GHG reduction potential — reported estimate 3",
+      "value": 9073.37,
+      "unit": "tCO₂ eq/año",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural GHG reduction potential — reported estimate 4",
+      "value": 4102.74,
+      "unit": "tCO₂ eq/año",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable low-carbon coffee area",
+      "value": 75102,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈5.3% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart cocoa intervention area",
+      "value": 146648,
+      "unit": "ha",
+      "timeframe": "over 10 years",
+      "context": "≈10.3% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Low-emission rice cultivation area",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": "over 30 years",
+      "context": "≈2.1% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry investment",
+      "value": 748000000,
+      "unit": "DOP",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority coastal-marine areas protected and restored",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority coastal-marine areas protected and restored",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority ecosystems under conservation, restoration and sustainable management",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority ecosystems under conservation, restoration and sustainable management",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forest restored in protected areas",
+      "value": 4500,
+      "unit": "km²",
+      "timeframe": "by 2030",
+      "context": "≈18.4% of current forest cover and ≈9.3% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Annual ecosystem-sector finance mobilization",
+      "value": 106686662.14,
+      "unit": "USD",
+      "timeframe": "per year by 2030",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Restoration and conservation form the core: the NDC calls for reforesting 4,500 km² of degraded forest in protected areas by 2030, equivalent to about 18.4% of current forest cover, and increasing removals by 1.35 MtCO₂/year, alongside a 15,000 ha/year reforestation rate. It seeks effective conservation of 30% of national territory (about 14,488 km²), zero net mangrove loss by 2030, and protection/restoration of 80% of priority coastal-marine areas by 2030 and 100% by 2035, while conservation/restoration/sustainable management of priority ecosystems rises from 50% by 2030 to 70% by 2035. Agriculture targets include 20% and 30% variants for sustainable management of national agricultural area, 50% biodigestion/composting treatment, lower cattle mortality, and low-carbon coffee, cocoa and rice areas of 75,102 ha, 146,648 ha and 30,000 ha. These commodity areas equal about 5.3%, 10.3% and 2.1% of current mapped agriculture, respectively.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Open-dump area closed\",\"value\":120,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Reforestation rate\",\"value\":15000,\"unit\":\"ha/año\",\"timeframe\":null,\"context\":\"≈0.61% of current forest area per year\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Sequestration per reforested hectare\",\"value\":3,\"unit\":\"tCO₂/ha/año\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"GHG removals from reforestation\",\"value\":1.35,\"unit\":\"MtCO₂/año\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Effective conservation of national territory\",\"value\":30,\"unit\":\"%\",\"timeframe\":null,\"context\":\"Equivalent to ≈14,488 km² using the reported 48,294 km² land area\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Mangrove net loss\",\"value\":0,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Water-security measures\",\"value\":5,\"unit\":\"medidas\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Coastal-marine measures\",\"value\":6,\"unit\":\"medidas\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Ecosystems, biodiversity and forests measures\",\"value\":6,\"unit\":\"medidas\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Mangrove absorption/reduction\",\"value\":660000,\"unit\":\"tCO₂ eq\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Green-jobs roadmap publication deadline\",\"value\":2026,\"unit\":\"year\",\"timeframe\":\"by 2026\",\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Green TVET strategy development deadline\",\"value\":2027,\"unit\":\"year\",\"timeframe\":\"by 2027\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agriculture and food-security measures\",\"value\":6,\"unit\":\"medidas\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Dairy cattle mortality target\",\"value\":8,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Beef cattle mortality target\",\"value\":10,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Sustainable agricultural management (20% stated variant)\",\"value\":20,\"unit\":\"%\",\"timeframe\":null,\"context\":\"≈2,859 km² equivalent, or 5.9% of total country area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Sustainable agricultural management (30% stated variant)\",\"value\":30,\"unit\":\"%\",\"timeframe\":null,\"context\":\"≈4,288 km² equivalent, or 8.9% of total country area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Sludge from mixed/intensive systems managed in biodigesters\",\"value\":50,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Solid waste from mixed/intensive systems managed by anaerobic composting\",\"value\":50,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Permanently flooded cultivated area reduction\",\"value\":10,\"unit\":\"%\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural GHG reduction potential — reported estimate 1\",\"value\":1622,\"unit\":\"tCO₂ eq/año\",\"timeframe\":\"cumulative total by 2030\",\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural GHG reduction potential — reported estimate 2\",\"value\":14439.82,\"unit\":\"tCO₂ eq/año\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural GHG reduction potential — reported estimate 3\",\"value\":9073.37,\"unit\":\"tCO₂ eq/año\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural GHG reduction potential — reported estimate 4\",\"value\":4102.74,\"unit\":\"tCO₂ eq/año\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Sustainable low-carbon coffee area\",\"value\":75102,\"unit\":\"ha\",\"timeframe\":\"by 2035\",\"context\":\"≈5.3% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Climate-smart cocoa intervention area\",\"value\":146648,\"unit\":\"ha\",\"timeframe\":\"over 10 years\",\"context\":\"≈10.3% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Low-emission rice cultivation area\",\"value\":30000,\"unit\":\"ha\",\"timeframe\":\"over 30 years\",\"context\":\"≈2.1% of current agricultural area\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agroforestry investment\",\"value\":748000000,\"unit\":\"DOP\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Priority coastal-marine areas protected and restored\",\"value\":80,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Priority coastal-marine areas protected and restored\",\"value\":100,\"unit\":\"%\",\"timeframe\":\"by 2035\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Priority ecosystems under conservation, restoration and sustainable management\",\"value\":50,\"unit\":\"%\",\"timeframe\":\"by 2030\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Priority ecosystems under conservation, restoration and sustainable management\",\"value\":70,\"unit\":\"%\",\"timeframe\":\"by 2035\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Degraded forest restored in protected areas\",\"value\":4500,\"unit\":\"km²\",\"timeframe\":\"by 2030\",\"context\":\"≈18.4% of current forest cover and ≈9.3% of total land area\"},{\"commitment_type\":\"Both\",\"metric\":\"Annual ecosystem-sector finance mobilization\",\"value\":106686662.14,\"unit\":\"USD\",\"timeframe\":\"per year by 2030\",\"context\":null}]}",
+  "errors": []
+}

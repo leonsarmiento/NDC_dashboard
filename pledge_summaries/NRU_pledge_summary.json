@@ -1,0 +1,90 @@
+{
+  "iso3": "NRU",
+  "country": "Republic of Nauru",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 5,
+  "geo_context": {
+    "country_area_km2": 22.0,
+    "land_cover_km2": {
+      "Agriculture": 19.0,
+      "Forest": 0.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 0.0,
+      "Water": 2.0
+    }
+  },
+  "summary": "Mixed restoration and conservation pledges aim to restore 36 ha of land and ecosystems and protect 50 ha at Anibare Bay. The integrated package also places 81 ha of coastal areas under improved practices, benefiting 4,802 people. The 36-ha restoration and 50-ha conservation targets equal about 1.6% and 2.3% of Nauru’s total land area, respectively, while the coastal area represents 3.7%. Agricultural commitments include a 23.85-ha sustainable agriculture plot focused on soil restoration, 8.2 ha under sustainable land management, climate-smart agriculture and agroforestry, rehabilitation of 1.5 ha of soil on an old mining site, and a separate 1.5-ha farm extension for staple food crops. The 23.85-ha plot alone covers about 1.3% of current agricultural area; no deadlines are stated.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Land and ecosystems restored",
+      "value": 36,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.6% of Nauru’s total land area (2,200 ha)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Coastal area under improved practices",
+      "value": 81,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.7% of Nauru’s total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "People benefiting from ecosystem interventions",
+      "value": 4802,
+      "unit": "people",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Soil restoration in sustainable agriculture plot",
+      "value": 23.85,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.3% of current agricultural area (1,900 ha)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Fertile soil rehabilitation on old mining site",
+      "value": 1.5,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.08% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land under Sustainable Land Management",
+      "value": 8.2,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.43% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farm extension for staple food crops",
+      "value": 1.5,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.08% of current agricultural area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Anibare Bay area protected",
+      "value": 50,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.3% of Nauru’s total land area"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Mixed restoration and conservation pledges aim to restore 36 ha of land and ecosystems and protect 50 ha at Anibare Bay. The integrated package also places 81 ha of coastal areas under improved practices, benefiting 4,802 people. The 36-ha restoration and 50-ha conservation targets equal about 1.6% and 2.3% of Nauru’s total land area, respectively, while the coastal area represents 3.7%. Agricultural commitments include a 23.85-ha sustainable agriculture plot focused on soil restoration, 8.2 ha under sustainable land management, climate-smart agriculture and agroforestry, rehabilitation of 1.5 ha of soil on an old mining site, and a separate 1.5-ha farm extension for staple food crops. The 23.85-ha plot alone covers about 1.3% of current agricultural area; no deadlines are stated.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Land and ecosystems restored\",\n      \"value\": 36,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.6% of Nauru’s total land area (2,200 ha)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Coastal area under improved practices\",\n      \"value\": 81,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.7% of Nauru’s total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"People benefiting from ecosystem interventions\",\n      \"value\": 4802,\n      \"unit\": \"people\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Soil restoration in sustainable agriculture plot\",\n      \"value\": 23.85,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.3% of current agricultural area (1,900 ha)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Fertile soil rehabilitation on old mining site\",\n      \"value\": 1.5,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.08% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Land under Sustainable Land Management\",\n      \"value\": 8.2,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.43% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farm extension for staple food crops\",\n      \"value\": 1.5,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.08% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Anibare Bay area protected\",\n      \"value\": 50,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.3% of Nauru’s total land area\"\n    }\n  ]\n}",
+  "errors": []
+}

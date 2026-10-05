@@ -1,0 +1,82 @@
+{
+  "iso3": "MEX",
+  "country": "Mexico",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 6,
+  "geo_context": {
+    "country_area_km2": 1954597.1,
+    "land_cover_km2": {
+      "Agriculture": 311096.0,
+      "Forest": 734260.0,
+      "Grassland": 152874.0,
+      "Wetland": 434.0,
+      "Settlement": 16209.0,
+      "Shrubland": 697398.0,
+      "Sparse_vegetation": 455.0,
+      "Bare_area": 26935.0,
+      "Water": 14623.0
+    }
+  },
+  "summary": "Mexico's ecosystem pledges combine conservation and restoration. Under the mixed conservation-and-restoration agenda, Mexico will conserve and restore at least 2,000 hectares of protected natural areas; its strengthened NDC also seeks to decree more than 2,000,000 hectares of new Protected Natural Areas (ANPs), dedicate 1,000,000 hectares to Areas Voluntarily Dedicated to Conservation, and restore 40,785 hectares. The restoration commitment also includes remediating at least 361 hectares of environmental liabilities. On conservation, Mexico sets net deforestation area at zero and targets a zero net deforestation rate by 2030; no agriculture-specific numerical pledge is stated. In perspective, the 2,000,000-hectare threshold for new ANPs equals about 1.02% of Mexico's land area, while 40,785 hectares of restoration is roughly 0.06% of current forest cover as a scale. The passages do not specify which land-cover classes the ANP targets cover.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Environmental liabilities remediated (at least)",
+      "value": 361,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Minimum target: ≈0.0002% of total land area; affected land-cover class is unspecified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net deforestation area",
+      "value": 0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net deforestation rate",
+      "value": 0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Protected natural areas conserved and restored (at least)",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Minimum target: ≈0.001% of total land area; affected land-cover class is unspecified."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New Protected Natural Areas (more than)",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Lower-bound threshold: ≈1.02% of total land area; affected land-cover class is unspecified."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Areas Voluntarily Dedicated to Conservation",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.51% of total land area; affected land-cover class is unspecified."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Restoration",
+      "value": 40785,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of total land area and, as a scale, ≈0.06% of current forest cover; affected land-cover class is unspecified."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Mexico's ecosystem pledges combine conservation and restoration. Under the mixed conservation-and-restoration agenda, Mexico will conserve and restore at least 2,000 hectares of protected natural areas; its strengthened NDC also seeks to decree more than 2,000,000 hectares of new Protected Natural Areas (ANPs), dedicate 1,000,000 hectares to Areas Voluntarily Dedicated to Conservation, and restore 40,785 hectares. The restoration commitment also includes remediating at least 361 hectares of environmental liabilities. On conservation, Mexico sets net deforestation area at zero and targets a zero net deforestation rate by 2030; no agriculture-specific numerical pledge is stated. In perspective, the 2,000,000-hectare threshold for new ANPs equals about 1.02% of Mexico's land area, while 40,785 hectares of restoration is roughly 0.06% of current forest cover as a scale. The passages do not specify which land-cover classes the ANP targets cover.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Environmental liabilities remediated (at least)\",\n      \"value\": 361,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Minimum target: ≈0.0002% of total land area; affected land-cover class is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net deforestation area\",\n      \"value\": 0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net deforestation rate\",\n      \"value\": 0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Protected natural areas conserved and restored (at least)\",\n      \"value\": 2000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Minimum target: ≈0.001% of total land area; affected land-cover class is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New Protected Natural Areas (more than)\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Lower-bound threshold: ≈1.02% of total land area; affected land-cover class is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Areas Voluntarily Dedicated to Conservation\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.51% of total land area; affected land-cover class is unspecified.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Restoration\",\n      \"value\": 40785,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.02% of total land area and, as a scale, ≈0.06% of current forest cover; affected land-cover class is unspecified.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "iso3": "MOZ",
+  "country": "Mozambique",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 786177.0,
+    "land_cover_km2": {
+      "Agriculture": 110167.0,
+      "Forest": 456718.0,
+      "Grassland": 27543.0,
+      "Wetland": 17780.0,
+      "Settlement": 1168.0,
+      "Shrubland": 152773.0,
+      "Sparse_vegetation": 356.0,
+      "Bare_area": 5321.0,
+      "Water": 13964.0
+    }
+  },
+  "summary": "Mozambique’s conservation commitments are to place at least 20% of ecosystems critically affected by climate change under adaptive ecosystem management by 2035, and to reduce the prevalence of uncontrolled fires by 40%, although no fire deadline is stated. Its restoration commitment is to restore 5,000 ha of mangroves, with no timeframe specified. The supplied 2022 land-cover breakdown does not separately quantify mangroves; compared with the mapped wetland area of 17,780 km² (1,778,000 ha), 5,000 ha is approximately 0.3%. Overall, the pledges combine an ecosystem-management target, a fire-reduction target, and a specific mangrove-restoration target; no separate numerical targets for agriculture, forests, or grasslands are provided.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecosystems under adaptive ecosystem management",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in the prevalence of uncontrolled fires",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restored mangrove area",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Approximately 0.3% of the 2022 mapped wetland area (17,780 km²; approximately 1,778,000 ha)"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Mozambique’s conservation commitments are to place at least 20% of ecosystems critically affected by climate change under adaptive ecosystem management by 2035, and to reduce the prevalence of uncontrolled fires by 40%, although no fire deadline is stated. Its restoration commitment is to restore 5,000 ha of mangroves, with no timeframe specified. The supplied 2022 land-cover breakdown does not separately quantify mangroves; compared with the mapped wetland area of 17,780 km² (1,778,000 ha), 5,000 ha is approximately 0.3%. Overall, the pledges combine an ecosystem-management target, a fire-reduction target, and a specific mangrove-restoration target; no separate numerical targets for agriculture, forests, or grasslands are provided.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecosystems under adaptive ecosystem management\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in the prevalence of uncontrolled fires\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restored mangrove area\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 0.3% of the 2022 mapped wetland area (17,780 km²; approximately 1,778,000 ha)\"\n    }\n  ]\n}",
+  "errors": []
+}

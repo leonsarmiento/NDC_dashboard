@@ -1,0 +1,90 @@
+{
+  "iso3": "IRL",
+  "country": "Ireland",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 69737.7,
+    "land_cover_km2": {
+      "Agriculture": 4041.0,
+      "Forest": 4580.0,
+      "Grassland": 48858.0,
+      "Wetland": 9210.0,
+      "Settlement": 781.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 171.0,
+      "Bare_area": 211.0,
+      "Water": 1884.0
+    }
+  },
+  "summary": "Restoration provisions in the NDC are framed at EU level: measures in at least 20% of EU land and sea areas each by 2030, peatland and wetland restoration with 51–54 Mt CO2-eq/yr mitigation potential, and reforestation respecting biodiversity plus sustainable forest management with 8–235 Mt CO2-eq/yr potential. For agriculture, improved fertiliser efficiency represents 19 Mt CO2-eq/yr. The mixed land-sector/conservation framework sets a 2030 EU LULUCF balance of 310 Mt CO2 net removals, also expressed as −310 Mt CO2-eq in carbon-sink accounting. Ireland’s own quantified land-sector commitment is −626 Kt CO2eq, combining ecosystem management, emissions and removals; no Irish area, ecosystem allocation, or timeframe is supplied, so it cannot be compared with current forest (4,580 km²; 6.6%), grassland (48,858 km²; 70.1%), wetland (9,210 km²; 13.2%), or agricultural area (4,041 km²; 5.8%). The wider figures are not Ireland-specific hectare or percentage commitments.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land and sea areas under restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide aggregate; the passage does not assign 20% specifically to Ireland."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential (lower bound)",
+      "value": 51.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU mitigation-potential range; no Irish area share is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential (upper bound)",
+      "value": 54.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "EU mitigation-potential range; no Irish area share is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nitrous oxide reduction from improved fertiliser use",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "The passage gives no Ireland-specific share of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "EU LULUCF net removals",
+      "value": 310.0,
+      "unit": "Mt CO2 net removals",
+      "timeframe": "by 2030",
+      "context": "EU-wide collective target; Ireland's -626 Kt CO2eq value is listed separately. The same EU target is expressed as -310 Mt CO2-eq in carbon-sink accounting."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential (lower bound)",
+      "value": 8.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Mitigation-potential range; no Irish reforestation area or share of current forest is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential (upper bound)",
+      "value": 235.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Mitigation-potential range; no Irish reforestation area or share of current forest is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Ireland LULUCF target",
+      "value": -626.0,
+      "unit": "Kt CO2eq",
+      "timeframe": null,
+      "context": "Ireland-specific; no area basis, ecosystem split, or timeframe is provided."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration provisions in the NDC are framed at EU level: measures in at least 20% of EU land and sea areas each by 2030, peatland and wetland restoration with 51–54 Mt CO2-eq/yr mitigation potential, and reforestation respecting biodiversity plus sustainable forest management with 8–235 Mt CO2-eq/yr potential. For agriculture, improved fertiliser efficiency represents 19 Mt CO2-eq/yr. The mixed land-sector/conservation framework sets a 2030 EU LULUCF balance of 310 Mt CO2 net removals, also expressed as −310 Mt CO2-eq in carbon-sink accounting. Ireland’s own quantified land-sector commitment is −626 Kt CO2eq, combining ecosystem management, emissions and removals; no Irish area, ecosystem allocation, or timeframe is supplied, so it cannot be compared with current forest (4,580 km²; 6.6%), grassland (48,858 km²; 70.1%), wetland (9,210 km²; 13.2%), or agricultural area (4,041 km²; 5.8%). The wider figures are not Ireland-specific hectare or percentage commitments.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU land and sea areas under restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide aggregate; the passage does not assign 20% specifically to Ireland.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential (lower bound)\",\n      \"value\": 51.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU mitigation-potential range; no Irish area share is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential (upper bound)\",\n      \"value\": 54.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"EU mitigation-potential range; no Irish area share is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Nitrous oxide reduction from improved fertiliser use\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"The passage gives no Ireland-specific share of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"EU LULUCF net removals\",\n      \"value\": 310.0,\n      \"unit\": \"Mt CO2 net removals\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide collective target; Ireland's -626 Kt CO2eq value is listed separately. The same EU target is expressed as -310 Mt CO2-eq in carbon-sink accounting.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential (lower bound)\",\n      \"value\": 8.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Mitigation-potential range; no Irish reforestation area or share of current forest is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential (upper bound)\",\n      \"value\": 235.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Mitigation-potential range; no Irish reforestation area or share of current forest is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Ireland LULUCF target\",\n      \"value\": -626.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": null,\n      \"context\": \"Ireland-specific; no area basis, ecosystem split, or timeframe is provided.\"\n    }\n  ]\n}",
+  "errors": []
+}

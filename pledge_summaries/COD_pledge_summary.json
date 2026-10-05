@@ -1,0 +1,298 @@
+{
+  "iso3": "COD",
+  "country": "Democratic Republic of the Congo",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 35,
+  "geo_context": {
+    "country_area_km2": 2344682.7,
+    "land_cover_km2": {
+      "Agriculture": 257469.0,
+      "Forest": 1913910.0,
+      "Grassland": 35860.0,
+      "Wetland": 47538.0,
+      "Settlement": 3134.0,
+      "Shrubland": 42083.0,
+      "Sparse_vegetation": 26.0,
+      "Bare_area": 348.0,
+      "Water": 44275.0
+    }
+  },
+  "summary": "Restoration is the main pillar: the DRC targets 7 million ha of afforestation or woodland, 4 million ha of reforestation, 8 million ha under the Bonn Challenge and sustainable land management, one billion trees, and a 6.5% forest-cover increase equal to 15,242,500 ha—about 8.0% of current mapped forest. Conservation combines an existing 13% national-park allocation and a 30%-of-territory protection target by 2030 with 63.5% forest-cover stabilization and 2.2–2.5 Gt CO2e in cumulative forestry emissions reductions. Agriculture plans to double cultivated area from 8 to 16 million ha by 2025, equivalent to about 62% of current mapped agriculture, while reaching 25–75% of holdings through productivity programmes and developing 1 million ha of irrigated land. Cross-cutting measures include 2.5 million ha of community forest concessions by 2025, a 10% urban firewood-share cut by 2025 and 50% by 2031, and a 28% AFAT emissions reduction by 2030.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation/reforestation sequestration potential (lower bound)",
+      "value": 1.2,
+      "unit": "Gt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation/reforestation sequestration potential (upper bound)",
+      "value": 1.4,
+      "unit": "Gt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation or woodland establishment",
+      "value": 7000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "For scale, ≈89.8% of the combined 2022 grassland and shrubland area of 7,794,300 ha."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation of degraded or deforested forests",
+      "value": 4000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.1% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest-cover increase",
+      "value": 6.5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The stated 15,242,500-ha equivalent is ≈8.0% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "One Billion Trees project",
+      "value": 1000000000,
+      "unit": "arbres",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative forestry emissions reduction (lower bound)",
+      "value": 2.2,
+      "unit": "Gt CO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Cumulative forestry emissions reduction (upper bound)",
+      "value": 2.5,
+      "unit": "Gt CO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Illegal-logging emissions reduction (lower bound)",
+      "value": 22,
+      "unit": "Mt CO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Illegal-logging emissions reduction (upper bound)",
+      "value": 23,
+      "unit": "Mt CO2e",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal erosion-control coverage",
+      "value": 26,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National parks allocation",
+      "value": 13,
+      "unit": "%",
+      "timeframe": "already",
+      "context": "The passage states that this amounts to 30,483,180 ha of national parks."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-cover stabilization",
+      "value": 63.5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The 2022 mapped forest share is 81.6%."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory under protected status (minimum)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "30% of the country's 2,344,683 km² total land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cultivated area doubling",
+      "value": 16,
+      "unit": "millions d'hectares",
+      "timeframe": "by 2025",
+      "context": "The plan doubles cultivation from 8 million ha; 16 million ha is ≈62.1% of current mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Productivity-programme coverage of food-agriculture holdings",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Productivity-programme coverage of small-scale commercial holdings",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Extension-programme coverage of holdings",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "over 20 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Aggregation-project coverage of the population",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock-sector emissions reduction",
+      "value": 20,
+      "unit": "Mt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Energy-purpose plantations",
+      "value": 130000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.5% of current mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Developed and equipped irrigated perimeters",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.9% of current mapped agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable logging-volume target",
+      "value": 10,
+      "unit": "m³ par hectare",
+      "timeframe": null,
+      "context": "A reduction from 15 m³ par hectare."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Export-plantation relocation emissions reduction",
+      "value": 80,
+      "unit": "Mt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Firewood-demand mitigation emissions reduction (lower bound)",
+      "value": 45,
+      "unit": "Mt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Firewood-demand mitigation emissions reduction (upper bound)",
+      "value": 55,
+      "unit": "Mt CO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Non-durable firewood-share reduction in two major urban centres",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Marginal areas reforested",
+      "value": 15,
+      "unit": "%",
+      "timeframe": null,
+      "context": "15% of the stated 7,000,000-ha base, equivalent to 1,050,000 ha or ≈0.5% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFAT-sector GHG reduction",
+      "value": 28,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Non-durable firewood-share reduction in six major urban centres",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2031",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Local community forest concessions (minimum)",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": "by 2025",
+      "context": "≈1.3% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Intensive and sustainable agricultural land development",
+      "value": 1600000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈6.2% of current mapped agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest restoration",
+      "value": 760000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.4% of current mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Bonn Challenge and sustainable land management",
+      "value": 8000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.4% of total national land area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is the main pillar: the DRC targets 7 million ha of afforestation or woodland, 4 million ha of reforestation, 8 million ha under the Bonn Challenge and sustainable land management, one billion trees, and a 6.5% forest-cover increase equal to 15,242,500 ha—about 8.0% of current mapped forest. Conservation combines an existing 13% national-park allocation and a 30%-of-territory protection target by 2030 with 63.5% forest-cover stabilization and 2.2–2.5 Gt CO2e in cumulative forestry emissions reductions. Agriculture plans to double cultivated area from 8 to 16 million ha by 2025, equivalent to about 62% of current mapped agriculture, while reaching 25–75% of holdings through productivity programmes and developing 1 million ha of irrigated land. Cross-cutting measures include 2.5 million ha of community forest concessions by 2025, a 10% urban firewood-share cut by 2025 and 50% by 2031, and a 28% AFAT emissions reduction by 2030.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation/reforestation sequestration potential (lower bound)\",\n      \"value\": 1.2,\n      \"unit\": \"Gt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation/reforestation sequestration potential (upper bound)\",\n      \"value\": 1.4,\n      \"unit\": \"Gt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation or woodland establishment\",\n      \"value\": 7000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"For scale, ≈89.8% of the combined 2022 grassland and shrubland area of 7,794,300 ha.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation of degraded or deforested forests\",\n      \"value\": 4000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.1% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest-cover increase\",\n      \"value\": 6.5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The stated 15,242,500-ha equivalent is ≈8.0% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"One Billion Trees project\",\n      \"value\": 1000000000,\n      \"unit\": \"arbres\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative forestry emissions reduction (lower bound)\",\n      \"value\": 2.2,\n      \"unit\": \"Gt CO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Cumulative forestry emissions reduction (upper bound)\",\n      \"value\": 2.5,\n      \"unit\": \"Gt CO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Illegal-logging emissions reduction (lower bound)\",\n      \"value\": 22,\n      \"unit\": \"Mt CO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Illegal-logging emissions reduction (upper bound)\",\n      \"value\": 23,\n      \"unit\": \"Mt CO2e\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal erosion-control coverage\",\n      \"value\": 26,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National parks allocation\",\n      \"value\": 13,\n      \"unit\": \"%\",\n      \"timeframe\": \"already\",\n      \"context\": \"The passage states that this amounts to 30,483,180 ha of national parks.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-cover stabilization\",\n      \"value\": 63.5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The 2022 mapped forest share is 81.6%.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National territory under protected status (minimum)\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"30% of the country's 2,344,683 km² total land area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cultivated area doubling\",\n      \"value\": 16,\n      \"unit\": \"millions d'hectares\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"The plan doubles cultivation from 8 million ha; 16 million ha is ≈62.1% of current mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Productivity-programme coverage of food-agriculture holdings\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Productivity-programme coverage of small-scale commercial holdings\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Extension-programme coverage of holdings\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"over 20 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Aggregation-project coverage of the population\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock-sector emissions reduction\",\n      \"value\": 20,\n      \"unit\": \"Mt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Energy-purpose plantations\",\n      \"value\": 130000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.5% of current mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Developed and equipped irrigated perimeters\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.9% of current mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable logging-volume target\",\n      \"value\": 10,\n      \"unit\": \"m³ par hectare\",\n      \"timeframe\": null,\n      \"context\": \"A reduction from 15 m³ par hectare.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Export-plantation relocation emissions reduction\",\n      \"value\": 80,\n      \"unit\": \"Mt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Firewood-demand mitigation emissions reduction (lower bound)\",\n      \"value\": 45,\n      \"unit\": \"Mt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Firewood-demand mitigation emissions reduction (upper bound)\",\n      \"value\": 55,\n      \"unit\": \"Mt CO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Non-durable firewood-share reduction in two major urban centres\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Marginal areas reforested\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"15% of the stated 7,000,000-ha base, equivalent to 1,050,000 ha or ≈0.5% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFAT-sector GHG reduction\",\n      \"value\": 28,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Non-durable firewood-share reduction in six major urban centres\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2031\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Local community forest concessions (minimum)\",\n      \"value\": 2500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2025\",\n      \"context\": \"≈1.3% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Intensive and sustainable agricultural land development\",\n      \"value\": 1600000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈6.2% of current mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest restoration\",\n      \"value\": 760000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.4% of current mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Bonn Challenge and sustainable land management\",\n      \"value\": 8000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.4% of total national land area.\"\n    }\n  ]\n}",
+  "errors": []
+}

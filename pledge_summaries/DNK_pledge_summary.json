@@ -1,0 +1,82 @@
+{
+  "iso3": "DNK",
+  "country": "Denmark",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 8,
+  "geo_context": {
+    "country_area_km2": 44329.3,
+    "land_cover_km2": {
+      "Agriculture": 31731.0,
+      "Forest": 5075.0,
+      "Grassland": 2647.0,
+      "Wetland": 394.0,
+      "Settlement": 1702.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 8.0,
+      "Bare_area": 33.0,
+      "Water": 2735.0
+    }
+  },
+  "summary": "Denmark’s country-specific conservation pledge is a 2030 LULUCF target of −441 kt CO2-eq, described as a 441 kt increase in net removals versus 2016–2018. National targets deliver the EU’s binding 310 Mt CO2 net-removal target (shown as −310 Mt in carbon-sink accounting), associated with 42 Mt of additional land-sector removals versus 2016–2018. Restoration is mainly EU-level: measures in at least 20% of EU land and sea areas by 2030, and in all ecosystems needing restoration by 2050. Cited EU mitigation potentials are 51–54 Mt CO2-eq/yr from peatland and wetland rewetting and 8–235 Mt CO2-eq/yr from a combined reforestation and sustainable forest-management measure; improved fertilizer-use efficiency could reduce 19 Mt CO2-eq/yr of nitrous oxide emissions. Except for Denmark’s 441 kt target, these figures are collective EU measures, not Danish coverage rates. Denmark’s 2022 cover is 71.6% agricultural, 11.4% forest, and 0.9% wetland.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Union LULUCF net removals",
+      "value": 310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU-wide; the same target is stated as −310 Mt CO2-eq in the passage using carbon-sink accounting."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional EU land-sector net removals",
+      "value": 42.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU-wide increase relative to the 2016–2018 average."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Denmark LULUCF net-removal target",
+      "value": -441.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030 (relative to 2016–2018)",
+      "context": "Denmark-specific; the passage describes −441 Kt as an increase in net removals versus the 2016–2018 average."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum EU land and sea restoration coverage",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide; the denominator is EU land and sea areas, not Denmark's 44,329 km² land area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland restoration mitigation potential—lower bound",
+      "value": 51.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "The reported EU-wide range is 51–54 Mt CO2-eq/yr; the numeric value is the lower bound. For scale, Denmark has 394 km² of wetland (0.9%), but no Danish restoration area is specified."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential—lower bound",
+      "value": 8.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "The reported EU-wide range is 8–235 Mt CO2-eq/yr; the numeric value is the lower bound. For scale, Denmark has 5,075 km² of forest (11.4%), but no Danish reforestation area is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertilizer-use efficiency emissions reduction potential",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Denmark has 31,731 km² of agriculture (71.6%), but the EU-level potential does not state Danish area coverage."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Denmark’s country-specific conservation pledge is a 2030 LULUCF target of −441 kt CO2-eq, described as a 441 kt increase in net removals versus 2016–2018. National targets deliver the EU’s binding 310 Mt CO2 net-removal target (shown as −310 Mt in carbon-sink accounting), associated with 42 Mt of additional land-sector removals versus 2016–2018. Restoration is mainly EU-level: measures in at least 20% of EU land and sea areas by 2030, and in all ecosystems needing restoration by 2050. Cited EU mitigation potentials are 51–54 Mt CO2-eq/yr from peatland and wetland rewetting and 8–235 Mt CO2-eq/yr from a combined reforestation and sustainable forest-management measure; improved fertilizer-use efficiency could reduce 19 Mt CO2-eq/yr of nitrous oxide emissions. Except for Denmark’s 441 kt target, these figures are collective EU measures, not Danish coverage rates. Denmark’s 2022 cover is 71.6% agricultural, 11.4% forest, and 0.9% wetland.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Union LULUCF net removals\",\n      \"value\": 310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide; the same target is stated as −310 Mt CO2-eq in the passage using carbon-sink accounting.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional EU land-sector net removals\",\n      \"value\": 42.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide increase relative to the 2016–2018 average.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Denmark LULUCF net-removal target\",\n      \"value\": -441.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"by 2030 (relative to 2016–2018)\",\n      \"context\": \"Denmark-specific; the passage describes −441 Kt as an increase in net removals versus the 2016–2018 average.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum EU land and sea restoration coverage\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide; the denominator is EU land and sea areas, not Denmark's 44,329 km² land area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland restoration mitigation potential—lower bound\",\n      \"value\": 51.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"The reported EU-wide range is 51–54 Mt CO2-eq/yr; the numeric value is the lower bound. For scale, Denmark has 394 km² of wetland (0.9%), but no Danish restoration area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential—lower bound\",\n      \"value\": 8.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"The reported EU-wide range is 8–235 Mt CO2-eq/yr; the numeric value is the lower bound. For scale, Denmark has 5,075 km² of forest (11.4%), but no Danish reforestation area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertilizer-use efficiency emissions reduction potential\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Denmark has 31,731 km² of agriculture (71.6%), but the EU-level potential does not state Danish area coverage.\"\n    }\n  ]\n}",
+  "errors": []
+}

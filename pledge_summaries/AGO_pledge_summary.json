@@ -1,0 +1,114 @@
+{
+  "iso3": "AGO",
+  "country": "Angola",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 11,
+  "geo_context": {
+    "country_area_km2": 1254188.2,
+    "land_cover_km2": {
+      "Agriculture": 61482.0,
+      "Forest": 759359.0,
+      "Grassland": 168533.0,
+      "Wetland": 7449.0,
+      "Settlement": 1592.0,
+      "Shrubland": 222620.0,
+      "Sparse_vegetation": 390.0,
+      "Bare_area": 30758.0,
+      "Water": 2119.0
+    }
+  },
+  "summary": "Angola’s restoration pledges centre on forest recovery, with separate reforestation figures ranging from 227,000 to 1,246,700 hectares and assisted forest regeneration reported at 1,068,497 and 1,246,700 hectares. The 1,246,700-hectare figure equals about 1.6% of the country’s current 759,359 km² forest area. A separate 10-year programme targets 2% of national territory, estimated at 2,493,400 hectares, and a mixed restoration–agriculture commitment applies reforestation with agroforestry to 500 hectares, about 0.008% of current agricultural land. Conservation pledges include avoiding deforestation across 555,000 hectares, about 0.7% of current forest, and potentially avoiding 387,000 tCO2e annually through improved fire management in Cuando Cubango peatland zones.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 227000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 0.30% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 416000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 0.55% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 554000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 0.73% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 1004347,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 1.32% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration",
+      "value": 1068497,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 1.41% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 1246700,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 1.64% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration",
+      "value": 1246700,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 1.64% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation and forest restoration programme coverage",
+      "value": 2,
+      "unit": "%",
+      "timeframe": "over 10 years",
+      "context": "Estimated at 2,493,400 ha, approximately 2.0% of total land area and 3.3% of current forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with agroforestry",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Approximately 5 km², or 0.008% of current agricultural area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided deforestation",
+      "value": 555000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 0.73% of current forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Potential avoided emissions from improved fire management",
+      "value": 387000,
+      "unit": "tCO2e/year",
+      "timeframe": null,
+      "context": "Potentially in Cuando Cubango peatland zones"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Angola’s restoration pledges centre on forest recovery, with separate reforestation figures ranging from 227,000 to 1,246,700 hectares and assisted forest regeneration reported at 1,068,497 and 1,246,700 hectares. The 1,246,700-hectare figure equals about 1.6% of the country’s current 759,359 km² forest area. A separate 10-year programme targets 2% of national territory, estimated at 2,493,400 hectares, and a mixed restoration–agriculture commitment applies reforestation with agroforestry to 500 hectares, about 0.008% of current agricultural land. Conservation pledges include avoiding deforestation across 555,000 hectares, about 0.7% of current forest, and potentially avoiding 387,000 tCO2e annually through improved fire management in Cuando Cubango peatland zones.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 227000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 0.30% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 416000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 0.55% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 554000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 0.73% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 1004347,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 1.32% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted forest regeneration\",\n      \"value\": 1068497,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 1.41% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 1246700,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 1.64% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted forest regeneration\",\n      \"value\": 1246700,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 1.64% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation and forest restoration programme coverage\",\n      \"value\": 2,\n      \"unit\": \"%\",\n      \"timeframe\": \"over 10 years\",\n      \"context\": \"Estimated at 2,493,400 ha, approximately 2.0% of total land area and 3.3% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation with agroforestry\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Approximately 5 km², or 0.008% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Avoided deforestation\",\n      \"value\": 555000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 0.73% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Potential avoided emissions from improved fire management\",\n      \"value\": 387000,\n      \"unit\": \"tCO2e/year\",\n      \"timeframe\": null,\n      \"context\": \"Potentially in Cuando Cubango peatland zones\"\n    }\n  ]\n}",
+  "errors": []
+}

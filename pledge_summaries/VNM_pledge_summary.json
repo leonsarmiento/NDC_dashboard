@@ -1,0 +1,50 @@
+{
+  "iso3": "VNM",
+  "country": "Socialist Republic of Viet Nam",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 3,
+  "geo_context": {
+    "country_area_km2": 327369.3,
+    "land_cover_km2": {
+      "Agriculture": 151924.0,
+      "Forest": 124999.0,
+      "Grassland": 663.0,
+      "Wetland": 390.0,
+      "Settlement": 3844.0,
+      "Shrubland": 39549.0,
+      "Sparse_vegetation": 41.0,
+      "Bare_area": 169.0,
+      "Water": 5826.0
+    }
+  },
+  "summary": "Under the mixed (Both) restoration-and-conservation commitment, Vietnam aims to increase forest cover to 42% by 2030 and maintain a stable level through 2050 by increasing planted-forest area and protecting natural forests; the passage also reports an 11.1 MtCO2eq reduction in 2020. A second Both passage gives a 3.5% LULUCF figure, but the supplied excerpt does not identify the indicator or timeframe. Under Agriculture, a 30% target is paired with integrated crop management and related measures, including wet–dry irrigation, SRI, composting and organic agriculture, fertilizer changes, and agricultural-waste recycling. Agriculture covers 151,924 km² (46.4% of the country), while current forest cover is 38.2%. The forest goal implies a 3.8-percentage-point increase; the denominators for the 30% and 3.5% figures are not stated.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Forest cover",
+      "value": 42.0,
+      "unit": "%",
+      "timeframe": "by 2030; maintain a stable level to 2050",
+      "context": "The supplied 2022 forest layer is 38.2% (124,999 km²); 42% is 3.8 percentage points higher."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "LULUCF target",
+      "value": 3.5,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The truncated table does not identify the LULUCF indicator or denominator, so no direct comparison with land-cover shares is possible."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural management target",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Agricultural land covers 151,924 km² (46.4% of the country); the excerpt does not specify the denominator for the 30% figure."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Under the mixed (Both) restoration-and-conservation commitment, Vietnam aims to increase forest cover to 42% by 2030 and maintain a stable level through 2050 by increasing planted-forest area and protecting natural forests; the passage also reports an 11.1 MtCO2eq reduction in 2020. A second Both passage gives a 3.5% LULUCF figure, but the supplied excerpt does not identify the indicator or timeframe. Under Agriculture, a 30% target is paired with integrated crop management and related measures, including wet–dry irrigation, SRI, composting and organic agriculture, fertilizer changes, and agricultural-waste recycling. Agriculture covers 151,924 km² (46.4% of the country), while current forest cover is 38.2%. The forest goal implies a 3.8-percentage-point increase; the denominators for the 30% and 3.5% figures are not stated.\",\"targets\":[{\"commitment_type\":\"Both\",\"metric\":\"Forest cover\",\"value\":42.0,\"unit\":\"%\",\"timeframe\":\"by 2030; maintain a stable level to 2050\",\"context\":\"The supplied 2022 forest layer is 38.2% (124,999 km²); 42% is 3.8 percentage points higher.\"},{\"commitment_type\":\"Both\",\"metric\":\"LULUCF target\",\"value\":3.5,\"unit\":\"%\",\"timeframe\":null,\"context\":\"The truncated table does not identify the LULUCF indicator or denominator, so no direct comparison with land-cover shares is possible.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agricultural management target\",\"value\":30.0,\"unit\":\"%\",\"timeframe\":null,\"context\":\"Agricultural land covers 151,924 km² (46.4% of the country); the excerpt does not specify the denominator for the 30% figure.\"}]}",
+  "errors": []
+}

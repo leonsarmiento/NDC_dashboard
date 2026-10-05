@@ -1,0 +1,58 @@
+{
+  "iso3": "IND",
+  "country": "India",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 2979727.4,
+    "land_cover_km2": {
+      "Agriculture": 2122927.0,
+      "Forest": 564912.0,
+      "Grassland": 64948.0,
+      "Wetland": 16332.0,
+      "Settlement": 29144.0,
+      "Shrubland": 110383.0,
+      "Sparse_vegetation": 3923.0,
+      "Bare_area": 11567.0,
+      "Water": 47398.0
+    }
+  },
+  "summary": "India’s ecosystem pledges focus exclusively on forest and tree cover. The combined (“Both”) commitment is to create an additional carbon sink of 2.5–3.0 billion tonnes CO2 equivalent by 2030 relative to 2005. The restoration commitment sets a larger 2035 carbon-sink target of 3.5–4.0 billion tonnes CO2 equivalent, likewise relative to 2005. India has 564,912 km2 of forest, or 19.0% of its land, but because these pledges quantify carbon sequestration rather than hectares restored, tree cover added, or land protected, they cannot be converted into a share of current forest cover. No agricultural or grassland-area commitment is stated, despite agriculture occupying 2,122,927 km2 (71.2%) and grassland 64,948 km2 (2.2%).",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Additional forest and tree-cover carbon sink (range lower bound)",
+      "value": 2.5,
+      "unit": "billion tonnes CO2 eq.",
+      "timeframe": "by 2030",
+      "context": "Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional forest and tree-cover carbon sink (range upper bound)",
+      "value": 3.0,
+      "unit": "billion tonnes CO2 eq.",
+      "timeframe": "by 2030",
+      "context": "Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest and tree-cover carbon sink (range lower bound)",
+      "value": 3.5,
+      "unit": "billion tonnes CO2 equivalent",
+      "timeframe": "by 2035",
+      "context": "Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest and tree-cover carbon sink (range upper bound)",
+      "value": 4.0,
+      "unit": "billion tonnes CO2 equivalent",
+      "timeframe": "by 2035",
+      "context": "Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"India’s ecosystem pledges focus exclusively on forest and tree cover. The combined (“Both”) commitment is to create an additional carbon sink of 2.5–3.0 billion tonnes CO2 equivalent by 2030 relative to 2005. The restoration commitment sets a larger 2035 carbon-sink target of 3.5–4.0 billion tonnes CO2 equivalent, likewise relative to 2005. India has 564,912 km2 of forest, or 19.0% of its land, but because these pledges quantify carbon sequestration rather than hectares restored, tree cover added, or land protected, they cannot be converted into a share of current forest cover. No agricultural or grassland-area commitment is stated, despite agriculture occupying 2,122,927 km2 (71.2%) and grassland 64,948 km2 (2.2%).\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional forest and tree-cover carbon sink (range lower bound)\",\n      \"value\": 2.5,\n      \"unit\": \"billion tonnes CO2 eq.\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional forest and tree-cover carbon sink (range upper bound)\",\n      \"value\": 3.0,\n      \"unit\": \"billion tonnes CO2 eq.\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest and tree-cover carbon sink (range lower bound)\",\n      \"value\": 3.5,\n      \"unit\": \"billion tonnes CO2 equivalent\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest and tree-cover carbon sink (range upper bound)\",\n      \"value\": 4.0,\n      \"unit\": \"billion tonnes CO2 equivalent\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Relative to a 2005 baseline; no forest or tree-cover area is specified for comparison with India's 19.0% forest share.\"\n    }\n  ]\n}",
+  "errors": []
+}

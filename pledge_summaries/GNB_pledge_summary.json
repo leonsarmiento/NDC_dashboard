@@ -1,0 +1,58 @@
+{
+  "iso3": "GNB",
+  "country": "Guinea-Bissau",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 29892.8,
+    "land_cover_km2": {
+      "Agriculture": 7306.0,
+      "Forest": 21634.0,
+      "Grassland": 22.0,
+      "Wetland": 6.0,
+      "Settlement": 69.0,
+      "Shrubland": 613.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 8.0,
+      "Water": 286.0
+    }
+  },
+  "summary": "Guinea-Bissau’s conservation pledge seeks an approximately 40% reduction in LULUCF-sector emissions relative to the baseline scenario by 2030. Its agriculture commitments aim to improve dairy-cow productivity by 10%, shorten the rice-field watering period from 183 days in the reference scenario to 165 days in 2030, and reduce agricultural emissions by 4% from the reference scenario by 2030. For perspective, forest covers 72.4% of the country and agriculture 24.4%; accordingly, these pledges focus on emissions and production practices affecting the country’s dominant land-cover classes, rather than setting hectare-based restoration, conservation, or sustainable-farming area targets.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF-sector emissions reduction",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Forest covers 72.4% of the country, but the target concerns emissions rather than forest area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Dairy-cow productivity improvement",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Agriculture covers 24.4% of the country; the affected herd area is not specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice-field watering period",
+      "value": 165,
+      "unit": "days",
+      "timeframe": "2030",
+      "context": "The targeted rice-field area is not specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural emissions reduction",
+      "value": -4,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Agriculture covers 24.4% of the country; the emissions target has no stated area denominator."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Guinea-Bissau’s conservation pledge seeks an approximately 40% reduction in LULUCF-sector emissions relative to the baseline scenario by 2030. Its agriculture commitments aim to improve dairy-cow productivity by 10%, shorten the rice-field watering period from 183 days in the reference scenario to 165 days in 2030, and reduce agricultural emissions by 4% from the reference scenario by 2030. For perspective, forest covers 72.4% of the country and agriculture 24.4%; accordingly, these pledges focus on emissions and production practices affecting the country’s dominant land-cover classes, rather than setting hectare-based restoration, conservation, or sustainable-farming area targets.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF-sector emissions reduction\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Forest covers 72.4% of the country, but the target concerns emissions rather than forest area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Dairy-cow productivity improvement\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Agriculture covers 24.4% of the country; the affected herd area is not specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice-field watering period\",\n      \"value\": 165,\n      \"unit\": \"days\",\n      \"timeframe\": \"2030\",\n      \"context\": \"The targeted rice-field area is not specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural emissions reduction\",\n      \"value\": -4,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Agriculture covers 24.4% of the country; the emissions target has no stated area denominator.\"\n    }\n  ]\n}",
+  "errors": []
+}

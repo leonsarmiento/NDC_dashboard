@@ -1,0 +1,202 @@
+{
+  "iso3": "BFA",
+  "country": "Burkina Faso",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 26,
+  "geo_context": {
+    "country_area_km2": 274990.5,
+    "land_cover_km2": {
+      "Agriculture": 197213.0,
+      "Forest": 7912.0,
+      "Grassland": 44475.0,
+      "Wetland": 174.0,
+      "Settlement": 740.0,
+      "Shrubland": 21225.0,
+      "Sparse_vegetation": 1073.0,
+      "Bare_area": 1081.0,
+      "Water": 1104.0
+    }
+  },
+  "summary": "Burkina Faso combines restoration, conservation and agriculture. Its flagship restoration pledge is 100,000 ha of assisted natural regeneration in 25 municipalities—equivalent to about 0.36% of national land and 12.6% of current forest cover—plus 5 million trees and project-specific tree and green-space targets. Mixed restoration-and-conservation measures include 700 ha of degraded forests and protected areas restored and 225,000 ha of degraded land rehabilitated for agro-silvopastoral purposes, equal to about 0.82% of national land. Conservation includes 11 ha of forest managed for women and 23 ha of a sacred site fenced. Agricultural actions include 11 ha of shea parks for IDP women, four agroecology training farms, 40 nutrition gardens and parks, 15,000 moringa and baobab seedlings, annual conservation of 10,000 tonnes of forage, and 35,000 ha of lowland and irrigated production using SRI, equal in area to about 0.18% of current agricultural land.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted natural regeneration",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.36% of total land and ≈12.6% of 2022 forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Green spaces built under PRéBBO",
+      "value": 0.15,
+      "unit": "ha",
+      "timeframe": "2024-2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Parkia biglobosa planted",
+      "value": 1500,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under presidential initiative",
+      "value": 5000000,
+      "unit": "trees",
+      "timeframe": "within 60 minutes",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under RN2 widening",
+      "value": 74000,
+      "unit": "trees",
+      "timeframe": "2024-2028",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under N°08 rehabilitation",
+      "value": 8200,
+      "unit": "trees",
+      "timeframe": "2024-2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under PRéBBO",
+      "value": 3000,
+      "unit": "trees",
+      "timeframe": "2024-2029",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under PIRCOFAT",
+      "value": 4000,
+      "unit": "trees",
+      "timeframe": "2025-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 6125,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 3600,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 18945,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted",
+      "value": 12000,
+      "unit": "trees",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest managed and developed for women",
+      "value": 11,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.0014% of 2022 forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sacred site fenced",
+      "value": 23,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.0029% of 2022 forest cover."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Shea parks established for IDP women",
+      "value": 11,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Lowland and irrigated perimeters developed using SRI",
+      "value": 35000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.18% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroecology training farms created",
+      "value": 4,
+      "unit": "farms",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nutritional gardens and agroecological parks constructed",
+      "value": 40,
+      "unit": "gardens/parks",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Moringa and baobab seedlings planted",
+      "value": 15000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Coarse forage mown and conserved",
+      "value": 10000,
+      "unit": "tonnes",
+      "timeframe": "per year",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded forests and protected areas restored",
+      "value": 700,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.09% of 2022 forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded land rehabilitated for agro-silvopastoral purposes",
+      "value": 225000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equivalent to ≈0.82% of total land area."
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Burkina Faso combines restoration, conservation and agriculture. Its flagship restoration pledge is 100,000 ha of assisted natural regeneration in 25 municipalities—equivalent to about 0.36% of national land and 12.6% of current forest cover—plus 5 million trees and project-specific tree and green-space targets. Mixed restoration-and-conservation measures include 700 ha of degraded forests and protected areas restored and 225,000 ha of degraded land rehabilitated for agro-silvopastoral purposes, equal to about 0.82% of national land. Conservation includes 11 ha of forest managed for women and 23 ha of a sacred site fenced. Agricultural actions include 11 ha of shea parks for IDP women, four agroecology training farms, 40 nutrition gardens and parks, 15,000 moringa and baobab seedlings, annual conservation of 10,000 tonnes of forage, and 35,000 ha of lowland and irrigated production using SRI, equal in area to about 0.18% of current agricultural land.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Assisted natural regeneration\",\"value\":100000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈0.36% of total land and ≈12.6% of 2022 forest cover.\"},{\"commitment_type\":\"Restoration\",\"metric\":\"Green spaces built under PRéBBO\",\"value\":0.15,\"unit\":\"ha\",\"timeframe\":\"2024-2029\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Parkia biglobosa planted\",\"value\":1500,\"unit\":\"plants\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted under presidential initiative\",\"value\":5000000,\"unit\":\"trees\",\"timeframe\":\"within 60 minutes\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted under RN2 widening\",\"value\":74000,\"unit\":\"trees\",\"timeframe\":\"2024-2028\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted under N°08 rehabilitation\",\"value\":8200,\"unit\":\"trees\",\"timeframe\":\"2024-2026\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted under PRéBBO\",\"value\":3000,\"unit\":\"trees\",\"timeframe\":\"2024-2029\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted under PIRCOFAT\",\"value\":4000,\"unit\":\"trees\",\"timeframe\":\"2025-2030\",\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted\",\"value\":6125,\"unit\":\"trees\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted\",\"value\":3600,\"unit\":\"trees\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted\",\"value\":18945,\"unit\":\"trees\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Restoration\",\"metric\":\"Trees planted\",\"value\":12000,\"unit\":\"trees\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Conservation\",\"metric\":\"Forest managed and developed for women\",\"value\":11,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈0.0014% of 2022 forest cover.\"},{\"commitment_type\":\"Conservation\",\"metric\":\"Sacred site fenced\",\"value\":23,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈0.0029% of 2022 forest cover.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Shea parks established for IDP women\",\"value\":11,\"unit\":\"ha\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Lowland and irrigated perimeters developed using SRI\",\"value\":35000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈0.18% of 2022 agricultural area.\"},{\"commitment_type\":\"Agriculture\",\"metric\":\"Agroecology training farms created\",\"value\":4,\"unit\":\"farms\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Nutritional gardens and agroecological parks constructed\",\"value\":40,\"unit\":\"gardens/parks\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Moringa and baobab seedlings planted\",\"value\":15000,\"unit\":\"plants\",\"timeframe\":null,\"context\":null},{\"commitment_type\":\"Agriculture\",\"metric\":\"Coarse forage mown and conserved\",\"value\":10000,\"unit\":\"tonnes\",\"timeframe\":\"per year\",\"context\":null},{\"commitment_type\":\"Both\",\"metric\":\"Degraded forests and protected areas restored\",\"value\":700,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈0.09% of 2022 forest cover.\"},{\"commitment_type\":\"Both\",\"metric\":\"Degraded land rehabilitated for agro-silvopastoral purposes\",\"value\":225000,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"Area equivalent to ≈0.82% of total land area.\"}]}",
+  "errors": []
+}

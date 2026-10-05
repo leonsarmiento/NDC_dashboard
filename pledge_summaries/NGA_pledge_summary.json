@@ -1,0 +1,130 @@
+{
+  "iso3": "NGA",
+  "country": "Nigeria",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 19,
+  "geo_context": {
+    "country_area_km2": 904861.8,
+    "land_cover_km2": {
+      "Agriculture": 570902.0,
+      "Forest": 211292.0,
+      "Grassland": 25454.0,
+      "Wetland": 3745.0,
+      "Settlement": 9867.0,
+      "Shrubland": 74723.0,
+      "Sparse_vegetation": 729.0,
+      "Bare_area": 142.0,
+      "Water": 7981.0
+    }
+  },
+  "summary": "Nigeria’s conservation and mixed ecosystem commitments include a 60% reduction in the deforestation rate and enhanced forest sink capacity across 25% of the national area. The mixed package targets 250,000 ha of reforestation and afforestation, 130,000 ha of forest reserves, 13,000 ha of mangroves, 162,000 ha of degraded or national forests for restoration and protection, 75,000 ha of community and private forests, and 20 million trees annually in settlements and cropland. The 250,000-ha forest expansion equals about 1.2% of current mapped forest, and the 162,000-ha forest target about 0.8%. Agricultural pledges aim to reach 15% of the cattle population through ranching by 2035, achieve 40% Systems Rice Intensification adoption in irrigated rice production, apply circular-economy climate-smart practices to 20% of cropland, expand climate-smart agriculture by 1,000,000 ha, and improve 114 grazing reserves. The expansion equals roughly 1.8% of current mapped agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Deforestation rate reduction",
+      "value": 60,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and afforestation area",
+      "value": 250000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "2,500 km², ≈1.2% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest reserves established",
+      "value": 130000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,300 km², ≈0.6% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangroves conserved and restored",
+      "value": 13000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "130 km², ≈3.5% of current mapped wetland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded and national forests restored and protected",
+      "value": 162000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,620 km², ≈0.8% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community and private forests established, restored and managed",
+      "value": 75000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "750 km², ≈0.4% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Trees planted in settlements and cropland",
+      "value": 20000000,
+      "unit": "trees",
+      "timeframe": "annually",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National area covered by enhanced forest sink capacity",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": "25% of country area, compared with 23.4% currently mapped as forest"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle population reached through ranching",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Systems Rice Intensification adoption in irrigated rice production",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cropland using circular-economy climate-smart practices",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area expanded under Climate Smart Agriculture",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "10,000 km², ≈1.8% of current mapped agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Grazing reserves with improved production facilities",
+      "value": 114,
+      "unit": "grazing reserves",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Nigeria’s conservation and mixed ecosystem commitments include a 60% reduction in the deforestation rate and enhanced forest sink capacity across 25% of the national area. The mixed package targets 250,000 ha of reforestation and afforestation, 130,000 ha of forest reserves, 13,000 ha of mangroves, 162,000 ha of degraded or national forests for restoration and protection, 75,000 ha of community and private forests, and 20 million trees annually in settlements and cropland. The 250,000-ha forest expansion equals about 1.2% of current mapped forest, and the 162,000-ha forest target about 0.8%. Agricultural pledges aim to reach 15% of the cattle population through ranching by 2035, achieve 40% Systems Rice Intensification adoption in irrigated rice production, apply circular-economy climate-smart practices to 20% of cropland, expand climate-smart agriculture by 1,000,000 ha, and improve 114 grazing reserves. The expansion equals roughly 1.8% of current mapped agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Deforestation rate reduction\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and afforestation area\",\n      \"value\": 250000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"2,500 km², ≈1.2% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest reserves established\",\n      \"value\": 130000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,300 km², ≈0.6% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangroves conserved and restored\",\n      \"value\": 13000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"130 km², ≈3.5% of current mapped wetland area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded and national forests restored and protected\",\n      \"value\": 162000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,620 km², ≈0.8% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community and private forests established, restored and managed\",\n      \"value\": 75000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"750 km², ≈0.4% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Trees planted in settlements and cropland\",\n      \"value\": 20000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"annually\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National area covered by enhanced forest sink capacity\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"25% of country area, compared with 23.4% currently mapped as forest\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle population reached through ranching\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Systems Rice Intensification adoption in irrigated rice production\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cropland using circular-economy climate-smart practices\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area expanded under Climate Smart Agriculture\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"10,000 km², ≈1.8% of current mapped agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Grazing reserves with improved production facilities\",\n      \"value\": 114,\n      \"unit\": \"grazing reserves\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

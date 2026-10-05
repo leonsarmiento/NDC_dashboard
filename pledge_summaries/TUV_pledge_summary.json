@@ -1,0 +1,34 @@
+{
+  "iso3": "TUV",
+  "country": "Tuvalu",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 33.2,
+    "land_cover_km2": {
+      "Agriculture": 7.0,
+      "Forest": 0.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 0.0,
+      "Water": 26.0
+    }
+  },
+  "summary": "Tuvalu’s ecosystem pledge in this extraction is a restoration-focused land-reclamation programme on Fongafale, the principal islands of Funafalu atoll. It has added a targeted 7 hectares and reports that this has increased Fongafale’s area by 5%, with reclamation activities continuing. The intervention is small relative to Tuvalu’s 33 km² total land area: 7 hectares (0.07 km²) is approximately 0.2% of that area. The supplied land-cover context reports 7 km² classified as agriculture (21.1% of the country), but the passage does not state that reclaimed land is intended for agriculture, so this should not be interpreted as an agricultural or conservation pledge. No separate target for restoring forests, grasslands, or other ecosystems is provided.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land reclamation area",
+      "value": 7.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.2% of Tuvalu’s 33 km² total land area; associated with a reported 5% increase in Fongafale’s area"
+    }
+  ],
+  "raw_answer": "{\"summary\":\"Tuvalu’s ecosystem pledge in this extraction is a restoration-focused land-reclamation programme on Fongafale, the principal islands of Funafalu atoll. It has added a targeted 7 hectares and reports that this has increased Fongafale’s area by 5%, with reclamation activities continuing. The intervention is small relative to Tuvalu’s 33 km² total land area: 7 hectares (0.07 km²) is approximately 0.2% of that area. The supplied land-cover context reports 7 km² classified as agriculture (21.1% of the country), but the passage does not state that reclaimed land is intended for agriculture, so this should not be interpreted as an agricultural or conservation pledge. No separate target for restoring forests, grasslands, or other ecosystems is provided.\",\"targets\":[{\"commitment_type\":\"Restoration\",\"metric\":\"Land reclamation area\",\"value\":7.0,\"unit\":\"ha\",\"timeframe\":null,\"context\":\"≈0.2% of Tuvalu’s 33 km² total land area; associated with a reported 5% increase in Fongafale’s area\"}]}",
+  "errors": []
+}

@@ -1,0 +1,738 @@
+{
+  "iso3": "RWA",
+  "country": "Republic of Rwanda",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 89,
+  "geo_context": {
+    "country_area_km2": 25448.1,
+    "land_cover_km2": {
+      "Agriculture": 18007.0,
+      "Forest": 3291.0,
+      "Grassland": 17.0,
+      "Wetland": 785.0,
+      "Settlement": 190.0,
+      "Shrubland": 1550.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 1598.0
+    }
+  },
+  "summary": "Restoration and mixed land measures dominate Rwanda’s pledges: it cites a 30% forest-cover goal—about 763,440 ha, or 2.3 times the 329,100 ha currently mapped as forest—and plans to rehabilitate over 1,000,000 ha of degraded land by 2030, equivalent to 39% of national land area. Forestry and agroforestry commitments include 47,300 ha of afforestation, 40,000 ha of payment-for-ecosystem-services forest restoration by 2030 (68,460 ha by 2035), and 1,058,920 ha of agroforestry by 2030, rising to 1,469,605 ha by 2035 (about 59–82% of agricultural land). Agriculture targets progressive terraces exceeding 1.1 million ha, crop rotation, mulching, irrigation and improved seeds; the sector is estimated to contribute 5.37 million tCO2e and forestry removals 2.1 million tCO2 in 2035. Conservation expands water-body monitoring to 76 by 2030 and 101 by 2035, contributes to a 30% protected-land target, and raises public green/open space to 30% of built-up areas.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation mitigation potential",
+      "value": 0.26,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Erosion-prone land restored",
+      "value": 550000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 30.5% of current agricultural area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Erosion-prone land restored",
+      "value": 640000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to approximately 35.5% of current agricultural area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Abandoned mining and quarrying sites rehabilitated",
+      "value": 994,
+      "unit": "sites",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water bodies monitored",
+      "value": 76,
+      "unit": "water bodies",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water bodies monitored",
+      "value": 101,
+      "unit": "water bodies",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Public green and open space in built-up areas",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional annual carbon removal from forestry interventions",
+      "value": 2.1,
+      "unit": "million tCO2",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rural clean cookstoves",
+      "value": 2449000,
+      "unit": "HH",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Urban clean cookstoves",
+      "value": 1209000,
+      "unit": "HHs",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable forestry management mitigation",
+      "value": 1.53,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "High-risk systems retrofitted",
+      "value": 2,
+      "unit": "systems",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "High-risk systems retrofitted",
+      "value": 5,
+      "unit": "systems",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water storage per capita, first reported level",
+      "value": 12,
+      "unit": "m³/ capita",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Water storage per capita, second reported level",
+      "value": 17.6,
+      "unit": "m³/ capita",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Artificial water storage per capita, first reported level",
+      "value": 45,
+      "unit": "m3/ capita",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Artificial water storage per capita, second reported level",
+      "value": 55,
+      "unit": "m3/ capita",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Permitted and compliant water users, first reported level",
+      "value": 1500,
+      "unit": "water users",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Permitted and compliant water users, second reported level",
+      "value": 2000,
+      "unit": "water users",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area under the Forest Monitoring and Evaluation System",
+      "value": 724695,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area under the Forest Monitoring and Evaluation System",
+      "value": 1211922,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Tree nurseries managed at cell level",
+      "value": 2000,
+      "unit": "tree nurseries",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Tree nurseries managed at cell level",
+      "value": 2154,
+      "unit": "tree nurseries",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Operational geospatial information systems",
+      "value": 4,
+      "unit": "operational geospatial information systems",
+      "timeframe": "by 2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Expropriated parcels registered",
+      "value": 699221,
+      "unit": "parcels",
+      "timeframe": "by 2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Spatial boundaries of land uses updated",
+      "value": 237805,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Spatial boundaries of land uses updated",
+      "value": 118902,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Resilience physical plans developed",
+      "value": 8564,
+      "unit": "ha of resilience physical plans",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Resilience physical plans developed",
+      "value": 4282,
+      "unit": "ha of resilience physical plans",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Households in green model villages or cities",
+      "value": 2400,
+      "unit": "households",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Households in green model villages or cities",
+      "value": 3600,
+      "unit": "households",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National parks contribution to protected-land target",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The passage states that protected areas currently cover 9% of the country."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Secondary cities with nature-based cooling",
+      "value": 4,
+      "unit": "secondary cities",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved seed adoption, LSF",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved seed adoption, SSF",
+      "value": 52.8,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved seed adoption, SSF",
+      "value": 66.9,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient seed-variety coverage",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient seed-variety coverage",
+      "value": 114,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Post-harvest losses on food crops",
+      "value": 8,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Post-harvest losses on food crops",
+      "value": 4.8,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-compatible farming practices",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved-quality seeds used",
+      "value": 10635,
+      "unit": "Mt",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved-quality seeds used",
+      "value": 12762,
+      "unit": "Mt",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National food-crop storage capacity",
+      "value": 417025,
+      "unit": "MT",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National food-crop storage capacity",
+      "value": 436825,
+      "unit": "MT",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Land-protection terracing structures",
+      "value": 275000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 15.3% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop rotation area",
+      "value": 850000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 47.2% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Coffee mulching",
+      "value": 32000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 1.8% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Banana mulching",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 11.1% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Radical terraces",
+      "value": 165143,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 9.2% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Radical terraces",
+      "value": 169708,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to approximately 9.4% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Progressive terraces",
+      "value": 1096082,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 60.9% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Progressive terraces",
+      "value": 1108842,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to approximately 61.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated area",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 11.1% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated area",
+      "value": 204915,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to approximately 11.4% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural insurance coverage",
+      "value": 90000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 5.0% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Solar irrigation",
+      "value": 8000,
+      "unit": "ha",
+      "timeframe": "by 2029",
+      "context": "Equivalent to approximately 0.4% of current agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Domestic cows replaced",
+      "value": 400000,
+      "unit": "cows",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved cow species introduced",
+      "value": 200000,
+      "unit": "cows",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Functional animal-genetics centres",
+      "value": 2,
+      "unit": "functional centres of excellence for animal genetics",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Functional animal-genetics centres",
+      "value": 3,
+      "unit": "functional centres of excellence for animal genetics",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Operational animal breeding centres",
+      "value": 22,
+      "unit": "animal breeding centres",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Operational animal breeding centres",
+      "value": 27,
+      "unit": "animal breeding centres",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agriculture-sector mitigation contribution",
+      "value": 5.37,
+      "unit": "million tCO2e",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Energy-efficient tea and coffee production",
+      "value": 0.01,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Compost production",
+      "value": 0.91,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Terracing mitigation",
+      "value": 1.23,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Crop rotation mitigation",
+      "value": 0.79,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Mulching mitigation",
+      "value": 1.74,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Conservation agriculture",
+      "value": 0.41,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved livestock husbandry",
+      "value": 0.16,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved livestock species",
+      "value": 0.02,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Manure management",
+      "value": 0.12,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest cover",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "2020 goal",
+      "context": "30% of 25,448 km² is approximately 763,440 ha, about 2.3 times the current forest area of 3,291 km²."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded land rehabilitation",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Scale is equivalent to approximately 39.3% of total land area and 55.5% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Afforestation area",
+      "value": 47300,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Scale is equivalent to approximately 14.4% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Urban forests and parks",
+      "value": 2100,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale is equivalent to approximately 11.1% of current settlement area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable forestry management area",
+      "value": 42652,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Scale is equivalent to approximately 13.0% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Planned forestry measures",
+      "value": 120000,
+      "unit": "ha",
+      "timeframe": "through 2035",
+      "context": "Scale is equivalent to approximately 36.5% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "PES forest restoration",
+      "value": 40000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Scale is equivalent to approximately 12.2% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "PES forest restoration",
+      "value": 68460,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale is equivalent to approximately 20.8% of current forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry planting",
+      "value": 1058920,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 58.8% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry planting",
+      "value": 1469605,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to approximately 81.6% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded critical ecosystems and riparian areas restored",
+      "value": 3300,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Scale is equivalent to approximately 4.2% of current wetland area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded critical ecosystems and riparian areas restored",
+      "value": 4414,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Scale is equivalent to approximately 5.6% of current wetland area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pilot early-warning systems",
+      "value": 22,
+      "unit": "pilot early warning systems",
+      "timeframe": "by 2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New fruit and nut trees",
+      "value": 27000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 1.5% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agroforestry mitigation",
+      "value": 0.19,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Urban forests and parks mitigation",
+      "value": 0.08,
+      "unit": "MtCO2e/yr",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration and mixed land measures dominate Rwanda’s pledges: it cites a 30% forest-cover goal—about 763,440 ha, or 2.3 times the 329,100 ha currently mapped as forest—and plans to rehabilitate over 1,000,000 ha of degraded land by 2030, equivalent to 39% of national land area. Forestry and agroforestry commitments include 47,300 ha of afforestation, 40,000 ha of payment-for-ecosystem-services forest restoration by 2030 (68,460 ha by 2035), and 1,058,920 ha of agroforestry by 2030, rising to 1,469,605 ha by 2035 (about 59–82% of agricultural land). Agriculture targets progressive terraces exceeding 1.1 million ha, crop rotation, mulching, irrigation and improved seeds; the sector is estimated to contribute 5.37 million tCO2e and forestry removals 2.1 million tCO2 in 2035. Conservation expands water-body monitoring to 76 by 2030 and 101 by 2035, contributes to a 30% protected-land target, and raises public green/open space to 30% of built-up areas.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation mitigation potential\",\n      \"value\": 0.26,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Erosion-prone land restored\",\n      \"value\": 550000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 30.5% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Erosion-prone land restored\",\n      \"value\": 640000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to approximately 35.5% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Abandoned mining and quarrying sites rehabilitated\",\n      \"value\": 994,\n      \"unit\": \"sites\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water bodies monitored\",\n      \"value\": 76,\n      \"unit\": \"water bodies\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water bodies monitored\",\n      \"value\": 101,\n      \"unit\": \"water bodies\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Public green and open space in built-up areas\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional annual carbon removal from forestry interventions\",\n      \"value\": 2.1,\n      \"unit\": \"million tCO2\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rural clean cookstoves\",\n      \"value\": 2449000,\n      \"unit\": \"HH\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Urban clean cookstoves\",\n      \"value\": 1209000,\n      \"unit\": \"HHs\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sustainable forestry management mitigation\",\n      \"value\": 1.53,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"High-risk systems retrofitted\",\n      \"value\": 2,\n      \"unit\": \"systems\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"High-risk systems retrofitted\",\n      \"value\": 5,\n      \"unit\": \"systems\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water storage per capita, first reported level\",\n      \"value\": 12,\n      \"unit\": \"m³/ capita\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Water storage per capita, second reported level\",\n      \"value\": 17.6,\n      \"unit\": \"m³/ capita\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Artificial water storage per capita, first reported level\",\n      \"value\": 45,\n      \"unit\": \"m3/ capita\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Artificial water storage per capita, second reported level\",\n      \"value\": 55,\n      \"unit\": \"m3/ capita\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Permitted and compliant water users, first reported level\",\n      \"value\": 1500,\n      \"unit\": \"water users\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Permitted and compliant water users, second reported level\",\n      \"value\": 2000,\n      \"unit\": \"water users\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest area under the Forest Monitoring and Evaluation System\",\n      \"value\": 724695,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest area under the Forest Monitoring and Evaluation System\",\n      \"value\": 1211922,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Tree nurseries managed at cell level\",\n      \"value\": 2000,\n      \"unit\": \"tree nurseries\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Tree nurseries managed at cell level\",\n      \"value\": 2154,\n      \"unit\": \"tree nurseries\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Operational geospatial information systems\",\n      \"value\": 4,\n      \"unit\": \"operational geospatial information systems\",\n      \"timeframe\": \"by 2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Expropriated parcels registered\",\n      \"value\": 699221,\n      \"unit\": \"parcels\",\n      \"timeframe\": \"by 2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Spatial boundaries of land uses updated\",\n      \"value\": 237805,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Spatial boundaries of land uses updated\",\n      \"value\": 118902,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Resilience physical plans developed\",\n      \"value\": 8564,\n      \"unit\": \"ha of resilience physical plans\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Resilience physical plans developed\",\n      \"value\": 4282,\n      \"unit\": \"ha of resilience physical plans\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Households in green model villages or cities\",\n      \"value\": 2400,\n      \"unit\": \"households\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Households in green model villages or cities\",\n      \"value\": 3600,\n      \"unit\": \"households\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National parks contribution to protected-land target\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The passage states that protected areas currently cover 9% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Secondary cities with nature-based cooling\",\n      \"value\": 4,\n      \"unit\": \"secondary cities\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved seed adoption, LSF\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved seed adoption, SSF\",\n      \"value\": 52.8,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved seed adoption, SSF\",\n      \"value\": 66.9,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient seed-variety coverage\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient seed-variety coverage\",\n      \"value\": 114,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Post-harvest losses on food crops\",\n      \"value\": 8,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Post-harvest losses on food crops\",\n      \"value\": 4.8,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-compatible farming practices\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved-quality seeds used\",\n      \"value\": 10635,\n      \"unit\": \"Mt\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved-quality seeds used\",\n      \"value\": 12762,\n      \"unit\": \"Mt\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National food-crop storage capacity\",\n      \"value\": 417025,\n      \"unit\": \"MT\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National food-crop storage capacity\",\n      \"value\": 436825,\n      \"unit\": \"MT\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Land-protection terracing structures\",\n      \"value\": 275000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 15.3% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop rotation area\",\n      \"value\": 850000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 47.2% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Coffee mulching\",\n      \"value\": 32000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 1.8% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Banana mulching\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 11.1% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Radical terraces\",\n      \"value\": 165143,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 9.2% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Radical terraces\",\n      \"value\": 169708,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to approximately 9.4% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Progressive terraces\",\n      \"value\": 1096082,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 60.9% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Progressive terraces\",\n      \"value\": 1108842,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to approximately 61.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated area\",\n      \"value\": 200000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 11.1% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated area\",\n      \"value\": 204915,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to approximately 11.4% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural insurance coverage\",\n      \"value\": 90000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 5.0% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Solar irrigation\",\n      \"value\": 8000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2029\",\n      \"context\": \"Equivalent to approximately 0.4% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Domestic cows replaced\",\n      \"value\": 400000,\n      \"unit\": \"cows\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved cow species introduced\",\n      \"value\": 200000,\n      \"unit\": \"cows\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Functional animal-genetics centres\",\n      \"value\": 2,\n      \"unit\": \"functional centres of excellence for animal genetics\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Functional animal-genetics centres\",\n      \"value\": 3,\n      \"unit\": \"functional centres of excellence for animal genetics\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Operational animal breeding centres\",\n      \"value\": 22,\n      \"unit\": \"animal breeding centres\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Operational animal breeding centres\",\n      \"value\": 27,\n      \"unit\": \"animal breeding centres\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agriculture-sector mitigation contribution\",\n      \"value\": 5.37,\n      \"unit\": \"million tCO2e\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Energy-efficient tea and coffee production\",\n      \"value\": 0.01,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Compost production\",\n      \"value\": 0.91,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Terracing mitigation\",\n      \"value\": 1.23,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Crop rotation mitigation\",\n      \"value\": 0.79,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Mulching mitigation\",\n      \"value\": 1.74,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Conservation agriculture\",\n      \"value\": 0.41,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved livestock husbandry\",\n      \"value\": 0.16,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved livestock species\",\n      \"value\": 0.02,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Manure management\",\n      \"value\": 0.12,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Forest cover\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"2020 goal\",\n      \"context\": \"30% of 25,448 km² is approximately 763,440 ha, about 2.3 times the current forest area of 3,291 km².\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded land rehabilitation\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Scale is equivalent to approximately 39.3% of total land area and 55.5% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Afforestation area\",\n      \"value\": 47300,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Scale is equivalent to approximately 14.4% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Urban forests and parks\",\n      \"value\": 2100,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale is equivalent to approximately 11.1% of current settlement area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable forestry management area\",\n      \"value\": 42652,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Scale is equivalent to approximately 13.0% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Planned forestry measures\",\n      \"value\": 120000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"through 2035\",\n      \"context\": \"Scale is equivalent to approximately 36.5% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"PES forest restoration\",\n      \"value\": 40000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Scale is equivalent to approximately 12.2% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"PES forest restoration\",\n      \"value\": 68460,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale is equivalent to approximately 20.8% of current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroforestry planting\",\n      \"value\": 1058920,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 58.8% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroforestry planting\",\n      \"value\": 1469605,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to approximately 81.6% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded critical ecosystems and riparian areas restored\",\n      \"value\": 3300,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Scale is equivalent to approximately 4.2% of current wetland area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded critical ecosystems and riparian areas restored\",\n      \"value\": 4414,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Scale is equivalent to approximately 5.6% of current wetland area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pilot early-warning systems\",\n      \"value\": 22,\n      \"unit\": \"pilot early warning systems\",\n      \"timeframe\": \"by 2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New fruit and nut trees\",\n      \"value\": 27000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 1.5% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agroforestry mitigation\",\n      \"value\": 0.19,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Urban forests and parks mitigation\",\n      \"value\": 0.08,\n      \"unit\": \"MtCO2e/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

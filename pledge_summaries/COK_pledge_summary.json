@@ -1,0 +1,42 @@
+{
+  "iso3": "COK",
+  "country": "Cook Islands",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 2,
+  "geo_context": {
+    "country_area_km2": 240.0,
+    "land_cover_km2": {
+      "Agriculture": 89.0,
+      "Forest": 111.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 0.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 3.0,
+      "Bare_area": 0.0,
+      "Water": 34.0
+    }
+  },
+  "summary": "Cook Islands’ supplied pledges are conservation-focused and contain no numerical restoration or agricultural-area commitment. The main ecosystem measure is the designation of the entire Exclusive Economic Zone (EEZ), reported as almost 2,000,000 sq km, as a marine park to strengthen marine-ecosystem resilience. This is a marine commitment and is not directly comparable with the country’s 240 sq km of land, which includes 111 sq km of forest (46.2%) and 89 sq km of agriculture (37.1%). A second conservation-related pledge commits the country to delivering 100% of its adaptation measures, providing tools and technologies, and strengthening capacity across all inhabited islands, conditional on external support. No timeframe is specified for either numerical commitment.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine park designation",
+      "value": 2000000,
+      "unit": "sq km",
+      "timeframe": null,
+      "context": "Covers the entire EEZ; not directly comparable with the country’s 240 sq km land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Adaptation measures delivered",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Applies to all inhabited islands and is conditional on external support."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Cook Islands’ supplied pledges are conservation-focused and contain no numerical restoration or agricultural-area commitment. The main ecosystem measure is the designation of the entire Exclusive Economic Zone (EEZ), reported as almost 2,000,000 sq km, as a marine park to strengthen marine-ecosystem resilience. This is a marine commitment and is not directly comparable with the country’s 240 sq km of land, which includes 111 sq km of forest (46.2%) and 89 sq km of agriculture (37.1%). A second conservation-related pledge commits the country to delivering 100% of its adaptation measures, providing tools and technologies, and strengthening capacity across all inhabited islands, conditional on external support. No timeframe is specified for either numerical commitment.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine park designation\",\n      \"value\": 2000000,\n      \"unit\": \"sq km\",\n      \"timeframe\": null,\n      \"context\": \"Covers the entire EEZ; not directly comparable with the country’s 240 sq km land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Adaptation measures delivered\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Applies to all inhabited islands and is conditional on external support.\"\n    }\n  ]\n}",
+  "errors": []
+}

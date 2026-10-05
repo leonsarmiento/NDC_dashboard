@@ -1,0 +1,194 @@
+{
+  "iso3": "COG",
+  "country": "Republic of the Congo",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 17,
+  "geo_context": {
+    "country_area_km2": 345002.2,
+    "land_cover_km2": {
+      "Agriculture": 30227.0,
+      "Forest": 287731.0,
+      "Grassland": 11503.0,
+      "Wetland": 744.0,
+      "Settlement": 447.0,
+      "Shrubland": 11051.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 2.0,
+      "Water": 3276.0
+    }
+  },
+  "summary": "Restoration pledges include 6,000 ha of reforestation and 4,000 ha of assisted forest regeneration, plus rehabilitation of at least 20% of degraded sites. Conservation combines 5,000 ha of avoided deforestation with protection of at least 20% of terrestrial and marine natural ecosystems, reserves covering at least 25% of national territory, and sustainable management of 50% of natural ecosystems. Agriculture targets 1,000 ha of rice-crop methane reduction and 4,537 ha of conditional agro-industry promotion. Mixed measures range from a 70,000-ha carbon-sink pilot to an unconditional plan for 158,640 ha of afforestation and 63,500 ha of agroforestry; additional support would enable 67,520 ha and 16,667 ha, respectively. Named projects cover 40,000, 50,000, 102,000 and another 50,000 ha of plantations, plus 102,560 ha of agro-industry. The unconditional afforestation plan equals about 0.55% of current forest cover, while the planned agroforestry equals about 2.10% of current agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation area",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "60 km², ≈0.021% of 2022 forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration area",
+      "value": 4000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "40 km², ≈0.014% of 2022 forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded sites with rehabilitation plans",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided deforestation area",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "50 km², ≈0.017% of 2022 forest cover."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial and marine natural ecosystems protected",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": "The pledge includes marine as well as terrestrial ecosystems, so no single land-cover share applies."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory covered by natural reserves",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": "For scale, 25% of the 345,002 km² land area is ≈86,251 km²."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural ecosystems under sustainable management",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice-crop area for CH4 reduction",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "10 km², ≈0.033% of 2022 agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cashew agro-industry promotion area",
+      "value": 4537,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "45.37 km², ≈0.150% of current agricultural area; conditional."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "TNBS carbon-sink pilot area",
+      "value": 70000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "700 km², ≈0.203% of total land; TNBS pilot in the Plateaux department."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Unconditional afforestation area",
+      "value": 158640,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,586.4 km², ≈0.551% of current forest cover; unconditional scenario."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Unconditional agroforestry area",
+      "value": 63500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "635 km², ≈2.101% of current agricultural area; unconditional scenario."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional afforestation area",
+      "value": 67520,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "675.2 km², ≈0.235% of current forest cover; requires additional international support."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional agroforestry area",
+      "value": 16667,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "166.67 km², ≈0.551% of current agricultural area; requires additional international support."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mbé Carbon Garden carbon-sink plantation area",
+      "value": 40000,
+      "unit": "ha",
+      "timeframe": "2030",
+      "context": "400 km², ≈0.116% of total land; conditional project in the Pool region."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "ECO ZAMBA carbon-sink plantation area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "2053",
+      "context": "500 km², ≈0.145% of total land; unconditional ECO ZAMBA project in the Plateaux region."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Gamboma-Abala carbon-sink plantation area",
+      "value": 102000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,020 km², ≈0.296% of total land; AFOREST Congo/ASC IMPACT project in Nkéni-Alima Department."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Massangui-Kigoué carbon-sink plantation area",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "500 km², ≈0.145% of total land; conditional AGRICAF Congo/ASC IMPACT project in the Plateaux region."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Massangui-Kigoué agro-industry promotion area",
+      "value": 102560,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,025.6 km², ≈3.394% of current agricultural area; conditional promotion in Gamboma and Abala."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Net absorptions under the additional-support scenario",
+      "value": -30508.1,
+      "unit": "ktCO2 eq",
+      "timeframe": "2030",
+      "context": "Reported as a 7.57% improvement versus BAU and associated with additional international support."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Net absorptions under the additional-support scenario",
+      "value": -31653.1,
+      "unit": "ktCO2 eq",
+      "timeframe": "2035",
+      "context": "Reported as a 14.2% increase versus BAU and associated with additional international support."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges include 6,000 ha of reforestation and 4,000 ha of assisted forest regeneration, plus rehabilitation of at least 20% of degraded sites. Conservation combines 5,000 ha of avoided deforestation with protection of at least 20% of terrestrial and marine natural ecosystems, reserves covering at least 25% of national territory, and sustainable management of 50% of natural ecosystems. Agriculture targets 1,000 ha of rice-crop methane reduction and 4,537 ha of conditional agro-industry promotion. Mixed measures range from a 70,000-ha carbon-sink pilot to an unconditional plan for 158,640 ha of afforestation and 63,500 ha of agroforestry; additional support would enable 67,520 ha and 16,667 ha, respectively. Named projects cover 40,000, 50,000, 102,000 and another 50,000 ha of plantations, plus 102,560 ha of agro-industry. The unconditional afforestation plan equals about 0.55% of current forest cover, while the planned agroforestry equals about 2.10% of current agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation area\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"60 km², ≈0.021% of 2022 forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted forest regeneration area\",\n      \"value\": 4000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"40 km², ≈0.014% of 2022 forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded sites with rehabilitation plans\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Avoided deforestation area\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"50 km², ≈0.017% of 2022 forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial and marine natural ecosystems protected\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"The pledge includes marine as well as terrestrial ecosystems, so no single land-cover share applies.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National territory covered by natural reserves\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"For scale, 25% of the 345,002 km² land area is ≈86,251 km².\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural ecosystems under sustainable management\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice-crop area for CH4 reduction\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"10 km², ≈0.033% of 2022 agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cashew agro-industry promotion area\",\n      \"value\": 4537,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"45.37 km², ≈0.150% of current agricultural area; conditional.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"TNBS carbon-sink pilot area\",\n      \"value\": 70000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"700 km², ≈0.203% of total land; TNBS pilot in the Plateaux department.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Unconditional afforestation area\",\n      \"value\": 158640,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,586.4 km², ≈0.551% of current forest cover; unconditional scenario.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Unconditional agroforestry area\",\n      \"value\": 63500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"635 km², ≈2.101% of current agricultural area; unconditional scenario.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional afforestation area\",\n      \"value\": 67520,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"675.2 km², ≈0.235% of current forest cover; requires additional international support.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional agroforestry area\",\n      \"value\": 16667,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"166.67 km², ≈0.551% of current agricultural area; requires additional international support.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mbé Carbon Garden carbon-sink plantation area\",\n      \"value\": 40000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030\",\n      \"context\": \"400 km², ≈0.116% of total land; conditional project in the Pool region.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"ECO ZAMBA carbon-sink plantation area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2053\",\n      \"context\": \"500 km², ≈0.145% of total land; unconditional ECO ZAMBA project in the Plateaux region.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Gamboma-Abala carbon-sink plantation area\",\n      \"value\": 102000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,020 km², ≈0.296% of total land; AFOREST Congo/ASC IMPACT project in Nkéni-Alima Department.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Massangui-Kigoué carbon-sink plantation area\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"500 km², ≈0.145% of total land; conditional AGRICAF Congo/ASC IMPACT project in the Plateaux region.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Massangui-Kigoué agro-industry promotion area\",\n      \"value\": 102560,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,025.6 km², ≈3.394% of current agricultural area; conditional promotion in Gamboma and Abala.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Net absorptions under the additional-support scenario\",\n      \"value\": -30508.1,\n      \"unit\": \"ktCO2 eq\",\n      \"timeframe\": \"2030\",\n      \"context\": \"Reported as a 7.57% improvement versus BAU and associated with additional international support.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Net absorptions under the additional-support scenario\",\n      \"value\": -31653.1,\n      \"unit\": \"ktCO2 eq\",\n      \"timeframe\": \"2035\",\n      \"context\": \"Reported as a 14.2% increase versus BAU and associated with additional international support.\"\n    }\n  ]\n}",
+  "errors": []
+}

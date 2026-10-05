@@ -1,0 +1,82 @@
+{
+  "iso3": "ESP",
+  "country": "Spain",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 506373.7,
+    "land_cover_km2": {
+      "Agriculture": 259051.0,
+      "Forest": 168680.0,
+      "Grassland": 32745.0,
+      "Wetland": 428.0,
+      "Settlement": 7972.0,
+      "Shrubland": 20544.0,
+      "Sparse_vegetation": 8383.0,
+      "Bare_area": 4226.0,
+      "Water": 4362.0
+    }
+  },
+  "summary": "Restoration is addressed through an EU-wide goal to place restoration measures in at least 20% of EU land and sea areas by 2030, and in all ecosystems needing restoration by 2050. For perspective, Spain currently has 33.3% forest, 6.5% grassland, 0.1% wetland and 51.2% agricultural cover, although the 20% pledge is not stated as a Spain-specific area target. Conservation focuses on LULUCF: a collective EU 2030 target of 310 Mt CO2-eq in net removals (also stated as a -310 Mt CO2-eq carbon-sink target), 42 Mt more removals than the 2016–2018 average, and Spain’s listed 2030 national target of -5,309 Kt CO2eq. Agriculture commitments are funding-based: 40% of the EU Common Agricultural Policy allocation for 2023–2027 should support climate objectives, with at least 25% of annual direct-payment funds earmarked for eco-schemes and 35% of Pillar II funds dedicated to environment and climate activities.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "EU land and sea areas with restoration measures",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The minimum applies to both EU land areas and sea areas; no Spain-specific restoration area is stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Collective EU LULUCF carbon-sink target",
+      "value": -310,
+      "unit": "Mt CO2-eq",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Additional EU LULUCF net removals versus the 2016–2018 average",
+      "value": 42,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Spain LULUCF national target",
+      "value": -5309,
+      "unit": "Kt CO2eq",
+      "timeframe": "2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Common Agricultural Policy allocation supporting climate objectives",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "2023–2027",
+      "context": "This is an EU financial-allocation share, not a share of Spain's 259,051 km² agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Direct payments under Pillar I earmarked for eco-schemes",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": "This is an EU funding share rather than an agricultural-area commitment."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pillar II funds dedicated to environment and climate activities",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": "This is an EU funding share rather than a share of Spain's agricultural land."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is addressed through an EU-wide goal to place restoration measures in at least 20% of EU land and sea areas by 2030, and in all ecosystems needing restoration by 2050. For perspective, Spain currently has 33.3% forest, 6.5% grassland, 0.1% wetland and 51.2% agricultural cover, although the 20% pledge is not stated as a Spain-specific area target. Conservation focuses on LULUCF: a collective EU 2030 target of 310 Mt CO2-eq in net removals (also stated as a -310 Mt CO2-eq carbon-sink target), 42 Mt more removals than the 2016–2018 average, and Spain’s listed 2030 national target of -5,309 Kt CO2eq. Agriculture commitments are funding-based: 40% of the EU Common Agricultural Policy allocation for 2023–2027 should support climate objectives, with at least 25% of annual direct-payment funds earmarked for eco-schemes and 35% of Pillar II funds dedicated to environment and climate activities.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"EU land and sea areas with restoration measures\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The minimum applies to both EU land areas and sea areas; no Spain-specific restoration area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Collective EU LULUCF carbon-sink target\",\n      \"value\": -310,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Additional EU LULUCF net removals versus the 2016–2018 average\",\n      \"value\": 42,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Spain LULUCF national target\",\n      \"value\": -5309,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Common Agricultural Policy allocation supporting climate objectives\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023–2027\",\n      \"context\": \"This is an EU financial-allocation share, not a share of Spain's 259,051 km² agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Direct payments under Pillar I earmarked for eco-schemes\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually\",\n      \"context\": \"This is an EU funding share rather than an agricultural-area commitment.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pillar II funds dedicated to environment and climate activities\",\n      \"value\": 35,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"This is an EU funding share rather than a share of Spain's agricultural land.\"\n    }\n  ]\n}",
+  "errors": []
+}

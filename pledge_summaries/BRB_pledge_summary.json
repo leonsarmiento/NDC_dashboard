@@ -1,0 +1,42 @@
+{
+  "iso3": "BRB",
+  "country": "Barbados",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 4,
+  "geo_context": {
+    "country_area_km2": 435.5,
+    "land_cover_km2": {
+      "Agriculture": 286.0,
+      "Forest": 46.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 92.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 12.0
+    }
+  },
+  "summary": "Barbados’ ecosystem pledges are primarily conservation-focused: a debt-for-nature conversion supports a commitment to protect up to 30% of the country’s ocean by 2030, described as approximately 55,000 square km of its EEZ and Territorial Sea, alongside marine spatial planning and conservation financing. The pledge also combines conservation and restoration through carbon-sequestration initiatives, notably the Million Trees Project, with 1,000,000 trees targeted for planting and possible conversion of sugarcane plantations to tree plantations. This is significant in a 436 km² land area where agriculture already occupies 286 km² (65.7%) and forest covers 46 km² (10.6%); however, the tree target is not expressed as an area and has no stated deadline.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ocean area protected",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Up to approximately 55,000 square km of the EEZ and Territorial Sea."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tree planting",
+      "value": 1000000,
+      "unit": "number of trees",
+      "timeframe": null,
+      "context": "Agriculture covers 65.7% of Barbados’ land area, while forest covers 10.6%; the target is not expressed as an area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Barbados’ ecosystem pledges are primarily conservation-focused: a debt-for-nature conversion supports a commitment to protect up to 30% of the country’s ocean by 2030, described as approximately 55,000 square km of its EEZ and Territorial Sea, alongside marine spatial planning and conservation financing. The pledge also combines conservation and restoration through carbon-sequestration initiatives, notably the Million Trees Project, with 1,000,000 trees targeted for planting and possible conversion of sugarcane plantations to tree plantations. This is significant in a 436 km² land area where agriculture already occupies 286 km² (65.7%) and forest covers 46 km² (10.6%); however, the tree target is not expressed as an area and has no stated deadline.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ocean area protected\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Up to approximately 55,000 square km of the EEZ and Territorial Sea.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tree planting\",\n      \"value\": 1000000,\n      \"unit\": \"number of trees\",\n      \"timeframe\": null,\n      \"context\": \"Agriculture covers 65.7% of Barbados’ land area, while forest covers 10.6%; the target is not expressed as an area.\"\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,162 @@
+{
+  "iso3": "CMR",
+  "country": "Cameroon",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 18,
+  "geo_context": {
+    "country_area_km2": 465852.5,
+    "land_cover_km2": {
+      "Agriculture": 66699.0,
+      "Forest": 366876.0,
+      "Grassland": 12104.0,
+      "Wetland": 1769.0,
+      "Settlement": 1167.0,
+      "Shrubland": 13991.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 7.0,
+      "Water": 3275.0
+    }
+  },
+  "summary": "Cameroon’s restoration package targets 5,000,000 ha of reforestation (about 13.6% of current forest cover), 500,000 ha of assisted regeneration, 650,000 ha of degraded-land rehabilitation, 3,000 ha of agroforestry, 3,299,000 ha of forest enclosure/protection, and 500 ha of degraded-soil restoration. Conservation adds 1,000,000 ha of avoided deforestation, equivalent to about 2.7% of current forest, and 394.2 ha of forest plantations. Agriculture combines 230,000 ha of intermittent rice flooding and 1,000,000 ha under nitrification inhibitors—roughly 3.4% and 15.0% of current agricultural area—with 12,500 ha of forage plantations, 2,000 tonnes of compost/biofertilizer, 25 million plants annually, at least 15% sustainable use of developable and irrigable land, separate 5%-of-added-meal and 12%-of-added-DM-fat feed targets, and inhibitor use by 5% of farmers by 2030.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation area",
+      "value": 5000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈13.6% of current forest area (36,687,600 ha)"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest enclosure and protection area",
+      "value": 3299000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈9.0% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-land rehabilitation and planting area",
+      "value": 650000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈14.0% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted forest regeneration area",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.4% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-soil restoration using organic waste",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.001% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation through agroforestry",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.006% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided deforestation area",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.7% of current forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "PNDPF forest plantation development area",
+      "value": 394.2,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.001% of current forest area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Developable and irrigable land under sustainable use",
+      "value": 15,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fat supplementation in ruminant feed (% of added meal)",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fat supplementation in ruminant feed (% of added DM fat)",
+      "value": 12,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers using nitrification inhibitors",
+      "value": 5,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fodder and forage plantation area",
+      "value": 12500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.19% of current agricultural area (6,669,900 ha)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice area using intermittent flooding to reduce CH4",
+      "value": 230000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural area using nitrification inhibitors to reduce N2O",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈15.0% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual high-yield industrial nursery plant production",
+      "value": 25000000,
+      "unit": "plants per year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Compost and biofertilizer production and use",
+      "value": 2000,
+      "unit": "tonnes",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Cameroon’s restoration package targets 5,000,000 ha of reforestation (about 13.6% of current forest cover), 500,000 ha of assisted regeneration, 650,000 ha of degraded-land rehabilitation, 3,000 ha of agroforestry, 3,299,000 ha of forest enclosure/protection, and 500 ha of degraded-soil restoration. Conservation adds 1,000,000 ha of avoided deforestation, equivalent to about 2.7% of current forest, and 394.2 ha of forest plantations. Agriculture combines 230,000 ha of intermittent rice flooding and 1,000,000 ha under nitrification inhibitors—roughly 3.4% and 15.0% of current agricultural area—with 12,500 ha of forage plantations, 2,000 tonnes of compost/biofertilizer, 25 million plants annually, at least 15% sustainable use of developable and irrigable land, separate 5%-of-added-meal and 12%-of-added-DM-fat feed targets, and inhibitor use by 5% of farmers by 2030.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation area\",\n      \"value\": 5000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈13.6% of current forest area (36,687,600 ha)\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forest enclosure and protection area\",\n      \"value\": 3299000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈9.0% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-land rehabilitation and planting area\",\n      \"value\": 650000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈14.0% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted forest regeneration area\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.4% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-soil restoration using organic waste\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.001% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation through agroforestry\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.006% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Avoided deforestation area\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.7% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"PNDPF forest plantation development area\",\n      \"value\": 394.2,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.001% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Developable and irrigable land under sustainable use\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fat supplementation in ruminant feed (% of added meal)\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fat supplementation in ruminant feed (% of added DM fat)\",\n      \"value\": 12,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers using nitrification inhibitors\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fodder and forage plantation area\",\n      \"value\": 12500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.19% of current agricultural area (6,669,900 ha)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice area using intermittent flooding to reduce CH4\",\n      \"value\": 230000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.4% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural area using nitrification inhibitors to reduce N2O\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈15.0% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual high-yield industrial nursery plant production\",\n      \"value\": 25000000,\n      \"unit\": \"plants per year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Compost and biofertilizer production and use\",\n      \"value\": 2000,\n      \"unit\": \"tonnes\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

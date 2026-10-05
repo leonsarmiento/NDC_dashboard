@@ -1,0 +1,466 @@
+{
+  "iso3": "SUR",
+  "country": "Republic of Suriname",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 109,
+  "geo_context": {
+    "country_area_km2": 145267.8,
+    "land_cover_km2": {
+      "Agriculture": 782.0,
+      "Forest": 140991.0,
+      "Grassland": 87.0,
+      "Wetland": 685.0,
+      "Settlement": 136.0,
+      "Shrubland": 752.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 1846.0
+    }
+  },
+  "summary": "Conservation is the backbone: Suriname states forest-cover commitments at both at least 90% and 93%, compared with 97.1% forest in the 2022 land-cover context. It also aims to conserve 30% of inland water and marine/coastal areas, raise forest-and-wetland protection to 17% of terrestrial area by 2030, and legally protect 3.5 million hectares by Q3 2030. Restoration and mixed land-restoration headlines are 50,000 hectares of degraded-land reforestation by 2035, 20,000 hectares of agricultural/pastoral land under active restoration, and 5,000 hectares of mangrove/coastal restoration. Agriculture targets include CSA on 60% of active farmland by 2035, agroforestry on 25,000 hectares, methane-reducing irrigation on more than 50% of rice cultivation, and a 25% post-harvest-loss reduction. In scale, 50,000 hectares equals about 0.35% of current forest cover, while 25,000 hectares of agroforestry equals about 32% of currently mapped agriculture. Mixed production pledges seek certification of at least 30% of productive forests.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded-land area under active reforestation and rehabilitation",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "500 km², approximately 0.35% of the current 140,991 km² forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded mangrove and coastal ecosystems under active restoration",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "2025–2030",
+      "context": "50 km², equivalent to approximately 7.3% of the current 685 km² wetland area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Carbon absorption from rehabilitating land deforested after 2028",
+      "value": 7,
+      "unit": "tCO₂/ha/year",
+      "timeframe": "after 2028",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual deforestation rate under the mitigation scenario",
+      "value": 0.03,
+      "unit": "%",
+      "timeframe": "from 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Expected annual deforestation rate",
+      "value": 0.07,
+      "unit": "%",
+      "timeframe": "2022–2034",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forests and wetlands under protection (at least)",
+      "value": 17,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "Equivalent to approximately 24,696 km² using the 145,268 km² total-land context."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest and biodiversity conservation share",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in uncontrolled forest-fire incidents",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2031 relative to 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory covered by conservation zones",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Equivalent to approximately 43,580 km² of the country's 145,268 km²."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land under ecosystem-service payment schemes (more than)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": "More than approximately 43,580 km² if measured against the total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Inland water and marine/coastal areas effectively conserved (at least)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "2025–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in verified illegal mercury and hazardous-material seizures",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2031",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area coverage reported for national territory (up to)",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": "If the national-territory denominator is used, 70% is approximately 101,688 km²."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in illegal deforestation incidents (more than)",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030 relative to 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National forest cover maintained (at least)",
+      "value": 90,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": "Current mapped forest cover is 97.1%, or 140,991 km², 7.1 percentage points above this floor."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National forest cover maintained",
+      "value": 93,
+      "unit": "%",
+      "timeframe": "in perpetuity",
+      "context": "Current mapped forest cover is 97.1%, 4.1 percentage points above this stated level."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Major protected areas with climate-informed management plans",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "2025–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Representation of ecosystems and biological species in legally protected areas",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Southern intact-forest belt legally designated as protected",
+      "value": 3500000,
+      "unit": "ha",
+      "timeframe": "by the end of Q3 2030",
+      "context": "35,000 km², approximately 24.8% of the current forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Scenario net emissions/removals table value",
+      "value": -10.3,
+      "unit": "MtCO₂e",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Scenario net emissions/removals table value",
+      "value": -10.35,
+      "unit": "MtCO₂e",
+      "timeframe": "2028",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Scenario net emissions/removals table value",
+      "value": -10.43,
+      "unit": "MtCO₂e",
+      "timeframe": "2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Scenario net emissions/removals table value",
+      "value": -10.31,
+      "unit": "MtCO₂e",
+      "timeframe": "2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Maximum annual net removals under the mitigation pathway",
+      "value": -10.5,
+      "unit": "MtCO₂e/year",
+      "timeframe": "through 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual net removals under the mitigation pathway",
+      "value": -5,
+      "unit": "MtCO₂e/year",
+      "timeframe": "around 2028 and by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Functional ecological corridors established",
+      "value": 2,
+      "unit": "corridors",
+      "timeframe": "2030–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Critical river basins with fully implemented watershed plans",
+      "value": 3,
+      "unit": "basins",
+      "timeframe": "2030–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Major border posts equipped with modern surveillance",
+      "value": 3,
+      "unit": "posts",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National climate research programs established and funded",
+      "value": 3,
+      "unit": "programs",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Key economic sectors integrating biodiversity and ecosystem-service values",
+      "value": 3,
+      "unit": "sectors",
+      "timeframe": "2025–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New wetland and Ramsar-site co-management agreements",
+      "value": 5,
+      "unit": "agreements",
+      "timeframe": "2030–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority sectors covered by the national loss-and-damage assessment",
+      "value": 8,
+      "unit": "sectors",
+      "timeframe": "by 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New coastal freshwater monitoring stations",
+      "value": 10,
+      "unit": "stations",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New community-owned eco-tourism enterprises",
+      "value": 10,
+      "unit": "enterprises",
+      "timeframe": "2030–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual emissions reduction from forest degradation through climate-smart forestry",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "from 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Annual agricultural-sector emissions reduction through CSA",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "from 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction in post-harvest losses for priority agricultural value chains",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "2030–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in climate-resilient aquaculture and mariculture production",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "2030–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice-cultivation area using AWD or similar methane-reducing methods (more than)",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Active farmland managed using recognized CSA practices (at least)",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "If the 782 km² currently mapped as agriculture were the denominator, 60% equals approximately 469 km²."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Active logging concessions certified under SFM/RIL standards (more than)",
+      "value": 75,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmland under agroforestry systems (at least)",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "250 km², approximately 32.0% of the 782 km² currently mapped as agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Total cultivated area",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "1,000 km², approximately 128% of the 782 km² currently mapped as agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Community-led Indigenous and Tribal Peoples' food-system adaptation plans funded",
+      "value": 5,
+      "unit": "plans",
+      "timeframe": "2025–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New MSMEs receiving green-enterprise support",
+      "value": 50,
+      "unit": "MSMEs",
+      "timeframe": "2028–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Productive forests certified under sustainable forest-management standards (at least)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Highly vulnerable coastline protected through hard infrastructure and NbS (at least)",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "2026–2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded agricultural and pastoral land under active LDN restoration and sustainable management (at least)",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "200 km², approximately 23.0% of the combined 869 km² currently mapped as agriculture and grassland."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority fisheries with active sustainable management plans",
+      "value": 3,
+      "unit": "fisheries",
+      "timeframe": "2026–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Districts with functional agro-ecological zones (at least)",
+      "value": 4,
+      "unit": "districts",
+      "timeframe": "2030–2035 and beyond",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Smallholder farmers with access to CSA technology funds (at least)",
+      "value": 1000,
+      "unit": "farmers",
+      "timeframe": "by 2032",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community-led projects documenting at-risk heritage",
+      "value": 10,
+      "unit": "projects",
+      "timeframe": "2028–2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Community Climate Action Fund projects financed (at least)",
+      "value": 20,
+      "unit": "projects",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Key sectors with verifiably integrated TEK in adaptation plans (at least)",
+      "value": 3,
+      "unit": "sectors",
+      "timeframe": "2030–2035 and beyond",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New jobs in sustainable forest-based value chains (at least)",
+      "value": 5000,
+      "unit": "jobs",
+      "timeframe": "by 2035",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation is the backbone: Suriname states forest-cover commitments at both at least 90% and 93%, compared with 97.1% forest in the 2022 land-cover context. It also aims to conserve 30% of inland water and marine/coastal areas, raise forest-and-wetland protection to 17% of terrestrial area by 2030, and legally protect 3.5 million hectares by Q3 2030. Restoration and mixed land-restoration headlines are 50,000 hectares of degraded-land reforestation by 2035, 20,000 hectares of agricultural/pastoral land under active restoration, and 5,000 hectares of mangrove/coastal restoration. Agriculture targets include CSA on 60% of active farmland by 2035, agroforestry on 25,000 hectares, methane-reducing irrigation on more than 50% of rice cultivation, and a 25% post-harvest-loss reduction. In scale, 50,000 hectares equals about 0.35% of current forest cover, while 25,000 hectares of agroforestry equals about 32% of currently mapped agriculture. Mixed production pledges seek certification of at least 30% of productive forests.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded-land area under active reforestation and rehabilitation\",\n      \"value\": 50000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"500 km², approximately 0.35% of the current 140,991 km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded mangrove and coastal ecosystems under active restoration\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2025–2030\",\n      \"context\": \"50 km², equivalent to approximately 7.3% of the current 685 km² wetland area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Carbon absorption from rehabilitating land deforested after 2028\",\n      \"value\": 7,\n      \"unit\": \"tCO₂/ha/year\",\n      \"timeframe\": \"after 2028\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual deforestation rate under the mitigation scenario\",\n      \"value\": 0.03,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Expected annual deforestation rate\",\n      \"value\": 0.07,\n      \"unit\": \"%\",\n      \"timeframe\": \"2022–2034\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forests and wetlands under protection (at least)\",\n      \"value\": 17,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Equivalent to approximately 24,696 km² using the 145,268 km² total-land context.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest and biodiversity conservation share\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in uncontrolled forest-fire incidents\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2031 relative to 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National territory covered by conservation zones\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 43,580 km² of the country's 145,268 km².\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land under ecosystem-service payment schemes (more than)\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"More than approximately 43,580 km² if measured against the total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Inland water and marine/coastal areas effectively conserved (at least)\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in verified illegal mercury and hazardous-material seizures\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2031\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area coverage reported for national territory (up to)\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"If the national-territory denominator is used, 70% is approximately 101,688 km².\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in illegal deforestation incidents (more than)\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030 relative to 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National forest cover maintained (at least)\",\n      \"value\": 90,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"Current mapped forest cover is 97.1%, or 140,991 km², 7.1 percentage points above this floor.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National forest cover maintained\",\n      \"value\": 93,\n      \"unit\": \"%\",\n      \"timeframe\": \"in perpetuity\",\n      \"context\": \"Current mapped forest cover is 97.1%, 4.1 percentage points above this stated level.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Major protected areas with climate-informed management plans\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Representation of ecosystems and biological species in legally protected areas\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Southern intact-forest belt legally designated as protected\",\n      \"value\": 3500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by the end of Q3 2030\",\n      \"context\": \"35,000 km², approximately 24.8% of the current forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Scenario net emissions/removals table value\",\n      \"value\": -10.30,\n      \"unit\": \"MtCO₂e\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Scenario net emissions/removals table value\",\n      \"value\": -10.35,\n      \"unit\": \"MtCO₂e\",\n      \"timeframe\": \"2028\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Scenario net emissions/removals table value\",\n      \"value\": -10.43,\n      \"unit\": \"MtCO₂e\",\n      \"timeframe\": \"2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Scenario net emissions/removals table value\",\n      \"value\": -10.31,\n      \"unit\": \"MtCO₂e\",\n      \"timeframe\": \"2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Maximum annual net removals under the mitigation pathway\",\n      \"value\": -10.5,\n      \"unit\": \"MtCO₂e/year\",\n      \"timeframe\": \"through 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual net removals under the mitigation pathway\",\n      \"value\": -5,\n      \"unit\": \"MtCO₂e/year\",\n      \"timeframe\": \"around 2028 and by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Functional ecological corridors established\",\n      \"value\": 2,\n      \"unit\": \"corridors\",\n      \"timeframe\": \"2030–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Critical river basins with fully implemented watershed plans\",\n      \"value\": 3,\n      \"unit\": \"basins\",\n      \"timeframe\": \"2030–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Major border posts equipped with modern surveillance\",\n      \"value\": 3,\n      \"unit\": \"posts\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National climate research programs established and funded\",\n      \"value\": 3,\n      \"unit\": \"programs\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Key economic sectors integrating biodiversity and ecosystem-service values\",\n      \"value\": 3,\n      \"unit\": \"sectors\",\n      \"timeframe\": \"2025–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New wetland and Ramsar-site co-management agreements\",\n      \"value\": 5,\n      \"unit\": \"agreements\",\n      \"timeframe\": \"2030–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority sectors covered by the national loss-and-damage assessment\",\n      \"value\": 8,\n      \"unit\": \"sectors\",\n      \"timeframe\": \"by 2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New coastal freshwater monitoring stations\",\n      \"value\": 10,\n      \"unit\": \"stations\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New community-owned eco-tourism enterprises\",\n      \"value\": 10,\n      \"unit\": \"enterprises\",\n      \"timeframe\": \"2030–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual emissions reduction from forest degradation through climate-smart forestry\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Annual agricultural-sector emissions reduction through CSA\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction in post-harvest losses for priority agricultural value chains\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in climate-resilient aquaculture and mariculture production\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice-cultivation area using AWD or similar methane-reducing methods (more than)\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Active farmland managed using recognized CSA practices (at least)\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"If the 782 km² currently mapped as agriculture were the denominator, 60% equals approximately 469 km².\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Active logging concessions certified under SFM/RIL standards (more than)\",\n      \"value\": 75,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmland under agroforestry systems (at least)\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"250 km², approximately 32.0% of the 782 km² currently mapped as agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Total cultivated area\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"1,000 km², approximately 128% of the 782 km² currently mapped as agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Community-led Indigenous and Tribal Peoples' food-system adaptation plans funded\",\n      \"value\": 5,\n      \"unit\": \"plans\",\n      \"timeframe\": \"2025–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New MSMEs receiving green-enterprise support\",\n      \"value\": 50,\n      \"unit\": \"MSMEs\",\n      \"timeframe\": \"2028–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Productive forests certified under sustainable forest-management standards (at least)\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Highly vulnerable coastline protected through hard infrastructure and NbS (at least)\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026–2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded agricultural and pastoral land under active LDN restoration and sustainable management (at least)\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"200 km², approximately 23.0% of the combined 869 km² currently mapped as agriculture and grassland.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority fisheries with active sustainable management plans\",\n      \"value\": 3,\n      \"unit\": \"fisheries\",\n      \"timeframe\": \"2026–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Districts with functional agro-ecological zones (at least)\",\n      \"value\": 4,\n      \"unit\": \"districts\",\n      \"timeframe\": \"2030–2035 and beyond\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Smallholder farmers with access to CSA technology funds (at least)\",\n      \"value\": 1000,\n      \"unit\": \"farmers\",\n      \"timeframe\": \"by 2032\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community-led projects documenting at-risk heritage\",\n      \"value\": 10,\n      \"unit\": \"projects\",\n      \"timeframe\": \"2028–2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Community Climate Action Fund projects financed (at least)\",\n      \"value\": 20,\n      \"unit\": \"projects\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Key sectors with verifiably integrated TEK in adaptation plans (at least)\",\n      \"value\": 3,\n      \"unit\": \"sectors\",\n      \"timeframe\": \"2030–2035 and beyond\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New jobs in sustainable forest-based value chains (at least)\",\n      \"value\": 5000,\n      \"unit\": \"jobs\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

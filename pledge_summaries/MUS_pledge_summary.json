@@ -1,0 +1,98 @@
+{
+  "iso3": "MUS",
+  "country": "Republic of Mauritius",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 10,
+  "geo_context": {
+    "country_area_km2": 2045.6,
+    "land_cover_km2": {
+      "Agriculture": 1337.0,
+      "Forest": 482.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 133.0,
+      "Shrubland": 1.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 107.0
+    }
+  },
+  "summary": "Restoration pledges are to rehabilitate 33 priority sites by 2035 and increase restored native-forest area from 900 ha to 1,500 ha by 2035. The target total equals about 3.1% of current national forest cover, while the 600 ha increment equals about 1.2%; a projected 13% decline in usable water resources by 2050 without catchment action underlines this priority. Integrated conservation-and-production measures include expanding Rodrigues’ terrestrial protected-area network by at least 100 ha by 2033, increasing mangrove and seagrass coverage by 5%, reaching 50 ha of mangroves by 2030, and establishing 10 melliferous-plant corridors. Apiculture zones are to expand to 300 ha by 2035, about 2.2% of current agricultural area, while new habitat is to increase by 60%, although no base or deadline is stated. Agriculture also targets a 25% reduction in chemical fertiliser through organic and bio-based alternatives, without a specified area or deadline.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Priority sites rehabilitated",
+      "value": 33,
+      "unit": "sites",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restored native forest area",
+      "value": 1500,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "The target total is ≈3.1% of current forest area; the 600 ha increase from 900 ha is ≈1.2%."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Chemical fertiliser reduction",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Terrestrial protected-area network expansion",
+      "value": 100,
+      "unit": "ha",
+      "timeframe": "by 2033",
+      "context": "Rodrigues-specific target, equivalent to ≈2.1% of current national forest area as a scale comparison."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove and seagrass coverage increase",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove area",
+      "value": 50,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "A 20 ha, or 66.7%, increase from the stated current extent of 30 ha."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Apiculture zone area",
+      "value": 300,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈2.2% of current agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Melliferous plant corridors established",
+      "value": 10,
+      "unit": "corridors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "New habitat increase",
+      "value": 60,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration pledges are to rehabilitate 33 priority sites by 2035 and increase restored native-forest area from 900 ha to 1,500 ha by 2035. The target total equals about 3.1% of current national forest cover, while the 600 ha increment equals about 1.2%; a projected 13% decline in usable water resources by 2050 without catchment action underlines this priority. Integrated conservation-and-production measures include expanding Rodrigues’ terrestrial protected-area network by at least 100 ha by 2033, increasing mangrove and seagrass coverage by 5%, reaching 50 ha of mangroves by 2030, and establishing 10 melliferous-plant corridors. Apiculture zones are to expand to 300 ha by 2035, about 2.2% of current agricultural area, while new habitat is to increase by 60%, although no base or deadline is stated. Agriculture also targets a 25% reduction in chemical fertiliser through organic and bio-based alternatives, without a specified area or deadline.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Priority sites rehabilitated\",\n      \"value\": 33,\n      \"unit\": \"sites\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restored native forest area\",\n      \"value\": 1500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The target total is ≈3.1% of current forest area; the 600 ha increase from 900 ha is ≈1.2%.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Chemical fertiliser reduction\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Terrestrial protected-area network expansion\",\n      \"value\": 100,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2033\",\n      \"context\": \"Rodrigues-specific target, equivalent to ≈2.1% of current national forest area as a scale comparison.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove and seagrass coverage increase\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove area\",\n      \"value\": 50,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"A 20 ha, or 66.7%, increase from the stated current extent of 30 ha.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Apiculture zone area\",\n      \"value\": 300,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈2.2% of current agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Melliferous plant corridors established\",\n      \"value\": 10,\n      \"unit\": \"corridors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"New habitat increase\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

@@ -1,0 +1,42 @@
+{
+  "iso3": "BLR",
+  "country": "Belarus",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 2,
+  "geo_context": {
+    "country_area_km2": 207219.9,
+    "land_cover_km2": {
+      "Agriculture": 110211.0,
+      "Forest": 90170.0,
+      "Grassland": 2438.0,
+      "Wetland": 312.0,
+      "Settlement": 1930.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 5.0,
+      "Bare_area": 0.0,
+      "Water": 2144.0
+    }
+  },
+  "summary": "Belarus’s conservation pledge is to increase forest cover from 39.9% in 2019 to 41% by 2035, a 1.1-percentage-point rise; the passage also notes a 4.3-percentage-point increase since 1990. The supplied 2022 context records forest at 43.5% of national area, while the pledge uses 39.9% as its 2019 baseline and 41% as its 2035 goal. The mixed (Both) pledge combines restoration and conservation, committing to rehabilitate at least 10,000 hectares of degraded peatlands and bogs, with the period beginning in 2015; the truncated excerpt gives no end date. This minimum area is roughly 32.1% of the mapped wetland class (312 km²). Agriculture covers 53.2% of the country, but no numerical agriculture target appears in the supplied passages.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover",
+      "value": 41.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "The target is 1.1 percentage points above the 39.9% 2019 baseline; the supplied 2022 forest share is 43.5% of country area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded peatland and bog rehabilitation",
+      "value": 10000.0,
+      "unit": "hectares",
+      "timeframe": "from 2015",
+      "context": "The minimum 10,000 hectares is approximately 32.1% of the mapped 2022 wetland class (312 km²)."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Belarus’s conservation pledge is to increase forest cover from 39.9% in 2019 to 41% by 2035, a 1.1-percentage-point rise; the passage also notes a 4.3-percentage-point increase since 1990. The supplied 2022 context records forest at 43.5% of national area, while the pledge uses 39.9% as its 2019 baseline and 41% as its 2035 goal. The mixed (Both) pledge combines restoration and conservation, committing to rehabilitate at least 10,000 hectares of degraded peatlands and bogs, with the period beginning in 2015; the truncated excerpt gives no end date. This minimum area is roughly 32.1% of the mapped wetland class (312 km²). Agriculture covers 53.2% of the country, but no numerical agriculture target appears in the supplied passages.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover\",\n      \"value\": 41.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"The target is 1.1 percentage points above the 39.9% 2019 baseline; the supplied 2022 forest share is 43.5% of country area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded peatland and bog rehabilitation\",\n      \"value\": 10000.0,\n      \"unit\": \"hectares\",\n      \"timeframe\": \"from 2015\",\n      \"context\": \"The minimum 10,000 hectares is approximately 32.1% of the mapped 2022 wetland class (312 km²).\"\n    }\n  ]\n}",
+  "errors": []
+}

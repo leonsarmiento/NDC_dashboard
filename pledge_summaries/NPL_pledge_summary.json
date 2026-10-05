@@ -1,0 +1,362 @@
+{
+  "iso3": "NPL",
+  "country": "Nepal",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 25,
+  "geo_context": {
+    "country_area_km2": 148108.2,
+    "land_cover_km2": {
+      "Agriculture": 40742.0,
+      "Forest": 71543.0,
+      "Grassland": 28527.0,
+      "Wetland": 4.0,
+      "Settlement": 432.0,
+      "Shrubland": 179.0,
+      "Sparse_vegetation": 48.0,
+      "Bare_area": 1380.0,
+      "Water": 291.0
+    }
+  },
+  "summary": "Nepal's NDC combines conservation, restoration, agriculture and water measures. Conservation pledges include 46% forest cover overall and 45% by 2030; sustainable management of 50% of Tarai/Inner Tarai forests and 25% of middle-hill/mountain forests by 2030; and community management of 60% of forests with 50% women's representation by 2035. Restoration targets 168 m3/ha growing stock by 2030. Agricultural targets include 5,000 ha of orchards by 2030 and 10,000 ha by 2035, soil organic matter of 3.95% by 2030 and at least 4% by 2035, 5,000 ha/year agroforestry, and 200 climate-resilient farms by 2030 rising to 500 by 2035. The map shows forest at 48.3% (71,543 km²) and agriculture at 27.5% (40,742 km²); each 5,000-ha orchard or annual agroforestry commitment is about 0.12% of agricultural area. Mixed water targets include a 50% increase in sub-watershed availability, 50% wetland restoration and 80% population benefit from spring protection.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "National average growing stock",
+      "value": 168,
+      "unit": "m3/ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Minimum forest cover",
+      "value": 46,
+      "unit": "%",
+      "timeframe": null,
+      "context": "46% of total land (≈68,130 km²), about 95% of the 2022 mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover maintained",
+      "value": 45,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "45% of total land (≈66,649 km²), about 93% of the 2022 mapped forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable forest management coverage - Tarai and Inner Tarai forests",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable forest management coverage - middle hills and mountain forests",
+      "value": 25,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community-based forest management",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "For scale, 60% of the 2022 mapped forest area is ≈42,926 km²"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Women's representation in management committees",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetland inventory expansion",
+      "value": 100,
+      "unit": "wetlands",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Chure river systems under integrated management",
+      "value": 164,
+      "unit": "river systems",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River systems under integrated water-resources management",
+      "value": 60,
+      "unit": "river systems",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River basins with management and conservation plans",
+      "value": 4,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Independent basins with management and conservation plans",
+      "value": 10,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River-basin plans implemented",
+      "value": 3,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River and sediment plans implemented",
+      "value": 3,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River-management and hazard-mapping plans prepared",
+      "value": 3,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Hazard-mapping river-management plans implemented",
+      "value": 1,
+      "unit": "basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Critical watersheds prioritized for integrated conservation",
+      "value": 50,
+      "unit": "critical watersheds",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sub-basins with functional water accounting and auditing",
+      "value": 20,
+      "unit": "sub-basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Rivers covered by river and sediment management plans",
+      "value": 6,
+      "unit": "rivers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural soil organic matter",
+      "value": 3.95,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural soil organic matter",
+      "value": 4,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in high-value forest products",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New orchard area established",
+      "value": 5000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈50 km², about 0.12% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "New orchard area established",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈100 km², about 0.25% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional irrigation coverage",
+      "value": 463000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈4,630 km², about 11.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural area with year-round irrigation",
+      "value": 173000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1,730 km², about 4.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Mulberry and fruit orchard area expanded",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈60 km², about 0.15% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry systems established",
+      "value": 5000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈50 km²/year, about 0.12% of current agricultural area per year"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-resilient farms established",
+      "value": 200,
+      "unit": "farms",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cumulative climate-resilient farms",
+      "value": 500,
+      "unit": "farms",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Households transitioned to resilient agro-ecological production",
+      "value": 45000,
+      "unit": "households",
+      "timeframe": null,
+      "context": "The passage places this transition in 80 municipalities"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Municipalities covered by resilient-production transition",
+      "value": 80,
+      "unit": "municipalities",
+      "timeframe": null,
+      "context": "This is the stated coverage for the 45,000-household transition"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Community-managed forests in Forest for Food Grain programme",
+      "value": 100,
+      "unit": "community-managed forests",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Additional improved cattle sheds",
+      "value": 500000,
+      "unit": "cattle sheds",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic fertilizer production plants",
+      "value": 100,
+      "unit": "plants",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart villages established",
+      "value": 200,
+      "unit": "villages",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart farms established",
+      "value": 500,
+      "unit": "farms",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in sub-watershed water availability",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Wetlands conserved and restored",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "For scale, 50% is ≈2 km² of the 4 km² mapped wetland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Riverbank cutting and flood-risk reduction",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Population benefiting from spring conservation, restoration and management",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Watershed health and vitality improvement",
+      "value": 20,
+      "unit": "districts",
+      "timeframe": "by 2030",
+      "context": "At least 20 districts are referenced in integrated watershed-management actions"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Nepal's NDC combines conservation, restoration, agriculture and water measures. Conservation pledges include 46% forest cover overall and 45% by 2030; sustainable management of 50% of Tarai/Inner Tarai forests and 25% of middle-hill/mountain forests by 2030; and community management of 60% of forests with 50% women's representation by 2035. Restoration targets 168 m3/ha growing stock by 2030. Agricultural targets include 5,000 ha of orchards by 2030 and 10,000 ha by 2035, soil organic matter of 3.95% by 2030 and at least 4% by 2035, 5,000 ha/year agroforestry, and 200 climate-resilient farms by 2030 rising to 500 by 2035. The map shows forest at 48.3% (71,543 km²) and agriculture at 27.5% (40,742 km²); each 5,000-ha orchard or annual agroforestry commitment is about 0.12% of agricultural area. Mixed water targets include a 50% increase in sub-watershed availability, 50% wetland restoration and 80% population benefit from spring protection.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National average growing stock\",\n      \"value\": 168,\n      \"unit\": \"m3/ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Minimum forest cover\",\n      \"value\": 46,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"46% of total land (≈68,130 km²), about 95% of the 2022 mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest cover maintained\",\n      \"value\": 45,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"45% of total land (≈66,649 km²), about 93% of the 2022 mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sustainable forest management coverage - Tarai and Inner Tarai forests\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sustainable forest management coverage - middle hills and mountain forests\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community-based forest management\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"For scale, 60% of the 2022 mapped forest area is ≈42,926 km²\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Women's representation in management committees\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetland inventory expansion\",\n      \"value\": 100,\n      \"unit\": \"wetlands\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Chure river systems under integrated management\",\n      \"value\": 164,\n      \"unit\": \"river systems\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River systems under integrated water-resources management\",\n      \"value\": 60,\n      \"unit\": \"river systems\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River basins with management and conservation plans\",\n      \"value\": 4,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Independent basins with management and conservation plans\",\n      \"value\": 10,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River-basin plans implemented\",\n      \"value\": 3,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River and sediment plans implemented\",\n      \"value\": 3,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River-management and hazard-mapping plans prepared\",\n      \"value\": 3,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Hazard-mapping river-management plans implemented\",\n      \"value\": 1,\n      \"unit\": \"basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Critical watersheds prioritized for integrated conservation\",\n      \"value\": 50,\n      \"unit\": \"critical watersheds\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Sub-basins with functional water accounting and auditing\",\n      \"value\": 20,\n      \"unit\": \"sub-basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Rivers covered by river and sediment management plans\",\n      \"value\": 6,\n      \"unit\": \"rivers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural soil organic matter\",\n      \"value\": 3.95,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural soil organic matter\",\n      \"value\": 4,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in high-value forest products\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New orchard area established\",\n      \"value\": 5000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈50 km², about 0.12% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"New orchard area established\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈100 km², about 0.25% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional irrigation coverage\",\n      \"value\": 463000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈4,630 km², about 11.4% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural area with year-round irrigation\",\n      \"value\": 173000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1,730 km², about 4.2% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Mulberry and fruit orchard area expanded\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈60 km², about 0.15% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry systems established\",\n      \"value\": 5000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈50 km²/year, about 0.12% of current agricultural area per year\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-resilient farms established\",\n      \"value\": 200,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cumulative climate-resilient farms\",\n      \"value\": 500,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Households transitioned to resilient agro-ecological production\",\n      \"value\": 45000,\n      \"unit\": \"households\",\n      \"timeframe\": null,\n      \"context\": \"The passage places this transition in 80 municipalities\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Municipalities covered by resilient-production transition\",\n      \"value\": 80,\n      \"unit\": \"municipalities\",\n      \"timeframe\": null,\n      \"context\": \"This is the stated coverage for the 45,000-household transition\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Community-managed forests in Forest for Food Grain programme\",\n      \"value\": 100,\n      \"unit\": \"community-managed forests\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Additional improved cattle sheds\",\n      \"value\": 500000,\n      \"unit\": \"cattle sheds\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic fertilizer production plants\",\n      \"value\": 100,\n      \"unit\": \"plants\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart villages established\",\n      \"value\": 200,\n      \"unit\": \"villages\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart farms established\",\n      \"value\": 500,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in sub-watershed water availability\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Wetlands conserved and restored\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"For scale, 50% is ≈2 km² of the 4 km² mapped wetland area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Riverbank cutting and flood-risk reduction\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Population benefiting from spring conservation, restoration and management\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Watershed health and vitality improvement\",\n      \"value\": 20,\n      \"unit\": \"districts\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"At least 20 districts are referenced in integrated watershed-management actions\"\n    }\n  ]\n}",
+  "errors": []
+}

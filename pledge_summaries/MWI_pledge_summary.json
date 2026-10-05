@@ -1,0 +1,250 @@
+{
+  "iso3": "MWI",
+  "country": "Malawi",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 39,
+  "geo_context": {
+    "country_area_km2": 119388.7,
+    "land_cover_km2": {
+      "Agriculture": 63400.0,
+      "Forest": 24665.0,
+      "Grassland": 2198.0,
+      "Wetland": 2376.0,
+      "Settlement": 530.0,
+      "Shrubland": 1314.0,
+      "Sparse_vegetation": 1.0,
+      "Bare_area": 139.0,
+      "Water": 24754.0
+    }
+  },
+  "summary": "Malawi combines forest and land-use measures across restoration, conservation and agriculture. Its forestry package covers up to 2 million ha, with 534,478 ha identified for additional forestry activities over the coming decade. Restoration targets 4.5 million ha of afforestation, reforestation and assisted natural regeneration by 2035—equal to 182% of the 2.47 million ha mapped as forest in 2022—plus 100,000 ha of wetland restoration, 36,000 ha of riparian planting and a rise from 36% in 2025 to 50% by 2063 in afforestation/reforestation. Conservation sets 2.4 million ha of forest protection by 2035 (97% of current forest), 300,000 ha under sustainable forest and landscape management, 60% wetland protection by 2035, 80% fisheries co-management and 25,000 ha of nature-based solutions by 2035. Agriculture targets 240,000 ha of conservation agriculture by 2030, 100,000 ha under agroforestry and 1 million ha for drought- and early-maturing crop varieties. Agriculture covers 53.1% of Malawi.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Protective and urban afforestation",
+      "value": 30000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.2% of 2022 mapped forest area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Riparian corridor restoration",
+      "value": 15000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈6.3% of 2022 mapped wetland area; riparian corridors may extend beyond wetlands."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Wetland and aquatic ecosystem restoration",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈42.1% of 2022 mapped wetland area."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation, reforestation and assisted natural regeneration",
+      "value": 4500000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈182.4% of 2022 mapped forest area and 37.7% of total land."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Afforestation/reforestation progression from a 36% starting level",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2063",
+      "context": "2022 mapped forest is 20.7% of the country; the pledge states 36% in 2025 as its starting level."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Area under sustainable forest and landscape management",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈12.2% of 2022 mapped forest area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Nature-based solutions in urban infrastructure",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Equivalent to ≈10.5% of 2022 mapped wetland area; the target also includes green corridors and urban infrastructure."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Wetland protection coverage",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "Mapped wetlands cover 2.0% of the country; the target's denominator is not stated."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fisheries under co-management and sustainable regulation",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community ecosystem monitors",
+      "value": 2000,
+      "unit": "number of community monitors",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Conservation agriculture area",
+      "value": 240000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈3.8% of 2022 mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry area",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.6% of 2022 mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Minimum tillage and soil-cover area",
+      "value": 60000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.9% of 2022 mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated rice under improved management",
+      "value": 15000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.2% of 2022 mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Area promoted for drought- and early-maturing crop varieties",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈15.8% of 2022 mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Inclusive agriculture and climate-smart agriculture area",
+      "value": 4000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.06% of 2022 mapped agricultural area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart agriculture coverage among smallholder farmers",
+      "value": 60,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Agriculture covers 53.1% of the country, but the target's denominator is not stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Grazing reserves and fodder banks",
+      "value": 200,
+      "unit": "number of grazing reserves/fodder banks",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sustainable aquaculture output",
+      "value": 250000,
+      "unit": "tons",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Maximum forestry and land-use intervention coverage",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": "to 2030",
+      "context": "≈16.8% of total land; a related unconditional/conditional table gives 1.9 million ha."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional forestry activity area",
+      "value": 534478,
+      "unit": "ha",
+      "timeframe": "over the coming decade",
+      "context": "≈4.5% of total land and 21.7% of 2022 mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Afforestation of protective forests, woodlots and urban forests",
+      "value": 45000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.8% of 2022 mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Native species and bamboo planting in riparian zones and wetland borders",
+      "value": 36000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈151.5% of 2022 mapped wetland area; the target also includes riparian zones."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional agroforestry in crop fields",
+      "value": 155000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.4% of 2022 mapped agriculture; the passage equates it with 20% of arable land."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Tree planting and protection in conservation areas",
+      "value": 132000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈5.4% of 2022 mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Protection of existing forests",
+      "value": 2400000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈97.3% of 2022 mapped forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Climate-resilient irrigation farming area",
+      "value": 31000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.49% of 2022 mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Greenbelt initiative area",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "2.5 times the stated 4,000 ha baseline; ≈0.16% of 2022 mapped agricultural area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Malawi combines forest and land-use measures across restoration, conservation and agriculture. Its forestry package covers up to 2 million ha, with 534,478 ha identified for additional forestry activities over the coming decade. Restoration targets 4.5 million ha of afforestation, reforestation and assisted natural regeneration by 2035—equal to 182% of the 2.47 million ha mapped as forest in 2022—plus 100,000 ha of wetland restoration, 36,000 ha of riparian planting and a rise from 36% in 2025 to 50% by 2063 in afforestation/reforestation. Conservation sets 2.4 million ha of forest protection by 2035 (97% of current forest), 300,000 ha under sustainable forest and landscape management, 60% wetland protection by 2035, 80% fisheries co-management and 25,000 ha of nature-based solutions by 2035. Agriculture targets 240,000 ha of conservation agriculture by 2030, 100,000 ha under agroforestry and 1 million ha for drought- and early-maturing crop varieties. Agriculture covers 53.1% of Malawi.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Protective and urban afforestation\",\n      \"value\": 30000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.2% of 2022 mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Riparian corridor restoration\",\n      \"value\": 15000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈6.3% of 2022 mapped wetland area; riparian corridors may extend beyond wetlands.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Wetland and aquatic ecosystem restoration\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈42.1% of 2022 mapped wetland area.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation, reforestation and assisted natural regeneration\",\n      \"value\": 4500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈182.4% of 2022 mapped forest area and 37.7% of total land.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Afforestation/reforestation progression from a 36% starting level\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2063\",\n      \"context\": \"2022 mapped forest is 20.7% of the country; the pledge states 36% in 2025 as its starting level.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Area under sustainable forest and landscape management\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈12.2% of 2022 mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Nature-based solutions in urban infrastructure\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Equivalent to ≈10.5% of 2022 mapped wetland area; the target also includes green corridors and urban infrastructure.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Wetland protection coverage\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Mapped wetlands cover 2.0% of the country; the target's denominator is not stated.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Fisheries under co-management and sustainable regulation\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community ecosystem monitors\",\n      \"value\": 2000,\n      \"unit\": \"number of community monitors\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Conservation agriculture area\",\n      \"value\": 240000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈3.8% of 2022 mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry area\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.6% of 2022 mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Minimum tillage and soil-cover area\",\n      \"value\": 60000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.9% of 2022 mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated rice under improved management\",\n      \"value\": 15000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.2% of 2022 mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Area promoted for drought- and early-maturing crop varieties\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈15.8% of 2022 mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Inclusive agriculture and climate-smart agriculture area\",\n      \"value\": 4000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.06% of 2022 mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart agriculture coverage among smallholder farmers\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Agriculture covers 53.1% of the country, but the target's denominator is not stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Grazing reserves and fodder banks\",\n      \"value\": 200,\n      \"unit\": \"number of grazing reserves/fodder banks\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sustainable aquaculture output\",\n      \"value\": 250000,\n      \"unit\": \"tons\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Maximum forestry and land-use intervention coverage\",\n      \"value\": 2000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"to 2030\",\n      \"context\": \"≈16.8% of total land; a related unconditional/conditional table gives 1.9 million ha.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional forestry activity area\",\n      \"value\": 534478,\n      \"unit\": \"ha\",\n      \"timeframe\": \"over the coming decade\",\n      \"context\": \"≈4.5% of total land and 21.7% of 2022 mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Afforestation of protective forests, woodlots and urban forests\",\n      \"value\": 45000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.8% of 2022 mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Native species and bamboo planting in riparian zones and wetland borders\",\n      \"value\": 36000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈151.5% of 2022 mapped wetland area; the target also includes riparian zones.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional agroforestry in crop fields\",\n      \"value\": 155000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.4% of 2022 mapped agriculture; the passage equates it with 20% of arable land.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Tree planting and protection in conservation areas\",\n      \"value\": 132000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈5.4% of 2022 mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Protection of existing forests\",\n      \"value\": 2400000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈97.3% of 2022 mapped forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Climate-resilient irrigation farming area\",\n      \"value\": 31000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.49% of 2022 mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Greenbelt initiative area\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"2.5 times the stated 4,000 ha baseline; ≈0.16% of 2022 mapped agricultural area.\"\n    }\n  ]\n}",
+  "errors": []
+}

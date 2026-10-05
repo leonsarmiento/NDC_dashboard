@@ -1,0 +1,178 @@
+{
+  "iso3": "GNQ",
+  "country": "Equatorial Guinea",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 9,
+  "geo_context": {
+    "country_area_km2": 26720.1,
+    "land_cover_km2": {
+      "Agriculture": 2267.0,
+      "Forest": 24277.0,
+      "Grassland": 1.0,
+      "Wetland": 3.0,
+      "Settlement": 111.0,
+      "Shrubland": 1.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 65.0
+    }
+  },
+  "summary": "Equatorial Guinea's restoration and mixed ecosystem pledges include, by 2050, an 80% reduction in deforestation and degradation, rehabilitation of 70% of cocoa and coffee plantations, restoration of 1,300 ha of mangroves alongside conservation of 24,700 ha, and 15,600 trees across 20 cities. The conservation agenda adds 101,276 ha of new terrestrial protected areas; by 2050, 1,307,692 ha of forest will be managed sustainably—about 53.9% of the current 24,277 km² forest area, itself 90.9% of the country—and at least 50% of protected areas will be effectively managed. Agriculture targets 100% production to avoid exports by 2030 and agricultural land reduced to 50%. Other goals reduce forest-operation illegality to 80% by 2030 and protect 50% of coasts by 2050. Associated annual absorption by 2050 is 17,000,000 t CO2 eq from forests, 138,000 t from urban greening, and 344,500 t from mangroves.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Deforestation and degradation reduction",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cocoa and coffee plantations rehabilitated",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": "Plantations are within the 2,267 km² mapped as agriculture, but their area is not separately reported."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove ecosystems restored",
+      "value": 1300,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "The land-cover data report 3 km² of wetland but do not separately identify mangrove extent."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove ecosystems conserved",
+      "value": 24700,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "The land-cover data report 3 km² of wetland but do not separately identify mangrove extent."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Annual CO2 absorption from mangrove restoration and conservation",
+      "value": 344500,
+      "unit": "t CO2 eq/year",
+      "timeframe": "by 2050",
+      "context": "Linked to restoring 1,300 ha and conserving 24,700 ha by 2050."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted in cities",
+      "value": 15600,
+      "unit": "trees",
+      "timeframe": "by 2050",
+      "context": "Nationwide urban deployment; no current tree-cover baseline is provided."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Cities covered by tree planting",
+      "value": 20,
+      "unit": "cities",
+      "timeframe": "by 2050",
+      "context": "Settlement covers 111 km² nationally, but city boundaries and planting-density baselines are not provided."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual CO2 absorption from urban greening",
+      "value": 138000,
+      "unit": "t CO2 eq/year",
+      "timeframe": "by 2050",
+      "context": "Expected alongside the planting of 15,600 trees in 20 cities."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas under effective management",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": "The existing total area of protected areas is not separately reported."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-operation illegality level after reduction",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "No baseline illegality rate is supplied."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coast protected",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": "No coastline length is provided, so the percentage cannot be converted into a protected area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Increase in terrestrial protected area",
+      "value": 101276,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.8% of the country's 26,720 km² total land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest under sustainable management",
+      "value": 1307692,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "≈53.9% of the current 24,277 km² forest area, which covers 90.9% of the country."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas changing category",
+      "value": 2,
+      "unit": "protected areas",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Blue and green economy projects in operation",
+      "value": 1,
+      "unit": "projects",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual CO2 absorption from sustainably managed forest",
+      "value": 17000000,
+      "unit": "t CO2 eq/year",
+      "timeframe": "by 2050",
+      "context": "Linked to the sustainable management of 1,307,692 ha of forest."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land level after reduction",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Agriculture currently covers 2,267 km², or 8.5% of the country; the pledge's baseline and denominator are not stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "National production for export avoidance",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "No production baseline is supplied, and the pledge is not expressed as an area target."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ecological measure use (source passage truncated)",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2050",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Equatorial Guinea's restoration and mixed ecosystem pledges include, by 2050, an 80% reduction in deforestation and degradation, rehabilitation of 70% of cocoa and coffee plantations, restoration of 1,300 ha of mangroves alongside conservation of 24,700 ha, and 15,600 trees across 20 cities. The conservation agenda adds 101,276 ha of new terrestrial protected areas; by 2050, 1,307,692 ha of forest will be managed sustainably—about 53.9% of the current 24,277 km² forest area, itself 90.9% of the country—and at least 50% of protected areas will be effectively managed. Agriculture targets 100% production to avoid exports by 2030 and agricultural land reduced to 50%. Other goals reduce forest-operation illegality to 80% by 2030 and protect 50% of coasts by 2050. Associated annual absorption by 2050 is 17,000,000 t CO2 eq from forests, 138,000 t from urban greening, and 344,500 t from mangroves.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Deforestation and degradation reduction\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cocoa and coffee plantations rehabilitated\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"Plantations are within the 2,267 km² mapped as agriculture, but their area is not separately reported.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove ecosystems restored\",\n      \"value\": 1300,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"The land-cover data report 3 km² of wetland but do not separately identify mangrove extent.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove ecosystems conserved\",\n      \"value\": 24700,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"The land-cover data report 3 km² of wetland but do not separately identify mangrove extent.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Annual CO2 absorption from mangrove restoration and conservation\",\n      \"value\": 344500,\n      \"unit\": \"t CO2 eq/year\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"Linked to restoring 1,300 ha and conserving 24,700 ha by 2050.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted in cities\",\n      \"value\": 15600,\n      \"unit\": \"trees\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"Nationwide urban deployment; no current tree-cover baseline is provided.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Cities covered by tree planting\",\n      \"value\": 20,\n      \"unit\": \"cities\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"Settlement covers 111 km² nationally, but city boundaries and planting-density baselines are not provided.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual CO2 absorption from urban greening\",\n      \"value\": 138000,\n      \"unit\": \"t CO2 eq/year\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"Expected alongside the planting of 15,600 trees in 20 cities.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas under effective management\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"The existing total area of protected areas is not separately reported.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-operation illegality level after reduction\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"No baseline illegality rate is supplied.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coast protected\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"No coastline length is provided, so the percentage cannot be converted into a protected area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Increase in terrestrial protected area\",\n      \"value\": 101276,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.8% of the country's 26,720 km² total land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest under sustainable management\",\n      \"value\": 1307692,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"≈53.9% of the current 24,277 km² forest area, which covers 90.9% of the country.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas changing category\",\n      \"value\": 2,\n      \"unit\": \"protected areas\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Blue and green economy projects in operation\",\n      \"value\": 1,\n      \"unit\": \"projects\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual CO2 absorption from sustainably managed forest\",\n      \"value\": 17000000,\n      \"unit\": \"t CO2 eq/year\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"Linked to the sustainable management of 1,307,692 ha of forest.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural land level after reduction\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Agriculture currently covers 2,267 km², or 8.5% of the country; the pledge's baseline and denominator are not stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"National production for export avoidance\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"No production baseline is supplied, and the pledge is not expressed as an area target.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Ecological measure use (source passage truncated)\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2050\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

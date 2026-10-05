@@ -1,0 +1,90 @@
+{
+  "iso3": "TLS",
+  "country": "Timor-Leste",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 14,
+  "geo_context": {
+    "country_area_km2": 14971.0,
+    "land_cover_km2": {
+      "Agriculture": 12368.0,
+      "Forest": 2313.0,
+      "Grassland": 1.0,
+      "Wetland": 0.0,
+      "Settlement": 81.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 38.0,
+      "Bare_area": 0.0,
+      "Water": 170.0
+    }
+  },
+  "summary": "Timor-Leste's restoration and conservation pledges include more than two million commercial trees already planted in four municipalities, a conditional target of close to one million trees annually, and a Rai Matak programme seeking over 10 million trees and engaging over 20,000 subsistence farming families over 50 years. Conservation measures target two watersheds, protect at least 10% of combined land and marine areas from extractive activities, and designate 30% of marine areas by 2030. The 2025-2030 agriculture pledge seeks to increase adoption of resilient crops by 60% in targeted communities, especially nutrient-dense foods. Land-cover data show 2,313 km² of forest (15.4%) and 12,368 km² of agriculture (82.6%); tree counts lack area conversions, and the crop target is not stated to cover all agricultural land, so no land-area share can be calculated from the supplied data. Laclo watershed spans about 1,390 km², roughly 9% of land area.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Annual reforestation",
+      "value": 1000000,
+      "unit": "trees/year",
+      "timeframe": null,
+      "context": "Stated as close to one million trees annually and conditional on climate finance and technical assistance; no tree density is supplied to relate the count to 2,313 km² of forest."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watersheds targeted for conservation",
+      "value": 2,
+      "unit": "watersheds",
+      "timeframe": null,
+      "context": "Dasidaro covers ~157 km² and Laclo ~1,390 km²; Laclo alone is ~9% of the country's 14,971 km² land area."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Land and marine area protected from extractive activities",
+      "value": 10,
+      "unit": "%",
+      "timeframe": null,
+      "context": "At least 10% of a combined land-and-marine denominator is to be protected; the marine component is not quantified."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine areas designated for conservation",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "The target applies to marine areas, whose extent is not provided, so it cannot be compared directly with the 14,971 km² land area."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in resilient crop adoption",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "2025-2030",
+      "context": "The pledge concerns adoption in targeted communities, not stated coverage of all 12,368 km² classified as agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Commercial trees planted",
+      "value": 2000000,
+      "unit": "commercial trees",
+      "timeframe": "already",
+      "context": "Stated as more than two million in four municipalities; no tree density is supplied to express the count as a share of the 2,313 km² forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Rai Matak tree planting",
+      "value": 10000000,
+      "unit": "trees",
+      "timeframe": "over 50 years",
+      "context": "Stated as over 10 million in five municipalities; no tree density is supplied for comparison with the 2,313 km² forest area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Subsistence farming families engaged",
+      "value": 20000,
+      "unit": "subsistence farming families",
+      "timeframe": "over 50 years",
+      "context": "Stated as over 20,000 across Timor-Leste; the programme does not specify the agricultural area covered."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Timor-Leste's restoration and conservation pledges include more than two million commercial trees already planted in four municipalities, a conditional target of close to one million trees annually, and a Rai Matak programme seeking over 10 million trees and engaging over 20,000 subsistence farming families over 50 years. Conservation measures target two watersheds, protect at least 10% of combined land and marine areas from extractive activities, and designate 30% of marine areas by 2030. The 2025-2030 agriculture pledge seeks to increase adoption of resilient crops by 60% in targeted communities, especially nutrient-dense foods. Land-cover data show 2,313 km² of forest (15.4%) and 12,368 km² of agriculture (82.6%); tree counts lack area conversions, and the crop target is not stated to cover all agricultural land, so no land-area share can be calculated from the supplied data. Laclo watershed spans about 1,390 km², roughly 9% of land area.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Annual reforestation\",\n      \"value\": 1000000,\n      \"unit\": \"trees/year\",\n      \"timeframe\": null,\n      \"context\": \"Stated as close to one million trees annually and conditional on climate finance and technical assistance; no tree density is supplied to relate the count to 2,313 km² of forest.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Watersheds targeted for conservation\",\n      \"value\": 2,\n      \"unit\": \"watersheds\",\n      \"timeframe\": null,\n      \"context\": \"Dasidaro covers ~157 km² and Laclo ~1,390 km²; Laclo alone is ~9% of the country's 14,971 km² land area.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Land and marine area protected from extractive activities\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"At least 10% of a combined land-and-marine denominator is to be protected; the marine component is not quantified.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine areas designated for conservation\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"The target applies to marine areas, whose extent is not provided, so it cannot be compared directly with the 14,971 km² land area.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in resilient crop adoption\",\n      \"value\": 60,\n      \"unit\": \"%\",\n      \"timeframe\": \"2025-2030\",\n      \"context\": \"The pledge concerns adoption in targeted communities, not stated coverage of all 12,368 km² classified as agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Commercial trees planted\",\n      \"value\": 2000000,\n      \"unit\": \"commercial trees\",\n      \"timeframe\": \"already\",\n      \"context\": \"Stated as more than two million in four municipalities; no tree density is supplied to express the count as a share of the 2,313 km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Rai Matak tree planting\",\n      \"value\": 10000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"over 50 years\",\n      \"context\": \"Stated as over 10 million in five municipalities; no tree density is supplied for comparison with the 2,313 km² forest area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Subsistence farming families engaged\",\n      \"value\": 20000,\n      \"unit\": \"subsistence farming families\",\n      \"timeframe\": \"over 50 years\",\n      \"context\": \"Stated as over 20,000 across Timor-Leste; the programme does not specify the agricultural area covered.\"\n    }\n  ]\n}",
+  "errors": []
+}

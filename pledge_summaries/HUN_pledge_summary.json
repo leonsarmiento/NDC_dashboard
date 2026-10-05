@@ -1,0 +1,90 @@
+{
+  "iso3": "HUN",
+  "country": "Hungary",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 92968.0,
+    "land_cover_km2": {
+      "Agriculture": 63442.0,
+      "Forest": 17787.0,
+      "Grassland": 6456.0,
+      "Wetland": 492.0,
+      "Settlement": 3410.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 12.0,
+      "Bare_area": 3.0,
+      "Water": 1353.0
+    }
+  },
+  "summary": "Restoration is framed at EU level: restoration measures should cover at least 20% of EU land areas and 20% of sea areas by 2030, with measures in place by 2050 for all ecosystems that need restoration. Separately, peatland and wetland rewetting has a stated mitigation potential of 51–54 Mt CO2-eq per year, and ecologically appropriate reforestation with sustainable forest management 8–235 Mt CO2-eq per year. Conservation and cross-sector LULUCF pledges set Union net removals at 310 Mt CO2 by 2030 (also expressed as a −310 Mt CO2-eq carbon-sink target); Hungary’s listed national LULUCF target is −934 Kt CO2eq for 2030. Agriculture addresses fertiliser-use efficiency, with 19 Mt CO2-eq per year of mitigation potential. These are EU-wide or emissions-based figures, not Hungarian area commitments; Hungary’s land-cover shares are 68.2% agriculture, 19.1% forest, 6.9% grassland and 0.5% wetland. The source’s peer-country figures are not attributed to Hungary.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land and sea areas with restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-wide minimum applying to land and sea separately; not a Hungarian land-cover share."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland rewetting mitigation potential (lower bound)",
+      "value": 51.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Part of the reported EU 51–54 Mt CO2-eq/yr range; no restoration area or share of Hungary's 492 km² wetland area is stated."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Peatland and wetland rewetting mitigation potential (upper bound)",
+      "value": 54.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Part of the reported EU 51–54 Mt CO2-eq/yr range; no restoration area or share of Hungary's 492 km² wetland area is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential (lower bound)",
+      "value": 8.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Part of the reported EU 8–235 Mt CO2-eq/yr range; no reforestation hectares or share of Hungary's 17,787 km² forest area is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation and sustainable forest management mitigation potential (upper bound)",
+      "value": 235.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Part of the reported EU 8–235 Mt CO2-eq/yr range; no reforestation hectares or share of Hungary's 17,787 km² forest area is stated."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "EU LULUCF net removals and carbon sinks",
+      "value": 310.0,
+      "unit": "Mt CO2",
+      "timeframe": "by 2030",
+      "context": "Union-wide managed-land target; duplicate passages also report 310,000,000 tonnes of CO2 equivalent and −310 Mt CO2-eq in carbon-sink notation."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Hungary LULUCF national target",
+      "value": -934.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030",
+      "context": "Hungary-specific emissions target; no forest, grassland, wetland or agricultural-area share is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertiliser-use efficiency mitigation potential",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": "Reported mitigation potential; no coverage share of Hungary's 63,442 km² agricultural area is stated."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Restoration is framed at EU level: restoration measures should cover at least 20% of EU land areas and 20% of sea areas by 2030, with measures in place by 2050 for all ecosystems that need restoration. Separately, peatland and wetland rewetting has a stated mitigation potential of 51–54 Mt CO2-eq per year, and ecologically appropriate reforestation with sustainable forest management 8–235 Mt CO2-eq per year. Conservation and cross-sector LULUCF pledges set Union net removals at 310 Mt CO2 by 2030 (also expressed as a −310 Mt CO2-eq carbon-sink target); Hungary’s listed national LULUCF target is −934 Kt CO2eq for 2030. Agriculture addresses fertiliser-use efficiency, with 19 Mt CO2-eq per year of mitigation potential. These are EU-wide or emissions-based figures, not Hungarian area commitments; Hungary’s land-cover shares are 68.2% agriculture, 19.1% forest, 6.9% grassland and 0.5% wetland. The source’s peer-country figures are not attributed to Hungary.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Land and sea areas with restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-wide minimum applying to land and sea separately; not a Hungarian land-cover share.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland rewetting mitigation potential (lower bound)\",\n      \"value\": 51.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Part of the reported EU 51–54 Mt CO2-eq/yr range; no restoration area or share of Hungary's 492 km² wetland area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Peatland and wetland rewetting mitigation potential (upper bound)\",\n      \"value\": 54.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Part of the reported EU 51–54 Mt CO2-eq/yr range; no restoration area or share of Hungary's 492 km² wetland area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential (lower bound)\",\n      \"value\": 8.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Part of the reported EU 8–235 Mt CO2-eq/yr range; no reforestation hectares or share of Hungary's 17,787 km² forest area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation and sustainable forest management mitigation potential (upper bound)\",\n      \"value\": 235.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Part of the reported EU 8–235 Mt CO2-eq/yr range; no reforestation hectares or share of Hungary's 17,787 km² forest area is stated.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"EU LULUCF net removals and carbon sinks\",\n      \"value\": 310.0,\n      \"unit\": \"Mt CO2\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Union-wide managed-land target; duplicate passages also report 310,000,000 tonnes of CO2 equivalent and −310 Mt CO2-eq in carbon-sink notation.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Hungary LULUCF national target\",\n      \"value\": -934.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Hungary-specific emissions target; no forest, grassland, wetland or agricultural-area share is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertiliser-use efficiency mitigation potential\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": \"Reported mitigation potential; no coverage share of Hungary's 63,442 km² agricultural area is stated.\"\n    }\n  ]\n}",
+  "errors": []
+}

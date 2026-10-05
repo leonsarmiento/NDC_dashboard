@@ -1,0 +1,442 @@
+{
+  "iso3": "MDG",
+  "country": "Madagascar",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 71,
+  "geo_context": {
+    "country_area_km2": 588843.9,
+    "land_cover_km2": {
+      "Agriculture": 82430.0,
+      "Forest": 252968.0,
+      "Grassland": 242849.0,
+      "Wetland": 2198.0,
+      "Settlement": 397.0,
+      "Shrubland": 784.0,
+      "Sparse_vegetation": 441.0,
+      "Bare_area": 2990.0,
+      "Water": 3757.0
+    }
+  },
+  "summary": "Madagascar’s pledges mix restoration, conservation and agriculture. The central cross-sector commitment restores 1.6 million ha of terrestrial ecosystems—about 6.3% of its 2022 mapped forest—while the document also cites a 4 million-ha AFR100 ambition by 2030 and 1,907 kt CO₂ eq of additional sequestration in 2030 and 2035. Restoration ranges from 75,000 ha planted annually and 20,000 ha in hydropower basins to 170,000 ha of mangroves by 2030; a separate 500,000-ha ecosystem goal by 2030 equals about 2.0% of mapped forest. Conservation strengthens 428,134 ha of protected areas and protects 7,907 ha of seagrass by 2035, with 25,000 ha of avoided deforestation every five years. Agriculture and cross-sector measures cover 500,000 ha under sustainable practices and soil management by 2035, 350,000 ha of conservation agriculture by 2035, and 120,000 farms under agroforestry by 2035; the 500,000-ha farming area is about 6.1% of 2022 mapped agriculture.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Additional AFOLU sequestration",
+      "value": 1907,
+      "unit": "kt CO₂ eq",
+      "timeframe": "2030 and 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "AFR100 forest and land landscape restoration",
+      "value": 4000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equal to ≈15.8% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Terrestrial ecosystem restoration",
+      "value": 1600000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area equal to ≈6.3% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Restoration implemented per five-year cycle",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": "every 5 years",
+      "context": "≈1.2% of 2022 mapped forest cover per five-year cycle."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable practices and soil management",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area equal to ≈6.1% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conservation agriculture and soil-health restoration",
+      "value": 350000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "Area equal to ≈4.2% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Key ecosystems restored or under active restoration",
+      "value": 500000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equal to ≈2.0% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Mangrove and coastal ecosystems restored",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈1.4% of 2022 mapped wetland area; indicative comparison."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Irrigated perimeters rehabilitated",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈3.6% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with agroforestry",
+      "value": 70,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.85% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with silvopasture",
+      "value": 25,
+      "unit": "1000 ha",
+      "timeframe": "every 5 years",
+      "context": "Area equal to ≈0.30% of 2022 mapped agriculture per five-year cycle."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Women and youth participation in protected-area governance",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sensitive-watershed management plans",
+      "value": 5,
+      "unit": "management plans",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Producers covered by agricultural, reforestation and ecosystem-restoration initiatives",
+      "value": 500000,
+      "unit": "producers",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable fishing sites",
+      "value": 50,
+      "unit": "sites",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Farms adopting agroforestry",
+      "value": 120000,
+      "unit": "farms",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation planting",
+      "value": 75000,
+      "unit": "ha/year",
+      "timeframe": null,
+      "context": "≈0.30% of 2022 mapped forest cover annually."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded ecosystems restored, first minimum milestone",
+      "value": 13500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.05% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded ecosystems restored, second minimum milestone",
+      "value": 43000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.17% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove and coastal restoration, first minimum project milestone",
+      "value": 1500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.7% of 2022 mapped wetland area; indicative comparison."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove and coastal restoration, second minimum project milestone",
+      "value": 3000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.4% of 2022 mapped wetland area; indicative comparison."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove restoration",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈2.7% of 2022 mapped wetland area; indicative comparison."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation in hydropower-basin headwaters",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.08% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National mangrove restoration program",
+      "value": 170000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equal to ≈77.3% of 2022 mapped wetlands; the comparison is indicative because wetlands are broader than mangroves."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "AFR100 forest landscape restoration, 2020 milestone",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": "by 2020",
+      "context": "Area equal to ≈9.9% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 100,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.4% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted natural regeneration",
+      "value": 100,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.4% of 2022 mapped forest cover."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Greenhouse-gas sink enhancement",
+      "value": 20,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Low-methane rice cultivation, first reported milestone",
+      "value": 32,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.39% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Low-methane rice cultivation, later reported milestone",
+      "value": 79,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.96% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroecology and sustainable land management, first reported milestone",
+      "value": 10,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.12% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Zero tillage, later reported milestone",
+      "value": 35,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.42% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Covered slurry stores, first reported milestone",
+      "value": 600,
+      "unit": "slurry stores",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Covered slurry stores, later reported milestone",
+      "value": 1500,
+      "unit": "slurry stores",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cover crops",
+      "value": 30,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.36% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nitrification inhibitors",
+      "value": 53,
+      "unit": "1000 ha",
+      "timeframe": null,
+      "context": "Area equal to ≈0.64% of 2022 mapped agriculture."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved grazing zones",
+      "value": 100,
+      "unit": "improved grazing zones",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry and sustainable-land-management farms supported",
+      "value": 50000,
+      "unit": "farms",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fishers trained and equipped",
+      "value": 5000,
+      "unit": "fishers",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Women-managed agroforestry farms, first minimum share",
+      "value": 25,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Women-managed agroforestry farms, later share",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Alternative-income beneficiaries, first minimum stage",
+      "value": 1000,
+      "unit": "beneficiaries",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Alternative-income beneficiaries, later minimum stage",
+      "value": 4000,
+      "unit": "beneficiaries",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Ruminant-diet fat supplementation",
+      "value": 70,
+      "unit": "%DM fat added",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Tobacco curing phase-out",
+      "value": 0,
+      "unit": "100 t tobacco/yr",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Family farm units with agricultural-service access",
+      "value": 1200000,
+      "unit": "family farm units",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Formalized jobs in fisheries value chains",
+      "value": 25000,
+      "unit": "jobs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Local conservation governance devices and committees",
+      "value": 500,
+      "unit": "devices/committees",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Avoided deforestation",
+      "value": 25000,
+      "unit": "ha",
+      "timeframe": "every 5 years",
+      "context": "≈0.10% of 2022 mapped forest cover per five-year cycle."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected areas under enhanced management",
+      "value": 428134,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "Area equal to ≈1.7% of 2022 mapped forest cover; indicative comparison."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Community blue-carbon project coverage",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.27% of 2022 mapped water area; indicative comparison."
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Seagrass beds under strict protection",
+      "value": 7907,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈2.1% of 2022 mapped water area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Madagascar’s pledges mix restoration, conservation and agriculture. The central cross-sector commitment restores 1.6 million ha of terrestrial ecosystems—about 6.3% of its 2022 mapped forest—while the document also cites a 4 million-ha AFR100 ambition by 2030 and 1,907 kt CO₂ eq of additional sequestration in 2030 and 2035. Restoration ranges from 75,000 ha planted annually and 20,000 ha in hydropower basins to 170,000 ha of mangroves by 2030; a separate 500,000-ha ecosystem goal by 2030 equals about 2.0% of mapped forest. Conservation strengthens 428,134 ha of protected areas and protects 7,907 ha of seagrass by 2035, with 25,000 ha of avoided deforestation every five years. Agriculture and cross-sector measures cover 500,000 ha under sustainable practices and soil management by 2035, 350,000 ha of conservation agriculture by 2035, and 120,000 farms under agroforestry by 2035; the 500,000-ha farming area is about 6.1% of 2022 mapped agriculture.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional AFOLU sequestration\",\n      \"value\": 1907,\n      \"unit\": \"kt CO₂ eq\",\n      \"timeframe\": \"2030 and 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"AFR100 forest and land landscape restoration\",\n      \"value\": 4000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equal to ≈15.8% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Terrestrial ecosystem restoration\",\n      \"value\": 1600000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈6.3% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Restoration implemented per five-year cycle\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"every 5 years\",\n      \"context\": \"≈1.2% of 2022 mapped forest cover per five-year cycle.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable practices and soil management\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equal to ≈6.1% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conservation agriculture and soil-health restoration\",\n      \"value\": 350000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"Area equal to ≈4.2% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Key ecosystems restored or under active restoration\",\n      \"value\": 500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equal to ≈2.0% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Mangrove and coastal ecosystems restored\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈1.4% of 2022 mapped wetland area; indicative comparison.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Irrigated perimeters rehabilitated\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈3.6% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation with agroforestry\",\n      \"value\": 70,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.85% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation with silvopasture\",\n      \"value\": 25,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": \"every 5 years\",\n      \"context\": \"Area equal to ≈0.30% of 2022 mapped agriculture per five-year cycle.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Women and youth participation in protected-area governance\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sensitive-watershed management plans\",\n      \"value\": 5,\n      \"unit\": \"management plans\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Producers covered by agricultural, reforestation and ecosystem-restoration initiatives\",\n      \"value\": 500000,\n      \"unit\": \"producers\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable fishing sites\",\n      \"value\": 50,\n      \"unit\": \"sites\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Farms adopting agroforestry\",\n      \"value\": 120000,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation planting\",\n      \"value\": 75000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": null,\n      \"context\": \"≈0.30% of 2022 mapped forest cover annually.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded ecosystems restored, first minimum milestone\",\n      \"value\": 13500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.05% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded ecosystems restored, second minimum milestone\",\n      \"value\": 43000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.17% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove and coastal restoration, first minimum project milestone\",\n      \"value\": 1500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.7% of 2022 mapped wetland area; indicative comparison.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove and coastal restoration, second minimum project milestone\",\n      \"value\": 3000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.4% of 2022 mapped wetland area; indicative comparison.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove restoration\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈2.7% of 2022 mapped wetland area; indicative comparison.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation in hydropower-basin headwaters\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.08% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National mangrove restoration program\",\n      \"value\": 170000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equal to ≈77.3% of 2022 mapped wetlands; the comparison is indicative because wetlands are broader than mangroves.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"AFR100 forest landscape restoration, 2020 milestone\",\n      \"value\": 2500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2020\",\n      \"context\": \"Area equal to ≈9.9% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 100,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.4% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted natural regeneration\",\n      \"value\": 100,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.4% of 2022 mapped forest cover.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Greenhouse-gas sink enhancement\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Low-methane rice cultivation, first reported milestone\",\n      \"value\": 32,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.39% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Low-methane rice cultivation, later reported milestone\",\n      \"value\": 79,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.96% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroecology and sustainable land management, first reported milestone\",\n      \"value\": 10,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.12% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Zero tillage, later reported milestone\",\n      \"value\": 35,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.42% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Covered slurry stores, first reported milestone\",\n      \"value\": 600,\n      \"unit\": \"slurry stores\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Covered slurry stores, later reported milestone\",\n      \"value\": 1500,\n      \"unit\": \"slurry stores\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cover crops\",\n      \"value\": 30,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.36% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Nitrification inhibitors\",\n      \"value\": 53,\n      \"unit\": \"1000 ha\",\n      \"timeframe\": null,\n      \"context\": \"Area equal to ≈0.64% of 2022 mapped agriculture.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved grazing zones\",\n      \"value\": 100,\n      \"unit\": \"improved grazing zones\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry and sustainable-land-management farms supported\",\n      \"value\": 50000,\n      \"unit\": \"farms\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fishers trained and equipped\",\n      \"value\": 5000,\n      \"unit\": \"fishers\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Women-managed agroforestry farms, first minimum share\",\n      \"value\": 25,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Women-managed agroforestry farms, later share\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Alternative-income beneficiaries, first minimum stage\",\n      \"value\": 1000,\n      \"unit\": \"beneficiaries\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Alternative-income beneficiaries, later minimum stage\",\n      \"value\": 4000,\n      \"unit\": \"beneficiaries\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Ruminant-diet fat supplementation\",\n      \"value\": 70,\n      \"unit\": \"%DM fat added\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Tobacco curing phase-out\",\n      \"value\": 0,\n      \"unit\": \"100 t tobacco/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Family farm units with agricultural-service access\",\n      \"value\": 1200000,\n      \"unit\": \"family farm units\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Formalized jobs in fisheries value chains\",\n      \"value\": 25000,\n      \"unit\": \"jobs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Local conservation governance devices and committees\",\n      \"value\": 500,\n      \"unit\": \"devices/committees\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Avoided deforestation\",\n      \"value\": 25000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"every 5 years\",\n      \"context\": \"≈0.10% of 2022 mapped forest cover per five-year cycle.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected areas under enhanced management\",\n      \"value\": 428134,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Area equal to ≈1.7% of 2022 mapped forest cover; indicative comparison.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Community blue-carbon project coverage\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.27% of 2022 mapped water area; indicative comparison.\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Seagrass beds under strict protection\",\n      \"value\": 7907,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈2.1% of 2022 mapped water area.\"\n    }\n  ]\n}",
+  "errors": []
+}

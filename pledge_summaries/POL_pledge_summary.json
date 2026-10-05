@@ -1,0 +1,90 @@
+{
+  "iso3": "POL",
+  "country": "Poland",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 35,
+  "geo_context": {
+    "country_area_km2": 311395.0,
+    "land_cover_km2": {
+      "Agriculture": 182286.0,
+      "Forest": 100996.0,
+      "Grassland": 16071.0,
+      "Wetland": 689.0,
+      "Settlement": 6887.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 82.0,
+      "Bare_area": 13.0,
+      "Water": 4361.0
+    }
+  },
+  "summary": "Poland’s excerpts emphasize an EU-wide ecosystem framework, with no quantified Poland-specific restoration-area target. For conservation and mixed land-use commitments, they call for halting and reversing deforestation and forest degradation by 2030 and restoration measures in at least 20% of EU land areas and 20% of sea areas by 2030, with all ecosystems needing restoration by 2050. The LULUCF framework sets 310 Mt CO2-eq of net removals by 2030 (carbon-sinks notation: −310 Mt CO2-eq), with an additional 42 Mt CO2-eq versus the 2016–2018 average; Poland’s listed national target is −3,278 Kt CO2eq. Agricultural finance provisions assign 40% of the EU CAP allocation in 2023–2027 to climate objectives, 25% of direct-payment funds to eco-schemes, and 35% of Pillar II funds to environment and climate. Poland’s current land cover is 58.5% agricultural, 32.4% forest, and 5.2% grassland, but no Polish hectare target permits a direct land-cover comparison.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "EU LULUCF net-removals target",
+      "value": 310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU collective; the carbon-sinks passage gives the same balance as −310 Mt CO2-eq."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Additional LULUCF net removals versus 2016–2018 average",
+      "value": 42.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": "EU collective; the comparison baseline is the 2016–2018 average."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum EU land restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-level target; no Poland-specific land area is specified."
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum EU sea-area restoration measures",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "EU-level target; no Poland-specific sea-area value is specified."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "EU CAP allocation for climate objectives",
+      "value": 40.0,
+      "unit": "%",
+      "timeframe": "2023–2027",
+      "context": "EU-wide funding share, not a share of Poland’s agricultural land."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pillar I direct payments allocated to eco-schemes",
+      "value": 25.0,
+      "unit": "%",
+      "timeframe": "annually",
+      "context": "Annual funding share for climate, environment and animal-welfare eco-schemes."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pillar II funds dedicated to environment and climate",
+      "value": 35.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "Pillar II environment and climate funding share; no area coverage is stated."
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Poland LULUCF national target",
+      "value": -3278.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030",
+      "context": "Poland-specific Member State LULUCF row; no direct conversion to current forest or agricultural area is supplied."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Poland’s excerpts emphasize an EU-wide ecosystem framework, with no quantified Poland-specific restoration-area target. For conservation and mixed land-use commitments, they call for halting and reversing deforestation and forest degradation by 2030 and restoration measures in at least 20% of EU land areas and 20% of sea areas by 2030, with all ecosystems needing restoration by 2050. The LULUCF framework sets 310 Mt CO2-eq of net removals by 2030 (carbon-sinks notation: −310 Mt CO2-eq), with an additional 42 Mt CO2-eq versus the 2016–2018 average; Poland’s listed national target is −3,278 Kt CO2eq. Agricultural finance provisions assign 40% of the EU CAP allocation in 2023–2027 to climate objectives, 25% of direct-payment funds to eco-schemes, and 35% of Pillar II funds to environment and climate. Poland’s current land cover is 58.5% agricultural, 32.4% forest, and 5.2% grassland, but no Polish hectare target permits a direct land-cover comparison.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"EU LULUCF net-removals target\",\n      \"value\": 310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU collective; the carbon-sinks passage gives the same balance as −310 Mt CO2-eq.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Additional LULUCF net removals versus 2016–2018 average\",\n      \"value\": 42.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU collective; the comparison baseline is the 2016–2018 average.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum EU land restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-level target; no Poland-specific land area is specified.\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum EU sea-area restoration measures\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"EU-level target; no Poland-specific sea-area value is specified.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"EU CAP allocation for climate objectives\",\n      \"value\": 40.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"2023–2027\",\n      \"context\": \"EU-wide funding share, not a share of Poland’s agricultural land.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pillar I direct payments allocated to eco-schemes\",\n      \"value\": 25.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"annually\",\n      \"context\": \"Annual funding share for climate, environment and animal-welfare eco-schemes.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pillar II funds dedicated to environment and climate\",\n      \"value\": 35.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"Pillar II environment and climate funding share; no area coverage is stated.\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Poland LULUCF national target\",\n      \"value\": -3278.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"Poland-specific Member State LULUCF row; no direct conversion to current forest or agricultural area is supplied.\"\n    }\n  ]\n}",
+  "errors": []
+}

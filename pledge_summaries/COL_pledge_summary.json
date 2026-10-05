@@ -1,0 +1,1538 @@
+{
+  "iso3": "COL",
+  "country": "Colombia",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 279,
+  "geo_context": {
+    "country_area_km2": 1140517.5,
+    "land_cover_km2": {
+      "Agriculture": 126598.0,
+      "Forest": 759871.0,
+      "Grassland": 155926.0,
+      "Wetland": 24158.0,
+      "Settlement": 2866.0,
+      "Shrubland": 53997.0,
+      "Sparse_vegetation": 5628.0,
+      "Bare_area": 189.0,
+      "Water": 11123.0
+    }
+  },
+  "summary": "Conservation pledges focus on forest and water: Colombia aims to cut natural-forest deforestation to 50,000 ha/year by 2030, with a complementary net-zero goal, protect all páramos, expand protected areas by 2.5 million ha toward 7.5 million ha, conserve 20,000 strategic hectares, and act in 24 priority watersheds. Restoration targets include 1,000,000 ha cumulatively by 2030, 962,615 ha during 2015–2030, 100,000 ha in national parks, and 1,000 ha of mangroves; the 1-million-ha goal equals about 1.3% of current forest cover. Agriculture and mixed systems target 3,628,959 ha of sustainable cattle production, 3.6 million ha of silvopastoral ranching by 2030—about 23% of current grassland—and 369,000 ha of climate-smart rice, alongside adaptation in 11 subsectors and support for 2 million producers by 2035.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Ecological restoration in protected areas",
+      "value": 18000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.02% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove restoration",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": "within 4 years",
+      "context": "≈0.04% of current mapped wetland area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Cumulative ecological restoration",
+      "value": 962615,
+      "unit": "ha",
+      "timeframe": "2015-2030",
+      "context": "≈1.27% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Meta vegetation-cover recovery",
+      "value": 4650,
+      "unit": "ha",
+      "timeframe": "2020-2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration compensation for historical deforestation",
+      "value": 800,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Area restored",
+      "value": 68675,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.09% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National restoration target",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2030, accumulated since 2015",
+      "context": "≈1.32% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Rehabilitation, recovery or restoration in national parks",
+      "value": 100000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.13% of current forest area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum annual restoration rate",
+      "value": 68684,
+      "unit": "ha/year",
+      "timeframe": "through 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Minimum annual restoration rate",
+      "value": 68684,
+      "unit": "ha/year",
+      "timeframe": "2031-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under Meta Green Strategy",
+      "value": 5000000,
+      "unit": "trees",
+      "timeframe": "2020-2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Trees planted under Valle Más Verde",
+      "value": 8000000,
+      "unit": "trees",
+      "timeframe": "2020-2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Passive restoration share",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Active restoration share",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "National territory covered by forest-fire restoration-needs protocol",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Priority watersheds receiving protection and conservation actions",
+      "value": 24,
+      "unit": "watersheds",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watershed Planning and Management Plans formulated or adjusted",
+      "value": 135,
+      "unit": "plans",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Electricity-sector ecosystem-based adaptation project",
+      "value": 1,
+      "unit": "project",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Green road-infrastructure guidelines pilot",
+      "value": 1,
+      "unit": "pilot project",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine and coastal nature-based solutions portfolio",
+      "value": 1,
+      "unit": "portfolio",
+      "timeframe": "within 1 year",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Protected-area declaration experience exchanges",
+      "value": 5,
+      "unit": "exchanges",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove adaptation and risk-management initiatives",
+      "value": 6,
+      "unit": "initiatives",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest-fire management strategies",
+      "value": 7,
+      "unit": "strategies",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Active Deforestation Nuclei transformed into forest-development and biodiversity nuclei",
+      "value": 28,
+      "unit": "NAD",
+      "timeframe": null,
+      "context": "Out of 44 active deforestation nuclei"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Territories using nature-based-solutions planning",
+      "value": 3,
+      "unit": "territories",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Efficient wood-fired cooking stoves",
+      "value": 1000000,
+      "unit": "stoves",
+      "timeframe": "2021-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Eco-efficient stoves in Valle del Cauca",
+      "value": 1203,
+      "unit": "stoves",
+      "timeframe": "2020-2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Urban homes changing from firewood to gas or another source",
+      "value": 3766,
+      "unit": "homes",
+      "timeframe": "2020-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Residential units in CASA Colombia certification system",
+      "value": 280000,
+      "unit": "units",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Materials verified by the construction-material sustainability service",
+      "value": 200,
+      "unit": "materials",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Urban domestic wastewater treatment",
+      "value": 68,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Páramos delimited and protected through management plans",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Increase in representation of underrepresented ecosystems",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National mangrove programme updated and implemented",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal environmental-unit plans adopted and implemented",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Mangrove programmes and projects implemented",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial and marine zones under conservation and management arrangements",
+      "value": 34,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National territory under protection or complementary conservation arrangements",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in forest-fire-affected area relative to 2019",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Recorded national-park disaster events assessed",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Annual increase in post-disaster assessments",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Treated domestic wastewater reused for non-potable purposes",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Urban firewood-using homes changing energy source",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "2020-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Páramos covered by delimitation and protection",
+      "value": 3000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈19.2% of current mapped grassland; ecosystems may overlap"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "New protected-area coverage",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈3.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Total protected-area coverage",
+      "value": 7500000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Area-equivalent to ≈9.9% of current forest cover; categories may overlap"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Strategic ecosystems conserved in Cundinamarca watersheds",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.03% of current forest area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Intermediate deforestation rate",
+      "value": 100000,
+      "unit": "ha/year",
+      "timeframe": "2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National-forest deforestation rate",
+      "value": 50000,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Net natural-forest deforestation",
+      "value": 0,
+      "unit": "ha/year net",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "2035 deforestation-rate range lower bound",
+      "value": 37500,
+      "unit": "ha/year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "2035 deforestation-rate range upper bound",
+      "value": 49999,
+      "unit": "ha/year",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "International funding contribution for deforestation reduction",
+      "value": 366,
+      "unit": "USD million",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Global warming limit affirmed in the Amazon-integrity principle",
+      "value": 1.5,
+      "unit": "°C",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation in the agri-food sector",
+      "value": 0,
+      "unit": "deforestation",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved pastures",
+      "value": 2169230,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈17.1% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pastures with scattered trees",
+      "value": 601187,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈4.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Mixed forage banks",
+      "value": 3805,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Living fences",
+      "value": 664,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forage hedges",
+      "value": 61254,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Intensive silvopastoral systems",
+      "value": 61054,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Plantation area",
+      "value": 27282,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Plantation programme",
+      "value": 300000,
+      "unit": "ha",
+      "timeframe": "2015-2030",
+      "context": "≈2.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forest measure including the reference scenario",
+      "value": 46000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Commercial forest plantations in the 2030 mitigation scenario",
+      "value": 368836,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈2.9% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Coffee area covered by the NAMA",
+      "value": 936477,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈7.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sun-exposed coffee potentially shifted to shade-based cultivation",
+      "value": 20000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated rice under the mitigation measure",
+      "value": 255000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.0% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rainfed rice under the mitigation measure",
+      "value": 207046,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.6% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Antioquia silvopastoral conversion",
+      "value": 10634,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "High-tropical dairy silvopastoral conversion",
+      "value": 5582,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca silvopastoral systems",
+      "value": 17571,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca rational grazing",
+      "value": 7821,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca forage banks",
+      "value": 188,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca efficient-fertilizer area",
+      "value": 39929,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca cacao under efficient fertilizer use",
+      "value": 21431,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca rice under efficient fertilizer use",
+      "value": 16748,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca maize under efficient fertilizer use",
+      "value": 1750,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca high-biomass perennial plantations",
+      "value": 6824,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca cocoa plantations",
+      "value": 3445,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca commercial-forest plantations",
+      "value": 3379,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cesar climate-smart coffee",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Silvopastoral systems",
+      "value": 39387,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rational grazing",
+      "value": 28754,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Forage banks",
+      "value": 488,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cocoa under efficient fertilizer use",
+      "value": 6798,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice under efficient fertilizer use",
+      "value": 63312,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Maize under efficient fertilizer use",
+      "value": 27115,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "High-biomass perennial plantations",
+      "value": 16398,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Putumayo pasture converted to agrosilvopastoral systems",
+      "value": 11666,
+      "unit": "ha",
+      "timeframe": "2020-2030 and each subsequent 10-year period",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Quindío sustainable livestock reconversion",
+      "value": 800,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Quindío organic production",
+      "value": 200,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Quindío climate-compatible coffee",
+      "value": 1500,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Quindío dendroenergy tree banks",
+      "value": 90,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Commercial-forest plantations",
+      "value": 2137,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rubber cultivation",
+      "value": 1109,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Marañón cultivation",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vichada efficient-fertilizer area",
+      "value": 16661,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vichada maize under efficient fertilizer use",
+      "value": 13246,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vichada rice under efficient fertilizer use",
+      "value": 1976,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vichada cocoa under efficient fertilizer use",
+      "value": 1439,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vichada silvopastoral systems",
+      "value": 5530,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vichada forage banks",
+      "value": 387,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare high-biomass perennial plantations",
+      "value": 8474,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare silvopastoral systems",
+      "value": 31106,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Medium-intensity silvopastoral systems",
+      "value": 1685,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare rational grazing",
+      "value": 18557,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare efficient-fertilizer area",
+      "value": 141956,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare maize under efficient fertilizer use",
+      "value": 2241,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare rice under efficient fertilizer use",
+      "value": 139041,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare cocoa under efficient fertilizer use",
+      "value": 674,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cocoa under agroforestry systems",
+      "value": 190000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.5% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice under AMTEC 2.0",
+      "value": 369000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈2.9% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Silvopastoral systems",
+      "value": 590000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈4.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Silvopastoral systems",
+      "value": 1180000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈9.3% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Commercial forest plantations under sustainable management",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2039",
+      "context": "≈11.8% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Commercial forest plantations",
+      "value": 368000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈2.9% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Commercial forest plantations",
+      "value": 818000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈6.5% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Species-distributed forest management area",
+      "value": 954405,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry systems",
+      "value": 398320,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈3.1% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice under AMTEC 2.0",
+      "value": 108976,
+      "unit": "ha",
+      "timeframe": "2026-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice under AMTEC 2.0",
+      "value": 155680,
+      "unit": "ha",
+      "timeframe": "2031-2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Nariño dendroenergy tree banks",
+      "value": 10,
+      "unit": "ha",
+      "timeframe": "2020-2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural subsectors with improved adaptive capacity",
+      "value": 10,
+      "unit": "subsectors",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Natural regions participating in agroclimatic technical meetings",
+      "value": 3,
+      "unit": "regions",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Producers receiving agroclimatic information",
+      "value": 1000000,
+      "unit": "producers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural guilds with improved adaptive capacity",
+      "value": 10,
+      "unit": "guilds",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Departments participating in agroclimatic forums",
+      "value": 15,
+      "unit": "departments",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Biogas systems on small productive farms",
+      "value": 5000,
+      "unit": "systems",
+      "timeframe": "from 2024 onward",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle covered by agro-silvo-pastoral practices",
+      "value": 9939,
+      "unit": "head of cattle",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Producers in the livestock and pasture programme",
+      "value": 133,
+      "unit": "producers",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved livestock production systems",
+      "value": 5,
+      "unit": "systems",
+      "timeframe": "2020-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle covered by Putumayo livestock-system improvements",
+      "value": 279140,
+      "unit": "head of cattle",
+      "timeframe": "2020-2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Eco-efficient stoves",
+      "value": 75,
+      "unit": "stoves",
+      "timeframe": "2020-2023",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Quindío eco-efficient stoves",
+      "value": 600,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Domestic wastewater-treatment systems in the Cesar coffee pilot",
+      "value": 1000,
+      "unit": "systems",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Producers in the Public Agricultural Extension Service registry",
+      "value": 2000000,
+      "unit": "producers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Registered producers with access to digital and climate-smart tools",
+      "value": 500000,
+      "unit": "producers",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural subsectors with adaptation models",
+      "value": 11,
+      "unit": "subsectors",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in annual forest plantings",
+      "value": 34165,
+      "unit": "ha/year",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small-dairy-farm biogas digesters",
+      "value": 488,
+      "unit": "digesters/year",
+      "timeframe": "from 2024 onward",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Small dairy farms served",
+      "value": 49,
+      "unit": "farms/year",
+      "timeframe": "from 2024 onward",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Medium-dairy-farm biogas digesters",
+      "value": 89,
+      "unit": "digesters/year",
+      "timeframe": "from 2024 onward",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Oil-palm methane emissions avoided",
+      "value": 7487,
+      "unit": "tonnes/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural organic waste valorized",
+      "value": 84019,
+      "unit": "tonnes",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rainwater capture for irrigation and domestic use",
+      "value": 120000,
+      "unit": "m³",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca silvopastoral target progress",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca grazing and forage-bank target progress",
+      "value": 65,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca plantation target progress",
+      "value": 48,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Share of target area under rational grazing",
+      "value": 52,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Regional forage-bank coverage represented",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Selected Putumayo producers trained in sustainable livestock farming",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Pasture area under rational grazing",
+      "value": 5,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare silvopastoral target progress",
+      "value": 33.97,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare rational-grazing target progress",
+      "value": 67,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare efficient-fertilizer target progress",
+      "value": 17.9,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Casanare plantation target progress",
+      "value": 57.14,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Arauca efficient-fertilizer target progress",
+      "value": 45,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Reduction in unused food-service waste",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Water-supplying watershed pilot projects",
+      "value": 6,
+      "unit": "pilot projects",
+      "timeframe": "within 4 years",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural areas released for restoration",
+      "value": 68675,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.09% of current forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Arauca degraded-pasture rehabilitation",
+      "value": 13280,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Casanare degraded-pasture rehabilitation",
+      "value": 23100,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded-pasture rehabilitation",
+      "value": 12705,
+      "unit": "ha",
+      "timeframe": "2024-2027",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Degraded-pasture rehabilitation",
+      "value": 10395,
+      "unit": "ha",
+      "timeframe": "2028-2031",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cesar silvopastoral and soil-recovery intervention",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Restored protective covers",
+      "value": 220,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pasture rehabilitation",
+      "value": 23235,
+      "unit": "ha",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Priority watersheds in restoration and protection plan",
+      "value": 10,
+      "unit": "watersheds",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable Bovine Ranching NAMA",
+      "value": 3600000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈23.1% of current grassland area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Commercial forest plantations on degraded soils",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈1.32% of current forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Natural forest under community sustainable forest management",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈0.013% of current forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conservation and restoration in strategic ecosystems",
+      "value": 500,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Putumayo forest-management and forest-use plans under implementation",
+      "value": 1713502.81,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈2.25% of current forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pasture rehabilitation",
+      "value": 5420,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cocoa renewal and rehabilitation",
+      "value": 31475,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cocoa renewal and rehabilitation",
+      "value": 80000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈0.63% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Timber-species agroforestry systems",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈1.2% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cocoa renewal and rehabilitation",
+      "value": 297279,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈2.3% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Cocoa renewal and rehabilitation",
+      "value": 340589,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈2.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable cattle and agricultural-land intervention",
+      "value": 3628959,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈28.7% of current agricultural area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Arauca rehabilitation target progress",
+      "value": 55,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pasture-rehabilitation measure coverage",
+      "value": 39,
+      "unit": "%",
+      "timeframe": "by 2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural and forestry value chains beginning documented transition",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Environmental instruments incorporating climate-change considerations",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Departments with panela restoration and production measures",
+      "value": 14,
+      "unit": "departments",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable production and biodiversity-economy projects",
+      "value": 20,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Eco-efficient stoves in Tolima",
+      "value": 4000,
+      "unit": "stoves",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Urban bioclimatic projects in Amazon cities",
+      "value": 4,
+      "unit": "projects",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Conservation pledges focus on forest and water: Colombia aims to cut natural-forest deforestation to 50,000 ha/year by 2030, with a complementary net-zero goal, protect all páramos, expand protected areas by 2.5 million ha toward 7.5 million ha, conserve 20,000 strategic hectares, and act in 24 priority watersheds. Restoration targets include 1,000,000 ha cumulatively by 2030, 962,615 ha during 2015–2030, 100,000 ha in national parks, and 1,000 ha of mangroves; the 1-million-ha goal equals about 1.3% of current forest cover. Agriculture and mixed systems target 3,628,959 ha of sustainable cattle production, 3.6 million ha of silvopastoral ranching by 2030—about 23% of current grassland—and 369,000 ha of climate-smart rice, alongside adaptation in 11 subsectors and support for 2 million producers by 2035.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Ecological restoration in protected areas\",\n      \"value\": 18000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.02% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove restoration\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"within 4 years\",\n      \"context\": \"≈0.04% of current mapped wetland area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Cumulative ecological restoration\",\n      \"value\": 962615,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2015-2030\",\n      \"context\": \"≈1.27% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Meta vegetation-cover recovery\",\n      \"value\": 4650,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2020-2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration compensation for historical deforestation\",\n      \"value\": 800,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Area restored\",\n      \"value\": 68675,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.09% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National restoration target\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030, accumulated since 2015\",\n      \"context\": \"≈1.32% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Rehabilitation, recovery or restoration in national parks\",\n      \"value\": 100000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.13% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum annual restoration rate\",\n      \"value\": 68684,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"through 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Minimum annual restoration rate\",\n      \"value\": 68684,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2031-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted under Meta Green Strategy\",\n      \"value\": 5000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"2020-2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Trees planted under Valle Más Verde\",\n      \"value\": 8000000,\n      \"unit\": \"trees\",\n      \"timeframe\": \"2020-2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Passive restoration share\",\n      \"value\": 80,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Active restoration share\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"National territory covered by forest-fire restoration-needs protocol\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Priority watersheds receiving protection and conservation actions\",\n      \"value\": 24,\n      \"unit\": \"watersheds\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Watershed Planning and Management Plans formulated or adjusted\",\n      \"value\": 135,\n      \"unit\": \"plans\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Electricity-sector ecosystem-based adaptation project\",\n      \"value\": 1,\n      \"unit\": \"project\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Green road-infrastructure guidelines pilot\",\n      \"value\": 1,\n      \"unit\": \"pilot project\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine and coastal nature-based solutions portfolio\",\n      \"value\": 1,\n      \"unit\": \"portfolio\",\n      \"timeframe\": \"within 1 year\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Protected-area declaration experience exchanges\",\n      \"value\": 5,\n      \"unit\": \"exchanges\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mangrove adaptation and risk-management initiatives\",\n      \"value\": 6,\n      \"unit\": \"initiatives\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Forest-fire management strategies\",\n      \"value\": 7,\n      \"unit\": \"strategies\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Active Deforestation Nuclei transformed into forest-development and biodiversity nuclei\",\n      \"value\": 28,\n      \"unit\": \"NAD\",\n      \"timeframe\": null,\n      \"context\": \"Out of 44 active deforestation nuclei\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Territories using nature-based-solutions planning\",\n      \"value\": 3,\n      \"unit\": \"territories\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Efficient wood-fired cooking stoves\",\n      \"value\": 1000000,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"2021-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Eco-efficient stoves in Valle del Cauca\",\n      \"value\": 1203,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"2020-2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Urban homes changing from firewood to gas or another source\",\n      \"value\": 3766,\n      \"unit\": \"homes\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Residential units in CASA Colombia certification system\",\n      \"value\": 280000,\n      \"unit\": \"units\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Materials verified by the construction-material sustainability service\",\n      \"value\": 200,\n      \"unit\": \"materials\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Urban domestic wastewater treatment\",\n      \"value\": 68,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Páramos delimited and protected through management plans\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Increase in representation of underrepresented ecosystems\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National mangrove programme updated and implemented\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastal environmental-unit plans adopted and implemented\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Mangrove programmes and projects implemented\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial and marine zones under conservation and management arrangements\",\n      \"value\": 34,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National territory under protection or complementary conservation arrangements\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in forest-fire-affected area relative to 2019\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Recorded national-park disaster events assessed\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Annual increase in post-disaster assessments\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"2026-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Treated domestic wastewater reused for non-potable purposes\",\n      \"value\": 10,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Urban firewood-using homes changing energy source\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Páramos covered by delimitation and protection\",\n      \"value\": 3000000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈19.2% of current mapped grassland; ecosystems may overlap\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"New protected-area coverage\",\n      \"value\": 2500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈3.3% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Total protected-area coverage\",\n      \"value\": 7500000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Area-equivalent to ≈9.9% of current forest cover; categories may overlap\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Strategic ecosystems conserved in Cundinamarca watersheds\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.03% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Intermediate deforestation rate\",\n      \"value\": 100000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National-forest deforestation rate\",\n      \"value\": 50000,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Net natural-forest deforestation\",\n      \"value\": 0,\n      \"unit\": \"ha/year net\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"2035 deforestation-rate range lower bound\",\n      \"value\": 37500,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"2035 deforestation-rate range upper bound\",\n      \"value\": 49999,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"International funding contribution for deforestation reduction\",\n      \"value\": 366,\n      \"unit\": \"USD million\",\n      \"timeframe\": \"by 2025\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Global warming limit affirmed in the Amazon-integrity principle\",\n      \"value\": 1.5,\n      \"unit\": \"°C\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation in the agri-food sector\",\n      \"value\": 0,\n      \"unit\": \"deforestation\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved pastures\",\n      \"value\": 2169230,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈17.1% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pastures with scattered trees\",\n      \"value\": 601187,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈4.7% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Mixed forage banks\",\n      \"value\": 3805,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Living fences\",\n      \"value\": 664,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forage hedges\",\n      \"value\": 61254,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Intensive silvopastoral systems\",\n      \"value\": 61054,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Plantation area\",\n      \"value\": 27282,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Plantation programme\",\n      \"value\": 300000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2015-2030\",\n      \"context\": \"≈2.4% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forest measure including the reference scenario\",\n      \"value\": 46000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Commercial forest plantations in the 2030 mitigation scenario\",\n      \"value\": 368836,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈2.9% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Coffee area covered by the NAMA\",\n      \"value\": 936477,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈7.4% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sun-exposed coffee potentially shifted to shade-based cultivation\",\n      \"value\": 20000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated rice under the mitigation measure\",\n      \"value\": 255000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.0% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rainfed rice under the mitigation measure\",\n      \"value\": 207046,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.6% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Antioquia silvopastoral conversion\",\n      \"value\": 10634,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"High-tropical dairy silvopastoral conversion\",\n      \"value\": 5582,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca silvopastoral systems\",\n      \"value\": 17571,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca rational grazing\",\n      \"value\": 7821,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca forage banks\",\n      \"value\": 188,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca efficient-fertilizer area\",\n      \"value\": 39929,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca cacao under efficient fertilizer use\",\n      \"value\": 21431,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca rice under efficient fertilizer use\",\n      \"value\": 16748,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca maize under efficient fertilizer use\",\n      \"value\": 1750,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca high-biomass perennial plantations\",\n      \"value\": 6824,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca cocoa plantations\",\n      \"value\": 3445,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca commercial-forest plantations\",\n      \"value\": 3379,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cesar climate-smart coffee\",\n      \"value\": 2000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Silvopastoral systems\",\n      \"value\": 39387,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rational grazing\",\n      \"value\": 28754,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Forage banks\",\n      \"value\": 488,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cocoa under efficient fertilizer use\",\n      \"value\": 6798,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice under efficient fertilizer use\",\n      \"value\": 63312,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Maize under efficient fertilizer use\",\n      \"value\": 27115,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"High-biomass perennial plantations\",\n      \"value\": 16398,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Putumayo pasture converted to agrosilvopastoral systems\",\n      \"value\": 11666,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2020-2030 and each subsequent 10-year period\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Quindío sustainable livestock reconversion\",\n      \"value\": 800,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Quindío organic production\",\n      \"value\": 200,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Quindío climate-compatible coffee\",\n      \"value\": 1500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Quindío dendroenergy tree banks\",\n      \"value\": 90,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Commercial-forest plantations\",\n      \"value\": 2137,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rubber cultivation\",\n      \"value\": 1109,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Marañón cultivation\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vichada efficient-fertilizer area\",\n      \"value\": 16661,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vichada maize under efficient fertilizer use\",\n      \"value\": 13246,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vichada rice under efficient fertilizer use\",\n      \"value\": 1976,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vichada cocoa under efficient fertilizer use\",\n      \"value\": 1439,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vichada silvopastoral systems\",\n      \"value\": 5530,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Vichada forage banks\",\n      \"value\": 387,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare high-biomass perennial plantations\",\n      \"value\": 8474,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare silvopastoral systems\",\n      \"value\": 31106,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Medium-intensity silvopastoral systems\",\n      \"value\": 1685,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare rational grazing\",\n      \"value\": 18557,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare efficient-fertilizer area\",\n      \"value\": 141956,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare maize under efficient fertilizer use\",\n      \"value\": 2241,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare rice under efficient fertilizer use\",\n      \"value\": 139041,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare cocoa under efficient fertilizer use\",\n      \"value\": 674,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cocoa under agroforestry systems\",\n      \"value\": 190000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈1.5% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice under AMTEC 2.0\",\n      \"value\": 369000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈2.9% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Silvopastoral systems\",\n      \"value\": 590000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈4.7% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Silvopastoral systems\",\n      \"value\": 1180000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈9.3% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Commercial forest plantations under sustainable management\",\n      \"value\": 1500000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2039\",\n      \"context\": \"≈11.8% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Commercial forest plantations\",\n      \"value\": 368000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈2.9% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Commercial forest plantations\",\n      \"value\": 818000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈6.5% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Species-distributed forest management area\",\n      \"value\": 954405,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry systems\",\n      \"value\": 398320,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈3.1% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice under AMTEC 2.0\",\n      \"value\": 108976,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2026-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice under AMTEC 2.0\",\n      \"value\": 155680,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2031-2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Nariño dendroenergy tree banks\",\n      \"value\": 10,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2020-2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural subsectors with improved adaptive capacity\",\n      \"value\": 10,\n      \"unit\": \"subsectors\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Natural regions participating in agroclimatic technical meetings\",\n      \"value\": 3,\n      \"unit\": \"regions\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Producers receiving agroclimatic information\",\n      \"value\": 1000000,\n      \"unit\": \"producers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural guilds with improved adaptive capacity\",\n      \"value\": 10,\n      \"unit\": \"guilds\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Departments participating in agroclimatic forums\",\n      \"value\": 15,\n      \"unit\": \"departments\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Biogas systems on small productive farms\",\n      \"value\": 5000,\n      \"unit\": \"systems\",\n      \"timeframe\": \"from 2024 onward\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle covered by agro-silvo-pastoral practices\",\n      \"value\": 9939,\n      \"unit\": \"head of cattle\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Producers in the livestock and pasture programme\",\n      \"value\": 133,\n      \"unit\": \"producers\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved livestock production systems\",\n      \"value\": 5,\n      \"unit\": \"systems\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle covered by Putumayo livestock-system improvements\",\n      \"value\": 279140,\n      \"unit\": \"head of cattle\",\n      \"timeframe\": \"2020-2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Eco-efficient stoves\",\n      \"value\": 75,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"2020-2023\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Quindío eco-efficient stoves\",\n      \"value\": 600,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Domestic wastewater-treatment systems in the Cesar coffee pilot\",\n      \"value\": 1000,\n      \"unit\": \"systems\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Producers in the Public Agricultural Extension Service registry\",\n      \"value\": 2000000,\n      \"unit\": \"producers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Registered producers with access to digital and climate-smart tools\",\n      \"value\": 500000,\n      \"unit\": \"producers\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural subsectors with adaptation models\",\n      \"value\": 11,\n      \"unit\": \"subsectors\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in annual forest plantings\",\n      \"value\": 34165,\n      \"unit\": \"ha/year\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small-dairy-farm biogas digesters\",\n      \"value\": 488,\n      \"unit\": \"digesters/year\",\n      \"timeframe\": \"from 2024 onward\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Small dairy farms served\",\n      \"value\": 49,\n      \"unit\": \"farms/year\",\n      \"timeframe\": \"from 2024 onward\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Medium-dairy-farm biogas digesters\",\n      \"value\": 89,\n      \"unit\": \"digesters/year\",\n      \"timeframe\": \"from 2024 onward\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Oil-palm methane emissions avoided\",\n      \"value\": 7487,\n      \"unit\": \"tonnes/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural organic waste valorized\",\n      \"value\": 84019,\n      \"unit\": \"tonnes\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rainwater capture for irrigation and domestic use\",\n      \"value\": 120000,\n      \"unit\": \"m³\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca silvopastoral target progress\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca grazing and forage-bank target progress\",\n      \"value\": 65,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca plantation target progress\",\n      \"value\": 48,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Share of target area under rational grazing\",\n      \"value\": 52,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Regional forage-bank coverage represented\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Selected Putumayo producers trained in sustainable livestock farming\",\n      \"value\": 70,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Pasture area under rational grazing\",\n      \"value\": 5,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare silvopastoral target progress\",\n      \"value\": 33.97,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare rational-grazing target progress\",\n      \"value\": 67,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare efficient-fertilizer target progress\",\n      \"value\": 17.9,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Casanare plantation target progress\",\n      \"value\": 57.14,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Arauca efficient-fertilizer target progress\",\n      \"value\": 45,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Reduction in unused food-service waste\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Water-supplying watershed pilot projects\",\n      \"value\": 6,\n      \"unit\": \"pilot projects\",\n      \"timeframe\": \"within 4 years\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural areas released for restoration\",\n      \"value\": 68675,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.09% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Arauca degraded-pasture rehabilitation\",\n      \"value\": 13280,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Casanare degraded-pasture rehabilitation\",\n      \"value\": 23100,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded-pasture rehabilitation\",\n      \"value\": 12705,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2024-2027\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Degraded-pasture rehabilitation\",\n      \"value\": 10395,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2028-2031\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cesar silvopastoral and soil-recovery intervention\",\n      \"value\": 2000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Restored protective covers\",\n      \"value\": 220,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pasture rehabilitation\",\n      \"value\": 23235,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Priority watersheds in restoration and protection plan\",\n      \"value\": 10,\n      \"unit\": \"watersheds\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable Bovine Ranching NAMA\",\n      \"value\": 3600000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈23.1% of current grassland area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Commercial forest plantations on degraded soils\",\n      \"value\": 1000000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈1.32% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Natural forest under community sustainable forest management\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈0.013% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conservation and restoration in strategic ecosystems\",\n      \"value\": 500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Putumayo forest-management and forest-use plans under implementation\",\n      \"value\": 1713502.81,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈2.25% of current forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pasture rehabilitation\",\n      \"value\": 5420,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cocoa renewal and rehabilitation\",\n      \"value\": 31475,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cocoa renewal and rehabilitation\",\n      \"value\": 80000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈0.63% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Timber-species agroforestry systems\",\n      \"value\": 150000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈1.2% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cocoa renewal and rehabilitation\",\n      \"value\": 297279,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈2.3% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Cocoa renewal and rehabilitation\",\n      \"value\": 340589,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈2.7% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable cattle and agricultural-land intervention\",\n      \"value\": 3628959,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈28.7% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Arauca rehabilitation target progress\",\n      \"value\": 55,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pasture-rehabilitation measure coverage\",\n      \"value\": 39,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural and forestry value chains beginning documented transition\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Environmental instruments incorporating climate-change considerations\",\n      \"value\": 100,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Departments with panela restoration and production measures\",\n      \"value\": 14,\n      \"unit\": \"departments\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Sustainable production and biodiversity-economy projects\",\n      \"value\": 20,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Eco-efficient stoves in Tolima\",\n      \"value\": 4000,\n      \"unit\": \"stoves\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Urban bioclimatic projects in Amazon cities\",\n      \"value\": 4,\n      \"unit\": \"projects\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

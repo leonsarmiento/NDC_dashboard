@@ -1,0 +1,162 @@
+{
+  "iso3": "NER",
+  "country": "Niger",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 25,
+  "geo_context": {
+    "country_area_km2": 1187515.3,
+    "land_cover_km2": {
+      "Agriculture": 98134.0,
+      "Forest": 946.0,
+      "Grassland": 146303.0,
+      "Wetland": 2052.0,
+      "Settlement": 287.0,
+      "Shrubland": 4694.0,
+      "Sparse_vegetation": 148292.0,
+      "Bare_area": 786394.0,
+      "Water": 451.0
+    }
+  },
+  "summary": "Niger’s restoration programme is led by assisted natural regeneration on 913,932 ha—an area equivalent to 6.2% of current grassland—plus 112,500 ha of degraded pastoral-land restoration, 10,053 ha of dune stabilization and 10,000 ha for rehabilitation of degraded classified forests. Mixed measures add 750,000 ha of multipurpose-species plantations (nearly eight times mapped forest area), 75,000 ha of private forestry, 12,500 ha under “one village, one wood,” 145,000 km of live hedges, 455,848 ha of secured pastoral areas and 279,702 ha of passage corridors. Conservation covers 7,500 ha of deforestation control and firebreaks. Agriculture includes 424,000 ha for irrigated or flood-recession crops—43.2% of current mapped agriculture—2,000 ha of fodder crops, 4,500 farms for improved cattle-and-sheep livestock systems, 1,500 cattle-fattening farms, 3,000 sheep-fattening farms and 258 dairy farms. No deadlines are stated.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted natural regeneration",
+      "value": 913932,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "9,139.32 km² in area terms, ≈6.2% of current mapped grassland area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded pastoral-land restoration",
+      "value": 112500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "1,125 km² in area terms, ≈0.8% of current mapped grassland area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Active dune stabilization",
+      "value": 10053,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "100.53 km² in area terms, ≈0.013% of current mapped bare area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Degraded classified forest rehabilitation",
+      "value": 10000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "100 km² in area terms, ≈10.6% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Multipurpose-species plantations",
+      "value": 750000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "7,500 km² in area terms, ≈7.9 times current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Pastoral enclaves, grazing and resting areas",
+      "value": 455848,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "4,558.48 km² in area terms, ≈1.5% of current combined grassland and sparse-vegetation area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Livestock passage corridors",
+      "value": 279702,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "2,797.02 km² in area terms, ≈0.9% of current combined grassland and sparse-vegetation area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Private forestry",
+      "value": 75000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "750 km² in area terms, ≈79.3% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "One village, one wood",
+      "value": 12500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "125 km² in area terms, ≈13.2% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Live hedges",
+      "value": 145000,
+      "unit": "km",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deforestation control and firebreaks",
+      "value": 7500,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "75 km² in area terms, equivalent to ≈7.9% of current mapped forest area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Irrigated or flood-recession crop land",
+      "value": 424000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "4,240 km² in area terms, ≈43.2% of current mapped agriculture area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fodder crops",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "20 km² in area terms, ≈0.02% of current mapped agriculture area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Improved cattle-and-sheep livestock systems",
+      "value": 4500,
+      "unit": "fermes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Sheep fattening intensification",
+      "value": 3000,
+      "unit": "fermes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cattle fattening intensification",
+      "value": 1500,
+      "unit": "fermes",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Permanent-stabling dairy farms",
+      "value": 258,
+      "unit": "fermes",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Niger’s restoration programme is led by assisted natural regeneration on 913,932 ha—an area equivalent to 6.2% of current grassland—plus 112,500 ha of degraded pastoral-land restoration, 10,053 ha of dune stabilization and 10,000 ha for rehabilitation of degraded classified forests. Mixed measures add 750,000 ha of multipurpose-species plantations (nearly eight times mapped forest area), 75,000 ha of private forestry, 12,500 ha under “one village, one wood,” 145,000 km of live hedges, 455,848 ha of secured pastoral areas and 279,702 ha of passage corridors. Conservation covers 7,500 ha of deforestation control and firebreaks. Agriculture includes 424,000 ha for irrigated or flood-recession crops—43.2% of current mapped agriculture—2,000 ha of fodder crops, 4,500 farms for improved cattle-and-sheep livestock systems, 1,500 cattle-fattening farms, 3,000 sheep-fattening farms and 258 dairy farms. No deadlines are stated.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted natural regeneration\",\n      \"value\": 913932,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"9,139.32 km² in area terms, ≈6.2% of current mapped grassland area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded pastoral-land restoration\",\n      \"value\": 112500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"1,125 km² in area terms, ≈0.8% of current mapped grassland area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Active dune stabilization\",\n      \"value\": 10053,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"100.53 km² in area terms, ≈0.013% of current mapped bare area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Degraded classified forest rehabilitation\",\n      \"value\": 10000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"100 km² in area terms, ≈10.6% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Multipurpose-species plantations\",\n      \"value\": 750000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"7,500 km² in area terms, ≈7.9 times current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Pastoral enclaves, grazing and resting areas\",\n      \"value\": 455848,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"4,558.48 km² in area terms, ≈1.5% of current combined grassland and sparse-vegetation area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Livestock passage corridors\",\n      \"value\": 279702,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"2,797.02 km² in area terms, ≈0.9% of current combined grassland and sparse-vegetation area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Private forestry\",\n      \"value\": 75000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"750 km² in area terms, ≈79.3% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"One village, one wood\",\n      \"value\": 12500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"125 km² in area terms, ≈13.2% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Live hedges\",\n      \"value\": 145000,\n      \"unit\": \"km\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deforestation control and firebreaks\",\n      \"value\": 7500,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"75 km² in area terms, equivalent to ≈7.9% of current mapped forest area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Irrigated or flood-recession crop land\",\n      \"value\": 424000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"4,240 km² in area terms, ≈43.2% of current mapped agriculture area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fodder crops\",\n      \"value\": 2000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"20 km² in area terms, ≈0.02% of current mapped agriculture area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Improved cattle-and-sheep livestock systems\",\n      \"value\": 4500,\n      \"unit\": \"fermes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Sheep fattening intensification\",\n      \"value\": 3000,\n      \"unit\": \"fermes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cattle fattening intensification\",\n      \"value\": 1500,\n      \"unit\": \"fermes\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Permanent-stabling dairy farms\",\n      \"value\": 258,\n      \"unit\": \"fermes\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

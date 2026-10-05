@@ -1,0 +1,42 @@
+{
+  "iso3": "TKM",
+  "country": "Turkmenistan",
+  "provider": "openrouter",
+  "model": "stealth/space-bunny-alpha",
+  "n_passages": 2,
+  "geo_context": {
+    "country_area_km2": 469993.8,
+    "land_cover_km2": {
+      "Agriculture": 46537.0,
+      "Forest": 95.0,
+      "Grassland": 10207.0,
+      "Wetland": 11.0,
+      "Settlement": 949.0,
+      "Shrubland": 66624.0,
+      "Sparse_vegetation": 12873.0,
+      "Bare_area": 327441.0,
+      "Water": 5256.0
+    }
+  },
+  "summary": "Turkmenistan presents two high-relevance mixed conservation and agriculture commitments focused on land rehabilitation: comprehensive rehabilitation of 70,000 hectares of irrigated land (KROZ) and meliorative improvement of 170,000 hectares of land (MUZ). The first target is equivalent to approximately 700 km², or 1.5% of the country's mapped 46,537 km² agricultural area; the second equals about 1,700 km², or 3.7% of that area. Relative to Turkmenistan's total land area, they represent approximately 0.15% and 0.36%, respectively. These pledges emphasize ecosystem restoration and agricultural-land improvement, although no implementation dates, baselines, additionality, or indication of overlap between the programmes are stated.",
+  "targets": [
+    {
+      "commitment_type": "Both",
+      "metric": "Irrigated land rehabilitation (KROZ)",
+      "value": 70000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 1.5% of the country's current mapped agricultural area."
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Meliorative land improvement (MUZ)",
+      "value": 170000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "Equivalent to approximately 3.7% of the country's current mapped agricultural area."
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Turkmenistan presents two high-relevance mixed conservation and agriculture commitments focused on land rehabilitation: comprehensive rehabilitation of 70,000 hectares of irrigated land (KROZ) and meliorative improvement of 170,000 hectares of land (MUZ). The first target is equivalent to approximately 700 km², or 1.5% of the country's mapped 46,537 km² agricultural area; the second equals about 1,700 km², or 3.7% of that area. Relative to Turkmenistan's total land area, they represent approximately 0.15% and 0.36%, respectively. These pledges emphasize ecosystem restoration and agricultural-land improvement, although no implementation dates, baselines, additionality, or indication of overlap between the programmes are stated.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Irrigated land rehabilitation (KROZ)\",\n      \"value\": 70000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 1.5% of the country's current mapped agricultural area.\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Meliorative land improvement (MUZ)\",\n      \"value\": 170000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"Equivalent to approximately 3.7% of the country's current mapped agricultural area.\"\n    }\n  ]\n}",
+  "errors": []
+}
