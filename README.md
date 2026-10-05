@@ -3,6 +3,8 @@
 Interactive Streamlit dashboard for exploring **NDC (Nationally Determined
 Contribution) document extractions** and **per-country pledge summaries**.
 
+**Live deployment:** https://your-app.streamlit.app *(replace with the live URL)*
+
 Two pages (switchable in the sidebar):
 
 - **Extraction Explorer** — live filtering of 23,000+ extracted passages
@@ -11,7 +13,8 @@ Two pages (switchable in the sidebar):
   select regions), a passage preview, and one-click Excel export.
 - **Pledge Summaries** — one LLM-written paragraph per country (in the
   perspective of the country's area and land cover) plus the aggregated
-  numerical targets, with a world map (click a country to open it) and an
+  numerical targets, with a world map — **gray** = no summary, **green** =
+  has one, **red** = currently shown; click a country to open it — and an
   Excel export of all summaries.
 
 ## Data
