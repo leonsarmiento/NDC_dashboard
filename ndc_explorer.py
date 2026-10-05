@@ -127,8 +127,6 @@ if PAGE == "Pledge Summaries":
 
     by_iso = {s["iso3"]: s for s in summaries}
     base = df["iso3"].dropna().unique().tolist() if len(df) else []
-    # deterministic order of map rows; the map is a single trace, so the
-    # clicked point_index equals the row index in this list
     order = sorted(set(base) | set(by_iso.keys()))
 
     if "summary_iso" not in st.session_state:
@@ -136,6 +134,14 @@ if PAGE == "Pledge Summaries":
     cur = st.session_state.summary_iso
     if cur not in by_iso:  # folder changed under us
         st.session_state.summary_iso = cur = summaries[0]["iso3"]
+
+    # The map is 3 categorical traces in the fixed order [none, summary,
+    # current] (mdf rows are grouped accordingly; px orders traces by first
+    # appearance). A clicked point_index is LOCAL to the clicked trace
+    # (curve_number), so resolve it against these per-trace location arrays.
+    none_l = [i for i in order if i not in by_iso and i != cur]
+    summ_l = [i for i in order if i in by_iso and i != cur]
+    trace_locs = [none_l, summ_l, [cur]]
 
     # Handle a pending map click BEFORE rendering content, so one click
     # updates the map highlight, the dropdown and the summary at once.
@@ -147,19 +153,17 @@ if PAGE == "Pledge Summaries":
             sig = repr(sm)
         if sig != st.session_state.get("summary_map_last"):
             st.session_state.summary_map_last = sig
-            try:  # debug: raw selection payload
-                with open("/tmp/ndc_explorer_sel.log", "a") as fh:
-                    fh.write(sig + "\n")
-            except OSError:
-                pass
             pts = list((sm.get("selection") or {}).get("points") or [])
             for p in pts:
+                cn = p.get("curve_number") or p.get("point_trace") or 0
                 idx = p.get("point_index")
-                iso = (
-                    order[idx]
-                    if isinstance(idx, int) and 0 <= idx < len(order)
-                    else (p.get("location") or "")
-                )
+                if (
+                    isinstance(cn, int) and 0 <= cn < len(trace_locs)
+                    and isinstance(idx, int) and 0 <= idx < len(trace_locs[cn])
+                ):
+                    iso = trace_locs[cn][idx]
+                else:
+                    iso = p.get("location") or ""
                 iso = (iso or "").upper()
                 if iso in by_iso and iso != cur:
                     st.session_state.summary_iso = cur = iso
@@ -171,7 +175,7 @@ if PAGE == "Pledge Summaries":
     mdf = pd.DataFrame(
         [(i, "current" if i == cur else "summary" if i in by_iso else "none",
           by_iso.get(i, {}).get("country", i))
-         for i in order]
+         for i in none_l + summ_l + [cur]]
     )
     mdf.columns = ["iso3", "status", "name"]
 
@@ -179,23 +183,17 @@ if PAGE == "Pledge Summaries":
     with c1:
         import plotly.express as px
 
-        # 3 discrete colors via a continuous scale on a SINGLE trace, so the
-        # map's point_index equals the row index in `order`:
-        rank = mdf["status"].map(
-            {"current": 2.0, "summary": 1.0, "none": 0.0}
-        ).astype(float)
+        # categorical 3-color map (same proven pattern as the extraction
+        # explorer map): gray = no summary, green = has one, red = shown
+        # below. mdf rows are grouped by category, so the traces come out
+        # in the order [none, summary, current] (== trace_locs above).
         fig = px.choropleth(
-            mdf, locations="iso3",
-            color=rank.to_numpy(),
+            mdf, locations="iso3", color="status",
+            color_discrete_map={
+                "none": "#d8d8d8", "summary": "#1f8a4c", "current": "#e11d48",
+            },
             hover_name="name",
         )
-        fig.update_traces(
-            colorscale=[[0, "#d8d8d8"], [0.5, "#1f8a4c"], [1, "#e11d48"]],
-            zmin=0, zmax=2,
-        )
-        # hover shows the country name, not the numeric rank
-        fig.data[0].hovertemplate = "%{hovertext}<extra></extra>"
-        fig.data[0].hovertext = mdf["name"].to_numpy()
         fig.update_layout(
             height=540, margin=dict(l=0, r=0, t=10, b=0),
             dragmode="pan", showlegend=False, coloraxis_showscale=False,
