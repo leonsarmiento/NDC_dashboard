@@ -1,0 +1,613 @@
+{
+  "iso3": "CIV",
+  "country": "République de Côte d'Ivoire",
+  "provider": "openrouter",
+  "model": "inclusionai/ling-3.0-flash",
+  "n_passages": 87,
+  "geo_context": {
+    "country_area_km2": 322562.2,
+    "land_cover_km2": {
+      "Agriculture": 164466.0,
+      "Forest": 132393.0,
+      "Grassland": 8.0,
+      "Wetland": 10.0,
+      "Settlement": 1785.0,
+      "Shrubland": 21974.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 1930.0
+    }
+  },
+  "summary": "Côte d'Ivoire's NDC ecosystem pledges span restoration, conservation, and agriculture, with major quantitative targets. Restoration commitments include restoring up to 4 million hectares through conservation, reforestation, and agroforestry, restoring 20% of forest cover by 2030, and reforesting 1.5 million hectares by 2035, alongside converting 3 million hectares of land to forest by 2030. Conservation targets aim to place 80% of national forest area under sustainable management by 2035, protect 30% of terrestrial and marine ecosystems, limit forest cover loss to 550,000 hectares by 2035, and expand the protected-area network. Agriculture pledges focus on transforming 2.5 million hectares of cropland into agroforestry systems and scaling climate-smart practices to 80% of vulnerable farming operations. Cross-cutting commitments include eliminating deforestation in agricultural value chains, developing 10 million hectares of jurisdictional REDD+ programs, and engaging 200,000 women and youth in sustainable natural resource management, with the forestry sector targeted as a carbon sink (−150% emissions) by 2030.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Total restoration through conservation, reforestation and agroforestry",
+      "value": 4000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 12.4% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest cover restoration",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈ 20% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation and forest restoration",
+      "value": 1500000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 11.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Intensive high-density reforestation for sawn timber",
+      "value": 200000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 1.5% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Energy wood forest creation",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 0.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Low-density agroforestry reforestation",
+      "value": 1100000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 8.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Defensive management through natural/assisted regeneration",
+      "value": 150000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 1.1% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove ecosystem restoration",
+      "value": 2000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Plant material production for reforestation",
+      "value": 40000000,
+      "unit": "plants",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Land conversion to forest",
+      "value": 3000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈ 22.6% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forest conversion (conditional mitigation measure)",
+      "value": 2000000,
+      "unit": "ha",
+      "timeframe": "by 2030",
+      "context": "≈ 15.1% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Water resource restoration and preservation",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest area under sustainable management",
+      "value": 80,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "≈ 80% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watershed integrated management coverage",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Risk zone protection through adapted structures",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal zone sustainable blue economy coverage",
+      "value": 85,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial and marine ecosystem protection (30x30)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest cover loss limit",
+      "value": 550000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 4.2% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Regulated fishing zones under sustainable management",
+      "value": 100,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest massif integrity through participatory management",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Real-time deforestation monitoring and control",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Agricultural value chain deforestation elimination",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Forest governance and legality of timber/NTFP exploitation",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fire spread reduction and burned area reduction",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Timber and NTFPs value chain sustainability (FLEGT)",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Bushfire early warning system",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Voluntary Nature Reserves expansion",
+      "value": 15,
+      "unit": "number of protected areas",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Jurisdictional REDD+ programs",
+      "value": 10000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 31.0% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "IUU fishing combat",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Sustainable and equitable fisheries management",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Fishing sustainability and biodiversity conservation",
+      "value": 50000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 25.9% of water area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastal ecosystem protection and resilience",
+      "value": 35,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine Protected Areas creation and management",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "RAMSAR wetlands protection, restoration and management",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Sustainable aquaculture development",
+      "value": 40,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Inclusive and sustainable land tenure mechanisms",
+      "value": 28,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Ecosystem preservation and agricultural resilience",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Deforestation elimination in agricultural value chains",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forest governance and legality of timber/NTFP exploitation",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Burned area reduction",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Women and youth engaged in sustainable natural resource management",
+      "value": 200000,
+      "unit": "number of people",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Land conversion (unconditional mitigation)",
+      "value": 1000000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 3.1% of total land area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Forestry sector carbon sink target",
+      "value": -150,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vulnerable farmers using climate-smart practices",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Breeders practicing sustainable livestock techniques",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice areas adopting climate-smart practices",
+      "value": 75,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic nitrogen fertilizer optimization",
+      "value": 70,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Open burning of agricultural residues reduction",
+      "value": 90,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry conversion of agricultural lands",
+      "value": 2500000,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 15.2% of current agriculture area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Vulnerable agricultural operators using climate-smart practices",
+      "value": 60,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock waste valorization through composting and methanization",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Low-emission semi-intensive and intensive livestock systems",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Alternate wetting and drying irrigation technique",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice cultivation rotation or crop association",
+      "value": 60,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Community-controlled composting units",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic fertilization technical guides development",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic fertilizer spreading calendars dissemination",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Innovative organic fertilizer incorporation techniques",
+      "value": 65,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural residue transformation units",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural residue collection platforms",
+      "value": 80,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Burning ban integration into land management codes",
+      "value": 100,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Hydro-agricultural infrastructure productivity and resilience",
+      "value": 75,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-adapted production material varieties",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Adapted fertilizer formulas per soil and crop type",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice productivity and quality optimization",
+      "value": 50,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Post-harvest loss reduction",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice holdings climate resilience",
+      "value": 70,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock methane emission reduction",
+      "value": 30,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Open burning reduction by 2025",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Open burning reduction by 2030",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "SRI rice cultivation (2025 target)",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "SRI rice cultivation (2030 target)",
+      "value": 10,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "SRI rice cultivation (90% target)",
+      "value": 90,
+      "unit": "%",
+      "timeframe": "by 2025",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\"summary\": \"Côte d'Ivoire's NDC ecosystem pledges span restoration, conservation, and agriculture, with major quantitative targets. Restoration commitments include restoring up to 4 million hectares through conservation, reforestation, and agroforestry, restoring 20% of forest cover by 2030, and reforesting 1.5 million hectares by 2035, alongside converting 3 million hectares of land to forest by 2030. Conservation targets aim to place 80% of national forest area under sustainable management by 2035, protect 30% of terrestrial and marine ecosystems, limit forest cover loss to 550,000 hectares by 2035, and expand the protected-area network. Agriculture pledges focus on transforming 2.5 million hectares of cropland into agroforestry systems and scaling climate-smart practices to 80% of vulnerable farming operations. Cross-cutting commitments include eliminating deforestation in agricultural value chains, developing 10 million hectares of jurisdictional REDD+ programs, and engaging 200,000 women and youth in sustainable natural resource management, with the forestry sector targeted as a carbon sink (−150% emissions) by 2030.\", \"targets\": [{\"commitment_type\": \"Restoration\", \"metric\": \"Total restoration through conservation, reforestation and agroforestry\", \"value\": 4000000, \"unit\": \"ha\", \"timeframe\": null, \"context\": \"≈ 12.4% of total land area\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Forest cover restoration\", \"value\": 20, \"unit\": \"%\", \"timeframe\": \"by 2030\", \"context\": \"≈ 20% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Reforestation and forest restoration\", \"value\": 1500000, \"unit\": \"ha\", \"timeframe\": \"by 2035\", \"context\": \"≈ 11.3% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Intensive high-density reforestation for sawn timber\", \"value\": 200000, \"unit\": \"ha\", \"timeframe\": \"by 2035\", \"context\": \"≈ 1.5% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Energy wood forest creation\", \"value\": 50000, \"unit\": \"ha\", \"timeframe\": \"by 2035\", \"context\": \"≈ 0.4% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Low-density agroforestry reforestation\", \"value\": 1100000, \"unit\": \"ha\", \"timeframe\": \"by 2035\", \"context\": \"≈ 8.3% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Defensive management through natural/assisted regeneration\", \"value\": 150000, \"unit\": \"ha\", \"timeframe\": \"by 2035\", \"context\": \"≈ 1.1% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Mangrove ecosystem restoration\", \"value\": 2000, \"unit\": \"ha\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Restoration\", \"metric\": \"Plant material production for reforestation\", \"value\": 40000000, \"unit\": \"plants\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Restoration\", \"metric\": \"Land conversion to forest\", \"value\": 3000000, \"unit\": \"ha\", \"timeframe\": \"by 2030\", \"context\": \"≈ 22.6% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Forest conversion (conditional mitigation measure)\", \"value\": 2000000, \"unit\": \"ha\", \"timeframe\": \"by 2030\", \"context\": \"≈ 15.1% of current forest cover\"}, {\"commitment_type\": \"Restoration\", \"metric\": \"Water resource restoration and preservation\", \"value\": 40, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Forest area under sustainable management\", \"value\": 80, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": \"≈ 80% of current forest cover\"}, {\"commitment_type\": \"Conservation\", \"metric\": \"Watershed integrated management coverage\", \"value\": 75, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Risk zone protection through adapted structures\", \"value\": 70, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Coastal zone sustainable blue economy coverage\", \"value\": 85, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Terrestrial and marine ecosystem protection (30x30)\", \"value\": 30, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Forest cover loss limit\", \"value\": 550000, \"unit\": \"ha\", \"timeframe\": \"by 2035\", \"context\": \"≈ 4.2% of current forest cover\"}, {\"commitment_type\": \"Conservation\", \"metric\": \"Regulated fishing zones under sustainable management\", \"value\": 100, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Forest massif integrity through participatory management\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Real-time deforestation monitoring and control\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Agricultural value chain deforestation elimination\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Forest governance and legality of timber/NTFP exploitation\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Fire spread reduction and burned area reduction\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Timber and NTFPs value chain sustainability (FLEGT)\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Bushfire early warning system\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Voluntary Nature Reserves expansion\", \"value\": 15, \"unit\": \"number of protected areas\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Jurisdictional REDD+ programs\", \"value\": 10000000, \"unit\": \"ha\", \"timeframe\": null, \"context\": \"≈ 31.0% of total land area\"}, {\"commitment_type\": \"Conservation\", \"metric\": \"IUU fishing combat\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Sustainable and equitable fisheries management\", \"value\": 75, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Fishing sustainability and biodiversity conservation\", \"value\": 50000, \"unit\": \"ha\", \"timeframe\": null, \"context\": \"≈ 25.9% of water area\"}, {\"commitment_type\": \"Conservation\", \"metric\": \"Coastal ecosystem protection and resilience\", \"value\": 35, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Conservation\", \"metric\": \"Marine Protected Areas creation and management\", \"value\": 30, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"RAMSAR wetlands protection, restoration and management\", \"value\": 60, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Sustainable aquaculture development\", \"value\": 40, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Inclusive and sustainable land tenure mechanisms\", \"value\": 28, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Ecosystem preservation and agricultural resilience\", \"value\": 40, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Deforestation elimination in agricultural value chains\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Forest governance and legality of timber/NTFP exploitation\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Burned area reduction\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Women and youth engaged in sustainable natural resource management\", \"value\": 200000, \"unit\": \"number of people\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Both\", \"metric\": \"Land conversion (unconditional mitigation)\", \"value\": 1000000, \"unit\": \"ha\", \"timeframe\": null, \"context\": \"≈ 3.1% of total land area\"}, {\"commitment_type\": \"Both\", \"metric\": \"Forestry sector carbon sink target\", \"value\": -150, \"unit\": \"%\", \"timeframe\": \"by 2030\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Vulnerable farmers using climate-smart practices\", \"value\": 80, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Breeders practicing sustainable livestock techniques\", \"value\": 70, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Rice areas adopting climate-smart practices\", \"value\": 75, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Organic nitrogen fertilizer optimization\", \"value\": 70, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Open burning of agricultural residues reduction\", \"value\": 90, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Agroforestry conversion of agricultural lands\", \"value\": 2500000, \"unit\": \"ha\", \"timeframe\": \"by 2035\", \"context\": \"≈ 15.2% of current agriculture area\"}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Vulnerable agricultural operators using climate-smart practices\", \"value\": 60, \"unit\": \"%\", \"timeframe\": \"by 2035\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Livestock waste valorization through composting and methanization\", \"value\": 50, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Low-emission semi-intensive and intensive livestock systems\", \"value\": 50, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Alternate wetting and drying irrigation technique\", \"value\": 50, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Rice cultivation rotation or crop association\", \"value\": 60, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Community-controlled composting units\", \"value\": 50, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Organic fertilization technical guides development\", \"value\": 70, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Organic fertilizer spreading calendars dissemination\", \"value\": 70, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Innovative organic fertilizer incorporation techniques\", \"value\": 65, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Agricultural residue transformation units\", \"value\": 70, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Agricultural residue collection platforms\", \"value\": 80, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Burning ban integration into land management codes\", \"value\": 100, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Hydro-agricultural infrastructure productivity and resilience\", \"value\": 75, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Climate-adapted production material varieties\", \"value\": 50, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Adapted fertilizer formulas per soil and crop type\", \"value\": 50, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Rice productivity and quality optimization\", \"value\": 50, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Post-harvest loss reduction\", \"value\": 40, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Rice holdings climate resilience\", \"value\": 70, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Livestock methane emission reduction\", \"value\": 30, \"unit\": \"%\", \"timeframe\": null, \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Open burning reduction by 2025\", \"value\": 15, \"unit\": \"%\", \"timeframe\": \"by 2025\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"Open burning reduction by 2030\", \"value\": 10, \"unit\": \"%\", \"timeframe\": \"by 2030\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"SRI rice cultivation (2025 target)\", \"value\": 50, \"unit\": \"%\", \"timeframe\": \"by 2025\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"SRI rice cultivation (2030 target)\", \"value\": 10, \"unit\": \"%\", \"timeframe\": \"by 2030\", \"context\": null}, {\"commitment_type\": \"Agriculture\", \"metric\": \"SRI rice cultivation (90% target)\", \"value\": 90, \"unit\": \"%\", \"timeframe\": \"by 2025\", \"context\": null}]}",
+  "errors": [
+    "attempt 1: ValueError: unbalanced JSON object in answer",
+    "attempt 2: ValueError: unbalanced JSON object in answer"
+  ]
+}

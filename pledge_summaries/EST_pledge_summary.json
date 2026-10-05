@@ -1,0 +1,58 @@
+{
+  "iso3": "EST",
+  "country": "Estonia",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "n_passages": 34,
+  "geo_context": {
+    "country_area_km2": 45238.1,
+    "land_cover_km2": {
+      "Agriculture": 11407.0,
+      "Forest": 26735.0,
+      "Grassland": 2275.0,
+      "Wetland": 2074.0,
+      "Settlement": 308.0,
+      "Shrubland": 2.0,
+      "Sparse_vegetation": 7.0,
+      "Bare_area": 7.0,
+      "Water": 2430.0
+    }
+  },
+  "summary": "Estonia's NDC embeds EU-level ecosystem targets. In conservation, it reports a national LULUCF net removals target of -434 Kt CO2eq for 2030, contributing to the EU collective target of -310 Mt CO2-eq by 2030. For restoration, it references the EU target to place restoration measures on at least 20% of EU land and sea areas by 2030, and highlights rewetting/restoring peatlands and wetlands (51–54 Mt CO2-eq/yr EU potential) and reforestation with sustainable forest management (8–235 Mt CO2-eq/yr) as key measures. In agriculture, it includes improving fertiliser use efficiency to cut nitrous oxide emissions (19 Mt CO2-eq/yr). These pledges are set against Estonia's landscape, which is 59.1% forest, 25.2% agriculture, and 4.6% wetland.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "LULUCF net removals target (EU collective)",
+      "value": -310.0,
+      "unit": "Mt CO2-eq",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "National LULUCF net removals target",
+      "value": -434.0,
+      "unit": "Kt CO2eq",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration measures in EU land and sea areas",
+      "value": 20.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Fertiliser use efficiency to cut nitrous oxide emissions",
+      "value": 19.0,
+      "unit": "Mt CO2-eq/yr",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Estonia's NDC embeds EU-level ecosystem targets. In conservation, it reports a national LULUCF net removals target of -434 Kt CO2eq for 2030, contributing to the EU collective target of -310 Mt CO2-eq by 2030. For restoration, it references the EU target to place restoration measures on at least 20% of EU land and sea areas by 2030, and highlights rewetting/restoring peatlands and wetlands (51–54 Mt CO2-eq/yr EU potential) and reforestation with sustainable forest management (8–235 Mt CO2-eq/yr) as key measures. In agriculture, it includes improving fertiliser use efficiency to cut nitrous oxide emissions (19 Mt CO2-eq/yr). These pledges are set against Estonia's landscape, which is 59.1% forest, 25.2% agriculture, and 4.6% wetland.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"LULUCF net removals target (EU collective)\",\n      \"value\": -310.0,\n      \"unit\": \"Mt CO2-eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"National LULUCF net removals target\",\n      \"value\": -434.0,\n      \"unit\": \"Kt CO2eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration measures in EU land and sea areas\",\n      \"value\": 20.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Fertiliser use efficiency to cut nitrous oxide emissions\",\n      \"value\": 19.0,\n      \"unit\": \"Mt CO2-eq/yr\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

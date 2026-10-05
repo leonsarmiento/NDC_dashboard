@@ -1,0 +1,42 @@
+{
+  "iso3": "PRK",
+  "country": "Democratic People's Republic of Korea",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "n_passages": 2,
+  "geo_context": {
+    "country_area_km2": 122601.2,
+    "land_cover_km2": {
+      "Agriculture": 43035.0,
+      "Forest": 76178.0,
+      "Grassland": 333.0,
+      "Wetland": 34.0,
+      "Settlement": 984.0,
+      "Shrubland": 210.0,
+      "Sparse_vegetation": 92.0,
+      "Bare_area": 119.0,
+      "Water": 1626.0
+    }
+  },
+  "summary": "The DPRK's NDC ecosystem pledges focus exclusively on restoration through reforestation. In the first phase of the Forest Campaign (2015–2017), 603,000 hectares were reforested. A further target plans to forest and reforest more than 1,000,000 hectares of mountain areas by 2024. These commitments are substantial relative to the country's current forest cover of 76,178 km2 (62.1% of total land area): the completed phase equals roughly 7.9% of current forest area, and the planned target equals about 13.1%. No numerical conservation or agriculture pledges are provided.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 603000.0,
+      "unit": "ha",
+      "timeframe": "2015–2017",
+      "context": "≈ 7.9% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Forestation and reforestation of mountain areas",
+      "value": 1000000.0,
+      "unit": "ha",
+      "timeframe": "by 2024",
+      "context": "≈ 13.1% of current forest cover"
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"The DPRK's NDC ecosystem pledges focus exclusively on restoration through reforestation. In the first phase of the Forest Campaign (2015–2017), 603,000 hectares were reforested. A further target plans to forest and reforest more than 1,000,000 hectares of mountain areas by 2024. These commitments are substantial relative to the country's current forest cover of 76,178 km2 (62.1% of total land area): the completed phase equals roughly 7.9% of current forest area, and the planned target equals about 13.1%. No numerical conservation or agriculture pledges are provided.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 603000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2015–2017\",\n      \"context\": \"≈ 7.9% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Forestation and reforestation of mountain areas\",\n      \"value\": 1000000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2024\",\n      \"context\": \"≈ 13.1% of current forest cover\"\n    }\n  ]\n}",
+  "errors": []
+}

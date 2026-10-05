@@ -1,0 +1,90 @@
+{
+  "iso3": "TUR",
+  "country": "Türkiye",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "n_passages": 8,
+  "geo_context": {
+    "country_area_km2": 781022.0,
+    "land_cover_km2": {
+      "Agriculture": 418356.0,
+      "Forest": 211859.0,
+      "Grassland": 78140.0,
+      "Wetland": 2044.0,
+      "Settlement": 9280.0,
+      "Shrubland": 5664.0,
+      "Sparse_vegetation": 30436.0,
+      "Bare_area": 11246.0,
+      "Water": 14010.0
+    }
+  },
+  "summary": "Türkiye’s ecosystem pledges combine agriculture, conservation, restoration, and mixed water-management measures. In agriculture, 4.76 million hectares of land consolidation were completed by end-2020 (≈11% of current agricultural land cover), and 8.5 million hectares of inland consolidation are to be completed in 2023 (≈20%). Conservation commitments include river-basin management and water-allocation plans for 25 river basins, plus flood- and drought-forecasting and early-warning systems for 25 basins by 2030. Restoration focuses on increasing treated wastewater reuse in 35 wetlands that are or will dry out. Cross-cutting targets raise treated wastewater reuse to 15% by 2030 and complete flood- and drought-management plans for 25 river basins, with revisions every six years.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Land consolidation completed",
+      "value": 4760000.0,
+      "unit": "ha",
+      "timeframe": "by end of 2020",
+      "context": "≈ 11% of current agricultural land cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Inland land consolidation",
+      "value": 8500000.0,
+      "unit": "ha",
+      "timeframe": "in 2023",
+      "context": "≈ 20% of current agricultural land cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Treated wastewater reuse rate",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Flood and drought management plans",
+      "value": 25.0,
+      "unit": "river basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "River-basin management and water-allocation plans",
+      "value": 25.0,
+      "unit": "river basins",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Flood-forecasting and early-warning system",
+      "value": 25.0,
+      "unit": "river basins",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Drought-forecasting and early-warning system",
+      "value": 25.0,
+      "unit": "river basins",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Wetlands targeted for treated wastewater reuse",
+      "value": 35.0,
+      "unit": "wetlands",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Türkiye’s ecosystem pledges combine agriculture, conservation, restoration, and mixed water-management measures. In agriculture, 4.76 million hectares of land consolidation were completed by end-2020 (≈11% of current agricultural land cover), and 8.5 million hectares of inland consolidation are to be completed in 2023 (≈20%). Conservation commitments include river-basin management and water-allocation plans for 25 river basins, plus flood- and drought-forecasting and early-warning systems for 25 basins by 2030. Restoration focuses on increasing treated wastewater reuse in 35 wetlands that are or will dry out. Cross-cutting targets raise treated wastewater reuse to 15% by 2030 and complete flood- and drought-management plans for 25 river basins, with revisions every six years.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Land consolidation completed\",\n      \"value\": 4760000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by end of 2020\",\n      \"context\": \"≈ 11% of current agricultural land cover\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Inland land consolidation\",\n      \"value\": 8500000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"in 2023\",\n      \"context\": \"≈ 20% of current agricultural land cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Treated wastewater reuse rate\",\n      \"value\": 15.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Flood and drought management plans\",\n      \"value\": 25.0,\n      \"unit\": \"river basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"River-basin management and water-allocation plans\",\n      \"value\": 25.0,\n      \"unit\": \"river basins\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Flood-forecasting and early-warning system\",\n      \"value\": 25.0,\n      \"unit\": \"river basins\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Drought-forecasting and early-warning system\",\n      \"value\": 25.0,\n      \"unit\": \"river basins\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Wetlands targeted for treated wastewater reuse\",\n      \"value\": 35.0,\n      \"unit\": \"wetlands\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

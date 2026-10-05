@@ -1,0 +1,90 @@
+{
+  "iso3": "FSM",
+  "country": "Federated States of Micronesia",
+  "provider": "openrouter",
+  "model": "inclusionai/ling-3.0-flash",
+  "n_passages": 17,
+  "geo_context": {
+    "country_area_km2": 622.4,
+    "land_cover_km2": {
+      "Agriculture": 31.0,
+      "Forest": 456.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 45.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 99.0
+    }
+  },
+  "summary": "FSM's ecosystem pledges focus primarily on marine and terrestrial conservation. The country committed to effectively managing 50% of its marine resources and 30% of its terrestrial resources by 2035, aligning with the expanded Micronesia Challenge 2030 (MC2030). Additionally, FSM pledged to restore, manage, and protect over 50% of coastal marine habitats—including coral reefs, seagrass, and wetlands—by 2035 to sustain nearshore fisheries. Commercial fishing will be restricted in up to 30% of the marine environment, and marine governance and surveillance systems will be strengthened across 30% of marine waters. The Blue Prosperity Micronesia program aims to protect 30% of FSM's ocean by 2030. The original Micronesia Challenge (2006) set earlier targets of conserving 30% of near-shore marine resources and 20% of terrestrial resources by 2020.",
+  "targets": [
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial resources managed",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": "≈ 30% of the country's total land area (622 km²)"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine resources managed",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine area restricting commercial fishing",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Marine waters with strengthened governance and surveillance",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ocean protected (Blue Prosperity Micronesia)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": "≈ 30% of FSM's ~897,000 km² marine waters"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Coastal marine habitats restored, managed, and protected",
+      "value": 50,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Near-shore marine resources conserved (Micronesia Challenge)",
+      "value": 30,
+      "unit": "%",
+      "timeframe": "by 2020",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial resources conserved (Micronesia Challenge)",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "by 2020",
+      "context": null
+    }
+  ],
+  "raw_answer": "```json\n{\n  \"summary\": \"FSM's ecosystem pledges focus primarily on marine and terrestrial conservation. The country committed to effectively managing 50% of its marine resources and 30% of its terrestrial resources by 2035, aligning with the expanded Micronesia Challenge 2030 (MC2030). Additionally, FSM pledged to restore, manage, and protect over 50% of coastal marine habitats—including coral reefs, seagrass, and wetlands—by 2035 to sustain nearshore fisheries. Commercial fishing will be restricted in up to 30% of the marine environment, and marine governance and surveillance systems will be strengthened across 30% of marine waters. The Blue Prosperity Micronesia program aims to protect 30% of FSM's ocean by 2030. The original Micronesia Challenge (2006) set earlier targets of conserving 30% of near-shore marine resources and 20% of terrestrial resources by 2020.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial resources managed\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 30% of the country's total land area (622 km²)\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine resources managed\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine area restricting commercial fishing\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Marine waters with strengthened governance and surveillance\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ocean protected (Blue Prosperity Micronesia)\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": \"≈ 30% of FSM's ~897,000 km² marine waters\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Coastal marine habitats restored, managed, and protected\",\n      \"value\": 50,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Near-shore marine resources conserved (Micronesia Challenge)\",\n      \"value\": 30,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2020\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial resources conserved (Micronesia Challenge)\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2020\",\n      \"context\": null\n    }\n  ]\n}\n```",
+  "errors": []
+}

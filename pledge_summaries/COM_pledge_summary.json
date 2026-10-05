@@ -1,0 +1,138 @@
+{
+  "iso3": "COM",
+  "country": "Union des Comores",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "n_passages": 26,
+  "geo_context": {
+    "country_area_km2": 1659.3,
+    "land_cover_km2": {
+      "Agriculture": 203.0,
+      "Forest": 1355.0,
+      "Grassland": 6.0,
+      "Wetland": 0.0,
+      "Settlement": 19.0,
+      "Shrubland": 20.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 56.0
+    }
+  },
+  "summary": "Comoros' NDC blends restoration, conservation, and agriculture, aiming for net sequestration of -1,437 Gg CO2eq by 2035. Restoration targets include 1,200 ha of Eucalyptus planting, 2,200 ha of reforestation (≈1.6% of current forest cover), 8,000 ha of degraded-forest restoration (≈5.9% of forest cover), 6,000 ha of watershed restoration, 1,000 ha of mangroves, 600 ha of coral reefs, a 30–40% erosion cut, and 250,000 tCO2eq/year sequestration. Conservation would expand terrestrial protected areas to 50,500 ha (≈30% of total land area) and raise forest ecological connectivity by 20%. Agriculture would extend agroforestry to 2,300 ha (≈11% of current agricultural area) and increase soil organic matter by 15%. A mixed PES mechanism targets 50,000 beneficiary households.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Eucalyptus planting",
+      "value": 1200,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 0.9% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 2200,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 1.6% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Watershed restoration",
+      "value": 6000,
+      "unit": "ha",
+      "timeframe": "2030–2040",
+      "context": "≈ 3.6% of total land area"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration of degraded forests",
+      "value": 8000,
+      "unit": "ha",
+      "timeframe": "2030–2040",
+      "context": "≈ 5.9% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Mangrove restoration",
+      "value": 1000,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Coral reef restoration",
+      "value": 600,
+      "unit": "ha",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reduction of water erosion on sensitive slopes",
+      "value": 40,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Carbon sequestration",
+      "value": 250000,
+      "unit": "tCO2eq/year",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Terrestrial protected areas",
+      "value": 50500,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 30% of total land area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Ecological connectivity between forest massifs",
+      "value": 20,
+      "unit": "%",
+      "timeframe": "2030–2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agroforestry extension",
+      "value": 2300,
+      "unit": "ha",
+      "timeframe": "by 2050",
+      "context": "≈ 11% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Soil fertility in agroforestry systems",
+      "value": 15,
+      "unit": "%",
+      "timeframe": "2030–2040",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Net carbon sequestration (LULUCF)",
+      "value": -1437,
+      "unit": "Gg CO2eq",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Payments for ecosystem services and participatory forestry beneficiaries",
+      "value": 50000,
+      "unit": "beneficiary households",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Comoros' NDC blends restoration, conservation, and agriculture, aiming for net sequestration of -1,437 Gg CO2eq by 2035. Restoration targets include 1,200 ha of Eucalyptus planting, 2,200 ha of reforestation (≈1.6% of current forest cover), 8,000 ha of degraded-forest restoration (≈5.9% of forest cover), 6,000 ha of watershed restoration, 1,000 ha of mangroves, 600 ha of coral reefs, a 30–40% erosion cut, and 250,000 tCO2eq/year sequestration. Conservation would expand terrestrial protected areas to 50,500 ha (≈30% of total land area) and raise forest ecological connectivity by 20%. Agriculture would extend agroforestry to 2,300 ha (≈11% of current agricultural area) and increase soil organic matter by 15%. A mixed PES mechanism targets 50,000 beneficiary households.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Eucalyptus planting\",\n      \"value\": 1200,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 0.9% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 2200,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 1.6% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Watershed restoration\",\n      \"value\": 6000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030–2040\",\n      \"context\": \"≈ 3.6% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration of degraded forests\",\n      \"value\": 8000,\n      \"unit\": \"ha\",\n      \"timeframe\": \"2030–2040\",\n      \"context\": \"≈ 5.9% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Mangrove restoration\",\n      \"value\": 1000,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Coral reef restoration\",\n      \"value\": 600,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reduction of water erosion on sensitive slopes\",\n      \"value\": 40,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Carbon sequestration\",\n      \"value\": 250000,\n      \"unit\": \"tCO2eq/year\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Terrestrial protected areas\",\n      \"value\": 50500,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 30% of total land area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Ecological connectivity between forest massifs\",\n      \"value\": 20,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030–2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agroforestry extension\",\n      \"value\": 2300,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2050\",\n      \"context\": \"≈ 11% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Soil fertility in agroforestry systems\",\n      \"value\": 15,\n      \"unit\": \"%\",\n      \"timeframe\": \"2030–2040\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Net carbon sequestration (LULUCF)\",\n      \"value\": -1437,\n      \"unit\": \"Gg CO2eq\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Payments for ecosystem services and participatory forestry beneficiaries\",\n      \"value\": 50000,\n      \"unit\": \"beneficiary households\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

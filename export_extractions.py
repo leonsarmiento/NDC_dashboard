@@ -57,7 +57,8 @@ COUNTRY_ISO3 = {
     "bhutan": "BTN", "bolivia": "BOL", "bosnia and herzegovina": "BIH",
     "botswana": "BWA", "brazil": "BRA", "brunei": "BRN",
     "brunei darussalam": "BRN", "bulgaria": "BGR", "burkina faso": "BFA",
-    "burundi": "BDI", "cabo verde": "CPV", "cambodia": "KHM",
+    "burundi": "BDI", "cabo verde": "CPV", "central african republic": "CAF",
+    "cambodia": "KHM",
     "cameroon": "CMR", "canada": "CAN", "chad": "TCD", "chile": "CHL",
     "china": "CHN", "colombia": "COL", "comoros": "COM", "congo": "COG",
     "cook islands": "COK", "costa rica": "CRI", "cuba": "CUB",
@@ -66,8 +67,8 @@ COUNTRY_ISO3 = {
     "denmark": "DNK", "djibouti": "DJI", "dominica": "DMA",
     "dominican republic": "DOM", "ecuador": "ECU", "egypt": "EGY",
     "el salvador": "SLV", "equatorial guinea": "GNQ", "eritrea": "ERI",
-    "eswatini": "SWZ", "ethiopia": "ETH", "fiji": "FJI", "finland": "FIN",
-    "france": "FRA", "gabon": "GAB", "georgia": "GEO", "germany": "DEU",
+    "eswatini": "SWZ", "ethiopia": "ETH", "estonia": "EST", "fiji": "FJI", "finland": "FIN",
+    "france": "FRA", "gabon": "GAB", "gambia": "GMB", "georgia": "GEO", "germany": "DEU",
     "ghana": "GHA", "greece": "GRC", "grenada": "GRD", "guatemala": "GTM",
     "guinea": "GIN", "guinea-bissau": "GNB", "guyana": "GUY", "haiti": "HTI",
     "honduras": "HND", "hungary": "HUN", "iceland": "ISL", "india": "IND",
@@ -84,7 +85,8 @@ COUNTRY_ISO3 = {
     "mongolia": "MNG", "montenegro": "MNE", "morocco": "MAR", "mozambique": "MOZ",
     "myanmar": "MMR", "namibia": "NAM", "nauru": "NRU", "nepal": "NPL",
     "netherlands": "NLD", "new zealand": "NZL", "nicaragua": "NIC",
-    "niger": "NER", "nigeria": "NGA", "niue": "NIU", "north macedonia": "MKD",
+    "niger": "NER", "nigeria": "NGA", "niue": "NIU", "north korea": "PRK",
+    "north macedonia": "MKD",
     "norway": "NOR", "oman": "OMN", "pakistan": "PAK", "palau": "PLW",
     "panama": "PAN", "papua new guinea": "PNG", "paraguay": "PRY", "peru": "PER",
     "philippines": "PHL", "poland": "POL", "portugal": "PRT",
@@ -113,7 +115,7 @@ COUNTRY_ISO3 = {
 # the LLM output -> plain canonical name (lowercase).
 LONG_FORM_ALIASES = {
     "commonwealth of dominica": "dominica",
-    "democratic people's republic of korea": "korea",
+    "democratic people's republic of korea": "PRK",
     "democratic republic of the congo": "congo",  # DRC -> kept as "congo" below
     "islamic republic of afghanistan": "afghanistan",
     "kingdom of bahrain": "bahrain",
@@ -158,12 +160,46 @@ LONG_FORM_ALIASES = {
     "são tomé e príncipe": "sao tome and principe",
     "sao tomé and príncipe": "sao tome and principe",
     "bénin": "benin",
+    "faroe islands": "FRO",
     "gambia": "gambia",
+    # official / long forms seen in the simple-prompt output
+    "mauritanie": "mauritania",
+    "côte d'ivoire": "cote d'ivoire",
+    "union des comores": "comoros",
+    "république de côte d'ivoire": "cote d'ivoire",
+    "türkiye": "turkiye",
+    "republic of türkiye": "turkiye",
+    "federative republic of brazil": "brazil",
+    "são tomé and príncipe": "sao tome and principe",
+    "república de guinea ecuatorial": "equatorial guinea",
+    "république de guinée": "guinea",
+    "république de madagascar": "madagascar",
+    "république du tchad": "chad",
+    "république de djibouti": "djibouti",
+    "républica de guinea ecuatorial": "equatorial guinea",
+    "republic of sierra leone": "sierra leone",
+    "republic of south sudan": "south sudan",
+    "democratic republic of são tomé and príncipe": "sao tome and principe",
+    "the commonwealth of the bahamas": "bahamas",
+    "the commonwealth of dominica": "dominica",
+    "republic of liberia": "liberia",
+    "republic of armenia": "armenia",
+    "republic of iraq": "iraq",
+    "federated states of micronesia": "micronesia",
+    "republic of uzbekistan": "uzbekistan",
+    "republic of seychelles": "seychelles",
+    "republic of tajikistan": "tajikistan",
+    "republic of the sudan": "sudan",
+    "republic of mozambique": "mozambique",
+    "republic of kiribati": "kiribati",
+    "republic of belarus": "belarus",
+    "st. vincent and the grenadines": "saint vincent and the grenadines",
+    "viet nam": "vietnam",
+    "republic of cameroon": "cameroon",
+    "république du cameroun": "cameroon",
     "central african republic": "CAF",
     # fix entries above that collide with plain ISO3 lookups
 }
-# entries whose plain name is itself an ISO3 code map directly
-LONG_FORM_ALIASES["central african republic"] = "CAF"
 
 # DRC vs Republic of the Congo: both map to "congo" (COG) in the table above.
 # DRC is COD. Resolve the ambiguous long forms explicitly.
@@ -174,21 +210,50 @@ DRC_ALIASES = {
 
 _ISO3_RE = re.compile(r"^[A-Z]{3}$")
 
+_EU_ALIASES_LOWER = {a.lower() for a in EU_ALIASES}
+_DRC_ALIASES_LOWER = {a.lower() for a in DRC_ALIASES}
+
+
+def _map_candidate(s: str) -> str:
+    """Map one lowercased candidate string ('' when unmapped)."""
+    if not s:
+        return ""
+    if s in _EU_ALIASES_LOWER:
+        return "EU"
+    if s in _DRC_ALIASES_LOWER:
+        return "COD"
+    s = LONG_FORM_ALIASES.get(s, s)
+    if s in _EU_ALIASES_LOWER:
+        return "EU"
+    if s in _DRC_ALIASES_LOWER:
+        return "COD"
+    # direct ISO-3 value (alias maps that already store a code, e.g. CAF)
+    if _ISO3_RE.match(s):
+        return s.upper()
+    return COUNTRY_ISO3.get(s, "")
+
 
 def country_to_iso3(name: str) -> str:
-    """Map a free-text country name to an ISO-3 code ('' when unmapped)."""
+    """Map a free-text country name to an ISO-3 code ('' when unmapped).
+
+    Tries the whole name first, then any parenthesised parts, then the
+    de-parenthesised remainder — the LLM sometimes answers with long
+    official forms such as ``Bolivia (Plurinational State of Bolivia)``
+    or ``Venezuela (Bolivarian Republic of)``.
+    """
     if not name or name.strip().upper() == "NA":
         return ""
     s = " ".join(name.split()).lower()
-    if s in EU_ALIASES or s in {a.lower() for a in EU_ALIASES}:
+    if s.startswith("european union"):
         return "EU"
-    if s in {a.lower() for a in DRC_ALIASES}:
-        return "COD"
-    s = LONG_FORM_ALIASES.get(s, s)
-    # direct ISO-3 value (alias maps that already store a code, e.g. CAF)
-    if _ISO3_RE.match(s.upper()):
-        return s.upper()
-    return COUNTRY_ISO3.get(s, "")
+    candidates = [s]
+    candidates += re.findall(r"\(([^)]+)\)", s)
+    candidates.append(re.sub(r"\([^)]*\)", " ", s))
+    for c in candidates:
+        code = _map_candidate(" ".join(c.split()))
+        if code:
+            return code
+    return ""
 
 
 def iso3_to_names(code: str) -> set[str]:
@@ -247,11 +312,22 @@ def load_rows(folder: Path) -> pd.DataFrame:
         doc = d.get("document") or {}
         source_file = d.get("source_file", f.stem)
         country = _disaggregate_eu(source_file, str(doc.get("country", "NA")))
+        iso3 = country_to_iso3(country)
+        if not iso3:
+            # the LLM occasionally misses the country ("NA") — the file name
+            # usually starts with it (e.g. ``Thailand_Second NDC_...``)
+            for tok in Path(source_file).stem.split("_"):
+                tok = tok.strip()
+                if tok:
+                    iso3 = country_to_iso3(tok)
+                    if iso3:
+                        country = tok
+                        break
         base = {
             "source_file": source_file,
             "provider": d.get("provider", "NA"),
             "model": d.get("model", "NA"),
-            "iso3": country_to_iso3(country),
+            "iso3": iso3,
             "doc_country": country,
         }
         base.update({f"doc_{k}": doc.get(k, "NA") for k in schema.DOCUMENT_FIELDS})
@@ -389,14 +465,20 @@ def main(argv=None):
         df, args.country, args.commitment, args.relevance,
         args.has_target, args.target_contains, args.search,
     )
-    criteria = ", ".join(
-        [f"country={args.country}"] if args.country else []
-        + [f"commitment={args.commitment}"] if args.commitment else []
-        + [f"relevance={args.relevance}"] if args.relevance else []
-        + (["has_target"] if args.has_target else [])
-        + (f"target~'{args.target_contains}'" if args.target_contains else "")
-        + (f"search~'{args.search}'" if args.search else "")
-    )
+    crit = []
+    if args.country:
+        crit.append(f"country={args.country}")
+    if args.commitment:
+        crit.append(f"commitment={args.commitment}")
+    if args.relevance:
+        crit.append(f"relevance={args.relevance}")
+    if args.has_target:
+        crit.append("has_target")
+    if args.target_contains:
+        crit.append(f"target~'{args.target_contains}'")
+    if args.search:
+        crit.append(f"search~'{args.search}'")
+    criteria = ", ".join(crit)
     print(f"loaded {before} rows from {folder}  ->  {len(out)} after filters")
     if len(out):
         cols = ["iso3", "doc_country", "source_file", "passage_commitment_type",

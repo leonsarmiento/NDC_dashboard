@@ -1,0 +1,122 @@
+{
+  "iso3": "GMB",
+  "country": "The Gambia",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "n_passages": 12,
+  "geo_context": {
+    "country_area_km2": 9650.2,
+    "land_cover_km2": {
+      "Agriculture": 6798.0,
+      "Forest": 1767.0,
+      "Grassland": 2.0,
+      "Wetland": 23.0,
+      "Settlement": 157.0,
+      "Shrubland": 793.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 3.0,
+      "Water": 129.0
+    }
+  },
+  "summary": "The Gambia's NDC pledges span agriculture, restoration, conservation, and mixed land-use actions. In agriculture, the country targets 30,000 ha of methane-reducing rice management, 150,000 ha of zero/minimum tillage, and 50,000 ha of cover crops by 2035, plus 95,000 ha of multistrata agroforestry; these area pledges cover about 48% of current agricultural land. Restoration commitments include reforesting 80,000 ha and establishing 75,000 ha of agroforestry/restoration systems by 2035, equivalent to about 45% and 42% of current forest cover, respectively. Conservation aims to protect 72,000 ha of forest from deforestation/degradation (≈41% of forest cover). Additional quantified GHG reductions include 205, 408, 169, 169, and 373 GgCO2e for climate-smart agriculture, livestock, agroforestry, firewood, and re-greening degraded landscapes.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Reforestation",
+      "value": 80000.0,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 45.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "REDD+: avoided deforestation",
+      "value": 72000.0,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 40.7% of current forest cover"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rice crop methane-reducing management",
+      "value": 30000.0,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 4.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Zero/minimum tillage",
+      "value": 150000.0,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 22.1% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Cover crops",
+      "value": 50000.0,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 7.4% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Multistrata agroforestry area",
+      "value": 95000.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 14.0% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Climate-smart agriculture (MA1)",
+      "value": 205.0,
+      "unit": "GgCO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Livestock productivity (MA2)",
+      "value": 408.0,
+      "unit": "GgCO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Multistrata agroforestry (MA3)",
+      "value": 169.0,
+      "unit": "GgCO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Firewood from agroforestry (MA4)",
+      "value": 169.0,
+      "unit": "GgCO2e",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reforestation with agroforestry",
+      "value": 75000.0,
+      "unit": "ha",
+      "timeframe": "by 2035",
+      "context": "≈ 42.4% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Re-greening degraded landscapes",
+      "value": 373.0,
+      "unit": "GgCO2e",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"The Gambia's NDC pledges span agriculture, restoration, conservation, and mixed land-use actions. In agriculture, the country targets 30,000 ha of methane-reducing rice management, 150,000 ha of zero/minimum tillage, and 50,000 ha of cover crops by 2035, plus 95,000 ha of multistrata agroforestry; these area pledges cover about 48% of current agricultural land. Restoration commitments include reforesting 80,000 ha and establishing 75,000 ha of agroforestry/restoration systems by 2035, equivalent to about 45% and 42% of current forest cover, respectively. Conservation aims to protect 72,000 ha of forest from deforestation/degradation (≈41% of forest cover). Additional quantified GHG reductions include 205, 408, 169, 169, and 373 GgCO2e for climate-smart agriculture, livestock, agroforestry, firewood, and re-greening degraded landscapes.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Reforestation\",\n      \"value\": 80000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 45.3% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"REDD+: avoided deforestation\",\n      \"value\": 72000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 40.7% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rice crop methane-reducing management\",\n      \"value\": 30000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 4.4% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Zero/minimum tillage\",\n      \"value\": 150000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 22.1% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Cover crops\",\n      \"value\": 50000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 7.4% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Multistrata agroforestry area\",\n      \"value\": 95000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈ 14.0% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Climate-smart agriculture (MA1)\",\n      \"value\": 205.0,\n      \"unit\": \"GgCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Livestock productivity (MA2)\",\n      \"value\": 408.0,\n      \"unit\": \"GgCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Multistrata agroforestry (MA3)\",\n      \"value\": 169.0,\n      \"unit\": \"GgCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Firewood from agroforestry (MA4)\",\n      \"value\": 169.0,\n      \"unit\": \"GgCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reforestation with agroforestry\",\n      \"value\": 75000.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"by 2035\",\n      \"context\": \"≈ 42.4% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Re-greening degraded landscapes\",\n      \"value\": 373.0,\n      \"unit\": \"GgCO2e\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

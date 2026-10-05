@@ -3,7 +3,7 @@
 Interactive Streamlit dashboard for exploring **NDC (Nationally Determined
 Contribution) document extractions** and **per-country pledge summaries**.
 
-**Live deployment:** https://your-app.streamlit.app *(replace with the live URL)*
+**Live deployment:** https://iis-ndc-explorer.streamlit.app
 
 Two pages (switchable in the sidebar):
 
@@ -22,12 +22,17 @@ Two pages (switchable in the sidebar):
 | Path | Contents |
 | ---- | -------- |
 | `data/extractions.tar.gz` | All extraction JSONs (one per NDC document, ~23.7k passages), bundled and compressed. Extracted to a temp folder on first page load. |
-| `pledge_summaries/` | One `*_pledge_summary.json` per country (162 countries). |
+| `pledge_summaries/` | One `*_pledge_summary.json` per country. |
 | `logo_for_banner.png` | Sidebar banner. |
 
 The heavy source material (document folders, rasters, shapefiles) lives in
 the companion repo [`NDC_document_processor`](https://github.com/leonsarmiento/NDC_document_processor)
 and is **not** part of this dashboard.
+
+Country names in the extraction JSONs are normalised to 3-letter codes
+(the World Bank Admin-0 `ISO_A3` list, same as the geodata pipeline and the
+maps) by `export_extractions.py` at load time — keep it in sync with the
+companion repo when the mapping improves.
 
 To refresh the extraction data after a new processing run, repack:
 

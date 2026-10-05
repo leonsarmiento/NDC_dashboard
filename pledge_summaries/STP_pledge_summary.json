@@ -1,0 +1,298 @@
+{
+  "iso3": "STP",
+  "country": "São Tomé and Príncipe",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "n_passages": 73,
+  "geo_context": {
+    "country_area_km2": 996.0,
+    "land_cover_km2": {
+      "Agriculture": 73.0,
+      "Forest": 877.0,
+      "Grassland": 0.0,
+      "Wetland": 0.0,
+      "Settlement": 15.0,
+      "Shrubland": 0.0,
+      "Sparse_vegetation": 0.0,
+      "Bare_area": 0.0,
+      "Water": 22.0
+    }
+  },
+  "summary": "São Tomé and Príncipe's pledges span restoration, conservation, and agriculture. Restoration targets include assisted natural regeneration of 17,621 ha of secondary forest (≈20% of current forest cover), natural regeneration of 3,537 ha, planting of 250 ha of native species, and enrichment of 20,130 ha of shade forests and crop diversification (≈23% of forest cover), strengthening the FOLU carbon sink to -337.19 Gg CO₂eq by 2030. Conservation measures aim to cut timber use by 30%, firewood/charcoal consumption by 50%, and forest conversion to agriculture, settlements, and savanna by 15% each, while preventing savanna fires on 4,402 ha and distributing 39,600 improved stoves. Agriculture pledges include 100% organic agriculture, 2,035 ha of solar-powered irrigation (≈28% of agricultural land), 50% conservation agriculture, and 60% IPM adoption by 2035. The country also commits to restoring net carbon sink status by 2030–2035.",
+  "targets": [
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Charcoal production efficiency improvement",
+      "value": 10.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Rural farmers with access to climate information and early warning",
+      "value": 90.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Horticulturists and export-crop producers using Integrated Pest Management",
+      "value": 60.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Farmers trained in Digital Agricultural Technologies",
+      "value": 75.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Increase in aquaculture production",
+      "value": 50.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Organic agriculture",
+      "value": 100.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈ 7,300 ha (current agricultural area)"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Agricultural land with solar-powered irrigation",
+      "value": 2035.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 28% of current agricultural area"
+    },
+    {
+      "commitment_type": "Agriculture",
+      "metric": "Community retention ponds for agriculture",
+      "value": 5.0,
+      "unit": "ponds",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Household adoption of LPG stoves",
+      "value": 15.8,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Household adoption of electric and solar stoves",
+      "value": 0.2,
+      "unit": "%",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in firewood and charcoal consumption",
+      "value": 50.0,
+      "unit": "%",
+      "timeframe": "from 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in forest conversion to agriculture",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": "from 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in forest conversion to settlements",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": "from 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Reduction in forest conversion to savanna",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": "from 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Artisanal fishing fleet using selective fishing gear",
+      "value": 90.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Coastline covered by climate-sensitive management plans",
+      "value": 100.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Natural ecosystems critical to endemic species under legal protection",
+      "value": 100.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Remaining mangrove areas under strict legal protection",
+      "value": 100.0,
+      "unit": "%",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Distribution of improved wood- and charcoal-burning stoves",
+      "value": 39600.0,
+      "unit": "stoves",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Savanna fire prevention area",
+      "value": 4401.69,
+      "unit": "ha",
+      "timeframe": "from 2026",
+      "context": "≈ 4.4% of country area"
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Deployment of biodegradable fish aggregating devices",
+      "value": 150.0,
+      "unit": "FADs",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Conservation",
+      "metric": "Watersheds with integrated management plans",
+      "value": 7.0,
+      "unit": "watersheds",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Assisted natural regeneration of secondary forest",
+      "value": 17621.28,
+      "unit": "ha",
+      "timeframe": "from 2026",
+      "context": "≈ 20% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Natural regeneration of native forest",
+      "value": 3537.39,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 4% of current forest cover"
+    },
+    {
+      "commitment_type": "Restoration",
+      "metric": "Artificial beach nourishment",
+      "value": 3.0,
+      "unit": "beaches",
+      "timeframe": "by 2035",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Reduction in timber consumption",
+      "value": 30.0,
+      "unit": "%",
+      "timeframe": "from 2026",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Illegal logging reduced to 15%",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Agricultural area under conservation agriculture",
+      "value": 50.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈ 3,650 ha (50% of current agricultural area)"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Increase in area converted to forest",
+      "value": 15.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": "≈ 212 ha"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Enrichment of shade forests and crop diversification",
+      "value": 20130.4,
+      "unit": "ha",
+      "timeframe": "from 2026",
+      "context": "≈ 23% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Planting of fast-growing native species",
+      "value": 250.0,
+      "unit": "ha",
+      "timeframe": "from 2026",
+      "context": "≈ 0.3% of current forest cover"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Conservation and restoration of mangroves and coastal habitats",
+      "value": 50.0,
+      "unit": "ha",
+      "timeframe": null,
+      "context": "≈ 0.05% of country area"
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "FOLU sector carbon sink",
+      "value": -337.19,
+      "unit": "Gg CO₂eq",
+      "timeframe": "by 2030",
+      "context": null
+    },
+    {
+      "commitment_type": "Both",
+      "metric": "Coastal areas of tourist/economic interest rehabilitated and protected",
+      "value": 4.0,
+      "unit": "areas",
+      "timeframe": "by 2035",
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"São Tomé and Príncipe's pledges span restoration, conservation, and agriculture. Restoration targets include assisted natural regeneration of 17,621 ha of secondary forest (≈20% of current forest cover), natural regeneration of 3,537 ha, planting of 250 ha of native species, and enrichment of 20,130 ha of shade forests and crop diversification (≈23% of forest cover), strengthening the FOLU carbon sink to -337.19 Gg CO₂eq by 2030. Conservation measures aim to cut timber use by 30%, firewood/charcoal consumption by 50%, and forest conversion to agriculture, settlements, and savanna by 15% each, while preventing savanna fires on 4,402 ha and distributing 39,600 improved stoves. Agriculture pledges include 100% organic agriculture, 2,035 ha of solar-powered irrigation (≈28% of agricultural land), 50% conservation agriculture, and 60% IPM adoption by 2035. The country also commits to restoring net carbon sink status by 2030–2035.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Charcoal production efficiency improvement\",\n      \"value\": 10.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Rural farmers with access to climate information and early warning\",\n      \"value\": 90.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Horticulturists and export-crop producers using Integrated Pest Management\",\n      \"value\": 60.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Farmers trained in Digital Agricultural Technologies\",\n      \"value\": 75.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Increase in aquaculture production\",\n      \"value\": 50.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Organic agriculture\",\n      \"value\": 100.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈ 7,300 ha (current agricultural area)\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Agricultural land with solar-powered irrigation\",\n      \"value\": 2035.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈ 28% of current agricultural area\"\n    },\n    {\n      \"commitment_type\": \"Agriculture\",\n      \"metric\": \"Community retention ponds for agriculture\",\n      \"value\": 5.0,\n      \"unit\": \"ponds\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Household adoption of LPG stoves\",\n      \"value\": 15.8,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Household adoption of electric and solar stoves\",\n      \"value\": 0.2,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in firewood and charcoal consumption\",\n      \"value\": 50.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in forest conversion to agriculture\",\n      \"value\": 15.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in forest conversion to settlements\",\n      \"value\": 15.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Reduction in forest conversion to savanna\",\n      \"value\": 15.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Artisanal fishing fleet using selective fishing gear\",\n      \"value\": 90.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Coastline covered by climate-sensitive management plans\",\n      \"value\": 100.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Natural ecosystems critical to endemic species under legal protection\",\n      \"value\": 100.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Remaining mangrove areas under strict legal protection\",\n      \"value\": 100.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Distribution of improved wood- and charcoal-burning stoves\",\n      \"value\": 39600.0,\n      \"unit\": \"stoves\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Savanna fire prevention area\",\n      \"value\": 4401.69,\n      \"unit\": \"ha\",\n      \"timeframe\": \"from 2026\",\n      \"context\": \"≈ 4.4% of country area\"\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Deployment of biodegradable fish aggregating devices\",\n      \"value\": 150.0,\n      \"unit\": \"FADs\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Conservation\",\n      \"metric\": \"Watersheds with integrated management plans\",\n      \"value\": 7.0,\n      \"unit\": \"watersheds\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Assisted natural regeneration of secondary forest\",\n      \"value\": 17621.28,\n      \"unit\": \"ha\",\n      \"timeframe\": \"from 2026\",\n      \"context\": \"≈ 20% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Natural regeneration of native forest\",\n      \"value\": 3537.39,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈ 4% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Artificial beach nourishment\",\n      \"value\": 3.0,\n      \"unit\": \"beaches\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Reduction in timber consumption\",\n      \"value\": 30.0,\n      \"unit\": \"%\",\n      \"timeframe\": \"from 2026\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Illegal logging reduced to 15%\",\n      \"value\": 15.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Agricultural area under conservation agriculture\",\n      \"value\": 50.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈ 3,650 ha (50% of current agricultural area)\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Increase in area converted to forest\",\n      \"value\": 15.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": \"≈ 212 ha\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Enrichment of shade forests and crop diversification\",\n      \"value\": 20130.4,\n      \"unit\": \"ha\",\n      \"timeframe\": \"from 2026\",\n      \"context\": \"≈ 23% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Planting of fast-growing native species\",\n      \"value\": 250.0,\n      \"unit\": \"ha\",\n      \"timeframe\": \"from 2026\",\n      \"context\": \"≈ 0.3% of current forest cover\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Conservation and restoration of mangroves and coastal habitats\",\n      \"value\": 50.0,\n      \"unit\": \"ha\",\n      \"timeframe\": null,\n      \"context\": \"≈ 0.05% of country area\"\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"FOLU sector carbon sink\",\n      \"value\": -337.19,\n      \"unit\": \"Gg CO₂eq\",\n      \"timeframe\": \"by 2030\",\n      \"context\": null\n    },\n    {\n      \"commitment_type\": \"Both\",\n      \"metric\": \"Coastal areas of tourist/economic interest rehabilitated and protected\",\n      \"value\": 4.0,\n      \"unit\": \"areas\",\n      \"timeframe\": \"by 2035\",\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}

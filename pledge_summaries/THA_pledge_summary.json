@@ -1,0 +1,34 @@
+{
+  "iso3": "THA",
+  "country": "Thailand",
+  "provider": "openrouter",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "n_passages": 1,
+  "geo_context": {
+    "country_area_km2": 515343.3,
+    "land_cover_km2": {
+      "Agriculture": 346674.0,
+      "Forest": 135202.0,
+      "Grassland": 1475.0,
+      "Wetland": 55.0,
+      "Settlement": 4307.0,
+      "Shrubland": 18924.0,
+      "Sparse_vegetation": 279.0,
+      "Bare_area": 0.0,
+      "Water": 8456.0
+    }
+  },
+  "summary": "Thailand's NDC contains one restoration pledge with a numerical target of 55%. The extracted passage does not specify the exact ecosystem, baseline, or timeframe, so the target cannot be directly compared with current land-cover areas. In geographical context, Thailand's land is dominated by agriculture (67.3%) and forest (26.2%), but without additional details it is not possible to determine what share of forest, grassland, or other land the restoration target refers to. The pledge is therefore recorded as a restoration commitment of 55%, with no further quantitative breakdown.",
+  "targets": [
+    {
+      "commitment_type": "Restoration",
+      "metric": "Restoration commitment",
+      "value": 55.0,
+      "unit": "%",
+      "timeframe": null,
+      "context": null
+    }
+  ],
+  "raw_answer": "{\n  \"summary\": \"Thailand's NDC contains one restoration pledge with a numerical target of 55%. The extracted passage does not specify the exact ecosystem, baseline, or timeframe, so the target cannot be directly compared with current land-cover areas. In geographical context, Thailand's land is dominated by agriculture (67.3%) and forest (26.2%), but without additional details it is not possible to determine what share of forest, grassland, or other land the restoration target refers to. The pledge is therefore recorded as a restoration commitment of 55%, with no further quantitative breakdown.\",\n  \"targets\": [\n    {\n      \"commitment_type\": \"Restoration\",\n      \"metric\": \"Restoration commitment\",\n      \"value\": 55.0,\n      \"unit\": \"%\",\n      \"timeframe\": null,\n      \"context\": null\n    }\n  ]\n}",
+  "errors": []
+}
