@@ -29,7 +29,10 @@ Three pages (switchable in the sidebar):
 ## Use of AI
 
 This project was developed with the assistance of **open-weights** AI models
-and coding agents.
+and coding agents. The authors deliberately chose open-weights models over
+proprietary closed-source models, to keep the pipeline reproducible and
+independent of any single commercial vendor: open-weights LLMs for all the
+analysis and summarization tasks, and coding agents for all the coding.
 
 - **Coding & orchestration** — implementation, debugging, experiment
   orchestration and analysis support were carried out with coding agents
@@ -44,10 +47,13 @@ and coding agents.
   2** model (768‑d vectors, Apache‑2.0), running fully locally, and fuses the
   result with a BM25 keyword index.
 
-All LLM extractions are checked by a **human verifier**. The authors designed
-the experiments, made the research decisions, reviewed the results, and are
-responsible for the full pipeline, the revision of the results, and the
-final conclusions.
+Extractions from a random **30% subset of countries** are checked by an
+**expert in NDC pledges and ecosystem services**: the expert independently
+identifies each country's main pledges, confirms that each is captured in the
+LLM extractions, and iterates on the extraction prompt template until it
+reliably captures them. The authors designed the experiments, made the
+research decisions, reviewed the results, and are responsible for the full
+pipeline, the revision of the results, and the final conclusions.
 
 ## Data
 
