@@ -65,14 +65,30 @@ report the index as out of sync.
 
 ## Natural-language search (Ask the NDCs)
 
-Every extraction row is embedded once with
-[`google/embeddinggemma-2`](https://huggingface.co/google/embeddinggemma-2)
-(740M params, 768-d vectors, Apache-2.0) via `sentence-transformers`, using
-the model's own task-steered prompts (`Document` for passages,
-`SearchQuery` for questions). Queries are embedded at dashboard runtime and
-scored by cosine similarity against the stored matrix — a ~1.5 GB model
-download on first session (cached afterwards, incl. on Streamlit Cloud) and
-a sub-second search over 24k passages.
+The search is **hybrid**: two independent rankings over the same 23,742
+passages are fused by reciprocal rank fusion (RRF, k = 60).
+
+1. **Semantic rank** — every extraction row is embedded once with
+   [`google/embeddinggemma-2`](https://huggingface.co/google/embeddinggemma-2)
+   (740M params, 768-d vectors, Apache-2.0) via `sentence-transformers`,
+   using the model's own task-steered prompts (`Document` for passages,
+   `SearchQuery` for questions). Queries are embedded at dashboard runtime
+   and scored by cosine similarity against the stored matrix.
+2. **Keyword rank** — a precomputed BM25 index (`data/bm25_index.pkl`,
+   posting lists, no model involved) scores the passage text for the query's
+   exact terms.
+
+**Why hybrid?** Dense single-vector search blends a multi-word query into
+one direction in vector space, so e.g. "flood control" was being satisfied
+by passages that merely mention "control" in unrelated contexts. The BM25
+channel gives credit only where the words actually appear, which fixes that
+class of problem without changing the model. A **strict mode** checkbox goes
+further: it embeds each keyword separately and combines the per-keyword
+cosines as a geometric mean, so *all* concepts must be present to rank high.
+
+The ~1.5 GB model downloads on the first session (cached afterwards, incl.
+on Streamlit Cloud); each search is one short model inference plus a
+few-millisecond matrix multiply and BM25 scan.
 
 **Why `sentence-transformers` and not llama.cpp?** The `gemma-embedding2`
 GGUF architecture (e.g. `unsloth/embeddinggemma-2-GGUF`, Q4_K_XL ≈ 167 MB)
@@ -83,15 +99,18 @@ llama.cpp from source during a Streamlit Cloud deploy exceeds the build
 window. Revisit when a newer llama-cpp-python release ships wheels built
 against a llama.cpp that knows `gemma-embedding2`.
 
-Rebuilding the index (locally, ~20 min on an Apple Silicon Mac):
+Rebuilding both indexes (locally, ~20 min on an Apple Silicon Mac — the
+embedding part dominates; BM25 takes seconds):
 
 ```bash
 python build_embeddings.py   # conda env below; writes data/embeddings.npz
+                             # and data/bm25_index.pkl
 ```
 
 The index row order is locked to `export_extractions.load_rows` (sorted
-document JSONs, passages in document order) — the dashboard rejects the
-page (with instructions) if the row count doesn't match.
+document JSONs, passages in document order). If the embedding index doesn't
+match the row count, the page stops with rebuild instructions; a missing or
+out-of-sync BM25 index merely warns and falls back to pure semantic search.
 
 ## Running locally
 
