@@ -29,19 +29,21 @@ Three pages (switchable in the sidebar):
 ## Use of AI
 
 **Open-weights** AI models and coding agents assisted, under the authors'
-direction, with the data-analysis pipeline described in these repositories: the
-NDC document extractions, the coding of the web dashboard, and the coding of the
-geoprocessing pipeline (not yet exposed in the web dashboard, but to be added
-later). This data-analysis pipeline is only a part of the larger project, not
-the project as a whole. The authors deliberately chose open-weights models over
-proprietary closed-source models to keep the pipeline reproducible and
-independent of any single commercial vendor: open-weights LLMs for the analysis
-and summarization tasks, and coding agents for the coding.
+direction, with specific parts of the data-analysis pipeline described in these
+repositories: the NDC document extractions, the coding of the web dashboard, and
+the coding of the geoprocessing pipeline (not yet exposed in the web dashboard,
+but to be added later). The analysis of the extracted results (summaries) and
+the final conclusions are the authors' own work, not AI-generated. This
+data-analysis pipeline is only a part of the larger project, not the project as
+a whole. The authors deliberately chose open-weights models over proprietary
+closed-source models to keep the pipeline reproducible and independent of any
+single commercial vendor: open-weights LLMs for the extraction, and coding
+agents for the coding.
 
-- **Coding & orchestration** — implementation, debugging, experiment
-  orchestration and analysis support were carried out with coding agents
-  running on the open-weights model **Qwen3.8‑27B**, orchestrated through
-  the **Pi** agent harness.
+- **Coding & orchestration** — implementation, debugging and experiment
+  orchestration for the web dashboard and the geoprocessing pipeline were
+  carried out with coding agents running on the open-weights model
+  **Qwen3.8‑27B**, orchestrated through the **Pi** agent harness.
 - **Text extraction** — the extractions from the NDC source documents were
   produced by open-weights language models running on local and cloud
   servers, including **Qwen3.6‑35B‑A3B**, **DeepSeek v4 Flash**,
