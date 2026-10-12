@@ -26,6 +26,29 @@ Three pages (switchable in the sidebar):
   clicking a row opens the full passage in a card below the table (original
   + translation texts, target, notes, document metadata — no table panning).
 
+## Use of AI
+
+This project was developed with the assistance of **open-weights** AI models
+and coding agents.
+
+- **Coding & orchestration** — implementation, debugging, experiment
+  orchestration and analysis support were carried out with coding agents
+  running on the open-weights model **Qwen3.8‑27B**, orchestrated through
+  the **Pi** agent harness.
+- **Text extraction** — the extractions from the NDC source documents were
+  produced by open-weights language models running on local and cloud
+  servers, including **Qwen3.6‑35B‑A3B**, **DeepSeek v4 Flash**,
+  **DeepSeek v4.1 Flash**, **Ling 3 Flash** and **Ling 3.1 Flash**.
+- **Semantic search ("Ask the NDCs")** — the dashboard's natural-language
+  search embeds every passage with the open-weights **Google EmbeddingGemma
+  2** model (768‑d vectors, Apache‑2.0), running fully locally, and fuses the
+  result with a BM25 keyword index.
+
+All LLM extractions are checked by a **human verifier**. The authors designed
+the experiments, made the research decisions, reviewed the results, and are
+responsible for the full pipeline, the revision of the results, and the
+final conclusions.
+
 ## Data
 
 | Path | Contents |
