@@ -37,6 +37,17 @@ from export_extractions import (
 
 APP_DIR = Path(__file__).resolve().parent
 
+# Footnote shown under every map: the choropleths are drawn with the world
+# geography bundled in the plotly package (client-side), not with any project
+# shapefile. We therefore avoid taking any position on borders or disputed
+# territories.
+MAP_BOUNDARY_NOTE = (
+    "Map geography is provided by the **plotly** package's world map and is "
+    "shown for reference only. Boundaries reflect the plotly dataset and do "
+    "not represent any endorsement or position by the authors on national "
+    "boundaries or territories in dispute."
+)
+
 st.set_page_config(page_title="NDC Extraction Explorer", layout="wide")
 
 # --- data (cached until the JSON folder changes) --------------------------- #
@@ -203,6 +214,7 @@ if PAGE == "Pledge Summaries":
             "**Green** = has a summary · **red** = shown below. Click a "
             "green country to open it."
         )
+        st.caption(MAP_BOUNDARY_NOTE)
     with c2:
         st.selectbox(
             "Country",
@@ -696,6 +708,7 @@ if MAP_OK:
         "(top-left \u25a1), drag a box over the countries, then switch back "
         "to the arrow tool."
     )
+    st.caption(MAP_BOUNDARY_NOTE)
 
 # --- main: preview + export -------------------------------------------------- #
 out = apply_filters(

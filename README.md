@@ -45,6 +45,12 @@ Country names in the extraction JSONs are normalised to 3-letter codes
 maps) by `export_extractions.py` at load time — keep it in sync with the
 companion repo when the mapping improves.
 
+The choropleth maps are drawn with the **world geography bundled in the
+`plotly` package** (rendered client-side), not with any project shapefile.
+A footnote under each map (`MAP_BOUNDARY_NOTE` in `ndc_explorer.py`) states
+that the boundaries are for reference only and do not reflect the authors'
+position on national boundaries or territories in dispute.
+
 To refresh the extraction data after a new processing run, repack:
 
 ```bash
