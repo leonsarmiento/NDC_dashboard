@@ -391,8 +391,22 @@ if PAGE == "Ask the NDCs":
     if search_mask is not None:
         st.caption(
             f"Searching {int(search_mask.sum()):,} of {len(df):,} passages "
-            "with the current filters."
+            "with the current filters (the search re-runs automatically when "
+            "you change them)."
         )
+
+    def run_search(query: str, sig):
+        """Embed + top-k under the current filters; stores the results."""
+        t0 = time.time()
+        qvec = nl_search.embed_query(model, query)
+        top = nl_search.search(index, qvec, top_k=top_k, mask=search_mask)
+        if len(top) == 0:
+            st.session_state.nl_last = None
+        else:
+            st.session_state.nl_last = (query, top, qvec, t0, sig)
+            st.session_state["nl_results"] = {"selection": {"rows": [0]}}
+
+    filter_sig = (tuple(sorted(countries_sel)), bool(only_target), int(top_k))
 
     if st.button("🔍  Search", type="primary"):
         query = st.session_state.nl_query.strip()
@@ -402,19 +416,28 @@ if PAGE == "Ask the NDCs":
             st.info("No passages match the current filters.")
             st.session_state.nl_last = None
         else:
-            t0 = time.time()
-            qvec = nl_search.embed_query(model, query)
-            top = nl_search.search(index, qvec, top_k=top_k, mask=search_mask)
-            if len(top) == 0:
-                st.info("No passages match the current filters.")
-                st.session_state.nl_last = None
+            run_search(query, filter_sig)
+    elif (
+        st.session_state.get("nl_last")
+        and (
+            len(st.session_state["nl_last"]) != 5  # stale shape from an older app version
+            or st.session_state["nl_last"][4] != filter_sig
+        )
+    ):
+        # filters or top-k changed after the last search: refresh so the
+        # table never shows results from a different filter set
+        _q = st.session_state.nl_query.strip()
+        if _q:
+            if search_mask is None or int(search_mask.sum()) > 0:
+                run_search(_q, filter_sig)
             else:
-                st.session_state.nl_last = (query, top, qvec, t0)
-                # new results -> card follows the top row again
-                st.session_state["nl_results"] = {"selection": {"rows": [0]}}
+                st.session_state.nl_last = None
+                st.info("No passages match the current filters.")
+        else:
+            st.session_state.nl_last = None
 
     if st.session_state.get("nl_last"):
-        query, top, qvec, t0 = st.session_state.nl_last
+        query, top, qvec, t0, _sig = st.session_state.nl_last
         res = df.iloc[list(top)].reset_index(drop=True)
         res.insert(0, "score", np.round(index[list(top)] @ qvec, 4))
 
