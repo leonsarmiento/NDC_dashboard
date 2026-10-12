@@ -10,3 +10,6 @@ check/
 # scratch / exports
 *.xlsx
 /tmp/
+
+# local model downloads (NL search downloads google/embeddinggemma-2 to the HF cache at runtime)
+models/

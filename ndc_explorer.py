@@ -22,12 +22,18 @@ from __future__ import annotations
 
 import io
 import json
+import time
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
 
-from export_extractions import apply_filters, load_rows, to_excel
+from export_extractions import (
+    apply_filters,
+    load_rows,
+    load_rows_from_archive,
+    to_excel,
+)
 
 APP_DIR = Path(__file__).resolve().parent
 
@@ -44,21 +50,9 @@ def get_full_df() -> pd.DataFrame:
 
 @st.cache_data(show_spinner="Loading extraction JSONs…")
 def load_rows_archive(archive: Path) -> pd.DataFrame:
-    """Load extraction JSONs shipped as a single compressed archive.
-
-    The dashboard repo does not carry the 100+ MB of raw JSON folders;
-    instead the extraction outputs are bundled in ``data/extractions.tar.gz``
-    and unpacked to a temp directory on the first page load.
-    """
-    import tarfile
-    import tempfile
-
-    with tempfile.TemporaryDirectory() as td:
-        with tarfile.open(archive, "r:gz") as t:
-            t.extractall(td, filter="data")
-        # archive is built as "all_docs_out/*.json"; fall back to td itself
-        folder = Path(td) / "all_docs_out"
-        return load_rows(folder if folder.exists() else Path(td))
+    """Extraction JSONs shipped as one compressed archive (see the module
+    docstring in export_extractions for details)."""
+    return load_rows_from_archive(archive)
 
 
 @st.cache_data(show_spinner="Loading pledge summaries…")
@@ -102,7 +96,7 @@ if "countries_sel" not in st.session_state:
 st.sidebar.image(str(APP_DIR / "logo_for_banner.png"), width=220)
 PAGE = st.sidebar.radio(
     "Page",
-    ["Extraction Explorer", "Pledge Summaries"],
+    ["Extraction Explorer", "Pledge Summaries", "Ask the NDCs"],
     label_visibility="collapsed",
 )
 
@@ -289,6 +283,128 @@ if PAGE == "Pledge Summaries":
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         type="primary",
     )
+    st.stop()
+
+# --- page: ask the ndcs (natural-language search) -------------------------- #
+if PAGE == "Ask the NDCs":
+    import numpy as np
+
+    import nl_search
+
+    st.title("Ask the NDCs")
+    st.caption(
+        "Semantic search over all extraction passages with Google's "
+        f"**EmbeddingGemma 2** ({nl_search.MODEL_ID}), running locally in the "
+        "browser session. Ask in plain language (any of the 100+ supported "
+        "languages) -- no exact keywords needed."
+    )
+
+    @st.cache_resource(show_spinner="Loading the embedding model (first run downloads ~1.5 GB)…")
+    def get_nl_model():
+        return nl_search.load_model()
+
+    @st.cache_data(show_spinner="Loading the embedding index…")
+    def get_nl_index():
+        return nl_search.load_index()
+
+    if not nl_search.index_matches_df(df):
+        st.warning(
+            "The local embedding index is missing or out of sync with the "
+            "extraction data.\n\nBuild it on your machine with:\n\n"
+            "    python build_embeddings.py\n\nthen commit `data/embeddings.npz` "
+            "so this page works in the deployed dashboard too."
+        )
+        st.stop()
+
+    index, meta = get_nl_index()
+    if len(index) != len(df):
+        st.warning(
+            f"Embedding index holds {len(index):,} rows but the data has "
+            f"{len(df):,} -- rebuild with `python build_embeddings.py`."
+        )
+        st.stop()
+
+    model = get_nl_model()
+
+    if "nl_query" not in st.session_state:
+        st.session_state.nl_query = ""
+
+    EXAMPLES = [
+        "reforestation area targets (hectares)",
+        "commitments to stop deforestation by 2030",
+        "agroforestry and silvopasture plans",
+        "restoring degraded soil and watershed protection",
+        "sustainable logging and degradation-neutral harvesting",
+    ]
+    ex_cols = st.columns(len(EXAMPLES))
+    for c, ex in zip(ex_cols, EXAMPLES):
+        if c.button(ex[:28] + "…" if len(ex) > 28 else ex, key=f"nl_ex_{ex[:8]}", width="stretch"):
+            st.session_state.nl_query = ex
+
+    qcol, kcol = st.columns((3, 1))
+    with qcol:
+        st.text_input(
+            "Question",
+            key="nl_query",
+            placeholder="e.g. what are the commitments to reforest degraded lands?",
+        )
+    with kcol:
+        top_k = st.slider("Top results", 5, 100, 25, step=5)
+
+    if st.button("🔍  Search", type="primary"):
+        query = st.session_state.nl_query.strip()
+        if not query:
+            st.info("Type a question first.")
+        else:
+            t0 = time.time()
+            qvec = nl_search.embed_query(model, query)
+            top = nl_search.search(index, qvec, top_k=top_k)
+            st.session_state.nl_last = (query, top, qvec, t0)
+
+    if st.session_state.get("nl_last"):
+        query, top, qvec, t0 = st.session_state.nl_last
+        res = df.iloc[list(top)].reset_index(drop=True)
+        res.insert(0, "score", np.round(index[list(top)] @ qvec, 4))
+
+        c1, c2, c3 = st.columns(3)
+        c1.metric("matches", len(res))
+        c2.metric("countries", res["iso3"].nunique())
+        c3.metric("documents", res["source_file"].nunique())
+
+        NL_COLS = [
+            "score", "iso3", "doc_country", "source_file",
+            "passage_commitment_type", "passage_relevance_confidence",
+            "passage_target_value", "passage_target_unit",
+            "passage_english_translation", "passage_original_text", "passage_notes",
+        ]
+        st.dataframe(
+            res[NL_COLS],
+            width="stretch",
+            height=560,
+            column_config={
+                "score": st.column_config.ProgressColumn(
+                    "match", min_value=0.0, max_value=1.0, format="%.3f"
+                ),
+                "passage_english_translation": st.column_config.TextColumn("English translation", width="large"),
+                "passage_original_text": st.column_config.TextColumn("Original text", width="large"),
+                "passage_notes": st.column_config.TextColumn("Notes", width="medium"),
+            },
+        )
+
+        buf = io.BytesIO()
+        to_excel(res, buf, criteria=f"natural-language search: \"{query}\" (top {top_k})")
+        buf.seek(0)
+        st.download_button(
+            "⬇️  Export search results to Excel",
+            data=buf.getvalue(),
+            file_name="ndc_nl_search_results.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            type="primary",
+        )
+        st.caption(
+            f"Query: **“{query}”** · {meta['dim']}d embeddings, L2-normalised, "
+            f"cosine over {len(index):,} passages · model: {meta['model']}"
+        )
     st.stop()
 
 # --- sidebar: filters ------------------------------------------------ #

@@ -348,6 +348,24 @@ def load_rows(folder: Path) -> pd.DataFrame:
     return df[[c for c in cols if c in df.columns]]
 
 
+def load_rows_from_archive(archive: Path) -> pd.DataFrame:
+    """Extract the bundled per-document JSONs to a temp folder and load them.
+
+    The dashboard repo does not carry the 100+ MB of raw JSON folders; the
+    extraction outputs are bundled in ``data/extractions.tar.gz`` (built as
+    ``all_docs_out/*.json``) and unpacked on demand.  Used by both the
+    dashboard (inside a cache) and ``build_embeddings.py``.
+    """
+    import tarfile
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as td:
+        with tarfile.open(archive, "r:gz") as t:
+            t.extractall(td, filter="data")
+        folder = Path(td) / "all_docs_out"
+        return load_rows(folder if folder.exists() else Path(td))
+
+
 def apply_filters(
     df: pd.DataFrame,
     countries: list[str],
