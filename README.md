@@ -28,11 +28,15 @@ Three pages (switchable in the sidebar):
 
 ## Use of AI
 
-This project was developed with the assistance of **open-weights** AI models
-and coding agents. The authors deliberately chose open-weights models over
-proprietary closed-source models, to keep the pipeline reproducible and
-independent of any single commercial vendor: open-weights LLMs for all the
-analysis and summarization tasks, and coding agents for all the coding.
+**Open-weights** AI models and coding agents assisted, under the authors'
+direction, with the data-analysis pipeline described in these repositories: the
+NDC document extractions, the coding of the web dashboard, and the coding of the
+geoprocessing pipeline (not yet exposed in the web dashboard, but to be added
+later). This data-analysis pipeline is only a part of the larger project, not
+the project as a whole. The authors deliberately chose open-weights models over
+proprietary closed-source models to keep the pipeline reproducible and
+independent of any single commercial vendor: open-weights LLMs for the analysis
+and summarization tasks, and coding agents for the coding.
 
 - **Coding & orchestration** — implementation, debugging, experiment
   orchestration and analysis support were carried out with coding agents
