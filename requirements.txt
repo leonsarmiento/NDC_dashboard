@@ -3,6 +3,7 @@ plotly>=6.0
 pandas>=2.0
 openpyxl>=3.1
 sentence-transformers>=6.1
+transformers>=5.18   # embedding_gemma2 model support (5.17 and older do not know the arch)
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.8
 torchvision>=0.25

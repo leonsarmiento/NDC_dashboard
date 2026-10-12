@@ -324,7 +324,19 @@ if PAGE == "Ask the NDCs":
         )
         st.stop()
 
-    model = get_nl_model()
+    try:
+        model = get_nl_model()
+    except Exception as e:  # noqa: BLE001
+        st.error(
+            f"Could not load the embedding model ({type(e).__name__}).\n\n"
+            "This page needs `sentence-transformers` + torch. Locally, run the "
+            "dashboard from the `ndc_dash` conda env (see README), or install "
+            "into your current env with:\n\n"
+            "    pip install sentence-transformers\n\n"
+            "If this is the deployed app, the pip install of requirements.txt "
+            "failed -- check the Streamlit Cloud logs."
+        )
+        st.stop()
 
     if "nl_query" not in st.session_state:
         st.session_state.nl_query = ""
