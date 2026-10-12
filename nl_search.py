@@ -153,12 +153,18 @@ def index_matches_df(df) -> bool:
 def search(index: np.ndarray, query_vec, top_k: int = 25,
            mask: np.ndarray | None = None) -> np.ndarray:
     """Cosine top-k.  ``mask`` optionally restricts to a subset of rows
-    (boolean array aligned with the index rows)."""
+    (boolean array aligned with the index rows); fewer candidates than
+    ``top_k`` simply return all of them."""
     import numpy as np
 
     scores = index @ query_vec  # both L2-normalised -> cosine
     if mask is not None and (~mask).any():
         scores = np.where(mask, scores, -np.inf)
-    k = min(top_k, len(scores))
+    if mask is not None:
+        k = min(top_k, int(mask.sum()))
+    else:
+        k = min(top_k, len(scores))
+    if k <= 0:
+        return np.array([], dtype=int)
     top = np.argpartition(-scores, k - 1)[:k]
     return top[np.argsort(-scores[top])]

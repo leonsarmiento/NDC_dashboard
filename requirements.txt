@@ -1,4 +1,4 @@
-streamlit>=1.50
+streamlit>=1.64   # dataframe row selection on the 'Ask the NDCs' results table
 plotly>=6.0
 pandas>=2.0
 openpyxl>=3.1

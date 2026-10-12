@@ -324,6 +324,11 @@ if PAGE == "Ask the NDCs":
         )
         st.stop()
 
+    # rows with a real target value (same definition as the Explorer filter)
+    target_mask = ~df["passage_target_value"].str.upper().isin(("NA", ""))
+    target_mask = target_mask.to_numpy()
+    countries = sorted(df["doc_country"].dropna().unique().tolist())
+
     try:
         model = get_nl_model()
     except Exception as e:  # noqa: BLE001
@@ -353,7 +358,7 @@ if PAGE == "Ask the NDCs":
         if c.button(ex[:28] + "…" if len(ex) > 28 else ex, key=f"nl_ex_{ex[:8]}", width="stretch"):
             st.session_state.nl_query = ex
 
-    qcol, kcol = st.columns((3, 1))
+    qcol, kcol, tcol = st.columns((3, 1, 1))
     with qcol:
         st.text_input(
             "Question",
@@ -362,17 +367,51 @@ if PAGE == "Ask the NDCs":
         )
     with kcol:
         top_k = st.slider("Top results", 5, 100, 25, step=5)
+    with tcol:
+        only_target = st.checkbox(
+            "Only passages with a target value",
+            help="Restrict the search to passages that report a numerical target "
+            "(same definition as the Explorer filter).",
+        )
+
+    countries_sel = st.multiselect(
+        "Country filter",
+        options=countries,
+        key="nl_countries",
+        placeholder="All countries — pick one or more (e.g. Brazil) to pin the search",
+        help="Embeddings are topic-based, so \"country + topic\" queries often miss "
+             "that country in the top hits. Use this to pin the search to specific "
+             "countries.",
+    )
+
+    search_mask = target_mask if only_target else None
+    if countries_sel:
+        _cmask = df["doc_country"].isin(countries_sel).to_numpy()
+        search_mask = _cmask if search_mask is None else (search_mask & _cmask)
+    if search_mask is not None:
+        st.caption(
+            f"Searching {int(search_mask.sum()):,} of {len(df):,} passages "
+            "with the current filters."
+        )
 
     if st.button("🔍  Search", type="primary"):
         query = st.session_state.nl_query.strip()
         if not query:
             st.info("Type a question first.")
+        elif search_mask is not None and int(search_mask.sum()) == 0:
+            st.info("No passages match the current filters.")
+            st.session_state.nl_last = None
         else:
             t0 = time.time()
             qvec = nl_search.embed_query(model, query)
-            top = nl_search.search(index, qvec, top_k=top_k)
-            st.session_state.nl_last = (query, top, qvec, t0)
-            st.session_state.pop("nl_card_sel", None)  # new results -> new card
+            top = nl_search.search(index, qvec, top_k=top_k, mask=search_mask)
+            if len(top) == 0:
+                st.info("No passages match the current filters.")
+                st.session_state.nl_last = None
+            else:
+                st.session_state.nl_last = (query, top, qvec, t0)
+                # new results -> card follows the top row again
+                st.session_state["nl_results"] = {"selection": {"rows": [0]}}
 
     if st.session_state.get("nl_last"):
         query, top, qvec, t0 = st.session_state.nl_last
@@ -390,10 +429,14 @@ if PAGE == "Ask the NDCs":
             "passage_target_value", "passage_target_unit",
             "passage_english_translation", "passage_original_text", "passage_notes",
         ]
-        st.dataframe(
+        res_view = st.dataframe(
             res[NL_COLS],
+            key="nl_results",
             width="stretch",
             height=560,
+            on_select="rerun",
+            selection_mode="single-row",
+            selection_default={"selection": {"rows": [0]}},
             column_config={
                 "score": st.column_config.ProgressColumn(
                     "match", min_value=0.0, max_value=1.0, format="%.3f"
@@ -403,22 +446,22 @@ if PAGE == "Ask the NDCs":
                 "passage_notes": st.column_config.TextColumn("Notes", width="medium"),
             },
         )
+        st.caption("Click a row in the table to open it in the card below.")
 
-        # --- result card: full passage view for one selected row ----------- #
+        # --- result card: full view of the row selected in the table above -- #
+        import html as _html
+
         def _v(x):
             s = str(x).strip()
             return s if s and s.upper() != "NA" else None
 
-        card_sel = st.selectbox(
-            "…or read one result in full (card view, no panning)",
-            options=list(range(len(res))),
-            key="nl_card_sel",
-            format_func=lambda i: (
-                f"#{i + 1} · {res.iloc[i]['score']:.3f} · {res.iloc[i]['iso3']} "
-                f"{res.iloc[i]['doc_country']} · {res.iloc[i]['passage_commitment_type']}"
-            ),
-        )
-        row = res.iloc[card_sel]
+        def _wrap(x):
+            """Verbatim text as wrapped markdown (escaped, line breaks kept)."""
+            s = _v(x)
+            return _html.escape(s).replace("\n", "<br>") if s else "—"
+
+        _sel_rows = res_view.selection.rows
+        row = res.iloc[_sel_rows[0] if _sel_rows else 0]
         with st.container(border=True):
             m1, m2, m3, m4, m5 = st.columns(5)
             m1.metric("match", f"{row['score']:.3f}")
@@ -433,12 +476,12 @@ if PAGE == "Ask the NDCs":
             )
 
             st.markdown("**English translation**")
-            st.code(_v(row["passage_english_translation"]) or "—", language=None)
+            st.markdown(_wrap(row["passage_english_translation"]))
             st.markdown("**Original text**")
-            st.code(_v(row["passage_original_text"]) or "—", language=None)
+            st.markdown(_wrap(row["passage_original_text"]))
             if _v(row["passage_notes"]):
                 st.markdown("**Notes**")
-                st.code(_v(row["passage_notes"]), language=None)
+                st.markdown(_wrap(row["passage_notes"]))
 
             _meta_bits = [
                 _v(row["doc_document_title_registry"]),
