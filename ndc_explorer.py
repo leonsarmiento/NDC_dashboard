@@ -372,6 +372,7 @@ if PAGE == "Ask the NDCs":
             qvec = nl_search.embed_query(model, query)
             top = nl_search.search(index, qvec, top_k=top_k)
             st.session_state.nl_last = (query, top, qvec, t0)
+            st.session_state.pop("nl_card_sel", None)  # new results -> new card
 
     if st.session_state.get("nl_last"):
         query, top, qvec, t0 = st.session_state.nl_last
@@ -402,6 +403,51 @@ if PAGE == "Ask the NDCs":
                 "passage_notes": st.column_config.TextColumn("Notes", width="medium"),
             },
         )
+
+        # --- result card: full passage view for one selected row ----------- #
+        def _v(x):
+            s = str(x).strip()
+            return s if s and s.upper() != "NA" else None
+
+        card_sel = st.selectbox(
+            "…or read one result in full (card view, no panning)",
+            options=list(range(len(res))),
+            key="nl_card_sel",
+            format_func=lambda i: (
+                f"#{i + 1} · {res.iloc[i]['score']:.3f} · {res.iloc[i]['iso3']} "
+                f"{res.iloc[i]['doc_country']} · {res.iloc[i]['passage_commitment_type']}"
+            ),
+        )
+        row = res.iloc[card_sel]
+        with st.container(border=True):
+            m1, m2, m3, m4, m5 = st.columns(5)
+            m1.metric("match", f"{row['score']:.3f}")
+            m2.metric("commitment", _v(row["passage_commitment_type"]) or "—")
+            m3.metric("relevance", _v(row["passage_relevance_confidence"]) or "—")
+            _tv, _tu = _v(row["passage_target_value"]), _v(row["passage_target_unit"])
+            m4.metric("target", f"{_tv} {_tu}".strip() if _tv else "—")
+            m5.metric("language", _v(row["doc_original_language"]) or "—")
+
+            st.markdown(
+                f"**{row['iso3']} — {row['doc_country']}**  ·  `{row['source_file']}`"
+            )
+
+            st.markdown("**English translation**")
+            st.code(_v(row["passage_english_translation"]) or "—", language=None)
+            st.markdown("**Original text**")
+            st.code(_v(row["passage_original_text"]) or "—", language=None)
+            if _v(row["passage_notes"]):
+                st.markdown("**Notes**")
+                st.code(_v(row["passage_notes"]), language=None)
+
+            _meta_bits = [
+                _v(row["doc_document_title_registry"]),
+                ("version " + _v(row["doc_document_version"])) if _v(row["doc_document_version"]) else None,
+                ("submitted " + _v(row["doc_submission_date"])) if _v(row["doc_submission_date"]) else None,
+                ("p. " + _v(row["passage_page"])) if _v(row["passage_page"]) else None,
+                _v(row["passage_location_in_document"]),
+            ]
+            st.caption(" · ".join(b for b in _meta_bits if b))
 
         buf = io.BytesIO()
         to_excel(res, buf, criteria=f"natural-language search: \"{query}\" (top {top_k})")

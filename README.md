@@ -18,7 +18,9 @@ Three pages (switchable in the sidebar):
   Excel export of all summaries.
 - **Ask the NDCs** — natural-language (semantic) search over all
   extraction passages, powered by Google's **EmbeddingGemma 2** running
-  fully locally (see below).
+  fully locally (see below). Top-k results with match scores, plus a
+  card view of any selected result (full original + translation texts,
+  target, notes, document metadata — no table panning).
 
 ## Data
 
