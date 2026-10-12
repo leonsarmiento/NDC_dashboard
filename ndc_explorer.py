@@ -293,10 +293,11 @@ if PAGE == "Ask the NDCs":
 
     st.title("Ask the NDCs")
     st.caption(
-        "Semantic search over all extraction passages with Google's "
-        f"**EmbeddingGemma 2** ({nl_search.MODEL_ID}), running locally in the "
-        "browser session. Ask in plain language (any of the 100+ supported "
-        "languages) -- no exact keywords needed."
+        "Hybrid semantic + keyword search over all extraction passages. "
+        "Meanings are matched with Google's **EmbeddingGemma 2** "
+        f"({nl_search.MODEL_ID}, running locally in the browser session) and "
+        "exact words with a BM25 index; both rankings are fused. Ask in any "
+        "of the 100+ supported languages."
     )
 
     @st.cache_resource(show_spinner="Loading the embedding model (first run downloads ~1.5 GB)…")
@@ -306,6 +307,13 @@ if PAGE == "Ask the NDCs":
     @st.cache_data(show_spinner="Loading the embedding index…")
     def get_nl_index():
         return nl_search.load_index()
+
+    @st.cache_data(show_spinner="Loading the keyword (BM25) index…")
+    def get_lex_index():
+        try:
+            return nl_search.load_lex()
+        except FileNotFoundError:
+            return None
 
     if not nl_search.index_matches_df(df):
         st.warning(
@@ -323,6 +331,14 @@ if PAGE == "Ask the NDCs":
             f"{len(df):,} -- rebuild with `python build_embeddings.py`."
         )
         st.stop()
+
+    lex = get_lex_index()
+    if lex is None or int(lex["n"]) != len(df):
+        st.warning(
+            "Keyword (BM25) index missing or out of sync -- falling back to "
+            "pure semantic search. Rebuild with `python build_embeddings.py`."
+        )
+        lex = None
 
     # rows with a real target value (same definition as the Explorer filter)
     target_mask = ~df["passage_target_value"].str.upper().isin(("NA", ""))
@@ -358,7 +374,7 @@ if PAGE == "Ask the NDCs":
         if c.button(ex[:28] + "…" if len(ex) > 28 else ex, key=f"nl_ex_{ex[:8]}", width="stretch"):
             st.session_state.nl_query = ex
 
-    qcol, kcol, tcol = st.columns((3, 1, 1))
+    qcol, kcol, tcol, scol = st.columns((3, 1, 1, 1))
     with qcol:
         st.text_input(
             "Question",
@@ -372,6 +388,14 @@ if PAGE == "Ask the NDCs":
             "Only passages with a target value",
             help="Restrict the search to passages that report a numerical target "
             "(same definition as the Explorer filter).",
+        )
+    with scol:
+        strict = st.checkbox(
+            "Strict: all keywords",
+            help="Score each keyword separately and require them all (geometric "
+                 "mean of per-keyword similarity), so e.g. 'flood control' will "
+                 "not be satisfied by a passage that only mentions 'control'. "
+                 "Useful for multi-concept queries.",
         )
 
     countries_sel = st.multiselect(
@@ -396,17 +420,31 @@ if PAGE == "Ask the NDCs":
         )
 
     def run_search(query: str, sig):
-        """Embed + top-k under the current filters; stores the results."""
+        """Embed + fused top-k under the current filters; stores the results."""
         t0 = time.time()
         qvec = nl_search.embed_query(model, query)
-        top = nl_search.search(index, qvec, top_k=top_k, mask=search_mask)
+        strict_vecs = None
+        if strict and lex is not None:
+            terms = nl_search.content_terms(query)
+            if len(terms) >= 2:  # one keyword == plain semantic; nothing to add
+                strict_vecs = [nl_search.embed_query(model, t) for t in terms]
+        if lex is not None:
+            top, disp_scores = nl_search.hybrid_search(
+                index, qvec, lex, nl_search.tokenize(query),
+                top_k=top_k, mask=search_mask, strict_vecs=strict_vecs,
+            )
+        else:
+            top = nl_search.search(index, qvec, top_k=top_k, mask=search_mask)
+            disp_scores = np.round(index[list(top)] @ qvec, 4)
         if len(top) == 0:
             st.session_state.nl_last = None
         else:
-            st.session_state.nl_last = (query, top, qvec, t0, sig)
+            st.session_state.nl_last = (query, top, disp_scores, t0, sig)
             st.session_state["nl_results"] = {"selection": {"rows": [0]}}
 
-    filter_sig = (tuple(sorted(countries_sel)), bool(only_target), int(top_k))
+    filter_sig = (
+        tuple(sorted(countries_sel)), bool(only_target), int(top_k), bool(strict)
+    )
 
     if st.button("🔍  Search", type="primary"):
         query = st.session_state.nl_query.strip()
@@ -437,9 +475,9 @@ if PAGE == "Ask the NDCs":
             st.session_state.nl_last = None
 
     if st.session_state.get("nl_last"):
-        query, top, qvec, t0, _sig = st.session_state.nl_last
+        query, top, disp_scores, t0, _sig = st.session_state.nl_last
         res = df.iloc[list(top)].reset_index(drop=True)
-        res.insert(0, "score", np.round(index[list(top)] @ qvec, 4))
+        res.insert(0, "score", list(disp_scores))
 
         c1, c2, c3 = st.columns(3)
         c1.metric("matches", len(res))

@@ -75,6 +75,12 @@ def main() -> int:
     nl_search.save_index(nl_search.INDEX_PATH, vectors, n_rows=len(df), dim=vectors.shape[1])
     size_mb = nl_search.INDEX_PATH.stat().st_size / 1e6
     print(f"saved {nl_search.INDEX_PATH}  ({size_mb:.1f} MB, {vectors.shape[1]}d float16)")
+
+    print("building lexical (BM25) index ...")
+    lex = nl_search.build_lex_index(texts)
+    nl_search.save_lex(lex)
+    lex_mb = nl_search.LEX_PATH.stat().st_size / 1e6
+    print(f"saved {nl_search.LEX_PATH}  ({lex_mb:.1f} MB, {len(lex['vocab']):,} terms)")
     print("done.")
     return 0
 

@@ -16,13 +16,15 @@ Three pages (switchable in the sidebar):
   numerical targets, with a world map — **gray** = no summary, **green** =
   has one, **red** = currently shown; click a country to open it — and an
   Excel export of all summaries.
-- **Ask the NDCs** — natural-language (semantic) search over all
-  extraction passages, powered by Google's **EmbeddingGemma 2** running
-  fully locally (see below). Top-k results with match scores; filters for
-  "only passages with a target value" and by country (useful because
-  embeddings are topic-based); clicking a row opens the full passage in a
-  card below the table (original + translation texts, target, notes,
-  document metadata — no table panning).
+- **Ask the NDCs** — hybrid natural-language search over all
+  extraction passages: Google's **EmbeddingGemma 2** (semantic, running
+  fully locally) fused with a BM25 keyword index via reciprocal rank
+  fusion — so "flood control" matches actual flood-control passages, not
+  generic "control" text. An optional **strict mode** scores each keyword
+  separately and requires them all. Filters for "only passages with a
+  target value" and by country (useful because embeddings are topic-based);
+  clicking a row opens the full passage in a card below the table (original
+  + translation texts, target, notes, document metadata — no table panning).
 
 ## Data
 
@@ -30,6 +32,7 @@ Three pages (switchable in the sidebar):
 | ---- | -------- |
 | `data/extractions.tar.gz` | All extraction JSONs (one per NDC document, ~23.7k passages), bundled and compressed. Extracted to a temp folder on first page load. |
 | `data/embeddings.npz` | EmbeddingGemma-2 vectors for every extraction row (L2-normalised, float16, 768d) + provenance metadata. Built locally with `build_embeddings.py`, committed so the deployed dashboard can search. |
+| `data/bm25_index.pkl` | BM25 keyword index over the same passages (posting lists, ~12 MB), built by the same script for the hybrid search. |
 | `pledge_summaries/` | One `*_pledge_summary.json` per country. |
 | `logo_for_banner.png` | Sidebar banner. |
 
@@ -56,7 +59,8 @@ with tarfile.open("../NDC_dashboard/data/extractions.tar.gz", "w:gz") as t:
 EOF
 ```
 
-…and then rebuild the embeddings (below), or the "Ask the NDCs" page will
+…and then rebuild the embeddings (below, which also rebuilds the BM25
+keyword index), or the "Ask the NDCs" page will
 report the index as out of sync.
 
 ## Natural-language search (Ask the NDCs)
