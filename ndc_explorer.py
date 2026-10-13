@@ -308,29 +308,36 @@ if PAGE == "Ask the NDCs":
         "Hybrid semantic + keyword search over all extraction passages. "
         "Meanings are matched with Google's **EmbeddingGemma 2** "
         f"({nl_search.MODEL_ID}, running locally in the browser session) and "
-        "exact words with a BM25 index; both rankings are fused. Ask in any "
-        "of the 100+ supported languages."
+        "exact words with a BM25 index; both rankings are fused by reciprocal "
+        "rank fusion: **score = 0.6/(60 + rank_semantic) + 0.4/(60 + rank_keyword)**. "
+        "Results are diversified (max 4 passages per document, MMR re-rank); "
+        "optionally an auditor-confidence prior (High ×1.05 / Low ×0.90, off "
+        "by default) can be applied on top. Ask in any of the 100+ supported "
+        "languages."
     )
 
     @st.cache_resource(show_spinner="Loading the embedding model (first run downloads ~1.5 GB)…")
     def get_nl_model():
         return nl_search.load_model()
 
-    @st.cache_data(show_spinner="Loading the embedding index…")
+    # cache_resource (not cache_data): the index is a ~28 MB matrix / ~12 MB
+    # posting-list dict; cache_data would pickle and hash it per session.
+    @st.cache_resource(show_spinner="Loading the embedding index…")
     def get_nl_index():
         return nl_search.load_index()
 
-    @st.cache_data(show_spinner="Loading the keyword (BM25) index…")
+    @st.cache_resource(show_spinner="Loading the keyword (BM25) index…")
     def get_lex_index():
         try:
             return nl_search.load_lex()
         except FileNotFoundError:
             return None
 
-    if not nl_search.index_matches_df(df):
+    index_ok, index_why = nl_search.index_matches_df(df)
+    if not index_ok:
         st.warning(
-            "The local embedding index is missing or out of sync with the "
-            "extraction data.\n\nBuild it on your machine with:\n\n"
+            f"The embedding index is out of sync with the extraction data: **{index_why}**.\n\n"
+            "Rebuild it on your machine with:\n\n"
             "    python build_embeddings.py\n\nthen commit `data/embeddings.npz` "
             "so this page works in the deployed dashboard too."
         )
@@ -345,9 +352,10 @@ if PAGE == "Ask the NDCs":
         st.stop()
 
     lex = get_lex_index()
-    if lex is None or int(lex["n"]) != len(df):
+    lex_ok, lex_why = nl_search.lex_matches(lex, len(df), meta.get("text_digest", ""))
+    if not lex_ok:
         st.warning(
-            "Keyword (BM25) index missing or out of sync -- falling back to "
+            f"Keyword (BM25) index out of sync ({lex_why}) -- falling back to "
             "pure semantic search. Rebuild with `python build_embeddings.py`."
         )
         lex = None
@@ -356,6 +364,13 @@ if PAGE == "Ask the NDCs":
     target_mask = ~df["passage_target_value"].str.upper().isin(("NA", ""))
     target_mask = target_mask.to_numpy()
     countries = sorted(df["doc_country"].dropna().unique().tolist())
+
+    # per-row arrays the fusion needs (same row order as the index)
+    doc_ids = df["source_file"].fillna("").astype(str).to_numpy()
+    confidence_arr = df["passage_relevance_confidence"].fillna("NA").astype(str).to_numpy()
+    dead_mask = meta.get("empty_text")
+    channels = ("semantic + keyword (BM25)" if lex is not None
+                else "semantic only (keyword index unavailable)")
 
     try:
         model = get_nl_model()
@@ -370,6 +385,15 @@ if PAGE == "Ask the NDCs":
             "failed -- check the Streamlit Cloud logs."
         )
         st.stop()
+
+    @st.cache_data(show_spinner="Embedding the query…")
+    def get_query_vecs(query: str, terms: tuple):
+        """Cached query embeddings, keyed by (query, strict terms) -- changing
+        the top-k slider or the country filter never re-runs the encoder."""
+        m = get_nl_model()
+        qv = nl_search.embed_query(m, query)
+        sv = tuple(nl_search.embed_query(m, t) for t in terms) if len(terms) >= 2 else ()
+        return qv, sv
 
     if "nl_query" not in st.session_state:
         st.session_state.nl_query = ""
@@ -405,9 +429,19 @@ if PAGE == "Ask the NDCs":
         strict = st.checkbox(
             "Strict: all keywords",
             help="Score each keyword separately and require them all (geometric "
-                 "mean of per-keyword similarity), so e.g. 'flood control' will "
-                 "not be satisfied by a passage that only mentions 'control'. "
-                 "Useful for multi-concept queries.",
+                 "mean of per-keyword similarity), with rows missing any keyword "
+                 "excluded -- so e.g. 'flood control' will not be satisfied by a "
+                 "passage that only mentions 'control'. Useful for multi-concept "
+                 "queries -- but note it can hurt recall for paraphrased queries, "
+                 "where the words do not appear verbatim.",
+        )
+        conf_weight = st.checkbox(
+            "Weight by auditor confidence",
+            help="Multiplies the fused score by High x1.05 / Medium x1.00 / Low x0.90. "
+                 "Off by default: on the 40-query eval set this lowered MRR "
+                 "(0.52 -> 0.49) -- extraction confidence is not a quality "
+                 "verdict on the passage. Turn on when you want the auditors' "
+                 "flag to act as a prior.",
         )
 
     countries_sel = st.multiselect(
@@ -434,28 +468,34 @@ if PAGE == "Ask the NDCs":
     def run_search(query: str, sig):
         """Embed + fused top-k under the current filters; stores the results."""
         t0 = time.time()
-        qvec = nl_search.embed_query(model, query)
-        strict_vecs = None
-        if strict and lex is not None:
-            terms = nl_search.content_terms(query)
-            if len(terms) >= 2:  # one keyword == plain semantic; nothing to add
-                strict_vecs = [nl_search.embed_query(model, t) for t in terms]
+        terms = tuple(nl_search.content_terms(query)) if strict else ()
+        qvec, strict_vecs = get_query_vecs(query, terms)
         if lex is not None:
-            top, disp_scores = nl_search.hybrid_search(
-                index, qvec, lex, nl_search.tokenize(query),
-                top_k=top_k, mask=search_mask, strict_vecs=strict_vecs,
+            top, fused, dense, hits = nl_search.hybrid_search(
+                index, qvec, lex, query, top_k=top_k, mask=search_mask,
+                strict_vecs=list(strict_vecs) if strict_vecs else None,
+                doc_cap=nl_search.DEFAULT_DOC_CAP, mmr=True,
+                confidence=confidence_arr if conf_weight else None,
+                doc_ids=doc_ids, dead_mask=dead_mask,
             )
         else:
-            top = nl_search.search(index, qvec, top_k=top_k, mask=search_mask)
-            disp_scores = np.round(index[list(top)] @ qvec, 4)
+            # pure-semantic fallback; exclude the no-text rows the same way
+            m = search_mask
+            if dead_mask is not None and dead_mask.any():
+                m = ~dead_mask if m is None else (m & ~dead_mask)
+            top = nl_search.search(index, qvec, top_k=top_k, mask=m)
+            dense = np.round(np.where(len(top), index[list(top)] @ qvec, 0.0), 4)
+            fused = dense / dense.max() if len(top) and dense.max() > 0 else np.zeros_like(dense)
+            hits = np.zeros(len(top), dtype=np.int32)
         if len(top) == 0:
             st.session_state.nl_last = None
         else:
-            st.session_state.nl_last = (query, top, disp_scores, t0, sig)
+            st.session_state.nl_last = (query, top, fused, dense, hits, t0, sig)
             st.session_state["nl_results"] = {"selection": {"rows": [0]}}
 
     filter_sig = (
-        tuple(sorted(countries_sel)), bool(only_target), int(top_k), bool(strict)
+        tuple(sorted(countries_sel)), bool(only_target), int(top_k), bool(strict),
+        bool(conf_weight),
     )
 
     if st.button("🔍  Search", type="primary"):
@@ -470,8 +510,8 @@ if PAGE == "Ask the NDCs":
     elif (
         st.session_state.get("nl_last")
         and (
-            len(st.session_state["nl_last"]) != 5  # stale shape from an older app version
-            or st.session_state["nl_last"][4] != filter_sig
+            len(st.session_state["nl_last"]) != 7  # stale shape from an older app version
+            or st.session_state["nl_last"][6] != filter_sig
         )
     ):
         # filters or top-k changed after the last search: refresh so the
@@ -487,9 +527,11 @@ if PAGE == "Ask the NDCs":
             st.session_state.nl_last = None
 
     if st.session_state.get("nl_last"):
-        query, top, disp_scores, t0, _sig = st.session_state.nl_last
+        query, top, fused, dense, hits, t0, _sig = st.session_state.nl_last
         res = df.iloc[list(top)].reset_index(drop=True)
-        res.insert(0, "score", list(disp_scores))
+        res.insert(0, "kw hits", [int(h) for h in hits])
+        res.insert(0, "semantic", [round(float(d), 3) for d in dense])
+        res.insert(0, "match", [round(float(f), 3) for f in fused])
 
         c1, c2, c3 = st.columns(3)
         c1.metric("matches", len(res))
@@ -497,7 +539,7 @@ if PAGE == "Ask the NDCs":
         c3.metric("documents", res["source_file"].nunique())
 
         NL_COLS = [
-            "score", "iso3", "doc_country", "source_file",
+            "match", "semantic", "kw hits", "iso3", "doc_country", "source_file",
             "passage_commitment_type", "passage_relevance_confidence",
             "passage_target_value", "passage_target_unit",
             "passage_english_translation", "passage_original_text", "passage_notes",
@@ -511,15 +553,26 @@ if PAGE == "Ask the NDCs":
             selection_mode="single-row",
             selection_default={"selection": {"rows": [0]}},
             column_config={
-                "score": st.column_config.ProgressColumn(
-                    "match", min_value=0.0, max_value=1.0, format="%.3f"
+                # "match" is the actual ordering score (fused, rescaled to 0-1);
+                # "semantic" is the raw dense cosine; "kw hits" counts the query
+                # terms present in the passage -- the intuitive why-did-I-see-this.
+                "match": st.column_config.ProgressColumn(
+                    "match", min_value=0.0, max_value=1.0, format="%.2f"
                 ),
+                "semantic": st.column_config.NumberColumn(
+                    "semantic", format="%.3f"
+                ),
+                "kw hits": st.column_config.NumberColumn("kw hits", format="%d"),
                 "passage_english_translation": st.column_config.TextColumn("English translation", width="large"),
                 "passage_original_text": st.column_config.TextColumn("Original text", width="large"),
                 "passage_notes": st.column_config.TextColumn("Notes", width="medium"),
             },
         )
-        st.caption("Click a row in the table to open it in the card below.")
+        st.caption(
+            "Click a row in the table to open it in the card below. "
+            "**match** = fused relevance (0-1, the actual ordering score) · "
+            "**semantic** = dense cosine · **kw hits** = query terms found in the passage."
+        )
 
         # --- result card: full view of the row selected in the table above -- #
         import html as _html
@@ -537,12 +590,23 @@ if PAGE == "Ask the NDCs":
         row = res.iloc[_sel_rows[0] if _sel_rows else 0]
         with st.container(border=True):
             m1, m2, m3, m4, m5 = st.columns(5)
-            m1.metric("match", f"{row['score']:.3f}")
+            m1.metric("match", f"{row['match']:.2f}",
+                      f"semantic {row['semantic']:.3f} · {int(row['kw hits'])} kw hits")
             m2.metric("commitment", _v(row["passage_commitment_type"]) or "—")
             m3.metric("relevance", _v(row["passage_relevance_confidence"]) or "—")
             _tv, _tu = _v(row["passage_target_value"]), _v(row["passage_target_unit"])
             m4.metric("target", f"{_tv} {_tu}".strip() if _tv else "—")
             m5.metric("language", _v(row["doc_original_language"]) or "—")
+
+            # why this row matched: exact query terms found in the passage
+            _gidx = int(top[_sel_rows[0] if _sel_rows else 0])
+            _kw = nl_search.row_kw_terms(lex, query, _gidx) if lex is not None else []
+            st.caption(
+                ("**Query terms found in this passage:** "
+                 + "  ".join(f"`{t}`" for t in _kw))
+                if _kw else
+                "No exact query terms in this passage — it matched on semantics alone."
+            )
 
             st.markdown(
                 f"**{row['iso3']} — {row['doc_country']}**  ·  `{row['source_file']}`"
@@ -566,7 +630,10 @@ if PAGE == "Ask the NDCs":
             st.caption(" · ".join(b for b in _meta_bits if b))
 
         buf = io.BytesIO()
-        to_excel(res, buf, criteria=f"natural-language search: \"{query}\" (top {top_k})")
+        to_excel(res, buf, criteria=(
+            f"natural-language search: \"{query}\" (top {top_k}; "
+            f"strict={strict}; channels: {channels})"
+        ))
         buf.seek(0)
         st.download_button(
             "⬇️  Export search results to Excel",
@@ -577,7 +644,8 @@ if PAGE == "Ask the NDCs":
         )
         st.caption(
             f"Query: **“{query}”** · {meta['dim']}d embeddings, L2-normalised, "
-            f"cosine over {len(index):,} passages · model: {meta['model']}"
+            f"cosine over {len(index):,} passages · channels active: {channels} · "
+            f"model: {meta['model']}"
         )
     st.stop()
 

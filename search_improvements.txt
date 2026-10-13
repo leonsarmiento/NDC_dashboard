@@ -1,0 +1,140 @@
+RECOMMENDATIONS FOR THE "ASK THE NDCs" SEARCH (no LLM answer synthesis; retrieval only)
+Files involved: nl_search.py, build_embeddings.py, ndc_explorer.py, data/embeddings.npz, data/bm25_index.pkl
+Current facts to keep in mind: 23,742 rows, 768-d EmbeddingGemma-2 vectors stored float16/L2-normalised in
+data/embeddings.npz; BM25 posting lists pickled in data/bm25_index.pkl; fusion is unweighted RRF (k=60);
+row order is defined by export_extractions.load_rows (sorted per-document JSONs, passages in document order).
+
+====================================================================
+1. MAKE THE DISPLAYED SCORE MATCH THE ACTUAL ORDERING  (transparency, high priority)
+   Problem: nl_search.hybrid_search() returns the *dense* cosine as the display score, but the rows are
+   ordered by the fused RRF score. The "match" ProgressColumn in ndc_explorer.py therefore shows values
+   that go up and down down the table (e.g. 0.71, 0.44, 0.68). Users read that as a bug.
+   Do:
+     - Return the fusion score as well: change hybrid_search to return (top_idx, fused_scores, dense_scores).
+     - Show the fused score in the "match" column. Since RRF values are tiny (~1/60 + 1/60), rescale for
+       display: divide by the maximum in the returned set, or map the RRF value to a 0-1 "relevance" via
+       normalised ranks. Keep the raw dense cosine in a second, narrower column ("semantic") so the
+       reviewer can see both channels.
+     - Add an "exact keyword hits" column (number of query terms present in the passage) - it is free,
+       already computed by bm25_scores, and it is the most intuitive explanation of why a row appears.
+     - Keep the "Query: ..." caption but also state the fusion formula in one line.
+
+2. VALIDATE THE INDEX AGAINST CONTENT, NOT ROW COUNT  (durability, high priority)
+   Problem: nl_search.index_matches_df() only compares n_rows and INDEX_VERSION. A dataset with the same
+   number of rows but different content or a different order silently misaligns every score with the wrong
+   row, and nothing warns the user.
+   Do:
+     - In build_embeddings.py, store a digest in the npz: e.g. sha256 of "\n".join(doc_text(row) for row in rows),
+       plus sha256 of the ordered list of (source_file, passage index) pairs.
+     - In index_matches_df(), recompute the same digest from the current dataframe and compare. On mismatch,
+       show the existing warning and tell the user exactly which part changed (row count, order, or text).
+     - Bump INDEX_VERSION whenever doc_text changes (see item 3) so a rebuild is forced.
+     Cheap and it removes the scariest failure mode of committing a 28 MB vector file to the repo.
+
+3. STOP SILENTLY TRUNCATING LONG PASSAGES, AND RE-ORDER doc_text  (recall, high priority)
+   Problem: MAX_SEQ_LEN = 512 tokens. Measured over the shipped corpus: median 345 chars, p90 895 chars,
+   p99 1,841 chars, max 10,557 chars; 138 rows exceed ~2,000 chars. doc_text appends "Target: ..." and
+   "Commitment type: ..." at the END, so for long passages the numeric target - the most searchable field -
+   is cut off from the embedding.
+   Do:
+     - Put the structured fields first in doc_text: commitment type, target value + unit, then the English
+       translation, then (if it fits) the original text, then notes. The tail is what gets truncated, so
+       the highest-signal content should be at the front.
+     - Add a real truncation guard instead of relying on the tokenizer: if the assembled text exceeds a
+       character budget (e.g. 2,500 chars), truncate deliberately and record that fact in a new column
+       (e.g. passage_embedded_chars) so the build log can report how many rows were affected.
+     - Optional, bigger change: for passages above the budget, embed two vectors (front half / back half)
+       and take the max cosine at query time. If you do this, store a per-row "n_chunks" array in the npz and
+       keep the row->chunk mapping in the metadata so df.iloc alignment still works.
+     - Note that 23,716 of the 23,742 rows embed BOTH the English translation and the original-language text.
+       That doubles the token cost and pushes long rows over the limit. Consider: English translation first,
+       original text only up to the remaining budget. (Keep the original text - it is valuable for language
+       coverage - but treat it as secondary.)
+
+4. ADD LEXICAL NORMALISATION TO THE BM25 CHANNEL  (recall, medium-high priority)
+   Problem: tokenize() lowercases and strips accents but does not stem or lemmatise, so "reforestation",
+   "reforest", "reforested" are three separate terms. The lexical channel therefore misses morphological
+   variants that the semantic channel finds.
+   Do:
+     - Add light, dependency-free normalisation in tokenize(): strip a small set of suffixes (-ing, -ed, -es,
+       -tion, -sions, -ment, -ity, -ally) with a minimum stem length of 3, and also record the raw term.
+       A simple Porter stemmer implemented in ~40 lines (or nltk's PorterStemmer if you accept the
+       dependency) is enough for this corpus.
+     - Keep the index built on normalised terms but store the raw tokens for the "keyword hits" column.
+     - Use the SAME term set for both channels. Today hybrid_search is called with nl_search.tokenize(query)
+       (stopwords included) while strict mode uses nl_search.content_terms(query) (stopwords removed, len>=3).
+       Pick one function for query terms and use it everywhere.
+     - Keep the STOPWORDS list but also drop terms that appear in more than, say, 40% of documents from the
+       BM25 query terms; they carry no discriminative signal and only add noise.
+
+5. DIVERSIFY THE RESULT SET  (UX, medium-high priority)
+   Problem: raw top-k over 23,742 passages from 345 documents returns near-duplicates from the same
+   document/adjacent pages. There is no per-document cap and no MMR.
+   Do:
+     - Add a max-per-document cap (e.g. at most 4 passages per source_file in the returned set), applied
+       after fusion but before the top-k slice, with the overflow backfilled from the next candidates.
+     - Optionally add a light MMR step: re-score the top 200 candidates as 0.7 * fused - 0.3 * max cosine
+       similarity to already-selected passages (the embeddings are already unit-norm, so this is a cheap
+       200x200 dot product).
+     - Surface "relevance confidence" from the data. passage_relevance_confidence exists and is displayed but
+       never used in ranking. A small multiplicative bonus (High 1.05, Medium 1.0, Low 0.9) is defensible and
+       cheap - document it clearly so it is not mistaken for a hidden quality judgement.
+
+6. CALIBRATE AND DOCUMENT THE FUSION  (correctness of the blend, medium priority)
+   Do:
+     - Use 1-based ranks in RRF (standard) instead of 0-based, so the top hit is 1/(k+1).
+     - Make channel weights explicit constants and configurable: fused = w_d/(k+rank_dense) + w_l/(k+rank_bm25),
+       with w_d = 0.6, w_l = 0.4 as a starting point, and expose them in the UI or at least in the caption.
+     - Fix the strict-mode tie cluster: np.exp(np.mean(np.log(np.clip(mat, 1e-3, None))) floors every
+       negative cosine to 1e-3, so all passages missing any keyword collapse to nearly the same score and
+       their dense ranking becomes arbitrary (stable-sort = row order). Use a floor tied to the observed
+       minimum positive cosine (e.g. clip to the 1st percentile of the dense scores) or treat "any cosine
+       below a threshold" as an explicit hard exclusion (score = -inf) rather than an implicit near-tie.
+     - hybrid_search recomputes index @ query_vec even when strict_vecs are supplied. Reuse it or skip it.
+
+7. BUILD A SMALL EVALUATION HARNESS  (this is the missing piece that makes everything else measurable)
+   Do:
+     - Create eval/queries.json: 40-60 realistic questions, each with 3-10 expected source_file/passage
+       identifiers marked by hand (or derived from the existing "target" rows for objective questions).
+     - Write eval/run_eval.py that loads the index, runs search / hybrid_search / hybrid+strict for each
+       query and prints precision@10, recall@25, MRR, and a per-query diff between the three configurations.
+     - Run it before and after each change (stemming, weights, truncation, MMR). Without this, all the
+       tuning above is guesswork. It is ~150 lines and needs no model at all once the vectors are built,
+       so it runs on CPU in seconds.
+     - Include adversarial queries: multi-concept ("flood control in mangroves"), numeric ("what are the
+       hectares of restoration by 2030"), and non-English queries (the corpus contains original-language
+       text), since the page advertises 100+ languages.
+
+8. CACHE AND RESOURCE HYGIENE  (deployment, medium priority)
+   Do:
+     - Change get_nl_index() and get_lex_index() from @st.cache_data to @st.cache_resource. cache_data pickles
+       and hashes the returned object (a 28 MB matrix and a 12 MB dict of numpy posting lists), which
+       duplicates them in memory per session.
+     - Cache query vectors: @st.cache_data on a small function keyed by (query, strict) so that changing the
+       top-k slider or the country filter does not re-run the encoder. The auto-refresh branch in
+       ndc_explorer.py (lines ~470-484) currently re-embeds on every widget change.
+     - The index is loaded as float32 (~73 MB). If memory on the free tier is tight, keep it float16 and
+       do the matmul in float32 via a view, or chunk the matmul. Report peak RSS in the build log.
+     - Guard against empty doc_text: one row in the corpus has no text at all, yet its embedding is non-zero
+       (the build's own sanity check shows all norms > 0). Force its score to -inf.
+
+9. SMALL UX ITEMS WORTH FIXING WHILE YOU ARE IN THERE
+   - Show why a row matched: highlight the query terms present in the passage, or show the BM25 term
+     contributions in the detail card.
+   - The country multiselect help text is good; add the same hint next to "Strict: all keywords" that it can
+     hurt recall for paraphrased queries.
+   - When the BM25 index is missing the page falls back to pure semantic search, but the results table still
+     says "match" without indicating the fallback. Make the caption state which channels were active.
+   - Export writes criteria="natural-language search: ... (top N)" but not whether strict/BM25 were on; add
+     it so exported workbooks are reproducible.
+
+SUGGESTED ORDER OF WORK
+  1. eval harness (item 7)  -> gives you numbers before touching anything else
+  2. score/order fix (item 1) and fusion constants (item 6)
+  3. index digest (item 2)
+  4. doc_text reordering + truncation guard (item 3), then rebuild embeddings
+  5. stemming + consistent query terms (item 4), rebuild BM25
+  6. per-document cap + MMR + confidence weighting (item 5)
+  7. caching and memory hygiene (item 8)
+
+All of these are retrieval-side and run fine on a CPU-only Streamlit server; none of them require an LLM.

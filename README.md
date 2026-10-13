@@ -64,6 +64,7 @@ pipeline, the revision of the results, and the final conclusions.
 | `data/extractions.tar.gz` | All extraction JSONs (one per NDC document, ~23.7k passages), bundled and compressed. Extracted to a temp folder on first page load. |
 | `data/embeddings.npz` | EmbeddingGemma-2 vectors for every extraction row (L2-normalised, float16, 768d) + provenance metadata. Built locally with `build_embeddings.py`, committed so the deployed dashboard can search. |
 | `data/bm25_index.pkl` | BM25 keyword index over the same passages (posting lists, ~12 MB), built by the same script for the hybrid search. |
+| `eval/queries.json` + `eval/run_eval.py` | 40 labelled queries (topic / multi-concept / numeric / non-English) and the evaluation harness (precision@10, recall@25, MRR) — run it before and after any search change. |
 | `pledge_summaries/` | One `*_pledge_summary.json` per country. |
 | `logo_for_banner.png` | Sidebar banner. |
 
@@ -103,29 +104,85 @@ report the index as out of sync.
 ## Natural-language search (Ask the NDCs)
 
 The search is **hybrid**: two independent rankings over the same 23,742
-passages are fused by reciprocal rank fusion (RRF, k = 60).
+passages are fused by weighted reciprocal rank fusion (1-based ranks):
+
+    score = 0.6/(60 + rank_semantic) + 0.4/(60 + rank_keyword)
 
 1. **Semantic rank** — every extraction row is embedded once with
    [`google/embeddinggemma-2`](https://huggingface.co/google/embeddinggemma-2)
    (740M params, 768-d vectors, Apache-2.0) via `sentence-transformers`,
    using the model's own task-steered prompts (`Document` for passages,
    `SearchQuery` for questions). Queries are embedded at dashboard runtime
-   and scored by cosine similarity against the stored matrix.
+   and scored by cosine similarity against the stored matrix. The embedded
+   text puts the highest-signal fields first (commitment type, numeric
+   target, English translation, then original text, then notes) and is
+   truncated at 2,500 characters (80 of 23,742 rows), so the tokenizer
+   never silently cuts the numeric target off.
 2. **Keyword rank** — a precomputed BM25 index (`data/bm25_index.pkl`,
    posting lists, no model involved) scores the passage text for the query's
-   exact terms.
+   content terms. Terms are lightly stemmed (dependency-free suffix
+   stripping) so "reforestation"/"reforested"/"reforest" match the same
+   rows, and terms present in more than 40% of the documents are dropped
+   from the query (no discriminative signal).
 
 **Why hybrid?** Dense single-vector search blends a multi-word query into
 one direction in vector space, so e.g. "flood control" was being satisfied
 by passages that merely mention "control" in unrelated contexts. The BM25
 channel gives credit only where the words actually appear, which fixes that
-class of problem without changing the model. A **strict mode** checkbox goes
-further: it embeds each keyword separately and combines the per-keyword
-cosines as a geometric mean, so *all* concepts must be present to rank high.
+class of problem without changing the model. A **strict mode** checkbox
+goes further: it embeds each keyword separately and combines the per-keyword
+cosines as a geometric mean, with rows missing any keyword hard-excluded
+(cosine below the 1st percentile of the positive cosines), so *all* concepts
+must be present to rank high.
+
+After fusion, three documented steps shape the result set:
+
+- **optional relevance-confidence bonus** — an opt-in checkbox (off by
+  default) multiplies the fused score by ×1.05 / ×1.00 / ×0.90 for rows the
+  extraction marked High / Medium / Low. On the eval set this lowered MRR
+  (0.52 → 0.49) — extraction confidence is a flag on the *extraction*, not a
+  verdict on the passage — so it is a documented prior the user can switch
+  on, not something applied silently;
+- **MMR re-rank** of the top 200 candidates (`0.7·relevance − 0.3·max
+  cosine to already-selected` — the vectors are unit-norm, so this is one
+  200×200 dot product);
+- **per-document cap** — at most 4 passages per source file in the returned
+  set, overflow backfilled from the next ranked candidate (relaxed only if
+  the cap would return fewer than top-k).
+
+The results table shows the **actual ordering score** ("match", the fused
+score rescaled to 0-1), the raw dense cosine ("semantic") and the number of
+query terms found in the passage ("kw hits").
+
+Both index files carry a **sha256 digest of the passage texts** (the npz
+also one of the row provenance), so the dashboard detects a content or row
+change even when the row count is unchanged, and says which part changed.
 
 The ~1.5 GB model downloads on the first session (cached afterwards, incl.
 on Streamlit Cloud); each search is one short model inference plus a
-few-millisecond matrix multiply and BM25 scan.
+few-millisecond matrix multiply and BM25 scan. Query embeddings are cached
+per (query, terms), so changing filters never re-embeds; the index matrices
+are loaded once per session (`st.cache_resource`, kept float16).
+
+**Evaluation** — `eval/queries.json` holds 40 labelled queries (expected
+source files, derived from verified full-text hits; categories: topic,
+multi-concept, numeric, non-English). `eval/run_eval.py` scores
+semantic / hybrid / hybrid+strict and prints precision@10, recall@25 and
+MRR overall, per category and per query; `--no-cap --no-mmr --confidence
+--w-dense 1 --w-lex 1` ablate the fusion options. Run it before and after
+any search change so the tuning is measurable instead of guesswork.
+
+Measured on this corpus (mean over the 40 queries, P10 / R25 / MRR):
+
+| config        | before       | after        | notes |
+|---------------|--------------|--------------|-------|
+| semantic      | .275 / .498 / .486 | .273 / .457 / .387 | dense-only reference (never shown to users) |
+| hybrid        | .355 / .480 / .555 | .330 / **.515** / .522 | recall @25 up; P10 trades a little for document diversity |
+| hybrid+strict | .330 / .486 / .527 | .277 / .484 / **.594** | multi-concept accuracy at the top is clearly better |
+
+The hybrid+strict P10 dip is the cost of the hard keyword exclusion (a
+paraphrased query loses passages whose exact words never appear); strict
+mode is off by default and exists for "all concepts must be present".
 
 **Why `sentence-transformers` and not llama.cpp?** The `gemma-embedding2`
 GGUF architecture (e.g. `unsloth/embeddinggemma-2-GGUF`, Q4_K_XL ≈ 167 MB)
@@ -142,12 +199,15 @@ embedding part dominates; BM25 takes seconds):
 ```bash
 python build_embeddings.py   # conda env below; writes data/embeddings.npz
                              # and data/bm25_index.pkl
+python build_embeddings.py --lex-only   # BM25 only (seconds, no model)
 ```
 
 The index row order is locked to `export_extractions.load_rows` (sorted
 document JSONs, passages in document order). If the embedding index doesn't
-match the row count, the page stops with rebuild instructions; a missing or
-out-of-sync BM25 index merely warns and falls back to pure semantic search.
+match the data (row count, *content* or *order* — checked via the digests),
+the page stops with rebuild instructions; a missing or out-of-sync BM25
+index merely warns and falls back to pure semantic search (the caption
+states which channels are active).
 
 ## Running locally
 
