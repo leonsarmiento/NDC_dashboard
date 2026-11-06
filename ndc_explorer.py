@@ -28,6 +28,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from land_condition_page import page_land_condition
 from export_extractions import (
     apply_filters,
     load_rows,
@@ -107,9 +108,15 @@ if "countries_sel" not in st.session_state:
 st.sidebar.image(str(APP_DIR / "logo_for_banner.png"), width=220)
 PAGE = st.sidebar.radio(
     "Page",
-    ["Extraction Explorer", "Pledge Summaries", "Ask the NDCs"],
+    ["Extraction Explorer", "Pledge Summaries", "Ask the NDCs",
+     "Land Condition (IIS)"],
     label_visibility="collapsed",
 )
+
+# --- page: land condition (IIS engine) -------------------------------------- #
+if PAGE == "Land Condition (IIS)":
+    page_land_condition()
+    st.stop()
 
 # --- page: pledge summaries ------------------------------------------------- #
 if PAGE == "Pledge Summaries":

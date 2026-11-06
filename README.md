@@ -16,6 +16,13 @@ Three pages (switchable in the sidebar):
   numerical targets, with a world map — **gray** = no summary, **green** =
   has one, **red** = currently shown; click a country to open it — and an
   Excel export of all summaries.
+- **Land Condition (IIS)** — the companion land-condition engine as a web
+  section: hectares of degraded land per factor (and weighted gap surface
+  per index) by lens bin, for any country selection, under any
+  primary/aggregation lens — with the "bin 0 (no lens data)" invariant
+  (degraded totals are identical with any lens, another lens, or no lens).
+  Runs fully from the precomputed bundle in
+  `data/iis_condition_bundle.tar.gz`; no rasters needed.
 - **Ask the NDCs** — hybrid natural-language search over all
   extraction passages: Google's **EmbeddingGemma 2** (semantic, running
   fully locally) fused with a BM25 keyword index via reciprocal rank
@@ -63,6 +70,7 @@ pipeline, the revision of the results, and the final conclusions.
 | ---- | -------- |
 | `data/extractions.tar.gz` | All extraction JSONs (one per NDC document, ~23.7k passages), bundled and compressed. Extracted to a temp folder on first page load. |
 | `data/embeddings.npz` | EmbeddingGemma-2 vectors for every extraction row (L2-normalised, float16, 768d) + provenance metadata. Built locally with `build_embeddings.py`, committed so the deployed dashboard can search. |
+| `data/iis_condition_bundle.tar.gz` | Precomputed IIS land-condition bundle (engine v2): per-country × per-lens histograms for 9 factors and 8 gap indexes × 271 countries (237 npz/json files, ~15 MB compressed). Queried by the **Land Condition (IIS)** page via `iis_condition.py`; the T7 Shield precompute dir is used directly when mounted (local dev). |
 | `data/bm25_index.pkl` | BM25 keyword index over the same passages (posting lists, ~12 MB), built by the same script for the hybrid search. |
 | `eval/queries.json` + `eval/run_eval.py` | 40 labelled queries (topic / multi-concept / numeric / non-English) and the evaluation harness (precision@10, recall@25, MRR) — run it before and after any search change. |
 | `pledge_summaries/` | One `*_pledge_summary.json` per country. |

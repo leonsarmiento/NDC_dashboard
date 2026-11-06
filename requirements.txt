@@ -1,6 +1,7 @@
 streamlit>=1.64   # dataframe row selection on the 'Ask the NDCs' results table
 plotly>=6.0
 pandas>=2.0
+numpy>=1.26
 openpyxl>=3.1
 sentence-transformers>=6.1
 transformers>=5.18   # embedding_gemma2 model support (5.17 and older do not know the arch)
