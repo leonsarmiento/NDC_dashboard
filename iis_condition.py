@@ -47,7 +47,7 @@ LENS_NAMES = {
     'lens_112': 'Subnational poverty, MPI 10 quantiles',
     'lens_12': 'Poverty, national MPI',
     'lens_13': 'Employment in Agriculture %',
-    'lens_14': 'Tenure insecurity',
+    'lens_14': 'Tenure insecurity - Prindex',
     'lens_15': 'Tenure security - communal lands',
     'lens_16': 'Tenure security - indigenous lands',
     'lens_17': 'Voice & accountability',
