@@ -28,6 +28,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from number_format import thousands
+
 from land_condition_page import page_land_condition
 from export_extractions import (
     apply_filters,
@@ -254,6 +256,7 @@ if PAGE == "Pledge Summaries":
                 tdf[col] = None
         tdf = tdf[["commitment_type", "metric", "value", "unit",
                    "timeframe", "context"]]
+        tdf["value"] = tdf["value"].map(thousands)
         st.dataframe(
             tdf, width="stretch", height=420,
             column_config={
@@ -539,6 +542,7 @@ if PAGE == "Ask the NDCs":
         res.insert(0, "kw hits", [int(h) for h in hits])
         res.insert(0, "semantic", [round(float(d), 3) for d in dense])
         res.insert(0, "match", [round(float(f), 3) for f in fused])
+        res["passage_target_value"] = res["passage_target_value"].map(thousands)
 
         c1, c2, c3 = st.columns(3)
         c1.metric("matches", len(res))
@@ -809,6 +813,8 @@ DISPLAY_COLS = [
 ]
 show = st.selectbox("Columns", ["default columns", "all columns"], index=0)
 view = out[DISPLAY_COLS if show == "default columns" else out.columns.tolist()]
+view = view.copy()
+view["passage_target_value"] = view["passage_target_value"].map(thousands)
 
 st.dataframe(
     view,

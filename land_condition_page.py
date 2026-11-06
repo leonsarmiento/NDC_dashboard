@@ -18,6 +18,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from number_format import thousands
+
 import iis_condition as ic
 from iis_condition import (COVER_LABELS, FACTOR_LABELS, INDEX_NAMES,
                            LENS_NAMES)
@@ -218,8 +220,10 @@ def page_land_condition():
 
     # ---- summary table ----------------------------------------------------
     st.markdown('#### Summary by lens bin')
+    df_view = df[[cols[1], cols[2], cols[3], ha_col, '% of cover']].copy()
+    df_view[ha_col] = df_view[ha_col].map(thousands)
     st.dataframe(
-        df[[cols[1], cols[2], cols[3], ha_col, '% of cover']],
+        df_view,
         width='stretch', hide_index=True,
     )
 
