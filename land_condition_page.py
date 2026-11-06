@@ -112,7 +112,37 @@ def page_land_condition():
         rows = list(range(len(b.country_ids)))
         clabels = [b.country_label(i) for i in rows]
         label_to_row = dict(zip(clabels, rows))
-        picked = st.multiselect('Countries (empty = all)', clabels, default=[])
+
+        # "Load ISO3 list…" (desktop parity): upload a .txt of ISO3 codes
+        # (one per line, # comments allowed) and preselect the matches.
+        iso2row = {}
+        for k, v in b.countries.items():
+            iso = (v.get('iso3') or '').upper()
+            if iso:
+                for i in rows:
+                    if str(b.country_ids[i]) == str(k):
+                        iso2row[iso] = i
+                        break
+        if 'iis_countries' not in st.session_state:
+            st.session_state['iis_countries'] = []
+        up = st.file_uploader('Load ISO3 list (.txt)', type=['txt'],
+                              key='iis_iso_upload')
+        if up is not None:
+            iso3 = []
+            for line in up.getvalue().decode('utf-8', 'replace').splitlines():
+                s = line.split('#')[0].strip().upper()
+                if len(s) == 3 and s.isalpha() and s not in iso3:
+                    iso3.append(s)
+            matched = [c for c in iso3 if c in iso2row]
+            st.session_state['iis_countries'] = [
+                clabels[iso2row[c]] for c in matched]
+            msg = f'{up.name}: {len(matched)}/{len(iso3)} codes matched'
+            missing = [c for c in iso3 if c not in matched]
+            if missing:
+                msg += ' | not found: ' + ', '.join(missing)
+            st.caption(msg)
+        picked = st.multiselect('Countries (empty = all)', clabels,
+                                key='iis_countries')
         country_idxs = ([label_to_row[l] for l in picked] if picked
                         else rows)
 
